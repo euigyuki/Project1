@@ -13,11 +13,11 @@ def generate_video_chunk(pipe, prompt, negative_prompt, num_frames, start_frame=
     output = pipe(
         prompt,
         negative_prompt=negative_prompt,
-        num_inference_steps=50,
+        num_inference_steps=100,
         num_frames=num_frames,
         height=384,
         width=384,
-        guidance_scale=7.5,
+        guidance_scale=9,
     )
     
     frames = process_frame(output.frames[0])
@@ -57,7 +57,7 @@ try:
         pipe.enable_attention_slicing()
 
     prompt = "a woman is drinking coffee in a cafe, high quality, detailed, cinematic lighting"
-    negative_prompt = "blurry, low quality, distorted, ugly, bad anatomy"
+    negative_prompt = "blurry, low quality, distorted, ugly, bad anatomy, bad hands, bad transitions"
 
     # Generate video in chunks
     chunk_size = 24  # 1 second chunks
