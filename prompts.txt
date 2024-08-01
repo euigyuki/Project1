@@ -1,0 +1,7 @@
+ prompt = "A woman sitting in a cafe, holding a single white coffee mug, about to take a sip. The cafe has warm lighting and wooden furniture. She has natural-looking hands."
+    negative_prompt = "blurry, low quality, distorted, ugly, bad anatomy, bad hands, extra fingers, missing fingers, extra limbs, missing limbs, extra arms, missing arms, extra legs, missing legs, mutated hands and fingers, extra hands, missing hands, double image, multiple cups, multiple coffees"
+for coffee2
+
+prompt = "A woman with long brown hair sitting in a cafe, holding a single white coffee mug with her right hand. She slowly raises the mug to take a sip. The cafe has warm lighting and wooden furniture. Focus on the natural movement of her right hand and arm."
+negative_prompt = "blurry, low quality, distorted, ugly, bad anatomy, bad hands, extra fingers, missing fingers, extra limbs, missing limbs, extra arms, missing arms, extra legs, missing legs, mutated hands and fingers, extra hands, missing hands, double image, multiple cups, multiple coffees, multiple women, multiple faces, deformed hands, long fingers, short fingers, weird hands, more than five fingers, fewer than five fingers, hand holding multiple objects"
+for coffee3

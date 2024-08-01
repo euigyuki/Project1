@@ -13,11 +13,11 @@ def generate_video_chunk(pipe, prompt, negative_prompt, num_frames, start_frame=
     output = pipe(
         prompt,
         negative_prompt=negative_prompt,
-        num_inference_steps=100,
+        num_inference_steps=150,
         num_frames=num_frames,
         height=384,
         width=384,
-        guidance_scale=9,
+        guidance_scale=12,
     )
     
     frames = process_frame(output.frames[0])
@@ -56,12 +56,12 @@ try:
         print(f"xformers not available, falling back to attention slicing. Error: {e}")
         pipe.enable_attention_slicing()
 
-    prompt = "a woman is drinking coffee in a cafe, high quality, detailed, cinematic lighting"
-    negative_prompt = "blurry, low quality, distorted, ugly, bad anatomy, bad hands, bad transitions"
-
+    prompt = "A woman with long brown hair sitting in a cafe, holding a single white coffee mug with her right hand. She slowly raises the mug to take a sip. The cafe has warm lighting and wooden furniture. Focus on the natural movement of her right hand and arm."
+    negative_prompt = "blurry, low quality, distorted, ugly, bad anatomy, bad hands, extra fingers, missing fingers, extra limbs, missing limbs, extra arms, missing arms, extra legs, missing legs, mutated hands and fingers, extra hands, missing hands, double image, multiple cups, multiple coffees, multiple women, multiple faces, deformed hands, long fingers, short fingers, weird hands, more than five fingers, fewer than five fingers, hand holding multiple objects"
+   
     # Generate video in chunks
-    chunk_size = 24  # 1 second chunks
-    total_frames = 120  # 5 seconds total
+    chunk_size = 16  # 1 second chunks
+    total_frames = 80  # 5 seconds total
     video_chunks = []
 
     for start_frame in range(0, total_frames, chunk_size):
