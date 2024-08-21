@@ -3,11 +3,12 @@
 /stable-diffusion-webui-forge
 /system
 /Text-To-Video_Finetuning
-/VGEN
+/VGen
 /webui
 /environment.bat
 /prompts.txt
 /run.bat
 /webui_forge_cu121_torch231.7z
 /webui.sh
-/winehq.key
+
+winehq.key
