@@ -1,0 +1,13 @@
+/model_scope_text_to_video
+/stable-diffusion-webui
+/stable-diffusion-webui-forge
+/system
+/Text-To-Video_Finetuning
+/VGEN
+/webui
+/environment.bat
+/prompts.txt
+/run.bat
+/webui_forge_cu121_torch231.7z
+/webui.sh
+/winehq.key
