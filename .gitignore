@@ -3,13 +3,14 @@
 /stable-diffusion-webui-forge
 /system
 /Text-To-Video-Finetuning
-/VGen
-/webui
-/environment.bat
-/prompts.txt
-/run.bat
-/webui_forge_cu121_torch231.7z
-/webui.sh
+VGen/
+webui/
 
 winehq.key
 webui.sh
+environment.bat
+webui_forge_cu121_torch231.7z
+run.bat
+
+
+/midjourney/.env
