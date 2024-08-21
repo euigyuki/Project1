@@ -2,7 +2,7 @@
 /stable-diffusion-webui
 /stable-diffusion-webui-forge
 /system
-/Text-To-Video_Finetuning
+/Text-To-Video-Finetuning
 /VGen
 /webui
 /environment.bat
@@ -12,3 +12,4 @@
 /webui.sh
 
 winehq.key
+webui.sh
