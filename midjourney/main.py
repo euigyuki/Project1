@@ -23,39 +23,29 @@ prompts = [
 intents = discord.Intents.default()
 intents.messages = True
 intents.guilds = True
+intents.message_content = True
 
 class MyClient(discord.Client):
     async def on_ready(self):
         print(f'Logged in as {self.user}')
-        for guild in self.guilds:
-            print(f"Checking guild: {guild.name} (ID: {guild.id})")
-            channel = guild.get_channel(CHANNEL_ID)
-            if channel:
-                print(f"Found channel: {channel.name} (ID: {channel.id}) in guild: {guild.name}")
-                for prompt in prompts:
-                    try:
-                        await channel.send(f'/imagine {prompt}')
-                        print(f'Sent prompt: {prompt} to channel: {channel.name} (ID: {channel.id})')
-                        await asyncio.sleep(1)
-                    except Exception as e:
-                        print(f'Error sending prompt: {prompt}. Error: {e}')
-            else:
-                print(f"Could not find the channel with ID: {CHANNEL_ID} in guild: {guild.name} (ID: {guild.id})")
+        # Sync the command tree to make sure commands are available
+        await self.tree.sync()
 
-    async def on_message(self, message):
-        # Log all incoming messages for debugging
-        print(f"Received message from {message.author}: {message.content}")
+    async def setup_hook(self):
+        # Initialize the command tree
+        self.tree = discord.app_commands.CommandTree(self)
+        # Add the command to the tree
+        self.tree.add_command(self.send_prompt)
 
-        if message.author == self.user:
-            return
-
-        if message.author.id == MIDJOURNEY_BOT_ID:
-            print(f"Message from Midjourney bot: {message.content}")
-            for attachment in message.attachments:
-                if attachment.url.lower().endswith(('png', 'jpg', 'jpeg', 'gif')):
-                    file_path = os.path.join('downloaded_images_for_midjourney', attachment.filename)
-                    await attachment.save(file_path)
-                    print(f'Saved image: {file_path}')
+    @discord.app_commands.command(name='send_prompt', description='Send a prompt to Midjourney')
+    async def send_prompt(self, interaction: discord.Interaction, prompt: str):
+        channel = self.get_channel(CHANNEL_ID)
+        if channel:
+            await channel.send(f'/imagine {prompt}')
+            await interaction.response.send_message(f'Sent prompt: {prompt} to Midjourney!', ephemeral=True)
+        else:
+            await interaction.response.send_message('Channel not found.', ephemeral=True)
 
 client = MyClient(intents=intents)
 client.run(DISCORD_BOT_TOKEN)
+
