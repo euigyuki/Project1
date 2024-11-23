@@ -3,34 +3,6 @@ from collections import defaultdict
 import csv
 
 
-# # Define the target words to count
-# target_words= [
-#     'man', 'woman', 'two', 'people', 'wearing', 'young', 'shirt', 'white', 'black', 'blue', 'girl', 'men', 'boy', 'red',
-#     'sitting', 'dog', 'standing', 'playing', 'group', 'street', 'walking', 'front', 'holding', 'three', 'water', 'women',
-#     'child', 'little', 'green', 'looking', 'large', 'outside', 'person', 'children', 'brown', 'yellow', 'small', 'hat',
-#     'ball', 'one', 'next', 'running', 'riding', 'building', 'dressed', 'jacket', 'around', 'another', 'orange', 'field',
-#     'beach', 'crowd', 'near', 'stands', 'girls', 'sidewalk', 'pink', 'jumping', 'hair', 'table', 'snow', 'grass', 'sits',
-#     'bike', 'asian', 'behind', 'dogs', 'city', 'air', 'four', 'top', 'older', 'looks', 'stand', 'player', 'camera', 'wall',
-#     'background', 'working', 'soccer', 'blond', 'lady', 'several', 'dress', 'park', 'gray', 'boys', 'something', 'walks',
-#     'talking', 'picture', 'plays', 'guitar', 'play', 'shorts', 'smiling', 'game', 'hand', 'together', 'along', 'car',
-#     'road', 'bench', 'holds', 'food', 'dark', 'baby', 'pants', 'jeans', 'walk', 'old', 'carrying', 'long', 'side', 'stage',
-#     'sit', 'face', 'bicycle', 'head', 'glasses', 'couple', 'pool', 'guy', 'rock', 'taking', 'tree', 'hands', 'male',
-#     'watching', 'back', 'baseball', 'dirt', 'area', 'construction', 'female', 'jumps', 'race', 'middle', 'ground',
-#     'performing', 'boat', 'day', 'suit', 'across', 'mouth', 'coat', 'room', 'football', 'kids', 'many', 'striped', 'runs',
-#     'band', 'look', 'purple', 'eating', 'haired', 'horse', 'workers', 'sign', 'sunglasses', 'sand', 'players', 'using',
-#     'tennis', 'store', 'microphone', 'toy', 'uniform', 'helmet', 'rides', 'elderly', 'wooden', 'reading', 'train',
-#     'basketball', 'mountain', 'floor', 'ocean', 'watch', 'work', 'busy', 'window', 'climbing', 'chair', 'watches', 'dancing',
-#     'getting', 'covered', 'restaurant', 'swimming', 'shirts', 'waiting', 'outdoor', 'clothing', 'past', 'colorful',
-#     'posing', 'team', 'five', 'cap', 'bag', 'making', 'skateboard', 'inside', 'market', 'trying', 'trees', 'ice', 'line',
-#     'fence', 'singing', 'high', 'brick', 'tan', 'someone', 'big', 'ride', 'light', 'cart', 'motorcycle', 'lake', 'jump',
-#     'truck', 'beside', 'hill', 'hats', 'sweater', 'laying', 'kitchen', 'colored', 'towards', 'bright', 'path', 'grassy',
-#     'track', 'outdoors', 'stick', 'cellphone', 'bus', 'river', 'body', 'clothes', 'swing', 'open', 'worker', 'piece',
-#     'book', 'night', 'arms', 'outfit', 'trick', 'guys', 'vest', 'tank', 'umbrella', 'enjoying', 'shopping', 'painting',
-#     'toddler', 'event', 'american', 'surrounded', 'snowy', 'african', 'stone', 'run', 'sleeping', 'like', 'hard', 'kid',
-#     'adults', 'hanging', 'gathered', 'others', 'music', 'ready', 'uniforms', 'metal', 'full', 'house', 'family', 'hockey',
-#     'takes', 'shop', 'wave', 'drinking', 'paper', 'onto', 'bridge', 'rocks', 'photo', 'crowded', 'smiles', 'going', 'subway',
-#     'set', 'steps', 'pole', 'phone'
-# ]
 file_path = "target_verbs.csv"
 data_verbs = pd.read_csv(file_path)
 print(data_verbs.head())
