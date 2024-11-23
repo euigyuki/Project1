@@ -1,35 +1,7 @@
 import pandas as pd
 from collections import defaultdict
 import csv
-
-
-file_path = "target_verbs.csv"
-data_verbs = pd.read_csv(file_path)
-print(data_verbs.head())
-target_words = data_verbs["Verb"].tolist()  # Replace 'Verb' with the actual column name
-print("length of word_list:", len(target_words))
-# target_words=["sitting","standing"]
-
-all_combinations = [
-    ("indoors", "man-made", "work_education"),
-    ("indoors", "man-made", "domestic"),
-    ("indoors", "man-made", "recreation"),
-    ("indoors", "man-made", "restaurant"),
-    ("indoors", "man-made", "transportation_urban"),
-    ("indoors", "man-made", "other_unclear"),
-    ("outdoors", "man-made", "work_education"),
-    ("outdoors", "man-made", "domestic"),
-    ("outdoors", "man-made", "recreation"),
-    ("outdoors", "man-made", "restaurant"),
-    ("outdoors", "man-made", "transportation_urban"),
-    ("outdoors", "man-made", "other_unclear"),
-    ("outdoors", "natural", "field_forest"),
-    ("outdoors", "natural", "body_of_water"),
-    ("outdoors", "natural", "mountain"),
-    ("outdoors", "natural", "other_unclear"),
-]
-
-print("length of all_combinations:", len(all_combinations))
+import yaml
 
 
 def print_counts(word_counts, category_counts):
@@ -48,7 +20,7 @@ def map_to_valid_combination(q1, q2, q3, q4):
         return (q1, q2, q3 if q3 != "nan" else "other_unclear")
 
 
-def export_to_csv(output_csv, word_counts, category_counts):
+def export_to_csv(output_csv, target_words, category_counts, all_combinations):
     csv_data = []
 
     # Prepare the header row
@@ -70,14 +42,14 @@ def export_to_csv(output_csv, word_counts, category_counts):
     print(f"Data has been exported to {output_csv}")
 
 
-def verify_counts(word_counts, category_counts):
+def verify_counts(word_counts, category_counts, target_words, all_combos):
     # Verification step
     for word in target_words:
         print(f"{word}: {word_counts[word]}")
         print(f"Number of categories: {len(category_counts[word])}")
         print("Categories:")
         total_count = 0
-        for combination in all_combinations:
+        for combination in all_combos:
             count = category_counts[word].get(combination, 0)
             total_count += count
             print(f"    {combination}: {count}")
@@ -85,18 +57,30 @@ def verify_counts(word_counts, category_counts):
         print(f"Word count: {word_counts[word]}")
         if total_count != word_counts[word]:
             print("Warning: Total category count doesn't match word count!")
-        print()
 
 
 def main():
-    print(len(all_combinations))
+    """input and output file paths"""
+    file_path = "target_verbs.csv"
+    all_combinations_path = "../data/helper/combinations.yaml"
+    senteces_path = "sentences.csv"
+    output_csv = "word_counts_and_combinations.csv"
+    """input and output file paths"""
+
+    with open(all_combinations_path, "r") as file:
+        all_combinations = yaml.safe_load(file)
+
+    data_verbs = pd.read_csv(file_path)
+    print(data_verbs.head())
+    # Replace 'Verb' with the actual column name
+    target_words = data_verbs["Verb"].tolist()
+
     # Initialize dictionaries to store counts
     word_counts = defaultdict(int)
     category_counts = defaultdict(lambda: defaultdict(int))
 
     # Load the data
-    data = pd.read_csv("sentences.csv")
-    output_csv = "word_counts_and_combinations.csv"
+    data = pd.read_csv(senteces_path)
 
     # Iterate through rows in the data
     for _, row in data.iterrows():
@@ -115,7 +99,7 @@ def main():
                 category_counts[word][valid_combination] += 1
 
     verify_counts(word_counts, category_counts)
-    export_to_csv(output_csv, word_counts, category_counts)
+    export_to_csv(output_csv, target_words, category_counts, all_combinations)
 
 
 if __name__ == "__main__":
