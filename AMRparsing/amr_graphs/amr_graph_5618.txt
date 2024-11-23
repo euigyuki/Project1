@@ -1,3 +1,0 @@
-(m0 / man
-    :ARG0-of (r0 / run-02
-                 :mod (b0 / barefoot)))

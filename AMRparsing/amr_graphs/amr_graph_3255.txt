@@ -1,3 +1,0 @@
-(g0 / guy
-    :ARG0-of (s0 / surf-01
-                 :ARG2 (o0 / ocean)))

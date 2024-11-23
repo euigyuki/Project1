@@ -1,9 +1,0 @@
-(h0 / have-03
-    :time (d0 / date-entity
-              :dayperiod (n0 / night))
-    :mod (t0 / together)
-    :ARG0 (g0 / group
-              :consist-of (p0 / person))
-    :ARG1 (a0 / and
-              :op2 (j0 / juice)
-              :op1 (c0 / coffee)))

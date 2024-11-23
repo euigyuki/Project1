@@ -1,5 +1,0 @@
-(f0 / family
-    :consist-of (p0 / person)
-    :time (b0 / before
-              :mod (r0 / right)
-              :op1 (c0 / crash-01)))

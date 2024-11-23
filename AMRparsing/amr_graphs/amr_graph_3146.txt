@@ -1,3 +1,0 @@
-(w0 / walk-01
-    :ARG0 (w1 / woman
-              :ARG1-of (d0 / dress-01)))

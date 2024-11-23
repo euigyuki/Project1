@@ -1,4 +1,0 @@
-(r0 / run-02
-    :ARG0 (r1 / retriever
-              :mod (g0 / golden)
-              :quant 2))

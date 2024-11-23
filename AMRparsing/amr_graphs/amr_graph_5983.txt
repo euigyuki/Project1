@@ -1,7 +1,0 @@
-(s0 / smile-01
-    :time (o0 / open-01
-              :ARG0 (m0 / man
-                        :quant 2)
-              :ARG1 (d0 / door
-                        :ARG1-of (t0 / type-03)))
-    :ARG0 m0)

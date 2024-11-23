@@ -1,4 +1,0 @@
-(h0 / hold-01
-    :time (w0 / watch-01)
-    :time (g0 / game)
-    :ARG1 (b0 / basketball))

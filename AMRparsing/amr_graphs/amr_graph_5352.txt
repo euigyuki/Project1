@@ -1,5 +1,0 @@
-(s0 / stand-01
-    :mod (t0 / together)
-    :ARG1 (m0 / man
-              :mod (y0 / young)
-              :quant 3))

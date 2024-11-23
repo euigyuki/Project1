@@ -1,5 +1,0 @@
-(a0 / and
-    :op2 (e0 / eat-01
-             :ARG0 (p0 / person))
-    :op1 (s0 / stand-01
-             :ARG1 p0))

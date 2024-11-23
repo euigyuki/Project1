@@ -1,3 +1,0 @@
-(e0 / enjoy-01
-    :ARG0 (g0 / girl)
-    :ARG1 (l0 / lake))

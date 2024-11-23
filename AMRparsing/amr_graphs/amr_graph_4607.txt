@@ -1,7 +1,0 @@
-(w0 / walk-01
-    :ARG0 (d0 / dog
-              :part (t0 / tongue
-                        :ARG1-of (s1 / stick-01))
-              :part s1
-              :mod (l0 / little)
-              :mod (b0 / brown)))

@@ -1,7 +1,0 @@
-(p0 / play-01
-    :ARG0 (a0 / and
-              :op3 (b1 / boy
-                       :quant 2)
-              :op2 (w0 / water)
-              :op1 (b0 / boy
-                       :quant 2)))

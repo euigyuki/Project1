@@ -1,7 +1,0 @@
-(a0 / and
-    :op2 (l0 / laugh-01
-             :ARG0 (g1 / guy
-                       :ARG0-of (s0 / shirt
-                                    :mod (o0 / orange))))
-    :op1 (g0 / guy
-             :quant 2))

@@ -1,7 +1,0 @@
-(b0 / bite-01
-    :time (l0 / lay-01
-              :ARG1 (d0 / dog)
-              :mod (t1 / together)
-              :ARG1 (t0 / they))
-    :ARG0 d0
-    :ARG1 (c0 / cat))

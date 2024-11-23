@@ -1,4 +1,0 @@
-(s0 / sell-01
-    :ARG2 (b0 / bucket)
-    :ARG1 (c0 / crab
-              :mod (b1 / blue)))

@@ -1,8 +1,0 @@
-# ::snt a house is being demolished .
-# ::tokens ["a", "house", "is", "being", "demolished", "."]
-# ::ner_tags ["O", "O", "O", "O", "O", "O"]
-# ::ner_iob ["O", "O", "O", "O", "O", "O"]
-# ::pos_tags ["DT", "NN", "VBZ", "VBG", "VBN", "."]
-# ::lemmas ["a", "house", "be", "be", "demolish", "."]
-(d0 / demolish-01
-      :ARG1 (h0 / house))

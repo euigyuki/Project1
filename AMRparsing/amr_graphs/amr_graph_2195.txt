@@ -1,4 +1,0 @@
-(p0 / play-01
-    :ARG0 (a0 / and
-              :op2 (a1 / adult)
-              :op1 (k0 / kid)))

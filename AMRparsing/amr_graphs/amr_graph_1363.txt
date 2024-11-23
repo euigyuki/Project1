@@ -1,7 +1,0 @@
-(w0 / wash-01
-    :ARG0 (m0 / man
-              :poss-of (d0 / driveway)
-              :poss-of b0
-              :ARG0-of (h0 / have-03
-                           :ARG1 (s0 / short-07)))
-    :ARG1 (b0 / boat))

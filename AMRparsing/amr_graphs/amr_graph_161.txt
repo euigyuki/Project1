@@ -1,4 +1,0 @@
-(s0 / stand-01
-    :accompanier (b1 / bike
-                     :poss (b0 / boy))
-    :ARG1 b0)

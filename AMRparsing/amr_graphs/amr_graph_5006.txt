@@ -1,6 +1,0 @@
-(r0 / run-02
-    :destination (w0 / wave
-                     :ARG1-of (w1 / white-03))
-    :ARG0 (d0 / dog
-              :ARG1-of (b0 / black-05)
-              :quant 2))

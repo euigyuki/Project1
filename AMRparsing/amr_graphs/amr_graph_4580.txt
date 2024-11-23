@@ -1,4 +1,0 @@
-(w0 / work-01
-    :ARG2 (s0 / shoot-01
-              :ARG2 (p0 / photograph-01))
-    :ARG0 (m0 / man))

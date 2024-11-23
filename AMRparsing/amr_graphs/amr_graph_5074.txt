@@ -1,3 +1,0 @@
-(w0 / walk-01
-    :ARG0 (k0 / kid
-              :quant 2))

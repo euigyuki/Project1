@@ -1,4 +1,0 @@
-(p0 / perform-01
-    :ARG0 (b0 / band
-              :consist-of (m0 / man
-                              :quant 3)))

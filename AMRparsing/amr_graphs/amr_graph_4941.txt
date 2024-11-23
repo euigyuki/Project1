@@ -1,8 +1,0 @@
-(a0 / and
-    :op2 (t0 / talk-01
-             :ARG1 (p1 / pop)
-             :ARG0 (p0 / person
-                       :ARG0-of (d0 / drink-01
-                                    :ARG1 (s1 / soda))))
-    :op1 (s0 / sit-01
-             :ARG1 p0))

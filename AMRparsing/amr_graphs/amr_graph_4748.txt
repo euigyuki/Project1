@@ -1,5 +1,0 @@
-(g0 / gather-03
-    :ARG0 (m0 / man
-              :ARG0-of (c0 / converse-01)
-              :quant 3)
-    :ARG1 c0)

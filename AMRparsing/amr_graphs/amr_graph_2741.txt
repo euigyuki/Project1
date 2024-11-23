@@ -1,7 +1,0 @@
-(b0 / be-located-at-91
-    :purpose (s0 / stop-01
-                 :ARG0 (p0 / person)
-                 :purpose (l0 / look-01
-                              :ARG0 (b1 / boy
-                                        :mod (y0 / young))))
-    :ARG2 (o0 / out))

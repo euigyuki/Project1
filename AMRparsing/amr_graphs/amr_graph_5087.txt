@@ -1,8 +1,0 @@
-(h0 / hold-01
-    :time (w1 / wait-01
-              :poss (w0 / woman
-                        :part (h1 / head)
-                        :ARG1-of (c0 / cross-02
-                                     :ARG1 (s0 / street)
-                                     :ARG2-of w1)))
-    :ARG1 h1)

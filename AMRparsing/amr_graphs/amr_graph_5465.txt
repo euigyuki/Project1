@@ -1,5 +1,0 @@
-(a0 / and
-    :op2 (p1 / person
-             :ARG0-of (e0 / eat-01))
-    :op1 (p0 / person
-             :ARG0-of (r0 / rescue-01)))

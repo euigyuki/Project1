@@ -1,9 +1,0 @@
-# ::snt a man is a kitchen cooking .
-# ::tokens ["a", "man", "is", "a", "kitchen", "cooking", "."]
-# ::ner_tags ["O", "O", "O", "O", "O", "O", "O"]
-# ::ner_iob ["O", "O", "O", "O", "O", "O", "O"]
-# ::pos_tags ["DT", "NN", "VBZ", "DT", "NN", "NN", "."]
-# ::lemmas ["a", "man", "be", "a", "kitchen", "cooking", "."]
-(c0 / cook-01
-      :ARG0 (m0 / man)
-      :manner (k0 / kitchen))

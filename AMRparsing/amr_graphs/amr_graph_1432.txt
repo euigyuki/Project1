@@ -1,7 +1,0 @@
-(s0 / sit-01
-    :ARG1 (g0 / group
-              :consist-of (w0 / woman
-                              :ARG0-of (l0 / look-02
-                                           :ARG1 (h0 / happy-01
-                                                     :ARG1 w0
-                                                     :polarity -)))))

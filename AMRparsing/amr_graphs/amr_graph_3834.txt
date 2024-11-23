@@ -1,9 +1,0 @@
-# ::snt a woman is playing racquetball .
-# ::tokens ["a", "woman", "is", "playing", "racquetball", "."]
-# ::ner_tags ["O", "O", "O", "O", "O", "O"]
-# ::ner_iob ["O", "O", "O", "O", "O", "O"]
-# ::pos_tags ["DT", "NN", "VBZ", "VBG", "NN", "."]
-# ::lemmas ["a", "woman", "be", "play", "racquetball", "."]
-(p0 / play-01
-      :ARG0 (w0 / woman)
-      :ARG1 (r0 / racquetball))

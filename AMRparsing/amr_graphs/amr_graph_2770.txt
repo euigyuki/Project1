@@ -1,9 +1,0 @@
-# ::snt woman posing with a painting .
-# ::tokens ["woman", "posing", "with", "a", "painting", "."]
-# ::ner_tags ["O", "O", "O", "O", "O", "O"]
-# ::ner_iob ["O", "O", "O", "O", "O", "O"]
-# ::pos_tags ["NN", "VBG", "IN", "DT", "NN", "."]
-# ::lemmas ["woman", "pose", "with", "a", "painting", "."]
-(p0 / pose-01
-      :accompanier (p1 / painting)
-      :ARG0 (w0 / woman))

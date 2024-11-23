@@ -1,4 +1,0 @@
-(e0 / event
-    :mod (c0 / cook-01
-             :ARG0 (k0 / kid
-                       :mod (y0 / young))))

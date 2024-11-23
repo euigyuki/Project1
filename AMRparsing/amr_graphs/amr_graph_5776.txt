@@ -1,9 +1,0 @@
-(g0 / girl
-    :ARG0-of (s0 / swim-01)
-    :mod (h0 / have-03
-             :ARG1 (a0 / and
-                       :op2 (g1 / goggle
-                                :ARG1-of (w0 / white-03)
-                                :mod (s1 / swim-01))
-                       :op1 (c0 / cap
-                                :ARG1-of (r0 / red-02)))))

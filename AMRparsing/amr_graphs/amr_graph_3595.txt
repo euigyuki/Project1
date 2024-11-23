@@ -1,5 +1,0 @@
-(h0 / hold-01
-    :ARG1 (b0 / balloon
-              :quant (b1 / bunch)
-              :ARG1-of (s0 / shape-01
-                           :ARG2 (h1 / heart))))

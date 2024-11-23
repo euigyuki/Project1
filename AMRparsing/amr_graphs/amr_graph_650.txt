@@ -1,4 +1,0 @@
-(w0 / wear-01
-    :ARG0 (g0 / girl
-              :mod (l0 / little))
-    :ARG1 (h0 / helmet))

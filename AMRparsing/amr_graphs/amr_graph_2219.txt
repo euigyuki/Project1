@@ -1,3 +1,0 @@
-(h0 / hold-01
-    :ARG1 (b0 / ball
-              :mod (b2 / blue)))

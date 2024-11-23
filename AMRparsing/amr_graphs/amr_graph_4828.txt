@@ -1,6 +1,0 @@
-(d0 / down
-    :domain (m0 / man
-                :poss-of (d1 / dog
-                             :ARG1-of (h0 / hold-01)
-                             :mod (l0 / large)
-                             :mod (b0 / brown))))

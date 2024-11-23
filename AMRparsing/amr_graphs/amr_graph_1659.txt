@@ -1,5 +1,0 @@
-(s0 / sit-01
-    :ARG1 (a0 / and
-              :op2 (d0 / dog)
-              :op1 (g0 / group
-                       :consist-of (p0 / person))))

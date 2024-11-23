@@ -1,4 +1,0 @@
-(w0 / walk-01
-    :path (t0 / through
-              :op1 (w1 / water))
-    :ARG0 (l0 / lady))

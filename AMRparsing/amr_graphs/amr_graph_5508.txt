@@ -1,5 +1,0 @@
-(h0 / hold-01
-    :ARG3 (u0 / up)
-    :ARG1 (t0 / thumb
-              :part-of (m0 / man
-                           :mod (e0 / elderly))))

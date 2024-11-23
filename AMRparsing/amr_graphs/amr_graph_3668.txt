@@ -1,4 +1,0 @@
-(r0 / run-02
-    :instrument (b1 / basketball)
-    :ARG0 (b0 / boy
-              :part (h0 / hand)))

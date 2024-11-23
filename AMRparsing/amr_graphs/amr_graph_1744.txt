@@ -1,6 +1,0 @@
-(h0 / hold-01
-    :ARG3 (h1 / have-03
-              :ARG1 (d0 / dress
-                        :mod (b0 / blue)))
-    :ARG4 (r0 / rock)
-    :ARG1 (t0 / toddler))

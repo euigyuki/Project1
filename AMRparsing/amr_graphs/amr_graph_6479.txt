@@ -1,4 +1,0 @@
-(c0 / clean-01
-    :ARG1 (l0 / lake)
-    :ARG0 (p0 / person
-              :ARG0-of (w0 / work-01)))

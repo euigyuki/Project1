@@ -1,6 +1,0 @@
-(s0 / stop-01
-    :purpose (r0 / read-01
-                 :ARG0 (a0 / and
-                           :op2 (c1 / companion)
-                           :op1 (c0 / cameraman)
-                           :ARG0-of s0)))

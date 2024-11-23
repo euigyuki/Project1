@@ -1,3 +1,0 @@
-(h0 / hold-01
-    :ARG3 (s0 / stick)
-    :ARG1 (h1 / hotdog))

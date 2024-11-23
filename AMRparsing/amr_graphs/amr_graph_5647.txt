@@ -1,5 +1,0 @@
-(s0 / stand-01
-    :ARG1 (w0 / woman
-              :ARG1-of (s1 / smile-01)
-              :ARG0-of (s2 / suit
-                           :ARG1-of (b0 / black-04))))

@@ -1,8 +1,0 @@
-(d0 / dig-01
-    :direction (d2 / direction
-                   :ARG1-of (s1 / same-01))
-    :ARG1 (m0 / man
-              :ARG0-of (w0 / wear-01
-                           :ARG1 (s2 / sunglass))
-              :mod (t0 / this)
-              :quant 3))

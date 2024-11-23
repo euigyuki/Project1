@@ -1,4 +1,0 @@
-(c0 / carry-01
-    :ARG0 (m0 / man
-              :part (s0 / shoulder))
-    :ARG1 (g0 / girl))

@@ -1,9 +1,0 @@
-# ::snt a man playing cricket
-# ::tokens ["a", "man", "playing", "cricket"]
-# ::ner_tags ["O", "O", "O", "O"]
-# ::ner_iob ["O", "O", "O", "O"]
-# ::pos_tags ["DT", "NN", "VBG", "NN"]
-# ::lemmas ["a", "man", "play", "cricket"]
-(m0 / man
-      :ARG0-of (p0 / play-01
-            :ARG1 (c0 / cricket)))

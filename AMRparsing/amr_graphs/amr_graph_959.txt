@@ -1,7 +1,0 @@
-(s0 / stand-01
-    :ARG1 (a0 / and
-              :op2 (p1 / person
-                       :ARG0-of (h0 / have-rel-role-91)
-                       :mod (f0 / female))
-              :op1 (p0 / person
-                       :ARG0-of (p2 / photograph-01))))

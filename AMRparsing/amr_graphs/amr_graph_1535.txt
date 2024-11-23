@@ -1,4 +1,0 @@
-(p0 / play-01
-    :ARG0 (d0 / dog
-              :ARG1-of (g0 / gray-02))
-    :ARG1 (o0 / ocean))

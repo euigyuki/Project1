@@ -1,7 +1,0 @@
-(p0 / prepare-02
-    :ARG2 (f0 / ferry-01
-              :ARG0 (d0 / dog)
-              :instrument (h0 / horn)
-              :ARG1 (s0 / sheep
-                        :quant 3))
-    :ARG0 d0)

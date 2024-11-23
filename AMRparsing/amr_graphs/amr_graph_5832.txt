@@ -1,5 +1,0 @@
-(s0 / sit-01
-    :ARG1 (b0 / boy
-              :poss-of (n0 / notebook)
-              :ARG0-of (w0 / write-01
-                           :ARG1 n0)))

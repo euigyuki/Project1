@@ -1,4 +1,0 @@
-(s0 / smile-01
-    :ARG0 (g0 / group
-              :consist-of (k0 / kid
-                              :mod (y0 / young))))

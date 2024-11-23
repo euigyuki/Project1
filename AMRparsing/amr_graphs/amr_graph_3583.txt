@@ -1,3 +1,0 @@
-(r0 / roast
-    :prep-on (h0 / hotdog
-                 :mod (l0 / large)))

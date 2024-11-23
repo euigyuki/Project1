@@ -1,5 +1,0 @@
-(a0 / and
-    :op2 (p0 / person
-             :ARG0-of (w0 / walk-01))
-    :op1 (c0 / child
-             :ARG0-of (c1 / cry-02)))

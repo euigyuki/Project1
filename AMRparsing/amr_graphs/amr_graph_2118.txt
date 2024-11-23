@@ -1,9 +1,0 @@
-(s0 / stand-01
-    :ARG1 (w0 / woman
-              :ARG0-of (w1 / wear-01
-                           :ARG1 (a1 / and
-                                     :op3 (s2 / skirt)
-                                     :op2 (j0 / jacket
-                                              :mod (j1 / jean))
-                                     :op1 (s1 / shirt
-                                              :mod (w3 / white-03))))))

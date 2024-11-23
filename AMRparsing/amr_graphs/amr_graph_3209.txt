@@ -1,3 +1,0 @@
-(m0 / man
-    :mod (d0 / dj
-             :mode expressive))

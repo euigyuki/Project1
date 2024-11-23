@@ -1,5 +1,0 @@
-(p0 / play-11
-    :ARG0 (m0 / male
-              :quant 2)
-    :ARG1 (i0 / instrument
-              :mod (m1 / music)))

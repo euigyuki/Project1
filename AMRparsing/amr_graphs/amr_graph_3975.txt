@@ -1,3 +1,0 @@
-(v0 / view-01
-    :mod (t0 / top)
-    :ARG1 (r0 / road))

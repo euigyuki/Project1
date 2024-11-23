@@ -1,5 +1,0 @@
-(w0 / wander-01
-    :direction (i0 / inside
-                   :op1 (c0 / cot
-                            :poss (b0 / baby)
-                            :poss (s0 / she))))

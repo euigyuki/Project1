@@ -1,3 +1,0 @@
-(l0 / look-01
-    :ARG0 (p1 / person)
-    :ARG1 (p0 / picture))

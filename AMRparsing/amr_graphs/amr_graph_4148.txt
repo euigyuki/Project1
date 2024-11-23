@@ -1,3 +1,0 @@
-(r0 / rollerblade
-    :domain (m0 / man)
-    :direction (d0 / down))

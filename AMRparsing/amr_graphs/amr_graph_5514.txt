@@ -1,5 +1,0 @@
-(s0 / swim-01
-    :ARG0 (d0 / dog
-              :ARG0-of (c0 / carry-01
-                           :ARG1 (s1 / stick))
-              :quant 2))

@@ -1,3 +1,0 @@
-(s0 / stand-01
-    :ARG1 (w0 / woman
-              :ARG0-of (s1 / smile-01)))

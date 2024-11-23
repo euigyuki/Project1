@@ -1,6 +1,0 @@
-(s0 / sit-01
-    :ARG1 (b0 / boy
-              :mod (o0 / old)
-              :mod (h0 / have-03
-                       :ARG1 (j0 / jacket
-                                 :mod (b1 / brown)))))

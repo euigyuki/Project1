@@ -1,8 +1,0 @@
-(p0 / play-01
-    :time (s0 / stand-01)
-    :ARG0 (w0 / woman
-              :ARG0-of (h0 / have-03
-                           :ARG1 (h1 / hair
-                                     :ARG1-of (d0 / dark-02)))
-              :quant 2)
-    :ARG1 (c0 / chess))

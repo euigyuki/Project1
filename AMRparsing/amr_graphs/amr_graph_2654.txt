@@ -1,5 +1,0 @@
-(l0 / look-01
-    :ARG0 (m0 / man)
-    :ARG1 (p0 / piece
-              :consist-of (m1 / machinery)
-              :mod (b0 / big)))

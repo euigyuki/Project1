@@ -1,7 +1,0 @@
-(s0 / sit-01
-    :ARG1 (b0 / boy
-              :ARG0-of (w0 / wear-01
-                           :ARG1 (v0 / vest
-                                     :mod (o0 / orange)
-                                     :mod (l0 / life)))
-              :mod (y0 / young)))

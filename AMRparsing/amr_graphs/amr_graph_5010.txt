@@ -1,4 +1,0 @@
-(r0 / run-02
-    :manner (a0 / around)
-    :ARG0 (d0 / dog
-              :quant 2))

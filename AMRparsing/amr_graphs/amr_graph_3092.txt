@@ -1,9 +1,0 @@
-(c0 / cabin
-    :ARG2-of (n0 / near-02
-                 :ARG1 (r0 / run-02
-                           :ARG1 c0
-                           :ARG0 (d0 / dog
-                                     :ARG1-of (w1 / white-03)
-                                     :ARG2-of n0)))
-    :mod (o0 / orange)
-    :mod (l0 / little))

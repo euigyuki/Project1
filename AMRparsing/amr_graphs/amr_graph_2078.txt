@@ -1,5 +1,0 @@
-(s0 / stand-01
-    :ARG1 (g0 / girl
-              :ARG0-of (h0 / have-03
-                           :ARG1 (t0 / top
-                                     :mod (b1 / bikini)))))

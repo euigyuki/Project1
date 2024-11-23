@@ -1,5 +1,0 @@
-(w0 / walk-01
-    :direction (u0 / up)
-    :source (s0 / shore
-                :part-of (b0 / beach))
-    :ARG0 (f0 / family))

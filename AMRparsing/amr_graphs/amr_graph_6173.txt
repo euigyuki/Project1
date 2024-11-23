@@ -1,2 +1,0 @@
-(p0 / pass-05
-    :ARG1 (b0 / baby))

@@ -1,3 +1,0 @@
-(d0 / drag-01
-    :ARG0 (d1 / dog)
-    :ARG1 (i0 / item))

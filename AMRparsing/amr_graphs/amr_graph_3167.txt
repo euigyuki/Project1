@@ -1,8 +1,0 @@
-(l0 / look-01
-    :ARG0 (w0 / woman
-              :quant (b0 / bike
-                         :mod (s0 / seater
-                                  :quant 2)
-                         :mod (r0 / red-02))
-              :quant 2)
-    :ARG1 (p0 / painting))

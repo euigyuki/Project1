@@ -1,7 +1,0 @@
-(o0 / organize-01
-    :ARG0 (m0 / man
-              :ARG0-of (h0 / have-03
-                           :ARG1 (h1 / hair
-                                     :ARG1-of (b0 / black-04)))
-              :mod (t0 / tan))
-    :ARG1 (o1 / object))

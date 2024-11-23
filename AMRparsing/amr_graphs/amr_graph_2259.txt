@@ -1,8 +1,0 @@
-(w0 / walk-01
-    :ARG0 (w1 / woman
-              :poss-of (d0 / dog
-                           :mod (s0 / small))
-              :ARG0-of (h0 / have-03
-                           :ARG1 (a0 / and
-                                     :op2 (f0 / flip-01)
-                                     :op1 (d1 / dress)))))

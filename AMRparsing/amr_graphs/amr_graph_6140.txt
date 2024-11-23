@@ -1,3 +1,0 @@
-(e0 / examine-01
-    :ARG0 (m0 / man
-              :ARG0-of (s0 / shirt)))

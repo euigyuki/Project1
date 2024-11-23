@@ -1,6 +1,0 @@
-(c0 / crawl-01
-    :accompanier (b0 / behind)
-    :ARG0 (s0 / sheep
-              :quant (w0 / walk-01
-                         :ARG0 (d0 / dog))
-              :quant 3))

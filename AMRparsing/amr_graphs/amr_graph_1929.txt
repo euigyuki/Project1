@@ -1,6 +1,0 @@
-(c0 / challenge-01
-    :manner (p1 / physical)
-    :ARG1 (p0 / person
-              :poss-of (w0 / wheelchair
-                           :ARG1-of (s0 / sit-01
-                                        :ARG1 p0))))

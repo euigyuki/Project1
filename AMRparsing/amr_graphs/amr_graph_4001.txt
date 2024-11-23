@@ -1,8 +1,0 @@
-(s0 / sit-01
-    :mod (a0 / around
-             :op1 (t0 / temporal-quantity
-                      :quant (y0 / year)
-                      :quant (c0 / college)
-                      :quant 1))
-    :ARG1 (g0 / group
-              :consist-of (k0 / kid)))

@@ -1,3 +1,0 @@
-(b0 / be-located-at-91
-    :ARG1 (m0 / man
-              :quant (s0 / several)))

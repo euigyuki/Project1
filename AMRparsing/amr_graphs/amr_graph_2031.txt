@@ -1,5 +1,0 @@
-(p0 / play-01
-    :ARG0 (w0 / woman
-              :ARG1-of (s0 / sit-01)
-              :quant 2)
-    :ARG1 (c0 / card))

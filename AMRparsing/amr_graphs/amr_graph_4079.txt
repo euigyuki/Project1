@@ -1,4 +1,0 @@
-(s0 / sit-01
-    :ARG1 (g0 / girl
-              :ARG0-of (c0 / clothe-01)
-              :quant 3))

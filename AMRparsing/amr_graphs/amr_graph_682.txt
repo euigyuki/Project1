@@ -1,3 +1,0 @@
-(i0 / interact-01
-    :ARG0 (c0 / couple
-              :mod (h0 / heavyset)))

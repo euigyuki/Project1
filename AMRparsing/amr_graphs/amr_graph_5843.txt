@@ -1,7 +1,0 @@
-(s0 / stand-01
-    :time (l0 / lap
-              :ARG0 (d0 / dog
-                        :part (f0 / foot
-                                  :op1-of (a0 / around))
-                        :part (b1 / brown)))
-    :ARG1 d0)

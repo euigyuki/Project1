@@ -1,4 +1,0 @@
-(w0 / walk-01
-    :path (s0 / street)
-    :ARG0 (g0 / group
-              :consist-of (p0 / person)))

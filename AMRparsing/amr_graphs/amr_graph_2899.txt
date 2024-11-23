@@ -1,6 +1,0 @@
-(w0 / walk-01
-    :ARG0 (g0 / girl
-              :ARG0-of (h0 / have-03
-                           :ARG1 (s0 / suit
-                                     :mod (b2 / bathe-01)
-                                     :mod (b1 / blue)))))

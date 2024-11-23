@@ -1,5 +1,0 @@
-(a0 / and
-    :op2 (l0 / lie-07)
-    :op1 (s0 / stand-01
-             :ARG1 (p0 / person
-                       :quant (n0 / number))))

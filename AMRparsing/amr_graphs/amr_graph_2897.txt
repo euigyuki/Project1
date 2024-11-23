@@ -1,8 +1,0 @@
-(a0 / and
-    :op2 (o0 / ocean)
-    :op1 (w0 / wear-01
-             :ARG0 (g0 / girl
-                       :op1-of (b0 / behind)
-                       :mod (y0 / young))
-             :ARG1 (s0 / suit
-                       :mod (b1 / bathe-01))))

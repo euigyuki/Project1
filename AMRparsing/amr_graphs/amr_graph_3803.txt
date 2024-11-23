@@ -1,4 +1,0 @@
-(r0 / reach-03
-    :ARG2 (t0 / type
-              :mod (i0 / item))
-    :ARG0 (m0 / man))

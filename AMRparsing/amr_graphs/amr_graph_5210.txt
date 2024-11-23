@@ -1,3 +1,0 @@
-(s0 / stop-01
-    :ARG0 (p0 / person
-              :ARG0-of (h0 / hunger-01)))

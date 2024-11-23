@@ -1,9 +1,0 @@
-# ::snt a woman is swinging on a rope .
-# ::tokens ["a", "woman", "is", "swinging", "on", "a", "rope", "."]
-# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O"]
-# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O"]
-# ::pos_tags ["DT", "NN", "VBZ", "VBG", "IN", "DT", "NN", "."]
-# ::lemmas ["a", "woman", "be", "swinge", "on", "a", "rope", "."]
-(s0 / swim-01
-      :ARG1 (r0 / rope)
-      :ARG0 (w0 / woman))

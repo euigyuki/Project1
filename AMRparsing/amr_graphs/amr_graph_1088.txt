@@ -1,3 +1,0 @@
-(h0 / hold-04
-    :ARG0 (p1 / person)
-    :ARG1 (p0 / presentation))

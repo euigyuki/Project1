@@ -1,7 +1,0 @@
-(s0 / sleep-01
-    :time (h0 / hold-01
-              :mod-of (b0 / boy
-                          :mod (y0 / young))
-              :ARG1 (a0 / animal
-                        :ARG1-of (s1 / stuff-01)
-                        :mod (b1 / brown))))

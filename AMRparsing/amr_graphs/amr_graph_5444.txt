@@ -1,3 +1,0 @@
-(s0 / smile-01
-    :ARG0 (b0 / boy
-              :mod (y0 / young)))

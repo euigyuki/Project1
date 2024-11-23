@@ -1,4 +1,0 @@
-(a0 / and
-    :op2 (l0 / leave-14)
-    :op1 (e0 / equipment
-             :mod (s0 / ski-01)))

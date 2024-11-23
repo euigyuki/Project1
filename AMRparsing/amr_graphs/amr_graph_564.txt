@@ -1,9 +1,0 @@
-(a0 / and
-    :op2 (l0 / look-01
-             :ARG0 (b0 / boy))
-    :op1 (m0 / man
-             :ARG0-of (h0 / have-03
-                          :ARG1 (r0 / robe))
-             :poss-of (p0 / pour-01
-                          :ARG3 (g0 / glass)
-                          :ARG1 (i0 / item))))

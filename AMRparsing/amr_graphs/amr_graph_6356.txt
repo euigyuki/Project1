@@ -1,3 +1,0 @@
-(h0 / hold-01
-    :ARG2 (w0 / woman)
-    :ARG1 (h1 / hand))

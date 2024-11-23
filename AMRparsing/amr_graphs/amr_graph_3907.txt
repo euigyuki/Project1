@@ -1,4 +1,0 @@
-(m0 / man
-    :part (h1 / have-03
-              :ARG1 (b2 / beard))
-    :mod (b0 / bald))

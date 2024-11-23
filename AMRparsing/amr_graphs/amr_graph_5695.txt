@@ -1,5 +1,0 @@
-(l0 / look-01
-    :path (t0 / through
-              :op1 (f0 / fence))
-    :ARG0 (m0 / man
-              :mod (y0 / young)))

@@ -1,7 +1,0 @@
-(a0 / applaud-01
-    :ARG0 (w0 / woman
-              :ARG0-of (l0 / look-01
-                           :path (t0 / through
-                                     :op1 (f0 / fence
-                                              :ARG1-of (l1 / link-01
-                                                           :mod (c0 / chain)))))))

@@ -1,8 +1,0 @@
-(a0 / and
-    :op2 (h0 / hand-01
-             :ARG0 (c0 / cashier
-                       :poss-of (b0 / bag))
-             :ARG1 b0)
-    :op1 (p0 / purchase-01
-             :ARG0 (m0 / man)
-             :ARG1 (s0 / something)))

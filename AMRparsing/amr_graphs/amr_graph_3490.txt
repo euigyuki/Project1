@@ -1,2 +1,0 @@
-(m0 / man
-    :ARG0-of (j0 / jump-03))

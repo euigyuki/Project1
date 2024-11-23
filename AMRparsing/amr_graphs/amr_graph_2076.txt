@@ -1,8 +1,0 @@
-(p0 / pose-01
-    :ARG0 (g0 / girl
-              :ARG0-of (h0 / have-03
-                           :ARG1 (a0 / and
-                                     :op2 (s0 / short-07)
-                                     :op1 (t0 / top
-                                              :mod (b0 / bikini)))))
-    :ARG1 (p1 / picture))

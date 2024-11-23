@@ -1,8 +1,0 @@
-(a0 / and
-    :op2 (t0 / talk-01
-             :ARG0 (a1 / and
-                       :op2 (g1 / guy)
-                       :op1 (g0 / girl
-                                :quant 3)))
-    :op1 (l0 / laugh-01
-             :ARG0 a1))

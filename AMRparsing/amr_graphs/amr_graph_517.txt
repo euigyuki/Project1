@@ -1,8 +1,0 @@
-(s0 / smile-01
-    :time (l0 / lean-01
-              :ARG1 (g0 / girl
-                        :ARG0-of (h0 / have-03
-                                     :ARG1 (g1 / glass)
-                                     :ARG1-of (s1 / shirt
-                                                  :mod (c0 / coral)))))
-    :ARG0 g0)

@@ -1,7 +1,0 @@
-(w0 / walk-01
-    :ARG0 (b0 / boy
-              :ARG0-of (w1 / wear-01
-                           :ARG1 (a0 / and
-                                     :op2 (j0 / jean)
-                                     :op1 (t0 / t-shirt)))
-              :mod (y0 / young)))

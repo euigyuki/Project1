@@ -1,6 +1,0 @@
-(a0 / and
-    :op2 (s0 / smile-01
-             :ARG0 (c0 / child
-                       :quant 5))
-    :op1 (l0 / laugh-01
-             :ARG0 c0))

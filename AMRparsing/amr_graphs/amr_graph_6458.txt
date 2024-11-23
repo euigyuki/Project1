@@ -1,4 +1,0 @@
-(h0 / hold-01
-    :ARG1 (p0 / pan
-              :ARG1-of (r0 / rise-01
-                           :ARG2 (f1 / flame))))

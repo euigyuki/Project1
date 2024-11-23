@@ -1,7 +1,0 @@
-(w0 / walk-01
-    :direction (d0 / down
-                   :op1 (s0 / street))
-    :ARG0 (w1 / woman
-              :ARG0-of (h0 / have-03
-                           :ARG1 (d1 / dress
-                                     :ARG1-of (r0 / red-02)))))

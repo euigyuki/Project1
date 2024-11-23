@@ -1,9 +1,0 @@
-# ::snt the dog is running after the bull .
-# ::tokens ["the", "dog", "is", "running", "after", "the", "bull", "."]
-# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O"]
-# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O"]
-# ::pos_tags ["DT", "NN", "VBZ", "VBG", "IN", "DT", "NN", "."]
-# ::lemmas ["the", "dog", "be", "run", "after", "the", "bull", "."]
-(r0 / run-02
-      :direction (b0 / bull)
-      :ARG0 (d0 / dog))

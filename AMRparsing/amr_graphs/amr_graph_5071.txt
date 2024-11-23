@@ -1,7 +1,0 @@
-(w0 / walk-01
-    :direction (a0 / away)
-    :direction (d0 / down
-                   :op1 (p0 / path
-                            :ARG1-of (s0 / surround-01)))
-    :ARG0 (c0 / child
-              :quant 2))

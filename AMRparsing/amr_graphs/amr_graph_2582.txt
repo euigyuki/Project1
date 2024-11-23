@@ -1,9 +1,0 @@
-(s0 / sit-01
-    :purpose (t1 / try-01
-                 :ARG1 (g0 / girl
-                           :ARG0-of (m0 / make-01
-                                        :ARG1 (h0 / house
-                                                  :mod (g1 / gingerbread)))
-                           :poss-of (t0 / table)
-                           :ARG1-of s0)
-                 :ARG1 m0))

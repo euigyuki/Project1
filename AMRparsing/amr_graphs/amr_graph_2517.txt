@@ -1,9 +1,0 @@
-(c0 / contrast-01
-    :ARG2 (s0 / spot-01
-              :ARG0 (p2 / person
-                        :mod (a0 / another)))
-    :ARG1 (p0 / perform-01
-              :ARG0 (m0 / man
-                        :mod (y0 / young))
-              :ARG1 (s1 / stunt
-                        :mod (b0 / bicycle))))

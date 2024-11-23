@@ -1,6 +1,0 @@
-(s0 / stand-01
-    :ARG1 (o0 / or
-              :op2 (p1 / person
-                       :ARG0-of (h0 / have-org-role-91
-                                    :ARG1 (p4 / police)))
-              :op1 (m0 / military)))

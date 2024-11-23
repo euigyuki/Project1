@@ -1,5 +1,0 @@
-(h0 / harvest-01
-    :ARG0 (p0 / person
-              :poss-of (t0 / tractor)
-              :poss-of (f0 / farm-01))
-    :ARG1 (c0 / crop))

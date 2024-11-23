@@ -1,5 +1,0 @@
-(p0 / play-01
-    :ARG0 (k0 / kid
-              :mod (l0 / little)
-              :quant 4)
-    :ARG1 (s0 / soccer))

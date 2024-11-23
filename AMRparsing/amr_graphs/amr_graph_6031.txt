@@ -1,9 +1,0 @@
-(r0 / run-01
-    :ARG0 (d0 / dog
-              :quant (s0 / several)
-              :ARG0-of (r1 / race-02)
-              :quant w0
-              :quant t0)
-    :time (w0 / wear-01)
-    :time (t0 / track
-              :mod (d1 / dirt)))

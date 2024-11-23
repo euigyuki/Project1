@@ -1,8 +1,0 @@
-(c0 / chase-01
-    :ARG0 (d1 / dog
-              :ARG1-of (b1 / black-04))
-    :ARG1 (o0 / over
-              :op1 (g0 / grass)
-              :op1 (h0 / have-degree-91
-                       :ARG3 (m0 / more)
-                       :ARG2 (s0 / small))))

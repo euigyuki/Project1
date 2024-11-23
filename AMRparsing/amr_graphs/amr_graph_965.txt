@@ -1,9 +1,0 @@
-# ::snt a person is rock climbing .
-# ::tokens ["a", "person", "is", "rock", "climbing", "."]
-# ::ner_tags ["O", "O", "O", "O", "O", "O"]
-# ::ner_iob ["O", "O", "O", "O", "O", "O"]
-# ::pos_tags ["DT", "NN", "VBZ", "NN", "NN", "."]
-# ::lemmas ["a", "person", "be", "rock", "climbing", "."]
-(c0 / climb-01
-      :ARG0 (p0 / person)
-      :ARG1 (r0 / rock))

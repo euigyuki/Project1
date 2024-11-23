@@ -1,4 +1,0 @@
-(c0 / catch-01
-    :ARG1 (t0 / thing
-              :ARG1-of (m0 / mix-01
-                           :ARG1 (t1 / terri))))

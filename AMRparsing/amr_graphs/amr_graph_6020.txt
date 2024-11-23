@@ -1,6 +1,0 @@
-(l0 / light-04
-    :time (l2 / look-01
-              :ARG0 (a0 / another))
-    :ARG0 (m0 / man
-              :mod (y0 / young))
-    :ARG1 (l1 / light))

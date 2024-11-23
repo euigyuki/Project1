@@ -1,4 +1,0 @@
-(c0 / climb-01
-    :ARG0 (g0 / girl)
-    :ARG1 (n0 / net
-              :mod (v0 / volleyball)))

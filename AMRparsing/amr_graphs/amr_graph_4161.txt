@@ -1,5 +1,0 @@
-(d0 / dance-01
-    :ARG0 (w0 / woman
-              :ARG0-of (h0 / have-03
-                           :ARG0 (t0 / tuxedo
-                                     :mod (b0 / blue)))))

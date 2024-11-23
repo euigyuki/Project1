@@ -1,7 +1,0 @@
-(e0 / excite-01
-    :ARG0 (r0 / ride-01
-              :ARG0 (b0 / boy
-                        :mod (s0 / small))
-              :ARG1 (c0 / cart
-                        :ARG1-of (g0 / go-01)))
-    :ARG1 b0)

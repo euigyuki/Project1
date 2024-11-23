@@ -1,6 +1,0 @@
-(e0 / examine-01
-    :ARG0 (a0 / and
-              :op2 (w1 / woman
-                       :mod (s1 / shirt))
-              :op1 (w0 / woman
-                       :ARG0-of (w2 / wear-01))))

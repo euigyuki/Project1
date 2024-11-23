@@ -1,8 +1,0 @@
-(a0 / attend-01
-    :ARG0 (g0 / group
-              :poss-of (a1 / art
-                           :ARG1-of (p1 / practice-01
-                                        :ARG0 (i0 / individual
-                                                  :consist g0))
-                           :mod (m0 / martial)))
-    :ARG1 (p0 / park))

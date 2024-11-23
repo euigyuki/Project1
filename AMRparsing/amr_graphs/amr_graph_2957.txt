@@ -1,6 +1,0 @@
-(p0 / play-01
-    :ARG0 (b0 / boy
-              :ARG0-of (s0 / shirt
-                           :ARG1-of (w0 / white-03)
-                           :mod (d0 / dress-01))
-              :mod (y0 / young)))

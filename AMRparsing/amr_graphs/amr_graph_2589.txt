@@ -1,4 +1,0 @@
-(c0 / cross-02
-    :ARG0 (p0 / person
-              :quant 2)
-    :ARG1 (s0 / street))

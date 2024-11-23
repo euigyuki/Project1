@@ -1,8 +1,0 @@
-(d0 / do-02
-    :ARG0 (p0 / person
-              :ARG0-of (d1 / demonstrate-01)
-              :ARG0-of (w0 / wear-01
-                           :ARG1 (g0 / garb
-                                     :poss (c0 / chef)))
-              :quant 2)
-    :ARG1 d1)

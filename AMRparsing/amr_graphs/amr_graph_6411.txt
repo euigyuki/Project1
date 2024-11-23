@@ -1,9 +1,0 @@
-(s0 / shake-01
-    :ARG0-of (c0 / cause-01
-                 :ARG1 (s1 / spray-01
-                           :ARG1 (w1 / water)
-                           :ARG2 (e0 / everywhere)))
-    :ARG0 (w0 / woman
-              :part (h0 / hair)
-              :part s1)
-    :ARG1 h0)

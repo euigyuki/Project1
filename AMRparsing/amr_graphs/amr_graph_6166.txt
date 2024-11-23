@@ -1,9 +1,0 @@
-(w0 / watch-01
-    :time (s0 / season
-              :mod (r0 / remain-01
-                       :ARG1 (a1 / animal))
-              :mod (m1 / man
-                       :mod (a0 / another))
-              :mod (b0 / barbecue))
-    :ARG1 (g0 / group
-              :consist-of (m0 / man)))

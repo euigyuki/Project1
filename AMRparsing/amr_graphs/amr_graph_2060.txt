@@ -1,9 +1,0 @@
-# ::snt a child buried in the sand .
-# ::tokens ["a", "child", "buried", "in", "the", "sand", "."]
-# ::ner_tags ["O", "O", "O", "O", "O", "O", "O"]
-# ::ner_iob ["O", "O", "O", "O", "O", "O", "O"]
-# ::pos_tags ["DT", "NN", "VBN", "IN", "DT", "NN", "."]
-# ::lemmas ["a", "child", "bury", "in", "the", "sand", "."]
-(c0 / child
-      :ARG1-of (b0 / bury-01
-            :ARG2 (s0 / sand)))

@@ -1,8 +1,0 @@
-(s0 / smile-01
-    :time (b0 / be-located-at-91
-              :ARG2 (s2 / slope
-                        :mod (s3 / snowy)))
-    :time (c0 / camera)
-    :ARG0 (p0 / person
-              :ARG0-of (s1 / ski-01)
-              :mod (w0 / woman)))

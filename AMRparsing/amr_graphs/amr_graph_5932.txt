@@ -1,7 +1,0 @@
-(r0 / run-02
-    :ARG0 (w0 / woman
-              :mod (n0 / normal-02
-                       :ARG2 (n1 / number)))
-    :ARG1 (p0 / past
-              :op1 (b0 / building
-                       :mod (b1 / blue))))

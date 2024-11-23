@@ -1,4 +1,0 @@
-(m0 / move-01
-    :time (d1 / day)
-    :ARG2 (d0 / down
-              :op1 (h0 / hill)))

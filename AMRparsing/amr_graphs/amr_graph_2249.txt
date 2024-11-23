@@ -1,5 +1,0 @@
-(h0 / have-03
-    :ARG0 (g0 / group
-              :consist-of (p0 / person
-                              :quant 5))
-    :ARG1 (l0 / lunch))

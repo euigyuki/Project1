@@ -1,2 +1,0 @@
-(s0 / smile-01
-    :ARG0 (w0 / woman))

@@ -1,6 +1,0 @@
-(s0 / sit-01
-    :ARG1 (p0 / person
-              :ARG0-of (a0 / attend-01
-                           :ARG1 (o0 / or
-                                     :op2 (l0 / lecture-01)
-                                     :op1 (p1 / presentation)))))

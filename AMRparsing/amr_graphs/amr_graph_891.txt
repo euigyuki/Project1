@@ -1,4 +1,0 @@
-(s0 / sit-01
-    :manner (h0 / hand
-                :part-of (p0 / person))
-    :ARG1 p0)

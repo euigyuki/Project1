@@ -1,5 +1,0 @@
-(b0 / be-located-at-91
-    :ARG2 (s0 / scene)
-    :ARG1 (t0 / truck
-              :ARG1-of (r0 / red-02)
-              :mod (d0 / dump)))

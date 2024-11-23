@@ -1,3 +1,0 @@
-(c0 / crawl-01
-    :destination (f0 / floor)
-    :ARG0 (c1 / child))

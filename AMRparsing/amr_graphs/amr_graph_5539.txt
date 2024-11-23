@@ -1,3 +1,0 @@
-(s0 / sell-01
-    :ARG0 (v0 / vendor)
-    :ARG1 (p0 / product))

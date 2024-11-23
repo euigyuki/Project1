@@ -1,9 +1,0 @@
-(w0 / walk-01
-    :instrument (a0 / and
-                    :op2 (b2 / bat)
-                    :op1 (b1 / ball))
-    :ARG0 (b0 / boy
-              :mod (c0 / country
-                       :name (n0 / name
-                                 :op1 "America"))
-              :quant 2))

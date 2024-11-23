@@ -1,3 +1,0 @@
-(r0 / rollerskate
-    :domain (m0 / man
-                :quant 2))

@@ -1,7 +1,0 @@
-(c0 / contrast-01
-    :ARG1 (t0 / talk-01
-              :ARG0 (w0 / woman
-                        :quant 2
-                        :poss-of (l0 / lap)
-                        :poss-of (c1 / child
-                                     :ARG1-of (s0 / sit-01)))))

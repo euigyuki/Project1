@@ -1,4 +1,0 @@
-(b0 / balance-01
-    :ARG1 (t0 / tank
-              :ARG1-of (f0 / fill-01
-                           :ARG2 (w0 / water))))

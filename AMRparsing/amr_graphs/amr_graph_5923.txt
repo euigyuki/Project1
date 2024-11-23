@@ -1,7 +1,0 @@
-(a0 / and
-    :op2 (l0 / leave-13
-             :ARG1 (f0 / footprint
-                       :quant (s0 / some))
-             :ARG0 (m0 / man))
-    :op1 (w0 / walk-01
-             :ARG0 m0))

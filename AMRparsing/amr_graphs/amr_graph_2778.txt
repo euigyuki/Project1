@@ -1,8 +1,0 @@
-(b0 / be-located-at-91
-    :ARG2 (s0 / stage)
-    :ARG1 (g0 / girl
-              :part (a0 / arm
-                        :ARG1-of (h0 / hold-01
-                                     :ARG2 (h1 / head
-                                               :op1-of (a1 / above)
-                                               :part-of g0)))))

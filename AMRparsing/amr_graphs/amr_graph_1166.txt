@@ -1,6 +1,0 @@
-(c0 / contrast-01
-    :ARG1 (s0 / sit-01
-              :ARG1 (k0 / kid
-                        :ARG0-of (h0 / have-03
-                                     :ARG1 (h1 / helmet))
-                        :quant 2)))

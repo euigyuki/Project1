@@ -1,6 +1,0 @@
-(f0 / fish-01
-    :ARG0 (a0 / and
-              :op2 (a1 / adult)
-              :op1 (c0 / child
-                       :mod (y0 / young)
-                       :quant 2)))

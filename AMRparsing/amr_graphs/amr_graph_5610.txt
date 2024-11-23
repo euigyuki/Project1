@@ -1,9 +1,0 @@
-# ::snt a child at breakfast is crying .
-# ::tokens ["a", "child", "at", "breakfast", "is", "crying", "."]
-# ::ner_tags ["O", "O", "O", "O", "O", "O", "O"]
-# ::ner_iob ["O", "O", "O", "O", "O", "O", "O"]
-# ::pos_tags ["DT", "NN", "IN", "NN", "VBZ", "VBG", "."]
-# ::lemmas ["a", "child", "at", "breakfast", "be", "cry", "."]
-(c0 / cry-02
-      :ARG0 (c1 / child
-            :ARG1-of (b0 / breakfast-01)))

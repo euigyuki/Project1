@@ -1,5 +1,0 @@
-(p0 / pose-01
-    :time (d0 / day
-              :mod (c1 / cloudy))
-    :ARG1 (c0 / couple
-              :ARG1-of (m0 / marry-01)))

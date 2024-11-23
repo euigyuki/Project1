@@ -1,4 +1,0 @@
-(e0 / enjoy-01
-    :ARG0 (p0 / person
-              :quant 2)
-    :ARG1 (t0 / tranquility))

@@ -1,5 +1,0 @@
-(p0 / pose-01
-    :ARG0 (f0 / family
-              :ARG1-of (d0 / dress-01
-                           :ARG2 (f1 / formal))
-              :mod (l0 / large)))

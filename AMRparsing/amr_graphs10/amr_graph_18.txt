@@ -1,9 +1,0 @@
-# ::snt a small boy putting something in his mouth with both hands .
-(z1 / put-01
-      :ARG0 (z2 / boy
-            :mod (z3 / small))
-      :ARG1 (z4 / something)
-      :ARG2 (z5 / mouth
-            :part-of z2)
-      :instrument (z6 / hand
-            :mod (z7 / both)))

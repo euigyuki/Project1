@@ -1,5 +1,0 @@
-(p0 / paint-03
-    :ARG0 (m0 / man)
-    :ARG1 (s0 / side
-              :part-of (b1 / building)
-              :mod (b0 / blue)))

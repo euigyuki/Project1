@@ -1,5 +1,0 @@
-(p0 / play-01
-    :accompanier (t0 / toy
-                     :mod (b2 / blue))
-    :ARG0 (b0 / boy
-              :mod (b1 / baby)))

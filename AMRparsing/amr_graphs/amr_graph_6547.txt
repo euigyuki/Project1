@@ -1,6 +1,0 @@
-(s0 / sit-01
-    :ARG1 (g0 / group
-              :consist-of (c0 / child
-                              :quant 5)
-              :consist-of (s2 / surround-01
-                              :ARG1 (f0 / foliage))))

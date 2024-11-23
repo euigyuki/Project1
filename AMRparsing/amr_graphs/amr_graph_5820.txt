@@ -1,6 +1,0 @@
-(h0 / hold-01
-    :ARG3 (o0 / out-06
-              :ARG2 (w0 / window
-                        :part-of (c0 / car)))
-    :ARG1 (f0 / flag
-              :mod (t0 / turkish)))

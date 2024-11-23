@@ -1,2 +1,0 @@
-(w0 / wobble-01
-    :ARG0 (t0 / traffic))

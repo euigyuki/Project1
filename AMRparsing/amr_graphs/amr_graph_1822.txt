@@ -1,4 +1,0 @@
-(r0 / run-02
-    :ARG1 (w0 / water)
-    :ARG0 (d0 / dog
-              :quant 2))

@@ -1,5 +1,0 @@
-(p0 / play-11
-    :ARG0 (b0 / band
-              :ARG1-of (s1 / surround-01
-                           :ARG2 (e0 / equipment
-                                     :mod (a0 / audio)))))

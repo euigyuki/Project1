@@ -1,3 +1,0 @@
-(t0 / talk-01
-    :ARG0 (g0 / guy
-              :quant 2))

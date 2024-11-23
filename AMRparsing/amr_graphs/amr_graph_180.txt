@@ -1,6 +1,0 @@
-(g0 / gather-03
-    :ARG0 (p0 / person)
-    :ARG1 (a0 / around
-              :op1 (t1 / table)
-              :op1 (t0 / tent
-                       :mod (s0 / spacious))))

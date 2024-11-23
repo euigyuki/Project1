@@ -1,8 +1,0 @@
-# ::snt large brown dog running away from the sprinkler in the grass .
-(z1 / run-02
-      :ARG0 (z2 / dog
-            :mod (z3 / large)
-            :mod (z4 / brown))
-      :direction (z5 / away
-            :op1 (z6 / sprinkle-01
-                  :ARG2 (z7 / grass))))

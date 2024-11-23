@@ -1,8 +1,0 @@
-(r0 / ride-01
-    :time (j0 / jog
-              :ARG1-of (n0 / near-02
-                           :ARG2 (b1 / beside
-                                     :op1 (w0 / woman))
-                           :ARG2 (s0 / shore)))
-    :ARG0 w0
-    :ARG1 (b0 / bike))

@@ -1,5 +1,0 @@
-(g0 / gallop
-    :domain (a1 / and
-                :op2 (p0 / person
-                         :ARG0-of (r0 / ride-01))
-                :op1 (h0 / horse)))

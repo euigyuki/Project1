@@ -1,8 +1,0 @@
-# ::snt a man kneels on the ground doing some sort of project on his own .
-(z1 / kneel-01
-      :ARG0 (z2 / man
-            :ARG0-of (z3 / do-02
-                  :ARG1 (z4 / project
-                        :mod (z5 / sort
-                              :mod (z6 / some)))
-                  :mod (z7 / by-oneself))))

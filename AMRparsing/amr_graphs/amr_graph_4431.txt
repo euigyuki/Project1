@@ -1,8 +1,0 @@
-(a0 / and
-    :op2 (u0 / use-01
-             :ARG2 (a1 / assist-01)
-             :ARG0 (p3 / person
-                       :quant (s1 / some)))
-    :op1 (p0 / practice-01
-             :ARG0 (p2 / person
-                       :ARG0-of (t0 / teach-01))))

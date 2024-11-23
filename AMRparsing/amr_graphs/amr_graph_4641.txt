@@ -1,6 +1,0 @@
-(d0 / dig-01
-    :ARG0 (d1 / dog
-              :ARG1-of (w1 / white-03)
-              :ARG0-of (b0 / black-04)
-              :mod (w0 / wear-01
-                       :ARG1 (b1 / blue-collar))))

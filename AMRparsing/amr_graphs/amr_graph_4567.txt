@@ -1,4 +1,0 @@
-(p0 / pedestrian
-    :ARG0-of (w0 / walk-01)
-    :mod (c0 / cross-02
-             :ARG1 (s0 / street)))

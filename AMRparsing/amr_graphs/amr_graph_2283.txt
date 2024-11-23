@@ -1,4 +1,0 @@
-(e0 / examine-01
-    :ARG0 (w0 / woman
-              :part (f0 / foot)
-              :mod (a0 / another)))

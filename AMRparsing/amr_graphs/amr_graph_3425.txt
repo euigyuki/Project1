@@ -1,5 +1,0 @@
-(r0 / read-01
-    :ARG0 (g0 / girl
-              :mod (y0 / young)
-              :quant 2)
-    :ARG1 (s0 / speak-01))

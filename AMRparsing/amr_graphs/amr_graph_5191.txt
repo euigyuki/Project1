@@ -1,8 +1,0 @@
-(a0 / and
-    :op2 (s1 / smile-01
-             :ARG0 (m0 / man
-                       :ARG0-of (b1 / background))
-             :ARG1 (b0 / bathtub
-                       :mod (t0 / tiny)))
-    :op1 (s0 / sit-01
-             :ARG1 m0))

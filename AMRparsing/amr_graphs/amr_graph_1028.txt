@@ -1,8 +1,0 @@
-(s0 / stand-01
-    :accompanier (c0 / can
-                     :mod (p0 / paint
-                              :mod (s1 / spray-01)))
-    :ARG1 (a0 / and
-              :op2 (w0 / woman)
-              :op1 (g0 / group
-                       :consist-of (m0 / man))))

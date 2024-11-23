@@ -1,9 +1,0 @@
-# ::snt sportscaster jim rome looking dapper .
-# ::tokens ["sportscaster", "jim", "rome", "looking", "dapper", "."]
-# ::ner_tags ["PERSON", "PERSON", "PERSON", "O", "O", "O"]
-# ::ner_iob ["B", "I", "I", "O", "O", "O"]
-# ::pos_tags ["NNP", "NNP", "NNP", "VBG", "NN", "."]
-# ::lemmas ["sportscaster", "jim", "rome", "look", "dapper", "."]
-(l0 / look-02
-      :ARG0 (s0 / sportscaster)
-      :ARG1 (d0 / dapper))

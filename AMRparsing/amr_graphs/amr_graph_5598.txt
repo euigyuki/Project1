@@ -1,8 +1,0 @@
-(a0 / and
-    :op2 (b0 / bark-01
-             :ARG2 (o0 / other
-                       :mod (e0 / each))
-             :ARG0 (d0 / dog
-                       :quant 2))
-    :op1 (r0 / run-01
-             :ARG0 d0))

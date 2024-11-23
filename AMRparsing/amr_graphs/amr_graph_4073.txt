@@ -1,6 +1,0 @@
-(b0 / be-located-at-91
-    :ARG2 (a0 / area
-              :ARG1-of (c1 / cover-02
-                           :ARG2 (s0 / snow)))
-    :ARG1 (c0 / child
-              :quant 4))

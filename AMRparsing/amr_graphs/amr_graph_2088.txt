@@ -1,8 +1,0 @@
-(w0 / walk-01
-    :time (s0 / slide-01
-              :ARG1 (w2 / water))
-    :ARG0 (b0 / boy
-              :ARG0-of (w1 / wear-01
-                           :ARG1 (s2 / suit
-                                     :mod (b1 / bathe-01)))
-              :mod (s1 / small)))

@@ -1,9 +1,0 @@
-# ::snt a lady in a kimono laughing .
-# ::tokens ["a", "lady", "in", "a", "kimono", "laughing", "."]
-# ::ner_tags ["O", "O", "O", "O", "O", "O", "O"]
-# ::ner_iob ["O", "O", "O", "O", "O", "O", "O"]
-# ::pos_tags ["DT", "NN", "IN", "DT", "NNP", "VBG", "."]
-# ::lemmas ["a", "lady", "in", "a", "kimono", "laugh", "."]
-(l0 / laugh-01
-      :ARG0 (l1 / lady
-            :ARG0-of (k0 / kimono)))

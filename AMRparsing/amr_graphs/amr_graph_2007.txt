@@ -1,8 +1,0 @@
-(s0 / swing-02
-    :ARG1 (g0 / girl
-              :ARG0-of (h0 / have-03
-                           :ARG1 (d0 / dress
-                                     :ARG0-of (h1 / have-03
-                                                  :ARG1 (f0 / flower
-                                                            :ARG1-of (p0 / pink-04)))))
-              :mod (l0 / little)))

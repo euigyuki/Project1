@@ -1,4 +1,0 @@
-(j0 / jump-03
-    :ARG0 (g0 / girl
-              :poss-of (h0 / house
-                           :op1-of (o0 / outside))))

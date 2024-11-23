@@ -1,4 +1,0 @@
-(c0 / climb-01
-    :ARG0 (m0 / man
-              :ARG1-of (s0 / surround-01
-                           :ARG2 (l0 / light))))

@@ -1,5 +1,0 @@
-(a0 / and
-    :op2 (r0 / read-01
-             :ARG0 (c0 / child))
-    :op1 (s0 / study-01
-             :ARG0 c0))

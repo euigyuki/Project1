@@ -1,2 +1,0 @@
-(h0 / hold-01
-    :ARG1 (g0 / glass))

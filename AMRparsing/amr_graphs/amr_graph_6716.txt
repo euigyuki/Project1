@@ -1,7 +1,0 @@
-(r0 / reflect-01
-    :ARG2 (p1 / pavement
-              :mod (r1 / rain-01))
-    :ARG1 (p0 / person
-              :ARG1-of (w0 / wear-01
-                           :ARG1 (b0 / blue
-                                     :ARG1-of (d0 / dark-02)))))

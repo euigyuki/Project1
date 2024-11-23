@@ -1,3 +1,0 @@
-(c0 / contest-01
-    :ARG1 (a0 / art
-              :mod (m0 / martial)))

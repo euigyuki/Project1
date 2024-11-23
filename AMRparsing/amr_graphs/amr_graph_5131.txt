@@ -1,9 +1,0 @@
-(r0 / run-02
-    :manner (m0 / mouth
-                :ARG1-of (o0 / open-01))
-    :direction (d1 / down
-                   :op1 (r1 / ramp
-                            :mod (b1 / blue)))
-    :ARG0 (d0 / dog
-              :ARG1-of (w0 / white-03)
-              :part (b0 / black-04)))

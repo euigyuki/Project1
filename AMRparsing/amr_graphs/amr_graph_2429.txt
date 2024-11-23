@@ -1,4 +1,0 @@
-(s0 / sit-01
-    :mod (a0 / alone)
-    :ARG1 (e0 / equipment
-              :mod (s1 / ski-01)))

@@ -1,3 +1,0 @@
-(c0 / collie
-    :ARG0-of (c1 / compete-01
-                 :ARG3 (o0 / order-02)))

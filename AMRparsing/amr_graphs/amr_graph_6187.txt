@@ -1,9 +1,0 @@
-(p0 / play-01
-    :ARG0 (t1 / toddler
-              :part (h1 / head)
-              :part (h0 / have-03
-                        :ARG1 (s0 / scarf
-                                  :mod (w1 / wrap-01)
-                                  :mod (b0 / blue))))
-    :ARG1 (t0 / toy
-              :mod (w0 / wooden)))

@@ -1,4 +1,0 @@
-(h0 / hike-02
-    :time (d0 / day
-              :mod (c0 / cloudy))
-    :ARG1 (m0 / man))

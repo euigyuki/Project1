@@ -1,6 +1,0 @@
-(w0 / walk-01
-    :ARG0 (a0 / and
-              :op2 (t0 / turkey
-                       :mod (n0 / number))
-              :op1 (b0 / boy
-                       :mod (l0 / little))))

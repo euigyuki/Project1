@@ -1,4 +1,0 @@
-(p0 / person
-    :ARG0-of (h0 / have-03
-                 :ARG1 (g0 / guitar))
-    :mod (p1 / perform-01))

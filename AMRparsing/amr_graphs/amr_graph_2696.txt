@@ -1,9 +1,0 @@
-(s0 / stand-01
-    :ARG1 (b0 / boy
-              :ARG1-of (a0 / and
-                           :op3 (c0 / coat)
-                           :op2 (g0 / glasses)
-                           :op1 (s2 / short-07
-                                    :mod (b1 / blue)))
-              :ARG0-of (h0 / have-03)
-              :mod (l0 / little)))

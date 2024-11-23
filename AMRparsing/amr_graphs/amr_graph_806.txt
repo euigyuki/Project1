@@ -1,4 +1,0 @@
-(r0 / reach-03
-    :ARG0 (p1 / person
-              :ARG0-of (p0 / pet)
-              :ARG0-of (d0 / dive-01)))

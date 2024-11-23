@@ -1,9 +1,0 @@
-(r0 / run-02
-    :path (a0 / across
-              :op1 (f0 / field
-                       :mod (g0 / grassy)))
-    :ARG0 (d0 / dog
-              :part (m0 / mouth
-                        :ARG1-of (o0 / open-01))
-              :ARG1-of (b0 / black-04)
-              :part o0))

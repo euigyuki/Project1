@@ -1,6 +1,0 @@
-(a0 / and
-    :op2 (s0 / smile-01
-             :ARG1 (a1 / animal
-                       :mod (b1 / baby)))
-    :op1 (h0 / hold-01
-             :ARG1 a1))

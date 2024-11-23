@@ -1,6 +1,0 @@
-(c0 / counsel-01
-    :ARG2 (p0 / person)
-    :ARG1 (m0 / man
-              :ARG1-of (h0 / have-rel-role-91
-                           :ARG0 p0
-                           :ARG2 (c1 / child))))

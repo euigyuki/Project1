@@ -1,7 +1,0 @@
-(b0 / buy-01
-    :ARG2 (s0 / stand)
-    :ARG0 (g0 / group
-              :consist-of (p0 / person))
-    :ARG1 (a0 / and
-              :op2 (v0 / vegetable)
-              :op1 (f0 / fruit)))

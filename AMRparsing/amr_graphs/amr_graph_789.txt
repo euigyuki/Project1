@@ -1,4 +1,0 @@
-(p0 / politician
-    :domain (p1 / person
-                :ARG0-of (h0 / have-03
-                             :ARG1 (b0 / beverage))))

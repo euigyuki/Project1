@@ -1,6 +1,0 @@
-(b0 / bounce-01
-    :ARG0 (g0 / girl
-              :quant 2)
-    :ARG1 (b1 / ball
-              :ARG1-of (y0 / yellow)
-              :mod (l0 / large)))

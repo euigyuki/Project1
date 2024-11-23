@@ -1,6 +1,0 @@
-(l0 / look-01
-    :ARG0 (p0 / person
-              :ARG0-of (h0 / have-03
-                           :ARG1 (h1 / hair
-                                     :mod (s0 / spiky))))
-    :ARG1 (l1 / left-19))

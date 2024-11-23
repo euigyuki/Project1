@@ -1,8 +1,0 @@
-(a0 / and
-    :op2 (s1 / stand-01
-             :ARG1 (m0 / man))
-    :op1 (s0 / sit-01
-             :ARG1 (w0 / woman
-                       :ARG1-of (h0 / have-rel-role-91
-                                    :ARG0 (p0 / person
-                                              :op1-of (n0 / next-to))))))

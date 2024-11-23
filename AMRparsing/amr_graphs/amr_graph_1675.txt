@@ -1,8 +1,0 @@
-# ::snt dog jumps to catch a snowball .
-# ::tokens ["dog", "jumps", "to", "catch", "a", "snowball", "."]
-# ::ner_tags ["O", "O", "O", "O", "O", "O", "O"]
-# ::ner_iob ["O", "O", "O", "O", "O", "O", "O"]
-# ::pos_tags ["NN", "VBZ", "TO", "VB", "DT", "NN", "."]
-# ::lemmas ["dog", "jump", "to", "catch", "a", "snowball", "."]
-(j0 / jump-on-bandwagon-09
-      :ARG1 (d0 / dog))

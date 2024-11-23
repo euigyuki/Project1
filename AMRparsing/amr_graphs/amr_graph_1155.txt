@@ -1,4 +1,0 @@
-(s0 / sign-01
-    :ARG0 (p0 / person
-              :quant 2)
-    :ARG1 (b0 / book))

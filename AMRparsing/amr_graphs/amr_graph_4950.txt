@@ -1,3 +1,0 @@
-(p0 / point-out-02
-    :ARG0 (k0 / kid)
-    :ARG1 (t0 / tongue))

@@ -1,9 +1,0 @@
-(s0 / swim-01
-    :instrument (m0 / mouth
-                    :part-of (d0 / dog
-                                 :ARG1-of (b1 / black-04)
-                                 :mod (b0 / big)
-                                 :ARG0-of (h0 / have-03
-                                              :ARG1 (s1 / something))
-                                 :ARG0-of s0))
-    :ARG1 (o0 / ocean))

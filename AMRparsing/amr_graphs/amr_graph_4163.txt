@@ -1,7 +1,0 @@
-(p0 / perform-01
-    :ARG0 (a0 / and
-              :op2 (p2 / person
-                       :mod (f0 / female))
-              :op1 (p1 / person
-                       :ARG0-of (d0 / dance-01)
-                       :mod (m0 / male))))

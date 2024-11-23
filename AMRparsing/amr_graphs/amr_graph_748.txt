@@ -1,6 +1,0 @@
-(b0 / boy
-    :part (f0 / face)
-    :ARG0-of (h0 / have-03
-                 :ARG1 (d0 / dirt)
-                 :ARG0 (s0 / shirt
-                           :mod (b1 / blue))))

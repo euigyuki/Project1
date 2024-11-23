@@ -1,7 +1,0 @@
-(t0 / talk-01
-    :ARG0 (p0 / person
-              :ARG0-of (w0 / work-01)
-              :mod (m0 / male)
-              :poss-of (b0 / building
-                           :op1-of (o0 / outside))
-              :quant 2))

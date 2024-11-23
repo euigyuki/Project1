@@ -1,5 +1,0 @@
-(l0 / look-01
-    :ARG0 (l1 / lady
-              :ARG1-of (b0 / beautiful-02))
-    :ARG1 (p0 / person
-              :ARG0-of (p1 / photograph-01)))

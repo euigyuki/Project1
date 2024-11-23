@@ -1,7 +1,0 @@
-(a0 / and
-    :op2 (p0 / person
-             :quant 2)
-    :op1 (s0 / shop
-             :part (w1 / window)
-             :ARG1-of (o0 / open-01)
-             :mod (w0 / wine)))

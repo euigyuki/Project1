@@ -1,9 +1,0 @@
-(l0 / look-01
-    :ARG0 (g0 / group
-              :consist-of (p0 / person
-                              :ARG0-of (h0 / have-rel-role-91
-                                           :ARG1 (k0 / kid)))
-              :consist-of (l1 / large))
-    :ARG1 (o0 / over
-              :op1 (f0 / fence
-                       :mod (w0 / wooden))))

@@ -1,6 +1,0 @@
-(c0 / contrast-01
-    :ARG1 (s0 / smile-01
-              :ARG0 (b0 / boy
-                        :ARG0-of (h0 / have-03
-                                     :ARG1 (s1 / shirt
-                                               :mod (o0 / orange))))))

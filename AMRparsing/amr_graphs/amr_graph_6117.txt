@@ -1,4 +1,0 @@
-(p0 / pick-01
-    :ARG0 (w0 / woman
-              :mod (y0 / young))
-    :ARG1 (s0 / strawberry))

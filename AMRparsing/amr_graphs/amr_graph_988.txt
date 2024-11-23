@@ -1,5 +1,0 @@
-(g0 / group
-    :ARG0-of (f0 / focus-01
-                 :ARG0 (a0 / all)
-                 :ARG1 (o1 / object
-                           :ARG1-of (s1 / same-01))))

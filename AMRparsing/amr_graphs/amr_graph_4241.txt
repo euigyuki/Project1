@@ -1,6 +1,0 @@
-(a0 / and
-    :op2 (h0 / hold-01
-             :ARG1 (s0 / sword))
-    :op1 (b0 / bend-01
-             :direction (b1 / backward)
-             :ARG1 (w0 / woman)))

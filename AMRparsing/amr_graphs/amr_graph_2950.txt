@@ -1,6 +1,0 @@
-(s0 / sit-01
-    :accompanier (d0 / dog
-                     :poss (m0 / man)
-                     :ARG1-of (w0 / white-02)
-                     :mod (b0 / brown))
-    :ARG1 m0)

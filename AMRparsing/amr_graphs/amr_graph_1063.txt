@@ -1,5 +1,0 @@
-(c0 / contest-02
-    :ARG0 (p0 / person
-              :quant 2)
-    :ARG1 (g0 / game
-              :mod (c1 / chess)))

@@ -1,4 +1,0 @@
-(h0 / hit-01
-    :time (g0 / game)
-    :ARG0 (k0 / kid)
-    :ARG1 (b0 / baseball))

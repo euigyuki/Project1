@@ -1,7 +1,0 @@
-(s0 / snap
-    :ARG1 (p0 / photograph-01
-              :ARG1 (c1 / course
-                        :mod (g0 / golf)))
-    :time (l0 / look-01
-              :ARG1 (c0 / crowd
-                        :consist-of (s2 / spectator))))

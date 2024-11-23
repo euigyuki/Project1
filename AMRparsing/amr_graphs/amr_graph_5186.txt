@@ -1,8 +1,0 @@
-(a0 / and
-    :op2 (s0 / sing-01
-             :ARG0 (g0 / girl
-                       :mod (b0 / before)
-                       :mod (w0 / wear-01)
-                       :quant 3))
-    :op1 (d0 / dance-01
-             :ARG0 g0))

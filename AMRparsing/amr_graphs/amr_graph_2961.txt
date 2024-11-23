@@ -1,3 +1,0 @@
-(d0 / dance-01
-    :ARG0 (w0 / woman
-              :ARG0-of (w1 / wear-01)))

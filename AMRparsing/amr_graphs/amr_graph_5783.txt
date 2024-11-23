@@ -1,8 +1,0 @@
-(r0 / ride-01
-    :ARG0 (j0 / jockey
-              :ARG0-of (w0 / wear-01
-                           :ARG1 (u0 / uniform
-                                     :ARG1-of (p0 / purple-02))))
-    :ARG1 (h0 / horse
-              :ARG1-of (b0 / brown
-                           :ARG1-of (d0 / dark-02))))

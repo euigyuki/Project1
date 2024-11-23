@@ -1,9 +1,0 @@
-(a0 / and
-    :op2 (t0 / take-off-07
-             :ARG0 (m0 / man)
-             :ARG1 (f0 / fish
-                       :ARG1-of (s0 / size-01
-                                    :ARG2 (d0 / decent))))
-    :op1 (c0 / catch-01
-             :ARG0 m0
-             :ARG1 f0))

@@ -1,6 +1,0 @@
-(b0 / building
-    :ARG1-of (s0 / surround-01
-                 :ARG2 (d0 / dog
-                           :ARG1-of (w1 / white-02)
-                           :ARG0-of (r0 / run-02
-                                        :direction (a0 / away)))))

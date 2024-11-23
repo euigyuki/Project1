@@ -1,8 +1,0 @@
-(f0 / family
-    :ARG0-of (r0 / ride-01
-                 :ARG2-of (w0 / wait-01
-                              :ARG1 f0
-                              :manner (l0 / line-up-02))
-                 :purpose-of (t0 / turn-01
-                                 :poss f0
-                                 :purpose-of w0)))

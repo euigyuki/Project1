@@ -1,5 +1,0 @@
-(p0 / play-01
-    :ARG0 (g0 / group
-              :consist-of (k0 / kid
-                              :quant 5))
-    :ARG1 (s0 / soccer))

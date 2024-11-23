@@ -1,8 +1,0 @@
-(h0 / hit-01
-    :instrument (f0 / forehand)
-    :ARG1 (b0 / ball)
-    :ARG0 (p0 / person
-              :name (n0 / name
-                        :op1 "miami")
-              :ARG0-of (p1 / play-01
-                           :ARG1 (t0 / tennis))))

@@ -1,6 +1,0 @@
-(e0 / enjoy-01
-    :ARG0 (c1 / couple
-              :mod (y0 / young))
-    :ARG1 (c0 / cone
-              :mod (s2 / snow)
-              :mod (s1 / some)))

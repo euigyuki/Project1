@@ -1,6 +1,0 @@
-(h0 / hold-01
-    :ARG1 (b0 / baby
-              :part (t0 / tongue
-                        :ARG1-of (s0 / stick-01
-                                     :ARG2 (o0 / out)
-                                     :part-of b0))))

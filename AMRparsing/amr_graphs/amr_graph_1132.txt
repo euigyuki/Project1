@@ -1,4 +1,0 @@
-(t0 / talk-01
-    :ARG2 (p0 / person
-              :mod (a0 / another))
-    :ARG0 (c0 / chef))

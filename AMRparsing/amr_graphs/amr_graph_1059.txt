@@ -1,4 +1,0 @@
-(w0 / watch-01
-    :ARG0 (p0 / person)
-    :ARG1 (j0 / jet
-              :quant 9))

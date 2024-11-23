@@ -1,7 +1,0 @@
-(w0 / walk-01
-    :path (t0 / through
-              :op1 (f1 / field
-                       :ARG1-of (c0 / cultivate-01)))
-    :ARG0 (f0 / figure
-              :ARG1-of (d0 / distant-02)
-              :quant 4))

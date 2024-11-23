@@ -1,7 +1,0 @@
-(b0 / boy
-    :ARG0-of (p0 / play-01)
-    :ARG1-of (h0 / have-03
-                 :ARG1 (a0 / and
-                           :op2 (c0 / cap)
-                           :op1 (s0 / shirt
-                                    :mod (m0 / maroon)))))

@@ -1,5 +1,0 @@
-(h0 / hand-01
-    :ARG0 (w0 / woman)
-    :ARG1 (i0 / item
-              :source (b0 / basket
-                          :mod (s1 / shop-01))))

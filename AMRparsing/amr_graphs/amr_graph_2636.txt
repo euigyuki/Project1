@@ -1,8 +1,0 @@
-(a0 / and
-    :op2 (h1 / have-03
-             :ARG1 (a1 / arm))
-    :op1 (h0 / have-03
-             :ARG1 (b0 / bracelet)
-             :ARG0 (g0 / girl
-                       :ARG1-of (s0 / shirt
-                                    :ARG1-of (w0 / white-03)))))

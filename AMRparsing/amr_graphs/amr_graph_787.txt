@@ -1,3 +1,0 @@
-(h0 / hold-up-11
-    :ARG1 (h1 / hand
-              :ARG1-of (g0 / green-02)))

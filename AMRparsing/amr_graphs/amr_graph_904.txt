@@ -1,5 +1,0 @@
-(d0 / display-01
-    :ARG0 (m0 / man)
-    :ARG1 (f0 / fish
-              :mod (v0 / variety
-                       :ARG1-of (d1 / differ-02))))

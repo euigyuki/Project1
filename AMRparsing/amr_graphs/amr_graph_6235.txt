@@ -1,8 +1,0 @@
-# ::snt a couple is getting married .
-# ::tokens ["a", "couple", "is", "getting", "married", "."]
-# ::ner_tags ["O", "O", "O", "O", "O", "O"]
-# ::ner_iob ["O", "O", "O", "O", "O", "O"]
-# ::pos_tags ["DT", "NN", "VBZ", "VBG", "VBN", "."]
-# ::lemmas ["a", "couple", "be", "getting", "marry", "."]
-(m0 / marry-01
-      :ARG1 (c0 / couple))

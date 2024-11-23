@@ -1,7 +1,0 @@
-(p0 / play-01
-    :accompanier (a0 / and
-                     :op2 (m0 / mountain)
-                     :op1 (s0 / sunset
-                              :ARG1-of (b2 / beautiful-02)))
-    :ARG0 (b0 / boy
-              :mod (l0 / little)))

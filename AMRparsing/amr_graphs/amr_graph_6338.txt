@@ -1,4 +1,0 @@
-(w0 / walk-01
-    :ARG0 (t0 / teenager
-              :ARG0-of (c0 / clothe-01)
-              :quant 4))

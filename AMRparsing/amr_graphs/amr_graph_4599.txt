@@ -1,4 +1,0 @@
-(s0 / scream-01
-    :ARG0 (a0 / adult
-              :ARG1-of (p0 / pale-03)
-              :quant 2))

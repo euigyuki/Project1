@@ -1,9 +1,0 @@
-# ::snt a man working on the computer .
-# ::tokens ["a", "man", "working", "on", "the", "computer", "."]
-# ::ner_tags ["O", "O", "O", "O", "O", "O", "O"]
-# ::ner_iob ["O", "O", "O", "O", "O", "O", "O"]
-# ::pos_tags ["DT", "NN", "VBG", "IN", "DT", "NN", "."]
-# ::lemmas ["a", "man", "work", "on", "the", "computer", "."]
-(m0 / man
-      :ARG0-of (w0 / work-01
-            :ARG2 (c0 / computer)))

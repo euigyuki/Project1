@@ -1,4 +1,0 @@
-(d0 / dance-01
-    :accompanier (o0 / object
-                     :mod (s1 / shine-01))
-    :ARG0 (g0 / group))

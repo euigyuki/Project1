@@ -1,9 +1,0 @@
-# ::snt a sculptor is carving stone .
-# ::tokens ["a", "sculptor", "is", "carving", "stone", "."]
-# ::ner_tags ["O", "O", "O", "O", "O", "O"]
-# ::ner_iob ["O", "O", "O", "O", "O", "O"]
-# ::pos_tags ["DT", "NN", "VBZ", "VBG", "NN", "."]
-# ::lemmas ["a", "sculptor", "be", "carve", "stone", "."]
-(c0 / carve-out-03
-      :ARG0 (s1 / sculptor)
-      :ARG1 (s0 / stone))

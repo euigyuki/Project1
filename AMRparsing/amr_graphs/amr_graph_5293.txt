@@ -1,5 +1,0 @@
-(s0 / swing-02
-    :ARG1 (g0 / girl
-              :ARG1-of (d0 / dress-01
-                           :ARG2 (p0 / pink-04))
-              :mod (l0 / little)))

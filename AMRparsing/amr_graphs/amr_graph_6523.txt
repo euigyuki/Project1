@@ -1,6 +1,0 @@
-(s0 / sit-01
-    :manner (t0 / toast
-                :accompanier (w1 / wineglass))
-    :ARG1 (a0 / and
-              :op2 (w0 / woman)
-              :op1 (m0 / man)))

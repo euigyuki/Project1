@@ -1,2 +1,0 @@
-(m0 / man
-    :mod (w0 / walk-01))

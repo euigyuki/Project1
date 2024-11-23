@@ -1,8 +1,0 @@
-(p0 / process-02
-    :ARG0 (p1 / person
-              :ARG0-of (c0 / create-01
-                           :ARG1 (l0 / lantern
-                                     :mod (c1 / colorful)))
-              :poss-of (s0 / shop)
-              :quant 4)
-    :ARG1 c0)

@@ -1,8 +1,0 @@
-(h0 / hit-01
-    :ARG0 (p0 / person
-              :prep-in (o0 / outfit
-                           :ARG1-of (w0 / white-03))
-              :ARG0-of (p1 / play-01
-                           :ARG1 (t1 / tennis)))
-    :ARG1 (b0 / ball
-              :mod (t0 / tennis)))

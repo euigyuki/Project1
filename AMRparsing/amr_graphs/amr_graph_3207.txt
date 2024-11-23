@@ -1,5 +1,0 @@
-(l0 / look-02
-    :ARG0 (m0 / man
-              :ARG0-of (d0 / dig-01)
-              :mod (y0 / yellow))
-    :ARG1 d0)

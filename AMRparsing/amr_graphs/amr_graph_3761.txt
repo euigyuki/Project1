@@ -1,9 +1,0 @@
-(e0 / enter-01
-    :time (a1 / about-to)
-    :time (a0 / after
-              :op1 (s0 / slide-01
-                       :direction (s1 / slide
-                                      :mod (y1 / yellow))
-                       :direction (d0 / down)))
-    :ARG0 (b0 / boy
-              :mod (y0 / young)))

@@ -1,6 +1,0 @@
-(c0 / contrast-01
-    :ARG1 (w0 / walk-01
-              :manner (l0 / leash)
-              :ARG0 (p0 / person
-                        :poss-of (d0 / dog))
-              :ARG1 d0))

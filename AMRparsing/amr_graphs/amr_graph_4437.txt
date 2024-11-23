@@ -1,4 +1,0 @@
-(r0 / ride-01
-    :ARG0 (p0 / person)
-    :ARG1 (u0 / unicycle
-              :polarity -))

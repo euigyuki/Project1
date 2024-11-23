@@ -1,7 +1,0 @@
-(g0 / gentleman
-    :poss-of (b0 / beer
-                 :ARG1-of (l0 / look-01
-                              :ARG0 g0
-                              :direction (d0 / down)))
-    :ARG1-of (h0 / have-degree-91
-                 :ARG3 (m0 / more)))

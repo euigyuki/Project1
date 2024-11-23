@@ -1,5 +1,0 @@
-(s0 / sit-01
-    :purpose (p0 / point-01
-                 :ARG0 (c0 / child
-                           :quant 5))
-    :ARG1 c0)

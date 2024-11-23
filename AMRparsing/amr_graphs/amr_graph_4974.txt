@@ -1,8 +1,0 @@
-(s0 / sit-01
-    :time (l0 / look-01
-              :ARG0 (g0 / girl
-                        :poss-of (c0 / cellphone)
-                        :poss-of (w0 / wall
-                                     :mod (r0 / rock)))
-              :ARG1 c0)
-    :ARG1 g0)

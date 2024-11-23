@@ -1,6 +1,0 @@
-(l0 / look-01
-    :ARG0 (b0 / boy
-              :mod (y0 / young))
-    :path (t0 / through
-              :op1 (b1 / branch
-                       :part-of (t1 / tree))))

@@ -1,9 +1,0 @@
-(s0 / sit-01
-    :manner (d0 / debate-01
-                :ARG0 (a1 / and
-                          :ARG1-of (h0 / have-degree-91
-                                       :ARG3 (m0 / more))
-                          :op2 (w0 / woman)
-                          :op1 (g0 / gentleman))
-                :ARG1 (t0 / topic))
-    :ARG1 a1)

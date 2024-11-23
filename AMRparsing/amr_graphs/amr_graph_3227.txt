@@ -1,5 +1,0 @@
-(p0 / put-01
-    :mod (t0 / together)
-    :ARG0 (p1 / person)
-    :ARG1 (c0 / craft
-              :mod (c1 / colorful)))

@@ -1,6 +1,0 @@
-(b0 / be-located-at-91
-    :ARG2 (h0 / here)
-    :ARG1 (p0 / picture
-              :topic (b1 / boy
-                         :ARG0-of (c0 / cry-02)
-                         :mod (y0 / young))))

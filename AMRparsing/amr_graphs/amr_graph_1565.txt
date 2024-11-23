@@ -1,7 +1,0 @@
-(s0 / stand-01
-    :time (p0 / pass-03
-              :ARG1 (t0 / traffic))
-    :time (f0 / female
-              :ARG0-of (w0 / wear-01
-                           :ARG1 (s1 / shirt
-                                     :ARG1-of (g0 / green-02)))))

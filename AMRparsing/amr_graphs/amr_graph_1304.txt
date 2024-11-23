@@ -1,5 +1,0 @@
-(w0 / walk-01
-    :ARG0 (p0 / person
-              :poss-of (c0 / cellphone
-                           :instrument-of (t0 / talk-01
-                                              :ARG0 p0))))

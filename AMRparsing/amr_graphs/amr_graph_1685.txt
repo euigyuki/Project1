@@ -1,9 +1,0 @@
-# ::snt a girl liking the batter off spoon .
-# ::tokens ["a", "girl", "liking", "the", "batter", "off", "spoon", "."]
-# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O"]
-# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O"]
-# ::pos_tags ["DT", "NN", "VBG", "DT", "NN", "IN", "NN", "."]
-# ::lemmas ["a", "girl", "like", "the", "batter", "off", "spoon", "."]
-(l0 / like-01
-      :ARG0 (g0 / girl)
-      :ARG1 (s0 / spoon))

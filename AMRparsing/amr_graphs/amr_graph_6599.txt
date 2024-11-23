@@ -1,4 +1,0 @@
-(w0 / walk-01
-    :ARG0 (w1 / woman
-              :ARG0-of (c0 / carry-01
-                           :ARG1 (c1 / cane))))

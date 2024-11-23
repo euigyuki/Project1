@@ -1,9 +1,0 @@
-(g0 / group
-    :consist-of (p0 / person
-                    :ARG0-of (v0 / visit-01)
-                    :mod (y0 / young))
-    :consist-of (d0 / drink-01
-                    :ARG1 (a1 / and
-                              :op2 (s1 / soda)
-                              :op1 (w0 / water)))
-    :consist-of (s0 / sit-01))

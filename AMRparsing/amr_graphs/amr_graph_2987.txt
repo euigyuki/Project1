@@ -1,8 +1,0 @@
-(w0 / walk-01
-    :time (s0 / stand-01
-              :ARG1 (c0 / crowd
-                        :poss-of (s2 / seat)))
-    :ARG0 (p0 / person
-              :ARG0-of (p1 / play-01)
-              :quant (s1 / soccer)
-              :quant 2))

@@ -1,4 +1,0 @@
-(r0 / run-02
-    :ARG0 (c0 / child
-              :mod (r1 / race
-                       :mod (m0 / multi))))

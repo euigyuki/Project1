@@ -1,5 +1,0 @@
-(s0 / stick-01
-    :ARG2 (s1 / snow)
-    :ARG1 (g0 / guy
-              :poss-of (c0 / car
-                           :op1-of (o0 / outside))))

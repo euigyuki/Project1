@@ -1,2 +1,0 @@
-(s0 / shoot-01
-    :ARG2 (c0 / cow))

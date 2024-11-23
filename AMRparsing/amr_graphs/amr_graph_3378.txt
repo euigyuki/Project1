@@ -1,5 +1,0 @@
-(r0 / ride-01
-    :ARG0 (a0 / and
-              :op2 (c0 / child)
-              :op1 (a1 / adult))
-    :ARG1 (b0 / bike))

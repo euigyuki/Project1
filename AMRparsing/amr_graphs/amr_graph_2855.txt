@@ -1,7 +1,0 @@
-(a0 / and
-    :op2 (h0 / have-03
-             :ARG1 (f0 / food)
-             :ARG0 (b0 / baby
-                       :part (f1 / face)))
-    :op1 (e0 / eat-01
-             :ARG0 b0))

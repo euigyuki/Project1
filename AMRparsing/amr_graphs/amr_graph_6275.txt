@@ -1,9 +1,0 @@
-# ::snt the monks are participating in a festival .
-# ::tokens ["the", "monks", "are", "participating", "in", "a", "festival", "."]
-# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O"]
-# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O"]
-# ::pos_tags ["DT", "NNS", "VBP", "VBG", "IN", "DT", "NN", "."]
-# ::lemmas ["the", "monk", "be", "participate", "in", "a", "festival", "."]
-(p0 / participate-01
-      :ARG0 (m0 / monk)
-      :ARG1 (f0 / festival))

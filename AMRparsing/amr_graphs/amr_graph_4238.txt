@@ -1,4 +1,0 @@
-(w0 / wait-01
-    :ARG1 (w1 / woman
-              :poss-of (l0 / luggage)
-              :quant 4))

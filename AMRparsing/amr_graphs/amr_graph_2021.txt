@@ -1,6 +1,0 @@
-(a0 / airborne
-    :accompanier (a1 / and
-                     :op2 (w1 / water
-                              :mod (b1 / blue))
-                     :op1 (e0 / elevate-01))
-    :domain (m0 / man))

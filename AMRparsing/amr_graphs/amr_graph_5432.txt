@@ -1,8 +1,0 @@
-(r0 / ride-01
-    :ARG0 (a0 / and
-              :op2 (w0 / woman)
-              :op1 (m0 / man
-                       :ARG1-of (h0 / have-degree-91
-                                    :ARG3 (m1 / more)
-                                    :ARG2 (o1 / old))))
-    :ARG1 (b0 / bike))

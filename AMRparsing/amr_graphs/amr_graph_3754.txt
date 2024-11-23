@@ -1,5 +1,0 @@
-(r0 / ride-01
-    :direction (a0 / air)
-    :ARG0 (p0 / person
-              :ARG0-of (r1 / ride-01
-                           :ARG1 (m0 / motocross))))

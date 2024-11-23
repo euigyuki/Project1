@@ -1,2 +1,0 @@
-(c0 / child
-    :mod (b0 / blond))

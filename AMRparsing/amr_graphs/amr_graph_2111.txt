@@ -1,4 +1,0 @@
-(s0 / stand-01
-    :ARG1 (g0 / group
-              :consist-of (m0 / man
-                              :ARG1-of (a0 / appear-02))))

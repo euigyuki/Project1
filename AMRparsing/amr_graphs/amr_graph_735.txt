@@ -1,9 +1,0 @@
-# ::snt kids running to the playground .
-# ::tokens ["kids", "running", "to", "the", "playground", "."]
-# ::ner_tags ["O", "O", "O", "O", "O", "O"]
-# ::ner_iob ["O", "O", "O", "O", "O", "O"]
-# ::pos_tags ["NNS", "VBG", "IN", "DT", "NN", "."]
-# ::lemmas ["kid", "run", "to", "the", "playground", "."]
-(r0 / run-02
-      :destination (p0 / playground)
-      :ARG0 (k0 / kid))

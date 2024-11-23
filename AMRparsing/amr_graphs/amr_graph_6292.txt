@@ -1,7 +1,0 @@
-(o0 / open-01
-    :time (l0 / lean-01
-              :ARG0 (d0 / dog
-                        :part (m0 / mouth)
-                        :ARG1-of (b0 / black-04)
-                        :ARG0-of o0))
-    :ARG1 m0)

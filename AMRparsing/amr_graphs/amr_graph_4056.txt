@@ -1,3 +1,0 @@
-(w0 / walk-01
-    :direction (u0 / up)
-    :ARG0 (w1 / woman))

@@ -1,8 +1,0 @@
-(p0 / play-01
-    :ARG0 (a0 / and
-              :op2 (m0 / man
-                       :mod (y1 / young))
-              :op1 (g1 / girl
-                       :mod (y0 / young)))
-    :ARG1 (g0 / game
-              :mod (t0 / toss)))

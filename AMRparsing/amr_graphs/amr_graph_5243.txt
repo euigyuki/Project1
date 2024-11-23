@@ -1,4 +1,0 @@
-(l0 / look-01
-    :path (o0 / outside
-              :op1 (w1 / window))
-    :ARG0 (w0 / woman))

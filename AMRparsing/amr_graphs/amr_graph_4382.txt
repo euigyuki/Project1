@@ -1,4 +1,0 @@
-(r0 / run-02
-    :manner (c0 / cover-02
-                :ARG2 (g0 / green-02))
-    :ARG1 (d0 / dog))

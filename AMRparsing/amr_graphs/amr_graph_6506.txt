@@ -1,6 +1,0 @@
-(a0 / and
-    :op2 (b0 / be-located-at-91
-             :ARG1 (g0 / group
-                       :consist-of (p0 / person)))
-    :op1 (s0 / stand-01
-             :ARG1 g0))

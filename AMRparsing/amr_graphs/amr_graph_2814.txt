@@ -1,3 +1,0 @@
-(s0 / sit-01
-    :mod (t0 / together)
-    :ARG1 (f0 / family))

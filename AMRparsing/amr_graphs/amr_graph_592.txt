@@ -1,4 +1,0 @@
-(l0 / landscape
-    :ARG2-of (t0 / tread)
-    :ARG1-of (b0 / beautiful-02)
-    :mod (s0 / snowy))

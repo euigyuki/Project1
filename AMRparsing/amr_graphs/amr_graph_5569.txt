@@ -1,7 +1,0 @@
-(p0 / person
-    :ARG0-of (h0 / have-org-role-91
-                 :ARG1 (s1 / synchronized)
-                 :ARG2 (s0 / swim-01))
-    :ARG1-of (c0 / compete-01)
-    :mod (f0 / female)
-    :quant 4)

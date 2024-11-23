@@ -1,7 +1,0 @@
-(t0 / throw-01
-    :ARG2 (w0 / wall)
-    :ARG0 (m0 / man
-              :poss-of (g0 / garage)
-              :ARG0-of (s0 / shirt
-                           :mod (f0 / face)))
-    :ARG1 (h0 / hatchet))

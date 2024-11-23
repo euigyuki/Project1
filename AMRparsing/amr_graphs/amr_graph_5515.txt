@@ -1,9 +1,0 @@
-# ::snt two dogs swimming .
-# ::tokens ["two", "dogs", "swimming", "."]
-# ::ner_tags ["CARDINAL", "O", "O", "O"]
-# ::ner_iob ["B", "O", "O", "O"]
-# ::pos_tags ["CD", "NNS", "VBG", "."]
-# ::lemmas ["two", "dog", "swim", "."]
-(s0 / swim-01
-      :ARG0 (d0 / dog
-            :quant 2 ))

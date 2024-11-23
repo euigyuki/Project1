@@ -1,9 +1,0 @@
-(e0 / eat-01
-    :time (s0 / sit-01)
-    :ARG0 (g0 / gentleman
-              :ARG1-of (d0 / dress-01
-                           :ARG1-of (c1 / complete-02))
-              :mod (h0 / have-degree-91
-                       :ARG3 (m0 / more)))
-    :ARG1 (b0 / bowl
-              :ARG1-of (w0 / white-03)))

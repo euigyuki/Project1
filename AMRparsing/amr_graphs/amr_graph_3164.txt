@@ -1,4 +1,0 @@
-(p0 / person
-    :ARG0-of (h0 / hang-01
-                 :mod (v0 / volleyball)
-                 :ARG1 (n0 / net)))

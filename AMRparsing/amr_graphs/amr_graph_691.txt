@@ -1,6 +1,0 @@
-(a0 / and
-    :op2 (h0 / hold-01
-             :ARG1 (p0 / piece
-                       :ARG1-of (g0 / green)
-                       :mod (p1 / paper)))
-    :op1 (l0 / lie-08))

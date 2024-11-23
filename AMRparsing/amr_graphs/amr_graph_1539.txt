@@ -1,3 +1,0 @@
-(t0 / talk-01
-    :ARG2 (p0 / person)
-    :ARG0 (m0 / man))

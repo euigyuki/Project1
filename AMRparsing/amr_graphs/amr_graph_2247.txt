@@ -1,8 +1,0 @@
-(h0 / have-03
-    :ARG0 (o0 / or
-              :op2 (g0 / group
-                       :consist-of (p1 / person)
-                       :consist-of (h1 / have-rel-role-91
-                                       :ARG2 (f1 / friend)))
-              :op1 (f0 / family))
-    :ARG1 (p0 / picnic))

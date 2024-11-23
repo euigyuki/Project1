@@ -1,5 +1,0 @@
-(h0 / hold-01
-    :ARG1 (h1 / hammer
-              :ARG1-of (i0 / inflate-01
-                           :ARG1-of (p0 / possible-01
-                                        :polarity -))))

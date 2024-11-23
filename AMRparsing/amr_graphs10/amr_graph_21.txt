@@ -1,9 +1,0 @@
-# ::snt someone is standing on a long bridge with a cloudy blue sky in the background .
-(z1 / stand-01
-      :ARG1 (z2 / someone)
-      :ARG2 (z3 / bridge
-            :ARG1-of (z4 / long-03))
-      :prep-with (z5 / sky
-            :mod (z6 / blue)
-            :ARG1-of (z7 / cloudy-03)
-            :location (z8 / background)))

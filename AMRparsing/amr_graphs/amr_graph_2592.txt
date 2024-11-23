@@ -1,9 +1,0 @@
-(w0 / wear-01
-    :ARG1 (a0 / and
-              :op3 (h0 / hat
-                       :consist-of (f0 / furry))
-              :op2 (j0 / jacket)
-              :op1 (s1 / scarf))
-    :time (d0 / day
-              :mod (s0 / snow-01))
-    :time (m0 / man))

@@ -1,9 +1,0 @@
-(a0 / and
-    :op2 (m0 / man)
-    :time (l1 / look-01
-              :ARG1 (l2 / lady
-                        :mod (a1 / another)))
-    :op2 (h0 / hold-01
-             :ARG1 (s0 / string)
-             :ARG3 (d0 / down))
-    :op1 (l0 / lady))

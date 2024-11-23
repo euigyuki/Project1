@@ -1,5 +1,0 @@
-(b0 / boy
-    :ARG0-of (j0 / jump-03)
-    :mod (h0 / have-03
-             :ARG1 (m0 / mohawk))
-    :mod (y0 / young))

@@ -1,5 +1,0 @@
-(h0 / hold-01
-    :direction (u0 / up)
-    :ARG1 (p0 / portrait
-              :mod (s0 / self)
-              :quant 2))

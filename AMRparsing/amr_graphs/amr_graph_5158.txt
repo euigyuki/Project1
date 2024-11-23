@@ -1,3 +1,0 @@
-(c0 / cheer-02
-    :ARG0 (a0 / audience)
-    :ARG1 (b0 / band))

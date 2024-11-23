@@ -1,5 +1,0 @@
-(s0 / stop-01
-    :purpose (t0 / talk-01
-                 :ARG0 (a0 / and
-                           :op2 (l0 / lady)
-                           :op1 (m0 / man))))

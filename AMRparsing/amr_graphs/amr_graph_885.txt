@@ -1,2 +1,0 @@
-(g0 / golf-01
-    :ARG0 (w0 / woman))

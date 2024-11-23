@@ -1,3 +1,0 @@
-(h0 / hang-out-06
-    :ARG1 (m0 / man
-              :mod (y0 / young)))

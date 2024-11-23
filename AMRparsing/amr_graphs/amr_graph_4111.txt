@@ -1,6 +1,0 @@
-(c0 / come-01
-    :manner (f1 / face-01)
-    :ARG4 (f0 / field
-              :ARG1-of (s0 / snowy))
-    :ARG1 (d0 / dog
-              :quant 3))

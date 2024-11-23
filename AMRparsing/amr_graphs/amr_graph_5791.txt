@@ -1,8 +1,0 @@
-(l0 / lean-01
-    :ARG1 (m0 / man
-              :ARG0-of (h0 / have-03
-                           :ARG1 (u0 / uniform
-                                     :mod (o1 / orange
-                                              :ARG1-of (b0 / bright-02))
-                                     :mod (s0 / service)))
-              :quant 2))

@@ -1,7 +1,0 @@
-(c0 / climb-01
-    :ARG0 (d0 / dog
-              :ARG1-of (w0 / white-02)
-              :ARG0-of (b0 / black-05))
-    :ARG1 (t0 / trunk
-              :ARG1-of (l0 / lean-01)
-              :ARG0-of (t1 / tree)))
