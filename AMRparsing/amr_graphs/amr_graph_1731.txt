@@ -1,0 +1,12 @@
+(a0 / and
+    :op2 (w0 / walk-01
+             :accompanier (b0 / bag
+                              :purpose (s2 / shop-01))
+             :direction (d0 / down
+                            :op1 (s1 / street))
+             :ARG0 (w1 / woman
+                       :ARG1-of (r0 / red-02)
+                       :mod (y0 / yellow)))
+    :op1 (s0 / smoke-02
+             :ARG0 w1
+             :ARG1 (c0 / cigarette)))

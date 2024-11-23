@@ -1,0 +1,14 @@
+# ::snt A side profile of a man with a mustache and goatee wearing a suit and tie .
+# ::tokens ["A", "side", "profile", "of", "a", "man", "with", "a", "mustache", "and", "goatee", "wearing", "a", "suit", "and", "tie", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "NN", "IN", "DT", "NN", "IN", "DT", "NN", "CC", "NN", "VBG", "DT", "NN", "CC", "VB", "."]
+# ::lemmas ["a", "side", "profile", "of", "a", "man", "with", "a", "mustache", "and", "goatee", "wear", "a", "suit", "and", "tie", "."]
+(p0 / profile-01
+      :ARG1 (m0 / man
+            :ARG0-of (w0 / wear-01
+                  :ARG1 (a0 / and
+                        :op2 (m1 / mustache)
+                        :op2 (t0 / tie)
+                        :op1 (s1 / suit))))
+      :mod (s0 / side))

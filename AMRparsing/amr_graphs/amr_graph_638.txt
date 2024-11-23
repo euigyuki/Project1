@@ -1,0 +1,9 @@
+(e0 / enjoy-01
+    :ARG0 (a0 / and
+              :ARG0-of (r0 / ride-01
+                           :ARG1-of (r1 / regular-02)
+                           :ARG1 (b0 / bike))
+              :op2 (w0 / woman)
+              :op1 (m0 / man
+                       :quant 2))
+    :ARG1 r0)

@@ -1,0 +1,18 @@
+# ::snt a group of hikers led by a black and white dog climbs a hillside trail covered in ferns .
+# ::tokens ["a", "group", "of", "hikers", "led", "by", "a", "black", "and", "white", "dog", "climbs", "a", "hillside", "trail", "covered", "in", "ferns", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "NNS", "VBN", "IN", "DT", "JJ", "CC", "JJ", "NN", "VBZ", "DT", "NN", "NN", "VBN", "IN", "NNS", "."]
+# ::lemmas ["a", "group", "of", "hiker", "lead", "by", "a", "black", "and", "white", "dog", "climb", "a", "hillside", "trail", "cover", "in", "fern", "."]
+(c0 / climb-01
+      :ARG0 (g0 / group
+            :consist-of (p0 / person
+                  :ARG0-of (s0 / ski-01))
+            :consist-of (l0 / lead-02
+                  :ARG0 (d0 / dog
+                        :ARG1-of (w0 / white-02)
+                        :ARG0-of (b0 / black-05))))
+      :ARG1 (t0 / trail
+            :ARG1-of (c1 / cover-02
+                  :ARG2 (f0 / fern))
+            :mod (h0 / hillside)))

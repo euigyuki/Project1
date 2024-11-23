@@ -1,0 +1,7 @@
+(w0 / walk-01
+    :manner (a0 / and
+                :op2 (b0 / bag
+                         :purpose (s0 / shop-01))
+                :op1 (c0 / cane))
+    :ARG0 (w1 / woman
+              :mod (e0 / elderly)))

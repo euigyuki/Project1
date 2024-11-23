@@ -1,0 +1,4 @@
+(c0 / chase-01
+    :ARG0 (d0 / dog)
+    :ARG1 (t0 / tail
+              :part-of (a0 / animal)))

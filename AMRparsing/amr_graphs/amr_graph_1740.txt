@@ -1,0 +1,10 @@
+# ::snt a dog jumps over a creek .
+# ::tokens ["a", "dog", "jumps", "over", "a", "creek", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "dog", "jump", "over", "a", "creek", "."]
+(j0 / jump-03
+      :direction (o0 / over
+            :op1 (c0 / creek))
+      :ARG0 (d0 / dog))

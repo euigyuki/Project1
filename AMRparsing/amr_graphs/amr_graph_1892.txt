@@ -1,0 +1,6 @@
+(w0 / watch-01
+    :ARG0 (g0 / group
+              :consist-of (c0 / child)
+              :consist-of (a1 / adult))
+    :ARG1 (p0 / park
+              :mod (a0 / amuse-01)))

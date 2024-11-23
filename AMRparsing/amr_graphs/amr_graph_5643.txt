@@ -1,0 +1,18 @@
+# ::snt people in a different country sitting and standing in front of a place called znocob .
+# ::tokens ["people", "in", "a", "different", "country", "sitting", "and", "standing", "in", "front", "of", "a", "place", "called", "znocob", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["NNS", "IN", "DT", "JJ", "NN", "VBG", "CC", "VBG", "IN", "NN", "IN", "DT", "NN", "VBN", "NNS", "."]
+# ::lemmas ["people", "in", "a", "different", "country", "sit", "and", "stand", "in", "front", "of", "a", "place", "call", "znocob", "."]
+(a0 / and
+      :op2 (s1 / stand-01
+            :ARG1 p0)
+      :op1 (s0 / sit-01
+            :ARG2 (i0 / in-front-of
+                  :op1 (p1 / place
+                        :ARG1-of (c1 / call-01
+                              :ARG2 (n0 / name
+                                    :op1 "znocob" ))))
+            :ARG1 (p0 / person
+                  :location (c0 / country
+                        :ARG1-of (d0 / differ-02)))))

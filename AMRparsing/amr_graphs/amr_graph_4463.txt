@@ -1,0 +1,6 @@
+(m0 / make-01
+    :ARG0 (m1 / man)
+    :ARG1 (f0 / face
+              :mod (k0 / kiss-01
+                       :ARG0 m1
+                       :ARG1 (c0 / cow))))

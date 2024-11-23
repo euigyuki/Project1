@@ -1,0 +1,4 @@
+(m0 / man
+    :mod (h0 / have-03
+             :ARG1 (c1 / camera)
+             :direction (b0 / back)))

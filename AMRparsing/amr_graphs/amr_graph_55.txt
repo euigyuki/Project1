@@ -1,0 +1,21 @@
+# ::snt older man in a hat , yellow shirt and dress slacks playing in the sand with a young boy .
+# ::tokens ["older", "man", "in", "a", "hat", ",", "yellow", "shirt", "and", "dress", "slacks", "playing", "in", "the", "sand", "with", "a", "young", "boy", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["JJR", "NN", "IN", "DT", "NN", ",", "JJ", "NN", "CC", "VB", "NNS", "VBG", "IN", "DT", "NN", "IN", "DT", "JJ", "NN", "."]
+# ::lemmas ["old", "man", "in", "a", "hat", ",", "yellow", "shirt", "and", "dress", "slack", "play", "in", "the", "sand", "with", "a", "young", "boy", "."]
+(m0 / man
+      :ARG0-of (w0 / wear-01
+            :ARG1 (a0 / and
+                  :op3 (s2 / slack
+                        :mod (d0 / dress))
+                  :op2 (s1 / shirt
+                        :mod (y1 / yellow))
+                  :op1 (h1 / hat)))
+      :ARG1-of (p0 / play-01
+            :accompanier (b0 / boy
+                  :mod (y0 / young))
+            :ARG2 (s0 / sand))
+      :mod (h0 / have-degree-91
+            :ARG3 (m1 / more)
+            :ARG2 (o0 / old)))

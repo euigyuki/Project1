@@ -1,0 +1,11 @@
+# ::snt a band playing some music for some people .
+# ::tokens ["a", "band", "playing", "some", "music", "for", "some", "people", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBG", "DT", "NN", "IN", "DT", "NNS", "."]
+# ::lemmas ["a", "band", "play", "some", "music", "for", "some", "people", "."]
+(b0 / band
+      :ARG0-of (p0 / play-01
+            :beneficiary (p1 / person)
+            :ARG1 (m0 / music
+                  :mod (s0 / some))))

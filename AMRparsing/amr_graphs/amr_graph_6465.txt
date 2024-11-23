@@ -1,0 +1,13 @@
+# ::snt the dog leaps to catch the frisbee .
+# ::tokens ["the", "dog", "leaps", "to", "catch", "the", "frisbee", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "PRODUCT", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "B", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "TO", "VB", "DT", "NN", "."]
+# ::lemmas ["the", "dog", "leap", "to", "catch", "the", "frisbee", "."]
+(l0 / leap-03
+      :purpose (c0 / catch-01
+            :ARG0 (d0 / dog)
+            :ARG1 (a0 / animal
+                  :name (n0 / name
+                        :op1 "frisbee" )))
+      :ARG0 d0)

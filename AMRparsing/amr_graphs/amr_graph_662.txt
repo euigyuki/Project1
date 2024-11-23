@@ -1,0 +1,22 @@
+# ::snt a woman with a chinese hat on leaning on the wall standing behind a cut out of snow white in front of some store windows .
+# ::tokens ["a", "woman", "with", "a", "chinese", "hat", "on", "leaning", "on", "the", "wall", "standing", "behind", "a", "cut", "out", "of", "snow", "white", "in", "front", "of", "some", "store", "windows", "."]
+# ::ner_tags ["O", "O", "O", "O", "NORP", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "DT", "JJ", "NN", "IN", "VBG", "IN", "DT", "NN", "VBG", "IN", "DT", "NN", "IN", "IN", "NN", "JJ", "IN", "NN", "IN", "DT", "NN", "NNS", "."]
+# ::lemmas ["a", "woman", "with", "a", "chinese", "hat", "on", "lean", "on", "the", "wall", "stand", "behind", "a", "cut", "out", "of", "snow", "white", "in", "front", "of", "some", "store", "window", "."]
+(s0 / stand-01
+      :ARG2 (b0 / behind
+            :op1 (w1 / wall)
+            :op1 (i0 / in-front-of
+                  :location-of (t0 / thing
+                        :ARG1-of (n0 / name
+                              :op1 "China" )
+                        :mod (w3 / white-03))
+                  :op1 (w2 / window
+                        :mod (s2 / some)
+                        :mod (s1 / store))))
+      :ARG1 (w0 / woman
+            :ARG1-of (l0 / lean-01)
+            :ARG0-of (h0 / have-03
+                  :ARG1 (h1 / hat
+                        :mod (c0 / country)))))

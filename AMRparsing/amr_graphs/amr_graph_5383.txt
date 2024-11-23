@@ -1,0 +1,11 @@
+(w0 / walk-01
+    :direction (d0 / down)
+    :ARG0 (p0 / person
+              :ARG0-of (i0 / inspect-01
+                           :ARG1 (s0 / safe-01))
+              :ARG1-of (c0 / check-01
+                           :ARG1 (t0 / thing
+                                     :ARG1-of (a0 / appear-02
+                                                  :ARG1 (s1 / seat
+                                                            :mod (p1 / passenger
+                                                                     :part-of (t1 / train))))))))

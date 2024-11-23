@@ -1,0 +1,14 @@
+# ::snt a boy in a blue shirt jumps down stairs on a skateboard .
+# ::tokens ["a", "boy", "in", "a", "blue", "shirt", "jumps", "down", "stairs", "on", "a", "skateboard", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "DT", "JJ", "NN", "VBZ", "RP", "NNS", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "boy", "in", "a", "blue", "shirt", "jump", "down", "stair", "on", "a", "skateboard", "."]
+(j0 / jump-03
+      :manner (s0 / skateboard)
+      :direction (d0 / down
+            :op1 (s1 / stair))
+      :ARG0 (b0 / boy
+            :ARG0-of (w0 / wear-01
+                  :ARG1 (s2 / shirt
+                        :mod (b1 / blue)))))

@@ -1,0 +1,4 @@
+(r0 / ride-01
+    :ARG0 (g0 / guy
+              :quant 2)
+    :ARG1 (s0 / scooter))

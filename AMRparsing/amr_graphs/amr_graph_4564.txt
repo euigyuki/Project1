@@ -1,0 +1,11 @@
+# ::snt a baby is taking a bath in a bowl full of water .
+# ::tokens ["a", "baby", "is", "taking", "a", "bath", "in", "a", "bowl", "full", "of", "water", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "VBG", "DT", "NN", "IN", "DT", "NN", "JJ", "IN", "NN", "."]
+# ::lemmas ["a", "baby", "be", "take", "a", "bath", "in", "a", "bowl", "full", "of", "water", "."]
+(b0 / bathe-01
+      :ARG2 (b2 / bowl
+            :ARG1-of (f0 / full-09
+                  :ARG2 (w0 / water)))
+      :ARG0 (b1 / baby))

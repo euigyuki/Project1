@@ -1,0 +1,18 @@
+# ::snt a man in a baseball cap cleans out a blue colored pit outside where colorful christmas lights hang above him .
+(z1 / clean-out-03
+      :ARG0 (z2 / man
+            :ARG0-of (z3 / wear-01
+                  :ARG1 (z4 / cap
+                        :mod (z5 / baseball))))
+      :ARG1 (z6 / pit
+            :location (z7 / outside)
+            :ARG1-of (z8 / color-01
+                  :ARG2 (z9 / blue))
+            :location-of (z10 / hang-01
+                  :ARG1 (z11 / light
+                        :mod (z12 / colorful)
+                        :mod (z13 / festival
+                              :name (z14 / name
+                                    :op1 "Christmas")))
+                  :ARG2 (z15 / above
+                        :op1 z2))))

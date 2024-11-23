@@ -1,0 +1,3 @@
+(s0 / sell-01
+    :ARG0 (w0 / woman)
+    :ARG1 (v0 / vegetable))

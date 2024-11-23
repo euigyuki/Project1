@@ -1,0 +1,15 @@
+# ::snt two young men jumping over two big wood logs .
+# ::tokens ["two", "young", "men", "jumping", "over", "two", "big", "wood", "logs", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "CARDINAL", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "B", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "JJ", "NNS", "VBG", "IN", "CD", "JJ", "NN", "NNS", "."]
+# ::lemmas ["two", "young", "man", "jump", "over", "two", "big", "wood", "log", "."]
+(j0 / jump-03
+      :path (o0 / over
+            :op1 (l0 / log
+                  :quant 2 
+                  :consist-of (w0 / wood)
+                  :mod (b0 / big)))
+      :ARG0 (m0 / man
+            :quant 2 
+            :mod (y0 / young)))

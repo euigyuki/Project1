@@ -1,0 +1,12 @@
+# ::snt a man in a blue canoe battling through rough waves
+# ::tokens ["a", "man", "in", "a", "blue", "canoe", "battling", "through", "rough", "waves"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "DT", "JJ", "NN", "VBG", "IN", "JJ", "NNS"]
+# ::lemmas ["a", "man", "in", "a", "blue", "canoe", "battle", "through", "rough", "wave"]
+(b0 / battle-01
+      :ARG2 (w0 / wave-04
+            :ARG1-of (r0 / rough-04))
+      :ARG0 (m0 / man
+            :prep-in (c0 / canoe
+                  :mod (b1 / blue))))

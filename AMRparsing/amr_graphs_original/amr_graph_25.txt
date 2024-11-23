@@ -1,0 +1,12 @@
+# ::snt several people jogging outside on a sunny day in what seems to be a neighborhood , could be part of a marathon .
+(z1 / possible-01
+      :ARG1 (z2 / participate-01
+            :ARG0 (z3 / jog-01
+                  :ARG0 (z4 / person
+                        :quant (z5 / several))
+                  :location (z6 / outside)
+                  :time (z7 / day
+                        :mod (z8 / sunny))
+                  :location (z9 / neighborhood
+                        :ARG1-of (z10 / seem-01))))
+      :ARG1 (z11 / marathon))

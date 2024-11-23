@@ -1,0 +1,9 @@
+(l0 / look-01
+    :ARG0 (c0 / child
+              :ARG0-of (h0 / have-03
+                           :ARG1 (h1 / hair
+                                     :ARG1-of (b0 / brown)))
+              :mod (y0 / young))
+    :ARG1 (o0 / over
+              :op1 (s0 / shoulder
+                       :part-of (w0 / woman))))

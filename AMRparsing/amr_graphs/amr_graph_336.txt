@@ -1,0 +1,6 @@
+(h0 / hold-01
+    :time (s0 / set-up-03
+              :time (a1 / already)
+              :ARG1 (t1 / tent
+                        :mod (o0 / other)))
+    :ARG1 (t0 / tent))

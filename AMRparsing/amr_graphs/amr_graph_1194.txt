@@ -1,0 +1,15 @@
+# ::snt a young girl makes her way onto red recreational equipment .
+# ::tokens ["a", "young", "girl", "makes", "her", "way", "onto", "red", "recreational", "equipment", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "VBZ", "PRP$", "NN", "IN", "JJ", "JJ", "NN", "."]
+# ::lemmas ["a", "young", "girl", "make", "her", "way", "onto", "red", "recreational", "equipment", "."]
+(m0 / make-18
+      :ARG0 (g0 / girl
+            :poss-of (w0 / way
+                  :destination (o0 / onto
+                        :op1 (e0 / equipment
+                              :purpose (r1 / recreation-02)
+                              :ARG1-of (r0 / red-02))))
+            :mod (y0 / young))
+      :ARG1 w0)

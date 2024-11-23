@@ -1,0 +1,6 @@
+(m0 / market
+    :ARG0-of (h0 / have-03
+                 :ARG1 (a0 / and
+                           :ARG1-of (c0 / color-01)
+                           :op2 (b0 / blanket)
+                           :op1 (f0 / fruit))))

@@ -1,0 +1,12 @@
+# ::snt kids are partying while listening to their ipods .
+# ::tokens ["kids", "are", "partying", "while", "listening", "to", "their", "ipods", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["NNS", "VBP", "VBG", "IN", "VBG", "IN", "PRP$", "NNS", "."]
+# ::lemmas ["kid", "be", "party", "while", "listen", "to", "their", "ipod", "."]
+(p0 / party-01
+      :time (l0 / listen-01
+            :ARG0 (k0 / kid
+                  :poss-of (i0 / ipod))
+            :ARG1 i0)
+      :ARG0 k0)

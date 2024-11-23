@@ -1,0 +1,18 @@
+# ::snt two little black boys are playing with plastic bottles and having a lot of fun .
+# ::tokens ["two", "little", "black", "boys", "are", "playing", "with", "plastic", "bottles", "and", "having", "a", "lot", "of", "fun", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "JJ", "JJ", "NNS", "VBP", "VBG", "IN", "JJ", "NNS", "CC", "VBG", "DT", "NN", "IN", "NN", "."]
+# ::lemmas ["two", "little", "black", "boy", "be", "play", "with", "plastic", "bottle", "and", "have", "a", "lot", "of", "fun", "."]
+(a0 / and
+      :op2 (f0 / fun-01
+            :quant (l0 / lot)
+            :ARG0 b1
+            :ARG1 b0)
+      :op1 (p0 / play-01
+            :ARG0 (b1 / boy
+                  :quant 2 
+                  :ARG1-of (b2 / black-05)
+                  :mod (l1 / little))
+            :ARG1 (b0 / bottle
+                  :consist-of (p1 / plastic))))

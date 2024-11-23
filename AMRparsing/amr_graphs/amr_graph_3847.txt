@@ -1,0 +1,23 @@
+# ::snt a woman in a white shirt and hat , and another woman in a blue tank top with blue visor playing tennis .
+# ::tokens ["a", "woman", "in", "a", "white", "shirt", "and", "hat", ",", "and", "another", "woman", "in", "a", "blue", "tank", "top", "with", "blue", "visor", "playing", "tennis", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "DT", "JJ", "NN", "CC", "NN", ",", "CC", "DT", "NN", "IN", "DT", "JJ", "NN", "NN", "IN", "JJ", "NN", "NN", "NN", "."]
+# ::lemmas ["a", "woman", "in", "a", "white", "shirt", "and", "hat", ",", "and", "another", "woman", "in", "a", "blue", "tank", "top", "with", "blue", "visor", "playing", "tennis", "."]
+(a0 / and
+      :op2 (w1 / woman
+            :ARG0-of (p0 / play-01
+                  :ARG1 (t1 / tennis))
+            :mod (a1 / another))
+      :op1 (w0 / woman
+            :ARG0-of (h1 / have-03
+                  :ARG1 (t0 / top
+                        :mod (v0 / visor
+                              :mod (b1 / blue))
+                        :mod (t2 / tank)
+                        :mod (b0 / blue)))
+            :mod (h0 / have-03
+                  :ARG1 (a2 / and
+                        :ARG1-of (w2 / white-03)
+                        :op2 (h2 / hat)
+                        :op1 (s0 / shirt)))))

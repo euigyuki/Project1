@@ -1,0 +1,16 @@
+# ::snt a mustachioed man sits as two boys stand on either side of him at the entrance to an alley .
+# ::tokens ["a", "mustachioed", "man", "sits", "as", "two", "boys", "stand", "on", "either", "side", "of", "him", "at", "the", "entrance", "to", "an", "alley", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "VBZ", "IN", "CD", "NNS", "VBP", "IN", "DT", "NN", "IN", "PRP", "IN", "DT", "NN", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "mustachioed", "man", "sit", "as", "two", "boy", "stand", "on", "either", "side", "of", "he", "at", "the", "entrance", "to", "an", "alley", "."]
+(s0 / sit-01
+      :ARG2 (s1 / stand-01
+            :ARG2 (e0 / entrance
+                  :part-of (a0 / alley))
+            :ARG1 (b0 / boy
+                  :quant 2 ))
+      :ARG1 (m0 / man
+            :op1-of (s2 / side
+                  :mod (e1 / either))
+            :mod (m1 / mustachioed)))

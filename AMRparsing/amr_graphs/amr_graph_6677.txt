@@ -1,0 +1,18 @@
+# ::snt a blue charter bus driving by a woman in a pink hat making food for her shop .
+# ::tokens ["a", "blue", "charter", "bus", "driving", "by", "a", "woman", "in", "a", "pink", "hat", "making", "food", "for", "her", "shop", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "NN", "VBG", "IN", "DT", "NN", "IN", "DT", "JJ", "NN", "VBG", "NN", "IN", "PRP$", "NN", "."]
+# ::lemmas ["a", "blue", "charter", "bus", "drive", "by", "a", "woman", "in", "a", "pink", "hat", "make", "food", "for", "her", "shop", "."]
+(d0 / drive-01
+      :ARG0 (w0 / woman
+            :ARG0-of (m0 / make-01
+                  :ARG2 (s0 / shop
+                        :poss w0)
+                  :ARG1 (f0 / food))
+            :ARG0-of (h0 / hat
+                  :ARG1-of (p0 / pink-04)))
+      :ARG1 m0
+      :manner (b0 / bus
+            :mod (c0 / charter)
+            :mod (b1 / blue)))

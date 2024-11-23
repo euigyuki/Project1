@@ -1,0 +1,13 @@
+# ::snt A black dog and a spotted dog are fighting
+# ::tokens ["A", "black", "dog", "and", "a", "spotted", "dog", "are", "fighting"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "CC", "DT", "JJ", "NN", "VBP", "VBG"]
+# ::lemmas ["a", "black", "dog", "and", "a", "spotted", "dog", "be", "fight"]
+(f0 / fight-01
+      :ARG0 (a0 / and
+            :op2 (d2 / dog
+                  :ARG1-of (s0 / spot-01))
+            :op2 (d1 / dog)
+            :op1 (d0 / dog
+                  :ARG1-of (b0 / black-04))))

@@ -1,0 +1,13 @@
+# ::snt a man excavating bones and tools from an archaeological site .
+# ::tokens ["a", "man", "excavating", "bones", "and", "tools", "from", "an", "archaeological", "site", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBG", "NNS", "CC", "NNS", "IN", "DT", "JJ", "NN", "."]
+# ::lemmas ["a", "man", "excavate", "bone", "and", "tool", "from", "an", "archaeological", "site", "."]
+(e0 / excavate
+      :source (m0 / man)
+      :source (a0 / and
+            :source (s0 / site
+                  :mod (a1 / archaeological))
+            :op2 (t0 / tool)
+            :op1 (b0 / bone)))

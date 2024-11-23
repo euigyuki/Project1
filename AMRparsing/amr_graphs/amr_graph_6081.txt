@@ -1,0 +1,12 @@
+# ::snt a small child is wearing a blue outfit with blue shoes .
+# ::tokens ["a", "small", "child", "is", "wearing", "a", "blue", "outfit", "with", "blue", "shoes", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "VBZ", "VBG", "DT", "JJ", "NN", "IN", "JJ", "NNS", "."]
+# ::lemmas ["a", "small", "child", "be", "wear", "a", "blue", "outfit", "with", "blue", "shoe", "."]
+(w0 / wear-01
+      :ARG0 (c0 / child
+            :mod (s1 / small))
+      :ARG1 (o0 / outfit
+            :accompanier (s0 / shoe)
+            :mod (b0 / blue)))

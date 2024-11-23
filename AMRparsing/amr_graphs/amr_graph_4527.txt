@@ -1,0 +1,8 @@
+(j0 / jump-03
+    :ARG2 (o0 / off
+              :op1 (s0 / sand))
+    :ARG0 (g0 / girl
+              :ARG0-of (w0 / wear-01
+                           :ARG1 (c0 / coat
+                                     :mod (w1 / winter)))
+              :mod (y0 / young)))

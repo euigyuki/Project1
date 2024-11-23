@@ -1,0 +1,20 @@
+# ::snt a man in blue pants and heavy work boots is cleaning white confetti from a street paved with bricks .
+# ::tokens ["a", "man", "in", "blue", "pants", "and", "heavy", "work", "boots", "is", "cleaning", "white", "confetti", "from", "a", "street", "paved", "with", "bricks", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "JJ", "NNS", "CC", "JJ", "NN", "NNS", "VBZ", "VBG", "JJ", "NN", "IN", "DT", "NN", "VBN", "IN", "NNS", "."]
+# ::lemmas ["a", "man", "in", "blue", "pant", "and", "heavy", "work", "boot", "be", "clean", "white", "confetti", "from", "a", "street", "pave", "with", "brick", "."]
+(c0 / clean-01
+      :source (s0 / street
+            :ARG1-of (p0 / play-11
+                  :ARG2 (b0 / brick)))
+      :ARG0 (m0 / man
+            :ARG0-of (w1 / wear-01
+                  :ARG1 (a0 / and
+                        :op2 (b1 / boot
+                              :mod (w2 / work-01)
+                              :mod (h0 / heavy))
+                        :op1 (p1 / pant
+                              :mod (b2 / blue)))))
+      :ARG1 (c1 / confetti
+            :ARG1-of (w0 / white-03)))

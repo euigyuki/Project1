@@ -1,0 +1,11 @@
+# ::snt a man in all blue making sparks .
+# ::tokens ["a", "man", "in", "all", "blue", "making", "sparks", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "DT", "JJ", "NN", "NNS", "."]
+# ::lemmas ["a", "man", "in", "all", "blue", "making", "spark", "."]
+(m0 / man
+      :ARG0-of (m1 / make-01
+            :ARG1 (s0 / spark-01)
+            :ARG2 (b0 / blue
+                  :degree (a0 / all))))

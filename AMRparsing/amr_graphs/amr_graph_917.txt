@@ -1,0 +1,12 @@
+# ::snt a young girl peers through the green foliage .
+# ::tokens ["a", "young", "girl", "peers", "through", "the", "green", "foliage", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "NNS", "IN", "DT", "JJ", "NN", "."]
+# ::lemmas ["a", "young", "girl", "peer", "through", "the", "green", "foliage", "."]
+(p0 / pee-01
+      :path (t0 / through
+            :op1 (f0 / foliage
+                  :ARG1-of (g1 / green-02)))
+      :ARG0 (g0 / girl
+            :mod (y0 / young)))

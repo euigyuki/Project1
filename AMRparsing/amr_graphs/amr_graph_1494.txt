@@ -1,0 +1,12 @@
+# ::snt three friends enjoying the water .
+# ::tokens ["three", "friends", "enjoying", "the", "water", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "VBG", "DT", "NN", "."]
+# ::lemmas ["three", "friend", "enjoy", "the", "water", "."]
+(e0 / enjoy-01
+      :ARG0 (p0 / person
+            :quant 3 
+            :ARG0-of (h0 / have-rel-role-91
+                  :ARG2 (f0 / friend)))
+      :ARG1 (w0 / water))

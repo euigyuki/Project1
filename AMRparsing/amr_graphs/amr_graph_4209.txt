@@ -1,0 +1,6 @@
+(s0 / smile-01
+    :ARG2 (l0 / life)
+    :ARG0 (a0 / and
+              :op2 (g0 / guitar
+                       :poss (m0 / man))
+              :op1 m0))

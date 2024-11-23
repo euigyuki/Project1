@@ -1,0 +1,6 @@
+(p0 / process-02
+    :ARG0 (c0 / child
+              :ARG0-of (j0 / jump-03
+                           :ARG2 (p1 / pool)
+                           :ARG1-of p0)
+              :quant 3))

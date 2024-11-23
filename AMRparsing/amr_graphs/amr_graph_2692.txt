@@ -1,0 +1,14 @@
+# ::snt the little girl is sleeping while hugging her blue bag .
+# ::tokens ["the", "little", "girl", "is", "sleeping", "while", "hugging", "her", "blue", "bag", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "VBZ", "VBG", "IN", "VBG", "PRP$", "JJ", "NN", "."]
+# ::lemmas ["the", "little", "girl", "be", "sleep", "while", "hug", "her", "blue", "bag", "."]
+(s0 / sleep-01
+      :time (h0 / hug-01
+            :ARG0 (g0 / girl
+                  :poss-of (b0 / bag
+                        :mod (b1 / blue))
+                  :mod (l0 / little))
+            :ARG1 b0)
+      :ARG0 g0)

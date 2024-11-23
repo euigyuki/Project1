@@ -1,0 +1,5 @@
+(d0 / do-02
+    :ARG0 (b0 / boy
+              :poss-of (c0 / canoe)
+              :mod (y0 / young))
+    :ARG1 (h0 / handstand))

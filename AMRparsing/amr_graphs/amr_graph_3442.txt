@@ -1,0 +1,6 @@
+(w0 / walk-01
+    :ARG0 (a0 / and
+              :op2 (c1 / child)
+              :op2 (h0 / hold-01
+                       :ARG1 (h2 / hand))
+              :op1 (w1 / woman)))

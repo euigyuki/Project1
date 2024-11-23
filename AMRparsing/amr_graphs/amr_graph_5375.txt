@@ -1,0 +1,4 @@
+(p0 / person
+    :ARG0-of (h0 / have-org-role-91
+                 :ARG2 (t0 / technician))
+    :mod (w0 / work-01))

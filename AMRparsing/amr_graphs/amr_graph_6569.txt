@@ -1,0 +1,11 @@
+# ::snt a man wearing a hat trimming a plant .
+# ::tokens ["a", "man", "wearing", "a", "hat", "trimming", "a", "plant", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBG", "DT", "NN", "VBG", "DT", "NN", "."]
+# ::lemmas ["a", "man", "wear", "a", "hat", "trim", "a", "plant", "."]
+(t0 / trim
+      :mod (p0 / plant)
+      :domain (m0 / man
+            :ARG0-of (w0 / wear-01
+                  :ARG1 (h0 / hat))))

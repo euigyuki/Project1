@@ -1,0 +1,4 @@
+(s0 / sit-01
+    :ARG1 (g0 / gentleman
+              :age (t0 / temporal-quantity
+                       :mod (m0 / middle))))

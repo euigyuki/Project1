@@ -1,0 +1,22 @@
+# ::snt two men in orange vests and hard hats are at a parking garage in the uk standing by a post .
+# ::tokens ["two", "men", "in", "orange", "vests", "and", "hard", "hats", "are", "at", "a", "parking", "garage", "in", "the", "uk", "standing", "by", "a", "post", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "GPE", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "IN", "JJ", "NNS", "CC", "JJ", "NNS", "VBP", "IN", "DT", "NN", "NN", "IN", "DT", "NNP", "VBG", "IN", "DT", "NN", "."]
+# ::lemmas ["two", "man", "in", "orange", "vest", "and", "hard", "hat", "be", "at", "a", "parking", "garage", "in", "the", "uk", "stand", "by", "a", "post", "."]
+(b0 / be-located-at-91
+      :ARG2 (g0 / garage
+            :location (c0 / country
+                  :name (n0 / name
+                        :op1 "China" ))
+            :location (p0 / park-01))
+      :ARG1 (m0 / man
+            :quant 2 
+            :ARG0-of (w0 / wear-01
+                  :ARG1 (a0 / and
+                        :op2 (h0 / hat
+                              :mod (h1 / hard))
+                        :op1 (v0 / vest
+                              :mod (o0 / orange))))
+            :ARG1-of (s0 / stand-01
+                  :ARG2 (p1 / post))))

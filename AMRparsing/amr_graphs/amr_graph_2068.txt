@@ -1,0 +1,14 @@
+# ::snt a woman with a helmet and climbing rope smiles at the camera .
+# ::tokens ["a", "woman", "with", "a", "helmet", "and", "climbing", "rope", "smiles", "at", "the", "camera", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "DT", "NN", "CC", "VBG", "NN", "VBZ", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "woman", "with", "a", "helmet", "and", "climb", "rope", "smile", "at", "the", "camera", "."]
+(s0 / smile-01
+      :ARG2 (c0 / camera)
+      :ARG0 (w0 / woman
+            :ARG0-of (h0 / have-03
+                  :ARG1 (a0 / and
+                        :op2 (r0 / rope
+                              :mod (c1 / climb-01))
+                        :op1 (h1 / helmet)))))

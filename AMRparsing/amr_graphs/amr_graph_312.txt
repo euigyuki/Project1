@@ -1,0 +1,15 @@
+(l0 / look-01
+    :direction (o0 / out
+                   :op1 (w1 / window
+                            :poss s0))
+    :ARG0 (s0 / someone
+              :ARG0-of (w0 / watch-01
+                           :ARG1 (a0 / and
+                                     :op2 (d1 / drive-01
+                                              :destination (h0 / house
+                                                               :mod (n0 / next)))
+                                     :op1 (d0 / deliver-01
+                                              :ARG0 (m1 / mailman
+                                                        :ARG0-of (m0 / mail-01))
+                                              :ARG1 m0))))
+    :ARG1 w0)

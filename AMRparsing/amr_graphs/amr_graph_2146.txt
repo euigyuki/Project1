@@ -1,0 +1,20 @@
+(w0 / walk-01
+    :ARG0 (a0 / and
+              :op3 (c0 / clothes
+                       :ARG1-of (g0 / gray-02))
+              :op2 (f0 / female
+                       :ARG1-of (w1 / white-02)
+                       :quant 1)
+              :op2 (a3 / adult
+                       :ARG0-of (h0 / have-03
+                                    :ARG1 (f1 / foreground)
+                                    :topic-of (i0 / image
+                                                  :ARG1-of (b0 / blur-01)
+                                                  :mod (p0 / person
+                                                           :ARG1-of (r1 / red-02)
+                                                           :ARG0-of (r0 / red-02)
+                                                           :mod (c1 / color-01)))))
+              :op1 (a2 / adult
+                       :quant (a4 / away
+                                  :op1 (e0 / eatery))
+                       :quant 2)))

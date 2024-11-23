@@ -1,0 +1,27 @@
+# ::snt a man with medium length hair , wearing a red beanie and blue shorts with no shirt , on one knee at the beach , sculpting a sand castle with a trough .
+# ::tokens ["a", "man", "with", "medium", "length", "hair", ",", "wearing", "a", "red", "beanie", "and", "blue", "shorts", "with", "no", "shirt", ",", "on", "one", "knee", "at", "the", "beach", ",", "sculpting", "a", "sand", "castle", "with", "a", "trough", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "JJ", "NN", "NN", ",", "VBG", "DT", "JJ", "NN", "CC", "JJ", "NNS", "IN", "DT", "NN", ",", "IN", "CD", "NN", "IN", "DT", "NN", ",", "VBG", "DT", "NN", "NN", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "man", "with", "medium", "length", "hair", ",", "wear", "a", "red", "beanie", "and", "blue", "short", "with", "no", "shirt", ",", "on", "one", "knee", "at", "the", "beach", ",", "sculpt", "a", "sand", "castle", "with", "a", "trough", "."]
+(a0 / and
+      :op3 (m0 / man
+            :ARG0-of (h0 / have-03
+                  :ARG1 (h1 / hair
+                        :ARG1-of (l0 / long-03
+                              :ARG2 (m1 / medium))))
+            :ARG1-of (w0 / wear-01
+                  :ARG1 (a1 / and
+                        :op3 (s2 / shirt)
+                        :op2 (s1 / short-07
+                              :mod (b3 / blue))
+                        :op1 (b2 / beanie
+                              :ARG1-of (r0 / red-02)))))
+      :op2 (c0 / climb-01
+            :ARG1 (t0 / trough)
+            :ARG2 (c1 / castle
+                  :consist-of (s0 / sand)))
+      :op1 (b0 / be-located-at-91
+            :ARG2 (k0 / knee
+                  :part-of (b1 / beach)
+                  :quant 1 )))

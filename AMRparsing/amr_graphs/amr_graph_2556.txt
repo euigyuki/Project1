@@ -1,0 +1,7 @@
+(i0 / image
+    :consist-of (w0 / woman
+                    :mod (c0 / country
+                             :name (n0 / name
+                                       :op1 "India"))
+                    :ARG1-of (s0 / sit-01))
+    :domain (t0 / this))

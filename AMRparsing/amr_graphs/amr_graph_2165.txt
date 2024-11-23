@@ -1,0 +1,12 @@
+# ::snt two women in matching uniforms are waving .
+# ::tokens ["two", "women", "in", "matching", "uniforms", "are", "waving", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "IN", "NN", "NNS", "VBP", "VBG", "."]
+# ::lemmas ["two", "woman", "in", "matching", "uniform", "be", "wave", "."]
+(w0 / wave-01
+      :ARG0 (w1 / woman
+            :quant 2 
+            :ARG0-of (h0 / have-03
+                  :ARG1 (u0 / uniform
+                        :ARG1-of (a0 / attach-01)))))

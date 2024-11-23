@@ -1,0 +1,15 @@
+# ::snt boy in red jumping forward on sand , hill in background .
+# ::tokens ["boy", "in", "red", "jumping", "forward", "on", "sand", ",", "hill", "in", "background", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["NN", "IN", "JJ", "VBG", "RB", "IN", "NN", ",", "NN", "IN", "NN", "."]
+# ::lemmas ["boy", "in", "red", "jump", "forward", "on", "sand", ",", "hill", "in", "background", "."]
+(a0 / and
+      :op2 (b0 / be-located-at-91
+            :ARG2 (b2 / background)
+            :ARG1 (h0 / hill))
+      :op1 (j0 / jump-03
+            :manner (s0 / sand)
+            :direction (f0 / forward)
+            :ARG0 (b1 / boy
+                  :ARG1-of (r0 / red-02))))

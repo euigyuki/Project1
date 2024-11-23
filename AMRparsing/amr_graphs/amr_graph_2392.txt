@@ -1,0 +1,17 @@
+# ::snt three people hiking up a mountain with a river and other mountains in the background .
+# ::tokens ["three", "people", "hiking", "up", "a", "mountain", "with", "a", "river", "and", "other", "mountains", "in", "the", "background", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "VBG", "RP", "DT", "NN", "IN", "DT", "NN", "CC", "JJ", "NNS", "IN", "DT", "NN", "."]
+# ::lemmas ["three", "people", "hike", "up", "a", "mountain", "with", "a", "river", "and", "other", "mountain", "in", "the", "background", "."]
+(h0 / hike-02
+      :direction (h1 / have-03
+            :ARG1 (a0 / and
+                  :op2 (m1 / mountain
+                        :mod (o0 / other))
+                  :op1 (r0 / river)))
+      :ARG2 (u0 / up
+            :op1 (m0 / mountain
+                  :part (b0 / background)))
+      :ARG1 (p0 / person
+            :quant 3 ))

@@ -1,0 +1,14 @@
+# ::snt a man playing his guitar on a beautiful sunday morning .
+# ::tokens ["a", "man", "playing", "his", "guitar", "on", "a", "beautiful", "sunday", "morning", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "DATE", "TIME", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "B", "B", "O"]
+# ::pos_tags ["DT", "NN", "VBG", "PRP$", "NN", "IN", "DT", "JJ", "NNP", "NN", "."]
+# ::lemmas ["a", "man", "play", "his", "guitar", "on", "a", "beautiful", "sunday", "morning", "."]
+(p0 / play-11
+      :time (d0 / date-entity
+            :dayperiod (m1 / morning)
+            :dayperiod (b0 / beautiful-02)
+            :mod (s0 / sunday))
+      :ARG0 (m0 / man
+            :poss-of (g0 / guitar))
+      :ARG1 g0)

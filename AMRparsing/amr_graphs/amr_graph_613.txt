@@ -1,0 +1,15 @@
+# ::snt a boy wearing a bathing suit is doing a handstand while in a canoe .
+# ::tokens ["a", "boy", "wearing", "a", "bathing", "suit", "is", "doing", "a", "handstand", "while", "in", "a", "canoe", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBG", "DT", "NN", "NN", "VBZ", "VBG", "DT", "NN", "IN", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "boy", "wear", "a", "bathing", "suit", "be", "do", "a", "handstand", "while", "in", "a", "canoe", "."]
+(d0 / do-02
+      :time (b1 / be-located-at-91
+            :ARG1 (b0 / boy
+                  :ARG0-of (w0 / wear-01
+                        :ARG1 (s0 / suit
+                              :mod (b2 / bathe-01))))
+            :ARG2 (c0 / canoe))
+      :ARG0 b0
+      :ARG1 (h0 / handstand))

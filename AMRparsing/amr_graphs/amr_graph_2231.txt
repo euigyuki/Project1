@@ -1,0 +1,5 @@
+(r0 / ready-01
+    :ARG1 (p0 / person
+              :ARG0-of (c0 / compete-01)
+              :ARG0-of (c1 / compete-01))
+    :ARG2 c0)

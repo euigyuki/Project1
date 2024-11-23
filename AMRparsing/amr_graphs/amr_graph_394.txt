@@ -1,0 +1,15 @@
+# ::snt a young child with brown hair looks over the shoulder of a woman .
+# ::tokens ["a", "young", "child", "with", "brown", "hair", "looks", "over", "the", "shoulder", "of", "a", "woman", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "IN", "JJ", "NN", "VBZ", "IN", "DT", "NN", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "young", "child", "with", "brown", "hair", "look", "over", "the", "shoulder", "of", "a", "woman", "."]
+(l0 / look-01
+      :ARG0 (c0 / child
+            :ARG0-of (h0 / have-03
+                  :ARG1 (h1 / hair
+                        :ARG1-of (b0 / brown)))
+            :mod (y0 / young))
+      :ARG1 (o0 / over
+            :op1 (s0 / shoulder
+                  :part-of (w0 / woman))))

@@ -1,0 +1,15 @@
+# ::snt a man is watching a younger man shave with an electric razor .
+# ::tokens ["a", "man", "is", "watching", "a", "younger", "man", "shave", "with", "an", "electric", "razor", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "VBG", "DT", "JJR", "NN", "VB", "IN", "DT", "JJ", "NN", "."]
+# ::lemmas ["a", "man", "be", "watch", "a", "young", "man", "shave", "with", "an", "electric", "razor", "."]
+(w0 / watch-01
+      :ARG0 (m0 / man)
+      :ARG1 (s0 / shave-01
+            :instrument (r0 / razor
+                  :mod (e0 / electric))
+            :ARG0 (m1 / man
+                  :ARG1-of (h0 / have-degree-91
+                        :ARG3 (m2 / more)
+                        :ARG2 (y0 / young)))))

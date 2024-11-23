@@ -1,0 +1,5 @@
+(w0 / walk-01
+    :manner (t0 / together)
+    :ARG0 (d0 / dog
+              :mod (l0 / large)
+              :quant 2))

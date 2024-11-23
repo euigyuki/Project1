@@ -1,0 +1,18 @@
+# ::snt a man in a green shirt , shorts and sandals plays an electric guitar for a curious toddler .
+# ::tokens ["a", "man", "in", "a", "green", "shirt", ",", "shorts", "and", "sandals", "plays", "an", "electric", "guitar", "for", "a", "curious", "toddler", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "DT", "JJ", "NN", ",", "NNS", "CC", "NNS", "VBZ", "DT", "JJ", "NN", "IN", "DT", "JJ", "NN", "."]
+# ::lemmas ["a", "man", "in", "a", "green", "shirt", ",", "short", "and", "sandal", "play", "an", "electric", "guitar", "for", "a", "curious", "toddler", "."]
+(p0 / play-11
+      :ARG2 (t0 / toddler
+            :ARG1-of (c0 / curious-01))
+      :ARG0 (m0 / man
+            :ARG0-of (w0 / wear-01
+                  :ARG1 (a0 / and
+                        :op3 (s2 / sandal)
+                        :op2 (s1 / short-07)
+                        :op1 (s0 / shirt
+                              :ARG1-of (g1 / green-02)))))
+      :ARG1 (g0 / guitar
+            :mod (e0 / electric)))

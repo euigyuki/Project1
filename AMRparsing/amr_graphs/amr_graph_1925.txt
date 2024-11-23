@@ -1,0 +1,11 @@
+# ::snt workers fix train tracks .
+# ::tokens ["workers", "fix", "train", "tracks", "."]
+# ::ner_tags ["O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O"]
+# ::pos_tags ["NNS", "VBP", "NN", "NNS", "."]
+# ::lemmas ["worker", "fix", "train", "track", "."]
+(f0 / fix-02
+      :ARG0 (p0 / person
+            :ARG0-of (w0 / work-01))
+      :ARG1 (t0 / track
+            :mod (t1 / train)))

@@ -1,0 +1,16 @@
+# ::snt construction workers in hard hats working with heavy machinery on train tracks .
+# ::tokens ["construction", "workers", "in", "hard", "hats", "working", "with", "heavy", "machinery", "on", "train", "tracks", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["NN", "NNS", "IN", "JJ", "NNS", "VBG", "IN", "JJ", "NN", "IN", "NN", "NNS", "."]
+# ::lemmas ["construction", "worker", "in", "hard", "hat", "work", "with", "heavy", "machinery", "on", "train", "track", "."]
+(w0 / work-01
+      :manner (h0 / hat
+            :mod (h1 / hard))
+      :ARG2 (t0 / track
+            :mod (t1 / train))
+      :ARG0 (p0 / person
+            :ARG0-of (c0 / construct-01)
+            :mod (w1 / work-01
+                  :ARG2 (m0 / machinery
+                        :mod (h2 / heavy)))))

@@ -1,0 +1,13 @@
+# ::snt a child wearing a yellow jacket is jumping down from a rock .
+# ::tokens ["a", "child", "wearing", "a", "yellow", "jacket", "is", "jumping", "down", "from", "a", "rock", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBG", "DT", "JJ", "NN", "VBZ", "VBG", "RP", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "child", "wear", "a", "yellow", "jacket", "be", "jump", "down", "from", "a", "rock", "."]
+(j0 / jump-03
+      :source (r0 / rock)
+      :direction (d0 / down)
+      :ARG0 (c0 / child
+            :ARG0-of (w0 / wear-01
+                  :ARG1 (j1 / jacket
+                        :mod (y0 / yellow)))))

@@ -1,0 +1,14 @@
+# ::snt a skateboarder in gray clothes jumps over a boot in front of an apartment .
+# ::tokens ["a", "skateboarder", "in", "gray", "clothes", "jumps", "over", "a", "boot", "in", "front", "of", "an", "apartment", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "JJ", "NNS", "VBZ", "IN", "DT", "NN", "IN", "NN", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "skateboarder", "in", "gray", "clothe", "jump", "over", "a", "boot", "in", "front", "of", "an", "apartment", "."]
+(j0 / jump-on-bandwagon-09
+      :ARG0 (p0 / person
+            :ARG0-of (w0 / wash-01
+                  :ARG1 (s0 / story))
+            :mod (c0 / clothe-01
+                  :ARG1-of (g0 / gray-02)))
+      :ARG1 (i0 / in-front-of
+            :op1 (a0 / apartment)))

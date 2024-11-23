@@ -1,0 +1,11 @@
+# ::snt a woman in a yellow hat is talking .
+# ::tokens ["a", "woman", "in", "a", "yellow", "hat", "is", "talking", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "DT", "JJ", "NN", "VBZ", "VBG", "."]
+# ::lemmas ["a", "woman", "in", "a", "yellow", "hat", "be", "talk", "."]
+(t0 / talk-01
+      :ARG0 (w0 / woman
+            :ARG0-of (h0 / have-03
+                  :ARG1 (h1 / hat
+                        :mod (y0 / yellow)))))

@@ -1,0 +1,15 @@
+# ::snt a toddler boy asleep face down cuddling a stuffed animal .
+# ::tokens ["a", "toddler", "boy", "asleep", "face", "down", "cuddling", "a", "stuffed", "animal", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "NN", "JJ", "VBP", "RP", "VBG", "DT", "VBN", "NN", "."]
+# ::lemmas ["a", "toddler", "boy", "asleep", "face", "down", "cuddle", "a", "stuff", "animal", "."]
+(s0 / sleep-01
+      :ARG0 (b0 / boy
+            :ARG0-of (f1 / face
+                  :part-of (a0 / animal
+                        :ARG1-of (s1 / stuff-01)))
+            :mod (t0 / toddler)
+            :mod (d1 / down))
+      :manner (f0 / face
+            :mod (d0 / down)))

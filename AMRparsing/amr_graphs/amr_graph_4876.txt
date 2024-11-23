@@ -1,0 +1,16 @@
+# ::snt a young pitcher , wearing a maroon shirt and hat , has just thrown a pitch .
+# ::tokens ["a", "young", "pitcher", ",", "wearing", "a", "maroon", "shirt", "and", "hat", ",", "has", "just", "thrown", "a", "pitch", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", ",", "VBG", "DT", "NN", "NN", "CC", "NN", ",", "VBZ", "RB", "VBN", "DT", "NN", "."]
+# ::lemmas ["a", "young", "pitcher", ",", "wear", "a", "maroon", "shirt", "and", "hat", ",", "have", "just", "throw", "a", "pitch", "."]
+(t0 / throw-01
+      :time (j0 / just)
+      :ARG0 (p1 / pitcher
+            :ARG0-of (w0 / wear-01
+                  :ARG1 (a0 / and
+                        :op2 (h0 / hat)
+                        :op1 (s0 / shirt
+                              :mod (m0 / maroon))))
+            :mod (y0 / young))
+      :ARG1 (p0 / pitch))

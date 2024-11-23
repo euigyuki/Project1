@@ -1,0 +1,4 @@
+(c0 / catch-01
+    :ARG0 (d0 / dog
+              :mod (b1 / brown))
+    :ARG1 (b0 / ball))

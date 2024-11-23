@@ -1,0 +1,6 @@
+(o0 / or
+    :op2 (s1 / sit-01
+             :ARG1 (p0 / person
+                       :quant (b0 / bunch)))
+    :op1 (s0 / stand-01
+             :ARG1 p0))

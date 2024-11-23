@@ -1,0 +1,15 @@
+# ::snt two young children dressed in red soccer uniforms are enjoying the game .
+# ::tokens ["two", "young", "children", "dressed", "in", "red", "soccer", "uniforms", "are", "enjoying", "the", "game", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "JJ", "NNS", "VBN", "IN", "JJ", "NN", "NNS", "VBP", "VBG", "DT", "NN", "."]
+# ::lemmas ["two", "young", "child", "dress", "in", "red", "soccer", "uniform", "be", "enjoy", "the", "game", "."]
+(e0 / enjoy-01
+      :ARG0 (c0 / child
+            :quant 2 
+            :ARG1-of (d0 / dress-01
+                  :ARG2 (u0 / uniform
+                        :ARG1-of (r0 / red-02)
+                        :mod (s0 / soccer)))
+            :mod (y0 / young))
+      :ARG1 (g0 / game))

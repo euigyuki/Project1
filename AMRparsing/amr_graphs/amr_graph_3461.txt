@@ -1,0 +1,15 @@
+# ::snt woman wearing a dark blue hat in the middle of a bunch of vegetables .
+# ::tokens ["woman", "wearing", "a", "dark", "blue", "hat", "in", "the", "middle", "of", "a", "bunch", "of", "vegetables", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["NN", "VBG", "DT", "JJ", "JJ", "NN", "IN", "DT", "NN", "IN", "DT", "NN", "IN", "NNS", "."]
+# ::lemmas ["woman", "wear", "a", "dark", "blue", "hat", "in", "the", "middle", "of", "a", "bunch", "of", "vegetable", "."]
+(b0 / be-located-at-91
+      :ARG2 (m0 / middle
+            :part-of (v0 / vegetable
+                  :quant (b1 / bunch)))
+      :ARG1 (w0 / woman
+            :ARG0-of (w1 / wear-01
+                  :ARG1 (h0 / hat
+                        :ARG1-of (d0 / dark-02)
+                        :mod (b2 / blue)))))

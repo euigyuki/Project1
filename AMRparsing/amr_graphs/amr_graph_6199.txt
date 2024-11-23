@@ -1,0 +1,3 @@
+(p0 / pose-01
+    :ARG0 (w0 / woman
+              :quant 2))

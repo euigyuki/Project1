@@ -1,0 +1,13 @@
+# ::snt two men on different soccer teams are playing for the ball .
+# ::tokens ["two", "men", "on", "different", "soccer", "teams", "are", "playing", "for", "the", "ball", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "IN", "JJ", "NN", "NNS", "VBP", "VBG", "IN", "DT", "NN", "."]
+# ::lemmas ["two", "man", "on", "different", "soccer", "team", "be", "play", "for", "the", "ball", "."]
+(p0 / play-01
+      :ARG0 (m0 / man
+            :poss (t0 / team
+                  :ARG1-of (d0 / differ-02)
+                  :mod (s0 / soccer))
+            :quant 2 )
+      :ARG1 (b0 / ball))

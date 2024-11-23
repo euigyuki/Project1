@@ -1,0 +1,2 @@
+(h0 / hike-02
+    :ARG1 (s0 / someone))

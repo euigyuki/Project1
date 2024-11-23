@@ -1,0 +1,9 @@
+# ::snt a boy is running with a baton .
+# ::tokens ["a", "boy", "is", "running", "with", "a", "baton", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "VBG", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "boy", "be", "run", "with", "a", "baton", "."]
+(r0 / run-02
+      :accompanier (b1 / baton)
+      :ARG0 (b0 / boy))

@@ -1,0 +1,16 @@
+# ::snt a group of women dressed in black playing musical instruments in front of a large building .
+# ::tokens ["a", "group", "of", "women", "dressed", "in", "black", "playing", "musical", "instruments", "in", "front", "of", "a", "large", "building", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "NNS", "VBN", "IN", "JJ", "VBG", "JJ", "NNS", "IN", "NN", "IN", "DT", "JJ", "NN", "."]
+# ::lemmas ["a", "group", "of", "woman", "dress", "in", "black", "play", "musical", "instrument", "in", "front", "of", "a", "large", "building", "."]
+(b0 / be-located-at-91
+      :ARG2 (i0 / in-front-of
+            :op1 (b1 / building
+                  :mod (l0 / large)))
+      :ARG1 (g0 / group
+            :consist-of (w0 / woman
+                  :ARG1-of (d0 / dress-01
+                        :ARG2 (i1 / instrument
+                              :mod (m0 / music)
+                              :ARG1-of (b2 / black-04))))))

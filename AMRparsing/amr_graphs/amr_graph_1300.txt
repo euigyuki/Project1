@@ -1,0 +1,13 @@
+# ::snt two men in safety harnesses work together .
+# ::tokens ["two", "men", "in", "safety", "harnesses", "work", "together", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "IN", "NN", "NNS", "VBP", "RB", "."]
+# ::lemmas ["two", "man", "in", "safety", "harness", "work", "together", "."]
+(w0 / work-01
+      :mod (t0 / together)
+      :ARG0 (m0 / man
+            :quant 2 
+            :ARG0-of (h0 / have-03
+                  :ARG1 (h1 / harness
+                        :purpose (s0 / safe-01)))))

@@ -1,0 +1,9 @@
+# ::snt man scales rock .
+# ::tokens ["man", "scales", "rock", "."]
+# ::ner_tags ["O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O"]
+# ::pos_tags ["NN", "VBZ", "NN", "."]
+# ::lemmas ["man", "scale", "rock", "."]
+(s0 / scale-01
+      :ARG0 (m0 / man)
+      :ARG1 (r0 / rock))

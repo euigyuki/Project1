@@ -1,0 +1,4 @@
+(s0 / stand-01
+    :ARG1 (p0 / person
+              :ARG0-of (c0 / clothe-01)
+              :quant 3))

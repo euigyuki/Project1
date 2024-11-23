@@ -1,0 +1,6 @@
+(a0 / and
+    :op2 (c0 / crawl-01
+             :ARG0 (s1 / snake))
+    :op1 (s0 / sit-01
+             :ARG2 (b0 / blanket
+                       :mod (b1 / blue))))

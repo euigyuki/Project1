@@ -1,0 +1,5 @@
+(l0 / leap-03
+    :ARG0 (c0 / child)
+    :ARG1 (b0 / bed)
+    :destination (o0 / onto
+                     :op1 (t0 / toy)))

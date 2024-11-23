@@ -1,0 +1,12 @@
+# ::snt the bellingham high school band performing .
+# ::tokens ["the", "bellingham", "high", "school", "band", "performing", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NNP", "NNP", "NN", "NN", "VBG", "."]
+# ::lemmas ["the", "bellingham", "high", "school", "band", "perform", "."]
+(p0 / perform-01
+      :ARG0 (b0 / band
+            :mod (h0 / high-school
+                  :location (c0 / city
+                        :name (n0 / name
+                              :op1 "bellingham" )))))

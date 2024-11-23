@@ -1,0 +1,12 @@
+# ::snt a group of people in a modern-looking casual restaurant .
+# ::tokens ["a", "group", "of", "people", "in", "a", "modern", "-", "looking", "casual", "restaurant", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "NNS", "IN", "DT", "JJ", "HYPH", "VBG", "JJ", "NN", "."]
+# ::lemmas ["a", "group", "of", "people", "in", "a", "modern", "-", "look", "casual", "restaurant", "."]
+(g0 / group
+      :consist-of (p0 / person)
+      :consist-of (r0 / restaurant
+            :ARG0-of (l0 / look-02
+                  :ARG1 (m0 / modern-02))
+            :mod (c0 / casual)))

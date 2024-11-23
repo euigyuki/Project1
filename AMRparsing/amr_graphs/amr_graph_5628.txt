@@ -1,0 +1,4 @@
+(p0 / person
+    :ARG0-of (l0 / look-01
+                 :ARG1 (a0 / around
+                           :op1 (s0 / sell-01))))

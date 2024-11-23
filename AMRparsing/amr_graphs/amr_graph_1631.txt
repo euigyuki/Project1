@@ -1,0 +1,21 @@
+# ::snt man with white covering on is face spraying water on a mound of sand with a heart drawn that says open up .
+# ::tokens ["man", "with", "white", "covering", "on", "is", "face", "spraying", "water", "on", "a", "mound", "of", "sand", "with", "a", "heart", "drawn", "that", "says", "open", "up", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["NN", "IN", "JJ", "NN", "IN", "VBZ", "VBP", "VBG", "NN", "IN", "DT", "NN", "IN", "NN", "IN", "DT", "NN", "VBN", "WDT", "VBZ", "VB", "RP", "."]
+# ::lemmas ["man", "with", "white", "covering", "on", "be", "face", "spray", "water", "on", "a", "mound", "of", "sand", "with", "a", "heart", "draw", "that", "say", "open", "up", "."]
+(a0 / and
+      :op2 (s0 / spray-01
+            :ARG2 (m1 / mound
+                  :consist-of (s1 / sand))
+            :ARG1 (w0 / water))
+      :op1 (h0 / have-03
+            :ARG1 (c0 / covering
+                  :ARG1-of (w1 / white-03))
+            :ARG0 (m0 / man
+                  :ARG0-of (h1 / have-03
+                        :ARG1 (t0 / thing
+                              :ARG0-of (s2 / say-01
+                                    :ARG1 (o0 / open-up-03))
+                              :ARG1-of (r0 / read-01
+                                    :ARG1 (h2 / heart)))))))

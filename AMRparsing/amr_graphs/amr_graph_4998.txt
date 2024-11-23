@@ -1,0 +1,14 @@
+# ::snt a man in khaki 's is building a structure from rocks .
+# ::tokens ["a", "man", "in", "khaki", "'s", "is", "building", "a", "structure", "from", "rocks", "."]
+# ::ner_tags ["O", "O", "O", "ORG", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "B", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "NNP", "POS", "VBZ", "VBG", "DT", "NN", "IN", "NNS", "."]
+# ::lemmas ["a", "man", "in", "khaki", "'s", "be", "build", "a", "structure", "from", "rock", "."]
+(b0 / build-01
+      :ARG2 (r0 / rock)
+      :ARG0 (m0 / man
+            :mod (w0 / wear-01
+                  :ARG1 (c0 / criminal-organization
+                        :name (n0 / name
+                              :op1 "khaki" ))))
+      :ARG1 (s0 / structure))

@@ -1,0 +1,19 @@
+(c0 / contrast-01
+    :ARG1 (g0 / go-02
+              :ARG0 (a0 / and
+                        :op2 (p2 / person
+                                 :mod (t0 / team
+                                          :ARG1-of (r0 / red-02))
+                                 :ARG0-of (p3 / play-01))
+                        :op1 (p1 / person
+                                 :ARG0-of (w1 / wear-01
+                                              :ARG1 (w2 / white-03)
+                                              :ARG0 (o0 / other))
+                                 :quant 1))
+              :ARG1 (b1 / ball))
+    :ARG2 (w0 / watch-01
+              :ARG0 (p0 / person
+                        :quant (i0 / include-91)
+                        :quant 2)
+              :ARG1 (b0 / ball
+                        :mod (s0 / soccer))))

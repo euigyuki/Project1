@@ -1,0 +1,11 @@
+# ::snt a girl climbing a chain link fence .
+# ::tokens ["a", "girl", "climbing", "a", "chain", "link", "fence", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBG", "DT", "NN", "NN", "NN", "."]
+# ::lemmas ["a", "girl", "climb", "a", "chain", "link", "fence", "."]
+(c0 / climb-01
+      :ARG0 (g0 / girl)
+      :ARG1 (f0 / fence
+            :mod (l0 / link-01
+                  :mod (c1 / chain))))

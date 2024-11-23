@@ -1,0 +1,15 @@
+# ::snt friends hanging out and having a few beers .
+# ::tokens ["friends", "hanging", "out", "and", "having", "a", "few", "beers", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["NNS", "VBG", "RP", "CC", "VBG", "DT", "JJ", "NNS", "."]
+# ::lemmas ["friend", "hang", "out", "and", "have", "a", "few", "beer", "."]
+(a0 / and
+      :op2 (h1 / have-03
+            :ARG1 (b0 / beer
+                  :quant (f0 / few))
+            :ARG0 p0)
+      :op1 (h0 / hang-out-06
+            :ARG1 (p0 / person
+                  :ARG0-of (h2 / have-rel-role-91
+                        :ARG2 (f1 / friend)))))

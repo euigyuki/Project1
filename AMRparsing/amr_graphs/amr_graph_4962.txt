@@ -1,0 +1,6 @@
+(r0 / ready-01
+    :ARG2 (g0 / game
+              :mod (s0 / soccer))
+    :ARG1 (t0 / team
+              :quant (g1 / girl)
+              :quant 2))

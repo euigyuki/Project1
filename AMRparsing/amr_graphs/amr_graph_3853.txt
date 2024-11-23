@@ -1,0 +1,13 @@
+# ::snt a man and a woman are using a machine built into the wall .
+# ::tokens ["a", "man", "and", "a", "woman", "are", "using", "a", "machine", "built", "into", "the", "wall", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "CC", "DT", "NN", "VBP", "VBG", "DT", "NN", "VBN", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "man", "and", "a", "woman", "be", "use", "a", "machine", "build", "into", "the", "wall", "."]
+(u0 / use-01
+      :ARG0 (a0 / and
+            :op2 (w0 / woman)
+            :op1 (m1 / man))
+      :ARG1 (m0 / machine
+            :ARG1-of (b0 / build-01
+                  :ARG2 (w1 / wall))))

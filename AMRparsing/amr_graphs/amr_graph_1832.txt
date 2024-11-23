@@ -1,0 +1,2 @@
+(w0 / woman
+    :ARG1-of (d0 / dance-01))

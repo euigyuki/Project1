@@ -1,0 +1,4 @@
+(p0 / pull-01
+    :ARG1 (p1 / past
+              :op1 (f0 / flag
+                       :ARG1-of (s0 / snowy))))

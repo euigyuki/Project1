@@ -1,0 +1,15 @@
+# ::snt a group of people preparing some really unusually colored food involving eggs .
+# ::tokens ["a", "group", "of", "people", "preparing", "some", "really", "unusually", "colored", "food", "involving", "eggs", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "NNS", "VBG", "DT", "RB", "RB", "VBN", "NN", "VBG", "NNS", "."]
+# ::lemmas ["a", "group", "of", "people", "prepare", "some", "really", "unusually", "color", "food", "involve", "egg", "."]
+(g0 / group
+      :consist-of (p0 / person
+            :ARG0-of (p1 / prepare-01
+                  :ARG1 (f0 / food
+                        :ARG2-of (i0 / involve-01
+                              :ARG1 (e0 / egg))
+                        :ARG1-of (c0 / color-01
+                              :degree (r0 / really))
+                        :mod (s0 / some)))))

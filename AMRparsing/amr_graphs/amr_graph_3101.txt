@@ -1,0 +1,11 @@
+(g0 / group
+    :ARG0-of (l1 / look-02
+                 :ARG1 (r0 / ride-01
+                           :time (d0 / date-entity
+                                     :season (f0 / fall))
+                           :ARG1 (t0 / train))
+                 :ARG2 (c0 / country
+                           :name (n0 / name
+                                     :op1 "Germany")))
+    :consist-of (p0 / person)
+    :mod (l0 / large))

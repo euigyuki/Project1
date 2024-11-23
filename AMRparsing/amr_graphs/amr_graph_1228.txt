@@ -1,0 +1,15 @@
+# ::snt two female volleyball players look up to find the ball .
+# ::tokens ["two", "female", "volleyball", "players", "look", "up", "to", "find", "the", "ball", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "JJ", "NN", "NNS", "VBP", "RP", "TO", "VB", "DT", "NN", "."]
+# ::lemmas ["two", "female", "volleyball", "player", "look", "up", "to", "find", "the", "ball", "."]
+(l0 / look-up-05
+      :purpose (f0 / find-01
+            :quant-of (p0 / person
+                  :quant 2 
+                  :ARG0-of (p1 / play-01
+                        :ARG1 (v0 / volleyball))
+                  :mod (f1 / female))
+            :ARG1 (b0 / ball))
+      :ARG1 p0)

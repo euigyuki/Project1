@@ -1,0 +1,14 @@
+# ::snt the white dog with black spots is catching a red frisbee .
+# ::tokens ["the", "white", "dog", "with", "black", "spots", "is", "catching", "a", "red", "frisbee", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "IN", "JJ", "NNS", "VBZ", "VBG", "DT", "JJ", "NN", "."]
+# ::lemmas ["the", "white", "dog", "with", "black", "spot", "be", "catch", "a", "red", "frisbee", "."]
+(c0 / catch-03
+      :ARG1 (f0 / frisbee
+            :ARG1-of (r0 / red-02))
+      :ARG0 (d0 / dog
+            :ARG0-of (h0 / have-03
+                  :ARG1 (s0 / spot
+                        :ARG1-of (b0 / black-04)))
+            :ARG1-of (w0 / white-02)))

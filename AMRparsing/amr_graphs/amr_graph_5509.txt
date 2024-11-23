@@ -1,0 +1,16 @@
+# ::snt a man with a denim hat and white beard gives a thumbs up .
+# ::tokens ["a", "man", "with", "a", "denim", "hat", "and", "white", "beard", "gives", "a", "thumbs", "up", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "DT", "JJ", "NN", "CC", "JJ", "NNP", "VBZ", "DT", "NNS", "RP", "."]
+# ::lemmas ["a", "man", "with", "a", "denim", "hat", "and", "white", "beard", "give", "a", "thumb", "up", "."]
+(g0 / give-16
+      :ARG1 (t0 / thumb)
+      :ARG0 (m0 / man
+            :ARG0-of (h0 / have-03
+                  :ARG1 (a0 / and
+                        :op2 (b0 / beard
+                              :ARG1-of (w0 / white-03))
+                        :op1 (h1 / hat
+                              :mod (d0 / denim)))))
+      :ARG2 (u0 / up))

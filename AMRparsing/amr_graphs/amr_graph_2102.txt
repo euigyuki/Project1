@@ -1,0 +1,16 @@
+# ::snt a farmer with a bright yellow reflective vest drives his tractor .
+# ::tokens ["a", "farmer", "with", "a", "bright", "yellow", "reflective", "vest", "drives", "his", "tractor", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "DT", "JJ", "JJ", "JJ", "NN", "VBZ", "PRP$", "NN", "."]
+# ::lemmas ["a", "farmer", "with", "a", "bright", "yellow", "reflective", "vest", "drive", "his", "tractor", "."]
+(d0 / drive-01
+      :ARG0 (p0 / person
+            :poss-of (t0 / tractor)
+            :ARG0-of (f0 / farm-01)
+            :ARG1-of (h0 / have-03
+                  :ARG1 (v0 / vest
+                        :ARG1-of (r0 / reflect-01
+                              :ARG1-of (b0 / bright-02))
+                        :mod (y0 / yellow))))
+      :ARG1 t0)

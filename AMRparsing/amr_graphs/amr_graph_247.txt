@@ -1,0 +1,8 @@
+(s0 / stand-01
+    :ARG1 (w0 / woman
+              :ARG0-of (w1 / wear-01
+                           :ARG1 (a0 / and
+                                     :op2 (h0 / heel
+                                              :ARG1-of (h1 / high-02))
+                                     :op1 (s2 / shirt
+                                              :mod (b0 / blue))))))

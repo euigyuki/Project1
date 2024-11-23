@@ -1,0 +1,11 @@
+# ::snt a group of people sift through shelves of books .
+# ::tokens ["a", "group", "of", "people", "sift", "through", "shelves", "of", "books", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "NNS", "VBP", "IN", "NNS", "IN", "NNS", "."]
+# ::lemmas ["a", "group", "of", "people", "sift", "through", "shelf", "of", "book", "."]
+(p0 / pass-by-17
+      :ARG0 (g0 / group
+            :consist-of (p1 / person))
+      :ARG1 (s0 / shelf
+            :consist-of (b0 / book)))

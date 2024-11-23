@@ -1,0 +1,8 @@
+(s0 / stand-01
+    :purpose (l0 / look-01
+                 :ARG0 (c0 / child
+                           :mod (y0 / young)
+                           :quant 2)
+                 :ARG1 (f0 / food
+                           :ARG1-of (s1 / set-up-03)))
+    :ARG1 c0)

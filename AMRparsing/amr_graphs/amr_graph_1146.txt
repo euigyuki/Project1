@@ -1,0 +1,13 @@
+# ::snt a man wearing a green shirt with white stripes is playing the drums
+# ::tokens ["a", "man", "wearing", "a", "green", "shirt", "with", "white", "stripes", "is", "playing", "the", "drums"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBG", "DT", "JJ", "NN", "IN", "JJ", "NNS", "VBZ", "VBG", "DT", "NNS"]
+# ::lemmas ["a", "man", "wear", "a", "green", "shirt", "with", "white", "stripe", "be", "play", "the", "drum"]
+(p0 / play-11
+      :ARG0 (m0 / man
+            :ARG0-of (w0 / wear-01
+                  :ARG1 (s1 / shirt)
+                  :ARG1-of (s0 / stripe
+                        :ARG1-of (w1 / white-03))))
+      :ARG1 (d0 / drum))

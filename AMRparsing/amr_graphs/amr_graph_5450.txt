@@ -1,0 +1,11 @@
+# ::snt a man kneels with a banana on his knee .
+# ::tokens ["a", "man", "kneels", "with", "a", "banana", "on", "his", "knee", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "NNS", "IN", "DT", "NN", "IN", "PRP$", "NN", "."]
+# ::lemmas ["a", "man", "kneel", "with", "a", "banana", "on", "his", "knee", "."]
+(k0 / kneel-01
+      :manner (h0 / have-03
+            :ARG1 (b0 / banana))
+      :ARG0 (m0 / man
+            :part (k1 / knee)))

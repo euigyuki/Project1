@@ -1,0 +1,19 @@
+# ::snt a happy newlywed woman , surrounded by friends and family , has a bouquet of flowers .
+# ::tokens ["a", "happy", "newlywed", "woman", ",", "surrounded", "by", "friends", "and", "family", ",", "has", "a", "bouquet", "of", "flowers", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "JJ", "NN", ",", "VBN", "IN", "NNS", "CC", "NN", ",", "VBZ", "DT", "NN", "IN", "NNS", "."]
+# ::lemmas ["a", "happy", "newlywed", "woman", ",", "surround", "by", "friend", "and", "family", ",", "have", "a", "bouquet", "of", "flower", "."]
+(h0 / have-03
+      :ARG0 (w0 / woman
+            :ARG1-of (h1 / happy-01)
+            :ARG2-of (s0 / surround-01
+                  :ARG0 (a0 / and
+                        :op2 (f1 / family)
+                        :op1 (p0 / person
+                              :ARG0-of (h2 / have-rel-role-91
+                                    :ARG1 f1
+                                    :ARG2 (f2 / friend)))))
+            :ARG0-of (n0 / new-01))
+      :ARG1 (b0 / bouquet
+            :consist-of (f0 / flower)))

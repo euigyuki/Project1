@@ -1,0 +1,12 @@
+# ::snt the young girl is climbing a chain link fence .
+# ::tokens ["the", "young", "girl", "is", "climbing", "a", "chain", "link", "fence", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "VBZ", "VBG", "DT", "NN", "NN", "NN", "."]
+# ::lemmas ["the", "young", "girl", "be", "climb", "a", "chain", "link", "fence", "."]
+(c0 / climb-01
+      :ARG0 (g0 / girl
+            :mod (y0 / young))
+      :ARG1 (f0 / fence
+            :mod (l0 / link-01
+                  :ARG2 (c1 / chain))))

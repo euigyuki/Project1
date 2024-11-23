@@ -1,0 +1,12 @@
+# ::snt a man in a white shirt is making a speech into a microphone .
+# ::tokens ["a", "man", "in", "a", "white", "shirt", "is", "making", "a", "speech", "into", "a", "microphone", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "DT", "JJ", "NN", "VBZ", "VBG", "DT", "NN", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "man", "in", "a", "white", "shirt", "be", "make", "a", "speech", "into", "a", "microphone", "."]
+(s0 / speak-01
+      :ARG2 (m1 / microphone)
+      :ARG0 (m0 / man
+            :ARG0-of (w0 / wear-01
+                  :ARG1 (s1 / shirt
+                        :ARG1-of (w1 / white-03)))))

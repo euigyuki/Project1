@@ -1,0 +1,15 @@
+# ::snt a young boy in jeans is in a field near a some trees .
+# ::tokens ["a", "young", "boy", "in", "jeans", "is", "in", "a", "field", "near", "a", "some", "trees", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "IN", "NNS", "VBZ", "IN", "DT", "NN", "IN", "DT", "DT", "NNS", "."]
+# ::lemmas ["a", "young", "boy", "in", "jean", "be", "in", "a", "field", "near", "a", "some", "tree", "."]
+(b0 / be-located-at-91
+      :ARG2 (f0 / field
+            :ARG1-of (n0 / near-02
+                  :ARG2 (t0 / tree
+                        :quant (s0 / some))))
+      :ARG1 (b1 / boy
+            :ARG0-of (w0 / wear-01
+                  :ARG1 (j0 / jean))
+            :mod (y0 / young)))

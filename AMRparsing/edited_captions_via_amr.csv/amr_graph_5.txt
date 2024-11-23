@@ -1,0 +1,23 @@
+# ::snt Four men and women in blue aprons strand in front of a table where there are many white plates and small blue bowls .
+# ::tokens ["Four", "men", "and", "women", "in", "blue", "aprons", "strand", "in", "front", "of", "a", "table", "where", "there", "are", "many", "white", "plates", "and", "small", "blue", "bowls", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "CC", "NNS", "IN", "JJ", "NNS", "RB", "IN", "NN", "IN", "DT", "NN", "WRB", "EX", "VBP", "JJ", "JJ", "NNS", "CC", "JJ", "JJ", "NNS", "."]
+# ::lemmas ["Four", "man", "and", "woman", "in", "blue", "apron", "strand", "in", "front", "of", "a", "table", "where", "there", "be", "many", "white", "plate", "and", "small", "blue", "bowl", "."]
+(s0 / strand-01
+      :location (f0 / front
+            :op1 (t0 / table
+                  :location-of (a2 / and
+                        :op2 (b1 / bowl
+                              :quant (m2 / many)
+                              :mod (b2 / blue))
+                        :op1 (p0 / plate
+                              :ARG1-of (w1 / white-03)
+                              :mod (m1 / many)))))
+      :ARG1 (a0 / and
+            :op2 (w0 / woman)
+            :op2 (h0 / have-03
+                  :ARG1 (a1 / apron
+                        :mod (b0 / blue)))
+            :op1 (m0 / man
+                  :quant 4 )))

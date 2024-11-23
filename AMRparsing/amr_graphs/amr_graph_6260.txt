@@ -1,0 +1,13 @@
+# ::snt several young men browsing in c.d's .
+# ::tokens ["several", "young", "men", "browsing", "in", "c.d", "'s", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "ORG", "ORG", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "B", "I", "O"]
+# ::pos_tags ["JJ", "JJ", "NNS", "VBG", "IN", "NNP", "POS", "."]
+# ::lemmas ["several", "young", "man", "browse", "in", "c.d", "'s", "."]
+(r0 / roam-01
+      :ARG0 (m0 / man
+            :quant (s0 / several)
+            :mod (y0 / young))
+      :ARG1 (f0 / facility
+            :name (n0 / name
+                  :op1 "c.d" )))

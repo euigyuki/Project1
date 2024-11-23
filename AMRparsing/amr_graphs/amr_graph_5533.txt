@@ -1,0 +1,4 @@
+(g0 / group
+    :consist-of (p0 / person)
+    :consist-of (r0 / ride-01
+                    :ARG1 (h0 / helmet)))

@@ -1,0 +1,15 @@
+# ::snt a woman wearing glasses and a yellow shirt is holding her hand out .
+# ::tokens ["a", "woman", "wearing", "glasses", "and", "a", "yellow", "shirt", "is", "holding", "her", "hand", "out", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBG", "NNS", "CC", "DT", "JJ", "NN", "VBZ", "VBG", "PRP$", "NN", "RP", "."]
+# ::lemmas ["a", "woman", "wear", "glass", "and", "a", "yellow", "shirt", "be", "hold", "her", "hand", "out", "."]
+(h0 / hand-out-03
+      :ARG0 (w0 / woman
+            :part (h1 / hand)
+            :ARG0-of (w1 / wear-01
+                  :ARG1 (a0 / and
+                        :op2 (s0 / shirt
+                              :mod (y0 / yellow))
+                        :op1 (g0 / glasses))))
+      :ARG1 h1)

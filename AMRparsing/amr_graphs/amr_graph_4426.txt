@@ -1,0 +1,22 @@
+# ::snt a young caucasian boy climbs through a metal structure of stationary rings outside in a paved area overlooking a body of water .
+# ::tokens ["a", "young", "caucasian", "boy", "climbs", "through", "a", "metal", "structure", "of", "stationary", "rings", "outside", "in", "a", "paved", "area", "overlooking", "a", "body", "of", "water", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "JJ", "NN", "VBZ", "IN", "DT", "NN", "NN", "IN", "JJ", "NNS", "RB", "IN", "DT", "JJ", "NN", "VBG", "DT", "NN", "IN", "NN", "."]
+# ::lemmas ["a", "young", "caucasian", "boy", "climb", "through", "a", "metal", "structure", "of", "stationary", "ring", "outside", "in", "a", "paved", "area", "overlook", "a", "body", "of", "water", "."]
+(c0 / climb-01
+      :path (t0 / through
+            :op2 (a0 / area
+                  :ARG0-of (o1 / overlook-01
+                        :ARG1 (b1 / body
+                              :mod (w0 / water)))
+                  :ARG1-of (o0 / open-06))
+            :op1 (s0 / structure
+                  :consist-of (r0 / ring
+                        :ARG1-of (d0 / distance-01))
+                  :consist-of (m0 / metal)))
+      :ARG1 (b0 / boy
+            :mod (c1 / continent
+                  :name (n0 / name
+                        :op1 "Asia" ))
+            :mod (y0 / young)))

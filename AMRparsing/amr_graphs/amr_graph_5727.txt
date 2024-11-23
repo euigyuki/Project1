@@ -1,0 +1,13 @@
+# ::snt a child climbing a rock climbing wall with safety straps .
+# ::tokens ["a", "child", "climbing", "a", "rock", "climbing", "wall", "with", "safety", "straps", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBG", "DT", "NN", "NN", "NN", "IN", "NN", "NNS", "."]
+# ::lemmas ["a", "child", "climb", "a", "rock", "climbing", "wall", "with", "safety", "strap", "."]
+(c0 / climb-01
+      :instrument (s0 / strap
+            :ARG0-of (s1 / safe-01))
+      :ARG0 (c1 / child)
+      :ARG1 (w0 / wall
+            :purpose (c2 / climb-01
+                  :ARG1 (r0 / rock))))

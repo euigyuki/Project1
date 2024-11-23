@@ -1,0 +1,14 @@
+# ::snt a girl shows off a colorful board with batteries that looks like a science project .
+# ::tokens ["a", "girl", "shows", "off", "a", "colorful", "board", "with", "batteries", "that", "looks", "like", "a", "science", "project", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "IN", "DT", "JJ", "NN", "IN", "NNS", "WDT", "VBZ", "IN", "DT", "NN", "NN", "."]
+# ::lemmas ["a", "girl", "show", "off", "a", "colorful", "board", "with", "battery", "that", "look", "like", "a", "science", "project", "."]
+(s0 / show-up-02
+      :ARG0 (g0 / girl)
+      :ARG1 (b0 / board
+            :ARG0-of (b1 / battery)
+            :ARG1-of (l0 / look-02
+                  :ARG1 (p0 / project
+                        :mod (s1 / science)))
+            :mod (c0 / colorful)))

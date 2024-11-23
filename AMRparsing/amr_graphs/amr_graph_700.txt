@@ -1,0 +1,3 @@
+(r0 / ready-01
+    :ARG2 (d0 / dive-01
+              :ARG0 (g0 / girl)))

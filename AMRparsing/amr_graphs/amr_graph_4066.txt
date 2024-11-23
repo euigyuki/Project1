@@ -1,0 +1,15 @@
+# ::snt a boy is running into the yard where all the pigeons are and scaring them off .
+# ::tokens ["a", "boy", "is", "running", "into", "the", "yard", "where", "all", "the", "pigeons", "are", "and", "scaring", "them", "off", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "VBG", "IN", "DT", "NN", "WRB", "PDT", "DT", "NNS", "VBP", "CC", "VBG", "PRP", "RP", "."]
+# ::lemmas ["a", "boy", "be", "run", "into", "the", "yard", "where", "all", "the", "pigeon", "be", "and", "scare", "they", "off", "."]
+(a0 / and
+      :op2 (s0 / scare-01
+            :mod (a1 / all
+                  :mod-of (p0 / pigeon))
+            :ARG1 p0
+            :ARG0 b0)
+      :op1 (r0 / run-02
+            :destination (y0 / yard)
+            :ARG0 (b0 / boy)))

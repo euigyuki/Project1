@@ -1,0 +1,19 @@
+# ::snt a man with long hair is making an " ok " sign with his hand while he walks down a street .
+# ::tokens ["a", "man", "with", "long", "hair", "is", "making", "an", "\"", "ok", "\"", "sign", "with", "his", "hand", "while", "he", "walks", "down", "a", "street", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "JJ", "NN", "VBZ", "VBG", "DT", "``", "JJ", "``", "NN", "IN", "PRP$", "NN", "IN", "PRP", "VBZ", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "man", "with", "long", "hair", "be", "make", "an", "\"", "ok", "\"", "sign", "with", "his", "hand", "while", "he", "walk", "down", "a", "street", "."]
+(m0 / make-01
+      :manner (h0 / hand
+            :part-of (m1 / man
+                  :part w0
+                  :ARG0-of m0
+                  :ARG0-of (h1 / have-03
+                        :ARG1 (h2 / hair
+                              :ARG1-of (l0 / long-03)))))
+      :time (w0 / walk-01
+            :ARG2 (s1 / street)
+            :direction (d0 / down))
+      :ARG1 (s0 / sign
+            :topic (o0 / okay-04)))

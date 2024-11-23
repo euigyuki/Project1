@@ -1,0 +1,17 @@
+# ::snt a broen haired woman wearing a black coat with coffee in her hand
+# ::tokens ["a", "broen", "haired", "woman", "wearing", "a", "black", "coat", "with", "coffee", "in", "her", "hand"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NNP", "JJ", "NN", "VBG", "DT", "JJ", "NN", "IN", "NN", "IN", "PRP$", "NN"]
+# ::lemmas ["a", "broen", "haired", "woman", "wear", "a", "black", "coat", "with", "coffee", "in", "her", "hand"]
+(w0 / woman
+      :part (h3 / have-03)
+      :part (h2 / hand)
+      :part (h1 / have-03
+            :ARG1 (c1 / coffee))
+      :part (h0 / have-03
+            :ARG1 (c0 / coat
+                  :ARG1-of (b0 / black-04)
+                  :mod (c2 / country
+                        :name (n0 / name
+                              :op1 "Netherlands" )))))

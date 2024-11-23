@@ -1,0 +1,8 @@
+(s0 / ski-01
+    :manner (b0 / background)
+    :ARG2 (d0 / down
+              :op1 (t0 / terrain
+                       :mod (s2 / snowy)))
+    :ARG0 (p0 / person
+              :ARG0-of (s1 / ski-01)
+              :mod (h0 / have-03)))

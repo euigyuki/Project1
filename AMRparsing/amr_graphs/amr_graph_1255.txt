@@ -1,0 +1,11 @@
+# ::snt a man is jumping unto his filthy bed .
+# ::tokens ["a", "man", "is", "jumping", "unto", "his", "filthy", "bed", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "VBG", "IN", "PRP$", "JJ", "NN", "."]
+# ::lemmas ["a", "man", "be", "jump", "unto", "his", "filthy", "bed", "."]
+(j0 / jump-03
+      :destination (b0 / bed
+            :poss (m0 / man)
+            :mod (f0 / filthy))
+      :ARG0 m0)

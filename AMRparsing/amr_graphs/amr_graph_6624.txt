@@ -1,0 +1,14 @@
+# ::snt an asian young man is drinking out of a metal cup .
+# ::tokens ["an", "asian", "young", "man", "is", "drinking", "out", "of", "a", "metal", "cup", "."]
+# ::ner_tags ["O", "NORP", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "JJ", "NN", "VBZ", "VBG", "IN", "IN", "DT", "NN", "NN", "."]
+# ::lemmas ["an", "asian", "young", "man", "be", "drink", "out", "of", "a", "metal", "cup", "."]
+(d0 / drink-01
+      :ARG2 (c0 / cup
+            :mod (m1 / metal))
+      :ARG0 (m0 / man
+            :mod (c1 / continent
+                  :name (n0 / name
+                        :op1 "Asia" ))
+            :mod (y0 / young)))

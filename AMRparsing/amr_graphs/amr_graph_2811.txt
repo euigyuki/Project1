@@ -1,0 +1,10 @@
+(s0 / sit-01
+    :time (c1 / come-01
+              :ARG4 (c2 / crash-01
+                        :ARG0 (w0 / wave))
+              :ARG1 w0)
+    :ARG1 (p0 / person
+              :ARG1-of (h0 / have-rel-role-91
+                           :ARG0 (p1 / person))
+              :op1-of (i0 / in-front-of)
+              :quant 2))

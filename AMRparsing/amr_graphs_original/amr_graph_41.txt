@@ -1,0 +1,19 @@
+# ::snt a group of african american children with their arms above their heads and happy expressions on their faces .
+(z1 / group-01
+      :ARG1 (z2 / child
+            :mod (z3 / continent
+                  :name (z4 / name
+                        :op1 "Africa"))
+            :mod (z5 / country
+                  :name (z6 / name
+                        :op1 "America")))
+      :ARG0-of (z7 / have-03
+            :ARG1 (z8 / and
+                  :op1 (z9 / arm
+                        :location (z10 / above
+                              :op1 (z11 / head
+                                    :part-of z2)))
+                  :op2 (z12 / expression
+                        :ARG1-of (z13 / happy-02)
+                        :location (z14 / face
+                              :part-of z2)))))

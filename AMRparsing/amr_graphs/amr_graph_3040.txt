@@ -1,0 +1,5 @@
+(p0 / play-01
+    :ARG0 (c0 / child
+              :mod (y0 / young)
+              :quant 2)
+    :ARG1 (w0 / water))

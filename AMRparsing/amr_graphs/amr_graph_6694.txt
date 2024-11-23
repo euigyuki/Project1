@@ -1,0 +1,6 @@
+(j0 / jump-03
+    :source (c0 / cliff
+                :ARG1-of (h0 / high-02)
+                :mod (r0 / rock))
+    :source (w0 / water)
+    :ARG0 (b0 / boy))

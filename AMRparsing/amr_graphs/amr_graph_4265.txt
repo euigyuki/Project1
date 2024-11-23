@@ -1,0 +1,11 @@
+# ::snt man and women kissing in public .
+# ::tokens ["man", "and", "women", "kissing", "in", "public", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["NN", "CC", "NNS", "VBG", "IN", "NN", "."]
+# ::lemmas ["man", "and", "woman", "kiss", "in", "public", "."]
+(k0 / kiss-01
+      :ARG1-of (p0 / public-02)
+      :ARG0 (a0 / and
+            :op2 (w0 / woman)
+            :op1 (m0 / man)))

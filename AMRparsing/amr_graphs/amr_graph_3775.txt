@@ -1,0 +1,12 @@
+# ::snt a tennis player in a red outfit .
+# ::tokens ["a", "tennis", "player", "in", "a", "red", "outfit", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "NN", "IN", "DT", "JJ", "NN", "."]
+# ::lemmas ["a", "tennis", "player", "in", "a", "red", "outfit", "."]
+(p0 / person
+      :ARG0-of (p1 / play-01
+            :ARG1 (t0 / tennis))
+      :mod (w0 / wear-01
+            :ARG1 (o0 / outfit
+                  :ARG1-of (r0 / red-02))))

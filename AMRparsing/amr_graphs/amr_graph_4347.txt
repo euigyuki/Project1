@@ -1,0 +1,7 @@
+(m0 / meet-03
+    :ARG0 (d1 / dog
+              :part (m1 / mouth))
+    :ARG1 (d0 / dog
+              :quant (a0 / another)
+              :ARG0-of (h0 / have-03
+                           :ARG1 (o0 / object))))

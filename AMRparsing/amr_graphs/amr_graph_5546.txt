@@ -1,0 +1,14 @@
+# ::snt two children in casual clothing are lying in the grass on a sunny day .
+# ::tokens ["two", "children", "in", "casual", "clothing", "are", "lying", "in", "the", "grass", "on", "a", "sunny", "day", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "DATE", "DATE", "DATE", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B", "I", "I", "O"]
+# ::pos_tags ["CD", "NNS", "IN", "JJ", "NN", "VBP", "VBG", "IN", "DT", "NN", "IN", "DT", "JJ", "NN", "."]
+# ::lemmas ["two", "child", "in", "casual", "clothing", "be", "lie", "in", "the", "grass", "on", "a", "sunny", "day", "."]
+(l0 / lie-07
+      :time (d0 / day
+            :mod (s0 / sunny))
+      :ARG2 (g0 / grass)
+      :ARG1 (c0 / child
+            :quant 2 
+            :ARG0-of (c1 / clothe-01
+                  :ARG2 (c2 / casual))))

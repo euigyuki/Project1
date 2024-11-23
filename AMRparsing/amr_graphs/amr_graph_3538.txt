@@ -1,0 +1,5 @@
+(a0 / and
+    :op2 (w0 / walk-01
+             :ARG0 (p0 / person))
+    :op1 (r0 / run-02
+             :ARG0 p0))

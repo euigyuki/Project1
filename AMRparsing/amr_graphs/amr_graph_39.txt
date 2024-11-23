@@ -1,0 +1,15 @@
+# ::snt a person climbs a tall , flat mountain while holding onto a safety rope .
+# ::tokens ["a", "person", "climbs", "a", "tall", ",", "flat", "mountain", "while", "holding", "onto", "a", "safety", "rope", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "DT", "JJ", ",", "JJ", "NN", "IN", "VBG", "IN", "DT", "NN", "NN", "."]
+# ::lemmas ["a", "person", "climb", "a", "tall", ",", "flat", "mountain", "while", "hold", "onto", "a", "safety", "rope", "."]
+(c0 / climb-01
+      :time (h0 / hold-01
+            :ARG0 (p0 / person)
+            :ARG1 (r0 / rope
+                  :purpose (s0 / safe-01)))
+      :ARG0 p0
+      :ARG1 (m0 / mountain
+            :ARG1-of (f0 / flat-06)
+            :mod (t0 / tall)))

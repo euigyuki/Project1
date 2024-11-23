@@ -1,0 +1,12 @@
+# ::snt three men outside on the patio of a building .
+# ::tokens ["three", "men", "outside", "on", "the", "patio", "of", "a", "building", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "RB", "IN", "DT", "NN", "IN", "DT", "NN", "."]
+# ::lemmas ["three", "man", "outside", "on", "the", "patio", "of", "a", "building", "."]
+(b0 / be-located-at-91
+      :ARG2 (o0 / outside
+            :op1 (p0 / patio
+                  :part-of (b1 / building)))
+      :ARG1 (m0 / man
+            :quant 3 ))

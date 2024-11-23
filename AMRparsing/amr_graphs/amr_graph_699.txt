@@ -1,0 +1,3 @@
+(j0 / jump-on-bandwagon-09
+    :ARG0 (w0 / woman
+              :ARG0-of (h0 / have-03)))

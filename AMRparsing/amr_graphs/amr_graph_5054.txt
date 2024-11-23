@@ -1,0 +1,10 @@
+# ::snt a child plays with croquet mallets .
+# ::tokens ["a", "child", "plays", "with", "croquet", "mallets", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "IN", "JJ", "NNS", "."]
+# ::lemmas ["a", "child", "play", "with", "croquet", "mallet", "."]
+(p0 / play-01
+      :ARG2 (m0 / mallet
+            :mod (c1 / croquet))
+      :ARG0 (c0 / child))

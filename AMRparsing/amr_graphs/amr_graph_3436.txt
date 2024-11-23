@@ -1,0 +1,11 @@
+(b0 / be-located-at-91
+    :ARG2 (i0 / in-front-of
+              :op1 (m1 / microphone))
+    :ARG1 (m0 / man
+              :ARG0-of (w0 / wear-01
+                           :ARG1 (y0 / yarmulke
+                                     :ARG1-of (w1 / white-03)))
+              :ARG1-of (h0 / have-03
+                           :ARG1 (m2 / man
+                                     :quant (s0 / several)
+                                     :mod (o0 / other)))))

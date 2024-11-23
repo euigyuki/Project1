@@ -1,0 +1,11 @@
+# ::snt the man with the backpack is sitting in a buildings courtyard in front of an art sculpture reading .
+(z1 / sit-01
+      :ARG1 (z2 / man
+            :ARG0-of (z3 / have-03
+                  :ARG1 (z4 / backpack)))
+      :ARG2 (z5 / courtyard
+            :part-of (z6 / building)
+            :location (z7 / in-front-of
+                  :op1 (z8 / read-01
+                        :ARG1 (z9 / sculpture
+                              :mod (z10 / art))))))

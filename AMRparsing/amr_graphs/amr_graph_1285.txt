@@ -1,0 +1,10 @@
+# ::snt small dog catching a frisbee .
+# ::tokens ["small", "dog", "catching", "a", "frisbee", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["JJ", "NN", "VBG", "DT", "NN", "."]
+# ::lemmas ["small", "dog", "catch", "a", "frisbee", "."]
+(c0 / catch-03
+      :ARG0 (d0 / dog
+            :mod (s0 / small))
+      :ARG1 (f0 / frisbee))

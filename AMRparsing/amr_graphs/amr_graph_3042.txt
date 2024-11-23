@@ -1,0 +1,14 @@
+# ::snt there is snow on the ground and a bit on the roof of adirondack express .
+# ::tokens ["there", "is", "snow", "on", "the", "ground", "and", "a", "bit", "on", "the", "roof", "of", "adirondack", "express", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["EX", "VBZ", "NN", "IN", "DT", "NN", "CC", "DT", "NN", "IN", "DT", "NN", "IN", "NN", "VB", "."]
+# ::lemmas ["there", "be", "snow", "on", "the", "ground", "and", "a", "bit", "on", "the", "roof", "of", "adirondack", "express", "."]
+(a0 / and
+      :op2 (b1 / be-located-at-91
+            :degree (b2 / bit)
+            :ARG1 (r0 / roof
+                  :part-of (a1 / adirondack)))
+      :op1 (b0 / be-located-at-91
+            :ARG2 (g0 / ground)
+            :ARG1 (s0 / snow)))

@@ -1,0 +1,3 @@
+(w0 / wander-01
+    :ARG0 (d0 / dog
+              :quant 2))

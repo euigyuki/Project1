@@ -1,0 +1,15 @@
+# ::snt a girl with a white top and yellow shorts is playing tennis .
+# ::tokens ["a", "girl", "with", "a", "white", "top", "and", "yellow", "shorts", "is", "playing", "tennis", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "DT", "JJ", "NN", "CC", "JJ", "NNS", "VBZ", "VBG", "NN", "."]
+# ::lemmas ["a", "girl", "with", "a", "white", "top", "and", "yellow", "short", "be", "play", "tennis", "."]
+(p0 / play-01
+      :ARG0 (g0 / girl
+            :ARG0-of (h0 / have-03
+                  :ARG1 (a0 / and
+                        :op2 (s0 / short-07
+                              :mod (y0 / yellow))
+                        :op1 (t1 / top
+                              :ARG1-of (w0 / white-03)))))
+      :ARG1 (t0 / tennis))

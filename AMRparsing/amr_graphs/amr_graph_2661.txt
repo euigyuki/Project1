@@ -1,0 +1,10 @@
+(a0 / adult
+    :part (l1 / leg
+              :part-of (t0 / they))
+    :ARG0-of (f0 / find-01
+                 :ARG1 (p1 / perch))
+    :mod (l0 / look-01
+             :ARG1 (p0 / person
+                       :ARG0-of (v0 / view-01))
+             :direction (d0 / down))
+    :mod (y0 / young))

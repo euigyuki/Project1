@@ -1,0 +1,10 @@
+# ::snt a dog chases another dog .
+# ::tokens ["a", "dog", "chases", "another", "dog", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "DT", "NN", "."]
+# ::lemmas ["a", "dog", "chase", "another", "dog", "."]
+(c0 / chase-01
+      :ARG0 (d1 / dog)
+      :ARG1 (d0 / dog
+            :mod (a0 / another)))

@@ -1,0 +1,17 @@
+# ::snt Deli man slicing meat thin and weighing the sliced pieces .
+# ::tokens ["Deli", "man", "slicing", "meat", "thin", "and", "weighing", "the", "sliced", "pieces", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["JJ", "NN", "VBG", "NN", "JJ", "CC", "VBG", "DT", "JJ", "NNS", "."]
+# ::lemmas ["deli", "man", "slice", "meat", "thin", "and", "weigh", "the", "sliced", "piece", "."]
+(a0 / and
+      :op2 (w0 / weigh-01
+            :ARG1 (p0 / piece
+                  :ARG1-of (s2 / slice-01))
+            :ARG0 m1)
+      :op1 (s0 / slice-01
+            :manner (t0 / thin-03)
+            :ARG0 (m1 / man
+                  :mod (o0 / orthopedics))
+            :ARG1 (m0 / meat
+                  :ARG1-of (s1 / slice-01))))

@@ -1,0 +1,13 @@
+# ::snt young man standing on a dock next to a green and white pole .
+# ::tokens ["young", "man", "standing", "on", "a", "dock", "next", "to", "a", "green", "and", "white", "pole", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["JJ", "NN", "VBG", "IN", "DT", "NN", "RB", "IN", "DT", "JJ", "CC", "JJ", "NN", "."]
+# ::lemmas ["young", "man", "stand", "on", "a", "dock", "next", "to", "a", "green", "and", "white", "pole", "."]
+(s0 / stand-01
+      :ARG2 (n0 / next-to
+            :op1 (p0 / pole
+                  :ARG1-of (w0 / white-03)
+                  :mod (g0 / green-03)))
+      :ARG1 (m0 / man
+            :mod (y0 / young)))

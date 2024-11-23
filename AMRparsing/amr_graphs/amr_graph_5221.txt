@@ -1,0 +1,18 @@
+# ::snt a little girl in a long red skirt is hula hooping with four brightly colored hula hoops .
+# ::tokens ["a", "little", "girl", "in", "a", "long", "red", "skirt", "is", "hula", "hooping", "with", "four", "brightly", "colored", "hula", "hoops", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "CARDINAL", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "IN", "DT", "JJ", "JJ", "NN", "VBZ", "NNS", "JJ", "IN", "CD", "RB", "JJ", "JJ", "NNS", "."]
+# ::lemmas ["a", "little", "girl", "in", "a", "long", "red", "skirt", "be", "hula", "hooping", "with", "four", "brightly", "colored", "hula", "hoop", "."]
+(h0 / hope-01
+      :instrument (h2 / hoop
+            :quant 4 
+            :ARG1-of (c0 / color-01
+                  :ARG2 (b0 / bright-02)))
+      :ARG0 (g0 / girl
+            :ARG0-of (h3 / have-03
+                  :ARG1 (s0 / skirt
+                        :consist-of (r0 / red-02)
+                        :ARG1-of (l1 / long-03)))
+            :mod (l0 / little))
+      :ARG1 (h1 / hula))

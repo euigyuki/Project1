@@ -1,0 +1,12 @@
+# ::snt a man dressed in camouflage riding a motorbike
+# ::tokens ["a", "man", "dressed", "in", "camouflage", "riding", "a", "motorbike"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBN", "IN", "NN", "VBG", "DT", "NN"]
+# ::lemmas ["a", "man", "dress", "in", "camouflage", "ride", "a", "motorbike"]
+(m0 / man
+      :ARG0-of (r0 / ride-01
+            :ARG1 (t0 / thing
+                  :ARG0-of (d1 / drink-01)))
+      :ARG1-of (d0 / dress-01
+            :ARG2 (c0 / camouflage)))

@@ -1,0 +1,15 @@
+# ::snt a young blond women and a man waiting to cross the street .
+# ::tokens ["a", "young", "blond", "women", "and", "a", "man", "waiting", "to", "cross", "the", "street", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "JJ", "NNS", "CC", "DT", "NN", "VBG", "TO", "VB", "DT", "NN", "."]
+# ::lemmas ["a", "young", "blond", "woman", "and", "a", "man", "wait", "to", "cross", "the", "street", "."]
+(w0 / wait-01
+      :ARG2 (c0 / cross-02
+            :ARG0 (a0 / and
+                  :op2 (m0 / man)
+                  :op1 (w1 / woman
+                        :mod (y0 / young)
+                        :mod (b0 / blond)))
+            :ARG1 (s0 / street))
+      :ARG1 a0)

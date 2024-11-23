@@ -1,0 +1,6 @@
+(c0 / coaster
+    :mod (a0 / amusement-park
+             :name (n0 / name
+                       :op2 "manor"
+                       :op1 "drayton"))
+    :mod (t0 / theme))

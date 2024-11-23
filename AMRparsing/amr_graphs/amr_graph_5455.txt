@@ -1,0 +1,9 @@
+# ::snt a child rides a swing .
+# ::tokens ["a", "child", "rides", "a", "swing", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "DT", "NN", "."]
+# ::lemmas ["a", "child", "ride", "a", "swing", "."]
+(r0 / ride-01
+      :ARG0 (c0 / child)
+      :ARG1 (s0 / swing))

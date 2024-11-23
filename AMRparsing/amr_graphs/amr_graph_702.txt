@@ -1,0 +1,4 @@
+(s0 / swim-01
+    :ARG0 (p0 / person
+              :quant (w0 / water)
+              :quant 2))

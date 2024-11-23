@@ -1,0 +1,10 @@
+(a0 / apply-02
+    :manner (e0 / etch
+                :poss (p0 / person
+                          :poss-of (c0 / chisel)
+                          :ARG0-of (g0 / group-01))
+                :ARG0-of (p1 / pattern))
+    :ARG2 (s0 / slab
+              :part-of (r0 / rock))
+    :ARG0 p0
+    :ARG1 c0)

@@ -1,0 +1,12 @@
+# ::snt a dog is running to catch a tennis ball .
+# ::tokens ["a", "dog", "is", "running", "to", "catch", "a", "tennis", "ball", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "VBG", "TO", "VB", "DT", "NN", "NN", "."]
+# ::lemmas ["a", "dog", "be", "run", "to", "catch", "a", "tennis", "ball", "."]
+(r0 / run-02
+      :purpose (c0 / catch-01
+            :ARG0 (d0 / dog)
+            :ARG1 (b0 / ball
+                  :mod (t0 / tennis)))
+      :ARG0 d0)

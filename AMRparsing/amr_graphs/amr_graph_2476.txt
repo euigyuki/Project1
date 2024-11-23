@@ -1,0 +1,9 @@
+(a0 / and
+    :op2 (h0 / hold-01
+             :time (f0 / fish-01)
+             :ARG1 (c1 / child
+                       :quant 1))
+    :op1 (s0 / stand-01
+             :ARG2 (s1 / shoreline)
+             :ARG1 (c0 / child
+                       :quant 2)))

@@ -1,0 +1,13 @@
+# ::snt a tan , white , and black dog runs towards a sidewalk .
+# ::tokens ["a", "tan", ",", "white", ",", "and", "black", "dog", "runs", "towards", "a", "sidewalk", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NNP", ",", "JJ", ",", "CC", "JJ", "NN", "VBZ", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "tan", ",", "white", ",", "and", "black", "dog", "run", "towards", "a", "sidewalk", "."]
+(r0 / run-02
+      :ARG0 (a0 / and
+            :op3 (d0 / dog)
+            :op3 (b0 / black-04)
+            :op2 (w0 / white-03)
+            :op1 (t0 / tan))
+      :ARG1 (s0 / sidewalk))

@@ -1,0 +1,4 @@
+(w0 / walk-01
+    :ARG0 (d0 / dog
+              :mod (b0 / brown)
+              :ARG1-of (w1 / white-02)))

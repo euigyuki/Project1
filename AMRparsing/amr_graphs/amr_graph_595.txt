@@ -1,0 +1,2 @@
+(b0 / be-located-at-91
+    :ARG1 (s0 / sun))

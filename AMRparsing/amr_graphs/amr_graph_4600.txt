@@ -1,0 +1,4 @@
+(y0 / yell-01
+    :ARG0 (a0 / and
+              :op2 (w0 / woman)
+              :op1 (m0 / man)))

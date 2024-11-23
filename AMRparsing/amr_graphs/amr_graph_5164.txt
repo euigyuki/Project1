@@ -1,0 +1,12 @@
+# ::snt a black dog in a red harness jumping .
+# ::tokens ["a", "black", "dog", "in", "a", "red", "harness", "jumping", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "IN", "DT", "JJ", "NN", "NN", "."]
+# ::lemmas ["a", "black", "dog", "in", "a", "red", "harness", "jumping", "."]
+(j0 / jump-03
+      :ARG0 (d0 / dog
+            :ARG0-of (h0 / have-03
+                  :ARG1 (h1 / harness
+                        :ARG1-of (r0 / red-02)))
+            :ARG1-of (b0 / black-04)))

@@ -1,0 +1,6 @@
+(s0 / sell-01
+    :ARG0 (m0 / man)
+    :ARG1 (t0 / toy
+              :ARG1-of (i0 / inflate-01
+                           :ARG1-of (p0 / possible-01
+                                        :polarity -))))

@@ -1,0 +1,13 @@
+# ::snt two men work to fix train tracks .
+# ::tokens ["two", "men", "work", "to", "fix", "train", "tracks", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "VBP", "TO", "VB", "NN", "NNS", "."]
+# ::lemmas ["two", "man", "work", "to", "fix", "train", "track", "."]
+(w0 / work-01
+      :ARG0 (m0 / man
+            :ARG0-of (f0 / fix-02
+                  :ARG1 (t0 / track
+                        :mod (t1 / train)))
+            :quant 2 )
+      :ARG1 f0)

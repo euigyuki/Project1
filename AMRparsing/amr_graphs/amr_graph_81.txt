@@ -1,0 +1,11 @@
+(d0 / demonstrate-01
+    :time (s0 / sit-01
+              :ARG0 (m0 / man
+                        :poss-of (p0 / prowess
+                                     :topic (a0 / art
+                                                :mod (m1 / martial)))
+                        :ARG1-of (h0 / have-rel-role-91
+                                     :ARG0 (p1 / person))
+                        :mod (y0 / young)
+                        :ARG0-of d0))
+    :ARG1 p0)

@@ -1,0 +1,15 @@
+# ::snt A child is falling off a slide onto colored balloons floating on a pool of water .
+# ::tokens ["A", "child", "is", "falling", "off", "a", "slide", "onto", "colored", "balloons", "floating", "on", "a", "pool", "of", "water", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "VBG", "IN", "DT", "NN", "IN", "JJ", "NNS", "VBG", "IN", "DT", "NN", "IN", "NN", "."]
+# ::lemmas ["a", "child", "be", "fall", "off", "a", "slide", "onto", "colored", "balloon", "float", "on", "a", "pool", "of", "water", "."]
+(f0 / fall-01
+      :ARG4 (o0 / off
+            :op1 (s0 / slide))
+      :mod (b0 / balloon
+            :ARG1-of (c1 / color-01)
+            :mod (f1 / float-01
+                  :ARG2 (p0 / pool
+                        :consist-of (w0 / water))))
+      :ARG1 (c0 / child))

@@ -1,0 +1,10 @@
+# ::snt a man relaxes with his backpack .
+# ::tokens ["a", "man", "relaxes", "with", "his", "backpack", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "IN", "PRP$", "NN", "."]
+# ::lemmas ["a", "man", "relax", "with", "his", "backpack", "."]
+(r0 / relax-01
+      :accompanier (b0 / backpack
+            :poss (m0 / man))
+      :ARG0 m0)

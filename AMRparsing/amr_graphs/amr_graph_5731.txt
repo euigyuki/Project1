@@ -1,0 +1,17 @@
+# ::snt two construction workers are bent over and straddling a metal i-beam .
+# ::tokens ["two", "construction", "workers", "are", "bent", "over", "and", "straddling", "a", "metal", "i", "-", "beam", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NN", "NNS", "VBP", "JJ", "RP", "CC", "VBG", "DT", "NN", "NN", "HYPH", "NN", "."]
+# ::lemmas ["two", "construction", "worker", "be", "bent", "over", "and", "straddle", "a", "metal", "i", "-", "beam", "."]
+(a0 / and
+      :op2 (s0 / straddle
+            :op1 (b1 / beam
+                  :mod (m0 / metal))
+            :domain p0)
+      :op1 (b0 / bend-01
+            :direction (o0 / over)
+            :ARG1 (p0 / person
+                  :quant 2 
+                  :ARG0-of (w0 / work-01
+                        :ARG1 (c0 / construct-01)))))

@@ -1,0 +1,10 @@
+# ::snt young female climbing a tree .
+# ::tokens ["young", "female", "climbing", "a", "tree", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["JJ", "JJ", "NN", "DT", "NN", "."]
+# ::lemmas ["young", "female", "climbing", "a", "tree", "."]
+(c0 / climb-01
+      :ARG0 (f0 / female
+            :mod (y0 / young))
+      :ARG1 (t0 / tree))

@@ -1,0 +1,8 @@
+(w0 / walk-01
+    :manner (h0 / hurry-01)
+    :ARG0 (w1 / woman
+              :ARG0-of (h1 / have-03
+                           :ARG1 (g0 / gown
+                                     :ARG1-of (r0 / red-02)
+                                     :time (d2 / date-entity
+                                               :dayperiod (e0 / evening))))))

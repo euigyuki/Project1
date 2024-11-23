@@ -1,0 +1,11 @@
+# ::snt a woman running while other people are watching .
+# ::tokens ["a", "woman", "running", "while", "other", "people", "are", "watching", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBG", "IN", "JJ", "NNS", "VBP", "VBG", "."]
+# ::lemmas ["a", "woman", "run", "while", "other", "people", "be", "watch", "."]
+(r0 / run-02
+      :time (w1 / watch-01
+            :ARG0 (p0 / person
+                  :mod (o0 / other)))
+      :ARG0 (w0 / woman))

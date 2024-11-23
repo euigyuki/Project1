@@ -1,0 +1,10 @@
+# ::snt a heavyset person carries a basket .
+# ::tokens ["a", "heavyset", "person", "carries", "a", "basket", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "VBZ", "DT", "NN", "."]
+# ::lemmas ["a", "heavyset", "person", "carry", "a", "basket", "."]
+(c0 / carry-01
+      :ARG0 (p0 / person
+            :mod (h0 / heavyset))
+      :ARG1 (b0 / basket))

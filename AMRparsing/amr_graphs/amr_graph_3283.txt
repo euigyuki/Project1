@@ -1,0 +1,12 @@
+# ::snt a person ridding a white horse with reflective clothing on .
+# ::tokens ["a", "person", "ridding", "a", "white", "horse", "with", "reflective", "clothing", "on", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBG", "DT", "JJ", "NN", "IN", "JJ", "NN", "IN", "."]
+# ::lemmas ["a", "person", "rid", "a", "white", "horse", "with", "reflective", "clothing", "on", "."]
+(r0 / rid-01
+      :ARG1 (h0 / horse
+            :ARG1-of (w0 / white-03)
+            :ARG0-of (c0 / clothe-01
+                  :ARG2 (r1 / reflect-01)))
+      :ARG0 (p0 / person))

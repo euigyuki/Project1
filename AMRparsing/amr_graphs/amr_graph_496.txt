@@ -1,0 +1,19 @@
+# ::snt two children wearing hats are standing on the shoreline , and a woman is holding one child by the arm while the other is fishing .
+# ::tokens ["two", "children", "wearing", "hats", "are", "standing", "on", "the", "shoreline", ",", "and", "a", "woman", "is", "holding", "one", "child", "by", "the", "arm", "while", "the", "other", "is", "fishing", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "VBG", "NNS", "VBP", "VBG", "IN", "DT", "NN", ",", "CC", "DT", "NN", "VBZ", "VBG", "CD", "NN", "IN", "DT", "NN", "IN", "DT", "JJ", "VBZ", "VBG", "."]
+# ::lemmas ["two", "child", "wear", "hat", "be", "stand", "on", "the", "shoreline", ",", "and", "a", "woman", "be", "hold", "one", "child", "by", "the", "arm", "while", "the", "other", "be", "fish", "."]
+(a0 / and
+      :op2 (h0 / hold-01
+            :time (f0 / fish-01
+                  :ARG0 (o0 / other))
+            :ARG0 (w0 / woman)
+            :ARG1 (c1 / child
+                  :quant 1 ))
+      :op1 (s0 / stand-01
+            :ARG2 (s1 / shoreline)
+            :ARG1 (c0 / child
+                  :quant 2 
+                  :ARG0-of (w1 / wear-01
+                        :ARG1 (h1 / hat)))))

@@ -1,0 +1,30 @@
+# ::snt Sitting at a table with beer empty beer mugs on it one brother is has a birthday cake sliced with sprinkler lit up while the younger brother is smiling with his eyes closed .
+# ::tokens ["Sitting", "at", "a", "table", "with", "beer", "empty", "beer", "mugs", "on", "it", "one", "brother", "is", "has", "a", "birthday", "cake", "sliced", "with", "sprinkler", "lit", "up", "while", "the", "younger", "brother", "is", "smiling", "with", "his", "eyes", "closed", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["VBG", "IN", "DT", "NN", "IN", "NN", "JJ", "NN", "NNS", "IN", "PRP", "CD", "NN", "VBZ", "VBZ", "DT", "NN", "NN", "VBN", "IN", "NNP", "VBN", "RP", "IN", "DT", "JJR", "NN", "VBZ", "VBG", "IN", "PRP$", "NNS", "VBD", "."]
+# ::lemmas ["sit", "at", "a", "table", "with", "beer", "empty", "beer", "mug", "on", "it", "one", "brother", "be", "have", "a", "birthday", "cake", "slice", "with", "sprinkler", "light", "up", "while", "the", "young", "brother", "be", "smile", "with", "his", "eye", "close", "."]
+(a0 / and
+      :op3 (s1 / smile-01
+            :time (c1 / close-01)
+            :ARG0 (h1 / he))
+      :op2 (h0 / have-03
+            :ARG0 (p0 / person
+                  :part (e0 / eye)
+                  :part (h3 / have-rel-role-91
+                        :ARG2 (b3 / brother))
+                  :ARG1-of (h2 / have-rel-role-91
+                        :ARG2 (b2 / brother)
+                        :ARG1 (p1 / person
+                              :ARG1-of (h4 / have-degree-91
+                                    :ARG3 (m1 / more)
+                                    :ARG2 (y0 / young))))))
+      :op1 (s0 / sit-01
+            :ARG1 (c0 / cake
+                  :ARG1-of (s2 / slice-01
+                        :instrument (s3 / sprinkler))
+                  :mod (b0 / birthday))
+            :ARG2 (t0 / table
+                  :prep-with (m0 / mug
+                        :ARG1-of (e1 / empty-02)
+                        :mod (b1 / beer)))))

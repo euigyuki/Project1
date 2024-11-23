@@ -1,0 +1,18 @@
+# ::snt the workers using a truck to distribute rocks so they can build house with it
+# ::tokens ["the", "workers", "using", "a", "truck", "to", "distribute", "rocks", "so", "they", "can", "build", "house", "with", "it"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NNS", "VBG", "DT", "NN", "TO", "VB", "NNS", "IN", "PRP", "MD", "VB", "NN", "IN", "PRP"]
+# ::lemmas ["the", "worker", "use", "a", "truck", "to", "distribute", "rock", "so", "they", "can", "build", "house", "with", "it"]
+(u0 / use-01
+      :purpose (d0 / distribute-01
+            :ARG2 (p0 / person
+                  :ARG0-of (w0 / work-01)
+                  :ARG1-of b0)
+            :purpose (p1 / possible-01
+                  :ARG1 (b0 / build-01
+                        :instrument r0
+                        :ARG1 (h0 / house)))
+            :ARG1 (r0 / rock))
+      :ARG0 p0
+      :ARG1 (t0 / truck))

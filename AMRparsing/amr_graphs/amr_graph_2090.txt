@@ -1,0 +1,5 @@
+(c0 / cool-01
+    :ARG0 (b0 / boy
+              :mod (y0 / young))
+    :ARG1 (f0 / fountain
+              :mod (w0 / water)))

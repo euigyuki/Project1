@@ -1,0 +1,14 @@
+# ::snt Young man practices his golf stance at the driving range
+# ::tokens ["Young", "man", "practices", "his", "golf", "stance", "at", "the", "driving", "range"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["JJ", "NN", "VBZ", "PRP$", "NN", "NN", "IN", "DT", "VBG", "NN"]
+# ::lemmas ["young", "man", "practice", "his", "golf", "stance", "at", "the", "drive", "range"]
+(p0 / practice-01
+      :location (r0 / range
+            :mod (d0 / drive-01))
+      :ARG0 (m0 / man
+            :ARG0-of (s0 / stand-11
+                  :ARG1 (g0 / golf))
+            :mod (y0 / young))
+      :ARG1 s0)

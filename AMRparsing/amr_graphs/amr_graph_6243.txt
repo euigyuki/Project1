@@ -1,0 +1,5 @@
+(c0 / carve-out-03
+    :ARG2 (w0 / wood)
+    :ARG0 (m0 / man)
+    :ARG1 (e0 / eagle
+              :mod (l0 / large)))

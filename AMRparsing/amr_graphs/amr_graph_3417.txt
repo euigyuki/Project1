@@ -1,0 +1,3 @@
+(c0 / chef
+    :ARG0-of (p0 / prepare-02
+                 :ARG1 (f0 / food)))

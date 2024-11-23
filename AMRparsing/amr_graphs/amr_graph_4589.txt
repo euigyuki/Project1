@@ -1,0 +1,12 @@
+# ::snt three men are laughing at a joke around a table .
+# ::tokens ["three", "men", "are", "laughing", "at", "a", "joke", "around", "a", "table", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "VBP", "VBG", "IN", "DT", "NN", "IN", "DT", "NN", "."]
+# ::lemmas ["three", "man", "be", "laugh", "at", "a", "joke", "around", "a", "table", "."]
+(l0 / laugh-01
+      :ARG2 (j0 / joke-01)
+      :ARG0 (m0 / man
+            :quant 3 
+            :quant (a0 / around
+                  :op1 (t0 / table))))

@@ -1,0 +1,5 @@
+(a0 / and
+    :op2 (b0 / be-located-at-91
+             :ARG2 (f0 / foreground))
+    :op1 (t0 / take-01
+             :ARG0 (w0 / woman)))

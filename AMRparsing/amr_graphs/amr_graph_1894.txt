@@ -1,0 +1,5 @@
+(s0 / stand-01
+    :ARG1 (a0 / adult
+              :ARG1-of (w0 / wait-01)
+              :ARG0-of (h0 / have-rel-role-91
+                           :ARG0 (p0 / person))))

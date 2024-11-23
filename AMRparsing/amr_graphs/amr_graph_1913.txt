@@ -1,0 +1,17 @@
+# ::snt a man in a blue shirt and a woman in a dress having a conversation while drinking .
+# ::tokens ["a", "man", "in", "a", "blue", "shirt", "and", "a", "woman", "in", "a", "dress", "having", "a", "conversation", "while", "drinking", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "DT", "JJ", "NN", "CC", "DT", "NN", "IN", "DT", "NN", "VBG", "DT", "NN", "IN", "VBG", "."]
+# ::lemmas ["a", "man", "in", "a", "blue", "shirt", "and", "a", "woman", "in", "a", "dress", "have", "a", "conversation", "while", "drink", "."]
+(h0 / have-03
+      :time (d0 / drink-01
+            :ARG0 (a0 / and
+                  :ARG0-of (c0 / converse-01)
+                  :op2 (w0 / woman
+                        :mod (d1 / dress))
+                  :op1 (m0 / man
+                        :mod (s0 / shirt
+                              :mod (b0 / blue)))))
+      :ARG0 a0
+      :ARG1 c0)

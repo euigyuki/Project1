@@ -1,0 +1,13 @@
+# ::snt two boys in red uniforms are playing soccer .
+# ::tokens ["two", "boys", "in", "red", "uniforms", "are", "playing", "soccer", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "IN", "JJ", "NNS", "VBP", "VBG", "NN", "."]
+# ::lemmas ["two", "boy", "in", "red", "uniform", "be", "play", "soccer", "."]
+(p0 / play-01
+      :ARG0 (b0 / boy
+            :quant 2 
+            :ARG0-of (w0 / wear-01
+                  :ARG1 (u0 / uniform
+                        :ARG1-of (r0 / red-02))))
+      :ARG1 (s0 / soccer))

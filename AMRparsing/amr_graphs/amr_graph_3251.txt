@@ -1,0 +1,6 @@
+(p0 / perform-01
+    :time (s0 / surf-01
+              :ARG2 (o0 / ocean))
+    :ARG0 (m0 / man
+              :ARG0-of (t0 / trick-01)
+              :ARG0-of (h0 / have-03)))

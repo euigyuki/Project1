@@ -1,0 +1,18 @@
+# ::snt construction workers dressed in safety vests and hard hats inspect their work .
+# ::tokens ["construction", "workers", "dressed", "in", "safety", "vests", "and", "hard", "hats", "inspect", "their", "work", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["NN", "NNS", "VBN", "IN", "NN", "NNS", "CC", "JJ", "NNS", "VBP", "PRP$", "NN", "."]
+# ::lemmas ["construction", "worker", "dress", "in", "safety", "vest", "and", "hard", "hat", "inspect", "their", "work", "."]
+(i0 / inspect-01
+      :ARG0 (p0 / person
+            :ARG0-of (w0 / work-01)
+            :ARG0-of (c0 / construct-01)
+            :mod (w1 / work-01)
+            :ARG1-of (d0 / dress-01
+                  :ARG2 (a0 / and
+                        :op2 (h0 / hat
+                              :mod (h1 / hard))
+                        :op1 (v0 / vest
+                              :purpose (s0 / safe-01)))))
+      :ARG1 w0)

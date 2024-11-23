@@ -1,0 +1,5 @@
+(c0 / chase-01
+    :ARG0 (d0 / dog
+              :mod (s0 / small))
+    :ARG1 (b0 / ball
+              :mod (t0 / tennis)))

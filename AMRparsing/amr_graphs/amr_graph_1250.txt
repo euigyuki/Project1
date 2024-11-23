@@ -1,0 +1,10 @@
+# ::snt a child rides on a man 's shoulders .
+# ::tokens ["a", "child", "rides", "on", "a", "man", "'s", "shoulders", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "IN", "DT", "NN", "POS", "NNS", "."]
+# ::lemmas ["a", "child", "ride", "on", "a", "man", "'s", "shoulder", "."]
+(r0 / ride-01
+      :ARG0 (c0 / child)
+      :ARG1 (s0 / shoulder
+            :part-of (m0 / man)))

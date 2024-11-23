@@ -1,0 +1,4 @@
+(l0 / look-01
+    :ARG1 (o0 / organ)
+    :ARG0 (p0 / person
+              :quant 2))

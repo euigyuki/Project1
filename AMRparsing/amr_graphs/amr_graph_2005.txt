@@ -1,0 +1,14 @@
+# ::snt a girl is making a home run during her baseball game .
+# ::tokens ["a", "girl", "is", "making", "a", "home", "run", "during", "her", "baseball", "game", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "VBG", "DT", "NN", "NN", "IN", "PRP$", "NN", "NN", "."]
+# ::lemmas ["a", "girl", "be", "make", "a", "home", "run", "during", "her", "baseball", "game", "."]
+(m0 / make-01
+      :time (g1 / game
+            :poss (g0 / girl
+                  :ARG0-of (r0 / run-02
+                        :ARG1 (h0 / home)))
+            :mod (b0 / baseball))
+      :ARG0 g0
+      :ARG1 r0)

@@ -1,0 +1,5 @@
+(s0 / stand-01
+    :time (d0 / do-02
+              :ARG0 (m0 / man
+                        :poss-of (m1 / motorcycle)
+                        :ARG1-of s0)))

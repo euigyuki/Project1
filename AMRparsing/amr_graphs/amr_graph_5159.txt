@@ -1,0 +1,4 @@
+(r0 / raise-01
+    :ARG0 (p0 / person
+              :part (h0 / hand))
+    :ARG1 h0)

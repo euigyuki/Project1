@@ -1,0 +1,11 @@
+# ::snt a small boy is placing items from a cart onto the check out .
+# ::tokens ["a", "small", "boy", "is", "placing", "items", "from", "a", "cart", "onto", "the", "check", "out", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "VBZ", "VBG", "NNS", "IN", "DT", "NN", "IN", "DT", "NN", "RP", "."]
+# ::lemmas ["a", "small", "boy", "be", "place", "item", "from", "a", "cart", "onto", "the", "check", "out", "."]
+(p0 / place-01
+      :ARG2 (c0 / check)
+      :ARG0 (b0 / boy
+            :mod (s0 / small))
+      :ARG1 (i0 / item))

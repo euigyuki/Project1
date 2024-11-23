@@ -1,0 +1,5 @@
+(s0 / stand-01
+    :ARG1 (p0 / person
+              :ARG0-of (h0 / have-org-role-91)
+              :poss-of (f0 / food
+                           :op1-of (i0 / in-front-of))))

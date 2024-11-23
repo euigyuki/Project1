@@ -1,0 +1,15 @@
+# ::snt two men going about their daily business .
+# ::tokens ["two", "men", "going", "about", "their", "daily", "business", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "DATE", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "B", "O", "O"]
+# ::pos_tags ["CD", "NNS", "VBG", "IN", "PRP$", "JJ", "NN", "."]
+# ::lemmas ["two", "man", "go", "about", "their", "daily", "business", "."]
+(g0 / go-06
+      :ARG0 (m0 / man
+            :poss-of (b0 / business
+                  :frequency (r0 / rate-entity-91
+                        :ARG3 (t0 / temporal-quantity
+                              :unit (d0 / day)
+                              :quant 1 )))
+            :quant 2 )
+      :ARG1 b0)

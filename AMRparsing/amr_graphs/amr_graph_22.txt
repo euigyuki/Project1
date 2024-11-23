@@ -1,0 +1,27 @@
+# ::snt this little baby girl dressed whimsically in striped pantaloons is pictured so that one must ask which is bigger , her feet or her sleepy smile .
+# ::tokens ["this", "little", "baby", "girl", "dressed", "whimsically", "in", "striped", "pantaloons", "is", "pictured", "so", "that", "one", "must", "ask", "which", "is", "bigger", ",", "her", "feet", "or", "her", "sleepy", "smile", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "NN", "VBN", "RB", "IN", "VBN", "NNS", "VBZ", "VBN", "IN", "IN", "PRP", "MD", "VB", "WDT", "VBZ", "JJR", ",", "PRP$", "NNS", "CC", "PRP$", "JJ", "NN", "."]
+# ::lemmas ["this", "little", "baby", "girl", "dress", "whimsically", "in", "stripe", "pantaloon", "be", "picture", "so", "that", "one", "must", "ask", "which", "be", "big", ",", "her", "foot", "or", "her", "sleepy", "smile", "."]
+(c0 / cause-01
+      :ARG0 (p0 / picture-01
+            :ARG1 (g0 / girl
+                  :part (f1 / foot)
+                  :part (f0 / foot)
+                  :ARG1-of (d0 / dress-01
+                        :ARG2 (p1 / pantaloon
+                              :mod "Cypress" )
+                        :manner (w0 / whimsically))
+                  :mod (l0 / little)
+                  :mod (t0 / this)
+                  :mod (b0 / baby)))
+      :ARG1 (o0 / obligate-01
+            :ARG1 (a0 / ask-01
+                  :ARG1 (o2 / or
+                        :op1 (h0 / have-degree-91
+                              :ARG3 (m0 / more)
+                              :ARG2 (b1 / big))
+                        :op3 (s0 / smile-01
+                              :ARG1-of (s1 / sleep-01)))
+                  :ARG0 (o1 / one))))

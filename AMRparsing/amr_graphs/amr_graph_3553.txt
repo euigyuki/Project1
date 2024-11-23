@@ -1,0 +1,6 @@
+(a0 / accept-01
+    :ARG0 (w0 / woman
+              :ARG1-of (s0 / seat-01)
+              :mod (n0 / near-02)
+              :mod (o0 / old))
+    :ARG1 (p0 / plate))

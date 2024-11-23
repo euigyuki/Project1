@@ -1,0 +1,3 @@
+(h0 / hold-01
+    :ARG1 (r0 / racket
+              :mod (t0 / tennis)))

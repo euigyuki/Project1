@@ -1,0 +1,5 @@
+(f0 / full-09
+    :ARG2 (p0 / person)
+    :ARG1 (e0 / elevator
+              :quant (g0 / glass)
+              :quant 3))

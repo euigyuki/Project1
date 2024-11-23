@@ -1,0 +1,16 @@
+# ::snt boys and girls of various ages participate in a potato sack race .
+# ::tokens ["boys", "and", "girls", "of", "various", "ages", "participate", "in", "a", "potato", "sack", "race", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["NNS", "CC", "NNS", "IN", "JJ", "NNS", "VBP", "IN", "DT", "NN", "NN", "NN", "."]
+# ::lemmas ["boy", "and", "girl", "of", "various", "age", "participate", "in", "a", "potato", "sack", "race", "."]
+(p0 / participate-01
+      :ARG0 (a0 / and
+            :op2 (g0 / girl
+                  :age t0)
+            :op1 (b0 / boy
+                  :age (t0 / temporal-quantity
+                        :mod (v0 / various))))
+      :ARG1 (r0 / race-02
+            :ARG3 (s0 / sack
+                  :part-of (p1 / potato))))

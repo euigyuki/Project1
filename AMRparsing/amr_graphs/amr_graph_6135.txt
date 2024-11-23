@@ -1,0 +1,3 @@
+(m0 / make-01
+    :ARG0 (m1 / man)
+    :ARG1 (f0 / food))

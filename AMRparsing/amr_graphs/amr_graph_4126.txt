@@ -1,0 +1,19 @@
+# ::snt a little girt wearing a yellow bracelet and yellow socks with shin guards kicks a bright pink soccer ball .
+# ::tokens ["a", "little", "girt", "wearing", "a", "yellow", "bracelet", "and", "yellow", "socks", "with", "shin", "guards", "kicks", "a", "bright", "pink", "soccer", "ball", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "VBG", "DT", "JJ", "NN", "CC", "JJ", "NNS", "IN", "NN", "NNS", "VBZ", "DT", "JJ", "JJ", "NN", "NN", "."]
+# ::lemmas ["a", "little", "girt", "wear", "a", "yellow", "bracelet", "and", "yellow", "sock", "with", "shin", "guard", "kick", "a", "bright", "pink", "soccer", "ball", "."]
+(k0 / kick-01
+      :ARG0 (g0 / girt
+            :ARG0-of (w0 / wear-01
+                  :ARG1 (a0 / and
+                        :op2 (s1 / sock
+                              :mod (s2 / shin))
+                        :op1 (b2 / bracelet
+                              :mod (y0 / yellow))))
+            :mod (l0 / little))
+      :ARG1 (b0 / ball
+            :ARG1-of (p0 / pink-04
+                  :ARG1-of (b1 / bright-02))
+            :mod (s0 / soccer)))

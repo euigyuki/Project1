@@ -1,0 +1,10 @@
+(g0 / give-01
+    :time (w2 / watch-01
+              :ARG0 (w3 / woman
+                        :mod (a2 / another)))
+    :ARG2 (w1 / woman
+              :quant 1)
+    :ARG0 (w0 / woman
+              :quant (a1 / another
+                         :mod (y0 / yet)))
+    :ARG1 (p0 / pedicure))

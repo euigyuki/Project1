@@ -1,0 +1,19 @@
+(w0 / wait-01
+    :time (t0 / toss-01
+              :ARG0 (b1 / bride
+                        :poss-of (b0 / bouquet))
+              :ARG1 b0)
+    :ARG2 (a0 / anticipate-01
+              :ARG0 (g0 / guest
+                        :quant (s0 / several)
+                        :quant (i0 / include-91
+                                   :ARG1 (b2 / bridesmaid
+                                             :ARG0-of (w2 / wear-01
+                                                          :ARG1 (d0 / dress
+                                                                    :ARG1-of (p0 / pink-04)))
+                                             :quant (c0 / continent
+                                                        :name (n0 / name
+                                                                  :op1 "Asia"))
+                                             :quant 2))
+                        :mod (y0 / young)
+                        :ARG1-of w0)))

@@ -1,0 +1,11 @@
+# ::snt a brown dog swims through water outdoors with a tennis ball in its mouth .
+(z1 / swim-01
+      :ARG0 (z2 / dog
+            :ARG1-of (z3 / brown-02)
+            :ARG0-of (z4 / have-03
+                  :ARG1 (z5 / ball
+                        :mod (z6 / tennis)
+                        :location (z7 / mouth
+                              :part-of z2))))
+      :ARG1 (z8 / water
+            :location (z9 / outdoors)))

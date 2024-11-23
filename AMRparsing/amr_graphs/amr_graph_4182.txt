@@ -1,0 +1,3 @@
+(g0 / gather-03
+    :ARG1 (c0 / crowd
+              :consist-of (p0 / person)))

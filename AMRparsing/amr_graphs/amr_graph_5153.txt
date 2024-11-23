@@ -1,0 +1,11 @@
+# ::snt two women writing on a banner in marker .
+# ::tokens ["two", "women", "writing", "on", "a", "banner", "in", "marker", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "VBG", "IN", "DT", "NN", "IN", "NN", "."]
+# ::lemmas ["two", "woman", "write", "on", "a", "banner", "in", "marker", "."]
+(w0 / write-01
+      :ARG2 (b0 / banner
+            :mod (m0 / marker))
+      :ARG0 (w1 / woman
+            :quant 2 ))

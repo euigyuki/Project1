@@ -1,0 +1,11 @@
+# ::snt a pharmacist is at work filling prescriptions .
+# ::tokens ["a", "pharmacist", "is", "at", "work", "filling", "prescriptions", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "IN", "NN", "VBG", "NNS", "."]
+# ::lemmas ["a", "pharmacist", "be", "at", "work", "fill", "prescription", "."]
+(w0 / work-01
+      :ARG1 (f0 / fill-01
+            :ARG0 (p0 / pharmacist)
+            :ARG1 (p1 / prescribe-02))
+      :ARG0 p0)

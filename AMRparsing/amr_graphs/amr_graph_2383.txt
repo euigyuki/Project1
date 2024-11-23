@@ -1,0 +1,5 @@
+(g0 / gather-03
+    :purpose (c0 / celebrate-02
+                 :ARG0 (g1 / group
+                           :consist-of (p0 / person)
+                           :ARG1-of g0)))

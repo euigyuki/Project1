@@ -1,0 +1,4 @@
+(c0 / contrast-01
+    :ARG1 (s0 / set-up-03
+              :ARG1 (t1 / table)
+              :ARG0 (t0 / table)))

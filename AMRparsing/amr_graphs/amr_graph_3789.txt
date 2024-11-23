@@ -1,0 +1,11 @@
+# ::snt boy wearing yellow jacket jumping .
+# ::tokens ["boy", "wearing", "yellow", "jacket", "jumping", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["NN", "VBG", "JJ", "NN", "NN", "."]
+# ::lemmas ["boy", "wear", "yellow", "jacket", "jumping", "."]
+(j0 / jump-03
+      :ARG0 (b0 / boy
+            :ARG0-of (w0 / wear-01
+                  :ARG1 (j1 / jacket
+                        :mod (y0 / yellow)))))

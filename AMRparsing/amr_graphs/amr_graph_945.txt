@@ -1,0 +1,5 @@
+(h0 / hold-01
+    :ARG2 (h2 / head
+              :part-of (b0 / boy
+                           :part (h1 / hand)))
+    :ARG1 h1)

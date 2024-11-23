@@ -1,0 +1,9 @@
+(p0 / perform-02
+    :manner (u0 / use-01
+                :ARG0 (m0 / man
+                          :ARG0-of (w0 / work-01)
+                          :quant 4)
+                :ARG1 (t0 / truck
+                          :mod (d1 / dump)))
+    :ARG0 m0
+    :ARG1 w0)

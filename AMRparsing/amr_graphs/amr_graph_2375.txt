@@ -1,0 +1,11 @@
+# ::snt a smiling child makes a snow angel .
+# ::tokens ["a", "smiling", "child", "makes", "a", "snow", "angel", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "VBG", "NN", "VBZ", "DT", "NN", "NN", "."]
+# ::lemmas ["a", "smile", "child", "make", "a", "snow", "angel", "."]
+(m0 / make-01
+      :ARG1 (a0 / angel
+            :mod (s1 / snow))
+      :ARG0 (c0 / child
+            :ARG0-of (s0 / smile-01)))

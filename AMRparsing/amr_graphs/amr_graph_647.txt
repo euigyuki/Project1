@@ -1,0 +1,17 @@
+# ::snt a young girl wearing a blue helmet and flip-flops is sitting on a red four-wheeler .
+# ::tokens ["a", "young", "girl", "wearing", "a", "blue", "helmet", "and", "flip", "-", "flops", "is", "sitting", "on", "a", "red", "four", "-", "wheeler", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "CARDINAL", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "VBG", "DT", "JJ", "NN", "CC", "NN", "HYPH", "NNS", "VBZ", "VBG", "IN", "DT", "JJ", "CD", "HYPH", "NN", "."]
+# ::lemmas ["a", "young", "girl", "wear", "a", "blue", "helmet", "and", "flip", "-", "flop", "be", "sit", "on", "a", "red", "four", "-", "wheeler", "."]
+(s0 / sit-01
+      :ARG2 (w0 / wheeler
+            :ARG1-of (r0 / red-02)
+            :quant 4 )
+      :ARG1 (g0 / girl
+            :ARG0-of (w1 / wear-01
+                  :ARG1 (a0 / and
+                        :op2 (f0 / flip)
+                        :op1 (h0 / helmet
+                              :mod (b0 / blue))))
+            :mod (y0 / young)))

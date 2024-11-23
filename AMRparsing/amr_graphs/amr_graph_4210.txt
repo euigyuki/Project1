@@ -1,0 +1,6 @@
+(s0 / sit-01
+    :accompanier (g0 / guitar
+                     :poss (m0 / man
+                               :ARG1-of (b0 / black-05))
+                     :mod (a0 / acoustic))
+    :ARG1 m0)

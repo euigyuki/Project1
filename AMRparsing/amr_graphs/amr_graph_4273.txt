@@ -1,0 +1,4 @@
+(p0 / poke-01
+    :ARG2 (o0 / out-06
+              :ARG2 (w0 / window
+                        :mod (s0 / small))))

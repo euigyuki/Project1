@@ -1,0 +1,5 @@
+(a0 / and
+    :op2 (m0 / mountain)
+    :op1 (w0 / walk-01
+             :ARG0 (g0 / group
+                       :consist-of (p0 / person))))

@@ -1,0 +1,11 @@
+(l0 / lie-07
+    :manner (d0 / down)
+    :manner (u0 / usual
+                :degree (v0 / very)
+                :polarity -)
+    :mod (w0 / wall)
+    :ARG1 (p0 / person
+              :ARG0-of (w1 / wear-01
+                           :ARG1 (s0 / shirt
+                                     :mod (p2 / pale-03
+                                              :ARG1-of (l2 / long-03))))))

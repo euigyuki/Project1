@@ -1,0 +1,7 @@
+(r0 / relax-01
+    :ARG1 (p0 / person
+              :quant (s1 / several)
+              :mod (y0 / young)
+              :mod (c0 / continent
+                       :name (n0 / name
+                                 :op1 "Asia"))))

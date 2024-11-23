@@ -1,0 +1,12 @@
+# ::snt an indian man climbing a tree .
+# ::tokens ["an", "indian", "man", "climbing", "a", "tree", "."]
+# ::ner_tags ["O", "NORP", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "B", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "VBG", "DT", "NN", "."]
+# ::lemmas ["an", "indian", "man", "climb", "a", "tree", "."]
+(c0 / climb-01
+      :ARG0 (m0 / man
+            :mod (c1 / country
+                  :name (n0 / name
+                        :op1 "India" )))
+      :ARG1 (t0 / tree))

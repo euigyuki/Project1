@@ -1,0 +1,6 @@
+(j0 / jump-03
+    :time (a0 / after
+              :op1 (f0 / frisbee))
+    :ARG0 (d0 / dog
+              :ARG1-of (w0 / white-02)
+              :ARG0-of (b0 / black-05)))

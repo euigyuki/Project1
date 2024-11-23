@@ -1,0 +1,15 @@
+# ::snt two kids with blond-hair sit atop a four-wheeler .
+# ::tokens ["two", "kids", "with", "blond", "-", "hair", "sit", "atop", "a", "four", "-", "wheeler", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "CARDINAL", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O", "B", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "IN", "NN", "HYPH", "NN", "VBP", "IN", "DT", "CD", "HYPH", "NN", "."]
+# ::lemmas ["two", "kid", "with", "blond", "-", "hair", "sit", "atop", "a", "four", "-", "wheeler", "."]
+(s0 / sit-01
+      :ARG2 (a0 / atop
+            :op1 (w0 / wheeler
+                  :quant 4 ))
+      :ARG1 (k0 / kid
+            :quant 2 
+            :ARG0-of (h0 / have-03
+                  :ARG1 (h1 / hair
+                        :ARG1-of (c0 / cold-01)))))

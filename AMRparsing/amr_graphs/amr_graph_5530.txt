@@ -1,0 +1,13 @@
+# ::snt man in plaid suit shaking someones hand .
+# ::tokens ["man", "in", "plaid", "suit", "shaking", "someones", "hand", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["NN", "IN", "NN", "NN", "VBG", "NNS", "NN", "."]
+# ::lemmas ["man", "in", "plaid", "suit", "shake", "someone", "hand", "."]
+(s0 / shake-01
+      :ARG0 (s1 / someone)
+      :manner (m0 / man
+            :ARG0-of (w0 / wear-01
+                  :ARG1 (s2 / suit
+                        :mod (p0 / plaid))))
+      :ARG1 (h0 / hand))

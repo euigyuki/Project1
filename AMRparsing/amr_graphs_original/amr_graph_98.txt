@@ -1,0 +1,12 @@
+# ::snt a group of people in a coffee shop at night have coffee and juice together .
+(z1 / have-06
+      :ARG0 (z2 / group
+            :consist-of (z3 / person))
+      :ARG1 (z4 / and
+            :op1 (z5 / coffee)
+            :op2 (z6 / juice))
+      :location (z7 / shop
+            :mod (z8 / coffee))
+      :time (z9 / date-entity
+            :dayperiod (z10 / night))
+      :mod (z11 / together))

@@ -1,0 +1,15 @@
+# ::snt a person in white with a black hat on trying to sell vegetables .
+# ::tokens ["a", "person", "in", "white", "with", "a", "black", "hat", "on", "trying", "to", "sell", "vegetables", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "JJ", "IN", "DT", "JJ", "NN", "IN", "VBG", "TO", "VB", "NNS", "."]
+# ::lemmas ["a", "person", "in", "white", "with", "a", "black", "hat", "on", "try", "to", "sell", "vegetable", "."]
+(t0 / try-01
+      :ARG0 (p0 / person
+            :ARG0-of (s0 / sell-01
+                  :ARG1 (v0 / vegetable))
+            :ARG0-of (h0 / have-03
+                  :ARG1 (h1 / hat
+                        :ARG1-of (b0 / black-04)))
+            :ARG1-of (w0 / white-02))
+      :ARG1 s0)

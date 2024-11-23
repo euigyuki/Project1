@@ -1,0 +1,4 @@
+(s0 / surgery-01
+    :ARG2 (s1 / snow)
+    :ARG0 (p0 / person
+              :quant 2))

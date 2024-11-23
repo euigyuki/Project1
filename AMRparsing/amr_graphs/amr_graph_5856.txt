@@ -1,0 +1,14 @@
+(a0 / and
+    :op2 (s0 / stand-01
+             :ARG1 (d0 / dog
+                       :part n0
+                       :ARG0-of (h3 / have-03
+                                    :ARG1 (f0 / fuzzy))
+                       :ARG1-of (h2 / have-03
+                                    :ARG1 (d1 / dog
+                                              :ARG0-of (h4 / have-03)))
+                       :part (h1 / have-03))
+             :ARG0 (n0 / nose))
+    :op1 (h0 / have-03
+             :ARG0 d0
+             :ARG1 n0))

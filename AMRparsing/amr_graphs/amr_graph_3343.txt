@@ -1,0 +1,17 @@
+# ::snt a handicapped person with one leg skiing down a mountain with other mountains in the background .
+# ::tokens ["a", "handicapped", "person", "with", "one", "leg", "skiing", "down", "a", "mountain", "with", "other", "mountains", "in", "the", "background", "."]
+# ::ner_tags ["O", "O", "O", "O", "CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "IN", "CD", "NN", "NN", "IN", "DT", "NN", "IN", "JJ", "NNS", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "handicapped", "person", "with", "one", "leg", "skiing", "down", "a", "mountain", "with", "other", "mountain", "in", "the", "background", "."]
+(p0 / person
+      :part (l0 / leg
+            :quant 1 )
+      :ARG0-of (s0 / ski-01
+            :direction (d0 / down)
+            :ARG2 (m0 / mountain
+                  :mod (m1 / mountain
+                        :mod (o0 / other))
+                  :location (b0 / background)))
+      :ARG1-of (c0 / capable-01
+            :polarity - ))

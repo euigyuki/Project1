@@ -1,0 +1,13 @@
+# ::snt A woman is painting a copy of a picture hanging on the wall .
+# ::tokens ["A", "woman", "is", "painting", "a", "copy", "of", "a", "picture", "hanging", "on", "the", "wall", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "VBG", "DT", "NN", "IN", "DT", "NN", "VBG", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "woman", "be", "paint", "a", "copy", "of", "a", "picture", "hang", "on", "the", "wall", "."]
+(p0 / paint-02
+      :ARG0 (w0 / woman)
+      :ARG1 (t0 / thing
+            :ARG2-of (c0 / copy-01
+                  :ARG1 (p1 / picture
+                        :ARG1-of (h0 / hang-01
+                              :ARG2 (w1 / wall))))))

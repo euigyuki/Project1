@@ -1,0 +1,15 @@
+# ::snt a catcher in a red and white uniform plays at a baseball game .
+# ::tokens ["a", "catcher", "in", "a", "red", "and", "white", "uniform", "plays", "at", "a", "baseball", "game", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "DT", "JJ", "CC", "JJ", "NN", "VBZ", "IN", "DT", "NN", "NN", "."]
+# ::lemmas ["a", "catcher", "in", "a", "red", "and", "white", "uniform", "play", "at", "a", "baseball", "game", "."]
+(p0 / play-01
+      :ARG0 (p1 / person
+            :ARG0-of (c0 / coach-01)
+            :mod (w0 / wear-01
+                  :ARG1 (u0 / uniform
+                        :ARG1-of (w1 / white-03)
+                        :mod (r0 / red-02))))
+      :ARG1 (g0 / game
+            :mod (b0 / baseball)))

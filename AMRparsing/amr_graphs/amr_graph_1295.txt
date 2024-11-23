@@ -1,0 +1,12 @@
+# ::snt a lady in jeans and high heels .
+# ::tokens ["a", "lady", "in", "jeans", "and", "high", "heels", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "NNS", "CC", "JJ", "NNS", "."]
+# ::lemmas ["a", "lady", "in", "jean", "and", "high", "heel", "."]
+(l0 / lady
+      :ARG0-of (h0 / have-03
+            :ARG1 (a0 / and
+                  :op2 (h1 / heel
+                        :ARG1-of (h2 / high-02))
+                  :op1 (j0 / jean))))

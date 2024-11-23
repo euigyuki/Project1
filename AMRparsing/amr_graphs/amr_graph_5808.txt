@@ -1,0 +1,4 @@
+(p0 / play-01
+    :mod (t0 / together)
+    :ARG0 (c0 / child
+              :quant 4))

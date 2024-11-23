@@ -1,0 +1,5 @@
+(s0 / stop-01
+    :ARG0 (m0 / man
+              :ARG0-of (k0 / kiss-01
+                           :ARG2 (c0 / cow))
+              :quant 1))

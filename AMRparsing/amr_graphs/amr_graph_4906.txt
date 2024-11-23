@@ -1,0 +1,8 @@
+(p0 / play-01
+    :ARG0 (p1 / person
+              :quant 4)
+    :ARG1 (g0 / game
+              :ARG1-of (r0 / resemble-01
+                           :ARG2 (h0 / horseshoe))
+              :mod (s0 / sort
+                       :mod (s1 / some))))

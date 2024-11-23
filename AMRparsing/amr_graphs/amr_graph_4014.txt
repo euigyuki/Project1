@@ -1,0 +1,4 @@
+(w0 / write-01
+    :mod (d0 / down)
+    :ARG0 (m0 / man)
+    :ARG1 (s0 / something))

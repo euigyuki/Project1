@@ -1,0 +1,3 @@
+(p0 / play-01
+    :ARG0 (d0 / dog
+              :quant 3))

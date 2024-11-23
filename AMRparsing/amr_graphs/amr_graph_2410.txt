@@ -1,0 +1,15 @@
+# ::snt a man with blond-hair and glasses pulls on a big rope .
+# ::tokens ["a", "man", "with", "blond", "-", "hair", "and", "glasses", "pulls", "on", "a", "big", "rope", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "NN", "HYPH", "NN", "CC", "NNS", "VBZ", "IN", "DT", "JJ", "NN", "."]
+# ::lemmas ["a", "man", "with", "blond", "-", "hair", "and", "glass", "pull", "on", "a", "big", "rope", "."]
+(p0 / pull-01
+      :ARG0 (m0 / man
+            :ARG0-of (h0 / have-03
+                  :ARG1 (a0 / and
+                        :op2 (g0 / glass)
+                        :op1 (h1 / hair
+                              :mod (b1 / blond)))))
+      :ARG1 (r0 / rope
+            :mod (b0 / big)))

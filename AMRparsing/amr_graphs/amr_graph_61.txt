@@ -1,0 +1,8 @@
+(a0 / and
+    :op2 (c0 / carry-01
+             :ARG1 (b0 / briefcase))
+    :op1 (t0 / talk-01
+             :instrument (p0 / phone)
+             :ARG0 (m0 / man
+                       :ARG0-of (s0 / suit
+                                    :mod (b3 / business)))))

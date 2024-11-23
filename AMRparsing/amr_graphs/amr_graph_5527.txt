@@ -1,0 +1,16 @@
+# ::snt a performer with a huge afro is shaking hands with the crowd .
+# ::tokens ["a", "performer", "with", "a", "huge", "afro", "is", "shaking", "hands", "with", "the", "crowd", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "DT", "JJ", "NN", "VBZ", "VBG", "NNS", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "performer", "with", "a", "huge", "afro", "be", "shake", "hand", "with", "the", "crowd", "."]
+(s0 / shake-01
+      :ARG3 (c0 / crowd)
+      :ARG0 (p0 / person
+            :ARG0-of (h1 / have-03
+                  :ARG1 (a0 / aircraft-type
+                        :name (n0 / name
+                              :op1 "afro" )
+                        :mod (h2 / huge)))
+            :mod (p1 / perform-01))
+      :ARG1 (h0 / hand))

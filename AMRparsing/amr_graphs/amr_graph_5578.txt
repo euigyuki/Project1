@@ -1,0 +1,11 @@
+# ::snt a little boy playing in a water spout .
+# ::tokens ["a", "little", "boy", "playing", "in", "a", "water", "spout", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "VBG", "IN", "DT", "NN", "NN", "."]
+# ::lemmas ["a", "little", "boy", "play", "in", "a", "water", "spout", "."]
+(p0 / play-01
+      :ARG2 (s0 / spout
+            :mod (w0 / water))
+      :ARG0 (b0 / boy
+            :mod (l0 / little)))

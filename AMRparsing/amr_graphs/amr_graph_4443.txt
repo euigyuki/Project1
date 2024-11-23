@@ -1,0 +1,13 @@
+# ::snt dog running in front of two white and brown cows .
+# ::tokens ["dog", "running", "in", "front", "of", "two", "white", "and", "brown", "cows", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "CARDINAL", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "B", "O", "O", "O", "O", "O"]
+# ::pos_tags ["NN", "VBG", "IN", "NN", "IN", "CD", "JJ", "CC", "JJ", "NNS", "."]
+# ::lemmas ["dog", "run", "in", "front", "of", "two", "white", "and", "brown", "cow", "."]
+(r0 / run-02
+      :location (i0 / in-front-of
+            :op1 (c0 / cow
+                  :quant 2 
+                  :quant (b0 / brown)
+                  :ARG1-of (w0 / white-02)))
+      :ARG0 (d0 / dog))

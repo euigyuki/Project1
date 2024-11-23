@@ -1,0 +1,10 @@
+# ::snt a boy petting a white bull .
+# ::tokens ["a", "boy", "petting", "a", "white", "bull", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBG", "DT", "JJ", "NN", "."]
+# ::lemmas ["a", "boy", "pet", "a", "white", "bull", "."]
+(p0 / pet
+      :domain (b1 / boy)
+      :domain (b0 / bull
+            :ARG1-of (w0 / white-02)))

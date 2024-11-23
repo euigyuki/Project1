@@ -1,16 +1,1 @@
-/model_scope_text_to_video
-/stable-diffusion-webui
-/stable-diffusion-webui-forge
-/system
-/Text-To-Video-Finetuning
-VGen/
-webui/
-
-winehq.key
-webui.sh
-environment.bat
-webui_forge_cu121_torch231.7z
-run.bat
-
-
-/midjourney/.env
+/data

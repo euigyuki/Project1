@@ -1,0 +1,4 @@
+(w0 / walk-01
+    :manner (c0 / contraption
+                :mod (a0 / artistic))
+    :ARG0 (p0 / person))

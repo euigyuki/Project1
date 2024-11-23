@@ -1,0 +1,4 @@
+(t0 / thump-01
+    :ARG0 (m0 / man
+              :quant 2)
+    :ARG1 (p0 / pavement))

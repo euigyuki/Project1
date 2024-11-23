@@ -1,0 +1,14 @@
+# ::snt people are at an event and some are lying on the ground .
+# ::tokens ["people", "are", "at", "an", "event", "and", "some", "are", "lying", "on", "the", "ground", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["NNS", "VBP", "IN", "DT", "NN", "CC", "DT", "VBP", "VBG", "IN", "DT", "NN", "."]
+# ::lemmas ["people", "be", "at", "an", "event", "and", "some", "be", "lie", "on", "the", "ground", "."]
+(a0 / and
+      :op2 (l0 / lie-07
+            :ARG2 (g0 / ground)
+            :ARG1 (p1 / person
+                  :quant (s0 / some)))
+      :op1 (b0 / be-located-at-91
+            :ARG2 (e0 / event)
+            :ARG1 (p0 / person)))

@@ -1,0 +1,13 @@
+# ::snt a worker in a blue hat is fixing the wall .
+# ::tokens ["a", "worker", "in", "a", "blue", "hat", "is", "fixing", "the", "wall", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "DT", "JJ", "NN", "VBZ", "VBG", "DT", "NN", "."]
+# ::lemmas ["a", "worker", "in", "a", "blue", "hat", "be", "fix", "the", "wall", "."]
+(f0 / fix-02
+      :ARG0 (p0 / person
+            :ARG0-of (w2 / work-01)
+            :mod (w1 / wear-01
+                  :ARG1 (h0 / hat
+                        :mod (b0 / blue))))
+      :ARG1 (w0 / wall))

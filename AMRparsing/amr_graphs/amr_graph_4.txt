@@ -1,0 +1,17 @@
+# ::snt a person in tan pants is inside a silver mobile object while people watch .
+# ::tokens ["a", "person", "in", "tan", "pants", "is", "inside", "a", "silver", "mobile", "object", "while", "people", "watch", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "NNP", "NNS", "VBZ", "IN", "DT", "JJ", "JJ", "NN", "IN", "NNS", "VBP", "."]
+# ::lemmas ["a", "person", "in", "tan", "pant", "be", "inside", "a", "silver", "mobile", "object", "while", "people", "watch", "."]
+(b0 / be-located-at-91
+      :time (w0 / watch-01
+            :ARG0 (p1 / person))
+      :ARG1 (p0 / person
+            :ARG0-of (w1 / wear-01
+                  :ARG1 (p2 / pant
+                        :mod (t0 / tan))))
+      :ARG2 (i0 / inside
+            :op1 (o0 / object
+                  :location (s0 / silver)
+                  :ARG1-of (m0 / mobile-02))))

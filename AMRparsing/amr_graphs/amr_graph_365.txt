@@ -1,0 +1,4 @@
+(e0 / enjoy-01
+    :ARG0 (d0 / dog
+              :ARG0-of (r0 / run-02)
+              :quant 2))

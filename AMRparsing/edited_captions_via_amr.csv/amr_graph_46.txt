@@ -1,0 +1,19 @@
+# ::snt A person dressed in a tan jacket jumps a quad over a harvested cornfield in front of a small out building .
+# ::tokens ["A", "person", "dressed", "in", "a", "tan", "jacket", "jumps", "a", "quad", "over", "a", "harvested", "cornfield", "in", "front", "of", "a", "small", "out", "building", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBN", "IN", "DT", "NNP", "NN", "VBZ", "DT", "NNS", "IN", "DT", "VBN", "NN", "IN", "NN", "IN", "DT", "JJ", "RP", "NN", "."]
+# ::lemmas ["a", "person", "dress", "in", "a", "tan", "jacket", "jump", "a", "quad", "over", "a", "harvest", "cornfield", "in", "front", "of", "a", "small", "out", "building", "."]
+(j0 / jump-03
+      :path (o0 / over
+            :op1 (c0 / cornfield
+                  :ARG1-of (h0 / harvest-01)))
+      :location (i0 / in-front-of
+            :op1 (b0 / building
+                  :location (o1 / out-06)
+                  :mod (s0 / small)))
+      :ARG0 (p0 / person
+            :ARG1-of (d0 / dress-01
+                  :ARG2 (j1 / jacket
+                        :mod (t0 / tan))))
+      :ARG1 (q0 / quad))

@@ -1,0 +1,9 @@
+# ::snt skateboarder jumping down stairs of building .
+# ::tokens ["skateboarder", "jumping", "down", "stairs", "of", "building", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["NN", "VBG", "RP", "NNS", "IN", "NN", "."]
+# ::lemmas ["skateboarder", "jump", "down", "stair", "of", "building", "."]
+(j0 / jump-on-bandwagon-09
+      :ARG1 (s0 / stair
+            :part-of (b0 / building)))

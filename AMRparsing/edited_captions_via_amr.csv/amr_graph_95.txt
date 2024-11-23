@@ -1,0 +1,22 @@
+# ::snt A groom holding up his bride 's train to ensure that it does n't get wet on a rainy day .
+# ::tokens ["A", "groom", "holding", "up", "his", "bride", "'s", "train", "to", "ensure", "that", "it", "does", "n't", "get", "wet", "on", "a", "rainy", "day", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "DATE", "DATE", "DATE", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B", "I", "I", "O"]
+# ::pos_tags ["DT", "NN", "VBG", "RP", "PRP$", "NN", "POS", "NN", "TO", "VB", "IN", "PRP", "VBZ", "RB", "VB", "JJ", "IN", "DT", "JJ", "NN", "."]
+# ::lemmas ["a", "groom", "hold", "up", "his", "bride", "'s", "train", "to", "ensure", "that", "it", "do", "not", "get", "wet", "on", "a", "rainy", "day", "."]
+(h0 / hold-01
+      :ARG1 (t0 / train
+            :poss (p0 / person
+                  :ARG0-of (h2 / have-org-role-91
+                        :ARG2 (g0 / groom))
+                  :ARG1-of (h1 / have-rel-role-91
+                        :ARG2 (b0 / bride)
+                        :ARG0 p1)))
+      :ARG0 p0
+      :purpose (e0 / ensure-01
+            :ARG1 (w0 / wet-01
+                  :ARG1 t0
+                  :time (d0 / day
+                        :mod (r0 / rainy))
+                  :polarity - 
+                  :ARG1 (p1 / person))))

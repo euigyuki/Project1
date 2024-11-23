@@ -1,0 +1,13 @@
+(p0 / play-01
+    :manner (v0 / view-01
+                :ARG1 (b0 / boy
+                          :ARG0-of (w0 / wear-01
+                                       :ARG1 (t0 / trunk
+                                                 :mod (s2 / swim-01)
+                                                 :mod (c0 / colorful)))
+                          :mod (y0 / young))
+                :ARG1 (a0 / and
+                          :op2 (b1 / bed
+                                   :mod (f0 / flower))
+                          :op1 (s1 / sprinkler)))
+    :ARG0 b0)

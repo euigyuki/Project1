@@ -1,0 +1,14 @@
+# ::snt a big tan dog running threw the shallow water with a stick in his mouth .
+# ::tokens ["a", "big", "tan", "dog", "running", "threw", "the", "shallow", "water", "with", "a", "stick", "in", "his", "mouth", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NNP", "NNP", "NN", "VBG", "VBD", "DT", "JJ", "NN", "IN", "DT", "NN", "IN", "PRP$", "NN", "."]
+# ::lemmas ["a", "big", "tan", "dog", "run", "throw", "the", "shallow", "water", "with", "a", "stick", "in", "his", "mouth", "."]
+(t0 / throw-01
+      :ARG2 (m0 / mouth)
+      :ARG0 (d0 / dog
+            :ARG1-of (s1 / stick)
+            :mod (b0 / big)
+            :mod (r0 / run-02))
+      :ARG1 (w0 / water
+            :mod (s0 / shallow)))

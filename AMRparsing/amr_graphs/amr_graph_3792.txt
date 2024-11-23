@@ -1,0 +1,2 @@
+(c0 / crouch
+    :domain (c1 / child))

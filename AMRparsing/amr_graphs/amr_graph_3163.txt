@@ -1,0 +1,4 @@
+(p0 / put-up-13
+    :ARG0 (p1 / person)
+    :ARG1 (n0 / net
+              :mod (v0 / volleyball)))

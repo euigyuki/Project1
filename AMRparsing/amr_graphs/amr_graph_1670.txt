@@ -1,0 +1,3 @@
+(p0 / play-01
+    :ARG0 (k0 / kid
+              :quant 2))

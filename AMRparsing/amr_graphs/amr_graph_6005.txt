@@ -1,0 +1,3 @@
+(p0 / pose-01
+    :accompanier (d0 / dog)
+    :accompanier (m0 / man))

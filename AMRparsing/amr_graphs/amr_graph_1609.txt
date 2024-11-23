@@ -1,0 +1,15 @@
+# ::snt a mother squatting near her child in a stroller .
+# ::tokens ["a", "mother", "squatting", "near", "her", "child", "in", "a", "stroller", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBG", "IN", "PRP$", "NN", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "mother", "squat", "near", "her", "child", "in", "a", "stroller", "."]
+(s0 / squat
+      :domain (p0 / person
+            :ARG0-of (h1 / have-rel-role-91
+                  :ARG2 (m0 / mother))
+            :ARG1-of (h0 / have-rel-role-91
+                  :ARG2 (c0 / child)))
+      :domain (n0 / near-02
+            :ARG2 (p1 / person
+                  :ARG0-of (s1 / stroller))))

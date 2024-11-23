@@ -1,0 +1,11 @@
+# ::snt some children are playing jump rope .
+# ::tokens ["some", "children", "are", "playing", "jump", "rope", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NNS", "VBP", "VBG", "NN", "NN", "."]
+# ::lemmas ["some", "child", "be", "play", "jump", "rope", "."]
+(p0 / play-01
+      :ARG0 (c0 / child
+            :quant (s0 / some))
+      :ARG1 (r0 / rope
+            :mod (j0 / jump-on-bandwagon-09)))

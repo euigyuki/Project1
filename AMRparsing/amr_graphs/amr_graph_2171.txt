@@ -1,0 +1,14 @@
+(r0 / run-02
+    :ARG0 (g0 / girl
+              :ARG0-of (w0 / wear-01)
+              :part (b0 / back)
+              :ARG1-of (h0 / have-03
+                           :ARG1 (a0 / and
+                                     :op3 (s1 / shoe
+                                              :mod (t0 / tennis))
+                                     :op2 (j0 / jean
+                                              :mod (b4 / blue)
+                                              :mod (b3 / blue))
+                                     :op1 (s0 / shirt
+                                              :ARG1-of (r1 / red-02))))
+              :mod (l0 / little)))

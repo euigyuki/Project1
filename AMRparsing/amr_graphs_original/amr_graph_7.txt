@@ -1,0 +1,15 @@
+# ::snt two people are demonstrating martial arts to a crowd and jumping over three youngsters who are crouched on the mat .
+(z1 / and
+      :op1 (z2 / demonstrate-01
+            :ARG0 (z3 / person
+                  :quant 2)
+            :ARG1 (z4 / art
+                  :mod (z5 / martial))
+            :ARG2 (z6 / crowd))
+      :op2 (z7 / jump-03
+            :ARG0 z3
+            :path (z8 / over
+                  :op1 (z9 / youngster
+                        :quant 3
+                        :ARG1-of (z10 / crouch-01
+                              :ARG2 (z11 / mat))))))

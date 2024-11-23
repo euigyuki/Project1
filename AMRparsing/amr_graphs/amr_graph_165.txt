@@ -1,0 +1,8 @@
+(f0 / fall-01
+    :time (t0 / throw-01
+              :ARG2 (d1 / dumpster)
+              :ARG1 (c0 / crate)
+              :ARG0 (m0 / man))
+    :time (d0 / down)
+    :ARG1 (p0 / pant
+              :poss m0))

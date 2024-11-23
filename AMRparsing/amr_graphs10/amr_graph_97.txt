@@ -1,0 +1,11 @@
+# ::snt two young girls are playing and laughing in a green grassy yard .
+(z1 / and
+      :op1 (z2 / play-01
+            :ARG0 (z3 / girl
+                  :quant 2
+                  :mod (z4 / young)))
+      :op2 (z5 / laugh-01
+            :ARG0 z3)
+      :location (z6 / yard
+            :ARG1-of (z7 / green-02)
+            :mod (z8 / grass)))

@@ -1,0 +1,13 @@
+# ::snt a girl with a nose ring , earring , and mohawk .
+# ::tokens ["a", "girl", "with", "a", "nose", "ring", ",", "earring", ",", "and", "mohawk", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "DT", "NN", "NN", ",", "NN", ",", "CC", "NN", "."]
+# ::lemmas ["a", "girl", "with", "a", "nose", "ring", ",", "earring", ",", "and", "mohawk", "."]
+(g0 / girl
+      :ARG0-of (h0 / have-03
+            :ARG1 (a0 / and
+                  :op3 (m0 / mohawk)
+                  :op2 (e0 / earring)
+                  :op1 (r0 / ring
+                        :consist-of (n0 / nose)))))

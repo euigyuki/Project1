@@ -1,0 +1,6 @@
+(c0 / contrast-01
+    :ARG1 (j1 / jump-03
+              :ARG0 (p0 / person))
+    :ARG2 (j0 / jump-on-bandwagon-09
+              :ARG0 (o0 / other)
+              :ARG1 (w0 / window)))

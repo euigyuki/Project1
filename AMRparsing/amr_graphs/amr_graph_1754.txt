@@ -1,0 +1,7 @@
+(s0 / smile-01
+    :time (l0 / look-01
+              :ARG0 (m0 / man
+                        :quant 2)
+              :ARG1 (c0 / cake
+                        :ARG1-of (c1 / chocolate)))
+    :ARG0 m0)

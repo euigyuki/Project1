@@ -1,0 +1,3 @@
+(s0 / sit-01
+    :ARG1-of (n0 / near-02)
+    :ARG1 (w0 / woman))

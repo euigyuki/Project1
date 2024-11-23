@@ -1,0 +1,11 @@
+# ::snt a demonstration of how good kitchenaid products are .
+# ::tokens ["a", "demonstration", "of", "how", "good", "kitchenaid", "products", "are", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "WRB", "JJ", "JJ", "NNS", "VBP", "."]
+# ::lemmas ["a", "demonstration", "of", "how", "good", "kitchenaid", "product", "be", "."]
+(d0 / demonstrate-01
+      :ARG1 (t0 / thing
+            :degree-of (g0 / good-02
+                  :ARG1 (p0 / product
+                        :mod (k0 / kitchenaid)))))

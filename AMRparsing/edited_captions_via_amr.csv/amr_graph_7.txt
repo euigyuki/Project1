@@ -1,0 +1,10 @@
+# ::snt A baby is playing with a strand of beads .
+# ::tokens ["A", "baby", "is", "playing", "with", "a", "strand", "of", "beads", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "VBG", "IN", "DT", "NN", "IN", "NNS", "."]
+# ::lemmas ["a", "baby", "be", "play", "with", "a", "strand", "of", "bead", "."]
+(p0 / play-01
+      :ARG0 (b0 / baby)
+      :ARG1 (s0 / strand
+            :consist-of (b1 / bead)))

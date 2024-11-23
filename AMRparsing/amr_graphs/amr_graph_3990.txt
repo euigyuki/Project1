@@ -1,0 +1,5 @@
+(b0 / be-located-at-91
+    :ARG2 (a0 / around
+              :op1 (o0 / organ))
+    :ARG1 (p0 / person
+              :quant (s0 / several)))

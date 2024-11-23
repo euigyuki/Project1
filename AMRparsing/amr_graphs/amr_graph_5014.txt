@@ -1,0 +1,3 @@
+(c0 / climb-01
+    :ARG0 (p0 / person)
+    :ARG1 (b0 / boulder))

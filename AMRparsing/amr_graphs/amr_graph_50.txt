@@ -1,0 +1,14 @@
+# ::snt a couple is sitting on the sand with their feet in the water , and they are shaking hands .
+# ::tokens ["a", "couple", "is", "sitting", "on", "the", "sand", "with", "their", "feet", "in", "the", "water", ",", "and", "they", "are", "shaking", "hands", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "VBG", "IN", "DT", "NN", "IN", "PRP$", "NNS", "IN", "DT", "NN", ",", "CC", "PRP", "VBP", "VBG", "NNS", "."]
+# ::lemmas ["a", "couple", "be", "sit", "on", "the", "sand", "with", "their", "foot", "in", "the", "water", ",", "and", "they", "be", "shake", "hand", "."]
+(a0 / and
+      :op2 (s1 / shake-01
+            :ARG1 (h0 / hand
+                  :part-of (c0 / couple
+                        :part (f0 / foot))))
+      :op1 (s0 / sit-01
+            :ARG2 (s2 / sand)
+            :ARG1 c0))

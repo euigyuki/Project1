@@ -1,0 +1,8 @@
+(s0 / stand-01
+    :time (w0 / watch-01
+              :ARG0 (b1 / boy
+                        :mod (y0 / young)))
+    :ARG1 (l0 / lady
+              :ARG0-of (w1 / wear-01
+                           :ARG1 (s2 / shirt
+                                     :ARG1-of (g0 / green-02)))))

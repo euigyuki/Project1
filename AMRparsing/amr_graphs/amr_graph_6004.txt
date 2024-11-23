@@ -1,0 +1,2 @@
+(s0 / squat
+    :domain (m0 / man))

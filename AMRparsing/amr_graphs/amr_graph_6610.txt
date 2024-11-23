@@ -1,0 +1,3 @@
+(h0 / hold-01
+    :ARG1 (o0 / object
+              :ARG1-of (w0 / white-03)))

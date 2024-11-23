@@ -1,0 +1,5 @@
+(f0 / follow-01
+    :ARG0 (w0 / woman
+              :prep-in (w1 / wheelchair))
+    :ARG1 (b0 / boy
+              :mod (y0 / young)))

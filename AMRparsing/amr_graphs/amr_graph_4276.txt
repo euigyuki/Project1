@@ -1,0 +1,6 @@
+(c0 / cruise-01
+    :beneficiary (c1 / child
+                     :mod (s1 / small))
+    :ARG0 (m0 / man
+              :ARG0-of (s0 / shirt
+                           :ARG0-of (w0 / wear-01))))

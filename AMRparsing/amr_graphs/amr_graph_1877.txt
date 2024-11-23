@@ -1,0 +1,12 @@
+# ::snt a black dog jumping through some water
+# ::tokens ["a", "black", "dog", "jumping", "through", "some", "water"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "VBG", "IN", "DT", "NN"]
+# ::lemmas ["a", "black", "dog", "jump", "through", "some", "water"]
+(j0 / jump-03
+      :ARG0 (d0 / dog
+            :ARG1-of (b0 / black-04))
+      :path (t0 / through
+            :op1 (w0 / water
+                  :quant (s0 / some))))

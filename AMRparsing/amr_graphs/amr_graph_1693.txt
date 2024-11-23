@@ -1,0 +1,14 @@
+# ::snt a brown dog is jumping up at a woman who is wearing a brown skirt .
+# ::tokens ["a", "brown", "dog", "is", "jumping", "up", "at", "a", "woman", "who", "is", "wearing", "a", "brown", "skirt", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "VBZ", "VBG", "RP", "IN", "DT", "NN", "WP", "VBZ", "VBG", "DT", "JJ", "NN", "."]
+# ::lemmas ["a", "brown", "dog", "be", "jump", "up", "at", "a", "woman", "who", "be", "wear", "a", "brown", "skirt", "."]
+(j0 / jump-03
+      :direction (u0 / up)
+      :direction (w0 / woman
+            :ARG0-of (w1 / wear-01
+                  :ARG1 (s0 / skirt
+                        :mod (b1 / brown))))
+      :ARG0 (d0 / dog
+            :ARG1-of (b0 / brown)))

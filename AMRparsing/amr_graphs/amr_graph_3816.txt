@@ -1,0 +1,5 @@
+(p0 / play-01
+    :ARG0 (d0 / dog
+              :mod (f0 / fluffy))
+    :ARG1 (t0 / toy
+              :mod (s0 / small)))

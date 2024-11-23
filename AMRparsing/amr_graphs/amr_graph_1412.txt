@@ -1,0 +1,5 @@
+(j0 / jump-on-bandwagon-09
+    :ARG0 (p0 / person
+              :ARG0-of (w0 / wash-01
+                           :ARG1 (w1 / white-03)))
+    :ARG1 (o0 / obstacle))

@@ -1,0 +1,16 @@
+# ::snt many people in a public area , many pushing children in strollers .
+# ::tokens ["many", "people", "in", "a", "public", "area", ",", "many", "pushing", "children", "in", "strollers", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["JJ", "NNS", "IN", "DT", "JJ", "NN", ",", "JJ", "VBG", "NNS", "IN", "NNS", "."]
+# ::lemmas ["many", "people", "in", "a", "public", "area", ",", "many", "push", "child", "in", "stroller", "."]
+(a0 / and
+      :op2 (p0 / push-01
+            :instrument (s0 / stroller)
+            :ARG0 (p2 / person)
+            :ARG1 (c0 / child))
+      :op1 (b0 / be-located-at-91
+            :ARG2 (a1 / area
+                  :ARG1-of (p3 / public-02))
+            :ARG1 (p1 / person
+                  :quant (m0 / many))))

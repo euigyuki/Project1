@@ -1,0 +1,4 @@
+(h0 / hold-01
+    :instrument (b1 / bonnet
+                    :mod (o0 / orange))
+    :ARG1 (b0 / baby))

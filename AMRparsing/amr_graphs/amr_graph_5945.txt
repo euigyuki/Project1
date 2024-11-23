@@ -1,0 +1,13 @@
+# ::snt a man in a black shirt and glasses is skateboarding .
+# ::tokens ["a", "man", "in", "a", "black", "shirt", "and", "glasses", "is", "skateboarding", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "DT", "JJ", "NN", "CC", "NNS", "VBZ", "VBG", "."]
+# ::lemmas ["a", "man", "in", "a", "black", "shirt", "and", "glass", "be", "skateboard", "."]
+(b0 / bark-01
+      :ARG0 (m0 / man
+            :ARG0-of (h0 / have-03
+                  :ARG1 (a0 / and
+                        :op2 (g0 / glasses)
+                        :op1 (s0 / shirt
+                              :ARG1-of (b1 / black-04))))))

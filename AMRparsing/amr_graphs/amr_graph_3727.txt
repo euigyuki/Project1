@@ -1,0 +1,16 @@
+# ::snt a woman is smiling and putting her fists in the air in delight .
+# ::tokens ["a", "woman", "is", "smiling", "and", "putting", "her", "fists", "in", "the", "air", "in", "delight", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "VBG", "CC", "VBG", "PRP$", "NNS", "IN", "DT", "NN", "IN", "NN", "."]
+# ::lemmas ["a", "woman", "be", "smile", "and", "put", "her", "fist", "in", "the", "air", "in", "delight", "."]
+(a0 / and
+      :op2 (p0 / put-01
+            :purpose (d0 / delight-01
+                  :ARG0 (w0 / woman
+                        :part f0
+                        :ARG0-of s0
+                        :ARG0-of p0))
+            :ARG2 (a1 / air)
+            :ARG1 (f0 / fist))
+      :op1 (s0 / smile-01))

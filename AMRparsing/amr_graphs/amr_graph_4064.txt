@@ -1,0 +1,3 @@
+(l0 / line-up-02
+    :ARG1 (p0 / person
+              :mod (s0 / some)))

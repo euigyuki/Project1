@@ -1,0 +1,8 @@
+# ::snt dog yawns
+# ::tokens ["dog", "yawns"]
+# ::ner_tags ["O", "O"]
+# ::ner_iob ["O", "O"]
+# ::pos_tags ["NN", "NNS"]
+# ::lemmas ["dog", "yawn"]
+(y0 / yawn
+      :mod (d0 / dog))

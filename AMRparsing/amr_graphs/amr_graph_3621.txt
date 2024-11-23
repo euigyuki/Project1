@@ -1,0 +1,5 @@
+(h0 / hold-01
+    :accompanier (w1 / woman
+                     :ARG1-of (d1 / dress-01)
+                     :mod (b0 / blond))
+    :ARG1 (h1 / hand))

@@ -1,0 +1,23 @@
+# ::snt a woman wearing a blue shirt and holding a baby looks down at a little girl wearing a lime green shirt and pink shoes .
+# ::tokens ["a", "woman", "wearing", "a", "blue", "shirt", "and", "holding", "a", "baby", "looks", "down", "at", "a", "little", "girl", "wearing", "a", "lime", "green", "shirt", "and", "pink", "shoes", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBG", "DT", "JJ", "NN", "CC", "VBG", "DT", "NN", "VBZ", "RP", "IN", "DT", "JJ", "NN", "VBG", "DT", "NN", "JJ", "NN", "CC", "JJ", "NNS", "."]
+# ::lemmas ["a", "woman", "wear", "a", "blue", "shirt", "and", "hold", "a", "baby", "look", "down", "at", "a", "little", "girl", "wear", "a", "lime", "green", "shirt", "and", "pink", "shoe", "."]
+(l0 / look-01
+      :ARG1 (g0 / girl
+            :ARG0-of (w2 / wear-01
+                  :ARG1 (a0 / and
+                        :op2 (s2 / shoe
+                              :consist-of (p0 / pink-04))
+                        :op1 (s1 / shirt
+                              :mod (g1 / green-02
+                                    :mod (l2 / lime)))))
+            :mod (l1 / little))
+      :ARG0 (w0 / woman
+            :ARG0-of (h0 / hold-01
+                  :ARG1 (b0 / baby))
+            :ARG1-of (w1 / wear-01
+                  :ARG1 (s0 / shirt
+                        :mod (b1 / blue))))
+      :direction (d0 / down))

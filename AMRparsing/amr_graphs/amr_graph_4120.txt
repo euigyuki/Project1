@@ -1,0 +1,13 @@
+# ::snt an attack dog is working with his trainer .
+# ::tokens ["an", "attack", "dog", "is", "working", "with", "his", "trainer", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "NN", "VBZ", "VBG", "IN", "PRP$", "NN", "."]
+# ::lemmas ["an", "attack", "dog", "be", "work", "with", "his", "trainer", "."]
+(w0 / work-01
+      :ARG0 (d0 / dog
+            :ARG0-of (a0 / attack-01))
+      :accompanier (p0 / person
+            :ARG0-of (h0 / have-org-role-91
+                  :ARG1 d0
+                  :ARG3 (t0 / train-01))))

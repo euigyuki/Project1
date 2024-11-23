@@ -1,0 +1,3 @@
+(s0 / shop-01
+    :ARG1 (n0 / number)
+    :ARG0 (p0 / person))

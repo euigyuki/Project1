@@ -1,0 +1,13 @@
+# ::snt a woman in a black blouse playing a card game .
+# ::tokens ["a", "woman", "in", "a", "black", "blouse", "playing", "a", "card", "game", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "DT", "JJ", "NN", "VBG", "DT", "NN", "NN", "."]
+# ::lemmas ["a", "woman", "in", "a", "black", "blouse", "play", "a", "card", "game", "."]
+(p0 / play-01
+      :ARG1 (g0 / game
+            :mod (c0 / card))
+      :ARG0 (w0 / woman
+            :ARG0-of (h0 / have-03
+                  :ARG1 (b0 / blouse
+                        :ARG1-of (b1 / black-04)))))

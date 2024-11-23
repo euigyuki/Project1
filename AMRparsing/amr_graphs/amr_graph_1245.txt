@@ -1,0 +1,12 @@
+# ::snt people in a park near a refreshment stand .
+# ::tokens ["people", "in", "a", "park", "near", "a", "refreshment", "stand", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["NNS", "IN", "DT", "NN", "IN", "DT", "JJ", "NN", "."]
+# ::lemmas ["people", "in", "a", "park", "near", "a", "refreshment", "stand", "."]
+(b0 / be-located-at-91
+      :ARG2 (p1 / park
+            :ARG1-of (n0 / near-02
+                  :ARG2 (s0 / stand
+                        :mod (r0 / refreshment))))
+      :ARG1 (p0 / person))

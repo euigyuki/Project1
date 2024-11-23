@@ -1,0 +1,16 @@
+# ::snt A woman with a ponytail and another woman with a brown jacket donate to a food drive .
+# ::tokens ["A", "woman", "with", "a", "ponytail", "and", "another", "woman", "with", "a", "brown", "jacket", "donate", "to", "a", "food", "drive", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "DT", "NN", "CC", "DT", "NN", "IN", "DT", "JJ", "NN", "VB", "IN", "DT", "NN", "NN", "."]
+# ::lemmas ["a", "woman", "with", "a", "ponytail", "and", "another", "woman", "with", "a", "brown", "jacket", "donate", "to", "a", "food", "drive", "."]
+(d0 / donate-01
+      :ARG2 (d1 / drive-04
+            :ARG2 (f0 / food))
+      :ARG0 (a0 / and
+            :op2 (w1 / woman
+                  :poss-of (j0 / jacket
+                        :mod (b0 / brown))
+                  :mod (a1 / another))
+            :op1 (w0 / woman
+                  :ARG0-of (h0 / have-03))))

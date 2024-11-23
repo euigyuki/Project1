@@ -1,0 +1,11 @@
+# ::snt a dog trying to catch a ball .
+# ::tokens ["a", "dog", "trying", "to", "catch", "a", "ball", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBG", "TO", "VB", "DT", "NN", "."]
+# ::lemmas ["a", "dog", "try", "to", "catch", "a", "ball", "."]
+(t0 / try-01
+      :ARG1 (c0 / catch-01
+            :ARG0 (d0 / dog)
+            :ARG1 (b0 / ball))
+      :ARG0 d0)

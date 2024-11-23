@@ -1,0 +1,14 @@
+# ::snt three women are sunbathing on a rock formation that borders a body of water .
+# ::tokens ["three", "women", "are", "sunbathing", "on", "a", "rock", "formation", "that", "borders", "a", "body", "of", "water", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "VBP", "VBG", "IN", "DT", "NN", "NN", "WDT", "VBZ", "DT", "NN", "IN", "NN", "."]
+# ::lemmas ["three", "woman", "be", "sunbathe", "on", "a", "rock", "formation", "that", "border", "a", "body", "of", "water", "."]
+(s0 / sunbathe
+      :location (f0 / formation
+            :ARG0-of (b0 / border-01
+                  :ARG2 (b1 / body
+                        :mod (w1 / water)))
+            :mod (r0 / rock))
+      :location (w0 / woman
+            :quant 3 ))

@@ -1,0 +1,16 @@
+# ::snt a man helps a young girl balance on a bicycle that is too big for her .
+# ::tokens ["a", "man", "helps", "a", "young", "girl", "balance", "on", "a", "bicycle", "that", "is", "too", "big", "for", "her", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "DT", "JJ", "NN", "NN", "IN", "DT", "NN", "WDT", "VBZ", "RB", "JJ", "IN", "PRP", "."]
+# ::lemmas ["a", "man", "help", "a", "young", "girl", "balance", "on", "a", "bicycle", "that", "be", "too", "big", "for", "she", "."]
+(h0 / help-01
+      :ARG2 (g0 / girl
+            :ARG0-of (b0 / balance-01
+                  :ARG2 (b1 / bicycle
+                        :ARG1-of (h1 / have-degree-91
+                              :ARG3 (t0 / too)
+                              :ARG2 (b2 / big))))
+            :mod (y0 / young))
+      :ARG0 (m0 / man)
+      :ARG1 b0)

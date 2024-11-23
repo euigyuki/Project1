@@ -1,0 +1,14 @@
+# ::snt a girl is having a good time midair swinging on a swing .
+# ::tokens ["a", "girl", "is", "having", "a", "good", "time", "midair", "swinging", "on", "a", "swing", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "VBG", "DT", "JJ", "NN", "NN", "VBG", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "girl", "be", "have", "a", "good", "time", "midair", "swinge", "on", "a", "swing", "."]
+(h0 / have-03
+      :manner (s0 / swing-02
+            :ARG0 (g0 / girl)
+            :time (m0 / midair)
+            :ARG1 (s1 / swing))
+      :ARG0 g0
+      :ARG1 (t0 / time
+            :ARG1-of (g1 / good-02)))

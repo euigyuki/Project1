@@ -1,0 +1,10 @@
+(a0 / and
+    :time (l0 / look-01
+              :ARG0 (o0 / other))
+    :op2 (c0 / compete-01
+             :ARG0 (b0 / boy
+                       :quant 2))
+    :op1 (h0 / hold-01
+             :ARG0 b0
+             :ARG1 (r0 / rope
+                       :ARG1-of (g0 / green-02))))

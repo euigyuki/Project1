@@ -1,0 +1,5 @@
+(p0 / play-01
+    :ARG0 (p1 / person
+              :mod (y0 / young)
+              :quant 3)
+    :ARG1 (g0 / game))

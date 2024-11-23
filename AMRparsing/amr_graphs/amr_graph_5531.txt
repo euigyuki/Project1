@@ -1,0 +1,14 @@
+(c0 / contrast-01
+    :ARG2 (h0 / hang-02
+              :ARG2 (a1 / and)
+              :ARG1 (a0 / and
+                        :op2 (b1 / banner)
+                        :op1 (s1 / streamer)))
+    :ARG1 (r0 / ride-01
+              :ARG0 (w0 / woman
+                        :op1-of (b0 / behind)
+                        :op1-of (r1 / ride-01
+                                    :ARG0 (p0 / person
+                                              :quant (m1 / many)
+                                              :mod (o1 / other))))
+              :ARG1 (m0 / moped)))

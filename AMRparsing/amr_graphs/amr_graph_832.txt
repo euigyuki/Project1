@@ -1,0 +1,6 @@
+(s0 / sell-01
+    :ARG0 (p0 / person
+              :ARG0-of (h0 / have-org-role-91
+                           :ARG2 (v0 / vendor)
+                           :ARG1 (i1 / it)))
+    :ARG1 (i0 / item))

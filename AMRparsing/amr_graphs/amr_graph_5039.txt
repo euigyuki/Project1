@@ -1,0 +1,5 @@
+(s0 / sit-01
+    :manner (t0 / together)
+    :ARG1 (g0 / group
+              :consist-of (g1 / girl
+                              :ARG0-of (t1 / talk-01))))

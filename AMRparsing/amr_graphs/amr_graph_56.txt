@@ -1,0 +1,19 @@
+# ::snt two asian men are riding on a motorcycle in the midst of a crowd full of other motorcycle riders .
+# ::tokens ["two", "asian", "men", "are", "riding", "on", "a", "motorcycle", "in", "the", "midst", "of", "a", "crowd", "full", "of", "other", "motorcycle", "riders", "."]
+# ::ner_tags ["CARDINAL", "NORP", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "JJ", "NNS", "VBP", "VBG", "IN", "DT", "NN", "IN", "DT", "NN", "IN", "DT", "NN", "JJ", "IN", "JJ", "NN", "NNS", "."]
+# ::lemmas ["two", "asian", "man", "be", "ride", "on", "a", "motorcycle", "in", "the", "midst", "of", "a", "crowd", "full", "of", "other", "motorcycle", "rider", "."]
+(r0 / ride-01
+      :time (m2 / midst
+            :op1 (c1 / crowd
+                  :ARG1-of (f0 / full-09
+                        :ARG2 (p0 / person
+                              :ARG0-of (r1 / ride-01)
+                              :mod (o0 / other)))))
+      :ARG0 (m1 / man
+            :mod (c0 / continent
+                  :name (n0 / name
+                        :op1 "Asia" ))
+            :quant 2 )
+      :ARG1 (m0 / motorcycle))

@@ -1,0 +1,12 @@
+# ::snt here is a picture of a band performing living at a concert .
+# ::tokens ["here", "is", "a", "picture", "of", "a", "band", "performing", "living", "at", "a", "concert", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["RB", "VBZ", "DT", "NN", "IN", "DT", "NN", "VBG", "VBG", "IN", "DT", "NN", "."]
+# ::lemmas ["here", "be", "a", "picture", "of", "a", "band", "perform", "live", "at", "a", "concert", "."]
+(b0 / be-located-at-91
+      :ARG2 (h0 / here)
+      :ARG1 (p0 / picture
+            :topic (p1 / perform-01
+                  :ARG0 (b1 / band)
+                  :ARG1 (c0 / concert))))

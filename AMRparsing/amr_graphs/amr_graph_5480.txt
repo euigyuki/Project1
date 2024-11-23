@@ -1,0 +1,5 @@
+(p0 / play-01
+    :ARG0 (m0 / man
+              :ARG0-of (h0 / have-org-role-91
+                           :ARG1 (b0 / band))
+              :quant 2))

@@ -1,0 +1,10 @@
+# ::snt a woman is cleaning the windows of a building .
+# ::tokens ["a", "woman", "is", "cleaning", "the", "windows", "of", "a", "building", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "VBG", "DT", "NNS", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "woman", "be", "clean", "the", "window", "of", "a", "building", "."]
+(c0 / clean-01
+      :ARG0 (w1 / woman)
+      :ARG1 (w0 / window
+            :part-of (b0 / building)))

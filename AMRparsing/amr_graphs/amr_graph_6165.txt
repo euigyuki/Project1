@@ -1,0 +1,12 @@
+# ::snt a sculptor is carving a picture of a knight into a brick wall .
+# ::tokens ["a", "sculptor", "is", "carving", "a", "picture", "of", "a", "knight", "into", "a", "brick", "wall", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "VBG", "DT", "NN", "IN", "DT", "NN", "IN", "DT", "NN", "NN", "."]
+# ::lemmas ["a", "sculptor", "be", "carve", "a", "picture", "of", "a", "knight", "into", "a", "brick", "wall", "."]
+(c0 / carve-out-03
+      :ARG2 (w0 / wall
+            :mod (b0 / brick))
+      :ARG0 (s0 / sculptor)
+      :ARG1 (p0 / picture
+            :topic (k0 / knight)))

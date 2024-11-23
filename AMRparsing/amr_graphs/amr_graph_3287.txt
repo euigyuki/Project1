@@ -1,0 +1,6 @@
+(c0 / contrast-01
+    :ARG2 (h0 / hold-01
+              :ARG1 (o0 / object
+                        :ARG1-of (r0 / red-02)))
+    :ARG1 (s0 / swim-01
+              :ARG2 (w0 / water)))

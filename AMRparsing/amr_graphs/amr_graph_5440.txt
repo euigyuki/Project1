@@ -1,0 +1,3 @@
+(a0 / and
+    :op2 (t0 / toddler)
+    :op1 (w0 / woman))

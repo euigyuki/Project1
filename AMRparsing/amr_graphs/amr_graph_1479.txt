@@ -1,0 +1,17 @@
+# ::snt white man in orange beanie and blue shorts carving mud on the shore .
+# ::tokens ["white", "man", "in", "orange", "beanie", "and", "blue", "shorts", "carving", "mud", "on", "the", "shore", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["JJ", "NN", "IN", "NNP", "NNP", "CC", "JJ", "NNS", "VBG", "NN", "IN", "DT", "NN", "."]
+# ::lemmas ["white", "man", "in", "orange", "beanie", "and", "blue", "short", "carve", "mud", "on", "the", "shore", "."]
+(c0 / carve-out-03
+      :ARG2 (s0 / shore)
+      :ARG0 (m1 / man
+            :ARG0-of (h0 / have-03
+                  :ARG1 (a0 / and
+                        :op2 (s1 / short-07
+                              :mod (b1 / blue))
+                        :op1 (b0 / beanie
+                              :mod (o0 / orange))))
+            :ARG1-of (w0 / white-02))
+      :ARG1 (m0 / mud))

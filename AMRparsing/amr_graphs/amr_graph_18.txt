@@ -1,0 +1,15 @@
+# ::snt a small boy putting something in his mouth with both hands .
+# ::tokens ["a", "small", "boy", "putting", "something", "in", "his", "mouth", "with", "both", "hands", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "VBG", "NN", "IN", "PRP$", "NN", "IN", "DT", "NNS", "."]
+# ::lemmas ["a", "small", "boy", "put", "something", "in", "his", "mouth", "with", "both", "hand", "."]
+(p0 / put-01
+      :ARG2 (m0 / mouth
+            :part-of (b0 / boy
+                  :part h0
+                  :ARG0-of p0
+                  :mod (s1 / small)))
+      :instrument (h0 / hand
+            :mod (b1 / both))
+      :ARG1 (s0 / something))

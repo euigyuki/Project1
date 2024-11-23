@@ -1,0 +1,10 @@
+# ::snt a man playing guitar and singing .
+# ::tokens ["a", "man", "playing", "guitar", "and", "singing", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBG", "NN", "CC", "NN", "."]
+# ::lemmas ["a", "man", "play", "guitar", "and", "singing", "."]
+(m0 / man
+      :ARG0-of (s0 / sing-01)
+      :mod (p0 / play-11
+            :ARG2 (g0 / guitar)))

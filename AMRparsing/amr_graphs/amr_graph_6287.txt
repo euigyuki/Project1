@@ -1,0 +1,6 @@
+(s0 / sit-01
+    :ARG1 (w0 / woman
+              :mod (c1 / continent
+                       :name (n0 / name
+                                 :op1 "Africa"))
+              :mod (e0 / elderly)))

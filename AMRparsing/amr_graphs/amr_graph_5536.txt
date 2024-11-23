@@ -1,0 +1,24 @@
+# ::snt three people standing behind the display of an outdoor flea market stand selling insecticide-free products from clyde 's farm .
+# ::tokens ["three", "people", "standing", "behind", "the", "display", "of", "an", "outdoor", "flea", "market", "stand", "selling", "insecticide", "-", "free", "products", "from", "clyde", "'s", "farm", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "GPE", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "VBG", "IN", "DT", "NN", "IN", "DT", "JJ", "NN", "NN", "NN", "VBG", "JJ", "HYPH", "JJ", "NNS", "IN", "NNP", "POS", "NN", "."]
+# ::lemmas ["three", "people", "stand", "behind", "the", "display", "of", "an", "outdoor", "flea", "market", "stand", "sell", "insecticide", "-", "free", "product", "from", "clyde", "'s", "farm", "."]
+(s0 / stand-01
+      :ARG2 (b0 / behind
+            :op1 (t0 / thing
+                  :ARG2-of (d0 / display-01
+                        :ARG1 (s1 / stand
+                              :mod (m0 / market
+                                    :mod (f0 / flea))
+                              :ARG0-of (s2 / sell-01
+                                    :ARG1 (p1 / product
+                                          :source (f2 / farm
+                                                :poss (c0 / company
+                                                      :name (n0 / name
+                                                            :op1 "clyde" )))
+                                          :source (f1 / free-04
+                                                :ARG2 (i0 / insecticide))))
+                              :mod (o0 / outdoor)))))
+      :ARG1 (p0 / person
+            :quant 3 ))

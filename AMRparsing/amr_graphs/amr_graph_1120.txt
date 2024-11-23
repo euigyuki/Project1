@@ -1,0 +1,14 @@
+# ::snt a woman enjoying a meal at the leaning tower of pisa .
+# ::tokens ["a", "woman", "enjoying", "a", "meal", "at", "the", "leaning", "tower", "of", "pisa", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBG", "DT", "NN", "IN", "DT", "VBG", "NN", "IN", "NNP", "."]
+# ::lemmas ["a", "woman", "enjoy", "a", "meal", "at", "the", "lean", "tower", "of", "pisa", "."]
+(e0 / enjoy-01
+      :location (t0 / tower
+            :location (c0 / country
+                  :name (n0 / name
+                        :op1 "Japan" ))
+            :mod (l0 / lean-01))
+      :ARG0 (w0 / woman)
+      :ARG1 (m0 / meal))

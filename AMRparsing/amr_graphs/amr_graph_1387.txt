@@ -1,0 +1,7 @@
+(s0 / ski-01
+    :ARG2 (d0 / down
+              :op1 (s2 / slope
+                       :mod (s3 / snow)))
+    :ARG0 (p0 / person
+              :ARG0-of (s1 / ski-01)
+              :mod (w0 / wear-01)))

@@ -1,0 +1,11 @@
+# ::snt some kids are climbing a metal structure .
+# ::tokens ["some", "kids", "are", "climbing", "a", "metal", "structure", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NNS", "VBP", "VBG", "DT", "NN", "NN", "."]
+# ::lemmas ["some", "kid", "be", "climb", "a", "metal", "structure", "."]
+(c0 / climb-01
+      :ARG0 (k0 / kid
+            :mod (s1 / some))
+      :ARG1 (s0 / structure
+            :mod (m0 / metal)))

@@ -1,0 +1,5 @@
+(r0 / read-01
+    :ARG0 (w0 / woman
+              :ARG0-of (w1 / wear-01
+                           :ARG1 (j0 / jean))
+              :mod (b1 / blond)))

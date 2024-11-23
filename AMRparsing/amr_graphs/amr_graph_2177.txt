@@ -1,0 +1,8 @@
+(r0 / read-01
+    :time (s0 / sit-01
+              :ARG1 (b1 / boy
+                        :ARG0-of (h0 / have-03
+                                     :ARG1 (s1 / shirt
+                                               :ARG1-of (d0 / dark-02)))))
+    :ARG0 b1
+    :ARG1 (b0 / book))

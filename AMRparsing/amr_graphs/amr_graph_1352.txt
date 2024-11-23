@@ -1,0 +1,4 @@
+(p0 / play-01
+    :ARG1 (c0 / checker)
+    :time (b1 / boy)
+    :ARG0 (b0 / boy))

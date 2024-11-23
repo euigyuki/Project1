@@ -1,0 +1,12 @@
+# ::snt two young boys loading fruit onto a bicycle .
+# ::tokens ["two", "young", "boys", "loading", "fruit", "onto", "a", "bicycle", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "JJ", "NNS", "VBG", "NN", "IN", "DT", "NN", "."]
+# ::lemmas ["two", "young", "boy", "load", "fruit", "onto", "a", "bicycle", "."]
+(l0 / load-01
+      :ARG2 (b1 / bicycle)
+      :ARG0 (b0 / boy
+            :quant 2 
+            :mod (y0 / young))
+      :ARG1 (f0 / fruit))

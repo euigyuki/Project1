@@ -1,0 +1,9 @@
+# ::snt a person is at the top of a ladder .
+# ::tokens ["a", "person", "is", "at", "the", "top", "of", "a", "ladder", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "IN", "DT", "NN", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "person", "be", "at", "the", "top", "of", "a", "ladder", "."]
+(t0 / top-01
+      :ARG2 (p0 / person)
+      :ARG1 (l0 / ladder))

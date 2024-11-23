@@ -1,0 +1,17 @@
+# ::snt one woman is sitting on a bench waiting for the subway , while three other women are standing .
+# ::tokens ["one", "woman", "is", "sitting", "on", "a", "bench", "waiting", "for", "the", "subway", ",", "while", "three", "other", "women", "are", "standing", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "CARDINAL", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NN", "VBZ", "VBG", "IN", "DT", "NN", "VBG", "IN", "DT", "NN", ",", "IN", "CD", "JJ", "NNS", "VBP", "VBG", "."]
+# ::lemmas ["one", "woman", "be", "sit", "on", "a", "bench", "wait", "for", "the", "subway", ",", "while", "three", "other", "woman", "be", "stand", "."]
+(c0 / contrast-01
+      :ARG2 (s1 / stand-01
+            :ARG1 (w1 / woman
+                  :quant 3 
+                  :mod (o0 / other)))
+      :ARG1 (s0 / sit-01
+            :ARG2 (b0 / bench
+                  :ARG1-of (w2 / wait-01
+                        :ARG2 (s2 / subway)))
+            :ARG1 (w0 / woman
+                  :quant 1 )))

@@ -1,0 +1,11 @@
+# ::snt a child that is dressed as spiderman is ringing the doorbell .
+# ::tokens ["a", "child", "that", "is", "dressed", "as", "spiderman", "is", "ringing", "the", "doorbell", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "WDT", "VBZ", "VBN", "IN", "NN", "VBZ", "VBG", "DT", "NN", "."]
+# ::lemmas ["a", "child", "that", "be", "dress", "as", "spiderman", "be", "ring", "the", "doorbell", "."]
+(r0 / ring
+      :ARG0 (c0 / child
+            :ARG1-of (d1 / dress-01
+                  :ARG2 (s0 / spiderman)))
+      :ARG1 (d0 / doorbell))

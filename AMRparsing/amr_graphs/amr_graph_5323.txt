@@ -1,0 +1,10 @@
+(r0 / ride-01
+    :ARG0 (w0 / woman
+              :ARG1-of (d0 / dress-01
+                           :ARG2 (h1 / head)
+                           :manner (o0 / ornately))
+              :ARG2-of (c2 / clothe-01)
+              :ARG0-of (c1 / clothe-01
+                           :ARG2 (i1 / ivory)))
+    :ARG1 (h0 / horse
+              :ARG1-of (c0 / color-01)))

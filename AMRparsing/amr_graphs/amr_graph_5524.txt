@@ -1,0 +1,8 @@
+(s0 / sit-01
+    :ARG1 (w0 / woman
+              :ARG0-of (h0 / have-03
+                           :ARG1 (a0 / and
+                                     :op2 (p0 / pant
+                                              :mod (b0 / blue))
+                                     :op1 (t1 / top
+                                              :ARG1-of (p1 / pink-04))))))

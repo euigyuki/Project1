@@ -1,0 +1,5 @@
+(r0 / rain-01
+    :ARG0 (m0 / man
+              :mod (t0 / tall))
+    :ARG1 (p0 / pot
+              :consist-of (f0 / food)))

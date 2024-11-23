@@ -1,0 +1,13 @@
+# ::snt a person in a flowing decorated robe rides a white horse .
+# ::tokens ["a", "person", "in", "a", "flowing", "decorated", "robe", "rides", "a", "white", "horse", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "DT", "VBG", "VBN", "NN", "VBZ", "DT", "JJ", "NN", "."]
+# ::lemmas ["a", "person", "in", "a", "flow", "decorate", "robe", "ride", "a", "white", "horse", "."]
+(r0 / ride-01
+      :ARG0 (p0 / person
+            :ARG0-of (r1 / robe
+                  :ARG1-of (f0 / flow-01)
+                  :mod (w1 / wrap-01)))
+      :ARG1 (h0 / horse
+            :ARG1-of (w0 / white-03)))

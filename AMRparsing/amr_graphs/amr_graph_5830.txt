@@ -1,0 +1,11 @@
+# ::snt white dog biting orange cat .
+# ::tokens ["white", "dog", "biting", "orange", "cat", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["JJ", "NN", "VBG", "JJ", "NN", "."]
+# ::lemmas ["white", "dog", "bite", "orange", "cat", "."]
+(b0 / bite-01
+      :ARG0 (d0 / dog
+            :ARG1-of (w0 / white-02))
+      :ARG1 (c0 / cat
+            :mod (o0 / orange)))

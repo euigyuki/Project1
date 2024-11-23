@@ -1,0 +1,11 @@
+(h0 / have-03
+    :ARG1 (w0 / woman
+              :part (s1 / shoulder
+                        :op1-of (a0 / around))
+              :part (s0 / smile-01)
+              :ARG0-of (w1 / wear-01
+                           :ARG1 (h1 / hat
+                                     :mod (h2 / hard-04)
+                                     :ARG1-of (r1 / red-02)))
+              :part (l0 / long-03
+                        :ARG1 (r0 / rope))))

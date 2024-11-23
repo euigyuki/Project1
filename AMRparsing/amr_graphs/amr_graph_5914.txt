@@ -1,0 +1,14 @@
+# ::snt a large man in overalls , driving a segway .
+# ::tokens ["a", "large", "man", "in", "overalls", ",", "driving", "a", "segway", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "IN", "NNS", ",", "VBG", "DT", "NN", "."]
+# ::lemmas ["a", "large", "man", "in", "overall", ",", "drive", "a", "segway", "."]
+(m0 / man
+      :ARG0-of (d0 / drive-01
+            :ARG1 (r0 / river
+                  :name (n0 / name
+                        :op1 "segway" )))
+      :mod (w0 / wear-01
+            :ARG1 (o0 / overall))
+      :mod (l0 / large))

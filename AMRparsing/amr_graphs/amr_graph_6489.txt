@@ -1,0 +1,7 @@
+(b0 / blow-01
+    :ARG0 (b2 / boy
+              :ARG0-of (h1 / have-03
+                           :ARG1 (g0 / glasses)
+                           :ARG1-of (h2 / have-03)))
+    :ARG1 (b1 / bubble
+              :mod (h0 / huge)))

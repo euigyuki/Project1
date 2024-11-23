@@ -1,0 +1,9 @@
+# ::snt a couple is attending a concert .
+# ::tokens ["a", "couple", "is", "attending", "a", "concert", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "VBG", "DT", "NN", "."]
+# ::lemmas ["a", "couple", "be", "attend", "a", "concert", "."]
+(a0 / attend-01
+      :ARG0 (c1 / couple)
+      :ARG1 (c0 / concert))

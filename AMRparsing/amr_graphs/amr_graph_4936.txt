@@ -1,0 +1,12 @@
+# ::snt the motorcycle is being ridden on a track whilst pulling a wheelie .
+# ::tokens ["the", "motorcycle", "is", "being", "ridden", "on", "a", "track", "whilst", "pulling", "a", "wheelie", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "VBG", "VBN", "IN", "DT", "NN", "IN", "VBG", "DT", "NN", "."]
+# ::lemmas ["the", "motorcycle", "be", "be", "ride", "on", "a", "track", "whilst", "pull", "a", "wheelie", "."]
+(r0 / ride-01
+      :time (p0 / pull-01
+            :ARG0 (m0 / motorcycle)
+            :ARG1 (w0 / wheelie))
+      :time m0
+      :ARG1 (t0 / track))

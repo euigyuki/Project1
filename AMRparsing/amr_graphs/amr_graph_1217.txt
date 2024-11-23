@@ -1,0 +1,4 @@
+(p0 / pose-01
+    :ARG0 (p2 / person
+              :quant 2)
+    :ARG1 (p1 / picture))

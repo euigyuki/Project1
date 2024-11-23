@@ -1,0 +1,13 @@
+# ::snt a man with a green cap is pushing a lawn mower .
+# ::tokens ["a", "man", "with", "a", "green", "cap", "is", "pushing", "a", "lawn", "mower", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "DT", "JJ", "NN", "VBZ", "VBG", "DT", "NN", "NN", "."]
+# ::lemmas ["a", "man", "with", "a", "green", "cap", "be", "push", "a", "lawn", "mower", "."]
+(p0 / push-01
+      :ARG0 (m1 / man
+            :ARG0-of (h0 / have-03
+                  :ARG1 (c0 / cap
+                        :ARG1-of (g0 / green-02))))
+      :ARG1 (m0 / mower
+            :mod (l0 / lawn)))

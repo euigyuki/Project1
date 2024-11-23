@@ -1,0 +1,15 @@
+# ::snt a man with inflatable hammers and other inflatable goods .
+# ::tokens ["a", "man", "with", "inflatable", "hammers", "and", "other", "inflatable", "goods", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "JJ", "NNS", "CC", "JJ", "JJ", "NNS", "."]
+# ::lemmas ["a", "man", "with", "inflatable", "hammer", "and", "other", "inflatable", "good", "."]
+(m0 / man
+      :ARG0-of (h0 / have-03
+            :ARG1 (a0 / and
+                  :op2 (g0 / good
+                        :ARG1-of (p0 / possible-01
+                              :polarity - )
+                        :mod (o0 / other))
+                  :op1 (h1 / hammer
+                        :ARG1-of (i0 / inflate-01)))))

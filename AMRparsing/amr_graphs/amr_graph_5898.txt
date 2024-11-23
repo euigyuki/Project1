@@ -1,0 +1,15 @@
+# ::snt a harnessed dog leaps over a log as another dog follows behind .
+# ::tokens ["a", "harnessed", "dog", "leaps", "over", "a", "log", "as", "another", "dog", "follows", "behind", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "NNS", "IN", "DT", "NN", "IN", "DT", "NN", "VBZ", "RB", "."]
+# ::lemmas ["a", "harnessed", "dog", "leap", "over", "a", "log", "as", "another", "dog", "follow", "behind", "."]
+(l0 / leap-03
+      :path (o0 / over
+            :op1 (l1 / log))
+      :time (f0 / follow-01
+            :ARG2 (b0 / behind)
+            :ARG1 (d1 / dog))
+      :ARG0 (d0 / dog
+            :ARG0-of (h0 / have-03
+                  :ARG1 (a0 / another))))

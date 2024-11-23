@@ -1,0 +1,8 @@
+(d0 / down-01
+    :ARG1 (c0 / child
+              :ARG0-of (s0 / smile-01)
+              :ARG1-of (d1 / dress-01
+                           :ARG2 (a0 / and
+                                     :op2 (g0 / green-02)
+                                     :op1 (p0 / pink-04
+                                              :ARG1-of (b0 / bright-02))))))

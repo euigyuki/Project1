@@ -1,0 +1,12 @@
+(b0 / bend-01
+    :purpose (l0 / look-01
+                 :poss (b1 / boy
+                           :part (d0 / down)
+                           :ARG1-of b0
+                           :ARG1-of (h0 / have-03
+                                        :ARG1 (s0 / shirt
+                                                  :ARG1-of (r0 / red-02))))
+                 :ARG1 (f0 / firework
+                           :ARG1-of (l1 / light-04
+                                        :ARG0 b1)))
+    :direction d0)

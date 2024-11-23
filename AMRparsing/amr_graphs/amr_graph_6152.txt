@@ -1,0 +1,17 @@
+# ::snt a little boy in a winnie the pooh t-shirt is waiting to swing his red bat .
+# ::tokens ["a", "little", "boy", "in", "a", "winnie", "the", "pooh", "t", "-", "shirt", "is", "waiting", "to", "swing", "his", "red", "bat", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "IN", "DT", "NN", "DT", "NNP", "NNP", "HYPH", "NN", "VBZ", "VBG", "TO", "VB", "PRP$", "JJ", "NN", "."]
+# ::lemmas ["a", "little", "boy", "in", "a", "winnie", "the", "pooh", "t", "-", "shirt", "be", "wait", "to", "swing", "his", "red", "bat", "."]
+(w0 / wait-01
+      :ARG2 (s0 / swing-02
+            :ARG1 (b0 / boy
+                  :poss-of (b1 / bat
+                        :ARG1-of (r0 / red-02))
+                  :ARG0-of (h0 / have-03
+                        :ARG1 (t0 / t-shirt
+                              :mod (p0 / pooh)))
+                  :mod (l0 / little))
+            :ARG1 b1)
+      :ARG1 b0)

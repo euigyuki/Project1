@@ -1,0 +1,2 @@
+(p0 / person
+    :ARG0-of (w0 / work-01))

@@ -1,0 +1,16 @@
+# ::snt the wine shop on twenty fourth building lit up in the dark , two people in front .
+# ::tokens ["the", "wine", "shop", "on", "twenty", "fourth", "building", "lit", "up", "in", "the", "dark", ",", "two", "people", "in", "front", "."]
+# ::ner_tags ["O", "O", "O", "O", "CARDINAL", "CARDINAL", "O", "O", "O", "O", "O", "O", "O", "CARDINAL", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "B", "I", "O", "O", "O", "O", "O", "O", "O", "B", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "NN", "IN", "CD", "JJ", "NN", "VBN", "RP", "IN", "DT", "NN", ",", "CD", "NNS", "IN", "NN", "."]
+# ::lemmas ["the", "wine", "shop", "on", "twenty", "fourth", "building", "light", "up", "in", "the", "dark", ",", "two", "people", "in", "front", "."]
+(l0 / light-04
+      :location (d0 / dark-02)
+      :location (p0 / person
+            :quant 2 
+            :quant (i0 / in-front-of))
+      :ARG1 (s0 / shop
+            :location (b0 / building
+                  :ord (o0 / ordinal-entity
+                        :value 4 ))
+            :mod (w0 / wine)))

@@ -1,0 +1,8 @@
+(t0 / talk-01
+    :accompanier (w0 / woman
+                     :ARG0-of (w1 / wear-01
+                                  :ARG1 (j0 / jersey
+                                            :mod (s0 / sport)))
+                     :quant 1)
+    :ARG0 (p0 / person
+              :quant (m0 / many)))

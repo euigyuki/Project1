@@ -1,0 +1,12 @@
+# ::snt the dog is barking while running down an obstacle .
+# ::tokens ["the", "dog", "is", "barking", "while", "running", "down", "an", "obstacle", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "VBG", "IN", "VBG", "RP", "DT", "NN", "."]
+# ::lemmas ["the", "dog", "be", "bark", "while", "run", "down", "an", "obstacle", "."]
+(b0 / bark-01
+      :time (r0 / run-02
+            :ARG0 (d0 / dog)
+            :ARG1 (o0 / obstacle)
+            :direction (d1 / down))
+      :ARG0 d0)

@@ -1,0 +1,9 @@
+# ::snt a dog chases a ball .
+# ::tokens ["a", "dog", "chases", "a", "ball", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "DT", "NN", "."]
+# ::lemmas ["a", "dog", "chase", "a", "ball", "."]
+(c0 / chase-01
+      :ARG0 (d0 / dog)
+      :ARG1 (b0 / ball))

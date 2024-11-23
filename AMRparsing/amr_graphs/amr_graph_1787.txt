@@ -1,0 +1,15 @@
+# ::snt two young men getting ready to move fruit on their bike .
+# ::tokens ["two", "young", "men", "getting", "ready", "to", "move", "fruit", "on", "their", "bike", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "JJ", "NNS", "VBG", "JJ", "TO", "VB", "NN", "IN", "PRP$", "NN", "."]
+# ::lemmas ["two", "young", "man", "get", "ready", "to", "move", "fruit", "on", "their", "bike", "."]
+(r0 / ready-01
+      :ARG0 (m1 / man
+            :ARG0-of (m0 / move-01
+                  :ARG2 (b0 / bike
+                        :poss m1)
+                  :ARG1 (f0 / fruit))
+            :quant 2 
+            :mod (y0 / young))
+      :ARG1 m0)

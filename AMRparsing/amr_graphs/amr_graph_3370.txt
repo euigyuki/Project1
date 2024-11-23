@@ -1,0 +1,5 @@
+(w0 / walk-01
+    :destination (c0 / camera)
+    :ARG0 (p0 / person
+              :ARG1-of (d1 / dress-01)
+              :quant 2))

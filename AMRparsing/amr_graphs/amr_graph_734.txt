@@ -1,0 +1,13 @@
+# ::snt four boys run down a stone paved sidewalk .
+# ::tokens ["four", "boys", "run", "down", "a", "stone", "paved", "sidewalk", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "VBP", "RP", "DT", "NN", "VBN", "NN", "."]
+# ::lemmas ["four", "boy", "run", "down", "a", "stone", "pave", "sidewalk", "."]
+(r0 / run-02
+      :direction (d0 / down
+            :op1 (s0 / sidewalk
+                  :ARG1-of (d1 / drive-02
+                        :ARG2 (s1 / stone))))
+      :ARG0 (b0 / boy
+            :quant 4 ))

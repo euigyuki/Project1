@@ -1,0 +1,17 @@
+# ::snt three people on atvs in a brown field turn their heads to look at the camera .
+# ::tokens ["three", "people", "on", "atvs", "in", "a", "brown", "field", "turn", "their", "heads", "to", "look", "at", "the", "camera", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "IN", "NN", "IN", "DT", "JJ", "NN", "VB", "PRP$", "NNS", "TO", "VB", "IN", "DT", "NN", "."]
+# ::lemmas ["three", "people", "on", "atvs", "in", "a", "brown", "field", "turn", "their", "head", "to", "look", "at", "the", "camera", "."]
+(t0 / turn-01
+      :purpose (l0 / look-01
+            :ARG1 (p0 / person
+                  :part (h0 / head)
+                  :location (f0 / field
+                        :mod (b0 / brown))
+                  :quant 3 
+                  :ARG0-of (t1 / television))
+            :ARG1 (c0 / camera))
+      :ARG0 p0
+      :ARG1 h0)

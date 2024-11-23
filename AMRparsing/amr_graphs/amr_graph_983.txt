@@ -1,0 +1,15 @@
+# ::snt a large group of people is grouped around a banner reading " we are demanding " .
+# ::tokens ["a", "large", "group", "of", "people", "is", "grouped", "around", "a", "banner", "reading", "\"", "we", "are", "demanding", "\"", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "IN", "NNS", "VBZ", "VBN", "IN", "DT", "NN", "VBG", "``", "PRP", "VBP", "VBG", "''", "."]
+# ::lemmas ["a", "large", "group", "of", "people", "be", "group", "around", "a", "banner", "read", "\"", "we", "be", "demand", "\"", "."]
+(g0 / group-01
+      :ARG2 (a0 / around
+            :op1 (b0 / banner
+                  :ARG0-of (r0 / read-01
+                        :ARG2 (d0 / demand-01
+                              :ARG0 (w0 / we)))))
+      :ARG1 (g1 / group
+            :consist-of (p0 / person)
+            :consist-of (l0 / large)))

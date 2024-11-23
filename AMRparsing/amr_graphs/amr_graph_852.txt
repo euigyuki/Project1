@@ -1,0 +1,16 @@
+# ::snt a group in kilts playing bagpipes and drums while a runner , in black , passes them by .
+# ::tokens ["a", "group", "in", "kilts", "playing", "bagpipes", "and", "drums", "while", "a", "runner", ",", "in", "black", ",", "passes", "them", "by", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "NNS", "VBG", "NNS", "CC", "NNS", "IN", "DT", "NN", ",", "IN", "JJ", ",", "VBZ", "PRP", "RB", "."]
+# ::lemmas ["a", "group", "in", "kilt", "play", "bagpipe", "and", "drum", "while", "a", "runner", ",", "in", "black", ",", "pass", "they", "by", "."]
+(c0 / contrast-01
+      :ARG1 (p1 / play-01
+            :ARG1 (a0 / and
+                  :op2 (d0 / drum)
+                  :op1 (b0 / bagpipe)))
+      :ARG2 (p0 / pass-by-17
+            :ARG0 (p2 / person
+                  :ARG0-of (r0 / run-02
+                        :ARG1-of (b1 / black-04)))
+            :ARG1 (t0 / they)))

@@ -1,0 +1,19 @@
+# ::snt a teenage boy wearing all black tries to look tough with cheap jewelry on .
+# ::tokens ["a", "teenage", "boy", "wearing", "all", "black", "tries", "to", "look", "tough", "with", "cheap", "jewelry", "on", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "VBG", "DT", "JJ", "NNS", "TO", "VB", "JJ", "IN", "JJ", "NN", "IN", "."]
+# ::lemmas ["a", "teenage", "boy", "wear", "all", "black", "try", "to", "look", "tough", "with", "cheap", "jewelry", "on", "."]
+(t0 / try-01
+      :ARG0 (b0 / boy
+            :ARG0-of (l0 / look-02
+                  :ARG1 (t1 / tough-03
+                        :ARG1 b0)
+                  :ARG2 (j0 / jewelry
+                        :ARG2 b0
+                        :ARG1-of (c0 / cheap-02)))
+            :ARG0-of (w0 / wear-01
+                  :ARG1 (b1 / black-04
+                        :mod (a0 / all)))
+            :mod (t2 / teenage))
+      :ARG1 l0)

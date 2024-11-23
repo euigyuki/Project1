@@ -1,0 +1,10 @@
+(a0 / and
+    :time (a1 / and
+              :op1 (s0 / sit-01
+                       :ARG1 (b0 / boy
+                                 :mod (l0 / little))))
+    :op2 (p0 / point-01
+             :ARG0 b0)
+    :op1 (h0 / hold-01
+             :ARG0 b0
+             :ARG1 (c0 / cookie)))

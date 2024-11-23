@@ -1,0 +1,6 @@
+(r0 / run-02
+    :manner (t0 / together)
+    :ARG0 (d0 / dog
+              :quant 2)
+    :ARG1 (l0 / leave
+              :ARG1-of (f0 / fall-01)))

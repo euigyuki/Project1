@@ -1,0 +1,7 @@
+(s0 / stand-01
+    :time (p0 / play-01
+              :ARG0 (b0 / boy
+                        :poss-of (b1 / beam
+                                     :mod (b2 / balance))
+                        :quant 2))
+    :ARG1 b0)

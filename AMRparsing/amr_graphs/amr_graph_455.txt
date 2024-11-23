@@ -1,0 +1,19 @@
+# ::snt a long-haired man stands next to a gray brick wall in front of a seagull playing an instrument .
+# ::tokens ["a", "long", "-", "haired", "man", "stands", "next", "to", "a", "gray", "brick", "wall", "in", "front", "of", "a", "seagull", "playing", "an", "instrument", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "HYPH", "JJ", "NN", "VBZ", "RB", "IN", "DT", "JJ", "NN", "NN", "IN", "NN", "IN", "DT", "NN", "VBG", "DT", "NN", "."]
+# ::lemmas ["a", "long", "-", "haired", "man", "stand", "next", "to", "a", "gray", "brick", "wall", "in", "front", "of", "a", "seagull", "play", "an", "instrument", "."]
+(s0 / stand-01
+      :ARG1 (m0 / man
+            :ARG0-of (h1 / have-03
+                  :ARG1 (l0 / long-03))
+            :mod (h0 / have-03))
+      :ARG2 (n0 / next-to
+            :op1 (w0 / wall
+                  :location (i0 / in-front-of
+                        :op1 (s1 / seagull
+                              :ARG0-of (p0 / play-11
+                                    :ARG1 (i1 / instrument))))
+                  :ARG1-of (g0 / gray-02)
+                  :mod (b0 / brick))))

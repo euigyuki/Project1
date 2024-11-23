@@ -1,0 +1,4 @@
+(w0 / walk-01
+    :ARG0 (t0 / teenager
+              :ARG1-of (d1 / dress-01)
+              :quant 4))

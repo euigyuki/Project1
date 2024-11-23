@@ -1,0 +1,5 @@
+(c0 / chat-01
+    :ARG0 (g0 / group
+              :consist-of (m0 / man))
+    :ARG1 (b0 / boat
+              :ARG1-of (d0 / display-01)))

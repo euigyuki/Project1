@@ -1,0 +1,6 @@
+(e0 / enjoy-01
+    :ARG1 (d0 / day
+              :ARG1-of (c0 / cold-01)
+              :mod (s0 / sunny
+                       :ARG1-of (c1 / contrast-01)))
+    :ARG0 (p0 / person))

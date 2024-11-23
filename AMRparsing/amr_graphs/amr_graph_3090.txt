@@ -1,0 +1,10 @@
+# ::snt a group of young girls running .
+# ::tokens ["a", "group", "of", "young", "girls", "running", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "JJ", "NNS", "VBG", "."]
+# ::lemmas ["a", "group", "of", "young", "girl", "run", "."]
+(g0 / group
+      :consist-of (g1 / girl
+            :mod (y0 / young))
+      :consist-of (r0 / run-02))

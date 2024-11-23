@@ -1,0 +1,11 @@
+(a0 / and
+    :op2 (b0 / bicycle
+             :ARG1-of (p1 / park-01
+                          :ARG2 (n0 / nearby))
+             :quant 1)
+    :op1 (p0 / play-01
+             :ARG0 (m0 / male
+                       :mod (s0 / shirtless)
+                       :quant 2)
+             :ARG1 (t0 / tennis
+                       :mod (t1 / table))))

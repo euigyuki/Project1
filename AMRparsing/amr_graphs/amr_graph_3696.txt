@@ -1,0 +1,23 @@
+(l0 / lay-01
+    :time-of (r0 / read-01
+                 :part-of (p0 / person
+                              :part (s0 / side)
+                              :ARG1-of l0
+                              :part (h1 / head)
+                              :ARG0-of (h0 / have-rel-role-91)
+                              :mod (w0 / wear-01
+                                       :ARG1 (a0 / and
+                                                 :op2 (s3 / shirt
+                                                          :mod (p4 / print)
+                                                          :mod (r1 / red-02
+                                                                   :ARG1-of (l1 / long-03))
+                                                          :ARG1-of (p3 / pull-01)
+                                                          :mod (f0 / festive))
+                                                 :op1 (p2 / pant
+                                                          :ARG1-of (g2 / gray-02))))
+                              :mod (y0 / young)
+                              :mod (b0 / brunette
+                                       :mod (g0 / grade)))
+                 :ARG3 (k0 / kill-01)
+                 :time-of (s1 / sleep-01
+                              :ARG1 h1)))

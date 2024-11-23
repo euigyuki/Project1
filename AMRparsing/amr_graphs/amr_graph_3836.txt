@@ -1,0 +1,8 @@
+(h0 / hit-01
+    :time (a0 / about-to)
+    :ARG0 (p0 / person
+              :ARG0-of (p1 / play-01
+                           :ARG1 (t1 / tennis))
+              :mod (f0 / female))
+    :ARG1 (b0 / ball
+              :mod (t0 / tennis)))

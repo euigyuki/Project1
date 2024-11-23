@@ -1,0 +1,6 @@
+(w0 / watch-01
+    :source (s0 / sit-01
+                :ARG1 (m0 / male
+                          :mod (y0 / young)))
+    :ARG1 (c0 / crowd
+              :source (b0 / background)))

@@ -1,0 +1,15 @@
+# ::snt a motorcycle driver dressed in orange gear swerves to the right .
+# ::tokens ["a", "motorcycle", "driver", "dressed", "in", "orange", "gear", "swerves", "to", "the", "right", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "NN", "VBN", "IN", "JJ", "NN", "NNS", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "motorcycle", "driver", "dress", "in", "orange", "gear", "swerve", "to", "the", "right", "."]
+(d0 / drive-02
+      :direction (r0 / right-08
+            :ARG2 (p0 / person
+                  :ARG0-of (d2 / drive-01
+                        :ARG1 (m0 / motorcycle))
+                  :ARG1-of (d1 / dress-01
+                        :ARG2 (g0 / gear
+                              :mod (o0 / orange)))))
+      :ARG0 p0)

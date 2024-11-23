@@ -1,0 +1,9 @@
+# ::snt a woman splashes in the water .
+# ::tokens ["a", "woman", "splashes", "in", "the", "water", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "NNS", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "woman", "splash", "in", "the", "water", "."]
+(s0 / spell-01
+      :ARG1 (w1 / water)
+      :ARG0 (w0 / woman))

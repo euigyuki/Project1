@@ -1,0 +1,12 @@
+# ::snt several children and jumping on a trampoline in the snow .
+# ::tokens ["several", "children", "and", "jumping", "on", "a", "trampoline", "in", "the", "snow", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["JJ", "NNS", "CC", "VBG", "IN", "DT", "NN", "IN", "DT", "NN", "."]
+# ::lemmas ["several", "child", "and", "jump", "on", "a", "trampoline", "in", "the", "snow", "."]
+(a0 / and
+      :op2 (j0 / jump-03
+            :destination (t0 / trampoline)
+            :destination (s1 / snow))
+      :op1 (c0 / child
+            :quant (s0 / several)))

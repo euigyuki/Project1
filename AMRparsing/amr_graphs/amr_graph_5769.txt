@@ -1,0 +1,11 @@
+# ::snt a black man drinking out of a paper cup .
+# ::tokens ["a", "black", "man", "drinking", "out", "of", "a", "paper", "cup", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "VBG", "IN", "IN", "DT", "NN", "NN", "."]
+# ::lemmas ["a", "black", "man", "drink", "out", "of", "a", "paper", "cup", "."]
+(m0 / man
+      :ARG1-of (b0 / black-05)
+      :ARG0-of (d0 / drink-01
+            :ARG2 (c0 / cup
+                  :mod (p0 / paper))))

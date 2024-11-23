@@ -1,0 +1,23 @@
+# ::snt man in yellow shirt pretends to pull anchor rope inside a ship with a glass of what looks like beer close by .
+# ::tokens ["man", "in", "yellow", "shirt", "pretends", "to", "pull", "anchor", "rope", "inside", "a", "ship", "with", "a", "glass", "of", "what", "looks", "like", "beer", "close", "by", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["NN", "IN", "JJ", "NN", "VBZ", "TO", "VB", "NN", "NN", "IN", "DT", "NN", "IN", "DT", "NN", "IN", "WP", "VBZ", "IN", "NN", "RB", "RB", "."]
+# ::lemmas ["man", "in", "yellow", "shirt", "pretend", "to", "pull", "anchor", "rope", "inside", "a", "ship", "with", "a", "glass", "of", "what", "look", "like", "beer", "close", "by", "."]
+(p0 / pretend-01
+      :ARG0 (m0 / man
+            :ARG0-of (p1 / pull-06
+                  :ARG1 (r0 / rope
+                        :mod (a0 / anchor))
+                  :ARG2 (i0 / inside
+                        :op1 (s0 / ship
+                              :ARG0-of (l0 / look-02)
+                              :ARG1-of (c0 / close-10
+                                    :ARG2 (b0 / beer
+                                          :quant (v0 / volume-quantity
+                                                :unit (g0 / glass)
+                                                :quant 1 ))))))
+            :ARG0-of (w0 / wear-01
+                  :ARG1 (s1 / shirt
+                        :mod (y0 / yellow))))
+      :ARG1 p1)

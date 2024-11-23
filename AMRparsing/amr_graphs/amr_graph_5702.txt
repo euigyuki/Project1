@@ -1,0 +1,5 @@
+(s0 / scare-01
+    :ARG0 (b0 / balance-01
+              :ARG0 (l0 / lady)
+              :ARG1 (r0 / rope))
+    :ARG1 l0)

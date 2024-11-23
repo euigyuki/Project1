@@ -1,0 +1,7 @@
+(a0 / and
+    :domain (n0 / number)
+    :op2 (l0 / lay-01
+             :mod (d0 / down)
+             :ARG1 (w0 / woman))
+    :op1 (s0 / sit-01
+             :ARG1 w0))

@@ -1,0 +1,23 @@
+# ::snt a bull rider riding a bucking bull while other cowboys watch and wait to help him if needed .
+# ::tokens ["a", "bull", "rider", "riding", "a", "bucking", "bull", "while", "other", "cowboys", "watch", "and", "wait", "to", "help", "him", "if", "needed", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "NN", "VBG", "DT", "NN", "NN", "IN", "JJ", "NNS", "VBP", "CC", "VB", "TO", "VB", "PRP", "IN", "VBN", "."]
+# ::lemmas ["a", "bull", "rider", "ride", "a", "bucking", "bull", "while", "other", "cowboy", "watch", "and", "wait", "to", "help", "he", "if", "need", "."]
+(c0 / contrast-01
+      :ARG2 (a0 / and
+            :condition (n0 / need-01)
+            :op2 (w1 / wait-01
+                  :ARG1 (p0 / person
+                        :mod w0
+                        :ARG0-of r0
+                        :ARG0-of (r1 / ride-01)
+                        :ARG2-of h0)
+                  :ARG1 c1)
+            :op1 (w0 / watch-01
+                  :ARG0 (c1 / cowboy
+                        :ARG0-of (h0 / help-01)
+                        :mod (o0 / other))))
+      :ARG1 (r0 / ride-01
+            :ARG1 (b0 / bull
+                  :ARG1-of (b1 / bucking))))

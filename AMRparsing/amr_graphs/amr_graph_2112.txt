@@ -1,0 +1,6 @@
+(a0 / and
+    :op2 (w0 / woman
+             :ARG0-of (l0 / laugh-01)
+             :quant 1)
+    :op1 (g0 / group
+             :consist-of (m0 / man)))

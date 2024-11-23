@@ -1,0 +1,10 @@
+# ::snt a kid smiling at the swimming pool
+# ::tokens ["a", "kid", "smiling", "at", "the", "swimming", "pool"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBG", "IN", "DT", "NN", "NN"]
+# ::lemmas ["a", "kid", "smile", "at", "the", "swimming", "pool"]
+(s0 / smile-01
+      :ARG2 (p0 / pool
+            :mod (s1 / swim-01))
+      :ARG0 (k0 / kid))

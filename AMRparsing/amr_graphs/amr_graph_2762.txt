@@ -1,0 +1,7 @@
+(a0 / and
+    :op2 (s1 / smile-01
+             :ARG0-of (h0 / happy-01)
+             :ARG0 (g0 / group
+                       :consist-of (c0 / child)))
+    :op1 (s0 / sit-01
+             :ARG1 g0))

@@ -1,0 +1,19 @@
+# ::snt a woman fixes her friend 's dress while out for a day in the sun .
+# ::tokens ["a", "woman", "fixes", "her", "friend", "'s", "dress", "while", "out", "for", "a", "day", "in", "the", "sun", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "DATE", "DATE", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B", "I", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "PRP$", "NN", "POS", "NN", "IN", "RP", "IN", "DT", "NN", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "woman", "fix", "her", "friend", "'s", "dress", "while", "out", "for", "a", "day", "in", "the", "sun", "."]
+(f0 / fix-02
+      :time (o0 / out-06
+            :ARG0 (w0 / woman
+                  :ARG1-of (h0 / have-rel-role-91
+                        :ARG0 (p0 / person)
+                        :ARG2 (f1 / friend)))
+            :duration (t0 / temporal-quantity
+                  :unit (d1 / day)
+                  :quant 1 )
+            :ARG2 (s0 / sun))
+      :ARG0 w0
+      :ARG1 (d0 / dress
+            :poss p0))

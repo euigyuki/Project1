@@ -1,0 +1,13 @@
+(h0 / hold-01
+    :time-of (w0 / wear-01
+                 :part-of (m0 / man
+                              :poss-of (c0 / crotch
+                                           :instrument (p0 / pull-01
+                                                           :ARG2 (u0 / up)))
+                              :part (b0 / belly
+                                        :ARG1-of (e0 / expose-01
+                                                     :ARG2 (s0 / shirt)))
+                              :part s0)
+                 :ARG1 (r0 / rag
+                           :mod (d0 / dew)))
+    :ARG1 c0)

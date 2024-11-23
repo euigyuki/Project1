@@ -1,0 +1,7 @@
+(j0 / jump-03
+    :purpose (c0 / clear-01
+                 :ARG0 (d0 / dog)
+                 :ARG1 (b0 / bar))
+    :ARG1-of (h0 / high-02
+                 :ARG1 d0)
+    :ARG0 d0)

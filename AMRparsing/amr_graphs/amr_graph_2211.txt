@@ -1,0 +1,24 @@
+# ::snt a man in a white shirt and black exercise shorts walks on a sidewalk , which is located behind a street under construction and in front of a two garage house .
+# ::tokens ["a", "man", "in", "a", "white", "shirt", "and", "black", "exercise", "shorts", "walks", "on", "a", "sidewalk", ",", "which", "is", "located", "behind", "a", "street", "under", "construction", "and", "in", "front", "of", "a", "two", "garage", "house", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "CARDINAL", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "DT", "JJ", "NN", "CC", "JJ", "NN", "VBZ", "VBZ", "IN", "DT", "NN", ",", "WDT", "VBZ", "VBN", "IN", "DT", "NN", "IN", "NN", "CC", "IN", "NN", "IN", "DT", "CD", "NN", "NN", "."]
+# ::lemmas ["a", "man", "in", "a", "white", "shirt", "and", "black", "exercise", "short", "walk", "on", "a", "sidewalk", ",", "which", "be", "locate", "behind", "a", "street", "under", "construction", "and", "in", "front", "of", "a", "two", "garage", "house", "."]
+(w0 / walk-01
+      :location (s0 / sidewalk
+            :location (i0 / in-front-of
+                  :op1 (h0 / house
+                        :mod (g0 / garage
+                              :quant 2 ))))
+      :ARG2 (b0 / behind
+            :op1 (s1 / street
+                  :location (u0 / under
+                        :op1 (c0 / construct-01))))
+      :ARG0 (m0 / man
+            :ARG0-of (w1 / wear-01
+                  :ARG1 (a0 / and
+                        :op2 (s3 / short
+                              :ARG1-of (b1 / black-04)
+                              :mod (e0 / exercise-02))
+                        :op1 (s2 / shirt
+                              :ARG1-of (w2 / white-03))))))

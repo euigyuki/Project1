@@ -1,0 +1,23 @@
+# ::snt a woman dressed in a blue jacket and blue jeans rides a brown horse near a frozen lake and snow-covered mountain .
+# ::tokens ["a", "woman", "dressed", "in", "a", "blue", "jacket", "and", "blue", "jeans", "rides", "a", "brown", "horse", "near", "a", "frozen", "lake", "and", "snow", "-", "covered", "mountain", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "ORG", "ORG", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "B", "I", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBN", "IN", "DT", "JJ", "NN", "CC", "JJ", "NNS", "VBZ", "DT", "JJ", "NN", "IN", "DT", "JJ", "NN", "CC", "NN", "HYPH", "VBN", "NN", "."]
+# ::lemmas ["a", "woman", "dress", "in", "a", "blue", "jacket", "and", "blue", "jeans", "ride", "a", "brown", "horse", "near", "a", "frozen", "lake", "and", "snow", "-", "cover", "mountain", "."]
+(r0 / ride-01
+      :ARG1-of (n0 / near-02
+            :ARG2 (a0 / and
+                  :op2 (m0 / mountain
+                        :ARG1-of (c0 / cover-02
+                              :ARG2 (s0 / snow)))
+                  :op1 (l0 / lake
+                        :ARG1-of (f0 / freeze-01))))
+      :ARG0 (w0 / woman
+            :ARG1-of (d0 / dress-01
+                  :ARG2 (a1 / and
+                        :op2 (j1 / jeans
+                              :mod (b2 / blue))
+                        :op1 (j0 / jacket
+                              :mod (b1 / blue)))))
+      :ARG1 (h0 / horse
+            :mod (b0 / brown)))

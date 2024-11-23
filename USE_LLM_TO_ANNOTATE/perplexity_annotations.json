@@ -1,0 +1,38 @@
+[
+  {
+    "caption": "several men in hard hats are operating a giant pulley system",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "work_education"
+    ],
+    "explanation": "The caption is classified as **outdoors** because the scene involves activities that typically take place outside, such as operating a giant pulley system, which is not usually confined to an indoor setting.\n\nIt involves **man-made** elements because the pulley system and hard hats are manufactured objects, indicating human-made structures and equipment.\n\nIt shows **work_education** because the men are engaged in a work-related activity, likely involving some form of training or professional operation, as indicated by the use of hard hats and the complex machinery."
+  },
+  {
+    "caption": "a man with black hair sits in a restaurant with a glass of beer",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "restaurant"
+    ],
+    "explanation": "The caption is classified as 'indoors' because the scene is set inside a restaurant, involves 'man-made' elements because the restaurant and the glass of beer are human-created objects, and shows a 'restaurant' because the setting is explicitly described as a restaurant."
+  },
+  {
+    "caption": "\"man wearing a blue and white outfit , holding a broom , with a traditional asian architecture in the background",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "other_unclear"
+    ],
+    "explanation": "The caption is classified as 'outdoors' because the scene is set in an environment outside a building, as indicated by the presence of traditional Asian architecture in the background. It involves 'man-made' elements because the broom and the traditional Asian architecture are human-created objects. It shows 'other_unclear' activity because while the man is holding a broom, the specific action or context of the activity (e.g., whether he is sweeping or just holding it) is not clearly defined in the caption."
+  },
+  {
+    "caption": "",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "other_unclear"
+    ],
+    "explanation": "The caption is classified as **indoors** because the scene is likely set within a building or an enclosed space, involves **man-made** elements because it probably includes structures or objects created by humans, and shows **other_unclear** because the specific activities or details in the scene are not clearly defined or recognizable from the given context."
+  }
+]

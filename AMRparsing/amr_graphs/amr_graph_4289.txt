@@ -1,0 +1,13 @@
+# ::snt a toddler plays with his wooden toy train set .
+# ::tokens ["a", "toddler", "plays", "with", "his", "wooden", "toy", "train", "set", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "IN", "PRP$", "JJ", "NN", "NN", "NN", "."]
+# ::lemmas ["a", "toddler", "play", "with", "his", "wooden", "toy", "train", "set", "."]
+(p0 / play-01
+      :ARG0 (t0 / toddler
+            :poss-of (s0 / set
+                  :ARG1-of (w0 / wooden)
+                  :mod (t1 / train
+                        :mod (t2 / toy))))
+      :ARG1 s0)

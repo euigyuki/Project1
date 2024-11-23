@@ -1,0 +1,7 @@
+(s0 / sit-01
+    :time (p0 / put-01
+              :ARG0 (w0 / woman
+                        :part (f0 / foot
+                                  :ARG1-of (r0 / right-03)))
+              :ARG1 (s2 / shoe))
+    :ARG1 w0)

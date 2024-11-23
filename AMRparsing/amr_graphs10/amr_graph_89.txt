@@ -1,0 +1,15 @@
+# ::snt a young boy , wearing shorts and a red tank top , is sliding down a mountain of snow , riding a board on his belly .
+(z1 / and
+      :op1 (z2 / slide-01
+            :ARG1 (z3 / boy
+                  :mod (z4 / boy)
+                  :mod (z5 / young)
+                  :ARG0-of (z6 / wear-01
+                        :ARG1 (z7 / and
+                              :op1 (z8 / shorts)
+                              :op2 (z9 / top
+                                    :mod (z10 / tank)
+                                    :ARG1-of (z11 / red-02))))))
+      :ARG2 (z12 / mountain
+            :consist-of (z13 / snow))
+      :direction (z14 / down))

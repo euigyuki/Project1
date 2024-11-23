@@ -1,0 +1,12 @@
+# ::snt a camera crew waits near some water .
+# ::tokens ["a", "camera", "crew", "waits", "near", "some", "water", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "NN", "VBZ", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "camera", "crew", "wait", "near", "some", "water", "."]
+(w0 / wait-01
+      :ARG2 (n0 / near-02
+            :ARG2 (w1 / water
+                  :mod (s0 / some)))
+      :ARG1 (c0 / crew
+            :mod (c1 / camera)))

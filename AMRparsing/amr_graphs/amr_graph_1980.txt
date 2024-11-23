@@ -1,0 +1,3 @@
+(p0 / pour-01
+    :ARG0 (l0 / lady)
+    :ARG1 (w0 / wine))

@@ -1,0 +1,5 @@
+(p0 / play-01
+    :ARG0 (c0 / child
+              :mod (c1 / continent
+                       :name (n0 / name
+                                 :op1 "Asia"))))

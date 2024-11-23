@@ -1,0 +1,9 @@
+(a0 / and
+    :op2 (b0 / bark-01
+             :ARG0 (o0 / one)
+             :ARG2 (h0 / have-degree-91
+                       :ARG3 (m0 / more)
+                       :ARG2 (l0 / large)))
+    :op1 (d0 / dog
+             :quant (r0 / rottweiler)
+             :quant 2))

@@ -1,0 +1,4 @@
+(s0 / stand-01
+    :ARG1 (y0 / youth
+              :ARG0-of (t1 / talk-01)
+              :quant 3))

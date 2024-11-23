@@ -1,0 +1,18 @@
+# ::snt a collection of string musicians prepare to play a song as the conductor steps to the podium .
+# ::tokens ["a", "collection", "of", "string", "musicians", "prepare", "to", "play", "a", "song", "as", "the", "conductor", "steps", "to", "the", "podium", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "NN", "NNS", "VBP", "TO", "VB", "DT", "NN", "IN", "DT", "NN", "VBZ", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "collection", "of", "string", "musician", "prepare", "to", "play", "a", "song", "as", "the", "conductor", "step", "to", "the", "podium", "."]
+(p0 / prepare-02
+      :time (s0 / step-01
+            :ARG1 (p2 / person
+                  :ARG0-of (p1 / play-11
+                        :ARG1 (s1 / song))
+                  :ARG0-of (c0 / collect-01
+                        :ARG1 (m0 / musician
+                              :mod (s2 / string))))
+            :ARG2 (p3 / podium)
+            :ARG1 (c1 / conductor))
+      :ARG0 p2
+      :ARG1 p1)

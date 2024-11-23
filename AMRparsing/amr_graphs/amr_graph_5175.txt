@@ -1,0 +1,11 @@
+# ::snt a busy street walkway full of people .
+# ::tokens ["a", "busy", "street", "walkway", "full", "of", "people", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "NN", "JJ", "IN", "NNS", "."]
+# ::lemmas ["a", "busy", "street", "walkway", "full", "of", "people", "."]
+(w0 / walkway
+      :ARG1-of (b0 / busy-01)
+      :ARG2-of (f0 / full-09
+            :ARG2 (p0 / person))
+      :mod (s0 / street))

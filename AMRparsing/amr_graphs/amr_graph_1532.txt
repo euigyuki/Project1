@@ -1,0 +1,5 @@
+(j0 / jump-03
+    :ARG0 (d0 / dog
+              :ARG1-of (c0 / color-01
+                           :ARG2 (g0 / gray-02))
+              :mod (l0 / large)))

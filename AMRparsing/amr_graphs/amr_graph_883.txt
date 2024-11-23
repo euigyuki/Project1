@@ -1,0 +1,5 @@
+(r0 / release-01
+    :mod (j0 / just)
+    :ARG0 (w0 / woman)
+    :ARG1 (b0 / ball
+              :instrument-of (b1 / bowl-01)))

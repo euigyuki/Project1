@@ -1,0 +1,3 @@
+(c0 / child
+    :part (h1 / hand)
+    :part (h0 / head))

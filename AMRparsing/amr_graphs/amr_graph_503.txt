@@ -1,0 +1,13 @@
+# ::snt a dog in a number six jersey is running through a field .
+# ::tokens ["a", "dog", "in", "a", "number", "six", "jersey", "is", "running", "through", "a", "field", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "CARDINAL", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "B", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "DT", "NN", "CD", "NN", "VBZ", "VBG", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "dog", "in", "a", "number", "six", "jersey", "be", "run", "through", "a", "field", "."]
+(r0 / run-02
+      :ARG0 (d0 / dog
+            :ARG0-of (h0 / have-03
+                  :ARG1 (j0 / jersey
+                        :ord (o0 / ordinal-entity
+                              :value 6 ))))
+      :ARG1 (f0 / field))

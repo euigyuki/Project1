@@ -1,0 +1,10 @@
+(w0 / walk-01
+    :ARG0 (w1 / woman
+              :poss-of (a1 / and
+                           :op2 (b0 / boot
+                                    :ARG1-of (w3 / white-03))
+                           :op1 (d0 / dress
+                                    :ARG1-of (l0 / long-03)))
+              :ARG0-of (h0 / have-03
+                           :ARG1 (c0 / column
+                                     :ARG1-of (w2 / white-03)))))

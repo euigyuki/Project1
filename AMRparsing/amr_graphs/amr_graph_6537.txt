@@ -1,0 +1,5 @@
+(p0 / play-01
+    :accompanier (d0 / dog
+                     :quant 2)
+    :ARG0 (b0 / boy
+              :quant 2))

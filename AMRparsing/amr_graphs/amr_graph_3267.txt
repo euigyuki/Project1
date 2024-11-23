@@ -1,0 +1,3 @@
+(s0 / sail-01
+    :ARG0 (p0 / person)
+    :ARG1 (b0 / boat))

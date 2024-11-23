@@ -1,0 +1,4 @@
+(p0 / pose-01
+    :ARG0 (g0 / girl
+              :mod (p1 / pretty)
+              :mod (b0 / baby)))

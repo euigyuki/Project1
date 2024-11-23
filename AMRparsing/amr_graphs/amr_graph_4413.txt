@@ -1,0 +1,15 @@
+# ::snt asian men in athletic uniforms riding the bus .
+# ::tokens ["asian", "men", "in", "athletic", "uniforms", "riding", "the", "bus", "."]
+# ::ner_tags ["NORP", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["JJ", "NNS", "IN", "JJ", "NNS", "VBG", "DT", "NN", "."]
+# ::lemmas ["asian", "man", "in", "athletic", "uniform", "ride", "the", "bus", "."]
+(r0 / ride-01
+      :ARG0 (m0 / man
+            :ARG0-of (w0 / wear-01
+                  :ARG1 (u0 / uniform
+                        :mod (a0 / athletic)))
+            :mod (c0 / continent
+                  :name (n0 / name
+                        :op1 "Asia" )))
+      :ARG1 (b0 / bus))

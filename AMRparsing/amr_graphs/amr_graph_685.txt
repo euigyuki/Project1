@@ -1,0 +1,3 @@
+(h0 / hold-01
+    :ARG1 (c0 / cheek
+              :part-of (m0 / man)))

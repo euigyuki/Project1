@@ -1,0 +1,14 @@
+# ::snt two boys try to attach fruits to a bicycle on a dirt road .
+# ::tokens ["two", "boys", "try", "to", "attach", "fruits", "to", "a", "bicycle", "on", "a", "dirt", "road", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "VBP", "TO", "VB", "NNS", "IN", "DT", "NN", "IN", "DT", "NN", "NN", "."]
+# ::lemmas ["two", "boy", "try", "to", "attach", "fruit", "to", "a", "bicycle", "on", "a", "dirt", "road", "."]
+(t0 / try-01
+      :ARG0 (b0 / boy
+            :ARG0-of (a0 / attach-01
+                  :ARG2 (r0 / road
+                        :mod (d0 / dirt))
+                  :ARG1 (f0 / fruit))
+            :quant 2 )
+      :ARG1 a0)

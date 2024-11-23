@@ -1,0 +1,5 @@
+(s0 / sit-01
+    :manner (l0 / laugh-01
+                :ARG0 (m0 / man
+                          :quant 3))
+    :ARG1 m0)

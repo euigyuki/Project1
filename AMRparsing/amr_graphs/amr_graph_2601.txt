@@ -1,0 +1,8 @@
+(g0 / gallop
+    :domain (a0 / and
+                :op3 (d2 / dog
+                         :mod (b1 / brown)
+                         :ARG1-of (w0 / white-02))
+                :op2 (d1 / dog)
+                :op1 (d0 / dog
+                         :ARG1-of (b0 / black-05))))

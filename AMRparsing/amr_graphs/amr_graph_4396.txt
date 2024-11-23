@@ -1,0 +1,4 @@
+(w0 / walk-01
+    :direction (d0 / down)
+    :ARG0 (w1 / woman
+              :quant 2))

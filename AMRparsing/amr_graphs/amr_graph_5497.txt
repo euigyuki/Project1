@@ -1,0 +1,11 @@
+# ::snt the children play with sparklers at night .
+# ::tokens ["the", "children", "play", "with", "sparklers", "at", "night", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "TIME", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "B", "O"]
+# ::pos_tags ["DT", "NNS", "VBP", "IN", "NNS", "IN", "NN", "."]
+# ::lemmas ["the", "child", "play", "with", "sparkler", "at", "night", "."]
+(p0 / play-01
+      :time (d0 / date-entity
+            :dayperiod (n0 / night))
+      :time (s0 / sparkler)
+      :ARG0 (c0 / child))

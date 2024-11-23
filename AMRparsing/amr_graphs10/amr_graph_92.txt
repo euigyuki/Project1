@@ -1,0 +1,16 @@
+# ::snt a crowd of people are sitting on a bench beside a white statue of a man 's head in a park like setting while four pigeons look on .
+(z1 / sit-01
+      :ARG1 (z2 / crowd
+            :consist-of (z3 / person))
+      :ARG2 (z4 / bench
+            :location (z5 / beside
+                  :op1 (z6 / statue
+                        :topic (z7 / head
+                              :part-of (z8 / man))
+                        :ARG1-of (z9 / white-03))))
+      :location (z10 / setting
+            :ARG1-of (z11 / resemble-01
+                  :ARG2 (z12 / park)))
+      :time (z13 / look-01
+            :ARG0 (z14 / pigeon
+                  :quant 4)))

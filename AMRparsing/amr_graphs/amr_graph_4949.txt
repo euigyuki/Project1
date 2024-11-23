@@ -1,0 +1,14 @@
+# ::snt young boy wearing a denim shirt sticks out his tongue .
+# ::tokens ["young", "boy", "wearing", "a", "denim", "shirt", "sticks", "out", "his", "tongue", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["JJ", "NN", "VBG", "DT", "JJ", "NN", "VBZ", "RP", "PRP$", "NN", "."]
+# ::lemmas ["young", "boy", "wear", "a", "denim", "shirt", "stick", "out", "his", "tongue", "."]
+(s0 / suck-up-04
+      :ARG0 (b0 / boy
+            :part (t0 / tongue)
+            :ARG0-of (w0 / wear-01
+                  :ARG1 (s1 / shirt
+                        :mod (d0 / denim)))
+            :mod (y0 / young))
+      :ARG1 t0)

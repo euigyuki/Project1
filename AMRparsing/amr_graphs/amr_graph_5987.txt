@@ -1,0 +1,14 @@
+# ::snt a dark-skinned man handing someone his phone .
+# ::tokens ["a", "dark", "-", "skinned", "man", "handing", "someone", "his", "phone", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "RB", "HYPH", "VBN", "NN", "VBG", "NN", "PRP$", "NN", "."]
+# ::lemmas ["a", "dark", "-", "skin", "man", "hand", "someone", "his", "phone", "."]
+(h0 / hand-01
+      :ARG2 (s0 / someone
+            :poss-of (p0 / phone
+                  :poss m0
+                  :ARG1-of h0))
+      :ARG0 (m0 / man
+            :mod (i0 / island
+                  :ARG1-of (d0 / dark-02))))

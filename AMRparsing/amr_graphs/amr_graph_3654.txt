@@ -1,0 +1,13 @@
+# ::snt the men are working hard at a construction site building something .
+# ::tokens ["the", "men", "are", "working", "hard", "at", "a", "construction", "site", "building", "something", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NNS", "VBP", "VBG", "RB", "IN", "DT", "NN", "NN", "VBG", "NN", "."]
+# ::lemmas ["the", "man", "be", "work", "hard", "at", "a", "construction", "site", "build", "something", "."]
+(w0 / work-01
+      :manner (h0 / hard-02)
+      :ARG1-of (s0 / site
+            :mod (c0 / construct-01))
+      :ARG0 (m0 / man)
+      :ARG1 (b0 / build-01
+            :ARG1 (s1 / something)))

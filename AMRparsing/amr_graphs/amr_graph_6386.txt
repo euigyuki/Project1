@@ -1,0 +1,10 @@
+(s0 / stand-01
+    :ARG1 (l0 / lady
+              :ARG0-of (h0 / have-03
+                           :ARG1 (a0 / and
+                                     :op2 (j0 / jeans
+                                              :ARG1-of (c1 / color
+                                                           :ARG1-of (l1 / light-06))
+                                              :mod (b1 / blue))
+                                     :op1 (s1 / shirt
+                                              :ARG1-of (p0 / pink-04))))))

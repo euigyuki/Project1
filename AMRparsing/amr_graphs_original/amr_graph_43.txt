@@ -1,0 +1,10 @@
+# ::snt a woman smiles while holding several green peppers at a grocery stand .
+(z1 / smile-01
+      :ARG0 (z2 / woman)
+      :time (z3 / hold-01
+            :ARG0 z2
+            :ARG1 (z4 / pepper
+                  :ARG1-of (z5 / green-02)
+                  :quant (z6 / several))
+            :location (z7 / stand
+                  :mod (z8 / grocery))))

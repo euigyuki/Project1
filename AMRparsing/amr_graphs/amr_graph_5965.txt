@@ -1,0 +1,6 @@
+(w0 / walk-01
+    :instrument (b0 / bag
+                    :poss (a0 / and
+                              :op2 (c0 / child)
+                              :op1 (w1 / woman)
+                              :ARG0-of w0)))

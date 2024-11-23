@@ -1,0 +1,13 @@
+# ::snt people , outside , throwing stuff over the top of them .
+# ::tokens ["people", ",", "outside", ",", "throwing", "stuff", "over", "the", "top", "of", "them", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["NNS", ",", "RB", ",", "VBG", "NN", "IN", "DT", "NN", "IN", "PRP", "."]
+# ::lemmas ["people", ",", "outside", ",", "throw", "stuff", "over", "the", "top", "of", "they", "."]
+(t0 / throw-01
+      :path (o0 / over
+            :op1 t1)
+      :ARG0 (p0 / person
+            :op1-of (t1 / top)
+            :op1-of (o1 / outside))
+      :ARG1 (s0 / stuff))

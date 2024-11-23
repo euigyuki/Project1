@@ -1,0 +1,4 @@
+(s0 / sit-01
+    :ARG1 (w0 / woman
+              :quant (t1 / talk-01)
+              :quant 2))

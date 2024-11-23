@@ -1,0 +1,4 @@
+(s0 / shoot-01
+    :ARG2 (c0 / crowd)
+    :ARG1 (p0 / person
+              :ARG1-of (l0 / line-up-02)))

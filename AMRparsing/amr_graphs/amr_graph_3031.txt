@@ -1,0 +1,8 @@
+(w0 / walk-01
+    :ARG0 (d0 / dog
+              :part (r0 / rugged)
+              :quant (h0 / have-03
+                         :ARG1 (r1 / rope
+                                   :ARG1-of (t0 / tie-01)
+                                   :mod (b0 / blue)))
+              :quant 2))

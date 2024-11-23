@@ -1,0 +1,15 @@
+# ::snt two asian men are riding on a motorcycle in the midst of a crowd full of other motorcycle riders .
+(z1 / ride-01
+      :ARG0 (z2 / man
+            :quant 2
+            :mod (z3 / continent
+                  :name (z4 / name
+                        :op1 "Asia")))
+      :ARG1 (z5 / motorcycle)
+      :time (z6 / midst
+            :op1 (z7 / crowd
+                  :ARG1-of (z8 / full-09
+                        :ARG2 (z9 / person
+                              :ARG0-of (z10 / ride-01
+                                    :ARG1 z5)
+                              :mod (z11 / other))))))

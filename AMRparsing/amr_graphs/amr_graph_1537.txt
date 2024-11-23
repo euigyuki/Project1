@@ -1,0 +1,16 @@
+(w0 / watch-01
+    :time (a0 / and
+              :op2 (w1 / walk-01
+                       :ARG0 (o0 / other)))
+    :ARG0 (m0 / man
+              :part (h0 / have-03
+                        :ARG1 (a2 / arm
+                                  :ARG1-of (i0 / injure-01))))
+    :ARG1 (p0 / policeman
+              :quant (a1 / address-01
+                         :ARG0 (p2 / person
+                                   :quant 2)
+                         :ARG1 (p1 / person
+                                   :ARG0-of (d0 / drive-01
+                                                :ARG1 (v0 / van))))
+              :quant 3))

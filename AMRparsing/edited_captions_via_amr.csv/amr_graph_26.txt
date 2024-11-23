@@ -1,0 +1,14 @@
+# ::snt Two people hugging with cow in background at farm .
+# ::tokens ["Two", "people", "hugging", "with", "cow", "in", "background", "at", "farm", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "VBG", "IN", "NN", "IN", "NN", "IN", "NN", "."]
+# ::lemmas ["Two", "people", "hug", "with", "cow", "in", "background", "at", "farm", "."]
+(a0 / and
+      :op2 (h1 / hug-01
+            :accompanier (c0 / cow))
+      :op1 (h0 / hug-01
+            :ARG1 (f0 / farm
+                  :location (b0 / background))
+            :ARG0 (p0 / person
+                  :quant 2 )))

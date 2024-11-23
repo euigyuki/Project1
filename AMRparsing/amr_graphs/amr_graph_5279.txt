@@ -1,0 +1,12 @@
+# ::snt a man is mowing the lawn with a red lawn mower .
+# ::tokens ["a", "man", "is", "mowing", "the", "lawn", "with", "a", "red", "lawn", "mower", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "VBG", "DT", "NN", "IN", "DT", "JJ", "NN", "NN", "."]
+# ::lemmas ["a", "man", "be", "mow", "the", "lawn", "with", "a", "red", "lawn", "mower", "."]
+(c0 / chew-01
+      :instrument (m1 / mower
+            :ARG1-of (r0 / red-02)
+            :mod (l1 / lawn))
+      :ARG0 (m0 / man)
+      :ARG1 (l0 / lawn))

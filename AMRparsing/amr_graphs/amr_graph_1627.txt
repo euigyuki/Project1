@@ -1,0 +1,16 @@
+# ::snt three people on a train holding playing cards , smiling .
+# ::tokens ["three", "people", "on", "a", "train", "holding", "playing", "cards", ",", "smiling", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "IN", "DT", "NN", "VBG", "NN", "NNS", ",", "VBG", "."]
+# ::lemmas ["three", "people", "on", "a", "train", "hold", "playing", "card", ",", "smile", "."]
+(a0 / and
+      :op2 (s0 / smile-01
+            :ARG0 p0
+            :ARG1 t0)
+      :op1 (h0 / hold-01
+            :ARG1 (c0 / card
+                  :ARG1-of (p1 / play-01))
+            :ARG0 (p0 / person
+                  :quant 3 )
+            :ARG2 (t0 / train)))

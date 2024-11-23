@@ -1,0 +1,13 @@
+# ::snt two young boys throwing rocks near water .
+# ::tokens ["two", "young", "boys", "throwing", "rocks", "near", "water", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "JJ", "NNS", "VBG", "NNS", "IN", "NN", "."]
+# ::lemmas ["two", "young", "boy", "throw", "rock", "near", "water", "."]
+(t0 / throw-01
+      :ARG1-of (n0 / near-02
+            :ARG2 (w0 / water))
+      :ARG0 (b0 / boy
+            :quant 2 
+            :mod (y0 / young))
+      :ARG1 (r0 / rock))

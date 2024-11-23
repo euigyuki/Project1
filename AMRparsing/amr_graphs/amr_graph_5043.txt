@@ -1,0 +1,4 @@
+(r0 / run-02
+    :ARG0 (d0 / dog
+              :ARG1-of (t0 / tan)
+              :mod (l0 / large)))

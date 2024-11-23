@@ -1,0 +1,4 @@
+(f0 / fight-01
+    :ARG2 (c0 / chair
+              :mod (l0 / lawn))
+    :ARG0 (t0 / teenager))

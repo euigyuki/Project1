@@ -1,0 +1,12 @@
+# ::snt a young woman is silhouetted against other pedestrians .
+# ::tokens ["a", "young", "woman", "is", "silhouetted", "against", "other", "pedestrians", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "VBZ", "VBN", "IN", "JJ", "NNS", "."]
+# ::lemmas ["a", "young", "woman", "be", "silhouette", "against", "other", "pedestrian", "."]
+(s0 / silhouette
+      :prep-against (a0 / against
+            :op1 (p0 / pedestrian
+                  :mod (o0 / other)))
+      :domain (w0 / woman
+            :mod (y0 / young)))

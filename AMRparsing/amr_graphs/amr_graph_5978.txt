@@ -1,0 +1,11 @@
+# ::snt the brown and white dog is chasing the ball .
+# ::tokens ["the", "brown", "and", "white", "dog", "is", "chasing", "the", "ball", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "CC", "JJ", "NN", "VBZ", "VBG", "DT", "NN", "."]
+# ::lemmas ["the", "brown", "and", "white", "dog", "be", "chase", "the", "ball", "."]
+(c0 / chase-01
+      :ARG0 (d0 / dog
+            :ARG1-of (w0 / white-02)
+            :mod (b1 / brown))
+      :ARG1 (b0 / ball))

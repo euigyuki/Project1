@@ -1,0 +1,11 @@
+# ::snt an old woman with a white dog
+# ::tokens ["an", "old", "woman", "with", "a", "white", "dog"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "IN", "DT", "JJ", "NN"]
+# ::lemmas ["an", "old", "woman", "with", "a", "white", "dog"]
+(w0 / woman
+      :ARG0-of (h0 / have-03
+            :ARG1 (d0 / dog
+                  :ARG1-of (w1 / white-02)))
+      :mod (o0 / old))

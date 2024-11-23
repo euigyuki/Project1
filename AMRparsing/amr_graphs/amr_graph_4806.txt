@@ -1,0 +1,12 @@
+(a0 / and
+    :op2 (b1 / be-located-at-91
+             :ARG1 (w0 / woman
+                       :ARG0-of (l0 / look-01
+                                    :ARG1 (r0 / rest
+                                              :part-of (a2 / amusement-park
+                                                           :mod (a3 / amuse-01))))
+                       :ARG1-of (h0 / have-03
+                                    :ARG1 (t0 / t-shirt
+                                              :ARG1-of (w1 / white-03)))))
+    :op1 (b0 / be-located-at-91
+             :ARG1 w0))

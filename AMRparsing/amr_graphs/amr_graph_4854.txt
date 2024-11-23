@@ -1,0 +1,16 @@
+# ::snt man helps another person reach the top of a rock they are climbing .
+# ::tokens ["man", "helps", "another", "person", "reach", "the", "top", "of", "a", "rock", "they", "are", "climbing", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["NN", "VBZ", "DT", "NN", "VB", "DT", "NN", "IN", "DT", "NN", "PRP", "VBP", "VBG", "."]
+# ::lemmas ["man", "help", "another", "person", "reach", "the", "top", "of", "a", "rock", "they", "be", "climb", "."]
+(h0 / help-01
+      :ARG2 (p0 / person
+            :ARG0-of (r0 / reach-01
+                  :ARG1 (t0 / top
+                        :part-of (r1 / rock
+                              :ARG1-of (c0 / climb-01
+                                    :ARG0 (t1 / they)))))
+            :mod (a0 / another))
+      :ARG0 (m0 / man)
+      :ARG1 r0)

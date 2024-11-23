@@ -1,0 +1,13 @@
+# ::snt protesters gather together in france .
+# ::tokens ["protesters", "gather", "together", "in", "france", "."]
+# ::ner_tags ["O", "O", "O", "O", "GPE", "O"]
+# ::ner_iob ["O", "O", "O", "O", "B", "O"]
+# ::pos_tags ["NNS", "VBP", "RB", "IN", "NNP", "."]
+# ::lemmas ["protester", "gather", "together", "in", "france", "."]
+(g0 / gather-03
+      :location (c0 / country
+            :name (n0 / name
+                  :op1 "France" ))
+      :ARG0 (t0 / together)
+      :ARG1 (p0 / person
+            :ARG0-of (p1 / protest-01)))

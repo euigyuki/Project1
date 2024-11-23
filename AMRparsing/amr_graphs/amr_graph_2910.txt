@@ -1,0 +1,12 @@
+# ::snt two girls and a boy jumping into a pool .
+# ::tokens ["two", "girls", "and", "a", "boy", "jumping", "into", "a", "pool", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "CC", "DT", "NN", "VBG", "IN", "DT", "NN", "."]
+# ::lemmas ["two", "girl", "and", "a", "boy", "jump", "into", "a", "pool", "."]
+(j0 / jump-03
+      :destination (p0 / pool)
+      :ARG0 (a0 / and
+            :op2 (b0 / boy)
+            :op1 (g0 / girl
+                  :quant 2 )))

@@ -1,0 +1,11 @@
+# ::snt a man with tattoo 's is reflecting light to a stage .
+# ::tokens ["a", "man", "with", "tattoo", "'s", "is", "reflecting", "light", "to", "a", "stage", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "RB", "VBZ", "VBZ", "VBG", "NN", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "man", "with", "tattoo", "be", "be", "reflect", "light", "to", "a", "stage", "."]
+(r0 / reflect-01
+      :ARG2 (s0 / stage)
+      :ARG1 (m0 / man
+            :ARG0-of (t0 / tattoo-01))
+      :destination (l0 / light))

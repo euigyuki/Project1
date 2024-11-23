@@ -1,0 +1,7 @@
+(r0 / review-01
+    :time (s0 / sit-01
+              :ARG1 (p1 / person
+                        :ARG0-of (p0 / photograph-01)
+                        :mod (y0 / young)
+                        :ARG0-of r0))
+    :ARG1 p0)

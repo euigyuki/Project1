@@ -1,0 +1,20 @@
+# ::snt a man in black approaches a strange silver object containing a person , while many onlookers observe from behind a roped off barrier .
+# ::tokens ["a", "man", "in", "black", "approaches", "a", "strange", "silver", "object", "containing", "a", "person", ",", "while", "many", "onlookers", "observe", "from", "behind", "a", "roped", "off", "barrier", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "JJ", "NNS", "DT", "JJ", "JJ", "NN", "VBG", "DT", "NN", ",", "IN", "JJ", "NNS", "VBP", "IN", "IN", "DT", "VBN", "RP", "NN", "."]
+# ::lemmas ["a", "man", "in", "black", "approach", "a", "strange", "silver", "object", "contain", "a", "person", ",", "while", "many", "onlooker", "observe", "from", "behind", "a", "rope", "off", "barrier", "."]
+(c0 / contrast-01
+      :ARG2 (o0 / observe-01
+            :ARG0 (p0 / person
+                  :quant (m1 / many)
+                  :quant (l0 / look-into-11))
+            :location (b0 / behind
+                  :op1 (b2 / barrier)))
+      :ARG1 (a0 / approach-01
+            :ARG2 (o1 / object
+                  :consist-of (s1 / silver)
+                  :ARG0-of (c1 / contain-01)
+                  :mod (s0 / strange))
+            :ARG1 (m0 / man
+                  :ARG1-of (b1 / black-04))))

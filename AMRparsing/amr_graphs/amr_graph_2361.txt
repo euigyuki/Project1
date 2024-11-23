@@ -1,0 +1,26 @@
+# ::snt i am sure his eyeglasses helped him make sure his grilled pieces of meat were cooked thoroughly while he enjoyed being surrounded by the wilderness .
+# ::tokens ["i", "am", "sure", "his", "eyeglasses", "helped", "him", "make", "sure", "his", "grilled", "pieces", "of", "meat", "were", "cooked", "thoroughly", "while", "he", "enjoyed", "being", "surrounded", "by", "the", "wilderness", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["PRP", "VBP", "JJ", "PRP$", "NNS", "VBD", "PRP", "VB", "JJ", "PRP$", "VBN", "NNS", "IN", "NN", "VBD", "VBN", "RB", "IN", "PRP", "VBD", "VBG", "VBN", "IN", "DT", "NN", "."]
+# ::lemmas ["i", "be", "sure", "his", "eyeglass", "help", "he", "make", "sure", "his", "grill", "piece", "of", "meat", "be", "cook", "thoroughly", "while", "he", "enjoyed", "be", "surround", "by", "the", "wilderness", "."]
+(s0 / sure-02
+      :ARG0 (i0 / i)
+      :ARG1 (h0 / help-01
+            :ARG2 (h1 / he
+                  :ARG0-of (e0 / ensure-01
+                        :ARG2 e1
+                        :ARG1-of h0
+                        :ARG1 c0)
+                  :ARG0-of (e2 / enjoy-01
+                        :time-of (c0 / cook-01
+                              :time p0
+                              :ARG3 h1
+                              :manner (t0 / thorough))
+                        :ARG1 (s1 / surround-01
+                              :ARG1 h1
+                              :ARG2 (w0 / wilderness)))
+                  :poss-of (p0 / piece
+                        :mod (m0 / meat))
+                  :ARG2-of (f0 / fill-01))
+            :ARG0 (e1 / eyeglass)))

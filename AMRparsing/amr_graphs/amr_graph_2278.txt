@@ -1,0 +1,7 @@
+(s0 / sit-01
+    :ARG1 (f0 / family
+              :ARG0-of (p0 / play-01
+                           :ARG1 (g0 / game
+                                     :mod (b0 / board)))
+              :age (t0 / temporal-quantity
+                       :mod (a0 / all))))

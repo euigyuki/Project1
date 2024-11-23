@@ -1,0 +1,7 @@
+(h0 / hold-01
+    :time (d0 / drive-01
+              :ARG1 (t0 / truck
+                        :ARG1 m0))
+    :time (l0 / lap
+              :part-of (m0 / man))
+    :ARG1 (c0 / child))

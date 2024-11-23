@@ -1,0 +1,5 @@
+(m0 / mountain
+    :accompanier (m1 / man
+                     :ARG0-of (w0 / wear-01
+                                  :ARG1 (h1 / hat)))
+    :mod (d0 / dessert))

@@ -1,0 +1,11 @@
+# ::snt riding a red motorcycle , with appropriate equipment .
+# ::tokens ["riding", "a", "red", "motorcycle", ",", "with", "appropriate", "equipment", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["VBG", "DT", "JJ", "NN", ",", "IN", "JJ", "NN", "."]
+# ::lemmas ["ride", "a", "red", "motorcycle", ",", "with", "appropriate", "equipment", "."]
+(r0 / ride-01
+      :ARG1 (m0 / motorcycle
+            :ARG1-of (r1 / red-02))
+      :ARG0 (e0 / equipment
+            :ARG1-of (a0 / appropriate-02)))

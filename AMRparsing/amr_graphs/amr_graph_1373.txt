@@ -1,0 +1,2 @@
+(p0 / paddle-01
+    :ARG0 (m0 / man))

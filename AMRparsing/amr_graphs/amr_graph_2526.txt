@@ -1,0 +1,10 @@
+(j0 / jump-03
+    :purpose (c0 / catch-01
+                 :ARG0 (d0 / dog
+                           :part (m0 / mouth)
+                           :ARG1-of (b0 / black-04))
+                 :ARG1 (c1 / chicken
+                           :consist-of (r0 / rubber)))
+    :purpose (p0 / pool
+                 :poss d0)
+    :ARG0 d0)

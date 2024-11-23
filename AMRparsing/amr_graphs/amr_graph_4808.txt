@@ -1,0 +1,13 @@
+# ::snt a young woman rides by herself on a swinging carnival ride .
+# ::tokens ["a", "young", "woman", "rides", "by", "herself", "on", "a", "swinging", "carnival", "ride", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "VBZ", "IN", "PRP", "IN", "DT", "VBG", "NN", "NN", "."]
+# ::lemmas ["a", "young", "woman", "ride", "by", "herself", "on", "a", "swinge", "carnival", "ride", "."]
+(r0 / ride-01
+      :mod (b0 / by-oneself)
+      :ARG0 (w0 / woman
+            :mod (y0 / young))
+      :ARG1 (r1 / ride-01
+            :ARG1 (c0 / carnival
+                  :ARG1-of (s0 / swim-01))))

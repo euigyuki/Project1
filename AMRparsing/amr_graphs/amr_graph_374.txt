@@ -1,0 +1,13 @@
+(a0 / and
+    :op2 (o0 / or
+             :op2 (i0 / install-01
+                      :ARG0 (d0 / dock
+                                :ARG1-of (c0 / crowd-01))
+                      :ARG0 (p0 / person))
+             :op1 (l0 / load-01
+                      :ARG0 p0
+                      :ARG1 (c1 / car
+                                :op1-of (n0 / next-to)
+                                :mod (f0 / freight))))
+    :op1 (s0 / stand-01
+             :ARG1 d0))

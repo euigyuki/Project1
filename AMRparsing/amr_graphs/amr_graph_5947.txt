@@ -1,0 +1,5 @@
+(w0 / walk-01
+    :instrument (t0 / turkey
+                    :quant 4)
+    :ARG0 (b0 / boy
+              :mod (y0 / young)))

@@ -1,0 +1,16 @@
+# ::snt an american footballer is wearing a red and white strip .
+# ::tokens ["an", "american", "footballer", "is", "wearing", "a", "red", "and", "white", "strip", "."]
+# ::ner_tags ["O", "NORP", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "B", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "VBZ", "VBG", "DT", "JJ", "CC", "JJ", "NN", "."]
+# ::lemmas ["an", "american", "footballer", "be", "wear", "a", "red", "and", "white", "strip", "."]
+(w0 / wear-01
+      :ARG0 (p0 / person
+            :mod (h0 / have-org-role-91
+                  :ARG2 (f0 / footballer)
+                  :ARG1 (c0 / country
+                        :name (n0 / name
+                              :op1 "America" ))))
+      :ARG1 (s0 / strip
+            :ARG1-of (w1 / white-03)
+            :mod (r0 / red-02)))

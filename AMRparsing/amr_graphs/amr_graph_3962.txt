@@ -1,0 +1,8 @@
+(p0 / play-01
+    :ARG0 (c0 / child
+              :ARG1-of (w0 / wear-01
+                           :ARG1 (s0 / suit
+                                     :mod (s1 / sleep-01)
+                                     :mod (b1 / blue))))
+    :ARG1 (m0 / mop
+              :ARG1-of (r0 / red-02)))

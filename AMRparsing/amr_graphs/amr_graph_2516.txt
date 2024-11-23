@@ -1,0 +1,48 @@
+# ::snt a man wearing a helmet , red pants with white stripes going down the sides and a white and red shirt is on a small bicycle using only his hands while his legs are up in the air , while another man wearing a light blue shirt with dark blue trim and black pants with red stripes going up the sides is standing nearby , gesturing toward the first man and holding a small figurine of one of the seven dwarves .
+# ::tokens ["a", "man", "wearing", "a", "helmet", ",", "red", "pants", "with", "white", "stripes", "going", "down", "the", "sides", "and", "a", "white", "and", "red", "shirt", "is", "on", "a", "small", "bicycle", "using", "only", "his", "hands", "while", "his", "legs", "are", "up", "in", "the", "air", ",", "while", "another", "man", "wearing", "a", "light", "blue", "shirt", "with", "dark", "blue", "trim", "and", "black", "pants", "with", "red", "stripes", "going", "up", "the", "sides", "is", "standing", "nearby", ",", "gesturing", "toward", "the", "first", "man", "and", "holding", "a", "small", "figurine", "of", "one", "of", "the", "seven", "dwarves", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "ORDINAL", "O", "O", "O", "O", "O", "O", "O", "CARDINAL", "O", "O", "CARDINAL", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B", "O", "O", "O", "O", "O", "O", "O", "B", "O", "O", "B", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBG", "DT", "NN", ",", "JJ", "NNS", "IN", "JJ", "NNS", "VBG", "IN", "DT", "NNS", "CC", "DT", "JJ", "CC", "JJ", "NN", "VBZ", "IN", "DT", "JJ", "NN", "VBG", "RB", "PRP$", "NNS", "IN", "PRP$", "NNS", "VBP", "RB", "IN", "DT", "NN", ",", "IN", "DT", "NN", "VBG", "DT", "JJ", "JJ", "NN", "IN", "JJ", "JJ", "NN", "CC", "JJ", "NNS", "IN", "JJ", "NNS", "VBG", "RP", "DT", "NNS", "VBZ", "VBG", "RB", ",", "VBG", "IN", "DT", "JJ", "NN", "CC", "VBG", "DT", "JJ", "NN", "IN", "CD", "IN", "DT", "CD", "NNS", "."]
+# ::lemmas ["a", "man", "wear", "a", "helmet", ",", "red", "pant", "with", "white", "stripe", "go", "down", "the", "side", "and", "a", "white", "and", "red", "shirt", "be", "on", "a", "small", "bicycle", "use", "only", "his", "hand", "while", "his", "leg", "be", "up", "in", "the", "air", ",", "while", "another", "man", "wear", "a", "light", "blue", "shirt", "with", "dark", "blue", "trim", "and", "black", "pant", "with", "red", "stripe", "go", "up", "the", "side", "be", "stand", "nearby", ",", "gesture", "toward", "the", "first", "man", "and", "hold", "a", "small", "figurine", "of", "one", "of", "the", "seven", "dwarf", "."]
+(c0 / contrast-01
+      :ARG1 (a1 / and
+            :op1 (m0 / man
+                  :mod (s2 / small)
+                  :mod (w1 / wear-01)
+                  :part (l0 / leg)
+                  :part (w0 / wear-01
+                        :ARG1 (a5 / and
+                              :op2 (p0 / pant
+                                    :ARG1-of (d2 / dark-02))
+                              :op1 (t0 / trim
+                                    :mod (b0 / blue)))
+                        :mod (o1 / only)))
+            :op1 (u0 / use-01
+                  :ARG1 (a2 / and
+                        :op3 (s5 / shirt
+                              :ARG0-of (r1 / red-02)
+                              :mod (g0 / go-01
+                                    :direction (d1 / down)
+                                    :direction (s6 / side))
+                              :ARG1-of (r0 / red-02))
+                        :op2 (s4 / stripe)
+                        :op1 (s3 / shirt
+                              :ARG1-of (w2 / white-03)))
+                  :ARG2 (u1 / up-03
+                        :ARG2 (a4 / air))
+                  :time (h1 / hand))
+            :op1 (s1 / stand-01
+                  :ARG2 (n1 / nearby)
+                  :ARG1 (m2 / man
+                        :mod (a3 / another))
+                  :ARG0 (m1 / man
+                        :ord (o0 / ordinal-entity
+                              :value 1 ))))
+      :ARG2 (a0 / and
+            :op2 (h0 / hold-01
+                  :ARG1 (f0 / figurine
+                        :mod (i0 / include-91
+                              :ARG2 (d0 / dwarf
+                                    :quant 2 ))))
+            :op1 (s0 / stand-01
+                  :ARG2 (n0 / nearby))))

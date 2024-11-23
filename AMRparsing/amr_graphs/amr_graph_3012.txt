@@ -1,0 +1,3 @@
+(g0 / gather-03
+    :ARG1 (p0 / person
+              :quant (l0 / lot)))

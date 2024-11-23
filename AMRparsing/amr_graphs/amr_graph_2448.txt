@@ -1,0 +1,12 @@
+# ::snt a baby is in the suitcase instead of the green shirt .
+# ::tokens ["a", "baby", "is", "in", "the", "suitcase", "instead", "of", "the", "green", "shirt", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "IN", "DT", "NN", "RB", "IN", "DT", "JJ", "NN", "."]
+# ::lemmas ["a", "baby", "be", "in", "the", "suitcase", "instead", "of", "the", "green", "shirt", "."]
+(b0 / be-located-at-91
+      :ARG2 (s0 / suitcase)
+      :ARG1-of (i0 / instead-of-91
+            :ARG2 (s1 / shirt
+                  :ARG1-of (g0 / green-02)))
+      :ARG1 (b1 / baby))

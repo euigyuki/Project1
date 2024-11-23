@@ -1,0 +1,7 @@
+(h0 / hit-01
+    :ARG0 (p0 / person
+              :ARG0-of (p1 / play-01
+                           :ARG1 (t1 / tennis))
+              :ARG1-of (d0 / dress-01))
+    :ARG1 (b0 / ball
+              :mod (t0 / tennis)))

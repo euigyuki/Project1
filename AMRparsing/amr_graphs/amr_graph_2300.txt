@@ -1,0 +1,4 @@
+(r0 / ride-01
+    :ARG0 (b0 / boy
+              :quant 2)
+    :ARG1 (z0 / zipline))

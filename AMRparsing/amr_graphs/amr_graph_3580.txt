@@ -1,0 +1,4 @@
+(j0 / jog
+    :domain (w0 / woman
+                :mod (y0 / young)
+                :quant 2))

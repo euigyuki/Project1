@@ -1,0 +1,5 @@
+(p0 / paddle-01
+    :ARG0 (m0 / man
+              :prep-in (c0 / cap
+                           :mod (b1 / brown)))
+    :ARG1 (b0 / boat))

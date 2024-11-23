@@ -1,0 +1,5 @@
+(w0 / wear-01
+    :ARG0 (w1 / woman
+              :mod (y0 / young))
+    :ARG1 (v0 / veil
+              :mod (b0 / bridal)))

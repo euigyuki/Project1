@@ -1,0 +1,6 @@
+(s0 / sit-01
+    :ARG1 (s1 / section
+              :age (a0 / age-01)
+              :part-of (b0 / band
+                           :mod (c1 / concert))
+              :mod (c0 / clarinet)))
