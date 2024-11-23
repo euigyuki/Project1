@@ -3,48 +3,9 @@ import pandas as pd
 import ast
 
 
-all_combinations = [
-    ("indoors", "man-made", "work_education"),
-    ("indoors", "man-made", "domestic"),
-    ("indoors", "man-made", "recreation"),
-    ("indoors", "man-made", "restaurant"),
-    ("indoors", "man-made", "transportation_urban"),
-    ("indoors", "man-made", "other_unclear"),
-    ("outdoors", "man-made", "work_education"),
-    ("outdoors", "man-made", "domestic"),
-    ("outdoors", "man-made", "recreation"),
-    ("outdoors", "man-made", "restaurant"),
-    ("outdoors", "man-made", "transportation_urban"),
-    ("outdoors", "man-made", "other_unclear"),
-    ("outdoors", "natural", "field_forest"),
-    ("outdoors", "natural", "body_of_water"),
-    ("outdoors", "natural", "mountain"),
-    ("outdoors", "natural", "other_unclear"),
-]
-
-
-counts_for_all_combinations = [
-    1350,
-    1615,
-    2030,
-    575,
-    405,
-    610,
-    695,
-    910,
-    4225,
-    200,
-    6545,
-    1185,
-    1965,
-    2010,
-    760,
-    260,
-]
-
 
 def kl_divergence(p, q):
-    """Calculate the Kullback-Leibler (KL) divergence between two distributions.
+    """Calculate the Kullback-Leibler (KL) divergence between 2 distributions.
 
     Args:
         p (np.array): True distribution (must sum to 1)
@@ -56,7 +17,8 @@ def kl_divergence(p, q):
     p = np.asarray(p, dtype=np.float32)
     q = np.asarray(q, dtype=np.float32)
 
-    # To avoid division by zero or log of zero, replace zeros with small epsilon
+    # To avoid division by zero or log of zero, 
+    # replace zeros with small epsilon
     epsilon = 1e-10
     p = np.clip(p, epsilon, 1)
     q = np.clip(q, epsilon, 1)
@@ -84,12 +46,10 @@ def generate_p(df):
     """Generate p distribution as a normalized list from the DataFrame."""
     df["Total_Count"] = df.iloc[:, 1:].sum(axis=1)
     for index, row in df.iterrows():
-        for col in df.columns[1:-1]:  # Skip 'Word', 'Total_Count', and 'Probability'
+        # Skip 'Word', 'Total_Count', and 'Probability'
+        for col in df.columns[1:-1]:  
             if row["Total_Count"] > 0:  # Avoid division by zero
                 df.at[index, col] = row[col] / row["Total_Count"]
-    # df['Probability'] = df['Total_Count'] / df['Total_Count'].sum()
-    # for index, row in df.iterrows():
-    #    print(f"Word: {row['Word']}, Total Count: {row['Total_Count']}, Probability: {row['Probability']}")
     return df
 
 

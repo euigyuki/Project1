@@ -1,43 +1,26 @@
 import pandas as pd
 import ast
-
-all_combinations = [
-    ("indoors", "man-made", "work_education"),
-    ("indoors", "man-made", "domestic"),
-    ("indoors", "man-made", "recreation"),
-    ("indoors", "man-made", "restaurant"),
-    ("indoors", "man-made", "transportation_urban"),
-    ("indoors", "man-made", "other_unclear"),
-    ("outdoors", "man-made", "work_education"),
-    ("outdoors", "man-made", "domestic"),
-    ("outdoors", "man-made", "recreation"),
-    ("outdoors", "man-made", "restaurant"),
-    ("outdoors", "man-made", "transportation_urban"),
-    ("outdoors", "man-made", "other_unclear"),
-    ("outdoors", "natural", "field_forest"),
-    ("outdoors", "natural", "body_of_water"),
-    ("outdoors", "natural", "mountain"),
-    ("outdoors", "natural", "other_unclear"),
-]
+import yaml
 
 
 def populate_hierarchy(file_path, pick):
     df = pd.read_csv(file_path)
     print("length of df", len(df))
-
+    with open("data/helper/combinations.yaml", "r") as file:
+        all_combinations = yaml.safe_load(file)
     output_rows = []
     unmatched_combinations = []
     for i in all_combinations:
         best_match = None
-        max_elementwise_kl_divergence = -float("inf")
+        max_elementwise_KLD = -float("inf")
         for index, row in df.iterrows():
             max_index_tuple = ast.literal_eval(row["Max_Index"])
             if max_index_tuple == i:
                 word = row["Word"]
                 print("word", word)
                 if word not in i:
-                    if row["Max_elementwise_KL"] > max_elementwise_kl_divergence:
-                        max_elementwise_kl_divergence = row["Max_elementwise_KL"]
+                    if row["Max_elementwise_KL"] > max_elementwise_KLD:
+                        max_elementwise_KLD = row["Max_elementwise_KL"]
                         best_match = [
                             i,
                             row["Word"],
@@ -55,7 +38,7 @@ def populate_hierarchy(file_path, pick):
 
     # Output debug information for any unmatched combinations
     if unmatched_combinations:
-        print(f"No matching rows for these combinations: {unmatched_combinations}")
+        print(f"No matching rows for these combos: {unmatched_combinations}")
 
     # Create a new DataFrame with the output rows
     output_df = pd.DataFrame(
@@ -69,9 +52,13 @@ def populate_hierarchy(file_path, pick):
 
 
 def main():
+    """input and output file paths"""
+    KLD = "../data/kl_divergence"
+    """input and output file paths"""
+
     iterables = ["top_third", "second_third", "third_third"]
     for pick in iterables:
-        populate_hierarchy(f"kl_divergence_sorted_{pick}.csv", pick)
+        populate_hierarchy(f"{KLD}kl_divergence_sorted_{pick}.csv", pick)
 
 
 if __name__ == "__main__":

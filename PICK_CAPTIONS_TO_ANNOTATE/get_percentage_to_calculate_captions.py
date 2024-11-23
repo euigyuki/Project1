@@ -101,7 +101,6 @@ def calculate_percentages(captions, categories):
     total_captions = len(captions)
     results = defaultdict(lambda: defaultdict(int))
     caption_counted = [False] * total_captions
-
     for idx, caption in enumerate(captions):
         words = set(caption.split())
         for category, category_words in categories.items():
@@ -112,7 +111,6 @@ def calculate_percentages(captions, categories):
                     break  # Count each caption only once per category
             if caption_counted[idx]:
                 break  # Move to next caption if this one has been counted
-
     percentages = {}
     total_percentage = 0
     for category, word_counts in results.items():
@@ -126,7 +124,6 @@ def calculate_percentages(captions, categories):
                 for word, count in word_counts.items()
             },
         }
-
     uncategorized_count = caption_counted.count(False)
     uncategorized_percentage = uncategorized_count / total_captions * 100
     total_percentage += uncategorized_percentage
@@ -154,8 +151,17 @@ def print_results(percentages):
                 print(f"  {word}: {percentage:.2f}%")
 
 
-# Main execution
-file_path = "results.csv"
-captions = read_captions(file_path)
-percentages = calculate_percentages(captions, categories)
-print_results(percentages)
+def main():
+    """input and output file paths"""
+    file_path = "results.csv"
+    """input and output file paths"""
+
+    captions = read_captions(file_path)
+    percentages = calculate_percentages(captions, categories)
+    print_results(percentages)
+
+
+if __name__ == "__main__":
+    main()
+
+
