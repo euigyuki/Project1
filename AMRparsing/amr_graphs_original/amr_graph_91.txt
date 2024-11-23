@@ -1,0 +1,15 @@
+# ::snt a man in a black shirt and jeans walks beside a woman in black pants and a flowery shirt in front of a refreshment stand with others walking nearby .
+(z1 / walk-01
+      :ARG0 (z2 / man
+            :ARG0-of (z3 / wear-01
+                  :ARG1 (z4 / and
+                        :op1 (z5 / shirt
+                              :ARG1-of (z6 / black-04))
+                        :op2 (z7 / jeans))))
+      :accompanier (z8 / woman
+            :ARG0-of (z9 / wear-01
+                  :ARG1 (z10 / and
+                        :op1 (z11 / pant
+                              :ARG1-of z6)
+                        :op2 (z12 / shirt
+                              :mod (z13 / flower))))))

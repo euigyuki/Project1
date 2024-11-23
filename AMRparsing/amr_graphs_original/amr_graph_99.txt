@@ -1,0 +1,14 @@
+# ::snt a lady wearing a green shirt stands on the window seal of a brick building as a young boy watches on .
+(z1 / stand-01
+      :ARG1 (z2 / lady
+            :ARG0-of (z3 / wear-01
+                  :ARG1 (z4 / shirt
+                        :ARG1-of (z5 / green-02))))
+      :ARG2 (z6 / seal
+            :mod (z7 / window)
+            :part-of (z8 / building
+                  :consist-of (z9 / brick)))
+      :time (z10 / watch-01
+            :ARG0 (z11 / boy
+                  :mod (z12 / young))
+            :ARG1 z1))

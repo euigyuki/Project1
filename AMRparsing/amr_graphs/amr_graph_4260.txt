@@ -1,0 +1,10 @@
+# ::snt toddler boy smiling while in a swing
+# ::tokens ["toddler", "boy", "smiling", "while", "in", "a", "swing"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["NN", "NN", "VBG", "IN", "IN", "DT", "NN"]
+# ::lemmas ["toddler", "boy", "smile", "while", "in", "a", "swing"]
+(s0 / smile-01
+      :ARG0 (b0 / boy
+            :mod (t0 / toddler))
+      :time (s1 / swing))

@@ -1,0 +1,11 @@
+# ::snt a crowd enjoys a show by some musicians .
+# ::tokens ["a", "crowd", "enjoys", "a", "show", "by", "some", "musicians", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "DT", "NN", "IN", "DT", "NNS", "."]
+# ::lemmas ["a", "crowd", "enjoy", "a", "show", "by", "some", "musician", "."]
+(e0 / enjoy-01
+      :ARG0 (c0 / crowd)
+      :ARG1 (s0 / show-04
+            :ARG0 (m0 / musician
+                  :mod (s1 / some))))

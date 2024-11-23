@@ -1,0 +1,10 @@
+(a0 / and
+    :op3 (l0 / look-01
+             :ARG0 (b0 / boy
+                       :poss-of (c0 / cellphone))
+             :ARG1 c0)
+    :op2 (g1 / girl
+             :mod (a1 / another))
+    :op1 (g0 / girl
+             :ARG0-of (u0 / use-01
+                          :ARG1 (l1 / laptop))))

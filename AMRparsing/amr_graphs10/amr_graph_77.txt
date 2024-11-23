@@ -1,0 +1,15 @@
+# ::snt a barefoot young girl in a pink gown is asleep on a hard wood floor cuddling her baby doll .
+(z1 / sleep-01
+      :ARG0 (z2 / girl
+            :mod (z3 / young)
+            :mod (z4 / barefoot)
+            :ARG0-of (z5 / cuddle-01
+                  :ARG1 (z6 / doll
+                        :mod (z7 / baby)
+                        :poss z2))
+            :ARG0-of (z8 / wear-01
+                  :ARG1 (z9 / gown
+                        :ARG1-of (z10 / pink-04))))
+      :location (z11 / floor
+            :consist-of (z12 / wood
+                  :ARG1-of (z13 / hard-04))))

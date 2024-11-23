@@ -1,0 +1,11 @@
+# ::snt landscapers are planting a flower bed .
+# ::tokens ["landscapers", "are", "planting", "a", "flower", "bed", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["NNS", "VBP", "VBG", "DT", "NN", "NN", "."]
+# ::lemmas ["landscaper", "be", "plant", "a", "flower", "bed", "."]
+(p0 / plant-01
+      :ARG0 (p1 / person
+            :ARG0-of (p2 / plan-01))
+      :ARG1 (b0 / bed
+            :mod (f0 / flower)))

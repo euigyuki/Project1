@@ -1,0 +1,5 @@
+(p0 / protest-01
+    :ARG0 (m0 / man
+              :ARG0-of (w0 / walk-01
+                           :instrument (t0 / thong)
+                           :ARG1-of p0)))

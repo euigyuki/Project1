@@ -1,0 +1,15 @@
+# ::snt a night shot of people gathered around a sign that says " we are demanding " .
+# ::tokens ["a", "night", "shot", "of", "people", "gathered", "around", "a", "sign", "that", "says", "\"", "we", "are", "demanding", "\"", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "NN", "IN", "NNS", "VBD", "IN", "DT", "NN", "WDT", "VBZ", "``", "PRP", "VBP", "VBG", "''", "."]
+# ::lemmas ["a", "night", "shot", "of", "people", "gather", "around", "a", "sign", "that", "say", "\"", "we", "be", "demand", "\"", "."]
+(g0 / gather-01
+      :time (d0 / date-entity
+            :dayperiod (n0 / night))
+      :ARG0 (p0 / person)
+      :ARG1 (a0 / around
+            :op1 (s0 / sign
+                  :ARG0-of (s1 / say-01
+                        :ARG1 (d1 / demand-01
+                              :ARG0 (w0 / we))))))

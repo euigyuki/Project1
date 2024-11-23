@@ -1,0 +1,3 @@
+(a0 / anonymous
+    :domain (m0 / man
+                :quant (s0 / several)))

@@ -1,0 +1,14 @@
+# ::snt a young child being hugged by a woman with light brown hair .
+# ::tokens ["a", "young", "child", "being", "hugged", "by", "a", "woman", "with", "light", "brown", "hair", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "VBG", "VBN", "IN", "DT", "NN", "IN", "JJ", "JJ", "NN", "."]
+# ::lemmas ["a", "young", "child", "be", "hug", "by", "a", "woman", "with", "light", "brown", "hair", "."]
+(h0 / hug-01
+      :ARG0 (w0 / woman
+            :ARG0-of (h1 / have-03
+                  :ARG1 (h2 / hair
+                        :ARG1-of (b0 / bottle-01
+                              :ARG1-of (l0 / light-06)))))
+      :ARG1 (c0 / child
+            :mod (y0 / young)))

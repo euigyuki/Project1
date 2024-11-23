@@ -1,0 +1,16 @@
+# ::snt a man is standing in front of prince st cafe and catering .
+# ::tokens ["a", "man", "is", "standing", "in", "front", "of", "prince", "st", "cafe", "and", "catering", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "VBG", "IN", "NN", "IN", "NNP", "NNP", "NNP", "CC", "NN", "."]
+# ::lemmas ["a", "man", "be", "stand", "in", "front", "of", "prince", "st", "cafe", "and", "catering", "."]
+(s0 / stand-01
+      :ARG2 (i0 / in-front-of
+            :op1 (a0 / and
+                  :op2 (c1 / cater-01)
+                  :op1 (c0 / cafe
+                        :poss (c2 / company
+                              :name (n0 / name
+                                    :op2 "Coast" 
+                                    :op1 "prince" )))))
+      :ARG1 (m0 / man))

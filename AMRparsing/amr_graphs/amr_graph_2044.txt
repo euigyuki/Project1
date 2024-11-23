@@ -1,0 +1,10 @@
+# ::snt a boy is getting a dental procedure .
+# ::tokens ["a", "boy", "is", "getting", "a", "dental", "procedure", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "VBG", "DT", "JJ", "NN", "."]
+# ::lemmas ["a", "boy", "be", "get", "a", "dental", "procedure", "."]
+(g0 / get-01
+      :ARG0 (b0 / boy)
+      :ARG1 (p0 / procedure
+            :mod (m0 / mind)))

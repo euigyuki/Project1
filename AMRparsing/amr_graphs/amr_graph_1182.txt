@@ -1,0 +1,10 @@
+(a0 / and
+    :op2 (s1 / surround-01
+             :ARG2 (p0 / patron
+                       :quant (m0 / many))
+             :ARG1 (v0 / vendor
+                       :mod (v1 / various)
+                       :mod (s2 / small)))
+    :op1 (s0 / set-02
+             :ARG1 v0
+             :ARG2 (c0 / city)))

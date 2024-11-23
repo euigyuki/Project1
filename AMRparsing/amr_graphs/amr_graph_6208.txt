@@ -1,0 +1,6 @@
+(d0 / display-01
+    :ARG0 (m0 / market
+              :mod (s0 / seafood
+                       :ARG1-of (f0 / fresh-04)))
+    :ARG1 (c0 / crab
+              :ARG0-of (l0 / live-01)))

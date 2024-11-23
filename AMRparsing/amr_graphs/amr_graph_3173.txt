@@ -1,0 +1,17 @@
+# ::snt a white male in a green shirt playing a guitar and singing a song .
+# ::tokens ["a", "white", "male", "in", "a", "green", "shirt", "playing", "a", "guitar", "and", "singing", "a", "song", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "IN", "DT", "JJ", "NN", "VBG", "DT", "NN", "CC", "VBG", "DT", "NN", "."]
+# ::lemmas ["a", "white", "male", "in", "a", "green", "shirt", "play", "a", "guitar", "and", "singe", "a", "song", "."]
+(a0 / and
+      :op2 (s0 / sing-01
+            :ARG1 (s1 / song)
+            :ARG0 m0)
+      :op1 (p0 / play-11
+            :ARG2 (g0 / guitar)
+            :ARG0 (m0 / male
+                  :part (w1 / wear-01
+                        :ARG1 (s2 / shirt
+                              :ARG1-of (g1 / green-02)))
+                  :ARG1-of (w0 / white-02))))

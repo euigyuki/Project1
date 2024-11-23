@@ -1,0 +1,4 @@
+(p0 / person
+    :ARG1-of (l0 / lay-01
+                 :ARG1 (w0 / wave)
+                 :accompanier (b1 / beach)))

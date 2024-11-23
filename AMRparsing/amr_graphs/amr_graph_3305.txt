@@ -1,0 +1,5 @@
+(t0 / talk-01
+    :ARG0 (w0 / woman
+              :op1-of (a0 / around)
+              :op1-of (s0 / sit-01
+                          :op1 (p0 / person))))

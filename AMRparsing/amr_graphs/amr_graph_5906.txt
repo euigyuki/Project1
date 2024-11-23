@@ -1,0 +1,4 @@
+(h0 / hold-01
+    :ARG1 (p0 / pail
+              :ARG1-of (w0 / white-03)
+              :mod (s0 / small)))

@@ -1,0 +1,10 @@
+(s0 / stand-01
+    :accompanier (c0 / child
+                     :quant 2)
+    :ARG1 (a0 / adult
+              :ARG0-of (w0 / wear-01
+                           :ARG1 (a1 / and
+                                     :op2 (p0 / pant
+                                              :mod (t0 / tan))
+                                     :op1 (s1 / shirt
+                                              :ARG1-of (b0 / black-04))))))

@@ -1,0 +1,24 @@
+# ::snt a blond-haired girl is doing a trick with her dog that is in the air trying to catch a flying frisbee .
+# ::tokens ["a", "blond", "-", "haired", "girl", "is", "doing", "a", "trick", "with", "her", "dog", "that", "is", "in", "the", "air", "trying", "to", "catch", "a", "flying", "frisbee", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "PRODUCT", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B", "O"]
+# ::pos_tags ["DT", "JJ", "HYPH", "JJ", "NN", "VBZ", "VBG", "DT", "NN", "IN", "PRP$", "NN", "WDT", "VBZ", "IN", "DT", "NN", "VBG", "TO", "VB", "DT", "VBG", "NN", "."]
+# ::lemmas ["a", "blond", "-", "haired", "girl", "be", "do", "a", "trick", "with", "her", "dog", "that", "be", "in", "the", "air", "try", "to", "catch", "a", "fly", "frisbee", "."]
+(d0 / do-02
+      :ARG0 (g0 / girl
+            :ARG0-of (t0 / trick-01
+                  :ARG1 d1)
+            :ARG0-of (c0 / catch-01
+                  :ARG1-of (t1 / try-01
+                        :ARG0 (d1 / dog
+                              :poss g0))
+                  :ARG1 (a1 / animal
+                        :name (n0 / name
+                              :op1 "frisbee" )
+                        :ARG1-of (f0 / fly-01)))
+            :part (b0 / beautiful-02
+                  :ARG1 (b1 / blond))
+            :poss-of (h1 / have-03)
+            :poss-of (h0 / have-03
+                  :ARG1 (a0 / air)))
+      :ARG1 t0)

@@ -1,0 +1,6 @@
+(c0 / cover-02
+    :time (s0 / sit-01
+              :ARG1 (b0 / boy
+                        :part (f0 / face)
+                        :ARG0-of c0))
+    :ARG1 f0)

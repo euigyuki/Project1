@@ -1,0 +1,5 @@
+(w0 / whip-01
+    :ARG2 (l0 / lake)
+    :ARG0 (g0 / girl
+              :part (h0 / hair))
+    :ARG1 (w1 / water))

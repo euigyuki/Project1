@@ -1,0 +1,6 @@
+(p0 / plot-01
+    :time (t1 / talk-01
+              :ARG0 (w0 / woman
+                        :mod (y0 / young))
+              :instrument (p1 / phone))
+    :ARG0 w0)

@@ -1,0 +1,13 @@
+# ::snt a backhoe is on top of a pile of rubble from a demolished building .
+# ::tokens ["a", "backhoe", "is", "on", "top", "of", "a", "pile", "of", "rubble", "from", "a", "demolished", "building", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "IN", "NN", "IN", "DT", "NN", "IN", "NN", "IN", "DT", "VBN", "NN", "."]
+# ::lemmas ["a", "backhoe", "be", "on", "top", "of", "a", "pile", "of", "rubble", "from", "a", "demolish", "building", "."]
+(b0 / be-located-at-91
+      :ARG2 (t0 / top
+            :op1 (p0 / pile
+                  :consist-of (r0 / rubble
+                        :part-of (b2 / building
+                              :ARG1-of (d0 / demolish-01)))))
+      :ARG1 (b1 / backhoe))

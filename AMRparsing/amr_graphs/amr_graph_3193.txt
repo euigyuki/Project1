@@ -1,0 +1,6 @@
+(s0 / spend-02
+    :ARG0 (a0 / and
+              :op2 (b0 / baby)
+              :op1 (l0 / lady))
+    :ARG1 (t0 / time
+              :quant (s1 / some)))

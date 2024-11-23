@@ -1,0 +1,2 @@
+(g0 / group
+    :consist-of (p0 / person))

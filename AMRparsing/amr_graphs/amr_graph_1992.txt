@@ -1,0 +1,12 @@
+(a0 / and
+    :op2 (a1 / and
+             :op2 (s0 / shave-01
+                      :ARG2 (i0 / it))
+             :op1 (h0 / have-03
+                      :ARG0 (g1 / guy
+                                :mod (o0 / other))
+                      :ARG1 (s1 / shirt
+                                :ARG1-of (b0 / black-04))
+                      :polarity -))
+    :op1 (g0 / guy
+             :quant 2))

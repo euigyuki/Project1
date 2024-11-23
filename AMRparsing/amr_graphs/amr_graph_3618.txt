@@ -1,0 +1,24 @@
+# ::snt a woman in curlers and a green tank top is having her eyeliner done by a woman in a pink and white shirt .
+# ::tokens ["a", "woman", "in", "curlers", "and", "a", "green", "tank", "top", "is", "having", "her", "eyeliner", "done", "by", "a", "woman", "in", "a", "pink", "and", "white", "shirt", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "NNS", "CC", "DT", "JJ", "NN", "NN", "VBZ", "VBG", "PRP$", "NN", "VBN", "IN", "DT", "NN", "IN", "DT", "JJ", "CC", "JJ", "NN", "."]
+# ::lemmas ["a", "woman", "in", "curler", "and", "a", "green", "tank", "top", "be", "have", "her", "eyeliner", "do", "by", "a", "woman", "in", "a", "pink", "and", "white", "shirt", "."]
+(h0 / have-04
+      :ARG1 (d0 / do-02
+            :ARG0 (w1 / woman
+                  :ARG0-of (h2 / have-03
+                        :ARG1 (a1 / and
+                              :op2 (t1 / tank)
+                              :op2 (s1 / shirt
+                                    :ARG1-of (w2 / white-03))
+                              :op1 (s0 / shirt
+                                    :ARG1-of (p0 / pink-04)))))
+            :ARG1 (e0 / eyeliner
+                  :poss (w0 / woman
+                        :ARG0-of (h1 / have-03
+                              :ARG1 (a0 / and
+                                    :op2 (t0 / top
+                                          :ARG1-of (g0 / green-02))
+                                    :op1 (c0 / curler)))))
+            :ARG2 w0))

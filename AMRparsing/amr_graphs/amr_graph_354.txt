@@ -1,0 +1,15 @@
+# ::snt children read a bunch of comic books while eating corn dogs .
+# ::tokens ["children", "read", "a", "bunch", "of", "comic", "books", "while", "eating", "corn", "dogs", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["NNS", "VBD", "DT", "NN", "IN", "JJ", "NNS", "IN", "VBG", "NN", "NNS", "."]
+# ::lemmas ["child", "read", "a", "bunch", "of", "comic", "book", "while", "eat", "corn", "dog", "."]
+(r0 / read-01
+      :time (e0 / eat-01
+            :ARG0 (c0 / child)
+            :ARG1 (d0 / dog
+                  :mod (c2 / corn)))
+      :ARG0 c0
+      :ARG1 (b0 / book
+            :quant (b1 / bunch)
+            :quant (c1 / comic)))

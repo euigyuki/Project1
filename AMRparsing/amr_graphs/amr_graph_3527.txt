@@ -1,0 +1,7 @@
+(s0 / stand-01
+    :time (d0 / date-entity
+              :dayperiod (n0 / night))
+    :ARG1 (g0 / group
+              :consist-of (p0 / person
+                              :ARG0-of (h0 / have-03
+                                           :ARG1 (t0 / torch)))))

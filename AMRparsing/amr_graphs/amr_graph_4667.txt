@@ -1,0 +1,9 @@
+(a0 / and
+    :op2 (l0 / look-01
+             :ARG1 (s0 / something)
+             :ARG0 (g0 / group
+                       :part (h1 / hand)
+                       :consist-of (p0 / person)))
+    :op1 (h0 / hold-01
+             :ARG0 g0
+             :ARG1 h1))

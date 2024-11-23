@@ -1,0 +1,5 @@
+(h0 / hold-01
+    :ARG1 (t0 / toy
+              :mod (e0 / electricity)
+              :mod (k0 / kind
+                       :mod (s0 / some))))

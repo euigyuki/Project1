@@ -1,0 +1,24 @@
+# ::snt a pharmacist in a white coat and glasses is hard at work in his pharmacy lab , but turns to smile for the camera .
+# ::tokens ["a", "pharmacist", "in", "a", "white", "coat", "and", "glasses", "is", "hard", "at", "work", "in", "his", "pharmacy", "lab", ",", "but", "turns", "to", "smile", "for", "the", "camera", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "DT", "JJ", "NN", "CC", "NNS", "VBZ", "JJ", "IN", "NN", "IN", "PRP$", "NN", "NN", ",", "CC", "VBZ", "TO", "VB", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "pharmacist", "in", "a", "white", "coat", "and", "glass", "be", "hard", "at", "work", "in", "his", "pharmacy", "lab", ",", "but", "turn", "to", "smile", "for", "the", "camera", "."]
+(c0 / contrast-01
+      :ARG1 (h0 / hard-02
+            :location (w0 / work-01
+                  :ARG1 (p0 / pharmacist
+                        :poss-of (l0 / lab
+                              :mod (p1 / pharmacy))
+                        :ARG0-of (h1 / have-03
+                              :ARG1 (a0 / and
+                                    :op2 (g0 / glass
+                                          :ARG1-of (w2 / white-03))
+                                    :op1 (c2 / coat
+                                          :ARG1-of (w1 / white-03)))))
+                  :location l0))
+      :ARG2 (t0 / try-01
+            :purpose (s0 / smile-01
+                  :poss p0
+                  :ARG2 (c1 / camera))
+            :ARG1 p0))

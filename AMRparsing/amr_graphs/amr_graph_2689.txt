@@ -1,0 +1,5 @@
+(p0 / play-01
+    :time (d0 / day
+              :ARG1-of (c0 / cold-01))
+    :ARG0 (g0 / girl
+              :mod (l0 / little)))

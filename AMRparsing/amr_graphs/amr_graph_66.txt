@@ -1,0 +1,16 @@
+# ::snt a man in a brown uniform reaching out from an industrial doorway , as if he is going to shut the door .
+# ::tokens ["a", "man", "in", "a", "brown", "uniform", "reaching", "out", "from", "an", "industrial", "doorway", ",", "as", "if", "he", "is", "going", "to", "shut", "the", "door", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "DT", "JJ", "NN", "VBG", "RP", "IN", "DT", "JJ", "NN", ",", "IN", "IN", "PRP", "VBZ", "VBG", "TO", "VB", "DT", "NN", "."]
+# ::lemmas ["a", "man", "in", "a", "brown", "uniform", "reach", "out", "from", "an", "industrial", "doorway", ",", "as", "if", "he", "be", "go", "to", "shut", "the", "door", "."]
+(m0 / man
+      :ARG0-of (w0 / wear-01
+            :ARG1 (u0 / uniform
+                  :mod (b0 / brown)))
+      :ARG1-of (s0 / shut-01
+            :ARG1 (d1 / door))
+      :mod (r0 / reach-01
+            :direction (o0 / out)
+            :source (d0 / doorway
+                  :mod (i0 / industry))))

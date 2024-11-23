@@ -1,0 +1,13 @@
+# ::snt a man in a green striped shirt drums furiously .
+# ::tokens ["a", "man", "in", "a", "green", "striped", "shirt", "drums", "furiously", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "DT", "JJ", "JJ", "NN", "NNS", "RB", "."]
+# ::lemmas ["a", "man", "in", "a", "green", "striped", "shirt", "drum", "furiously", "."]
+(d0 / drum
+      :manner (f0 / furious-02)
+      :ARG1-of (m0 / man
+            :ARG0-of (h0 / have-03
+                  :ARG1 (s0 / shirt
+                        :ARG1-of (f1 / feature-01)
+                        :mod (g0 / green-03)))))

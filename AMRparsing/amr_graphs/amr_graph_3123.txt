@@ -1,0 +1,5 @@
+(c0 / contrast-01
+    :ARG1 (l0 / look-01
+              :ARG1 (c1 / camera)
+              :ARG0 (w0 / woman
+                        :quant 1)))

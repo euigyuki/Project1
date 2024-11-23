@@ -1,0 +1,11 @@
+# ::snt a blond child riding a tire swing .
+# ::tokens ["a", "blond", "child", "riding", "a", "tire", "swing", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "VBG", "DT", "NN", "NN", "."]
+# ::lemmas ["a", "blond", "child", "ride", "a", "tire", "swing", "."]
+(c0 / child
+      :ARG0-of (r0 / ride-01
+            :ARG1 (s0 / swing
+                  :mod (t0 / tire)))
+      :mod (b0 / blond))

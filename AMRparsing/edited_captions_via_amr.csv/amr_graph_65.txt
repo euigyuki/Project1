@@ -1,0 +1,12 @@
+# ::snt A child practices hitting a baseball into a net
+# ::tokens ["A", "child", "practices", "hitting", "a", "baseball", "into", "a", "net"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "NNS", "VBG", "DT", "NN", "IN", "DT", "NN"]
+# ::lemmas ["a", "child", "practice", "hit", "a", "baseball", "into", "a", "net"]
+(p0 / practice-01
+      :ARG0 (c0 / child
+            :ARG0-of (h0 / hit-01
+                  :ARG2 (n0 / net)
+                  :ARG1 (b0 / baseball)))
+      :ARG1 h0)

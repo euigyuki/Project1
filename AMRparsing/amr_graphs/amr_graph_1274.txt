@@ -1,0 +1,10 @@
+# ::snt a man climbs steep rocks .
+# ::tokens ["a", "man", "climbs", "steep", "rocks", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "JJ", "NNS", "."]
+# ::lemmas ["a", "man", "climb", "steep", "rock", "."]
+(c0 / climb-01
+      :ARG0 (m0 / man)
+      :ARG1 (r0 / rock
+            :mod (s0 / steep)))

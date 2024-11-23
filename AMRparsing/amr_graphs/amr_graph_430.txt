@@ -1,0 +1,28 @@
+# ::snt two adults , one female in white , with shades and one male , gray clothes , walking across a street , away from a eatery with a blurred image of a dark colored red shirted person in the foreground .
+# ::tokens ["two", "adults", ",", "one", "female", "in", "white", ",", "with", "shades", "and", "one", "male", ",", "gray", "clothes", ",", "walking", "across", "a", "street", ",", "away", "from", "a", "eatery", "with", "a", "blurred", "image", "of", "a", "dark", "colored", "red", "shirted", "person", "in", "the", "foreground", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", ",", "CD", "NN", "IN", "JJ", ",", "IN", "NNS", "CC", "CD", "JJ", ",", "JJ", "NNS", ",", "VBG", "IN", "DT", "NN", ",", "RB", "IN", "DT", "NN", "IN", "DT", "JJ", "NN", "IN", "DT", "JJ", "VBN", "JJ", "NN", "NN", "IN", "DT", "NN", "."]
+# ::lemmas ["two", "adult", ",", "one", "female", "in", "white", ",", "with", "shade", "and", "one", "male", ",", "gray", "clothe", ",", "walk", "across", "a", "street", ",", "away", "from", "a", "eatery", "with", "a", "blurred", "image", "of", "a", "dark", "color", "red", "shirted", "person", "in", "the", "foreground", "."]
+(w0 / walk-01
+      :ARG2 (a1 / across
+            :op1 (s0 / street))
+      :ARG0 (a0 / and
+            :op3 (c0 / clothes
+                  :ARG1-of (g0 / gray-02))
+            :op2 (f0 / female
+                  :quant 1 
+                  :ARG1-of (w1 / white-02))
+            :op2 (a3 / adult
+                  :ARG0-of (h0 / have-03
+                        :ARG1 (f1 / foreground)
+                        :topic-of (i0 / image
+                              :ARG1-of (b0 / blur-01)
+                              :mod (p0 / person
+                                    :ARG1-of (d0 / dress-01)
+                                    :mod (c1 / color-01
+                                          :ARG2 (d1 / dark-02))))))
+            :op1 (a2 / adult
+                  :quant 2 
+                  :quant (a4 / away
+                        :op1 (e0 / eatery)))))

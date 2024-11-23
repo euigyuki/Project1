@@ -1,0 +1,2 @@
+(w0 / wake-up-02
+    :ARG0 (m0 / man))

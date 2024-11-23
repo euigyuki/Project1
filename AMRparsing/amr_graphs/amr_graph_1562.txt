@@ -1,0 +1,6 @@
+(s0 / stand-01
+    :time (j0 / jump-on-bandwagon-09
+              :ARG0 (t0 / traffic))
+    :ARG1 (w0 / woman
+              :ARG1-of (i0 / in-front-of
+                           :op1 (p0 / pizzeria))))

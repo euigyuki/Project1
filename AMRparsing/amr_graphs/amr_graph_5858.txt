@@ -1,0 +1,11 @@
+# ::snt the black and white animal is in the grass .
+# ::tokens ["the", "black", "and", "white", "animal", "is", "in", "the", "grass", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "CC", "JJ", "NN", "VBZ", "IN", "DT", "NN", "."]
+# ::lemmas ["the", "black", "and", "white", "animal", "be", "in", "the", "grass", "."]
+(b0 / be-located-at-91
+      :ARG2 (g0 / grass)
+      :ARG1 (a0 / animal
+            :ARG1-of (b1 / black-04)
+            :mod (w0 / white-02)))

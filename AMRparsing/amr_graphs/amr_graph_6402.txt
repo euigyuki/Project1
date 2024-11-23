@@ -1,0 +1,19 @@
+# ::snt two women sparring fiercely at tae kwon do competition , while referee watches .
+# ::tokens ["two", "women", "sparring", "fiercely", "at", "tae", "kwon", "do", "competition", ",", "while", "referee", "watches", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "VBG", "RB", "IN", "NNP", "NNP", "VBP", "NN", ",", "IN", "NN", "NNS", "."]
+# ::lemmas ["two", "woman", "spar", "fiercely", "at", "tae", "kwon", "do", "competition", ",", "while", "referee", "watch", "."]
+(c0 / contrast-01
+      :ARG1 (d0 / duel-01
+            :manner (f0 / fiercely)
+            :ARG2 (c1 / compete-02
+                  :mod (k0 / kwon))
+            :ARG0 (w1 / woman
+                  :quant 2 )
+            :ARG1 (p1 / person
+                  :ARG0-of (h1 / have-org-role-91)))
+      :ARG2 (w0 / watch-01
+            :ARG0 (p0 / person
+                  :ARG0-of (h0 / have-org-role-91
+                        :ARG2 (r0 / referee)))))

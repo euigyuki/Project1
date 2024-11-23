@@ -1,0 +1,14 @@
+# ::snt a man is rowing on his boat through very still water .
+# ::tokens ["a", "man", "is", "rowing", "on", "his", "boat", "through", "very", "still", "water", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "VBG", "IN", "PRP$", "NN", "IN", "RB", "RB", "NN", "."]
+# ::lemmas ["a", "man", "be", "row", "on", "his", "boat", "through", "very", "still", "water", "."]
+(d0 / drive-01
+      :path (t0 / through
+            :op1 (w0 / water
+                  :mod (s0 / still
+                        :degree (v0 / very))))
+      :ARG0 (m0 / man
+            :poss-of (b0 / boat))
+      :ARG1 b0)

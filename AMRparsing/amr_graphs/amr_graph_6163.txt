@@ -1,0 +1,20 @@
+# ::snt a person wearing a heavy coat , respirator and goggles etches the figure of a medieval warrior into a round brick structure .
+# ::tokens ["a", "person", "wearing", "a", "heavy", "coat", ",", "respirator", "and", "goggles", "etches", "the", "figure", "of", "a", "medieval", "warrior", "into", "a", "round", "brick", "structure", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBG", "DT", "JJ", "NN", ",", "NN", "CC", "NNS", "VBZ", "DT", "NN", "IN", "DT", "JJ", "NN", "IN", "DT", "JJ", "NN", "NN", "."]
+# ::lemmas ["a", "person", "wear", "a", "heavy", "coat", ",", "respirator", "and", "goggle", "etch", "the", "figure", "of", "a", "medieval", "warrior", "into", "a", "round", "brick", "structure", "."]
+(s0 / slant-01
+      :ARG2 (s1 / structure
+            :mod (b0 / brick)
+            :mod (r0 / round))
+      :ARG0 (p0 / person
+            :ARG0-of (w1 / wear-01
+                  :ARG1 (a0 / and
+                        :op3 (g0 / goggle)
+                        :op2 (r1 / respirator)
+                        :op1 (c0 / coat
+                              :mod (h0 / heavy)))))
+      :ARG1 (f0 / figure
+            :mod (w0 / warrior
+                  :mod (m0 / medieval))))

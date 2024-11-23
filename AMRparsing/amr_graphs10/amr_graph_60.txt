@@ -1,0 +1,10 @@
+# ::snt two girls with purple hair and a short-haired woman are smiling .
+(z1 / smile-01
+      :ARG0 (z2 / and
+            :op1 (z3 / girl
+                  :quant 2
+                  :part (z4 / hair
+                        :ARG1-of (z5 / purple-02)))
+            :op2 (z6 / woman
+                  :part (z7 / hair
+                        :ARG1-of (z8 / short-07)))))

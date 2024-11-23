@@ -1,0 +1,16 @@
+# ::snt a kid in a yellow jacket and blue baseball cap jumping from a rock .
+# ::tokens ["a", "kid", "in", "a", "yellow", "jacket", "and", "blue", "baseball", "cap", "jumping", "from", "a", "rock", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "DT", "JJ", "NN", "CC", "JJ", "NN", "NN", "VBG", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "kid", "in", "a", "yellow", "jacket", "and", "blue", "baseball", "cap", "jump", "from", "a", "rock", "."]
+(j0 / jump-03
+      :source (r0 / rock)
+      :ARG0 (k0 / kid
+            :ARG0-of (h0 / have-03
+                  :ARG1 (a0 / and
+                        :op2 (c0 / cap
+                              :mod (b1 / blue)
+                              :mod (b0 / baseball))
+                        :op1 (j1 / jacket
+                              :mod (y0 / yellow))))))

@@ -1,0 +1,13 @@
+# ::snt an artist in a black sweater is sculpting large rocks .
+# ::tokens ["an", "artist", "in", "a", "black", "sweater", "is", "sculpting", "large", "rocks", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "DT", "JJ", "NN", "VBZ", "VBG", "JJ", "NNS", "."]
+# ::lemmas ["an", "artist", "in", "a", "black", "sweater", "be", "sculpt", "large", "rock", "."]
+(c0 / climb-01
+      :ARG0 (a0 / artist
+            :ARG0-of (w0 / wear-01
+                  :ARG1 (s0 / sweater
+                        :ARG1-of (b0 / black-04))))
+      :ARG1 (r0 / rock
+            :mod (l0 / large)))

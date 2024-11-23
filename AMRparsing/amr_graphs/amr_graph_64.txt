@@ -1,0 +1,9 @@
+(m0 / multi-sentence
+    :snt2 (p0 / press-01
+              :ARG2 (l0 / lip)
+              :ARG1 (c0 / cigarette))
+    :snt1 (h0 / hold-01
+              :ARG1 (a0 / and
+                        :op2 (c1 / chainsaw)
+                        :op1 (p1 / piece
+                                 :consist-of (w0 / wood)))))

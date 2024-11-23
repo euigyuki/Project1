@@ -1,0 +1,3 @@
+(l0 / look-01
+    :direction (w1 / window)
+    :ARG1 (w0 / woman))

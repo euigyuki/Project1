@@ -1,0 +1,6 @@
+(s0 / significant-02
+    :ARG1 (b0 / boy
+              :ARG0-of (h0 / have-03
+                           :ARG1 (m0 / mask
+                                     :mod (w0 / wrestler)
+                                     :mod (b1 / blue)))))

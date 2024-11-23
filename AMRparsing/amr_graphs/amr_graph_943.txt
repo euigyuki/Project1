@@ -1,0 +1,6 @@
+(s0 / stand-01
+    :manner (h0 / hand)
+    :ARG1 (b0 / boy
+              :part (h1 / head
+                        :op1-of (t0 / top))
+              :mod (l0 / little)))

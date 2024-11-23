@@ -1,0 +1,8 @@
+(w0 / walk-01
+    :source (c0 / crowd)
+    :source (o0 / out)
+    :ARG0 (a0 / and
+              :op2 (w1 / woman
+                       :age (t0 / temporal-quantity
+                                :quant (m0 / middle)))
+              :op1 (b0 / boy)))

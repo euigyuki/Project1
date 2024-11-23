@@ -1,0 +1,11 @@
+(l0 / look-01
+    :time (b0 / be-located-at-91
+              :ARG1 (w0 / woman
+                        :ARG0-of (w1 / wear-01)
+                        :mod (c0 / continent
+                                 :name (n0 / name
+                                           :op1 "Asia")))
+              :ARG1 (s0 / shirt
+                        :mod (y0 / yellow)))
+    :ARG0 w0
+    :ARG1 (p0 / postcard))

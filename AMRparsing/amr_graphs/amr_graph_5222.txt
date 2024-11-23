@@ -1,0 +1,14 @@
+# ::snt a girl in a red and white dress is playing with hula hoops .
+# ::tokens ["a", "girl", "in", "a", "red", "and", "white", "dress", "is", "playing", "with", "hula", "hoops", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "DT", "JJ", "CC", "JJ", "NN", "VBZ", "VBG", "IN", "JJ", "NNS", "."]
+# ::lemmas ["a", "girl", "in", "a", "red", "and", "white", "dress", "be", "play", "with", "hula", "hoop", "."]
+(p0 / play-01
+      :ARG2 (h0 / hoop
+            :mod (h1 / hula))
+      :ARG0 (g0 / girl
+            :ARG0-of (w0 / wear-01
+                  :ARG1 (d0 / dress
+                        :ARG1-of (w1 / white-03)
+                        :mod (r0 / red-02)))))

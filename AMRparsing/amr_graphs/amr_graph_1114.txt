@@ -1,0 +1,12 @@
+# ::snt a group of workers are waiting to be picked up .
+# ::tokens ["a", "group", "of", "workers", "are", "waiting", "to", "be", "picked", "up", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "NNS", "VBP", "VBG", "TO", "VB", "VBN", "RP", "."]
+# ::lemmas ["a", "group", "of", "worker", "be", "wait", "to", "be", "pick", "up", "."]
+(w0 / wait-01
+      :ARG2 (p0 / pick-up-04
+            :ARG1 (g0 / group
+                  :consist-of (p1 / person
+                        :ARG0-of (w1 / work-01))))
+      :ARG1 g0)

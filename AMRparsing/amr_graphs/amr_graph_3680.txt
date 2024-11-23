@@ -1,0 +1,10 @@
+# ::snt a baby with star shades on .
+# ::tokens ["a", "baby", "with", "star", "shades", "on", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "NN", "VBZ", "IN", "."]
+# ::lemmas ["a", "baby", "with", "star", "shade", "on", "."]
+(b0 / baby
+      :ARG0-of (h0 / have-03
+            :ARG1 (s0 / shade
+                  :mod (s1 / star))))

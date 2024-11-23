@@ -1,0 +1,13 @@
+# ::snt a woman stands in a field surrounded by three attentive gray dogs .
+# ::tokens ["a", "woman", "stands", "in", "a", "field", "surrounded", "by", "three", "attentive", "gray", "dogs", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "CARDINAL", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "B", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "IN", "DT", "NN", "VBN", "IN", "CD", "JJ", "JJ", "NNS", "."]
+# ::lemmas ["a", "woman", "stand", "in", "a", "field", "surround", "by", "three", "attentive", "gray", "dog", "."]
+(s0 / stand-01
+      :ARG2 (f0 / field)
+      :ARG1 (w0 / woman
+            :ARG1-of (s1 / surround-01
+                  :ARG2 (d0 / dog
+                        :quant 3 
+                        :ARG0-of (p0 / productive-03)))))

@@ -1,0 +1,12 @@
+# ::snt a smiling woman next to her bright pink bicycle .
+# ::tokens ["a", "smiling", "woman", "next", "to", "her", "bright", "pink", "bicycle", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "VBG", "NN", "RB", "IN", "PRP$", "JJ", "JJ", "NN", "."]
+# ::lemmas ["a", "smile", "woman", "next", "to", "her", "bright", "pink", "bicycle", "."]
+(b0 / be-located-at-91
+      :ARG2 (n0 / next-to)
+      :ARG1 (w0 / woman
+            :poss-of (b1 / bicycle
+                  :ARG1-of (b2 / bright-02))
+            :ARG0-of (s0 / smile-01)))

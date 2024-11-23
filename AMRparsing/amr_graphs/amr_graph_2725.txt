@@ -1,0 +1,6 @@
+(g0 / group
+    :consist-of (m0 / man
+                    :ARG0-of (l0 / look-02
+                                 :ARG1 (c0 / comfortable-02
+                                           :ARG1 m0
+                                           :polarity -))))

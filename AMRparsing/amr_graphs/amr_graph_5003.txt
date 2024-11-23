@@ -1,0 +1,10 @@
+# ::snt climber scaling rock at night .
+# ::tokens ["climber", "scaling", "rock", "at", "night", "."]
+# ::ner_tags ["O", "O", "O", "O", "TIME", "O"]
+# ::ner_iob ["O", "O", "O", "O", "B", "O"]
+# ::pos_tags ["VB", "VBG", "NN", "IN", "NN", "."]
+# ::lemmas ["climber", "scale", "rock", "at", "night", "."]
+(c0 / climb-01
+      :time (d0 / date-entity
+            :dayperiod (n0 / night))
+      :ARG1 (r0 / rock))

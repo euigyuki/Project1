@@ -1,0 +1,16 @@
+# ::snt a gray dog is jumping toward a black and white dog in the snow .
+# ::tokens ["a", "gray", "dog", "is", "jumping", "toward", "a", "black", "and", "white", "dog", "in", "the", "snow", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "VBZ", "VBG", "IN", "DT", "JJ", "CC", "JJ", "NN", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "gray", "dog", "be", "jump", "toward", "a", "black", "and", "white", "dog", "in", "the", "snow", "."]
+(j0 / jump-03
+      :destination (s0 / snow)
+      :direction (t0 / toward
+            :op1 (a0 / and
+                  :op2 (d2 / dog
+                        :ARG1-of (w0 / white-02))
+                  :op1 (d1 / dog
+                        :ARG1-of (b0 / black-04))))
+      :ARG0 (d0 / dog
+            :ARG1-of (g0 / gray-02)))

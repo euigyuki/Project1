@@ -1,0 +1,8 @@
+(w0 / wait-01
+    :ARG2 (u0 / use-01
+              :ARG0 (w1 / woman
+                        :quant 6)
+              :ARG1 (f0 / facility
+                        :name (n0 / name
+                                  :op1 "Europe")))
+    :ARG1 w1)

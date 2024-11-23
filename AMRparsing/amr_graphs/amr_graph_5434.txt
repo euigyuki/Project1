@@ -1,0 +1,3 @@
+(r0 / ride-01
+    :ARG0 (c0 / couple)
+    :ARG1 (b0 / bike))

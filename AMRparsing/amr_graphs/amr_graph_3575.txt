@@ -1,0 +1,11 @@
+# ::snt a child throwing a red ball in the air
+# ::tokens ["a", "child", "throwing", "a", "red", "ball", "in", "the", "air"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBG", "DT", "JJ", "NN", "IN", "DT", "NN"]
+# ::lemmas ["a", "child", "throw", "a", "red", "ball", "in", "the", "air"]
+(t0 / throw-01
+      :ARG2 (a0 / air)
+      :ARG0 (c0 / child)
+      :ARG1 (b0 / ball
+            :ARG1-of (r0 / red-02)))

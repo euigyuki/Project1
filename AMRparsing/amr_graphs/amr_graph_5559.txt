@@ -1,0 +1,12 @@
+# ::snt a brown and black dog jumping out of a pond .
+# ::tokens ["a", "brown", "and", "black", "dog", "jumping", "out", "of", "a", "pond", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "CC", "JJ", "NN", "VBG", "IN", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "brown", "and", "black", "dog", "jump", "out", "of", "a", "pond", "."]
+(j0 / jump-03
+      :source (o0 / out-of
+            :op1 (p0 / pond))
+      :ARG0 (d0 / dog
+            :ARG1-of (b1 / black-04)
+            :mod (b0 / brown)))

@@ -1,0 +1,11 @@
+# ::snt two young boys are in the water .
+# ::tokens ["two", "young", "boys", "are", "in", "the", "water", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "JJ", "NNS", "VBP", "IN", "DT", "NN", "."]
+# ::lemmas ["two", "young", "boy", "be", "in", "the", "water", "."]
+(b0 / be-located-at-91
+      :ARG1 (b1 / boy
+            :quant 2 
+            :mod (y0 / young))
+      :ARG2 (w0 / water))

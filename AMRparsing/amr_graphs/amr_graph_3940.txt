@@ -1,0 +1,4 @@
+(s0 / sit-01
+    :ARG1 (g0 / girl
+              :ARG0-of (s1 / smile-01)
+              :quant 2))

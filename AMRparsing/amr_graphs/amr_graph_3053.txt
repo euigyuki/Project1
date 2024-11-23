@@ -1,0 +1,17 @@
+# ::snt two young girl cheerleaders wearing a khaki shirt with a black tie cheering .
+# ::tokens ["two", "young", "girl", "cheerleaders", "wearing", "a", "khaki", "shirt", "with", "a", "black", "tie", "cheering", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "JJ", "NN", "NNS", "VBG", "DT", "NNP", "NN", "IN", "DT", "JJ", "NN", "VBG", "."]
+# ::lemmas ["two", "young", "girl", "cheerleader", "wear", "a", "khaki", "shirt", "with", "a", "black", "tie", "cheer", "."]
+(c0 / cheer-02
+      :ARG0 (p0 / person
+            :quant 2 
+            :ARG0-of (c1 / coach-01
+                  :ARG2 (g0 / girl
+                        :mod (t0 / tie
+                              :ARG1-of (b0 / black-04))))
+            :ARG1-of (w0 / wear-01
+                  :ARG1 (s0 / shirt
+                        :mod (k0 / khaki)))
+            :mod (y0 / young)))

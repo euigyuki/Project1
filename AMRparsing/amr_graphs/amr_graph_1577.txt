@@ -1,0 +1,13 @@
+(a0 / and
+    :op2 (p0 / post-01
+             :ARG1-of (h0 / hang-01)
+             :ARG0-of (s0 / say-01
+                          :ARG1 (c1 / cell
+                                    :mod (b0 / blood))))
+    :op1 (l0 / look-01
+             :ARG0 (m1 / man
+                       :mod (c0 / country
+                                :name (n0 / name
+                                          :op1 "America"))
+                       :quant 1)
+             :ARG1 (m0 / microscope)))

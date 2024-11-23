@@ -1,0 +1,6 @@
+(g0 / group-01
+    :ARG1 (p0 / person
+              :mod (f1 / female)
+              :mod (s0 / swim-01
+                       :ARG1 (s1 / synchronized))
+              :quant 10))

@@ -1,0 +1,5 @@
+(m0 / make-01
+    :ARG2 (c0 / child)
+    :ARG0 (m1 / man)
+    :ARG1 (f0 / figure
+              :mod (b0 / balloon)))

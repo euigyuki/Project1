@@ -1,0 +1,3 @@
+(h0 / hit-01
+    :ARG0 (b1 / boy)
+    :ARG1 (b0 / baseball))

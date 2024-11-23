@@ -1,0 +1,3 @@
+(a0 / area
+    :ARG1-of (c0 / crowd-01)
+    :mod (s0 / shop-01))

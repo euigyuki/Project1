@@ -1,0 +1,21 @@
+# ::snt an african american man with a black hat and black tank top plays the drums on some buckets for donations .
+# ::tokens ["an", "african", "american", "man", "with", "a", "black", "hat", "and", "black", "tank", "top", "plays", "the", "drums", "on", "some", "buckets", "for", "donations", "."]
+# ::ner_tags ["O", "NORP", "NORP", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "B", "B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "JJ", "NN", "IN", "DT", "JJ", "NN", "CC", "JJ", "NN", "NN", "VBZ", "DT", "NNS", "IN", "DT", "NNS", "IN", "NNS", "."]
+# ::lemmas ["an", "african", "american", "man", "with", "a", "black", "hat", "and", "black", "tank", "top", "play", "the", "drum", "on", "some", "bucket", "for", "donation", "."]
+(p0 / play-11
+      :purpose (d1 / donate-01)
+      :ARG2 (b0 / bucket
+            :mod (s0 / some))
+      :ARG0 (m0 / man
+            :mod (c0 / country
+                  :name (n0 / name
+                        :op1 "America" ))
+            :mod (h0 / have-03
+                  :ARG1 (a0 / and
+                        :op2 (t0 / top
+                              :mod (t1 / tank))
+                        :op1 (h1 / hat
+                              :ARG1-of (b1 / black-04)))))
+      :ARG1 (d0 / drum))

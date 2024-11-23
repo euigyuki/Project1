@@ -1,0 +1,16 @@
+(a0 / and
+    :op3 (l0 / look-01
+             :ARG0 (m1 / man
+                       :ARG1-of (h2 / have-degree-91
+                                    :ARG3 (m3 / more))
+                       :mod (a3 / afar))
+             :ARG1 (a2 / afar))
+    :op2 (w0 / walk-01
+             :direction (a1 / away)
+             :ARG0 (w2 / woman
+                       :ARG0-of (h1 / have-03
+                                    :ARG1 (b1 / bouquet))))
+    :op1 (t0 / talk-01
+             :ARG0 (w1 / woman
+                       :ARG0-of (d0 / dress
+                                    :ARG1-of (w3 / white-03)))))

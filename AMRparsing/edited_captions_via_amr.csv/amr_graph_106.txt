@@ -1,0 +1,15 @@
+# ::snt A white dog is ready to catch a yellow ball flying through the air
+# ::tokens ["A", "white", "dog", "is", "ready", "to", "catch", "a", "yellow", "ball", "flying", "through", "the", "air"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "VBZ", "JJ", "TO", "VB", "DT", "JJ", "NN", "VBG", "IN", "DT", "NN"]
+# ::lemmas ["a", "white", "dog", "be", "ready", "to", "catch", "a", "yellow", "ball", "fly", "through", "the", "air"]
+(r0 / ready-01
+      :ARG2 (c0 / catch-01
+            :ARG0 (d0 / dog
+                  :ARG1-of (w0 / white-02))
+            :ARG2 (f0 / fly-01
+                  :path (a0 / air))
+            :ARG1 (b0 / ball
+                  :mod (y0 / yellow)))
+      :ARG1 d0)

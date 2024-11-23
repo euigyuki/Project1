@@ -1,0 +1,7 @@
+(w0 / wait-01
+    :time (i0 / inspect-01
+              :ARG0 (p3 / person)
+              :ARG1 (p2 / pipe))
+    :time (p1 / patient-01)
+    :ARG1 (p0 / person
+              :ARG0-of (d0 / dig-01)))

@@ -1,0 +1,9 @@
+# ::snt a woman practicing for tennis .
+# ::tokens ["a", "woman", "practicing", "for", "tennis", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBG", "IN", "NN", "."]
+# ::lemmas ["a", "woman", "practice", "for", "tennis", "."]
+(w0 / woman
+      :ARG0-of (p0 / practice-01
+            :ARG1 (t0 / tennis)))

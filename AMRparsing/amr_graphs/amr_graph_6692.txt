@@ -1,0 +1,8 @@
+(b0 / be-located-at-91
+    :manner (m1 / midair)
+    :ARG2 (a0 / above
+              :op1 (p0 / person))
+    :ARG1 (m0 / man
+              :ARG0-of (t0 / trunk
+                           :purpose (s0 / swim-01)
+                           :ARG1-of (r0 / red-02))))

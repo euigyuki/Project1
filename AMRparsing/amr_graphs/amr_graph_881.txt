@@ -1,0 +1,17 @@
+# ::snt a woman in a black shirt , jean shorts and white tennis shoes is bowling .
+# ::tokens ["a", "woman", "in", "a", "black", "shirt", ",", "jean", "shorts", "and", "white", "tennis", "shoes", "is", "bowling", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "PERSON", "PERSON", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "B", "I", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "DT", "JJ", "NN", ",", "NN", "NNS", "CC", "JJ", "NN", "NNS", "VBZ", "VBG", "."]
+# ::lemmas ["a", "woman", "in", "a", "black", "shirt", ",", "jean", "shorts", "and", "white", "tennis", "shoe", "be", "bowl", "."]
+(b0 / bowl-01
+      :ARG0 (w0 / woman
+            :ARG0-of (w1 / wear-01
+                  :ARG1 (a0 / and
+                        :op3 (s2 / shoe
+                              :ARG1-of (w2 / white-03)
+                              :mod (t0 / tennis))
+                        :op2 (s1 / short-07
+                              :ARG1 (j0 / jean))
+                        :op1 (s0 / shirt
+                              :ARG1-of (b1 / black-04))))))

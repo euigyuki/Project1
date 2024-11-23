@@ -1,0 +1,12 @@
+# ::snt the woman and three dogs are in a field .
+# ::tokens ["the", "woman", "and", "three", "dogs", "are", "in", "a", "field", "."]
+# ::ner_tags ["O", "O", "O", "CARDINAL", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "B", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "CC", "CD", "NNS", "VBP", "IN", "DT", "NN", "."]
+# ::lemmas ["the", "woman", "and", "three", "dog", "be", "in", "a", "field", "."]
+(b0 / be-located-at-91
+      :ARG2 (f0 / field)
+      :ARG1 (a0 / and
+            :op2 (d0 / dog
+                  :quant 3 )
+            :op1 (w0 / woman)))

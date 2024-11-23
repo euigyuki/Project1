@@ -1,0 +1,11 @@
+# ::snt there is a man getting ready to kiss a cow .
+# ::tokens ["there", "is", "a", "man", "getting", "ready", "to", "kiss", "a", "cow", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["EX", "VBZ", "DT", "NN", "VBG", "JJ", "TO", "VB", "DT", "NN", "."]
+# ::lemmas ["there", "be", "a", "man", "get", "ready", "to", "kiss", "a", "cow", "."]
+(r0 / ready-01
+      :ARG2 (k0 / kiss-01
+            :ARG0 (m0 / man)
+            :ARG1 (c0 / cow))
+      :ARG1 m0)

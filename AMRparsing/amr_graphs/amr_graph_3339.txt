@@ -1,0 +1,10 @@
+# ::snt two dogs play in the water .
+# ::tokens ["two", "dogs", "play", "in", "the", "water", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "VBP", "IN", "DT", "NN", "."]
+# ::lemmas ["two", "dog", "play", "in", "the", "water", "."]
+(p0 / play-01
+      :ARG0 (d0 / dog
+            :quant 2 )
+      :ARG1 (w0 / water))

@@ -1,0 +1,7 @@
+(a0 / and
+    :op2 (f0 / fall-01
+             :ARG4 (g0 / ground)
+             :ARG1 (b0 / bottle
+                       :consist-of (w0 / water)))
+    :op1 (c0 / converse-01
+             :ARG0 (p0 / person)))

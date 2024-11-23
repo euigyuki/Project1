@@ -1,0 +1,5 @@
+(w0 / walk-01
+    :ARG0 (a0 / and
+              :op2 (a1 / adult)
+              :op1 (c0 / child
+                       :mod (s0 / small))))

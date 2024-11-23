@@ -1,0 +1,11 @@
+(a0 / and
+    :op2 (w0 / walk-01
+             :ARG0 (p0 / person
+                       :ARG0-of (h0 / have-rel-role-91)))
+    :op1 (r0 / ready-01
+             :ARG1 (w1 / woman
+                       :ARG0-of (m0 / match-03
+                                    :ARG1-of (i0 / intense-02)
+                                    :mod (t0 / tennis))
+                       :ARG1-of h0
+                       :mod (y0 / young))))

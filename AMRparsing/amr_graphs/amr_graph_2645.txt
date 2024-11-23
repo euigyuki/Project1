@@ -1,0 +1,11 @@
+# ::snt two men play a game of ping-pong .
+# ::tokens ["two", "men", "play", "a", "game", "of", "ping", "-", "pong", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "VBP", "DT", "NN", "IN", "NN", "HYPH", "NN", "."]
+# ::lemmas ["two", "man", "play", "a", "game", "of", "ping", "-", "pong", "."]
+(p0 / play-01
+      :ARG0 (m0 / man
+            :quant 2 )
+      :ARG1 (g0 / game
+            :mod (p1 / ping)))

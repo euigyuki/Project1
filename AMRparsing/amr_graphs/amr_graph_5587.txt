@@ -1,0 +1,2 @@
+(k0 / kneel-01
+    :ARG0 (g0 / girl))

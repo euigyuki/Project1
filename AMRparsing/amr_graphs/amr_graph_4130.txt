@@ -1,0 +1,14 @@
+# ::snt a young girl prepares to kick a pink soccer ball .
+# ::tokens ["a", "young", "girl", "prepares", "to", "kick", "a", "pink", "soccer", "ball", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "VBZ", "TO", "VB", "DT", "JJ", "NN", "NN", "."]
+# ::lemmas ["a", "young", "girl", "prepare", "to", "kick", "a", "pink", "soccer", "ball", "."]
+(p0 / prepare-02
+      :ARG2 (k0 / kick-01
+            :ARG0 (g0 / girl
+                  :mod (y0 / young))
+            :ARG1 (b0 / ball
+                  :ARG1-of (p1 / pink-04)
+                  :mod (s0 / soccer)))
+      :ARG0 g0)

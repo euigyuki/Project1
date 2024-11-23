@@ -1,0 +1,6 @@
+(d0 / do-02
+    :ARG0 (g0 / girl
+              :poss-of (d1 / dog)
+              :ARG0-of t0)
+    :ARG1 (t0 / trick-01
+              :mod (f0 / frisbee)))

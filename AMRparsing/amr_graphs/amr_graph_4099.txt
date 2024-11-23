@@ -1,0 +1,6 @@
+(j0 / jog
+    :ARG1-of (h0 / happy-01)
+    :domain (m0 / man
+                :ARG1-of (d0 / dress-01
+                             :ARG2 (s1 / suit
+                                       :ARG1-of (b0 / black-05)))))

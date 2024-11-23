@@ -1,0 +1,7 @@
+(l0 / look-01
+    :direction (d0 / down
+                   :op1 (f0 / field))
+    :ARG1 (p0 / person
+              :ARG0-of (p1 / play-01
+                           :ARG1 (f1 / football))
+              :ARG1-of (d1 / dress-01)))

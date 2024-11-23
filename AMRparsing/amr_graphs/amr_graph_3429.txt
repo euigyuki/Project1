@@ -1,0 +1,16 @@
+# ::snt an elderly woman giving her daughter a hug .
+# ::tokens ["an", "elderly", "woman", "giving", "her", "daughter", "a", "hug", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "VBG", "PRP$", "NN", "DT", "NN", "."]
+# ::lemmas ["an", "elderly", "woman", "give", "her", "daughter", "a", "hug", "."]
+(g0 / give-01
+      :ARG2 (p0 / person
+            :ARG1-of (h0 / hug-01)
+            :mod e0)
+      :ARG0 (w0 / woman
+            :ARG1-of (h1 / have-rel-role-91
+                  :ARG0 p0
+                  :ARG2 (d0 / daughter))
+            :mod (e0 / elderly))
+      :ARG1 h0)

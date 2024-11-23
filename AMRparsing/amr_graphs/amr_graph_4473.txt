@@ -1,0 +1,15 @@
+# ::snt a woman serving food for a little boy outside on a large rock .
+# ::tokens ["a", "woman", "serving", "food", "for", "a", "little", "boy", "outside", "on", "a", "large", "rock", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBG", "NN", "IN", "DT", "JJ", "NN", "RB", "IN", "DT", "JJ", "NN", "."]
+# ::lemmas ["a", "woman", "serve", "food", "for", "a", "little", "boy", "outside", "on", "a", "large", "rock", "."]
+(b0 / be-located-at-91
+      :ARG2 (o0 / outside
+            :op1 (r0 / rock
+                  :mod (l0 / large)))
+      :ARG1 (w0 / woman
+            :ARG0-of (s0 / serve-02
+                  :ARG2 (b1 / boy
+                        :mod (l1 / little))
+                  :ARG1 (f0 / food))))

@@ -1,0 +1,7 @@
+(s0 / sit-01
+    :path (h0 / hand
+              :part-of (s1 / someone
+                           :ARG0-of (h1 / have-03
+                                        :ARG1 (v0 / vest
+                                                  :mod (o0 / orange)))))
+    :ARG1 s1)

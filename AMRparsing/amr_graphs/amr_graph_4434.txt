@@ -1,0 +1,5 @@
+(p0 / pose-01
+    :ARG0 (g0 / girl
+              :ARG0-of (o0 / outfit
+                           :mod (b2 / ballet))
+              :quant (s0 / several)))

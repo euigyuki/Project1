@@ -1,0 +1,2 @@
+(d0 / dance-01
+    :ARG0 (g0 / girl))

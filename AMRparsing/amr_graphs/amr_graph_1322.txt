@@ -1,0 +1,6 @@
+(g0 / go-02
+    :ARG4 (o0 / or
+              :op2 (a0 / area
+                       :mod (a1 / archaeological))
+              :op1 (m1 / museum))
+    :ARG0 (m0 / man))

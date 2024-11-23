@@ -1,0 +1,6 @@
+(w0 / walk-01
+    :direction (t0 / toward)
+    :ARG0 (g0 / group
+              :consist-of (p0 / person
+                              :quant (n0 / number)))
+    :direction (m0 / mountain))

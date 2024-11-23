@@ -1,0 +1,8 @@
+(w0 / woman
+    :ARG0-of (s0 / show-01
+                 :ARG1 (s1 / smile-01
+                           :mod (b0 / big)))
+    :poss-of (r0 / raise-01
+                 :ARG1 (f0 / fist))
+    :ARG1-of (h0 / have-03
+                 :ARG1 (g0 / glass)))

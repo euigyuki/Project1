@@ -1,0 +1,5 @@
+(t0 / talk-01
+    :time (w0 / walk-01
+              :ARG0 (p0 / person)
+              :instrument (c0 / cellphone))
+    :ARG0 p0)

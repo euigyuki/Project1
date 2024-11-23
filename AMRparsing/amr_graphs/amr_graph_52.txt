@@ -1,0 +1,16 @@
+# ::snt a man in aerodynamic gear riding a bicycle down a road around a sharp curve .
+# ::tokens ["a", "man", "in", "aerodynamic", "gear", "riding", "a", "bicycle", "down", "a", "road", "around", "a", "sharp", "curve", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "JJ", "NN", "VBG", "DT", "NN", "IN", "DT", "NN", "IN", "DT", "JJ", "NN", "."]
+# ::lemmas ["a", "man", "in", "aerodynamic", "gear", "ride", "a", "bicycle", "down", "a", "road", "around", "a", "sharp", "curve", "."]
+(m0 / man
+      :ARG0-of (h0 / have-03
+            :ARG1 (g0 / gear
+                  :mod (a1 / aerodynamic)))
+      :ARG1-of (r0 / ride-01
+            :direction (d0 / down)
+            :direction (b0 / bicycle)
+            :ARG1 (a0 / around
+                  :op1 (c0 / curve
+                        :ARG1-of (s0 / sharp-02)))))

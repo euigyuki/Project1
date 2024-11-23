@@ -1,0 +1,11 @@
+(r0 / ring
+    :ARG0 (m0 / man
+              :part (h0 / hand
+                        :ARG1-of (r1 / right-04))
+              :ARG1-of (d0 / dress-01
+                           :ARG2 (c0 / clothe-01
+                                     :ARG2 (h2 / history)
+                                     :mod (b1 / blue)))
+              :mod (h1 / have-degree-91
+                       :ARG3 (m1 / more)
+                       :ARG2 (o0 / old))))

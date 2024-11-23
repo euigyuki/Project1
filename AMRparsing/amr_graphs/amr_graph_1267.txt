@@ -1,0 +1,14 @@
+# ::snt a man with a white shirt and helmet is climbing a mountain .
+# ::tokens ["a", "man", "with", "a", "white", "shirt", "and", "helmet", "is", "climbing", "a", "mountain", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "DT", "JJ", "NN", "CC", "NN", "VBZ", "VBG", "DT", "NN", "."]
+# ::lemmas ["a", "man", "with", "a", "white", "shirt", "and", "helmet", "be", "climb", "a", "mountain", "."]
+(c0 / climb-01
+      :ARG0 (m1 / man
+            :ARG0-of (h0 / have-03
+                  :ARG1 (a0 / and
+                        :op2 (h1 / helmet)
+                        :op1 (s0 / shirt
+                              :ARG1-of (w0 / white-03)))))
+      :ARG1 (m0 / mountain))

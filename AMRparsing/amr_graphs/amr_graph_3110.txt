@@ -1,0 +1,11 @@
+# ::snt three gray dogs jump at a woman .
+# ::tokens ["three", "gray", "dogs", "jump", "at", "a", "woman", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "JJ", "NNS", "VBP", "IN", "DT", "NN", "."]
+# ::lemmas ["three", "gray", "dog", "jump", "at", "a", "woman", "."]
+(j0 / jump-03
+      :destination (w0 / woman)
+      :ARG0 (d0 / dog
+            :quant 3 
+            :ARG0-of (g0 / gray-02)))

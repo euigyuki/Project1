@@ -1,0 +1,15 @@
+# ::snt black dog paddles through the water with a bright ball in its mouth .
+# ::tokens ["black", "dog", "paddles", "through", "the", "water", "with", "a", "bright", "ball", "in", "its", "mouth", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["JJ", "NN", "VBZ", "IN", "DT", "NN", "IN", "DT", "JJ", "NN", "IN", "PRP$", "NN", "."]
+# ::lemmas ["black", "dog", "paddle", "through", "the", "water", "with", "a", "bright", "ball", "in", "its", "mouth", "."]
+(p0 / paddle-01
+      :ARG0 (d0 / dog
+            :part (m0 / mouth)
+            :part (b0 / black-04))
+      :ARG1 (w0 / water
+            :ARG1-of (h0 / have-03
+                  :ARG0 d0
+                  :ARG1 (b1 / ball
+                        :ARG1-of (b2 / bright-02)))))

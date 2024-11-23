@@ -1,0 +1,11 @@
+# ::snt a brown dog leaps into a swimming pool .
+# ::tokens ["a", "brown", "dog", "leaps", "into", "a", "swimming", "pool", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "NNS", "IN", "DT", "NN", "NN", "."]
+# ::lemmas ["a", "brown", "dog", "leap", "into", "a", "swimming", "pool", "."]
+(l0 / leap-03
+      :destination (p0 / pool
+            :mod (s0 / swim-01))
+      :ARG0 (d0 / dog
+            :ARG1-of (b0 / brown)))

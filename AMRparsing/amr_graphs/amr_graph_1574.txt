@@ -1,0 +1,4 @@
+(b0 / be-located-at-91
+    :ARG1 (p0 / picture
+              :poss (p1 / person))
+    :ARG2 (h0 / here))

@@ -1,0 +1,6 @@
+(w0 / walk-01
+    :time (d0 / day
+              :ARG1-of (b0 / bright-02))
+    :mod (t0 / together)
+    :ARG0 (g0 / group
+              :consist-of (c0 / child)))

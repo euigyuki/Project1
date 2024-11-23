@@ -1,0 +1,13 @@
+# ::snt a red-haired girl , dressed in blue , is leaping into a bank of sand .
+# ::tokens ["a", "red", "-", "haired", "girl", ",", "dressed", "in", "blue", ",", "is", "leaping", "into", "a", "bank", "of", "sand", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "HYPH", "JJ", "NN", ",", "VBN", "IN", "NNP", ",", "VBZ", "VBG", "IN", "DT", "NN", "IN", "NN", "."]
+# ::lemmas ["a", "red", "-", "haired", "girl", ",", "dress", "in", "blue", ",", "be", "leap", "into", "a", "bank", "of", "sand", "."]
+(l0 / leap-03
+      :ARG0 (g0 / girl
+            :part (h0 / have-03)
+            :ARG1-of (d0 / dress-01
+                  :ARG2 (b1 / blue)))
+      :destination (b0 / bank
+            :consist-of (s0 / sand)))

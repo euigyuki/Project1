@@ -1,0 +1,11 @@
+# ::snt a young bride purses her lips .
+# ::tokens ["a", "young", "bride", "purses", "her", "lips", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "NNS", "PRP$", "NNS", "."]
+# ::lemmas ["a", "young", "bride", "purse", "her", "lip", "."]
+(t0 / trump-01
+      :ARG0 (b0 / bride
+            :part (l0 / lip)
+            :mod (y0 / young))
+      :ARG1 l0)

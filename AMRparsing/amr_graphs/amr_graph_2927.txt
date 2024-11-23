@@ -1,0 +1,13 @@
+# ::snt there is a baby with orange-stained lips staring at the camera .
+# ::tokens ["there", "is", "a", "baby", "with", "orange", "-", "stained", "lips", "staring", "at", "the", "camera", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["EX", "VBZ", "DT", "NN", "IN", "NN", "HYPH", "VBN", "NNS", "VBG", "IN", "DT", "NN", "."]
+# ::lemmas ["there", "be", "a", "baby", "with", "orange", "-", "stain", "lip", "stare", "at", "the", "camera", "."]
+(s0 / stare-01
+      :ARG0 (b0 / baby
+            :part (h0 / have-03
+                  :ARG1 (l0 / lip
+                        :ARG1-of (s1 / stain-01
+                              :ARG2 (o0 / orange)))))
+      :ARG1 (c0 / camera))

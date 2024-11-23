@@ -1,0 +1,5 @@
+(s0 / stand-01
+    :ARG1 (m0 / man
+              :ARG0-of (h0 / have-03
+                           :ARG1 (c0 / cap
+                                     :ARG1-of (g0 / green-02)))))

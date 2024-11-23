@@ -1,0 +1,15 @@
+# ::snt a little boy rides a bike down a hill on a miniature dirt bike .
+# ::tokens ["a", "little", "boy", "rides", "a", "bike", "down", "a", "hill", "on", "a", "miniature", "dirt", "bike", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "VBZ", "DT", "NN", "IN", "DT", "NN", "IN", "DT", "JJ", "NN", "NN", "."]
+# ::lemmas ["a", "little", "boy", "ride", "a", "bike", "down", "a", "hill", "on", "a", "miniature", "dirt", "bike", "."]
+(r0 / ride-01
+      :instrument (b2 / bike
+            :mod (m0 / miniature)
+            :mod (d1 / dirt))
+      :direction (d0 / down
+            :op1 (h0 / hill))
+      :ARG0 (b1 / boy
+            :mod (l0 / little))
+      :ARG1 (b0 / bike))

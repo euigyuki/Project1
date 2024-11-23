@@ -1,0 +1,4 @@
+(r0 / ride-01
+    :ARG0 (p0 / person
+              :ARG0-of (f0 / fight-01)
+              :quant 2))

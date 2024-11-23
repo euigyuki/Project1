@@ -1,0 +1,5 @@
+(d0 / dance-01
+    :manner (e0 / energy
+                :mod (f0 / full))
+    :manner (m0 / music)
+    :ARG0 (a0 / all))

@@ -1,0 +1,12 @@
+# ::snt little boy in pajamas playing with a red ball .
+# ::tokens ["little", "boy", "in", "pajamas", "playing", "with", "a", "red", "ball", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["JJ", "NN", "IN", "NNS", "VBG", "IN", "DT", "JJ", "NN", "."]
+# ::lemmas ["little", "boy", "in", "pajama", "play", "with", "a", "red", "ball", "."]
+(p0 / play-01
+      :ARG2 (b1 / ball
+            :ARG1-of (r0 / red-02))
+      :ARG0 (b0 / boy
+            :ARG0-of (p1 / pajama)
+            :mod (l0 / little)))

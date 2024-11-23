@@ -1,0 +1,13 @@
+# ::snt a black man plays the electric bass while a child watches
+# ::tokens ["a", "black", "man", "plays", "the", "electric", "bass", "while", "a", "child", "watches"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "VBZ", "DT", "JJ", "NN", "IN", "DT", "NN", "VBZ"]
+# ::lemmas ["a", "black", "man", "play", "the", "electric", "bass", "while", "a", "child", "watch"]
+(p0 / play-11
+      :time (w0 / watch-01
+            :ARG1 (c0 / child))
+      :ARG0 (m0 / man
+            :ARG1-of (b1 / black-05))
+      :ARG1 (b0 / bass
+            :mod (e0 / electric)))

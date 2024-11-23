@@ -1,0 +1,7 @@
+(b0 / be-located-at-91
+    :ARG2 (r0 / room
+              :mod (s1 / spiral))
+    :ARG1 (b1 / boy
+              :mod (s0 / shirt
+                       :mod (b2 / blue))
+              :mod (y0 / young)))

@@ -1,0 +1,8 @@
+(a0 / and
+    :time (c0 / contrast-01)
+    :op2 (d0 / do-02
+             :ARG1 (s0 / something)
+             :ARG0 (g0 / guy
+                       :part (h0 / hand)))
+    :op1 (t0 / talk-01
+             :ARG0 g0))

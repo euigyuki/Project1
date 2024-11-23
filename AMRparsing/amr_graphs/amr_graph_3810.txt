@@ -1,0 +1,4 @@
+(c0 / canoe
+    :direction (d0 / down)
+    :mod (w0 / woman
+             :accompanier (d1 / dog)))

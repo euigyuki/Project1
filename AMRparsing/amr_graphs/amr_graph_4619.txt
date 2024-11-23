@@ -1,0 +1,11 @@
+# ::snt a man in a black suit plays the piano .
+# ::tokens ["a", "man", "in", "a", "black", "suit", "plays", "the", "piano", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "DT", "JJ", "NN", "VBZ", "DT", "NN", "."]
+# ::lemmas ["a", "man", "in", "a", "black", "suit", "play", "the", "piano", "."]
+(p0 / play-11
+      :ARG0 (m0 / man
+            :mod (s0 / suit
+                  :ARG1-of (b0 / black-05)))
+      :ARG1 (p1 / piano))

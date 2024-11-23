@@ -1,0 +1,16 @@
+# ::snt a young girl with ponytails is reaching up to blue bars and crying .
+# ::tokens ["a", "young", "girl", "with", "ponytails", "is", "reaching", "up", "to", "blue", "bars", "and", "crying", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "IN", "NNS", "VBZ", "VBG", "RP", "IN", "JJ", "NNS", "CC", "VBG", "."]
+# ::lemmas ["a", "young", "girl", "with", "ponytail", "be", "reach", "up", "to", "blue", "bar", "and", "cry", "."]
+(a0 / and
+      :op2 (c0 / cry-02
+            :ARG0 g0)
+      :op1 (r0 / reach-03
+            :ARG0 (g0 / girl
+                  :ARG0-of (h0 / have-03
+                        :ARG1 (p0 / ponytail))
+                  :mod (y0 / young))
+            :ARG1 (b0 / bar
+                  :mod (b1 / blue))))

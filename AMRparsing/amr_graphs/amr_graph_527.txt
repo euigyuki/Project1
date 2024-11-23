@@ -1,0 +1,16 @@
+# ::snt three children wearing swim trunks and no shirts play in the surf .
+# ::tokens ["three", "children", "wearing", "swim", "trunks", "and", "no", "shirts", "play", "in", "the", "surf", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "VBG", "JJ", "NNS", "CC", "DT", "NNS", "VBP", "IN", "DT", "NN", "."]
+# ::lemmas ["three", "child", "wear", "swim", "trunk", "and", "no", "shirt", "play", "in", "the", "surf", "."]
+(p0 / play-01
+      :location (s0 / surf-01)
+      :ARG0 (c0 / child
+            :quant 3 
+            :ARG0-of (w0 / wear-01
+                  :ARG1 (a0 / and
+                        :op2 (s1 / shirt
+                              :polarity - )
+                        :op1 (t0 / trunk
+                              :mod (s2 / swim-01))))))

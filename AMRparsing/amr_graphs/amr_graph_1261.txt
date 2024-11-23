@@ -1,0 +1,16 @@
+# ::snt a black and white dog jomps over another black and white dog to catch a cloth frisbee .
+# ::tokens ["a", "black", "and", "white", "dog", "jomps", "over", "another", "black", "and", "white", "dog", "to", "catch", "a", "cloth", "frisbee", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "CC", "JJ", "NN", "NNS", "IN", "DT", "JJ", "CC", "JJ", "NN", "TO", "VB", "DT", "NN", "NN", "."]
+# ::lemmas ["a", "black", "and", "white", "dog", "jomp", "over", "another", "black", "and", "white", "dog", "to", "catch", "a", "cloth", "frisbee", "."]
+(j0 / jump-on-bandwagon-09
+      :purpose (c0 / catch-01
+            :ARG0 (d1 / dog
+                  :ARG1-of (w0 / white-02))
+            :ARG1 (f0 / frisbee
+                  :mod (c1 / cloth)))
+      :ARG0 d1
+      :ARG1 (d0 / dog
+            :ARG1-of (b0 / black-05)
+            :mod (a0 / another)))

@@ -1,0 +1,14 @@
+# ::snt a man on top of a tiled roof works next to his bucket .
+# ::tokens ["a", "man", "on", "top", "of", "a", "tiled", "roof", "works", "next", "to", "his", "bucket", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "NN", "IN", "DT", "VBN", "NN", "VBZ", "RB", "IN", "PRP$", "NN", "."]
+# ::lemmas ["a", "man", "on", "top", "of", "a", "tile", "roof", "work", "next", "to", "his", "bucket", "."]
+(w0 / work-01
+      :location (n0 / next-to
+            :op1 b0)
+      :ARG0 (m0 / man
+            :poss-of (b0 / bucket)
+            :location (t0 / top
+                  :part-of (r0 / roof
+                        :ARG1-of (g0 / grind-01)))))

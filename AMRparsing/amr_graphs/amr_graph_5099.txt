@@ -1,0 +1,13 @@
+# ::snt a girl with red-hair is jumping on a sand dune .
+# ::tokens ["a", "girl", "with", "red", "-", "hair", "is", "jumping", "on", "a", "sand", "dune", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "JJ", "HYPH", "NN", "VBZ", "VBG", "IN", "DT", "NN", "NN", "."]
+# ::lemmas ["a", "girl", "with", "red", "-", "hair", "be", "jump", "on", "a", "sand", "dune", "."]
+(j0 / jump-03
+      :destination (d0 / dune
+            :mod (s0 / sand))
+      :ARG0 (g0 / girl
+            :ARG0-of (h0 / have-03
+                  :ARG1 (h1 / hair
+                        :ARG1-of (r0 / red-02)))))

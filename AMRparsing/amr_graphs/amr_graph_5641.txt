@@ -1,0 +1,21 @@
+# ::snt several people in the mid-ground sit on a bench along the side of a white building , while three people stand in a courtyard in front of the building .
+# ::tokens ["several", "people", "in", "the", "mid", "-", "ground", "sit", "on", "a", "bench", "along", "the", "side", "of", "a", "white", "building", ",", "while", "three", "people", "stand", "in", "a", "courtyard", "in", "front", "of", "the", "building", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["JJ", "NNS", "IN", "DT", "JJ", "JJ", "JJ", "NN", "IN", "DT", "NN", "IN", "DT", "NN", "IN", "DT", "JJ", "NN", ",", "IN", "CD", "NNS", "VBP", "IN", "DT", "NN", "IN", "NN", "IN", "DT", "NN", "."]
+# ::lemmas ["several", "people", "in", "the", "mid", "-", "ground", "sit", "on", "a", "bench", "along", "the", "side", "of", "a", "white", "building", ",", "while", "three", "people", "stand", "in", "a", "courtyard", "in", "front", "of", "the", "building", "."]
+(c0 / contrast-01
+      :ARG2 (s1 / stand-01
+            :ARG2 (c1 / courtyard
+                  :location (i0 / in-front-of))
+            :ARG1 (p1 / person
+                  :quant 3 ))
+      :ARG1 (s0 / sit-01
+            :ARG2 (b0 / bench
+                  :location (a0 / along
+                        :op1 (b1 / building
+                              :ARG1-of (w0 / white-03))))
+            :ARG1 (p0 / person
+                  :location (g0 / ground
+                        :mod (m0 / middle))
+                  :quant (s2 / several))))

@@ -1,0 +1,5 @@
+(s0 / skip-01
+    :direction (s2 / sideways)
+    :ARG0 (g0 / girl
+              :ARG0-of (w0 / wear-01)
+              :mod (l0 / little)))

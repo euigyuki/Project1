@@ -1,0 +1,3 @@
+(p0 / person
+    :ARG0-of (p1 / play-01)
+    :quant 3)

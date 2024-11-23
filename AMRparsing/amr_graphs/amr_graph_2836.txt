@@ -1,0 +1,5 @@
+(s0 / sit-01
+    :mod (a0 / alone)
+    :ARG1 (m0 / man
+              :ARG1-of (w0 / white-02)
+              :age (a1 / age-01)))

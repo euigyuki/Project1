@@ -1,0 +1,9 @@
+(b0 / be-located-at-91
+    :ARG2 (k0 / kitchen
+              :ARG1-of (n0 / near-02
+                           :ARG2 (r0 / range))
+              :mod (s0 / small))
+    :ARG1 (w0 / woman
+              :poss-of (h1 / handstanding)
+              :ARG0-of (h0 / have-03
+                           :ARG1 (s1 / sponge))))

@@ -1,0 +1,7 @@
+(a0 / and
+    :op2 (u0 / use-01
+             :ARG1 (e0 / electronic)
+             :ARG0 (g0 / group
+                       :consist-of (p0 / person)))
+    :op1 (s0 / sit-01
+             :ARG1 g0))

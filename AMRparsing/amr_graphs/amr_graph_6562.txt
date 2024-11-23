@@ -1,0 +1,5 @@
+(r0 / run-02
+    :ARG0 (d0 / dog
+              :ARG0-of (f0 / favor-01)
+              :mod (g1 / golden)
+              :quant 2))

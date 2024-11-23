@@ -1,0 +1,19 @@
+# ::snt a man and woman dressed in punk rock style clothing are seen crossing the street during the daytime .
+# ::tokens ["a", "man", "and", "woman", "dressed", "in", "punk", "rock", "style", "clothing", "are", "seen", "crossing", "the", "street", "during", "the", "daytime", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "CC", "NN", "VBN", "IN", "NN", "NN", "NN", "NN", "VBP", "VBN", "VBG", "DT", "NN", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "man", "and", "woman", "dress", "in", "punk", "rock", "style", "clothing", "be", "see", "cross", "the", "street", "during", "the", "daytime", "."]
+(s0 / see-01
+      :time (a0 / and
+            :ARG1-of (d1 / dress-01
+                  :ARG2 (c1 / clothing
+                        :mod (s2 / style
+                              :mod (r0 / rock
+                                    :mod (p0 / punk)))))
+            :op2 (w0 / woman)
+            :op1 (m0 / man))
+      :ARG1 (c0 / cross-02
+            :time (d0 / date-entity
+                  :dayperiod (d2 / daytime))
+            :ARG1 (s1 / street)))

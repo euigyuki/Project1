@@ -1,0 +1,16 @@
+# ::snt german shepherd retrieving large stick from water
+# ::tokens ["german", "shepherd", "retrieving", "large", "stick", "from", "water"]
+# ::ner_tags ["NORP", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["JJ", "NN", "VBG", "JJ", "NN", "IN", "NN"]
+# ::lemmas ["german", "shepherd", "retrieve", "large", "stick", "from", "water"]
+(r0 / retrieve-01
+      :ARG2 (w0 / water)
+      :ARG0 (p0 / person
+            :ARG0-of (h0 / have-org-role-91
+                  :ARG2 (s1 / shepherd)
+                  :ARG1 (c0 / country
+                        :name (n0 / name
+                              :op1 "Germany" ))))
+      :ARG1 (s0 / stick
+            :mod (l0 / large)))

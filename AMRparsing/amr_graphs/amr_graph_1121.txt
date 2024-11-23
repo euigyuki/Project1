@@ -1,0 +1,6 @@
+(s0 / show-01
+    :time (p0 / play-01
+              :ARG0 (m0 / man))
+    :ARG0 m0
+    :ARG1 (s1 / sign
+              :mod (p1 / peace)))

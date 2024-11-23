@@ -1,0 +1,4 @@
+(p0 / play-01
+    :ARG0 (m0 / musician
+              :mod (s0 / street)
+              :quant 3))

@@ -1,0 +1,12 @@
+# ::snt group of men grinding stone in poor conditions .
+# ::tokens ["group", "of", "men", "grinding", "stone", "in", "poor", "conditions", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["NN", "IN", "NNS", "VBG", "NN", "IN", "JJ", "NNS", "."]
+# ::lemmas ["group", "of", "man", "grind", "stone", "in", "poor", "condition", "."]
+(g0 / group
+      :consist-of (m0 / man
+            :ARG0-of (g1 / grind-01
+                  :condition (c0 / condition
+                        :mod (p0 / poor))
+                  :ARG1 (s0 / stone))))

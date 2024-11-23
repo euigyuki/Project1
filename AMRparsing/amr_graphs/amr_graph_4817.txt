@@ -1,0 +1,14 @@
+# ::snt a woman wearing a black dress with flowers playing a guitar .
+# ::tokens ["a", "woman", "wearing", "a", "black", "dress", "with", "flowers", "playing", "a", "guitar", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBG", "DT", "JJ", "NN", "IN", "NNS", "VBG", "DT", "NN", "."]
+# ::lemmas ["a", "woman", "wear", "a", "black", "dress", "with", "flower", "play", "a", "guitar", "."]
+(w0 / woman
+      :ARG0-of (p0 / play-11
+            :ARG2 (g0 / guitar))
+      :ARG1-of (w1 / wear-01
+            :ARG1 (d0 / dress
+                  :consist-of (h0 / have-03
+                        :ARG1 (f0 / flower))
+                  :ARG1-of (b0 / black-04))))

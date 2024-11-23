@@ -1,0 +1,3 @@
+(t0 / talk-01
+    :ARG0 (p0 / person
+              :quant 3))

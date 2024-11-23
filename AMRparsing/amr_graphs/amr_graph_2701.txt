@@ -1,0 +1,15 @@
+# ::snt the german shepherd is running through the white snow .
+# ::tokens ["the", "german", "shepherd", "is", "running", "through", "the", "white", "snow", "."]
+# ::ner_tags ["O", "NORP", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "B", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "VBZ", "VBG", "IN", "DT", "JJ", "NN", "."]
+# ::lemmas ["the", "german", "shepherd", "be", "run", "through", "the", "white", "snow", "."]
+(r0 / run-02
+      :ARG0 (p0 / person
+            :ARG0-of (h0 / have-org-role-91
+                  :ARG2 (s1 / shepherd)
+                  :ARG1 (c0 / country
+                        :name (n0 / name
+                              :op1 "Germany" ))))
+      :ARG1 (s0 / snow
+            :ARG1-of (w0 / white-03)))

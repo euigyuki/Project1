@@ -1,0 +1,12 @@
+# ::snt a woman in a black t-shirt swinging on a swing .
+# ::tokens ["a", "woman", "in", "a", "black", "t", "-", "shirt", "swinging", "on", "a", "swing", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "DT", "JJ", "NN", "HYPH", "NN", "VBG", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "woman", "in", "a", "black", "t", "-", "shirt", "swinge", "on", "a", "swing", "."]
+(s0 / swim-01
+      :ARG2 (s1 / swing)
+      :ARG0 (w0 / woman
+            :ARG0-of (h0 / have-03
+                  :ARG1 (t0 / t-shirt
+                        :ARG1-of (b0 / black-04)))))

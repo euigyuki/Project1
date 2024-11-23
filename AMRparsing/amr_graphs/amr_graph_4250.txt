@@ -1,0 +1,10 @@
+# ::snt men unlocking a gate for a train .
+# ::tokens ["men", "unlocking", "a", "gate", "for", "a", "train", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["NNS", "VBG", "DT", "NN", "IN", "DT", "NN", "."]
+# ::lemmas ["man", "unlock", "a", "gate", "for", "a", "train", "."]
+(u0 / unlock
+      :purpose (t0 / train)
+      :beneficiary (m0 / man)
+      :purpose (g0 / gate))

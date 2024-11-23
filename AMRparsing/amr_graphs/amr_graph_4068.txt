@@ -1,0 +1,12 @@
+# ::snt a little boy runs through a crowd of pigeons .
+# ::tokens ["a", "little", "boy", "runs", "through", "a", "crowd", "of", "pigeons", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "VBZ", "IN", "DT", "NN", "IN", "NNS", "."]
+# ::lemmas ["a", "little", "boy", "run", "through", "a", "crowd", "of", "pigeon", "."]
+(r0 / run-02
+      :path (t0 / through
+            :op1 (c0 / crowd
+                  :consist-of (p0 / pigeon)))
+      :ARG0 (b0 / boy
+            :mod (l0 / little)))

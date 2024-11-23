@@ -1,0 +1,16 @@
+# ::snt a german shepherd carries a small log in the water .
+# ::tokens ["a", "german", "shepherd", "carries", "a", "small", "log", "in", "the", "water", "."]
+# ::ner_tags ["O", "NORP", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "B", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "VBZ", "DT", "JJ", "NN", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "german", "shepherd", "carry", "a", "small", "log", "in", "the", "water", "."]
+(c0 / carry-01
+      :destination (w0 / water)
+      :ARG0 (p0 / person
+            :ARG0-of (h0 / have-org-role-91
+                  :ARG2 (s1 / shepherd)
+                  :ARG1 (c1 / country
+                        :name (n0 / name
+                              :op1 "Germany" ))))
+      :ARG1 (l0 / log
+            :mod (s0 / small)))

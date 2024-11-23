@@ -1,0 +1,17 @@
+# ::snt one dog shaking the water off , getting a second dog wet
+# ::tokens ["one", "dog", "shaking", "the", "water", "off", ",", "getting", "a", "second", "dog", "wet"]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "ORDINAL", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O", "B", "O", "O"]
+# ::pos_tags ["CD", "NN", "VBG", "DT", "NN", "RP", ",", "VBG", "DT", "JJ", "NN", "NN"]
+# ::lemmas ["one", "dog", "shake", "the", "water", "off", ",", "get", "a", "second", "dog", "wet"]
+(a0 / and
+      :op2 (g0 / get-01
+            :ARG1 (d1 / dog
+                  :ord (o1 / ordinal-entity
+                        :value 2 ))
+            :ARG0 d0)
+      :op1 (s0 / shake-01
+            :direction (o0 / off)
+            :ARG0 (d0 / dog
+                  :quant 1 )
+            :ARG1 (w0 / water)))

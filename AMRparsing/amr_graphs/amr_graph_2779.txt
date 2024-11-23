@@ -1,0 +1,6 @@
+(d0 / dance-01
+    :manner (u0 / up)
+    :ARG0 (g0 / girl
+              :part (a0 / arm)
+              :ARG0-of (h0 / hold-01)
+              :quant 24))

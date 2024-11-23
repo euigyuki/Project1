@@ -1,0 +1,18 @@
+# ::snt newly wedded man and woman jump for joy on the great wall of china .
+# ::tokens ["newly", "wedded", "man", "and", "woman", "jump", "for", "joy", "on", "the", "great", "wall", "of", "china", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "GPE", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B", "O"]
+# ::pos_tags ["RB", "VBN", "NN", "CC", "NN", "VB", "IN", "NN", "IN", "DT", "JJ", "NN", "IN", "NNP", "."]
+# ::lemmas ["newly", "wed", "man", "and", "woman", "jump", "for", "joy", "on", "the", "great", "wall", "of", "china", "."]
+(j0 / jump-on-bandwagon-09
+      :ARG0 (a0 / and
+            :mod (j1 / joy)
+            :op2 (w1 / woman)
+            :op1 (m0 / man
+                  :ARG1-of (w2 / wed-01
+                        :ARG1-of (n1 / new-01))))
+      :ARG1 (w0 / wall
+            :part-of (c0 / country
+                  :name (n0 / name
+                        :op1 "China" ))
+            :mod (g0 / great)))

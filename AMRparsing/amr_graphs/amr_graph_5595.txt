@@ -1,0 +1,4 @@
+(h0 / hold-01
+    :ARG3 (u0 / up)
+    :ARG1 (c0 / caricature
+              :quant 2))

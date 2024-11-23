@@ -1,0 +1,13 @@
+# ::snt an elderly woman sits in a chair with a book and smiles at the pretty flowers in her room .
+(z1 / and
+      :op1 (z2 / sit-01
+            :ARG1 (z3 / woman
+                  :mod (z4 / elderly))
+            :ARG2 (z5 / chair)
+            :accompanier (z6 / book))
+      :op2 (z7 / smile-01
+            :ARG0 z3
+            :ARG2 (z8 / flower
+                  :mod (z9 / pretty)
+                  :location (z10 / room
+                        :poss z3))))

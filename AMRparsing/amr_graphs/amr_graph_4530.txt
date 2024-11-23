@@ -1,0 +1,12 @@
+# ::snt this girl is jumping off of a rock onto the sand .
+# ::tokens ["this", "girl", "is", "jumping", "off", "of", "a", "rock", "onto", "the", "sand", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "VBG", "IN", "IN", "DT", "NN", "IN", "DT", "NN", "."]
+# ::lemmas ["this", "girl", "be", "jump", "off", "of", "a", "rock", "onto", "the", "sand", "."]
+(j0 / jump-03
+      :destination (s0 / sand)
+      :direction (o0 / off
+            :op1 (r0 / rock))
+      :ARG0 (g0 / girl
+            :mod (t0 / this)))

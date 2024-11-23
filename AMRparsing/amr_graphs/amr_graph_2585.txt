@@ -1,0 +1,10 @@
+# ::snt woman makes a gingerbread house .
+# ::tokens ["woman", "makes", "a", "gingerbread", "house", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["NN", "VBZ", "DT", "NN", "NN", "."]
+# ::lemmas ["woman", "make", "a", "gingerbread", "house", "."]
+(m0 / make-01
+      :ARG0 (w0 / woman)
+      :ARG1 (h0 / house
+            :mod (g0 / gingerbread)))

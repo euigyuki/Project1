@@ -1,0 +1,17 @@
+# ::snt sisters on a red four wheeler wanting to go for a ride .
+# ::tokens ["sisters", "on", "a", "red", "four", "wheeler", "wanting", "to", "go", "for", "a", "ride", "."]
+# ::ner_tags ["O", "O", "O", "O", "CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "B", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["NNS", "IN", "DT", "JJ", "CD", "NN", "VBG", "TO", "VB", "IN", "DT", "NN", "."]
+# ::lemmas ["sister", "on", "a", "red", "four", "wheeler", "want", "to", "go", "for", "a", "ride", "."]
+(w0 / want-01
+      :ARG0 (p0 / person
+            :ARG0-of (g0 / go-02
+                  :purpose (r0 / ride-01
+                        :ARG1 p0))
+            :location (w1 / wheeler
+                  :ARG1-of (r1 / red-02)
+                  :quant 4 )
+            :ARG0-of (h0 / have-rel-role-91
+                  :ARG2 (s0 / sister)))
+      :ARG1 g0)

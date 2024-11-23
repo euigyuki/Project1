@@ -1,0 +1,12 @@
+# ::snt a small boy following <number> geese .
+# ::tokens ["a", "small", "boy", "following", "<", "number", ">", "geese", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "NORP", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "B", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "VBG", "ADD", "NN", "-RRB-", "NNP", "."]
+# ::lemmas ["a", "small", "boy", "follow", "<", "number", ">", "geese", "."]
+(f0 / follow-01
+      :ARG1 (b0 / boy
+            :mod (s0 / small))
+      :ARG2 (p0 / person
+            :name (n0 / name
+                  :op1 "geese" )))

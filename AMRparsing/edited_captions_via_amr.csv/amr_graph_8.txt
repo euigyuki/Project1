@@ -1,0 +1,12 @@
+# ::snt A man hangs on to a strand of cloth with his big toe
+# ::tokens ["A", "man", "hangs", "on", "to", "a", "strand", "of", "cloth", "with", "his", "big", "toe"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "RP", "IN", "DT", "NN", "IN", "NN", "IN", "PRP$", "JJ", "NN"]
+# ::lemmas ["a", "man", "hang", "on", "to", "a", "strand", "of", "cloth", "with", "his", "big", "toe"]
+(h0 / hang-01
+      :ARG2 (b0 / big
+            :poss (m0 / man))
+      :ARG0 m0
+      :ARG1 (s0 / strand
+            :consist-of (c0 / cloth)))

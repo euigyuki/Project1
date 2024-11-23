@@ -1,0 +1,13 @@
+# ::snt A woolly dog chases a Doberman on a beach .
+# ::tokens ["A", "woolly", "dog", "chases", "a", "Doberman", "on", "a", "beach", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "NORP", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "B", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "NNS", "DT", "NNP", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "woolly", "dog", "chase", "a", "Doberman", "on", "a", "beach", "."]
+(c0 / chase-01
+      :location (b0 / beach)
+      :ARG0 (d0 / dog
+            :mod (w0 / woolly))
+      :ARG1 (c1 / car-make
+            :name (n0 / name
+                  :op1 "Doberman" )))

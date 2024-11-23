@@ -1,0 +1,18 @@
+# ::snt a large group of people traveling down a countryside road in the back of a small pickup truck while one person is walking along side the truck .
+(z1 / travel-01
+      :ARG0 (z2 / group
+            :mod (z3 / large)
+            :consist-of (z4 / person))
+      :ARG1 (z5 / road
+            :mod (z6 / countryside)
+            :direction (z7 / down))
+      :manner (z8 / back
+            :part-of (z9 / truck
+                  :mod (z10 / pickup)
+                  :mod (z11 / small)))
+      :time (z12 / walk-01
+            :ARG0 (z13 / person
+                  :quant 1)
+            :ARG2 (z14 / along
+                  :op1 (z15 / side
+                        :part-of z9))))

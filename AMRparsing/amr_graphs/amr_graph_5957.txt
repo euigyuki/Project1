@@ -1,0 +1,8 @@
+(l0 / look-01
+    :ARG1 (d0 / display
+              :consist-of (p0 / purse)
+              :mod (l1 / large))
+    :ARG0 (w0 / woman
+              :ARG0-of (h0 / have-03
+                           :ARG1 (h1 / hair
+                                     :ARG1-of (c0 / curious-01)))))

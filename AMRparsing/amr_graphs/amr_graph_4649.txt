@@ -1,0 +1,6 @@
+(m0 / male
+    :ARG0-of (j0 / jump-on-bandwagon-09
+                 :ARG1 (c0 / chair
+                           :ARG1-of (w0 / white-03)
+                           :mod (p0 / patio)))
+    :mod (y0 / young))

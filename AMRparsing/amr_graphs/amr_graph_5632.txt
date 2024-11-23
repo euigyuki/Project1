@@ -1,0 +1,16 @@
+# ::snt three people are standing in an aisle between two shelving units stacked with books .
+# ::tokens ["three", "people", "are", "standing", "in", "an", "aisle", "between", "two", "shelving", "units", "stacked", "with", "books", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "CARDINAL", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "B", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "VBP", "VBG", "IN", "DT", "NN", "IN", "CD", "VBG", "NNS", "VBN", "IN", "NNS", "."]
+# ::lemmas ["three", "people", "be", "stand", "in", "an", "aisle", "between", "two", "shelve", "unit", "stack", "with", "book", "."]
+(s0 / stand-01
+      :ARG2 (b0 / between
+            :op2 (u0 / unit
+                  :quant 2 
+                  :ARG0-of (c0 / chew-01)
+                  :ARG1-of (p1 / park-01
+                        :ARG2 (b1 / book)))
+            :op1 (a0 / aisle))
+      :ARG1 (p0 / person
+            :quant 3 ))

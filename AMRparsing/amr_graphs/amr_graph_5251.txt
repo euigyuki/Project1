@@ -1,0 +1,5 @@
+(b0 / be-located-at-91
+    :ARG2 (b1 / background)
+    :ARG1 (g0 / group
+              :consist-of (g1 / goat)
+              :mod (s0 / small)))

@@ -1,0 +1,16 @@
+# ::snt a hiker puts his feet in a stream while wearing brown shoes .
+# ::tokens ["a", "hiker", "puts", "his", "feet", "in", "a", "stream", "while", "wearing", "brown", "shoes", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "PRP$", "NNS", "IN", "DT", "NN", "IN", "VBG", "JJ", "NNS", "."]
+# ::lemmas ["a", "hiker", "put", "his", "foot", "in", "a", "stream", "while", "wear", "brown", "shoe", "."]
+(p0 / put-01
+      :time (w0 / wear-01
+            :ARG1 (p1 / person
+                  :part (f0 / foot)
+                  :ARG0-of (f1 / fish-01))
+            :ARG1 (s1 / shoe
+                  :mod (b0 / brown)))
+      :ARG2 (s0 / stream)
+      :ARG0 p1
+      :ARG1 f0)

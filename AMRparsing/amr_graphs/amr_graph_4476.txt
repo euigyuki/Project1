@@ -1,0 +1,13 @@
+# ::snt sooners football player number <number> plays in a game .
+# ::tokens ["sooners", "football", "player", "number", "<", "number", ">", "plays", "in", "a", "game", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["NNS", "NN", "NN", "NN", "ADD", "NN", "-RRB-", "VBZ", "IN", "DT", "NN", "."]
+# ::lemmas ["sooner", "football", "player", "number", "<", "number", ">", "play", "in", "a", "game", "."]
+(p0 / play-01
+      :time (c0 / choose-01)
+      :ARG0 (n0 / number
+            :quant-of (p1 / person
+                  :ARG0-of (p2 / play-01
+                        :ARG1 (f0 / football))))
+      :ARG1 (g0 / game))

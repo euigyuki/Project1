@@ -1,0 +1,12 @@
+# ::snt two boys play with two dogs at the shore .
+# ::tokens ["two", "boys", "play", "with", "two", "dogs", "at", "the", "shore", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "CARDINAL", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "B", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "VBP", "IN", "CD", "NNS", "IN", "DT", "NN", "."]
+# ::lemmas ["two", "boy", "play", "with", "two", "dog", "at", "the", "shore", "."]
+(p0 / play-01
+      :accompanier (d0 / dog
+            :quant 2 )
+      :ARG2 (s0 / shore)
+      :ARG0 (b0 / boy
+            :quant 2 ))

@@ -1,0 +1,6 @@
+(r0 / run-02
+    :ARG0 (d0 / dog
+              :part (m0 / mouth
+                        :ARG1-of (o0 / open-01))
+              :part (b0 / black-04)
+              :ARG1-of o0))

@@ -1,0 +1,11 @@
+(w0 / work-07
+    :ARG0 (g0 / guy
+              :ARG1-of (w1 / white-02)
+              :mod (c0 / country
+                       :mod-of (m0 / man)
+                       :name (n0 / name
+                                 :op1 "America"))
+              :mod (l0 / large
+                       :degree (v0 / very))
+              :quant 2)
+    :ARG1 (s0 / sausage))

@@ -1,0 +1,4 @@
+(p0 / play-01
+    :ARG0 (g1 / group
+              :consist-of (p1 / person))
+    :ARG1 (g0 / game))

@@ -1,0 +1,24 @@
+# ::snt an asian woman in a green sari is accompanied by two men as she climbs a long , steep flight of steps .
+# ::tokens ["an", "asian", "woman", "in", "a", "green", "sari", "is", "accompanied", "by", "two", "men", "as", "she", "climbs", "a", "long", ",", "steep", "flight", "of", "steps", "."]
+# ::ner_tags ["O", "NORP", "O", "O", "O", "O", "O", "O", "O", "O", "CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "B", "O", "O", "O", "O", "O", "O", "O", "O", "B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "IN", "DT", "JJ", "NNP", "VBZ", "VBN", "IN", "CD", "NNS", "IN", "PRP", "VBZ", "DT", "JJ", ",", "JJ", "NN", "IN", "NNS", "."]
+# ::lemmas ["an", "asian", "woman", "in", "a", "green", "sari", "be", "accompany", "by", "two", "man", "as", "she", "climb", "a", "long", ",", "steep", "flight", "of", "step", "."]
+(a0 / accompany-01
+      :ARG0 (m0 / man
+            :quant 2 )
+      :ARG1 (w0 / woman
+            :ARG0-of (c0 / climb-01
+                  :ARG1 (f0 / fly-01
+                        :mod (s3 / steep)
+                        :ARG1-of (l0 / long-03)
+                        :mod (s2 / steep)
+                        :mod (s1 / steep)
+                        :mod (s0 / step-01)))
+            :ARG0-of (w1 / wear-01
+                  :ARG1 (s4 / sari
+                        :ARG1-of (g0 / green)))
+            :mod (c1 / continent
+                  :name (n0 / name
+                        :op1 "Asia" )))
+      :time c0)

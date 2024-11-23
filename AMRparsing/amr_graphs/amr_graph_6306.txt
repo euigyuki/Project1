@@ -1,0 +1,3 @@
+(p0 / play-01
+    :ARG0 (t0 / toddler
+              :ARG0-of (d0 / diaper)))

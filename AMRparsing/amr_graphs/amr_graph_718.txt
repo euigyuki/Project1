@@ -1,0 +1,10 @@
+# ::snt a young woman sips on a drink through a straw .
+# ::tokens ["a", "young", "woman", "sips", "on", "a", "drink", "through", "a", "straw", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "NNS", "IN", "DT", "NN", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "young", "woman", "sip", "on", "a", "drink", "through", "a", "straw", "."]
+(d0 / drink-01
+      :manner (s0 / straw)
+      :ARG0 (w0 / woman
+            :mod (y0 / young)))

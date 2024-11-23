@@ -1,0 +1,4 @@
+(c0 / contrast-01
+    :ARG1 (w0 / walk-01
+              :ARG0 (p0 / person
+                        :quant 2)))

@@ -1,0 +1,10 @@
+# ::snt a dog jumps over the pole .
+# ::tokens ["a", "dog", "jumps", "over", "the", "pole", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "dog", "jump", "over", "the", "pole", "."]
+(j0 / jump-03
+      :ARG2 (o0 / over
+            :op1 (p0 / pole))
+      :ARG0 (d0 / dog))

@@ -1,0 +1,11 @@
+# ::snt a small kid swinging on a tire swing
+# ::tokens ["a", "small", "kid", "swinging", "on", "a", "tire", "swing"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "VBG", "IN", "DT", "NN", "NN"]
+# ::lemmas ["a", "small", "kid", "swinge", "on", "a", "tire", "swing"]
+(s0 / swim-01
+      :ARG1 (s1 / swing
+            :mod (t0 / tire))
+      :ARG0 (k0 / kid
+            :mod (s2 / small)))

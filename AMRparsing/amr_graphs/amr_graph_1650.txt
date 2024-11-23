@@ -1,0 +1,5 @@
+(s0 / swim-01
+    :ARG0 (p0 / person
+              :quant 3
+              :poss-of (l0 / lane)
+              :ARG0-of (s1 / swim-01)))

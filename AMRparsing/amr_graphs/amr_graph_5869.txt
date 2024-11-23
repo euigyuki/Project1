@@ -1,0 +1,16 @@
+# ::snt the grass is grown more and i have to clean the path way .
+# ::tokens ["the", "grass", "is", "grown", "more", "and", "i", "have", "to", "clean", "the", "path", "way", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "VBN", "RBR", "CC", "PRP", "VBP", "TO", "VB", "DT", "NN", "NN", "."]
+# ::lemmas ["the", "grass", "be", "grow", "more", "and", "i", "have", "to", "clean", "the", "path", "way", "."]
+(a0 / and
+      :op2 (o0 / obligate-01
+            :ARG2 (c0 / clean-01
+                  :ARG0 (i0 / i)
+                  :ARG1 (w0 / way
+                        :mod (p0 / path)))
+            :ARG1 i0)
+      :op1 (g0 / grow-03
+            :mod (m0 / more)
+            :ARG1 (g1 / grass)))

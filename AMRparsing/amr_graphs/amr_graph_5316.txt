@@ -1,0 +1,12 @@
+(a0 / and
+    :op2 (l0 / look-01
+             :direction (i3 / inward)
+             :ARG1 (i2 / individual
+                       :ARG0-of (h0 / have-03
+                                    :ARG1 (b0 / beard))
+                       :mod (m0 / middle)
+                       :quant 4)
+             :direction (i1 / inward))
+    :op1 (i0 / individual
+             :ARG1-of (w0 / white-02)
+             :quant 5))

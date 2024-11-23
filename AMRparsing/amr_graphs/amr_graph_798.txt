@@ -1,0 +1,6 @@
+(a0 / applaud-01
+    :purpose (w0 / watch-01
+                 :ARG0 (p0 / person)
+                 :ARG1 (b0 / band))
+    :ARG0 p0
+    :time (c0 / corner))

@@ -1,0 +1,13 @@
+# ::snt the brown dog with the white chest is carrying a ball .
+# ::tokens ["the", "brown", "dog", "with", "the", "white", "chest", "is", "carrying", "a", "ball", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "IN", "DT", "JJ", "NN", "VBZ", "VBG", "DT", "NN", "."]
+# ::lemmas ["the", "brown", "dog", "with", "the", "white", "chest", "be", "carry", "a", "ball", "."]
+(c0 / carry-01
+      :ARG0 (d0 / dog
+            :part (h0 / have-03
+                  :ARG1 (c1 / chest
+                        :ARG1-of (w0 / white-03)))
+            :mod (b1 / brown))
+      :ARG1 (b0 / ball))

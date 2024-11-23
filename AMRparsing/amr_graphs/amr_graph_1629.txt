@@ -1,0 +1,12 @@
+# ::snt three people , smiling while playing cards .
+# ::tokens ["three", "people", ",", "smiling", "while", "playing", "cards", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", ",", "VBG", "IN", "VBG", "NNS", "."]
+# ::lemmas ["three", "people", ",", "smile", "while", "play", "card", "."]
+(s0 / smile-01
+      :time (p1 / play-01
+            :ARG0 (p0 / person
+                  :quant 3 )
+            :ARG1 (c0 / card))
+      :ARG0 p0)

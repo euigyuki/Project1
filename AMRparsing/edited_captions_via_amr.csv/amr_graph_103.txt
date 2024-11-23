@@ -1,0 +1,16 @@
+# ::snt A guy with a sword and traditional fighting gear is getting ready for a fight .
+# ::tokens ["A", "guy", "with", "a", "sword", "and", "traditional", "fighting", "gear", "is", "getting", "ready", "for", "a", "fight", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "DT", "NN", "CC", "JJ", "NN", "NN", "VBZ", "VBG", "JJ", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "guy", "with", "a", "sword", "and", "traditional", "fighting", "gear", "be", "get", "ready", "for", "a", "fight", "."]
+(r0 / ready-01
+      :ARG2 (f0 / fight-01
+            :ARG1 (g0 / guy
+                  :ARG0-of (h0 / have-03
+                        :ARG1 (a0 / and
+                              :op2 (g1 / gear
+                                    :instrument-of (f1 / fight-01)
+                                    :mod (t0 / tradition))
+                              :op1 (s0 / sword)))))
+      :ARG1 g0)

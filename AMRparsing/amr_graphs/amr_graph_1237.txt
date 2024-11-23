@@ -1,0 +1,16 @@
+# ::snt a young man in a purple shirt plays an electric guitar and sings .
+# ::tokens ["a", "young", "man", "in", "a", "purple", "shirt", "plays", "an", "electric", "guitar", "and", "sings", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "IN", "DT", "JJ", "NN", "VBZ", "DT", "JJ", "NN", "CC", "NNS", "."]
+# ::lemmas ["a", "young", "man", "in", "a", "purple", "shirt", "play", "an", "electric", "guitar", "and", "sing", "."]
+(a0 / and
+      :op2 (s0 / sing-01
+            :ARG0 m0)
+      :op1 (p0 / play-02
+            :ARG0 (m0 / man
+                  :ARG0-of (s1 / shirt
+                        :ARG1-of (p1 / purple-02))
+                  :mod (y0 / young))
+            :ARG1 (g0 / guitar
+                  :mod (e0 / electric))))

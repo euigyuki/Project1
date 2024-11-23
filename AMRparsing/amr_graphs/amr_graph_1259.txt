@@ -1,0 +1,11 @@
+# ::snt the biker is riding through a grassy plain .
+# ::tokens ["the", "biker", "is", "riding", "through", "a", "grassy", "plain", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "VBG", "IN", "DT", "JJ", "NN", "."]
+# ::lemmas ["the", "biker", "be", "ride", "through", "a", "grassy", "plain", "."]
+(r0 / ride-01
+      :ARG0 (p1 / person
+            :ARG0-of (d0 / drive-01))
+      :ARG1 (p0 / plain
+            :mod (g0 / grassy)))

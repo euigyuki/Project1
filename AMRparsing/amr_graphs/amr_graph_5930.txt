@@ -1,0 +1,16 @@
+# ::snt a groom and his bride on a beautiful hill .
+# ::tokens ["a", "groom", "and", "his", "bride", "on", "a", "beautiful", "hill", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "CC", "PRP$", "NN", "IN", "DT", "JJ", "NN", "."]
+# ::lemmas ["a", "groom", "and", "his", "bride", "on", "a", "beautiful", "hill", "."]
+(b0 / be-located-at-91
+      :ARG2 (h0 / hill
+            :ARG1-of (b1 / beautiful-02))
+      :ARG1 (a0 / and
+            :op2 (p1 / person)
+            :op1 (p0 / person
+                  :ARG1-of (h2 / have-rel-role-91
+                        :ARG2 (b2 / bride))
+                  :ARG0-of (h1 / have-rel-role-91
+                        :ARG2 (g0 / groom)))))

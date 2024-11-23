@@ -1,0 +1,4 @@
+(g0 / gather-03
+    :ARG0 (c0 / crowd
+              :consist-of (s0 / spectator)
+              :mod (l0 / large)))

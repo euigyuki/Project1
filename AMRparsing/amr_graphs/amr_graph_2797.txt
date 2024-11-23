@@ -1,0 +1,7 @@
+(s0 / stand-01
+    :ARG1 (g0 / girl
+              :part (h1 / hair)
+              :ARG0-of (h0 / have-03
+                           :ARG1 (b0 / blow-01
+                                     :ARG1 h1
+                                     :ARG1 (e0 / everywhere)))))

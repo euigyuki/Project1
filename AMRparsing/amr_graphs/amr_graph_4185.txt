@@ -1,0 +1,9 @@
+# ::snt a crowd of people in a subway
+# ::tokens ["a", "crowd", "of", "people", "in", "a", "subway"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "NNS", "IN", "DT", "NN"]
+# ::lemmas ["a", "crowd", "of", "people", "in", "a", "subway"]
+(c0 / crowd
+      :consist-of (p0 / person)
+      :consist-of (s0 / subway))

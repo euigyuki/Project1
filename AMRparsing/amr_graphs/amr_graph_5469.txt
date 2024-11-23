@@ -1,0 +1,12 @@
+# ::snt two dogs outside on green grass .
+# ::tokens ["two", "dogs", "outside", "on", "green", "grass", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "RB", "IN", "JJ", "NN", "."]
+# ::lemmas ["two", "dog", "outside", "on", "green", "grass", "."]
+(b0 / be-located-at-91
+      :ARG2 (o0 / outside
+            :op1 (g0 / grass
+                  :ARG1-of (g1 / green-02)))
+      :ARG1 (d0 / dog
+            :quant 2 ))

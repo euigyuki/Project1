@@ -1,0 +1,18 @@
+# ::snt a man in an all black outfit just threw a bowling ball down a lane towards the center of the bowling pins .
+# ::tokens ["a", "man", "in", "an", "all", "black", "outfit", "just", "threw", "a", "bowling", "ball", "down", "a", "lane", "towards", "the", "center", "of", "the", "bowling", "pins", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "DT", "DT", "JJ", "NN", "RB", "VBD", "DT", "NN", "NN", "IN", "DT", "NN", "IN", "DT", "NN", "IN", "DT", "NN", "NNS", "."]
+# ::lemmas ["a", "man", "in", "an", "all", "black", "outfit", "just", "throw", "a", "bowling", "ball", "down", "a", "lane", "towards", "the", "center", "of", "the", "bowling", "pin", "."]
+(t0 / throw-01
+      :direction (d0 / down)
+      :ARG2 (l0 / lane
+            :location (c0 / center
+                  :part-of (p0 / pin)))
+      :mod (j0 / just)
+      :ARG0 (m0 / man
+            :ARG0-of (o0 / outfit
+                  :ARG1-of (b2 / black-05
+                        :mod (a0 / all))))
+      :ARG1 (b0 / ball
+            :instrument-of (b1 / bowl-01)))

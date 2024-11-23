@@ -1,0 +1,15 @@
+# ::snt a man in a blank tank top lying down on a gray bench .
+# ::tokens ["a", "man", "in", "a", "blank", "tank", "top", "lying", "down", "on", "a", "gray", "bench", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "DT", "JJ", "NN", "NN", "VBG", "RP", "IN", "DT", "JJ", "NN", "."]
+# ::lemmas ["a", "man", "in", "a", "blank", "tank", "top", "lie", "down", "on", "a", "gray", "bench", "."]
+(m0 / man
+      :ARG0-of (h0 / have-03
+            :ARG1 (t0 / top
+                  :mod (b1 / blank)
+                  :mod (t1 / tank)))
+      :ARG1-of (l0 / lie-07
+            :ARG2 (b0 / bench
+                  :ARG1-of (g0 / gray-02))
+            :direction (d0 / down)))

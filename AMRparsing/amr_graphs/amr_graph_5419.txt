@@ -1,0 +1,11 @@
+# ::snt several people are on a white boat .
+# ::tokens ["several", "people", "are", "on", "a", "white", "boat", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["JJ", "NNS", "VBP", "IN", "DT", "JJ", "NN", "."]
+# ::lemmas ["several", "people", "be", "on", "a", "white", "boat", "."]
+(b0 / be-located-at-91
+      :ARG2 (b1 / boat
+            :ARG1-of (w0 / white-03))
+      :ARG1 (p0 / person
+            :quant (s0 / several)))

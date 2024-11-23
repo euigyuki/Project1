@@ -1,0 +1,13 @@
+# ::snt a person on a red street bikes rides through the parking lot .
+# ::tokens ["a", "person", "on", "a", "red", "street", "bikes", "rides", "through", "the", "parking", "lot", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "DT", "JJ", "NN", "NNS", "VBZ", "IN", "DT", "NN", "NN", "."]
+# ::lemmas ["a", "person", "on", "a", "red", "street", "bike", "ride", "through", "the", "parking", "lot", "."]
+(r0 / ride-01
+      :ARG0 (p0 / person
+            :mod (b0 / bike
+                  :ARG1-of (r1 / red-02)
+                  :mod (s0 / street)))
+      :ARG1 (l0 / lot
+            :ARG2-of (p1 / park-01)))

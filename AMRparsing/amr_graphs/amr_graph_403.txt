@@ -1,0 +1,16 @@
+# ::snt young asian girl who looks upset at a children 's outdoor playground .
+# ::tokens ["young", "asian", "girl", "who", "looks", "upset", "at", "a", "children", "'s", "outdoor", "playground", "."]
+# ::ner_tags ["O", "NORP", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["JJ", "JJ", "NN", "WP", "VBZ", "JJ", "IN", "DT", "NNS", "POS", "JJ", "NN", "."]
+# ::lemmas ["young", "asian", "girl", "who", "look", "upset", "at", "a", "child", "'s", "outdoor", "playground", "."]
+(g0 / girl
+      :ARG0-of (l0 / look-01
+            :ARG1 (u0 / upset-01
+                  :ARG0 (p0 / playground
+                        :poss (c1 / child)
+                        :mod (o0 / outdoor))))
+      :mod (c0 / continent
+            :name (n0 / name
+                  :op1 "Asia" ))
+      :mod (y0 / young))

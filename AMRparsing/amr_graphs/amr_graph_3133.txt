@@ -1,0 +1,6 @@
+(s0 / sit-01
+    :ARG1 (p0 / person
+              :quant (c1 / couple)
+              :mod (c0 / country
+                       :name (n0 / name
+                                 :op1 "India"))))

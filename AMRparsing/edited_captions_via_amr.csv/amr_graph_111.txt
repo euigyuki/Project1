@@ -1,0 +1,19 @@
+# ::snt A man in an orange shirt sings for the crowd below a sign that says Lucky 13 .
+# ::tokens ["A", "man", "in", "an", "orange", "shirt", "sings", "for", "the", "crowd", "below", "a", "sign", "that", "says", "Lucky", "13", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "PERSON", "PERSON", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B", "I", "O"]
+# ::pos_tags ["DT", "NN", "IN", "DT", "JJ", "NN", "NNS", "IN", "DT", "NN", "IN", "DT", "NN", "WDT", "VBZ", "NNP", "CD", "."]
+# ::lemmas ["a", "man", "in", "an", "orange", "shirt", "sing", "for", "the", "crowd", "below", "a", "sign", "that", "say", "Lucky", "13", "."]
+(s0 / sing-01
+      :location (b0 / below
+            :op1 (s1 / sign
+                  :ARG0-of (s3 / say-01
+                        :ARG1 (p0 / product
+                              :name (n0 / name
+                                    :op2 13 
+                                    :op1 "Lucky" )))))
+      :ARG2 (c0 / crowd)
+      :ARG0 (m0 / man
+            :ARG0-of (w0 / wear-01
+                  :ARG1 (s2 / shirt
+                        :mod (o0 / orange)))))

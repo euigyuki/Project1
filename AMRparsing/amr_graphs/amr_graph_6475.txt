@@ -1,0 +1,11 @@
+# ::snt a landmark is outside at nighttime .
+# ::tokens ["a", "landmark", "is", "outside", "at", "nighttime", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "TIME", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "B", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "RB", "IN", "NN", "."]
+# ::lemmas ["a", "landmark", "be", "outside", "at", "nighttime", "."]
+(b0 / be-located-at-91
+      :time (d0 / date-entity
+            :dayperiod (n0 / nighttime))
+      :ARG2 (o0 / outside)
+      :ARG1 (l0 / landmark))

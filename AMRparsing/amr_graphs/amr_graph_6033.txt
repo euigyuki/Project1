@@ -1,0 +1,4 @@
+(r0 / race-02
+    :ARG2 (o0 / other
+              :mod (e0 / each))
+    :ARG0 (d0 / dog))

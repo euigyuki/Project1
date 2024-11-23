@@ -1,0 +1,9 @@
+# ::snt a black dog barking .
+# ::tokens ["a", "black", "dog", "barking", "."]
+# ::ner_tags ["O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "NN", "."]
+# ::lemmas ["a", "black", "dog", "barking", "."]
+(b0 / bark-01
+      :ARG0 (d0 / dog
+            :ARG1-of (b1 / black-04)))

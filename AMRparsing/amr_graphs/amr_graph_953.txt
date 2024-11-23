@@ -1,0 +1,18 @@
+# ::snt a city worker places a street cone device which is verified by his colleague .
+# ::tokens ["a", "city", "worker", "places", "a", "street", "cone", "device", "which", "is", "verified", "by", "his", "colleague", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "NN", "VBZ", "DT", "NN", "NN", "NN", "WDT", "VBZ", "VBN", "IN", "PRP$", "NN", "."]
+# ::lemmas ["a", "city", "worker", "place", "a", "street", "cone", "device", "which", "be", "verify", "by", "his", "colleague", "."]
+(p0 / place-01
+      :ARG0 (p1 / person
+            :ARG0-of (w0 / work-01
+                  :ARG1 (c2 / city))
+            :ARG1-of (h0 / have-rel-role-91
+                  :ARG2 (c1 / colleague)
+                  :ARG0 p2))
+      :ARG1 (d0 / device
+            :mod (c0 / cone
+                  :mod (s0 / street))
+            :ARG1-of (v0 / verify-01
+                  :ARG0 (p2 / person))))

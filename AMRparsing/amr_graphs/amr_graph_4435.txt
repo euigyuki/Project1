@@ -1,0 +1,11 @@
+# ::snt women in a studio doing ballet .
+# ::tokens ["women", "in", "a", "studio", "doing", "ballet", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["NNS", "IN", "DT", "NN", "VBG", "NN", "."]
+# ::lemmas ["woman", "in", "a", "studio", "do", "ballet", "."]
+(b0 / be-located-at-91
+      :ARG2 (s0 / studio)
+      :ARG1 (w0 / woman
+            :ARG0-of (d0 / do-02
+                  :ARG1 (b1 / ballet))))

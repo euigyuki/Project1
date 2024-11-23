@@ -1,0 +1,30 @@
+# ::snt a little girl with a red shirt , blue jeans , white and blue tennis shoes wearing a multicolored bookbag on her back running in front of an old condemned building with the words prave in red written on the wall .
+# ::tokens ["a", "little", "girl", "with", "a", "red", "shirt", ",", "blue", "jeans", ",", "white", "and", "blue", "tennis", "shoes", "wearing", "a", "multicolored", "bookbag", "on", "her", "back", "running", "in", "front", "of", "an", "old", "condemned", "building", "with", "the", "words", "prave", "in", "red", "written", "on", "the", "wall", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "ORG", "ORG", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "B", "I", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "IN", "DT", "JJ", "NN", ",", "JJ", "NNS", ",", "JJ", "CC", "JJ", "NN", "NNS", "VBG", "DT", "VBN", "NN", "IN", "PRP$", "NN", "VBG", "IN", "NN", "IN", "DT", "JJ", "VBN", "NN", "IN", "DT", "NNS", "VBP", "IN", "NN", "VBN", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "little", "girl", "with", "a", "red", "shirt", ",", "blue", "jeans", ",", "white", "and", "blue", "tennis", "shoe", "wear", "a", "multicolore", "bookbag", "on", "her", "back", "run", "in", "front", "of", "an", "old", "condemn", "building", "with", "the", "word", "prave", "in", "red", "write", "on", "the", "wall", "."]
+(r0 / run-02
+      :location (i0 / in-front-of
+            :op1 (b1 / building
+                  :ARG1-of (c0 / condemn-01)
+                  :mod (o0 / old)))
+      :ARG0 (g0 / girl
+            :ARG0-of (w0 / wear-01)
+            :part (b0 / back
+                  :location-of (b2 / bookbag
+                        :ARG1-of (c1 / color-01))
+                  :location-of (w1 / write-01
+                        :location (w3 / wall)
+                        :ARG1 (w2 / word
+                              :mod (p0 / prave))))
+            :ARG1-of (h0 / have-03
+                  :ARG1 (a0 / and
+                        :op3 (s1 / shoe
+                              :mod (t0 / tennis))
+                        :op2 (j0 / jeans
+                              :mod (b4 / blue)
+                              :mod (b3 / blue))
+                        :op1 (s0 / shirt
+                              :ARG1-of (r1 / red-02))))
+            :mod (l0 / little)))

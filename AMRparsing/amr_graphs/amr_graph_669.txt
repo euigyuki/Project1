@@ -1,0 +1,12 @@
+# ::snt the man is mushing his dogs on a snow trail
+# ::tokens ["the", "man", "is", "mushing", "his", "dogs", "on", "a", "snow", "trail"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "VBG", "PRP$", "NNS", "IN", "DT", "NN", "NN"]
+# ::lemmas ["the", "man", "be", "mush", "his", "dog", "on", "a", "snow", "trail"]
+(p0 / push-01
+      :ARG2 (t0 / trail
+            :mod (s0 / snow))
+      :ARG0 (m0 / man
+            :poss-of (d0 / dog))
+      :ARG1 d0)

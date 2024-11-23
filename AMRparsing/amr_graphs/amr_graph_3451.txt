@@ -1,0 +1,14 @@
+# ::snt a motorcyclist wearing blue jeans is riding his red motorcycle .
+# ::tokens ["a", "motorcyclist", "wearing", "blue", "jeans", "is", "riding", "his", "red", "motorcycle", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBG", "JJ", "NNS", "VBZ", "VBG", "PRP$", "JJ", "NN", "."]
+# ::lemmas ["a", "motorcyclist", "wear", "blue", "jean", "be", "ride", "his", "red", "motorcycle", "."]
+(r0 / ride-01
+      :ARG0 (m1 / motorcyclist
+            :poss-of (m0 / motorcycle
+                  :ARG1-of (r1 / red-02))
+            :ARG0-of (w0 / wear-01
+                  :ARG1 (j0 / jean
+                        :mod (b0 / blue))))
+      :ARG1 m0)

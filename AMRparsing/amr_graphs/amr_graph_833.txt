@@ -1,0 +1,13 @@
+# ::snt a market selling bananas and other delicious fruit .
+# ::tokens ["a", "market", "selling", "bananas", "and", "other", "delicious", "fruit", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBG", "NNS", "CC", "JJ", "JJ", "NN", "."]
+# ::lemmas ["a", "market", "sell", "banana", "and", "other", "delicious", "fruit", "."]
+(m0 / market
+      :ARG0-of (s0 / sell-01
+            :ARG1 (a0 / and
+                  :op2 (f0 / fruit
+                        :mod (o0 / other)
+                        :mod (d0 / delicious))
+                  :op1 (b0 / banana))))

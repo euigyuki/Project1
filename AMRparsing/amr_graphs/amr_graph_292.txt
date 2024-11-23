@@ -1,0 +1,15 @@
+# ::snt a young boy wearing a blue outfit sliding down a red slide .
+# ::tokens ["a", "young", "boy", "wearing", "a", "blue", "outfit", "sliding", "down", "a", "red", "slide", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "VBG", "DT", "JJ", "NN", "VBG", "IN", "DT", "JJ", "NN", "."]
+# ::lemmas ["a", "young", "boy", "wear", "a", "blue", "outfit", "slide", "down", "a", "red", "slide", "."]
+(s0 / slide-01
+      :direction (s1 / slide
+            :ARG1-of (r0 / red-02))
+      :ARG0 (b0 / boy
+            :ARG0-of (w0 / wear-01
+                  :ARG1 (o0 / outfit
+                        :mod (b1 / blue)))
+            :mod (y0 / young))
+      :direction (d0 / down))

@@ -1,0 +1,12 @@
+# ::snt two dogs are catching blue frisbees in grass .
+# ::tokens ["two", "dogs", "are", "catching", "blue", "frisbees", "in", "grass", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "VBP", "VBG", "JJ", "NNS", "IN", "NN", "."]
+# ::lemmas ["two", "dog", "be", "catch", "blue", "frisbee", "in", "grass", "."]
+(c0 / catch-03
+      :ARG2 (g0 / grass)
+      :ARG0 (d0 / dog
+            :quant 2 )
+      :ARG1 (f0 / frisbee
+            :mod (b0 / blue)))

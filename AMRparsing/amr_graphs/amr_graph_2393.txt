@@ -1,0 +1,6 @@
+(w0 / walk-01
+    :ARG0 (a0 / and
+              :op2 (d0 / dog)
+              :op1 (p0 / person
+                       :ARG0-of (f1 / fish-01)
+                       :quant 3)))

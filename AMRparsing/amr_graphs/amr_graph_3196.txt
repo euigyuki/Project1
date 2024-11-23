@@ -1,0 +1,16 @@
+# ::snt a girl in a purple shirt , covered in snow , sliding down a snowy hill .
+# ::tokens ["a", "girl", "in", "a", "purple", "shirt", ",", "covered", "in", "snow", ",", "sliding", "down", "a", "snowy", "hill", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "DT", "JJ", "NN", ",", "VBN", "IN", "NN", ",", "VBG", "RP", "DT", "JJ", "NN", "."]
+# ::lemmas ["a", "girl", "in", "a", "purple", "shirt", ",", "cover", "in", "snow", ",", "slide", "down", "a", "snowy", "hill", "."]
+(s0 / slide-01
+      :direction (d0 / down
+            :op1 (h1 / hill
+                  :ARG1-of (d1 / deep-02)))
+      :direction (g0 / girl
+            :ARG1-of (c0 / cover-02
+                  :ARG2 (s2 / snow))
+            :ARG0-of (h0 / have-03
+                  :ARG1 (s1 / shirt
+                        :ARG1-of (p0 / purple-02)))))

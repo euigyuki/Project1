@@ -1,0 +1,8 @@
+(s0 / stand-01
+    :ARG1 (b0 / boy
+              :ARG0-of (h0 / hold-01
+                           :ARG1 (a0 / ankle
+                                     :part-of (l0 / leg
+                                                  :ARG1-of (c0 / cross-01)
+                                                  :quant 1)))
+              :quant 2))

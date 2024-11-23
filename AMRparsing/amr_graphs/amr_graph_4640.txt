@@ -1,0 +1,13 @@
+# ::snt the big dog is checking out the smaller dog .
+# ::tokens ["the", "big", "dog", "is", "checking", "out", "the", "smaller", "dog", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "VBZ", "VBG", "RP", "DT", "JJR", "NN", "."]
+# ::lemmas ["the", "big", "dog", "be", "check", "out", "the", "small", "dog", "."]
+(c0 / check-out-05
+      :ARG0 (d1 / dog
+            :ARG1-of (h0 / have-degree-91
+                  :ARG3 (m0 / more)
+                  :ARG2 (s0 / small)))
+      :ARG1 (d0 / dog
+            :mod (b0 / big)))

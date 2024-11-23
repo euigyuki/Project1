@@ -1,0 +1,4 @@
+(o0 / open-01
+    :ARG0 (l0 / lady
+              :mod (y0 / young))
+    :ARG1 (g0 / gift))

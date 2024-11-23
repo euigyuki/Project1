@@ -1,0 +1,11 @@
+# ::snt a street washer washing the street .
+# ::tokens ["a", "street", "washer", "washing", "the", "street", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "NN", "VBG", "DT", "NN", "."]
+# ::lemmas ["a", "street", "washer", "wash", "the", "street", "."]
+(w0 / wash-01
+      :ARG0 (p0 / person
+            :ARG0-of (w1 / wash-01
+                  :ARG1 (s1 / street)))
+      :ARG1 (s0 / street))

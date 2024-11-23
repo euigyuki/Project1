@@ -1,0 +1,10 @@
+# ::snt people crossing a busy street .
+# ::tokens ["people", "crossing", "a", "busy", "street", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["NNS", "VBG", "DT", "JJ", "NN", "."]
+# ::lemmas ["people", "cross", "a", "busy", "street", "."]
+(p0 / person
+      :ARG0-of (c0 / cross-02
+            :ARG1 (s0 / street
+                  :ARG1-of (b0 / busy-01))))

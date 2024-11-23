@@ -1,0 +1,11 @@
+(p0 / play-01
+    :ARG2 (t0 / toy
+              :mod (p1 / plastic))
+    :ARG0 (c0 / child
+              :ARG0-of (h0 / have-03
+                           :ARG1 (a0 / and
+                                     :op2 (o0 / outfit
+                                              :mod (t1 / tan))
+                                     :op1 (s1 / scarf
+                                              :mod (b0 / blue)))))
+    :ARG1 (r0 / rug))

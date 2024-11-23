@@ -1,0 +1,13 @@
+# ::snt a small child jumps high above a sandy field .
+# ::tokens ["a", "small", "child", "jumps", "high", "above", "a", "sandy", "field", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "VBZ", "RB", "IN", "DT", "JJ", "NN", "."]
+# ::lemmas ["a", "small", "child", "jump", "high", "above", "a", "sandy", "field", "."]
+(j0 / jump-03
+      :manner (h0 / high-02)
+      :ARG1-of (a0 / above
+            :op1 (f0 / field
+                  :mod (s1 / sandy)))
+      :ARG0 (c0 / child
+            :mod (s0 / small)))

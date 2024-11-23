@@ -1,0 +1,15 @@
+# ::snt several men in hard hats are operating a giant pulley system .
+# ::tokens ["several", "men", "in", "hard", "hats", "are", "operating", "a", "giant", "pulley", "system", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["JJ", "NNS", "IN", "JJ", "NNS", "VBP", "VBG", "DT", "JJ", "NN", "NN", "."]
+# ::lemmas ["several", "man", "in", "hard", "hat", "be", "operate", "a", "giant", "pulley", "system", "."]
+(o0 / operate-01
+      :ARG0 (m0 / man
+            :ARG0-of (h0 / have-03
+                  :ARG1 (h1 / hat
+                        :ARG1-of (h2 / hard-04)))
+            :mod (s1 / several))
+      :ARG1 (s0 / system
+            :mod (p0 / pulley)
+            :mod (g0 / giant)))

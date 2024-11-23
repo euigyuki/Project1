@@ -1,0 +1,12 @@
+# ::snt a dog with a frisbee jumps over a man
+# ::tokens ["a", "dog", "with", "a", "frisbee", "jumps", "over", "a", "man"]
+# ::ner_tags ["O", "O", "O", "O", "PRODUCT", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "B", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "DT", "NN", "VBZ", "IN", "DT", "NN"]
+# ::lemmas ["a", "dog", "with", "a", "frisbee", "jump", "over", "a", "man"]
+(j0 / jump-03
+      :ARG2 (o0 / over
+            :op1 (m0 / man))
+      :ARG0 (d0 / dog
+            :ARG0-of (h0 / have-03
+                  :ARG1 (f0 / frisbee))))

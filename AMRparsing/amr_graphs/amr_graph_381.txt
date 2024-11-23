@@ -1,0 +1,7 @@
+(w0 / weave-01
+    :time (l1 / look-01)
+    :ARG2 (l0 / loom-01)
+    :ARG0 (w1 / woman
+              :ARG0-of (w2 / wear-01
+                           :ARG0 (p0 / print
+                                     :mod (c0 / colorful)))))

@@ -1,0 +1,11 @@
+(d0 / dig-01
+    :purpose (f0 / find-01
+                 :ARG0 (m0 / man)
+                 :ARG1 (s0 / something
+                           :example (o0 / or
+                                        :op3 (s1 / sort
+                                                 :mod (o1 / other))
+                                        :op2 (g1 / gold)
+                                        :op1 (g0 / gem))
+                           :ARG1-of (i0 / important-01)))
+    :ARG0 m0)

@@ -1,0 +1,12 @@
+# ::snt two men packaging donuts in plastic wrap .
+# ::tokens ["two", "men", "packaging", "donuts", "in", "plastic", "wrap", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "VBG", "NNS", "IN", "JJ", "NN", "."]
+# ::lemmas ["two", "man", "package", "donut", "in", "plastic", "wrap", "."]
+(p0 / package-01
+      :ARG0 (m0 / man
+            :quant 2 )
+      :ARG1 (d0 / donut
+            :ARG1-of (w0 / wrap-01
+                  :ARG2 (p1 / plastic))))

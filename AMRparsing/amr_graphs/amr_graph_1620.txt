@@ -1,0 +1,12 @@
+# ::snt a man is wearing an alaska sweatshirt .
+# ::tokens ["a", "man", "is", "wearing", "an", "alaska", "sweatshirt", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "GPE", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "B", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "VBG", "DT", "JJ", "NN", "."]
+# ::lemmas ["a", "man", "be", "wear", "an", "alaska", "sweatshirt", "."]
+(w0 / wear-01
+      :ARG0 (m0 / man)
+      :ARG1 (s0 / sweatshirt
+            :mod (i0 / island
+                  :name (n0 / name
+                        :op1 "Slammer" ))))

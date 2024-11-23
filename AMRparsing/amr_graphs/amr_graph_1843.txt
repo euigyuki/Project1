@@ -1,0 +1,9 @@
+(s0 / smooth
+    :domain (m0 / man
+                :ARG0-of (w0 / wear-01
+                             :ARG1 (a0 / and
+                                       :op2 (b1 / beater
+                                                :mod (p0 / person
+                                                         :ARG0-of (h0 / have-rel-role-91
+                                                                      :ARG2 (w1 / wife))))
+                                       :op1 (j0 / jean)))))

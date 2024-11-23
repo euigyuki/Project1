@@ -1,0 +1,17 @@
+# ::snt in the midst of a fire , a worker is repairing telephone and electrical wires .
+# ::tokens ["in", "the", "midst", "of", "a", "fire", ",", "a", "worker", "is", "repairing", "telephone", "and", "electrical", "wires", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["IN", "DT", "NN", "IN", "DT", "NN", ",", "DT", "NN", "VBZ", "VBG", "NN", "CC", "JJ", "NNS", "."]
+# ::lemmas ["in", "the", "midst", "of", "a", "fire", ",", "a", "worker", "be", "repair", "telephone", "and", "electrical", "wire", "."]
+(r0 / repair-01
+      :time (m0 / midst
+            :op1 (f0 / fire))
+      :ARG0 (p0 / person
+            :ARG0-of (w3 / work-01))
+      :ARG1 (a0 / and
+            :op2 (w2 / wire
+                  :mod (e0 / electricity))
+            :op2 (w1 / wire
+                  :mod (t0 / telephone-01))
+            :op1 (w0 / wire)))

@@ -1,0 +1,18 @@
+# ::snt an elderly man and woman are seated at a dining table in front of a christmas tree .
+# ::tokens ["an", "elderly", "man", "and", "woman", "are", "seated", "at", "a", "dining", "table", "in", "front", "of", "a", "christmas", "tree", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "CC", "NN", "VBP", "VBN", "IN", "DT", "NN", "NN", "IN", "NN", "IN", "DT", "NNP", "NN", "."]
+# ::lemmas ["an", "elderly", "man", "and", "woman", "be", "seat", "at", "a", "dining", "table", "in", "front", "of", "a", "christmas", "tree", "."]
+(s0 / seat-01
+      :ARG2 (t0 / table
+            :location-of (d0 / dine-01)
+            :location-of (i0 / in-front-of
+                  :op1 (t1 / tree
+                        :mod (f0 / festival
+                              :name (n0 / name
+                                    :op1 "christmas" )))))
+      :ARG1 (a0 / and
+            :op2 (w0 / woman)
+            :op1 (m0 / man
+                  :mod (e0 / elderly))))

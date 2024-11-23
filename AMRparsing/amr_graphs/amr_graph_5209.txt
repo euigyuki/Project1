@@ -1,0 +1,3 @@
+(d0 / display-01
+    :ARG1 (g0 / gang
+              :mod (m0 / motorcycle)))

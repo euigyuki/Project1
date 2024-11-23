@@ -1,0 +1,16 @@
+# ::snt a baby boy in an elmo chair with lots of toys in the background .
+# ::tokens ["a", "baby", "boy", "in", "an", "elmo", "chair", "with", "lots", "of", "toys", "in", "the", "background", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "NN", "IN", "DT", "JJ", "NN", "IN", "NNS", "IN", "NNS", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "baby", "boy", "in", "an", "elmo", "chair", "with", "lot", "of", "toy", "in", "the", "background", "."]
+(b0 / boy
+      :location (c0 / chair
+            :mod (c1 / company
+                  :name (n0 / name
+                        :op1 "elmo" )))
+      :location (h0 / have-03
+            :ARG1 (t0 / toy
+                  :location (b2 / background)
+                  :location (l0 / lot)))
+      :mod (b1 / baby))

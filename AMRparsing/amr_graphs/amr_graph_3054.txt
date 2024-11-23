@@ -1,0 +1,15 @@
+# ::snt two asian cheerleaders are holding out silver pompoms .
+# ::tokens ["two", "asian", "cheerleaders", "are", "holding", "out", "silver", "pompoms", "."]
+# ::ner_tags ["CARDINAL", "NORP", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "B", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "JJ", "NNS", "VBP", "VBG", "RP", "NN", "NNS", "."]
+# ::lemmas ["two", "asian", "cheerleader", "be", "hold", "out", "silver", "pompom", "."]
+(h0 / hand-out-03
+      :ARG0 (p1 / person
+            :quant 2 
+            :ARG0-of (l0 / lead-02
+                  :ARG1 (c0 / continent
+                        :name (n0 / name
+                              :op1 "Asia" ))))
+      :ARG1 (p0 / pompom
+            :mod (s0 / silver)))

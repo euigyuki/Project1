@@ -1,0 +1,6 @@
+(g0 / go-03
+    :ARG0 (b1 / boy
+              :ARG0-of (p0 / play-01
+                           :ARG1 (b2 / baseball))
+              :mod (l0 / little))
+    :ARG1 (b0 / ball))

@@ -1,0 +1,7 @@
+(h0 / have-03
+    :ARG0 (w0 / woman
+              :part (a0 / arm)
+              :ARG0-of (w1 / wear-01
+                           :ARG1 (s1 / shirt
+                                     :ARG1-of (b0 / black-04))))
+    :ARG1 a0)

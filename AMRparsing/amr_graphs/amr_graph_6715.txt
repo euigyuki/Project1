@@ -1,0 +1,6 @@
+(s0 / sit-01
+    :ARG1 (a0 / and
+              :op2 (p0 / person)
+              :op1 (c1 / child
+                       :ARG1-of (h0 / have-rel-role-91
+                                    :ARG0 p0))))

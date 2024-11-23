@@ -1,0 +1,6 @@
+(s0 / stand-01
+    :ARG1 (d0 / dog
+              :ARG0-of (o0 / overlook-01
+                           :ARG1 (f0 / field
+                                     :mod (g1 / grassy)))
+              :ARG1-of (g0 / gray-02)))

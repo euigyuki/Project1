@@ -1,0 +1,11 @@
+# ::snt two men are riding scooters through a room .
+# ::tokens ["two", "men", "are", "riding", "scooters", "through", "a", "room", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "VBP", "VBG", "NNS", "IN", "DT", "NN", "."]
+# ::lemmas ["two", "man", "be", "ride", "scooter", "through", "a", "room", "."]
+(r0 / ride-01
+      :path (r1 / room)
+      :ARG0 (m0 / man
+            :quant 2 )
+      :ARG1 (s0 / scooter))

@@ -1,0 +1,14 @@
+# ::snt a black dog chases a boy wearing red and blue .
+# ::tokens ["a", "black", "dog", "chases", "a", "boy", "wearing", "red", "and", "blue", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "NNS", "DT", "NN", "VBG", "NN", "CC", "JJ", "."]
+# ::lemmas ["a", "black", "dog", "chase", "a", "boy", "wear", "red", "and", "blue", "."]
+(c0 / chase-01
+      :ARG0 (d0 / dog
+            :ARG1-of (b1 / black-04))
+      :ARG1 (b0 / boy
+            :ARG0-of (w0 / wear-01
+                  :ARG1 (a0 / and
+                        :op2 (b2 / blue)
+                        :op1 (r0 / red-02)))))

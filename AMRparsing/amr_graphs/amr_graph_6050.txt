@@ -1,0 +1,11 @@
+# ::snt a boy has a large snake wrapped around him .
+# ::tokens ["a", "boy", "has", "a", "large", "snake", "wrapped", "around", "him", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "DT", "JJ", "NN", "VBN", "IN", "PRP", "."]
+# ::lemmas ["a", "boy", "have", "a", "large", "snake", "wrap", "around", "he", "."]
+(w0 / wrap-01
+      :ARG2 (a0 / around)
+      :ARG0 (b0 / boy)
+      :ARG1 (s0 / snake
+            :mod (l0 / large)))

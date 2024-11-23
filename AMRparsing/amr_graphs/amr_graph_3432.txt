@@ -1,0 +1,6 @@
+(s0 / sit-01
+    :time (l0 / look-01
+              :ARG0 (d0 / dog)
+              :ARG1 (r0 / rock
+                        :mod (l1 / large)))
+    :ARG1 d0)

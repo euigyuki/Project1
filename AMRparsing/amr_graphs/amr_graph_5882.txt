@@ -1,0 +1,14 @@
+# ::snt a boy and a dog are running down a hill away from a crowd .
+# ::tokens ["a", "boy", "and", "a", "dog", "are", "running", "down", "a", "hill", "away", "from", "a", "crowd", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "CC", "DT", "NN", "VBP", "VBG", "IN", "DT", "NN", "RB", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "boy", "and", "a", "dog", "be", "run", "down", "a", "hill", "away", "from", "a", "crowd", "."]
+(r0 / run-02
+      :direction (d0 / down
+            :op1 (a1 / away
+                  :op1 (c0 / crowd))
+            :op1 (h0 / hill))
+      :direction (a0 / and
+            :op2 (d1 / dog)
+            :op1 (b0 / boy)))

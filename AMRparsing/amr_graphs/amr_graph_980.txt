@@ -1,0 +1,11 @@
+# ::snt a man in a green hat running .
+# ::tokens ["a", "man", "in", "a", "green", "hat", "running", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "DT", "JJ", "NN", "VBG", "."]
+# ::lemmas ["a", "man", "in", "a", "green", "hat", "run", "."]
+(r0 / run-02
+      :ARG0 (m0 / man
+            :ARG0-of (h0 / have-03
+                  :ARG1 (h1 / hat
+                        :ARG1-of (g0 / green-02)))))

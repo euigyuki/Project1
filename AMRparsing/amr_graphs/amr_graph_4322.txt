@@ -1,0 +1,13 @@
+# ::snt two children are running down the sidewalk in front of a building .
+# ::tokens ["two", "children", "are", "running", "down", "the", "sidewalk", "in", "front", "of", "a", "building", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "VBP", "VBG", "IN", "DT", "NN", "IN", "NN", "IN", "DT", "NN", "."]
+# ::lemmas ["two", "child", "be", "run", "down", "the", "sidewalk", "in", "front", "of", "a", "building", "."]
+(r0 / run-02
+      :direction (d0 / down
+            :op1 (s0 / sidewalk))
+      :direction (i0 / in-front-of
+            :op1 (b0 / building))
+      :ARG0 (c0 / child
+            :quant 2 ))

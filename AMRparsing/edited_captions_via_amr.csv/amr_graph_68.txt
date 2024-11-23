@@ -1,0 +1,11 @@
+# ::snt A man is sitting at a table with a drink .
+# ::tokens ["A", "man", "is", "sitting", "at", "a", "table", "with", "a", "drink", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "VBG", "IN", "DT", "NN", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "man", "be", "sit", "at", "a", "table", "with", "a", "drink", "."]
+(s0 / sit-01
+      :manner (h0 / have-03
+            :ARG1 (d0 / drink))
+      :ARG2 (t0 / table)
+      :ARG1 (m0 / man))

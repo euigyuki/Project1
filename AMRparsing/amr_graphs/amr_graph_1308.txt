@@ -1,0 +1,4 @@
+(d0 / drink-01
+    :ARG2 (c0 / cup
+              :mod (j0 / juice))
+    :ARG0 (t0 / toddler))

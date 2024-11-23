@@ -1,0 +1,13 @@
+# ::snt a white horse pulling a boy on top of a stack of hay .
+# ::tokens ["a", "white", "horse", "pulling", "a", "boy", "on", "top", "of", "a", "stack", "of", "hay", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "VBG", "DT", "NN", "IN", "NN", "IN", "DT", "NN", "IN", "NN", "."]
+# ::lemmas ["a", "white", "horse", "pull", "a", "boy", "on", "top", "of", "a", "stack", "of", "hay", "."]
+(p0 / pull-01
+      :ARG2 (t0 / top
+            :op1 (s0 / stack-01
+                  :ARG1 (h1 / hay)))
+      :ARG0 (h0 / horse
+            :ARG1-of (w0 / white-03))
+      :ARG1 (b0 / boy))

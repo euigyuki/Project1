@@ -1,0 +1,13 @@
+# ::snt a man is moving a gate that impedes the progress of an oncoming train .
+# ::tokens ["a", "man", "is", "moving", "a", "gate", "that", "impedes", "the", "progress", "of", "an", "oncoming", "train", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "VBG", "DT", "NN", "WDT", "VBZ", "DT", "NN", "IN", "DT", "JJ", "NN", "."]
+# ::lemmas ["a", "man", "be", "move", "a", "gate", "that", "impede", "the", "progress", "of", "an", "oncoming", "train", "."]
+(m0 / move-01
+      :ARG0 (m1 / man)
+      :ARG1 (g0 / gate
+            :ARG0-of (i0 / impede-01
+                  :ARG1 (p0 / progress-01
+                        :ARG1 (t0 / train
+                              :ARG0-of (o0 / oncoming))))))

@@ -1,0 +1,22 @@
+# ::snt two boys in blue and yellow uniforms play soccer with a boy in a pink printed uniform .
+# ::tokens ["two", "boys", "in", "blue", "and", "yellow", "uniforms", "play", "soccer", "with", "a", "boy", "in", "a", "pink", "printed", "uniform", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "IN", "JJ", "CC", "JJ", "NNS", "VBP", "NN", "IN", "DT", "NN", "IN", "DT", "JJ", "VBN", "NN", "."]
+# ::lemmas ["two", "boy", "in", "blue", "and", "yellow", "uniform", "play", "soccer", "with", "a", "boy", "in", "a", "pink", "print", "uniform", "."]
+(p0 / play-01
+      :accompanier (b1 / boy
+            :ARG0-of (h1 / have-03
+                  :ARG1 (u1 / uniform
+                        :ARG1-of (p2 / pink-04))))
+      :ARG0 (b0 / boy
+            :quant 2 
+            :ARG0-of (h0 / have-03
+                  :ARG1 (u0 / uniform
+                        :ARG1-of (p1 / print-01)
+                        :mod (a0 / and
+                              :op2 (u3 / uniform
+                                    :mod (y0 / yellow))
+                              :op1 (u2 / uniform
+                                    :mod (b2 / blue))))))
+      :ARG1 (s0 / soccer))

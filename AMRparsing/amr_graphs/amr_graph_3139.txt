@@ -1,0 +1,9 @@
+# ::snt kid swinging on a swing
+# ::tokens ["kid", "swinging", "on", "a", "swing"]
+# ::ner_tags ["O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O"]
+# ::pos_tags ["NN", "VBG", "IN", "DT", "NN"]
+# ::lemmas ["kid", "swinge", "on", "a", "swing"]
+(s0 / swim-01
+      :ARG0 (k0 / kid)
+      :ARG1 (s1 / swing))

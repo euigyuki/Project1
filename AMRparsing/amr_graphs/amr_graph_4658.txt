@@ -1,0 +1,13 @@
+# ::snt woman listening for music player while smoking a cigarette .
+# ::tokens ["woman", "listening", "for", "music", "player", "while", "smoking", "a", "cigarette", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["NN", "VBG", "IN", "NN", "NN", "IN", "VBG", "DT", "NN", "."]
+# ::lemmas ["woman", "listen", "for", "music", "player", "while", "smoke", "a", "cigarette", "."]
+(l0 / listen-01
+      :time (s0 / smoke-02
+            :ARG0 (w0 / woman)
+            :ARG1 (c0 / cigarette))
+      :ARG0 w0
+      :ARG1 (p0 / play-11
+            :ARG2 (m0 / music)))

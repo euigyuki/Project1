@@ -1,0 +1,16 @@
+# ::snt a man in a striped shirt poses with a blond girl in a black apron .
+# ::tokens ["a", "man", "in", "a", "striped", "shirt", "poses", "with", "a", "blond", "girl", "in", "a", "black", "apron", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "DT", "JJ", "NN", "VBZ", "IN", "DT", "JJ", "NN", "IN", "DT", "JJ", "NN", "."]
+# ::lemmas ["a", "man", "in", "a", "striped", "shirt", "pose", "with", "a", "blond", "girl", "in", "a", "black", "apron", "."]
+(p0 / pose-01
+      :accompanier (g0 / girl
+            :ARG0-of (h0 / have-03
+                  :ARG1 (a0 / apron
+                        :ARG1-of (b1 / black-04)))
+            :mod (b0 / blond))
+      :accompanier (m0 / man
+            :ARG0-of (w0 / wear-01
+                  :ARG1 (s0 / shirt
+                        :ARG1-of (s1 / striped)))))

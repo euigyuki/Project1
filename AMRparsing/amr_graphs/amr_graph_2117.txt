@@ -1,0 +1,10 @@
+(s0 / stand-01
+    :ARG1 (w0 / woman
+              :ARG0-of (w1 / wear-01
+                           :ARG1 (a0 / and
+                                     :op3 (j0 / jacket
+                                              :mod (d0 / denim))
+                                     :op2 (t0 / top
+                                              :mod (y0 / yellow))
+                                     :op1 (s1 / skirt
+                                              :ARG1-of (s3 / short-07))))))

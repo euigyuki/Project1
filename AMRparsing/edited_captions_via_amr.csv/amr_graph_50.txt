@@ -1,0 +1,10 @@
+# ::snt A black dog running in the surf .
+# ::tokens ["A", "black", "dog", "running", "in", "the", "surf", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "VBG", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "black", "dog", "run", "in", "the", "surf", "."]
+(r0 / run-02
+      :location (s0 / surf-01)
+      :ARG0 (d0 / dog
+            :ARG1-of (b0 / black-04)))

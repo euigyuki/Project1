@@ -1,0 +1,19 @@
+# ::snt a small girl wearing a green shirt jumping off a grassy , sandy hill with a black scarf in her hand .
+# ::tokens ["a", "small", "girl", "wearing", "a", "green", "shirt", "jumping", "off", "a", "grassy", ",", "sandy", "hill", "with", "a", "black", "scarf", "in", "her", "hand", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "VBG", "DT", "JJ", "NN", "VBG", "RP", "DT", "NN", ",", "JJ", "NN", "IN", "DT", "JJ", "NN", "IN", "PRP$", "NN", "."]
+# ::lemmas ["a", "small", "girl", "wear", "a", "green", "shirt", "jump", "off", "a", "grassy", ",", "sandy", "hill", "with", "a", "black", "scarf", "in", "her", "hand", "."]
+(j0 / jump-03
+      :manner (h0 / hand)
+      :direction (o0 / off
+            :op1 (h1 / hill
+                  :mod (g1 / grassy)
+                  :mod (s3 / sandy)))
+      :direction (g0 / girl
+            :ARG0-of (s1 / scarf
+                  :ARG1-of (b0 / black-04))
+            :ARG1-of (w0 / wear-01
+                  :ARG1 (s2 / shirt
+                        :ARG1-of (g2 / green-02)))
+            :mod (s0 / small)))

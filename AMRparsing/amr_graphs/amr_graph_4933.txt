@@ -1,0 +1,12 @@
+# ::snt an adult and a child fly a kite together .
+# ::tokens ["an", "adult", "and", "a", "child", "fly", "a", "kite", "together", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "CC", "DT", "NN", "VB", "DT", "NN", "RB", "."]
+# ::lemmas ["an", "adult", "and", "a", "child", "fly", "a", "kite", "together", "."]
+(f0 / fly-01
+      :manner (t0 / together)
+      :ARG0 (a0 / and
+            :op2 (c0 / child)
+            :op1 (a1 / adult))
+      :ARG1 (k0 / kite))

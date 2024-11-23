@@ -1,0 +1,9 @@
+(a0 / and
+    :op2 (w0 / walk-01
+             :direction (d0 / down))
+    :op1 (t0 / talk-01
+             :instrument (p1 / phone)
+             :ARG0 (p0 / person
+                       :ARG0-of (w1 / wear-01
+                                    :ARG1 (j0 / jean
+                                              :mod (b0 / blue))))))

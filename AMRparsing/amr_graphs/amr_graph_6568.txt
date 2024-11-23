@@ -1,0 +1,5 @@
+(t0 / trim
+    :mod (b0 / bush)
+    :domain (m0 / man
+                :ARG0-of (h0 / have-03
+                             :ARG1 (r0 / radio))))

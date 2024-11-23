@@ -1,0 +1,5 @@
+(g0 / group
+    :ARG0-of (p1 / prepare-02)
+    :consist-of (p0 / person
+                    :ARG0-of (w0 / walk-01)
+                    :poss-of (d0 / dive-01)))

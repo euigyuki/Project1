@@ -1,0 +1,18 @@
+# ::snt a man in a gray tank top givers red roses to a woman in a white sundress .
+# ::tokens ["a", "man", "in", "a", "gray", "tank", "top", "givers", "red", "roses", "to", "a", "woman", "in", "a", "white", "sundress", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "DT", "JJ", "NN", "NN", "NNS", "JJ", "NNS", "IN", "DT", "NN", "IN", "DT", "JJ", "NN", "."]
+# ::lemmas ["a", "man", "in", "a", "gray", "tank", "top", "giver", "red", "rose", "to", "a", "woman", "in", "a", "white", "sundress", "."]
+(g0 / give-01
+      :ARG2 (w0 / woman
+            :ARG0-of (s0 / sundress
+                  :ARG1-of (w1 / white-03))
+            :mod (h1 / have-03))
+      :ARG0 (m0 / man
+            :ARG0-of (h0 / have-03
+                  :ARG1 (t0 / top
+                        :ARG1-of (g1 / gray-02)
+                        :mod (t1 / tank))))
+      :ARG1 (r0 / rose
+            :ARG1-of (r1 / red-02)))

@@ -1,0 +1,5 @@
+(g0 / grab-01
+    :ARG0 (d0 / dog
+              :part (m0 / mouth)
+              :ARG1-of (b1 / black-04))
+    :ARG1 (b0 / bird))

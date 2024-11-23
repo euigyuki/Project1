@@ -1,0 +1,5 @@
+(g0 / group
+    :consist-of (m0 / man)
+    :consist-of (u0 / use-01
+                    :ARG1 (m1 / machine
+                              :ARG0-of (t0 / toss-01))))

@@ -1,0 +1,14 @@
+(s0 / stand-01
+    :ARG1-of (n0 / near-02)
+    :ARG1 (m0 / man
+              :ARG0-of (h0 / have-03
+                           :ARG1 (s2 / sign
+                                     :ARG0-of (s3 / say-01
+                                                  :ARG1 (s4 / stop-01
+                                                            :ARG0 (y0 / you
+                                                                      :ARG0-of (r0 / rape-01
+                                                                                   :ARG1 (p0 / person
+                                                                                             :ARG0-of (h1 / have-rel-role-91
+                                                                                                          :ARG1 (i0 / i)))))
+                                                            :ARG1 r0
+                                                            :mode imperative))))))

@@ -1,0 +1,8 @@
+(a0 / and
+    :op2 (h1 / hold-01
+             :ARG1 (h2 / hand
+                       :part-of (c0 / child
+                                    :mod (a1 / another)
+                                    :mod (y0 / young))))
+    :op1 (h0 / hold-01
+             :ARG1 (b0 / baby)))

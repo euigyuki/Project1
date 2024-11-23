@@ -1,0 +1,12 @@
+# ::snt a young man in a blue shirt eats a hotdog .
+# ::tokens ["a", "young", "man", "in", "a", "blue", "shirt", "eats", "a", "hotdog", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "IN", "DT", "JJ", "NN", "VBZ", "DT", "NN", "."]
+# ::lemmas ["a", "young", "man", "in", "a", "blue", "shirt", "eat", "a", "hotdog", "."]
+(e0 / eat-01
+      :ARG0 (m0 / man
+            :ARG0-of (s0 / shirt
+                  :mod (b0 / blue))
+            :mod (y0 / young))
+      :ARG1 (h0 / hotdog))

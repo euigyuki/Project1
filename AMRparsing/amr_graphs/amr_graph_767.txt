@@ -1,0 +1,14 @@
+# ::snt a man riding a bike is chatting to a man wearing a blue uniform .
+# ::tokens ["a", "man", "riding", "a", "bike", "is", "chatting", "to", "a", "man", "wearing", "a", "blue", "uniform", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBG", "DT", "NN", "VBZ", "VBG", "IN", "DT", "NN", "VBG", "DT", "JJ", "NN", "."]
+# ::lemmas ["a", "man", "ride", "a", "bike", "be", "chat", "to", "a", "man", "wear", "a", "blue", "uniform", "."]
+(c0 / chat-01
+      :ARG2 (m1 / man
+            :ARG0-of (w0 / wear-01
+                  :ARG1 (u0 / uniform
+                        :mod (b1 / blue))))
+      :ARG0 (m0 / man
+            :ARG0-of (r0 / ride-01
+                  :ARG1 (b0 / bike))))

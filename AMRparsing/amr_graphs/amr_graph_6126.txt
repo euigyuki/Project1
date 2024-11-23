@@ -1,0 +1,18 @@
+# ::snt a lady is wearing jeans and a cardboard costume designed to look like the cartoon character wall-e
+# ::tokens ["a", "lady", "is", "wearing", "jeans", "and", "a", "cardboard", "costume", "designed", "to", "look", "like", "the", "cartoon", "character", "wall", "-", "e"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "VBG", "NNS", "CC", "DT", "NN", "NN", "VBN", "TO", "VB", "IN", "DT", "NN", "NN", "NNP", "HYPH", "NN"]
+# ::lemmas ["a", "lady", "be", "wear", "jean", "and", "a", "cardboard", "costume", "design", "to", "look", "like", "the", "cartoon", "character", "wall", "-", "e"]
+(w0 / wear-01
+      :ARG0 (l0 / lady
+            :ARG0-of (l1 / look-02
+                  :ARG1 (c2 / character
+                        :mod (c3 / cartoon))))
+      :ARG1 (a0 / and
+            :op2 (c0 / costume
+                  :ARG1-of (d0 / design-01
+                        :ARG2 l1)
+                  :mod (c1 / cardboard
+                        :ARG1 l1))
+            :op1 (j0 / jean)))

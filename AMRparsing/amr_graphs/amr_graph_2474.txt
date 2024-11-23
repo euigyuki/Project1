@@ -1,0 +1,9 @@
+# ::snt a man making repairs to a roof .
+# ::tokens ["a", "man", "making", "repairs", "to", "a", "roof", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBG", "NNS", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "man", "make", "repair", "to", "a", "roof", "."]
+(m0 / man
+      :ARG0-of (r0 / repair-01
+            :ARG1 (r1 / roof)))

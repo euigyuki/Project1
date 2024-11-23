@@ -1,0 +1,8 @@
+(s0 / share-01
+    :ARG0 (a0 / and
+              :ARG0-of (l0 / laugh-01)
+              :op2 (w0 / woman
+                       :mod (y0 / young))
+              :op1 (m0 / man
+                       :mod (e0 / elderly)))
+    :ARG1 l0)

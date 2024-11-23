@@ -1,0 +1,14 @@
+# ::snt a man dressed in black with a long beard is playing bass guitar .
+# ::tokens ["a", "man", "dressed", "in", "black", "with", "a", "long", "beard", "is", "playing", "bass", "guitar", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBN", "IN", "JJ", "IN", "DT", "JJ", "NN", "VBZ", "VBG", "NN", "NN", "."]
+# ::lemmas ["a", "man", "dress", "in", "black", "with", "a", "long", "beard", "be", "play", "bass", "guitar", "."]
+(p0 / play-11
+      :ARG0 (m0 / man
+            :ARG1-of (d0 / dress-01
+                  :ARG2 (b2 / black-04)
+                  :ARG4 (b1 / beard
+                        :ARG1-of (l0 / long-03))))
+      :ARG1 (g0 / guitar
+            :mod (b0 / bass)))

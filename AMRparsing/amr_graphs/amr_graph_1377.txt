@@ -1,0 +1,16 @@
+# ::snt two young girls wearing pink outfits playing on yellow monkey bars .
+# ::tokens ["two", "young", "girls", "wearing", "pink", "outfits", "playing", "on", "yellow", "monkey", "bars", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "JJ", "NNS", "VBG", "JJ", "NNS", "VBG", "IN", "JJ", "NN", "NNS", "."]
+# ::lemmas ["two", "young", "girl", "wear", "pink", "outfit", "play", "on", "yellow", "monkey", "bar", "."]
+(p0 / play-11
+      :ARG0 (g0 / girl
+            :quant 2 
+            :ARG0-of (w0 / wear-01
+                  :ARG1 (o0 / outfit
+                        :ARG1-of (p1 / pink-04)))
+            :mod (y1 / young))
+      :ARG2 (b0 / bar
+            :ARG1-of (y0 / yellow)
+            :mod (m0 / monkey)))

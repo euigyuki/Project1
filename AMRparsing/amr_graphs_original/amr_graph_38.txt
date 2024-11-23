@@ -1,0 +1,9 @@
+# ::snt a woman dressed in a blue jacket and blue jeans rides a brown horse near a frozen lake and snow-covered mountain .
+(z1 / ride-01
+      :ARG0 (z2 / woman
+            :ARG1-of (z3 / dress-01
+                  :ARG2 (z4 / and
+                        :op1 (z5 / jacket
+                              :mod (z6 / blue))
+                        :op2 (z7 / jeans
+                              :mod z6)))))

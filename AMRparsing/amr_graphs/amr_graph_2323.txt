@@ -1,0 +1,12 @@
+# ::snt a woman is filling air up into an incredible hulk balloon .
+# ::tokens ["a", "woman", "is", "filling", "air", "up", "into", "an", "incredible", "hulk", "balloon", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "VBG", "NN", "RP", "IN", "DT", "JJ", "NN", "NN", "."]
+# ::lemmas ["a", "woman", "be", "fill", "air", "up", "into", "an", "incredible", "hulk", "balloon", "."]
+(f0 / fill-up-02
+      :ARG1 (a0 / air)
+      :ARG2 (b0 / balloon
+            :mod (h0 / hulk)
+            :mod (i0 / incredible))
+      :ARG0 (w0 / woman))

@@ -1,0 +1,4 @@
+(s0 / sit-01
+    :mod (s1 / still)
+    :ARG1 (d0 / dog
+              :ARG1-of (b0 / brown)))

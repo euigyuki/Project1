@@ -1,0 +1,17 @@
+# ::snt a female harp player peers through the middle of her instrument while performing .
+# ::tokens ["a", "female", "harp", "player", "peers", "through", "the", "middle", "of", "her", "instrument", "while", "performing", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "NN", "VBZ", "IN", "DT", "NN", "IN", "PRP$", "NN", "IN", "VBG", "."]
+# ::lemmas ["a", "female", "harp", "player", "peer", "through", "the", "middle", "of", "her", "instrument", "while", "perform", "."]
+(s0 / see-01
+      :ARG0 (p1 / person
+            :ARG0-of (p0 / perform-01)
+            :poss-of (i0 / instrument
+                  :part (m0 / middle))
+            :ARG0-of (p2 / play-11
+                  :ARG1 (h0 / harp))
+            :mod (f0 / female))
+      :time p0
+      :ARG1 (t0 / through
+            :op1 m0))

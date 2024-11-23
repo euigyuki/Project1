@@ -1,0 +1,5 @@
+(l0 / look-01
+    :ARG0 (a0 / adult
+              :mod (y0 / young)
+              :quant 3)
+    :ARG1 (c0 / camera))

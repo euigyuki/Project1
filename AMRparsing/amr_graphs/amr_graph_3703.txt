@@ -1,0 +1,15 @@
+# ::snt an indian market , a man in white is sorting through vegetables .
+# ::tokens ["an", "indian", "market", ",", "a", "man", "in", "white", "is", "sorting", "through", "vegetables", "."]
+# ::ner_tags ["O", "NORP", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", ",", "DT", "NN", "IN", "JJ", "VBZ", "VBG", "IN", "NNS", "."]
+# ::lemmas ["an", "indian", "market", ",", "a", "man", "in", "white", "be", "sort", "through", "vegetable", "."]
+(s0 / sort-01
+      :path (t0 / through)
+      :ARG0 (m0 / man
+            :ARG1-of (w0 / white-03)
+            :mod (m1 / market
+                  :location (c0 / country
+                        :name (n0 / name
+                              :op1 "India" ))))
+      :ARG1 (v0 / vegetable))

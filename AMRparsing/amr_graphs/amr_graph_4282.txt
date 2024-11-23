@@ -1,0 +1,15 @@
+# ::snt there is a girl in a puma jacket being hugged from behind by another girl .
+# ::tokens ["there", "is", "a", "girl", "in", "a", "puma", "jacket", "being", "hugged", "from", "behind", "by", "another", "girl", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["EX", "VBZ", "DT", "NN", "IN", "DT", "JJ", "NN", "VBG", "VBN", "IN", "RB", "IN", "DT", "NN", "."]
+# ::lemmas ["there", "be", "a", "girl", "in", "a", "puma", "jacket", "be", "hug", "from", "behind", "by", "another", "girl", "."]
+(b0 / be-located-at-91
+      :ARG2 (b1 / behind)
+      :ARG1 (g0 / girl
+            :ARG0-of (w0 / wear-01
+                  :ARG1 (j0 / jacket
+                        :mod (p0 / puma)))
+            :ARG1-of (h0 / hug-01
+                  :ARG0 (g1 / girl
+                        :mod (a0 / another)))))

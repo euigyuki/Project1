@@ -1,0 +1,8 @@
+(a0 / and
+    :op2 (r0 / raise-01
+             :ARG1 (a1 / arm
+                       :part-of (c0 / child)))
+    :op1 (w0 / wear-01
+             :ARG1 (s0 / shirt
+                       :ARG1-of (r1 / red-02))
+             :ARG0 c0))

@@ -1,0 +1,16 @@
+# ::snt a woman dressed in a traditional wrap can be seen through a small hole archway .
+# ::tokens ["a", "woman", "dressed", "in", "a", "traditional", "wrap", "can", "be", "seen", "through", "a", "small", "hole", "archway", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBN", "IN", "DT", "JJ", "NN", "MD", "VB", "VBN", "IN", "DT", "JJ", "NN", "NN", "."]
+# ::lemmas ["a", "woman", "dress", "in", "a", "traditional", "wrap", "can", "be", "see", "through", "a", "small", "hole", "archway", "."]
+(p0 / possible-01
+      :ARG1 (s0 / see-01
+            :path (t0 / through
+                  :op1 (a0 / archway
+                        :mod (s1 / small)
+                        :mod (h0 / hole)))
+            :ARG1 (w0 / woman
+                  :ARG1-of (d0 / dress-01
+                        :ARG2 (w1 / wrap
+                              :mod (t1 / tradition))))))

@@ -1,0 +1,5 @@
+(e0 / enjoy-01
+    :ARG0 (c0 / couple
+              :poss-of (p0 / party)
+              :mod (o1 / old))
+    :ARG1 p0)

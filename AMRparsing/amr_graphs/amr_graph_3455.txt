@@ -1,0 +1,10 @@
+# ::snt a motorcyclist gets moving .
+# ::tokens ["a", "motorcyclist", "gets", "moving", "."]
+# ::ner_tags ["O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "VBG", "."]
+# ::lemmas ["a", "motorcyclist", "get", "move", "."]
+(g0 / get-03
+      :ARG2 (m1 / move-01
+            :ARG1 (m0 / motorcyclist))
+      :ARG1 m0)

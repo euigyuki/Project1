@@ -1,0 +1,9 @@
+(o0 / or
+    :op2 (f0 / fight-01
+             :ARG2 (d1 / dog
+                       :ARG1-of (w0 / white-02))
+             :ARG0 (d0 / dog
+                       :ARG1-of (b0 / black-05)))
+    :op1 (p0 / play-01
+             :accompanier d1
+             :ARG0 d0))

@@ -1,0 +1,17 @@
+# ::snt a man is skating with his t-shirt tucked in his back pant which says " just love me " .
+# ::tokens ["a", "man", "is", "skating", "with", "his", "t", "-", "shirt", "tucked", "in", "his", "back", "pant", "which", "says", "\"", "just", "love", "me", "\"", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "VBG", "IN", "PRP$", "NN", "HYPH", "NN", "VBN", "IN", "PRP$", "NN", "NN", "WDT", "VBZ", "``", "RB", "VBP", "PRP", "''", "."]
+# ::lemmas ["a", "man", "be", "skate", "with", "his", "t", "-", "shirt", "tuck", "in", "his", "back", "pant", "which", "say", "\"", "just", "love", "i", "\"", "."]
+(r0 / run-02
+      :instrument (t0 / t-shirt
+            :poss (m0 / man
+                  :poss-of (p0 / pant)
+                  :poss-of (l0 / love-01
+                        :mod (j0 / just)
+                        :mod (i0 / i)
+                        :mod (b0 / back)))
+            :ARG1-of (s1 / stick-01)
+            :ARG0-of (s0 / say-01))
+      :ARG0 m0)

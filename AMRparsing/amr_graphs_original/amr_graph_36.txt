@@ -1,0 +1,9 @@
+# ::snt a woman in a yellow shirt and green shorts is climbing an artificial red wall whilst wearing a safety harness .
+(z1 / climb-01
+      :ARG0 (z2 / woman
+            :ARG0-of (z3 / wear-01
+                  :ARG1 (z4 / and
+                        :op1 (z5 / shirt
+                              :ARG1-of (z6 / yellow-01))
+                        :op2 (z7 / shorts
+                              :ARG1-of (z8 / green-02))))))

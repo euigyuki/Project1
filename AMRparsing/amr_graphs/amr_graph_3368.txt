@@ -1,0 +1,15 @@
+# ::snt two hipsters strolling down the street with ridiculous looking clothes on .
+# ::tokens ["two", "hipsters", "strolling", "down", "the", "street", "with", "ridiculous", "looking", "clothes", "on", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "VBG", "IN", "DT", "NN", "IN", "JJ", "VBG", "NNS", "RP", "."]
+# ::lemmas ["two", "hipster", "stroll", "down", "the", "street", "with", "ridiculous", "look", "clothe", "on", "."]
+(s0 / stroll
+      :direction (d0 / down
+            :op1 (s1 / street))
+      :direction (h0 / hipster
+            :quant 2 
+            :ARG0-of (h1 / have-03
+                  :ARG1 (c0 / clothes
+                        :ARG1-of (l0 / look-02
+                              :ARG1 (r0 / ridiculous-02))))))

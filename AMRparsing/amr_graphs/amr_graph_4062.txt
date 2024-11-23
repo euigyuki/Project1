@@ -1,0 +1,16 @@
+# ::snt several men are walking and standing in john a. noble facility .
+# ::tokens ["several", "men", "are", "walking", "and", "standing", "in", "john", "a.", "noble", "facility", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "PERSON", "PERSON", "PERSON", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "B", "I", "I", "O", "O"]
+# ::pos_tags ["JJ", "NNS", "VBP", "VBG", "CC", "VBG", "IN", "NNP", "NNP", "NNP", "NN", "."]
+# ::lemmas ["several", "man", "be", "walk", "and", "stand", "in", "john", "a.", "noble", "facility", "."]
+(a0 / and
+      :location (f0 / facility
+            :location (n1 / noble)
+            :name (n0 / name
+                  :op1 "john" ))
+      :op2 (s0 / stand-01
+            :ARG1 m0)
+      :op1 (w0 / walk-01
+            :ARG0 (m0 / man
+                  :quant (s1 / several))))

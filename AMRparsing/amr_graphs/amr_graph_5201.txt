@@ -1,0 +1,18 @@
+# ::snt a man in a red plaid shirt holds on for dear life as the horse tries to throw him off .
+# ::tokens ["a", "man", "in", "a", "red", "plaid", "shirt", "holds", "on", "for", "dear", "life", "as", "the", "horse", "tries", "to", "throw", "him", "off", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "DT", "JJ", "NN", "NN", "VBZ", "IN", "IN", "JJ", "NN", "IN", "DT", "NN", "VBZ", "TO", "VB", "PRP", "RP", "."]
+# ::lemmas ["a", "man", "in", "a", "red", "plaid", "shirt", "hold", "on", "for", "dear", "life", "as", "the", "horse", "try", "to", "throw", "he", "off", "."]
+(h0 / hold-on-06
+      :time (l0 / live-01
+            :mod (d0 / dear))
+      :ARG0 (m0 / man
+            :ARG0-of (w0 / wear-01
+                  :ARG1 (s0 / shirt
+                        :mod (p0 / plaid
+                              :ARG1-of (r0 / red-02)))))
+      :ARG1 (t0 / try-01
+            :ARG0 (h1 / horse
+                  :ARG0-of (t1 / throw-01))
+            :ARG1 t1))

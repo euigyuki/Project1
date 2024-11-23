@@ -1,0 +1,5 @@
+(d0 / dive-01
+    :accompanier (t0 / turtle
+                     :mod (l0 / large)
+                     :mod (s1 / sea))
+    :ARG0 (w0 / woman))

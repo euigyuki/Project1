@@ -1,0 +1,12 @@
+(c0 / climb-01
+    :direction (u0 / up-03)
+    :ARG0 (p0 / person)
+    :ARG1 (a0 / and
+              :op2 (d0 / down
+                       :op1 (f0 / fly-01
+                                :ARG1-of (l0 / long-03)
+                                :mod (o0 / outdoor)
+                                :ARG1 (s0 / stair
+                                          :ARG4-of (g0 / go-01
+                                                       :direction (u1 / up)
+                                                       :ARG4 (m0 / mountain)))))))

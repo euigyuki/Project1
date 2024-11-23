@@ -1,0 +1,7 @@
+(a0 / and
+    :op2 (c0 / child
+             :mod (o0 / other)
+             :quant 3)
+    :op1 (g0 / girl
+             :poss-of (a1 / air)
+             :poss-of (h0 / hand)))

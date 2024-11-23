@@ -1,0 +1,16 @@
+# ::snt a female soccer player gives a teammate a piggyback ride .
+# ::tokens ["a", "female", "soccer", "player", "gives", "a", "teammate", "a", "piggyback", "ride", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "NN", "VBZ", "DT", "NN", "DT", "NN", "NN", "."]
+# ::lemmas ["a", "female", "soccer", "player", "give", "a", "teammate", "a", "piggyback", "ride", "."]
+(g0 / give-01
+      :ARG2 (p1 / person
+            :ARG0-of (h0 / have-rel-role-91
+                  :ARG2 (t0 / teammate)))
+      :ARG0 (p0 / person
+            :ARG0-of (p3 / play-01
+                  :ARG1 (s0 / soccer))
+            :mod (f0 / female))
+      :ARG1 (r0 / ride-01
+            :mod (p2 / piggyback)))

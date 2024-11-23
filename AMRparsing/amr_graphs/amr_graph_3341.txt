@@ -1,0 +1,23 @@
+# ::snt a woman watches a man representing france with the number <number> on his chest doing some sort of winter sport similar to skiing .
+# ::tokens ["a", "woman", "watches", "a", "man", "representing", "france", "with", "the", "number", "<", "number", ">", "on", "his", "chest", "doing", "some", "sort", "of", "winter", "sport", "similar", "to", "skiing", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "GPE", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "DATE", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "DT", "NN", "VBG", "NNP", "IN", "DT", "NN", "XX", "NN", "-RRB-", "IN", "PRP$", "NN", "VBG", "DT", "NN", "IN", "NN", "NN", "JJ", "IN", "NN", "."]
+# ::lemmas ["a", "woman", "watch", "a", "man", "represent", "france", "with", "the", "number", "<", "number", ">", "on", "his", "chest", "do", "some", "sort", "of", "winter", "sport", "similar", "to", "skiing", "."]
+(w0 / watch-01
+      :ARG0 (w1 / woman)
+      :ARG1 (p0 / perform-02
+            :instrument (s0 / sport
+                  :time (d0 / date-entity
+                        :season (w2 / winter))
+                  :ARG1-of (r0 / resemble-01
+                        :ARG2 (s3 / ski-01))
+                  :mod (s1 / sort
+                        :mod (s2 / some)))
+            :ARG0 (m0 / man
+                  :ARG0-of (h0 / have-03
+                        :ARG1 (n1 / number))
+                  :part (c1 / chest))
+            :ARG1 (c0 / country
+                  :name (n0 / name
+                        :op1 "France" ))))

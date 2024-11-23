@@ -1,0 +1,6 @@
+(f0 / field
+    :ARG1-of (g0 / green-02)
+    :mod (s0 / sport)
+    :mod (h0 / have-03
+             :ARG1 (p0 / person
+                       :ARG0-of (p1 / play-01))))

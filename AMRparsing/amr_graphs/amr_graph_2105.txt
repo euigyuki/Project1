@@ -1,0 +1,11 @@
+# ::snt man operating a eyrovia machine .
+# ::tokens ["man", "operating", "a", "eyrovia", "machine", "."]
+# ::ner_tags ["O", "O", "O", "GPE", "O", "O"]
+# ::ner_iob ["O", "O", "O", "B", "O", "O"]
+# ::pos_tags ["NN", "VBG", "DT", "JJ", "NN", "."]
+# ::lemmas ["man", "operate", "a", "eyrovia", "machine", "."]
+(o0 / operate-01
+      :ARG0 (m1 / man)
+      :ARG1 (m0 / machine
+            :name (n0 / name
+                  :op1 "eyrovia" )))

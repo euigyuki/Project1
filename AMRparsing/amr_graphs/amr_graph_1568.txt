@@ -1,0 +1,20 @@
+# ::snt a man in a blue shirt , jeans , and wearing a tool belt is climbing down a metal rod .
+# ::tokens ["a", "man", "in", "a", "blue", "shirt", ",", "jeans", ",", "and", "wearing", "a", "tool", "belt", "is", "climbing", "down", "a", "metal", "rod", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "DT", "JJ", "NN", ",", "NNS", ",", "CC", "VBG", "DT", "NN", "NN", "VBZ", "VBG", "RP", "DT", "NN", "NN", "."]
+# ::lemmas ["a", "man", "in", "a", "blue", "shirt", ",", "jean", ",", "and", "wear", "a", "tool", "belt", "be", "climb", "down", "a", "metal", "rod", "."]
+(c0 / climb-01
+      :direction (r0 / rod
+            :consist-of (m1 / metal))
+      :direction (d0 / down)
+      :ARG1 (m0 / man
+            :ARG0-of (s0 / shirt
+                  :mod (b1 / blue))
+            :ARG2-of (w1 / wear-01
+                  :ARG1 (b0 / belt
+                        :mod (t0 / tool)))
+            :ARG1-of (w0 / wear-01
+                  :ARG1 (a0 / and
+                        :op2 (j0 / jean)
+                        :op1 (s1 / shirt)))))

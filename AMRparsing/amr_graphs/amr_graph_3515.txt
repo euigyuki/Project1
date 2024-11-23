@@ -1,0 +1,11 @@
+# ::snt a person sculpting something from a large rock .
+# ::tokens ["a", "person", "sculpting", "something", "from", "a", "large", "rock", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBG", "NN", "IN", "DT", "JJ", "NN", "."]
+# ::lemmas ["a", "person", "sculpt", "something", "from", "a", "large", "rock", "."]
+(c0 / climb-01
+      :ARG2 (r0 / rock
+            :mod (l0 / large))
+      :ARG0 (p0 / person)
+      :ARG1 (s0 / something))

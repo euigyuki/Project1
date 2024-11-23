@@ -1,0 +1,12 @@
+# ::snt two men involved in a mixed martial arts competition .
+# ::tokens ["two", "men", "involved", "in", "a", "mixed", "martial", "arts", "competition", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "VBN", "IN", "DT", "JJ", "JJ", "NNS", "NN", "."]
+# ::lemmas ["two", "man", "involve", "in", "a", "mixed", "martial", "art", "competition", "."]
+(i0 / involve-01
+      :ARG2 (c0 / compete-01
+            :ARG3 (a0 / art
+                  :mod (m1 / martial)))
+      :ARG1 (m0 / man
+            :quant 2 ))

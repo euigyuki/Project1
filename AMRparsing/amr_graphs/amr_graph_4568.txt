@@ -1,0 +1,18 @@
+# ::snt a few people and cars out on their daily commute on a rainy day .
+# ::tokens ["a", "few", "people", "and", "cars", "out", "on", "their", "daily", "commute", "on", "a", "rainy", "day", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "DATE", "O", "O", "DATE", "DATE", "DATE", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "B", "O", "O", "B", "I", "I", "O"]
+# ::pos_tags ["DT", "JJ", "NNS", "CC", "NNS", "RP", "IN", "PRP$", "JJ", "NN", "IN", "DT", "JJ", "NN", "."]
+# ::lemmas ["a", "few", "people", "and", "car", "out", "on", "their", "daily", "commute", "on", "a", "rainy", "day", "."]
+(a0 / and
+      :ARG0-of (c1 / commute-01
+            :frequency (r0 / rate-entity-91
+                  :ARG3 (t0 / temporal-quantity
+                        :unit (d1 / day)
+                        :quant 1 )
+                  :ARG4 (d0 / day
+                        :mod (r1 / rain-01)))
+            :frequency (o0 / out-06))
+      :op2 (c0 / car)
+      :op1 (p0 / person
+            :quant (f0 / few)))

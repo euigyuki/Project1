@@ -1,0 +1,11 @@
+# ::snt the photographer is taking polaroids of the landscape .
+# ::tokens ["the", "photographer", "is", "taking", "polaroids", "of", "the", "landscape", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "VBG", "NNS", "IN", "DT", "NN", "."]
+# ::lemmas ["the", "photographer", "be", "take", "polaroid", "of", "the", "landscape", "."]
+(t0 / take-01
+      :ARG0 (p1 / person
+            :ARG0-of (p2 / photograph-01))
+      :ARG1 (p0 / polaroid
+            :topic (l0 / landscape)))

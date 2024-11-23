@@ -1,0 +1,9 @@
+(a0 / and
+    :op2 (p0 / play-01
+             :ARG1 (g1 / game
+                       :mod (b0 / board))
+             :ARG0 (g0 / group
+                       :consist-of (p1 / person
+                                       :quant 6)))
+    :op1 (r0 / roll-01
+             :ARG0 g0))

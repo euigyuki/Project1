@@ -1,0 +1,15 @@
+# ::snt a young black person wearing a green shirt and a jacket using a sewing machine .
+# ::tokens ["a", "young", "black", "person", "wearing", "a", "green", "shirt", "and", "a", "jacket", "using", "a", "sewing", "machine", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "JJ", "NN", "VBG", "DT", "JJ", "NN", "CC", "DT", "NN", "VBG", "DT", "NN", "NN", "."]
+# ::lemmas ["a", "young", "black", "person", "wear", "a", "green", "shirt", "and", "a", "jacket", "use", "a", "sewing", "machine", "."]
+(p0 / person
+      :ARG0-of (w0 / wear-01
+            :ARG1 (a0 / and
+                  :op2 (j0 / jacket
+                        :purpose (s1 / sweep-01))
+                  :op1 (s0 / shirt
+                        :ARG1-of (g0 / green-02))))
+      :ARG1-of (b0 / black-05)
+      :mod (y0 / young))

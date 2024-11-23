@@ -1,0 +1,3 @@
+(t0 / type-01
+    :ARG0 (m0 / man
+              :quant 2))

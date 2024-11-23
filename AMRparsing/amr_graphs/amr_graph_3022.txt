@@ -1,0 +1,13 @@
+# ::snt a tan animal is being swatted in the face by a brown and white bull .
+# ::tokens ["a", "tan", "animal", "is", "being", "swatted", "in", "the", "face", "by", "a", "brown", "and", "white", "bull", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NNP", "NN", "VBZ", "VBG", "VBN", "IN", "DT", "NN", "IN", "DT", "JJ", "CC", "JJ", "NN", "."]
+# ::lemmas ["a", "tan", "animal", "be", "be", "swat", "in", "the", "face", "by", "a", "brown", "and", "white", "bull", "."]
+(t0 / throw-01
+      :ARG0 (b0 / bull
+            :ARG1-of (w0 / white-02)
+            :mod (b1 / brown))
+      :ARG1 (a0 / animal
+            :ARG1-of (t1 / tan))
+      :ARG2 (f0 / face))

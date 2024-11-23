@@ -1,0 +1,14 @@
+(s0 / sit-01
+    :manner (r0 / read-01
+                :mod-of (m0 / man
+                            :ARG0-of (h0 / have-03
+                                         :ARG1 (d0 / dreadlock
+                                                   :mod (o0 / old)))
+                            :mod (y0 / young)))
+    :time (p0 / pass-by-17
+              :ARG1 (n0 / newspaper)
+              :ARG0 (a0 / and
+                        :op2 (g0 / girl
+                                 :mod (y1 / young))
+                        :op1 (w1 / woman)))
+    :ARG1 m0)

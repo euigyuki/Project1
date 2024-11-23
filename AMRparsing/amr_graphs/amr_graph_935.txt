@@ -1,0 +1,11 @@
+# ::snt young boy throws a rock into the water .
+# ::tokens ["young", "boy", "throws", "a", "rock", "into", "the", "water", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["JJ", "NN", "VBZ", "DT", "NN", "IN", "DT", "NN", "."]
+# ::lemmas ["young", "boy", "throw", "a", "rock", "into", "the", "water", "."]
+(t0 / throw-01
+      :ARG2 (w0 / water)
+      :ARG0 (b0 / boy
+            :mod (y0 / young))
+      :ARG1 (r0 / rock))

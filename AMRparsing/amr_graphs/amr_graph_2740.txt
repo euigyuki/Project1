@@ -1,0 +1,9 @@
+# ::snt dog leaps out .
+# ::tokens ["dog", "leaps", "out", "."]
+# ::ner_tags ["O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O"]
+# ::pos_tags ["NN", "VBZ", "RP", "."]
+# ::lemmas ["dog", "leap", "out", "."]
+(l0 / leap-03
+      :direction (o0 / out)
+      :ARG0 (d0 / dog))

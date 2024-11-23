@@ -1,0 +1,17 @@
+Combination,Word,KL_Divergence,Max_elementwise_KL
+"('indoors', 'man-made', 'work_education')",copy,1.2734728,1.273472785949707
+"('indoors', 'man-made', 'domestic')",strand,1.1956341,1.195634126663208
+"('indoors', 'man-made', 'recreation')",accompany,1.0963106,1.0963106155395508
+"('indoors', 'man-made', 'restaurant')",slice,1.1308324,0.9786983728408812
+"('indoors', 'man-made', 'transportation_urban')",pilot,0.8687577,0.7476608157157898
+"('indoors', 'man-made', 'other_unclear')",study,0.695896,0.3804518580436706
+"('outdoors', 'man-made', 'work_education')",farm,0.39825976,0.2954041361808777
+"('outdoors', 'man-made', 'domestic')",roof,0.5789437,0.5927057266235352
+"('outdoors', 'man-made', 'recreation')",slide,0.5796082,0.5949541926383972
+"('outdoors', 'man-made', 'restaurant')",,,
+"('outdoors', 'man-made', 'transportation_urban')",donate,0.58789694,0.5878969430923462
+"('outdoors', 'man-made', 'other_unclear')",profile,1.2732353,0.7693313956260681
+"('outdoors', 'natural', 'field_forest')",harvest,1.0144,0.9582178592681884
+"('outdoors', 'natural', 'body_of_water')",surf,0.80222255,0.8916435837745667
+"('outdoors', 'natural', 'mountain')",snow,0.6143864,0.5181960463523865
+"('outdoors', 'natural', 'other_unclear')",,,

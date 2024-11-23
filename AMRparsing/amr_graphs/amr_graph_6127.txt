@@ -1,0 +1,7 @@
+(s0 / stand-01
+    :ARG1 (w0 / woman
+              :ARG0-of (w1 / wear-01
+                           :ARG1 (o1 / outfit
+                                     :mod (u0 / usual
+                                              :polarity -)))
+              :quant 2))

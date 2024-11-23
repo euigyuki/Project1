@@ -1,0 +1,16 @@
+# ::snt a little girl in a floury , pink jacket , picks out a fruit from a vendors table .
+# ::tokens ["a", "little", "girl", "in", "a", "floury", ",", "pink", "jacket", ",", "picks", "out", "a", "fruit", "from", "a", "vendors", "table", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "IN", "DT", "NN", ",", "JJ", "NN", ",", "VBZ", "RP", "DT", "NN", "IN", "DT", "NNS", "NN", "."]
+# ::lemmas ["a", "little", "girl", "in", "a", "floury", ",", "pink", "jacket", ",", "pick", "out", "a", "fruit", "from", "a", "vendor", "table", "."]
+(p0 / pick-up-04
+      :ARG2 (t0 / table
+            :poss (v0 / vendor))
+      :ARG0 (g0 / girl
+            :ARG0-of (w0 / wear-01
+                  :ARG1 (j0 / jacket
+                        :ARG1-of (p1 / pink-04)
+                        :consist-of (f1 / floury)))
+            :mod (l0 / little))
+      :ARG1 (f0 / fruit))

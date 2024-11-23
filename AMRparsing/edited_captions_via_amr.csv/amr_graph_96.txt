@@ -1,0 +1,14 @@
+# ::snt They are here to ensure no one crosses the barriers .
+# ::tokens ["They", "are", "here", "to", "ensure", "no", "one", "crosses", "the", "barriers", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["PRP", "VBP", "RB", "TO", "VB", "DT", "NN", "VBZ", "DT", "NNS", "."]
+# ::lemmas ["they", "be", "here", "to", "ensure", "no", "one", "cross", "the", "barrier", "."]
+(b0 / be-located-at-91
+      :purpose (e0 / ensure-01
+            :ARG0 (t0 / they)
+            :ARG1 (c0 / cross-02
+                  :ARG0 (n0 / no-one)
+                  :ARG1 (b1 / barrier)))
+      :ARG2 (h0 / here)
+      :ARG1 t0)

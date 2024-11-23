@@ -1,0 +1,4 @@
+(w0 / walk-01
+    :ARG0 (p0 / person
+              :ARG0-of (s0 / ski-01)
+              :mod (l0 / lone)))

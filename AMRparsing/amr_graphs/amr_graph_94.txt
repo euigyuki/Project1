@@ -1,0 +1,11 @@
+(p0 / perform-01
+    :ARG0 (p1 / person
+              :ARG0-of (h0 / have-03
+                           :ARG1 (o0 / or
+                                     :op2 (b1 / belt
+                                              :ARG1-of (r0 / red-02))
+                                     :op1 (b0 / belt
+                                              :ARG1-of (b2 / black-04))))
+              :mod (s0 / some))
+    :ARG1 (a0 / art
+              :mod (m1 / martial)))

@@ -1,0 +1,7 @@
+(t0 / try-01
+    :time (s1 / shop-01
+              :ARG0 (w0 / woman))
+    :ARG0 w0
+    :ARG1 (s0 / shoe
+              :mod (t1 / toed
+                       :ARG1-of (o0 / open-01))))

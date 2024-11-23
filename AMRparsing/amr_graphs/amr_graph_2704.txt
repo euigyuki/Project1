@@ -1,0 +1,10 @@
+# ::snt the dog runs through the snow .
+# ::tokens ["the", "dog", "runs", "through", "the", "snow", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "IN", "DT", "NN", "."]
+# ::lemmas ["the", "dog", "run", "through", "the", "snow", "."]
+(r0 / run-02
+      :path (t0 / through
+            :op1 (s0 / snow))
+      :ARG0 (d0 / dog))

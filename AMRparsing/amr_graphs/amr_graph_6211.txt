@@ -1,0 +1,10 @@
+(t0 / talk-01
+    :medium (p1 / phone)
+    :time (w0 / walk-01
+              :ARG1 (p0 / person
+                        :ARG0-of (w1 / wear-01
+                                     :ARG1 (a0 / and
+                                               :op2 (c0 / coat
+                                                        :ARG1-of (b1 / black-04))
+                                               :op1 (j0 / jean)))))
+    :ARG0 p0)

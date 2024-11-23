@@ -1,0 +1,3 @@
+(s0 / sit-01
+    :ARG1 (i0 / individual
+              :quant 9))

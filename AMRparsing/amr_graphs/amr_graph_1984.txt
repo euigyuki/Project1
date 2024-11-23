@@ -1,0 +1,11 @@
+# ::snt a brown dog is jumping after a tennis ball .
+# ::tokens ["a", "brown", "dog", "is", "jumping", "after", "a", "tennis", "ball", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "VBZ", "VBG", "IN", "DT", "NN", "NN", "."]
+# ::lemmas ["a", "brown", "dog", "be", "jump", "after", "a", "tennis", "ball", "."]
+(j0 / jump-03
+      :ARG2 (b0 / ball
+            :mod (t0 / tennis))
+      :ARG0 (d0 / dog
+            :mod (b1 / brown)))

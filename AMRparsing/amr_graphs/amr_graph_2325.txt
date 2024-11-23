@@ -1,0 +1,11 @@
+# ::snt seller of blow up balloon characters .
+# ::tokens ["seller", "of", "blow", "up", "balloon", "characters", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["NN", "IN", "NN", "RP", "NN", "NNS", "."]
+# ::lemmas ["seller", "of", "blow", "up", "balloon", "character", "."]
+(p0 / person
+      :ARG0-of (s0 / sell-01
+            :ARG1 (c0 / character
+                  :mod (b1 / balloon)
+                  :mod (b0 / blow-03))))

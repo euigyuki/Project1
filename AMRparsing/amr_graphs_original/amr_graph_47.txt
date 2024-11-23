@@ -1,0 +1,14 @@
+# ::snt a person dressed in a tan jacket jumps a quad over a harvested cornfield in front of a small out building .
+(z1 / jump-03
+      :ARG0 (z2 / person
+            :ARG1-of (z3 / dress-01
+                  :ARG2 (z4 / jacket
+                        :ARG1-of (z5 / tan-02))))
+      :ARG1 (z6 / quad)
+      :path (z7 / over
+            :op1 (z8 / cornfield
+                  :ARG1-of (z9 / harvest-01)))
+      :location (z10 / in-front-of
+            :op1 (z11 / building
+                  :mod (z12 / small)
+                  :location (z13 / out))))

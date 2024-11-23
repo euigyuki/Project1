@@ -1,0 +1,7 @@
+(r0 / ride-01
+    :ARG0 (p0 / person
+              :ARG0-of (h1 / have-03
+                           :ARG1 (g0 / gear
+                                     :mod (r1 / reflect-01))))
+    :ARG1 (h0 / horse
+              :ARG1-of (w0 / white-03)))

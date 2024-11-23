@@ -1,0 +1,22 @@
+# ::snt two kids with helmets on sitting outside while one looks down and the other straight ahead .
+# ::tokens ["two", "kids", "with", "helmets", "on", "sitting", "outside", "while", "one", "looks", "down", "and", "the", "other", "straight", "ahead", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "B", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "IN", "NNS", "IN", "VBG", "RB", "IN", "CD", "VBZ", "RP", "CC", "DT", "JJ", "RB", "RB", "."]
+# ::lemmas ["two", "kid", "with", "helmet", "on", "sit", "outside", "while", "one", "look", "down", "and", "the", "other", "straight", "ahead", "."]
+(c0 / contrast-01
+      :ARG2 (a0 / and
+            :op2 (l1 / look-01
+                  :direction (a1 / ahead)
+                  :ARG1-of (s1 / straight-04)
+                  :ARG0 (o1 / other))
+            :op1 (l0 / look-01
+                  :ARG0 (d0 / down)
+                  :ARG1 (p0 / person
+                        :quant 1 )))
+      :ARG1 (s0 / sit-01
+            :ARG2 (o0 / outside)
+            :ARG1 (k0 / kid
+                  :quant 2 
+                  :quant (h0 / have-03
+                        :ARG1 (h1 / helmet)))))

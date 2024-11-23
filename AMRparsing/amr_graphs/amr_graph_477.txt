@@ -1,0 +1,21 @@
+# ::snt there are multiple chinese people standing on a street and one of two of them are carrying a flag .
+# ::tokens ["there", "are", "multiple", "chinese", "people", "standing", "on", "a", "street", "and", "one", "of", "two", "of", "them", "are", "carrying", "a", "flag", "."]
+# ::ner_tags ["O", "O", "O", "NORP", "O", "O", "O", "O", "O", "O", "CARDINAL", "O", "CARDINAL", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "B", "O", "O", "O", "O", "O", "O", "B", "O", "B", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["EX", "VBP", "JJ", "JJ", "NNS", "VBG", "IN", "DT", "NN", "CC", "CD", "IN", "CD", "IN", "PRP", "VBP", "VBG", "DT", "NN", "."]
+# ::lemmas ["there", "be", "multiple", "chinese", "people", "stand", "on", "a", "street", "and", "one", "of", "two", "of", "they", "be", "carry", "a", "flag", "."]
+(a0 / and
+      :op2 (c0 / carry-01
+            :ARG0 (p1 / person
+                  :quant 1 
+                  :quant (i1 / include-91))
+            :ARG1 (f0 / flag))
+      :op1 (s0 / stand-01
+            :ARG2 (s1 / street)
+            :ARG1 (p0 / person
+                  :ARG2-of (i0 / include-91
+                        :ARG2 p1)
+                  :quant (m0 / multiple)
+                  :mod (c1 / country
+                        :name (n0 / name
+                              :op1 "China" )))))

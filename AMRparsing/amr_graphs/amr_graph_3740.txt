@@ -1,0 +1,3 @@
+(b0 / be-located-at-91
+    :ARG2 (s0 / sand)
+    :ARG1 (p0 / person))

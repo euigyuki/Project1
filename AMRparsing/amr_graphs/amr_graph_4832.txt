@@ -1,0 +1,16 @@
+# ::snt a light technician man with tribal tattoos aiming a spotlight over a balcony .
+# ::tokens ["a", "light", "technician", "man", "with", "tribal", "tattoos", "aiming", "a", "spotlight", "over", "a", "balcony", "."]
+# ::ner_tags ["O", "O", "NORP", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "JJ", "NN", "IN", "JJ", "NNS", "VBG", "DT", "NN", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "light", "technician", "man", "with", "tribal", "tattoo", "aim", "a", "spotlight", "over", "a", "balcony", "."]
+(a0 / aim-02
+      :ARG2 (o0 / over
+            :op1 (b0 / balcony))
+      :ARG0 (m0 / man
+            :ARG1-of (h0 / have-03
+                  :ARG1 (t1 / tattoo-01
+                        :ARG2 (t2 / tribe)))
+            :mod (t0 / technician
+                  :ARG0-of (l0 / light)))
+      :ARG1 (s0 / spotlight))

@@ -1,0 +1,20 @@
+# ::snt a tattooed , potbellied man in a black belly shirt and blue board shorts grabs his crotch .
+# ::tokens ["a", "tattooed", ",", "potbellied", "man", "in", "a", "black", "belly", "shirt", "and", "blue", "board", "shorts", "grabs", "his", "crotch", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "ORG", "ORG", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B", "I", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", ",", "JJ", "NN", "IN", "DT", "JJ", "NN", "NN", "CC", "NNP", "NN", "NNS", "VBZ", "PRP$", "NN", "."]
+# ::lemmas ["a", "tattooed", ",", "potbellied", "man", "in", "a", "black", "belly", "shirt", "and", "blue", "board", "short", "grab", "his", "crotch", "."]
+(g0 / grab-01
+      :ARG0 (m0 / man
+            :poss-of (c0 / crotch)
+            :ARG1-of (h1 / have-03)
+            :ARG0-of (h0 / have-03)
+            :part (l0 / load-01
+                  :ARG2 (a0 / and
+                        :op2 (s0 / short-07
+                              :mod (b2 / board
+                                    :mod (b3 / blue)))
+                        :op1 (t0 / t-shirt
+                              :mod (b1 / belly)
+                              :mod (b0 / black-04)))))
+      :ARG1 c0)

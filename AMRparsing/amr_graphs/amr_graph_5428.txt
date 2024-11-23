@@ -1,0 +1,13 @@
+# ::snt many people are enjoying the beach on a summer day .
+# ::tokens ["many", "people", "are", "enjoying", "the", "beach", "on", "a", "summer", "day", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "DATE", "DATE", "DATE", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "B", "I", "I", "O"]
+# ::pos_tags ["JJ", "NNS", "VBP", "VBG", "DT", "NN", "IN", "DT", "NN", "NN", "."]
+# ::lemmas ["many", "people", "be", "enjoy", "the", "beach", "on", "a", "summer", "day", "."]
+(e0 / enjoy-01
+      :time (d0 / day
+            :mod (d1 / date-entity
+                  :season (s0 / summer)))
+      :ARG0 (p0 / person
+            :quant (m0 / many))
+      :ARG1 (b0 / beach))

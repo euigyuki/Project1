@@ -1,0 +1,12 @@
+# ::snt a tan dog and a black dog fight .
+# ::tokens ["a", "tan", "dog", "and", "a", "black", "dog", "fight", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NNP", "NN", "CC", "DT", "JJ", "NN", "NN", "."]
+# ::lemmas ["a", "tan", "dog", "and", "a", "black", "dog", "fight", "."]
+(a0 / and
+      :op2 (f0 / fight-01
+            :ARG2 (d1 / dog
+                  :ARG1-of (b0 / black-04)))
+      :op1 (d0 / dog
+            :ARG1-of (t0 / tan)))

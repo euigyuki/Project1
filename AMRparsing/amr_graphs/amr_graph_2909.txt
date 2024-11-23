@@ -1,0 +1,15 @@
+# ::snt two girls and a boy are getting ready to jump into a backyard pool .
+# ::tokens ["two", "girls", "and", "a", "boy", "are", "getting", "ready", "to", "jump", "into", "a", "backyard", "pool", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "CC", "DT", "NN", "VBP", "VBG", "JJ", "TO", "VB", "IN", "DT", "NN", "NN", "."]
+# ::lemmas ["two", "girl", "and", "a", "boy", "be", "get", "ready", "to", "jump", "into", "a", "backyard", "pool", "."]
+(r0 / ready-01
+      :ARG2 (j0 / jump-03
+            :ARG0 (a0 / and
+                  :op2 (b0 / boy)
+                  :op1 (g0 / girl
+                        :quant 2 ))
+            :destination (p0 / pool
+                  :mod (b1 / backyard)))
+      :ARG1 a0)

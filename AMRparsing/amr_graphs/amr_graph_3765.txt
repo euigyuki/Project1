@@ -1,0 +1,12 @@
+# ::snt a kid is going down a big water slide .
+# ::tokens ["a", "kid", "is", "going", "down", "a", "big", "water", "slide", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "VBG", "IN", "DT", "JJ", "NN", "NN", "."]
+# ::lemmas ["a", "kid", "be", "go", "down", "a", "big", "water", "slide", "."]
+(g0 / go-02
+      :ARG4 (s0 / slide-01
+            :mod (b0 / big)
+            :ARG1 (w0 / water))
+      :direction (d0 / down)
+      :ARG0 (k0 / kid))

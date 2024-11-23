@@ -1,0 +1,17 @@
+# ::snt a small child with winter gear wears black sunglasses and a blue hat .
+# ::tokens ["a", "small", "child", "with", "winter", "gear", "wears", "black", "sunglasses", "and", "a", "blue", "hat", "."]
+# ::ner_tags ["O", "O", "O", "O", "DATE", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "B", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "IN", "NN", "NN", "VBZ", "JJ", "NNS", "CC", "DT", "JJ", "NN", "."]
+# ::lemmas ["a", "small", "child", "with", "winter", "gear", "wear", "black", "sunglass", "and", "a", "blue", "hat", "."]
+(w0 / wear-01
+      :ARG0 (c0 / child
+            :ARG0-of (h1 / have-03
+                  :ARG1 (g0 / gear
+                        :mod (w1 / winter)))
+            :mod (s1 / small))
+      :ARG1 (a0 / and
+            :op2 (h0 / hat
+                  :mod (b1 / blue))
+            :op1 (s0 / sunglass
+                  :ARG1-of (b0 / black-04))))

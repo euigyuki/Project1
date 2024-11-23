@@ -1,0 +1,9 @@
+(j0 / jump-03
+    :destination (p0 / pool)
+    :ARG0 (d0 / dog
+              :ARG0-of (h0 / have-03
+                           :ARG1 (b1 / ball
+                                     :quant (l0 / lot)
+                                     :mod (t0 / tennis)))
+              :ARG1-of (b0 / black-04)
+              :mod (w0 / white-02)))

@@ -1,0 +1,5 @@
+(r0 / run-02
+    :manner (m0 / mouth
+                :part-of (d0 / dog
+                             :ARG1-of (t0 / tan)
+                             :ARG0-of r0)))

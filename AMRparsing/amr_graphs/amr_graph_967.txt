@@ -1,0 +1,15 @@
+# ::snt a young boy runs down a field , wearing a name tag .
+# ::tokens ["a", "young", "boy", "runs", "down", "a", "field", ",", "wearing", "a", "name", "tag", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "VBZ", "IN", "DT", "NN", ",", "VBG", "DT", "NN", "NN", "."]
+# ::lemmas ["a", "young", "boy", "run", "down", "a", "field", ",", "wear", "a", "name", "tag", "."]
+(r0 / run-02
+      :manner (w0 / wear-01
+            :ARG0 (b0 / boy
+                  :mod (y0 / young))
+            :ARG1 (t0 / tag
+                  :mod (n0 / name)))
+      :ARG0 b0
+      :direction (d0 / down
+            :op1 (f0 / field)))

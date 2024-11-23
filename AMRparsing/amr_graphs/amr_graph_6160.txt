@@ -1,0 +1,10 @@
+# ::snt man is demonstrating to a student .
+# ::tokens ["man", "is", "demonstrating", "to", "a", "student", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["NN", "VBZ", "VBG", "IN", "DT", "NN", "."]
+# ::lemmas ["man", "be", "demonstrate", "to", "a", "student", "."]
+(d0 / demonstrate-01
+      :ARG2 (p0 / person
+            :ARG0-of (s0 / study-01))
+      :ARG0 (m0 / man))

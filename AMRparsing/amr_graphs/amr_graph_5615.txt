@@ -1,0 +1,2 @@
+(p0 / person
+    :mod (s0 / some))

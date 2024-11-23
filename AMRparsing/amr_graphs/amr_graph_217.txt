@@ -1,0 +1,17 @@
+# ::snt young girl in pink and green bikini , swimming with a rubber ring .
+# ::tokens ["young", "girl", "in", "pink", "and", "green", "bikini", ",", "swimming", "with", "a", "rubber", "ring", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["JJ", "NN", "IN", "JJ", "CC", "JJ", "NN", ",", "VBG", "IN", "DT", "NN", "NN", "."]
+# ::lemmas ["young", "girl", "in", "pink", "and", "green", "bikini", ",", "swim", "with", "a", "rubber", "ring", "."]
+(g0 / girl
+      :part (a0 / and
+            :op2 (b1 / bikini
+                  :ARG1-of (g1 / green-02))
+            :op1 (b0 / bikini
+                  :ARG1-of (p0 / pink-04)))
+      :ARG0-of (h0 / have-03
+            :ARG1 (r0 / ring
+                  :consist-of (r1 / rubber)))
+      :mod (y0 / young)
+      :mod (s0 / swim-01))

@@ -1,0 +1,8 @@
+(a0 / and
+    :op2 (l0 / land-01
+             :ARG1 (o0 / other))
+    :op1 (j0 / jump-03
+             :ARG2 (t0 / trampoline)
+             :ARG0 (g0 / girl
+                       :quant (u0 / upright)
+                       :quant 2)))

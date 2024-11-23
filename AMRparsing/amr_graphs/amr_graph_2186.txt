@@ -1,0 +1,16 @@
+# ::snt a fluffy white dog on a leash with its owner riding a bike .
+# ::tokens ["a", "fluffy", "white", "dog", "on", "a", "leash", "with", "its", "owner", "riding", "a", "bike", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "JJ", "NN", "IN", "DT", "NN", "IN", "PRP$", "NN", "VBG", "DT", "NN", "."]
+# ::lemmas ["a", "fluffy", "white", "dog", "on", "a", "leash", "with", "its", "owner", "ride", "a", "bike", "."]
+(b0 / be-located-at-91
+      :ARG2 (l0 / leash)
+      :ARG1 (d0 / dog
+            :ARG0-of (r0 / ride-01
+                  :ARG1 (b1 / bike)
+                  :ARG0 p0)
+            :ARG1-of (o0 / own-01
+                  :ARG0 (p0 / person))
+            :mod (w0 / white-02)
+            :mod (f0 / fluffy)))

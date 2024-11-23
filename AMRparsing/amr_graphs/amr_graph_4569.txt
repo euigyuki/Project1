@@ -1,0 +1,13 @@
+# ::snt people crossing a busy street on a rainy afternoon .
+# ::tokens ["people", "crossing", "a", "busy", "street", "on", "a", "rainy", "afternoon", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "TIME", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "B", "O"]
+# ::pos_tags ["NNS", "VBG", "DT", "JJ", "NN", "IN", "DT", "JJ", "NN", "."]
+# ::lemmas ["people", "cross", "a", "busy", "street", "on", "a", "rainy", "afternoon", "."]
+(p0 / person
+      :ARG0-of (c0 / cross-02
+            :time (d0 / date-entity
+                  :weekday (r0 / rain-01)
+                  :dayperiod (a0 / afternoon))
+            :ARG1 (s0 / street
+                  :ARG1-of (b0 / busy-01))))

@@ -1,0 +1,18 @@
+# ::snt six children are wearing burlap sacks and having a potato sack race .
+# ::tokens ["six", "children", "are", "wearing", "burlap", "sacks", "and", "having", "a", "potato", "sack", "race", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "VBP", "VBG", "NN", "NNS", "CC", "VBG", "DT", "NN", "NN", "NN", "."]
+# ::lemmas ["six", "child", "be", "wear", "burlap", "sack", "and", "have", "a", "potato", "sack", "race", "."]
+(a0 / and
+      :op2 (h0 / have-06
+            :ARG1 (r0 / race-02
+                  :ARG0 (c0 / child
+                        :quant 6 )
+                  :ARG3 (s1 / sack
+                        :consist-of (p0 / potato)))
+            :ARG0 c0)
+      :op1 (w0 / wear-01
+            :ARG0 c0
+            :ARG1 (s0 / sack
+                  :ARG0-of (b0 / burlap))))

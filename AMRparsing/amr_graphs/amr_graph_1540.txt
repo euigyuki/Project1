@@ -1,0 +1,2 @@
+(v0 / vehicle
+    :mod (p0 / police))

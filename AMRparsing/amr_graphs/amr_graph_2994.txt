@@ -1,0 +1,14 @@
+# ::snt a young girl in a spider-man outfit rides a toy horse .
+# ::tokens ["a", "young", "girl", "in", "a", "spider", "-", "man", "outfit", "rides", "a", "toy", "horse", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "IN", "DT", "NN", "HYPH", "NN", "NN", "VBZ", "DT", "NN", "NN", "."]
+# ::lemmas ["a", "young", "girl", "in", "a", "spider", "-", "man", "outfit", "ride", "a", "toy", "horse", "."]
+(r0 / ride-01
+      :ARG0 (g0 / girl
+            :ARG0-of (w0 / wear-01
+                  :ARG1 (o0 / outfit
+                        :mod (s0 / spider)))
+            :mod (y0 / young))
+      :ARG1 (h0 / horse
+            :mod (t0 / toy)))

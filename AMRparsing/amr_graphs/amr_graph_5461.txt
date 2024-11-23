@@ -1,0 +1,24 @@
+# ::snt a group of people walking on the surf , two of which are men holding their surfboards , one is blue and one is white .
+# ::tokens ["a", "group", "of", "people", "walking", "on", "the", "surf", ",", "two", "of", "which", "are", "men", "holding", "their", "surfboards", ",", "one", "is", "blue", "and", "one", "is", "white", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "NNS", "VBG", "IN", "DT", "NN", ",", "CD", "IN", "WDT", "VBP", "NNS", "VBG", "PRP$", "NNS", ",", "CD", "VBZ", "JJ", "CC", "PRP", "VBZ", "JJ", "."]
+# ::lemmas ["a", "group", "of", "people", "walk", "on", "the", "surf", ",", "two", "of", "which", "be", "man", "hold", "their", "surfboard", ",", "one", "be", "blue", "and", "one", "be", "white", "."]
+(g0 / group-01
+      :ARG1 (p1 / person
+            :ARG0-of (w0 / walk-01
+                  :ARG2 (s0 / surf-01)))
+      :ARG2 (p0 / person
+            :ARG2-of (i0 / include-91
+                  :ARG1 (p2 / person
+                        :quant 2 
+                        :quant (h0 / hold-01
+                              :ARG0 (m0 / man
+                                    :poss-of (s1 / surfboard)
+                                    :quant 1 )
+                              :ARG1 s1)
+                        :quant (i1 / include-91
+                              :ARG1 (a0 / and
+                                    :op2 (w1 / white-03
+                                          :ARG1 1 )
+                                    :op1 (b0 / blue)))))))

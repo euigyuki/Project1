@@ -1,0 +1,12 @@
+# ::snt two men fighting while playing frisbee .
+# ::tokens ["two", "men", "fighting", "while", "playing", "frisbee", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "VBG", "IN", "VBG", "NN", "."]
+# ::lemmas ["two", "man", "fight", "while", "play", "frisbee", "."]
+(f0 / fight-01
+      :time (p0 / play-01
+            :ARG0 (m0 / man
+                  :quant 2 )
+            :ARG1 (f1 / frisbee))
+      :ARG0 m0)

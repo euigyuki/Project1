@@ -1,0 +1,6 @@
+(l0 / look-01
+    :ARG0 (a0 / and
+              :ARG1-of (r0 / reflect-01)
+              :op2 (w1 / woman)
+              :op1 (m0 / man))
+    :ARG1 r0)

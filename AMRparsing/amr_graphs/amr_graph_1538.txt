@@ -1,0 +1,5 @@
+(b0 / be-located-at-91
+    :accompanier (m0 / man
+                     :ARG1-of (h0 / handcuffed))
+    :ARG2 (s0 / scene)
+    :ARG1 (p0 / police))

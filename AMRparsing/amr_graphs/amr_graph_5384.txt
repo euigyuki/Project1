@@ -1,0 +1,13 @@
+# ::snt a tram inspector in an orange vest inspecting the tram seats .
+# ::tokens ["a", "tram", "inspector", "in", "an", "orange", "vest", "inspecting", "the", "tram", "seats", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NNP", "NN", "IN", "DT", "JJ", "NN", "VBG", "DT", "NNP", "NNS", "."]
+# ::lemmas ["a", "tram", "inspector", "in", "an", "orange", "vest", "inspect", "the", "tram", "seat", "."]
+(i0 / inspect-01
+      :ARG0 (p0 / person
+            :ARG0-of (v0 / vest
+                  :mod (o0 / orange))
+            :mod (i1 / inspect-01))
+      :ARG1 (s0 / seat
+            :part-of (t0 / tram)))

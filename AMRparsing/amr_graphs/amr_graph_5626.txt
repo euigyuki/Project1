@@ -1,0 +1,7 @@
+(r0 / ride-01
+    :ARG1 (b0 / bike
+              :poss (w0 / woman
+                        :ARG1-of (c0 / counsel-01
+                                     :ARG2 (w1 / weather
+                                               :ARG1-of (c1 / cool-01)))))
+    :ARG0 w0)

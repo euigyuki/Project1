@@ -1,0 +1,8 @@
+(w0 / walk-01
+    :direction (b0 / barefoot)
+    :ARG0 (w1 / woman
+              :part (b2 / back)
+              :part (b1 / blond)
+              :ARG0-of (h0 / have-03
+                           :ARG1 (t0 / tube
+                                     :ARG1-of (g0 / green-02)))))

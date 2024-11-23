@@ -1,0 +1,3 @@
+(h0 / hold-01
+    :ARG1 (u0 / umbrella
+              :ARG1-of (p0 / purple-02)))

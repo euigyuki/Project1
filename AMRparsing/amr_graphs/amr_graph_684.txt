@@ -1,0 +1,5 @@
+(t0 / touch-01
+    :condition (c0 / couple)
+    :ARG0 (w0 / woman)
+    :ARG1 (f0 / face
+              :part-of (m0 / man)))

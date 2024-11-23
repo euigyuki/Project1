@@ -1,0 +1,6 @@
+(p0 / play-01
+    :accompanier (c0 / cow
+                     :mod (b1 / brown))
+    :ARG0 (d0 / dog
+              :mod (b0 / brown)
+              :mod (l0 / large)))

@@ -1,0 +1,13 @@
+# ::snt a man with a blue helmet and orange shirt .
+# ::tokens ["a", "man", "with", "a", "blue", "helmet", "and", "orange", "shirt", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "DT", "JJ", "NN", "CC", "JJ", "NN", "."]
+# ::lemmas ["a", "man", "with", "a", "blue", "helmet", "and", "orange", "shirt", "."]
+(m0 / man
+      :ARG0-of (h0 / have-03
+            :ARG1 (a0 / and
+                  :op2 (s0 / shirt
+                        :mod (o0 / orange))
+                  :op1 (h1 / helmet
+                        :mod (b0 / blue)))))

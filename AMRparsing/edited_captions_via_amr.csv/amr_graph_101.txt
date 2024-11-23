@@ -1,0 +1,17 @@
+# ::snt A white dog is resting its head on a tiled floor with its eyes open .
+# ::tokens ["A", "white", "dog", "is", "resting", "its", "head", "on", "a", "tiled", "floor", "with", "its", "eyes", "open", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "VBZ", "VBG", "PRP$", "NN", "IN", "DT", "VBN", "NN", "IN", "PRP$", "NNS", "JJ", "."]
+# ::lemmas ["a", "white", "dog", "be", "rest", "its", "head", "on", "a", "tile", "floor", "with", "its", "eye", "open", "."]
+(r0 / rest-01
+      :manner (o0 / open-01
+            :ARG1 (d0 / dog
+                  :part (h0 / head)
+                  :part (e0 / eye)
+                  :part (w0 / white-03))
+            :ARG1 e0)
+      :ARG2 (f0 / floor
+            :ARG1-of (t0 / tile))
+      :ARG0 d0
+      :ARG1 h0)

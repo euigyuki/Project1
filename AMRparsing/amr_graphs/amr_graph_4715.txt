@@ -1,0 +1,11 @@
+# ::snt two children in soccer uniforms .
+# ::tokens ["two", "children", "in", "soccer", "uniforms", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "IN", "NN", "NNS", "."]
+# ::lemmas ["two", "child", "in", "soccer", "uniform", "."]
+(c0 / child
+      :quant 2 
+      :quant (w0 / wear-01
+            :ARG1 (u0 / uniform
+                  :mod (s0 / soccer))))

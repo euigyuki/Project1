@@ -1,0 +1,10 @@
+# ::snt a person climbs a tall , flat mountain while holding onto a safety rope .
+(z1 / climb-01
+      :ARG0 (z2 / person)
+      :ARG1 (z3 / mountain
+            :mod (z4 / tall)
+            :ARG1-of (z5 / flat-06))
+      :time (z6 / hold-01
+            :ARG0 z2
+            :ARG1 (z7 / rope
+                  :purpose (z8 / safe-01))))

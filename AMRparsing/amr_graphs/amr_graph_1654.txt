@@ -1,0 +1,6 @@
+(s0 / sit-01
+    :ARG1 (l0 / lady
+              :mod (y0 / young)
+              :poss-of (c1 / car
+                           :ARG1-of (p0 / park-01)
+                           :op1-of (o0 / outside))))

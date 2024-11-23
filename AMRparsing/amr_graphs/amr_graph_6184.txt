@@ -1,0 +1,5 @@
+(b0 / boy
+    :ARG0-of (p0 / play-01
+                 :ARG1-of (n0 / near-02
+                              :ARG2 (w0 / water)))
+    :mod (y0 / young))

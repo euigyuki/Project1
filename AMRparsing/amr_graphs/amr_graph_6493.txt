@@ -1,0 +1,6 @@
+(h0 / harvest-01
+    :ARG0 (p0 / person
+              :quant 2)
+    :ARG1 (o0 / or
+              :op2 (v0 / vegetable)
+              :op1 (f0 / fruit)))

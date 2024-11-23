@@ -1,0 +1,10 @@
+# ::snt several people in three elevators .
+# ::tokens ["several", "people", "in", "three", "elevators", "."]
+# ::ner_tags ["O", "O", "O", "CARDINAL", "O", "O"]
+# ::ner_iob ["O", "O", "O", "B", "O", "O"]
+# ::pos_tags ["JJ", "NNS", "IN", "CD", "NNS", "."]
+# ::lemmas ["several", "people", "in", "three", "elevator", "."]
+(p0 / person
+      :location (e0 / elevator
+            :quant 3 )
+      :quant (s0 / several))

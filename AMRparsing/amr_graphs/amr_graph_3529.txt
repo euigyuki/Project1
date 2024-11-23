@@ -1,0 +1,12 @@
+# ::snt people dressed in colorful outfits are gathered together .
+# ::tokens ["people", "dressed", "in", "colorful", "outfits", "are", "gathered", "together", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["NNS", "VBN", "IN", "JJ", "NNS", "VBP", "VBN", "RB", "."]
+# ::lemmas ["people", "dress", "in", "colorful", "outfit", "be", "gather", "together", "."]
+(g0 / gather-03
+      :mod (t0 / together)
+      :ARG1 (p0 / person
+            :ARG1-of (d0 / dress-01
+                  :ARG2 (o0 / outfit
+                        :mod (c0 / colorful)))))

@@ -1,0 +1,7 @@
+(c0 / contrast-01
+    :ARG1 (l0 / look-01
+              :ARG0 (m1 / man
+                        :ARG1-of (b1 / black-05)
+                        :mod (s0 / shirt
+                                 :mod (d0 / dress)))
+              :ARG1 (m0 / microscope)))

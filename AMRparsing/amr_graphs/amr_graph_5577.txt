@@ -1,0 +1,7 @@
+(p0 / play-01
+    :ARG2 (f0 / fountain
+              :ARG1-of (s0 / shoot-01
+                           :source (g0 / ground)
+                           :ARG2 (u0 / up)))
+    :ARG0 (b0 / boy
+              :mod (y0 / young)))

@@ -1,0 +1,3 @@
+(s0 / sit-01
+    :ARG1 (f0 / female
+              :ARG0-of (w0 / wear-01)))

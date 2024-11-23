@@ -1,0 +1,3 @@
+(a0 / adult
+    :mod (y0 / young)
+    :quant 4)

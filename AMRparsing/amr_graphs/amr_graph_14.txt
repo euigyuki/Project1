@@ -1,0 +1,35 @@
+# ::snt five snowmobile riders all wearing helmets and goggles line up in a snowy clearing in a forest in front of their snowmobiles ; they are all wearing black snow pants and from left to right they are wearing a black coat , white coat , red coat , blue coat , and black coat .
+# ::tokens ["five", "snowmobile", "riders", "all", "wearing", "helmets", "and", "goggles", "line", "up", "in", "a", "snowy", "clearing", "in", "a", "forest", "in", "front", "of", "their", "snowmobiles", ";", "they", "are", "all", "wearing", "black", "snow", "pants", "and", "from", "left", "to", "right", "they", "are", "wearing", "a", "black", "coat", ",", "white", "coat", ",", "red", "coat", ",", "blue", "coat", ",", "and", "black", "coat", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "JJ", "NNS", "DT", "VBG", "NNS", "CC", "NNS", "VBP", "RP", "IN", "DT", "JJ", "NN", "IN", "DT", "NN", "IN", "NN", "IN", "PRP$", "NNS", ":", "PRP", "VBP", "RB", "VBG", "JJ", "NN", "NNS", "CC", "IN", "VBN", "IN", "JJ", "PRP", "VBP", "VBG", "DT", "JJ", "NN", ",", "JJ", "NN", ",", "JJ", "NN", ",", "JJ", "NN", ",", "CC", "JJ", "NN", "."]
+# ::lemmas ["five", "snowmobile", "rider", "all", "wear", "helmet", "and", "goggle", "line", "up", "in", "a", "snowy", "clearing", "in", "a", "forest", "in", "front", "of", "their", "snowmobile", ";", "they", "be", "all", "wear", "black", "snow", "pant", "and", "from", "leave", "to", "right", "they", "be", "wear", "a", "black", "coat", ",", "white", "coat", ",", "red", "coat", ",", "blue", "coat", ",", "and", "black", "coat", "."]
+(a0 / and
+      :op2 (a1 / and
+            :op2 (w1 / wear-01
+                  :ARG1 (p0 / person
+                        :poss-of (s0 / snowmobile)
+                        :quant 5 
+                        :ARG0-of (w2 / wear-01
+                              :ARG1 (a4 / and
+                                    :op2 (g0 / goggle)))
+                        :quant (h0 / have-org-role-91
+                              :ARG2 (f1 / fire))
+                        :mod (a2 / all))
+                  :ARG1 (a3 / and
+                        :op1 (h1 / helmet)
+                        :op2 (b1 / blue))
+                  :location (r0 / right-04)
+                  :location (c2 / coat
+                        :ARG1-of (w3 / white-03))
+                  :source (c1 / coat))
+            :op1 (w0 / wear-01
+                  :poss p0
+                  :ARG0 (p1 / person)))
+      :op1 (l0 / line-up-02
+            :location (c0 / clearing
+                  :ARG1-of (s2 / snowy)
+                  :location (f0 / forest
+                        :location-of (b0 / black-04))
+                  :location (s1 / snowy))
+            :ARG1 p0))

@@ -1,0 +1,8 @@
+(s0 / slide-01
+    :path (i0 / intertube)
+    :direction (d0 / down)
+    :ARG0 (p0 / person
+              :ARG1-of (l0 / lock-up-03
+                           :purpose (s1 / snow-01))
+              :mod (t0 / this))
+    :direction (h0 / hill))

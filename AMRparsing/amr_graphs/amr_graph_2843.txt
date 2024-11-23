@@ -1,0 +1,14 @@
+# ::snt two boxers are boxing in a ring as spectators watch .
+# ::tokens ["two", "boxers", "are", "boxing", "in", "a", "ring", "as", "spectators", "watch", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "VBP", "VBG", "IN", "DT", "NN", "IN", "NNS", "VBP", "."]
+# ::lemmas ["two", "boxer", "be", "box", "in", "a", "ring", "as", "spectator", "watch", "."]
+(b0 / box-03
+      :time (w0 / watch-01
+            :ARG2 (p0 / person
+                  :quant 2 
+                  :ARG0-of (b1 / box-03))
+            :ARG0 (s0 / spectator))
+      :time (r0 / ring)
+      :ARG0 p0)

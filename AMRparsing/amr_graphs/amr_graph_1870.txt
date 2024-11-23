@@ -1,0 +1,9 @@
+# ::snt cargo is being loaded onto a ship .
+# ::tokens ["cargo", "is", "being", "loaded", "onto", "a", "ship", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["NN", "VBZ", "VBG", "VBN", "IN", "DT", "NN", "."]
+# ::lemmas ["cargo", "be", "be", "load", "onto", "a", "ship", "."]
+(l0 / load-01
+      :ARG2 (s0 / ship)
+      :ARG1 (c0 / cargo))

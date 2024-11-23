@@ -1,0 +1,16 @@
+# ::snt a baby wearing a santa hat and a red outfit playing with a santa claus figure .
+# ::tokens ["a", "baby", "wearing", "a", "santa", "hat", "and", "a", "red", "outfit", "playing", "with", "a", "santa", "claus", "figure", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBG", "DT", "NN", "NN", "CC", "DT", "JJ", "NN", "VBG", "IN", "DT", "NN", "NN", "NN", "."]
+# ::lemmas ["a", "baby", "wear", "a", "santa", "hat", "and", "a", "red", "outfit", "play", "with", "a", "santa", "claus", "figure", "."]
+(p0 / play-11
+      :ARG0 (b0 / baby
+            :ARG0-of (w0 / wear-01
+                  :ARG1 (f0 / figure
+                        :mod (s1 / santa))))
+      :ARG1 (a0 / and
+            :op2 (o0 / outfit
+                  :ARG1-of (r0 / red-02))
+            :op1 (h0 / hat
+                  :mod (s0 / santa))))

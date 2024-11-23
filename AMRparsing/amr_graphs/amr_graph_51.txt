@@ -1,0 +1,10 @@
+(a0 / and
+    :op2 (c0 / carry-01
+             :ARG1 (b1 / ball
+                       :mod (s0 / soccer))
+             :ARG0 (b0 / boy
+                       :ARG0-of (w1 / wear-01
+                                    :ARG1 (s1 / shirt
+                                              :ARG1-of (w2 / white-03)))))
+    :op1 (w0 / walk-01
+             :ARG0 b0))

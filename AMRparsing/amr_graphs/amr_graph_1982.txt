@@ -1,0 +1,11 @@
+(l0 / leap-03
+    :purpose (c0 / catch-01
+                 :ARG0 (d0 / dog
+                           :part (a0 / air)
+                           :ARG0-of l0
+                           :part (m0 / mouth)
+                           :part (b0 / brown))
+                 :ARG1 (b1 / ball
+                           :ARG1-of (d1 / dirty-02)
+                           :mod (t0 / tennis)))
+    :purpose a0)

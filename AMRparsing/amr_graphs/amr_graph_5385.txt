@@ -1,0 +1,13 @@
+# ::snt a man in a vest is bending down and writing .
+# ::tokens ["a", "man", "in", "a", "vest", "is", "bending", "down", "and", "writing", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "DT", "NN", "VBZ", "VBG", "RP", "CC", "VBG", "."]
+# ::lemmas ["a", "man", "in", "a", "vest", "be", "bend", "down", "and", "write", "."]
+(a0 / and
+      :op2 (w0 / write-01
+            :ARG0 m0)
+      :op1 (b0 / bend-01
+            :direction (d0 / down)
+            :ARG0 (m0 / man
+                  :mod (v0 / vest))))

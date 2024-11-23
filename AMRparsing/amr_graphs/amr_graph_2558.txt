@@ -1,0 +1,6 @@
+(s0 / sell-01
+    :ARG0 (g0 / girl
+              :mod (y0 / young))
+    :ARG1 (a0 / and
+              :op2 (v0 / vegetable)
+              :op1 (f0 / fruit)))

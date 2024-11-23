@@ -1,0 +1,4 @@
+(s0 / stand-01
+    :time (p0 / pass-by-17
+              :ARG0 (t0 / traffic))
+    :ARG1 (m0 / man))

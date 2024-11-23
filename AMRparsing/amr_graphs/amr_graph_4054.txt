@@ -1,0 +1,12 @@
+# ::snt pom girls performing their choreography .
+# ::tokens ["pom", "girls", "performing", "their", "choreography", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["NN", "NNS", "VBG", "PRP$", "NN", "."]
+# ::lemmas ["pom", "girl", "perform", "their", "choreography", "."]
+(p0 / perform-01
+      :ARG0 (g0 / girl
+            :ARG0-of (p1 / process-02)
+            :mod (p2 / pom
+                  :mode expressive ))
+      :ARG1 p1)

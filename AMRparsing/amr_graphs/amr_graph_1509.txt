@@ -1,0 +1,13 @@
+# ::snt the brown dog is about to bite a paw printed ball .
+# ::tokens ["the", "brown", "dog", "is", "about", "to", "bite", "a", "paw", "printed", "ball", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "VBZ", "JJ", "TO", "VB", "DT", "NN", "VBN", "NN", "."]
+# ::lemmas ["the", "brown", "dog", "be", "about", "to", "bite", "a", "paw", "print", "ball", "."]
+(b0 / bite-01
+      :time (a0 / about-to)
+      :ARG0 (d0 / dog
+            :mod (b2 / brown))
+      :ARG1 (b1 / ball
+            :ARG1-of (p0 / print-01
+                  :ARG0 (p1 / paw))))

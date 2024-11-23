@@ -1,0 +1,12 @@
+# ::snt a little boy slides down a red slide .
+# ::tokens ["a", "little", "boy", "slides", "down", "a", "red", "slide", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "VBZ", "RP", "DT", "JJ", "NN", "."]
+# ::lemmas ["a", "little", "boy", "slide", "down", "a", "red", "slide", "."]
+(s0 / slide-01
+      :direction (s1 / slide-01
+            :ARG1-of (r0 / red-02))
+      :ARG0 (b0 / boy
+            :mod (l0 / little))
+      :direction (d0 / down))

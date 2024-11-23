@@ -1,0 +1,11 @@
+# ::snt a young girl rides a rubber horse .
+# ::tokens ["a", "young", "girl", "rides", "a", "rubber", "horse", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "VBZ", "DT", "NN", "NN", "."]
+# ::lemmas ["a", "young", "girl", "ride", "a", "rubber", "horse", "."]
+(r0 / ride-01
+      :ARG0 (g0 / girl
+            :mod (y0 / young))
+      :ARG1 (h0 / horse
+            :mod (r1 / rubber)))

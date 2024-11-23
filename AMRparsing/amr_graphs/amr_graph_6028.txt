@@ -1,0 +1,15 @@
+# ::snt an old man with white long hair and a white long beard .
+# ::tokens ["an", "old", "man", "with", "white", "long", "hair", "and", "a", "white", "long", "beard", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "IN", "JJ", "JJ", "NN", "CC", "DT", "JJ", "JJ", "NN", "."]
+# ::lemmas ["an", "old", "man", "with", "white", "long", "hair", "and", "a", "white", "long", "beard", "."]
+(m0 / man
+      :ARG0-of (h0 / have-03
+            :ARG1 (a0 / and
+                  :op2 (b0 / beard
+                        :ARG1-of (l1 / long-03))
+                  :op1 (h1 / hair
+                        :ARG1-of (w0 / white-03)
+                        :mod (l0 / long-03))))
+      :mod (o0 / old))

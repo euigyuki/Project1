@@ -1,0 +1,11 @@
+# ::snt child sliding down slide into pool of water .
+# ::tokens ["child", "sliding", "down", "slide", "into", "pool", "of", "water", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["NN", "VBG", "RP", "NN", "IN", "NN", "IN", "NN", "."]
+# ::lemmas ["child", "slide", "down", "slide", "into", "pool", "of", "water", "."]
+(s0 / slide-01
+      :direction (p0 / pool
+            :consist-of (w0 / water))
+      :direction (d0 / down)
+      :direction (c0 / child))

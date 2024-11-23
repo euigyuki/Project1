@@ -1,0 +1,16 @@
+# ::snt women bending over to adjust her boots with a large crowd in front of her .
+# ::tokens ["women", "bending", "over", "to", "adjust", "her", "boots", "with", "a", "large", "crowd", "in", "front", "of", "her", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["NNS", "VBG", "RP", "TO", "VB", "PRP$", "NNS", "IN", "DT", "JJ", "NN", "IN", "NN", "IN", "PRP", "."]
+# ::lemmas ["woman", "bend", "over", "to", "adjust", "her", "boot", "with", "a", "large", "crowd", "in", "front", "of", "she", "."]
+(b0 / bend-01
+      :purpose (a0 / adjust-01
+            :ARG0 (w0 / woman
+                  :poss-of (b1 / boot)
+                  :op1-of (i0 / in-front-of
+                        :direction-of (c0 / crowd
+                              :mod (l0 / large))))
+            :ARG1 b1)
+      :purpose (o0 / over)
+      :ARG0 w0)

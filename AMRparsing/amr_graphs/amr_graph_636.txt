@@ -1,0 +1,4 @@
+(e0 / enjoy-01
+    :ARG0 (c1 / couple
+              :ARG0-of (c0 / crawl-01)
+              :ARG0-of (w0 / wear-01)))

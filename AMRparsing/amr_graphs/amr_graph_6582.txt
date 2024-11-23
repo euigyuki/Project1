@@ -1,0 +1,3 @@
+(p0 / plant-01
+    :ARG0 (p1 / person)
+    :ARG1 (f0 / flower))

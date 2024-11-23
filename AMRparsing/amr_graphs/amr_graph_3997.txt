@@ -1,0 +1,8 @@
+(w0 / walk-01
+    :path (t1 / through
+              :op1 (b0 / building
+                       :mod (o1 / old)))
+    :ARG0 (t0 / toddler
+              :ARG0-of (w1 / wear-01
+                           :ARG1 (o0 / outfit
+                                     :mod (b1 / blue)))))

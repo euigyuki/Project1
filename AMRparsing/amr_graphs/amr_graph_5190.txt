@@ -1,0 +1,10 @@
+# ::snt the three girls have pillows .
+# ::tokens ["the", "three", "girls", "have", "pillows", "."]
+# ::ner_tags ["O", "CARDINAL", "O", "O", "O", "O"]
+# ::ner_iob ["O", "B", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "CD", "NNS", "VBP", "NNS", "."]
+# ::lemmas ["the", "three", "girl", "have", "pillow", "."]
+(h0 / have-03
+      :ARG0 (g0 / girl
+            :quant 3 )
+      :ARG1 (p0 / pillow))

@@ -1,0 +1,5 @@
+(p0 / play-01
+    :mod (o0 / odd)
+    :ARG0 (a0 / adult
+              :ARG0-of (l0 / look-02)
+              :mod (y0 / young)))

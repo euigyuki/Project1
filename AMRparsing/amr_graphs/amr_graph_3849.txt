@@ -1,0 +1,19 @@
+# ::snt two women tennis players , one young and one older .
+# ::tokens ["two", "women", "tennis", "players", ",", "one", "young", "and", "one", "older", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "CARDINAL", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "B", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "NN", "NNS", ",", "CD", "JJ", "CC", "CD", "JJR", "."]
+# ::lemmas ["two", "woman", "tennis", "player", ",", "one", "young", "and", "one", "old", "."]
+(a0 / and
+      :op3 (w0 / woman)
+      :op2 (p1 / person
+            :quant 1 
+            :ARG1-of (h0 / have-degree-91
+                  :ARG3 (m0 / more)
+                  :ARG2 (o0 / old))
+            :quant 1 
+            :mod (y0 / young))
+      :op1 (p0 / person
+            :quant 2 
+            :ARG0-of (p2 / play-02
+                  :ARG1 (t0 / tennis))))

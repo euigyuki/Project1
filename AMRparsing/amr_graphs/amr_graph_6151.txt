@@ -1,0 +1,4 @@
+(h0 / hold-01
+    :ARG1 (b0 / bat
+              :ARG1-of (r0 / red-02)
+              :mod (p0 / plastic)))

@@ -1,0 +1,4 @@
+(s0 / sit-01
+    :time (d0 / date-entity
+              :dayperiod (n0 / night))
+    :ARG1 (m0 / man))

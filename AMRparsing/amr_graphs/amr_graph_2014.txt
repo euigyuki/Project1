@@ -1,0 +1,11 @@
+# ::snt a little girl is playing with park equipment .
+# ::tokens ["a", "little", "girl", "is", "playing", "with", "park", "equipment", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "VBZ", "VBG", "IN", "NN", "NN", "."]
+# ::lemmas ["a", "little", "girl", "be", "play", "with", "park", "equipment", "."]
+(p0 / play-01
+      :ARG2 (e0 / equipment
+            :mod (p1 / park))
+      :ARG0 (g0 / girl
+            :mod (l0 / little)))

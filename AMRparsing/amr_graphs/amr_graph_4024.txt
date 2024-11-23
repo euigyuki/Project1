@@ -1,0 +1,3 @@
+(k0 / kneel-01
+    :ARG0 (m0 / male
+              :mod (a0 / adult)))

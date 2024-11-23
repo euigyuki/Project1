@@ -1,0 +1,19 @@
+# ::snt a middle-aged man stands in wet , unpaved cement with a somewhat puzzled look on his face .
+# ::tokens ["a", "middle", "-", "aged", "man", "stands", "in", "wet", ",", "unpaved", "cement", "with", "a", "somewhat", "puzzled", "look", "on", "his", "face", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "HYPH", "JJ", "NN", "VBZ", "IN", "JJ", ",", "JJ", "NN", "IN", "DT", "RB", "JJ", "NN", "IN", "PRP$", "NN", "."]
+# ::lemmas ["a", "middle", "-", "aged", "man", "stand", "in", "wet", ",", "unpaved", "cement", "with", "a", "somewhat", "puzzled", "look", "on", "his", "face", "."]
+(s0 / stand-01
+      :ARG2 (c0 / cement
+            :ARG1-of (h0 / have-03)
+            :mod (w0 / wet-01
+                  :polarity - ))
+      :ARG1 (m0 / man
+            :part (f0 / face
+                  :location-of (l0 / look-01
+                        :ARG0 m0
+                        :ARG1-of (e0 / explain-01
+                              :degree (s1 / somewhat))))
+            :ARG1-of (a0 / aged
+                  :mod (m1 / middle))))

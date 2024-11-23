@@ -1,0 +1,16 @@
+# ::snt the person towards the right is wearing riot uniform while people seem to be filing out .
+# ::tokens ["the", "person", "towards", "the", "right", "is", "wearing", "riot", "uniform", "while", "people", "seem", "to", "be", "filing", "out", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "DT", "NN", "VBZ", "VBG", "NN", "NN", "IN", "NNS", "VBP", "TO", "VB", "VBG", "RP", "."]
+# ::lemmas ["the", "person", "towards", "the", "right", "be", "wear", "riot", "uniform", "while", "people", "seem", "to", "be", "file", "out", "."]
+(c0 / contrast-01
+      :ARG2 (s0 / seem-01
+            :ARG1 (f0 / file-01
+                  :direction (o0 / out)
+                  :ARG0 (p1 / person)))
+      :ARG1 (w0 / wear-01
+            :ARG0 (p0 / person
+                  :ARG1-of (r1 / right-08))
+            :ARG1 (u0 / uniform
+                  :mod (r0 / riot-01))))

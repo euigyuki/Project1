@@ -1,0 +1,17 @@
+# ::snt a woman in a long pink trench coat speak with a man in a brown parka .
+# ::tokens ["a", "woman", "in", "a", "long", "pink", "trench", "coat", "speak", "with", "a", "man", "in", "a", "brown", "parka", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "DT", "JJ", "JJ", "NN", "NN", "VBP", "IN", "DT", "NN", "IN", "DT", "JJ", "NN", "."]
+# ::lemmas ["a", "woman", "in", "a", "long", "pink", "trench", "coat", "speak", "with", "a", "man", "in", "a", "brown", "parka", "."]
+(s0 / speak-01
+      :ARG0 (w0 / woman
+            :part (c0 / coat
+                  :ARG1-of (p1 / pink-04)
+                  :mod (l0 / long-03)
+                  :mod (t0 / trench))
+            :ARG0-of (h1 / have-03))
+      :ARG2 (m0 / man
+            :ARG0-of (h0 / have-03
+                  :ARG1 (p0 / parka
+                        :mod (b0 / brown)))))

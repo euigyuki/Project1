@@ -1,0 +1,15 @@
+# ::snt a large earth moving machine creating a track with a man watching it closely with what looks like surveying equipment .
+(z1 / create-01
+      :ARG0 (z2 / machine
+            :ARG0-of (z3 / move-01
+                  :ARG1 (z4 / earth))
+            :mod (z5 / large))
+      :ARG1 (z6 / track)
+      :accompanier (z7 / man
+            :ARG0-of (z8 / watch-01
+                  :ARG1 z1
+                  :ARG1-of (z9 / close-10)
+                  :instrument (z10 / thing
+                        :ARG0-of (z11 / look-02
+                              :ARG1 (z12 / equipment
+                                    :instrument-of (z13 / surveil-01)))))))

@@ -1,0 +1,8 @@
+(p0 / play-11
+    :time (r0 / raise-01
+              :ARG0 (a0 / audience)
+              :ARG1 (h1 / hand)
+              :ARG4 (h0 / head))
+    :time (c0 / concert)
+    :ARG0 (b0 / band
+              :part h0))

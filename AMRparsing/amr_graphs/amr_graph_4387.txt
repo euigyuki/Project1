@@ -1,0 +1,4 @@
+(e0 / examine-01
+    :ARG0 (w0 / woman
+              :ARG0-of (h0 / have-03)
+              :quant 2))

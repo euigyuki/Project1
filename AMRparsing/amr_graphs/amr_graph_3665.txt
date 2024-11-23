@@ -1,0 +1,4 @@
+(v0 / view
+    :source (r0 / room
+                :poss (f0 / family)
+                :mod (l0 / living)))

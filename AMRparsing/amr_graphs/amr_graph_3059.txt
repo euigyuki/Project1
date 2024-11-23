@@ -1,0 +1,19 @@
+# ::snt a child in a martial arts uniform is jumping in the air with his arms and legs spread .
+# ::tokens ["a", "child", "in", "a", "martial", "arts", "uniform", "is", "jumping", "in", "the", "air", "with", "his", "arms", "and", "legs", "spread", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "DT", "JJ", "NNS", "NN", "VBZ", "VBG", "IN", "DT", "NN", "IN", "PRP$", "NNS", "CC", "NNS", "VBP", "."]
+# ::lemmas ["a", "child", "in", "a", "martial", "art", "uniform", "be", "jump", "in", "the", "air", "with", "his", "arm", "and", "leg", "spread", "."]
+(j0 / jump-03
+      :manner (s0 / spread-03
+            :ARG1 (a2 / and
+                  :op1 (a1 / arm)
+                  :op2 (l0 / leg)))
+      :direction (a0 / air)
+      :ARG0 (c0 / child
+            :part l0
+            :part a1
+            :ARG0-of (h0 / have-03
+                  :ARG1 (u0 / uniform
+                        :mod (a3 / art
+                              :mod (m0 / martial))))))

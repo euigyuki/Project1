@@ -1,0 +1,4 @@
+(p0 / play-01
+    :ARG2 (b0 / bucket
+              :mod (y0 / yellow))
+    :ARG0 (c0 / child))

@@ -1,0 +1,12 @@
+# ::snt a cute baby takes a bath in a large clear bowl .
+# ::tokens ["a", "cute", "baby", "takes", "a", "bath", "in", "a", "large", "clear", "bowl", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "VBZ", "DT", "NN", "IN", "DT", "JJ", "JJ", "NN", "."]
+# ::lemmas ["a", "cute", "baby", "take", "a", "bath", "in", "a", "large", "clear", "bowl", "."]
+(b0 / bathe-01
+      :ARG2 (b2 / bowl
+            :ARG1-of (c1 / clear-08)
+            :mod (l0 / large))
+      :ARG0 (b1 / baby
+            :mod (c0 / cute)))

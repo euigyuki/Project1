@@ -1,0 +1,6 @@
+(l0 / look-01
+    :ARG0 (m1 / man
+              :ARG0-of (h0 / have-03
+                           :ARG1 (t0 / t-shirt
+                                     :ARG1-of (b0 / black-04))))
+    :ARG1 (m0 / menu))

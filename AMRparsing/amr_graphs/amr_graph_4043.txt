@@ -1,0 +1,12 @@
+# ::snt four snow dogs are pulled together in the snow .
+# ::tokens ["four", "snow", "dogs", "are", "pulled", "together", "in", "the", "snow", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NN", "NNS", "VBP", "VBN", "RB", "IN", "DT", "NN", "."]
+# ::lemmas ["four", "snow", "dog", "be", "pull", "together", "in", "the", "snow", "."]
+(p0 / pull-06
+      :ARG2 (s0 / snow)
+      :mod (t0 / together)
+      :ARG1 (d0 / dog
+            :mod (s1 / snow)
+            :quant 4 ))

@@ -1,0 +1,16 @@
+# ::snt a man in a blue sweater and hat works at painting a room .
+# ::tokens ["a", "man", "in", "a", "blue", "sweater", "and", "hat", "works", "at", "painting", "a", "room", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "DT", "JJ", "NN", "CC", "NN", "VBZ", "IN", "VBG", "DT", "NN", "."]
+# ::lemmas ["a", "man", "in", "a", "blue", "sweater", "and", "hat", "work", "at", "paint", "a", "room", "."]
+(w0 / work-01
+      :ARG0 (m0 / man
+            :ARG0-of (p0 / paint-02
+                  :ARG1 (r0 / room))
+            :ARG0-of (h0 / have-03
+                  :ARG1 (a0 / and
+                        :op2 (h1 / hat)
+                        :op1 (s0 / sweater
+                              :mod (b0 / blue)))))
+      :ARG1 p0)

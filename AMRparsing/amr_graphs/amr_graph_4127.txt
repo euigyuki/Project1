@@ -1,0 +1,19 @@
+# ::snt a girl in a white shirt , blue shorts , and yellow socks kicks a pink soccer ball .
+# ::tokens ["a", "girl", "in", "a", "white", "shirt", ",", "blue", "shorts", ",", "and", "yellow", "socks", "kicks", "a", "pink", "soccer", "ball", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "DT", "JJ", "NN", ",", "JJ", "NNS", ",", "CC", "JJ", "NNS", "VBZ", "DT", "JJ", "NN", "NN", "."]
+# ::lemmas ["a", "girl", "in", "a", "white", "shirt", ",", "blue", "short", ",", "and", "yellow", "sock", "kick", "a", "pink", "soccer", "ball", "."]
+(k0 / kick-01
+      :ARG0 (g0 / girl
+            :ARG0-of (w0 / wear-01
+                  :ARG1 (a0 / and
+                        :op3 (s3 / sock
+                              :mod (y0 / yellow))
+                        :op2 (s2 / short-07
+                              :mod (b1 / blue))
+                        :op1 (s1 / shirt
+                              :ARG1-of (w1 / white-03)))))
+      :ARG1 (b0 / ball
+            :ARG1-of (p0 / pink-04)
+            :mod (s0 / soccer)))

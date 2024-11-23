@@ -1,0 +1,8 @@
+(j0 / jump-03
+    :manner (a0 / air)
+    :time (e0 / end-01
+              :ARG1 (a2 / alley))
+    :ARG0 (b0 / boy
+              :ARG0-of (s0 / shirt
+                           :ARG1-of (g0 / green-02))
+              :part (a1 / arm)))

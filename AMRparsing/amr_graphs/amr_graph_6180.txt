@@ -1,0 +1,12 @@
+# ::snt a woman and a baby are watching a boy play .
+# ::tokens ["a", "woman", "and", "a", "baby", "are", "watching", "a", "boy", "play", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "CC", "DT", "NN", "VBP", "VBG", "DT", "NN", "VB", "."]
+# ::lemmas ["a", "woman", "and", "a", "baby", "be", "watch", "a", "boy", "play", "."]
+(w0 / watch-01
+      :ARG0 (a0 / and
+            :op2 (b1 / baby)
+            :op1 (w1 / woman))
+      :ARG1 (p0 / play-01
+            :ARG0 (b0 / boy)))

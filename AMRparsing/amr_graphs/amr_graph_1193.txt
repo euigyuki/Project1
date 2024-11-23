@@ -1,0 +1,14 @@
+# ::snt a girl begins to climb a red piece of playground equipment .
+# ::tokens ["a", "girl", "begins", "to", "climb", "a", "red", "piece", "of", "playground", "equipment", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "TO", "VB", "DT", "JJ", "NN", "IN", "NN", "NN", "."]
+# ::lemmas ["a", "girl", "begin", "to", "climb", "a", "red", "piece", "of", "playground", "equipment", "."]
+(b0 / begin-01
+      :ARG0 (g0 / girl
+            :ARG0-of (c0 / climb-01
+                  :ARG1 (p0 / piece
+                        :ARG1-of (r0 / red-02)
+                        :part-of (e0 / equipment
+                              :mod (p1 / playground)))))
+      :ARG1 c0)

@@ -1,0 +1,24 @@
+# ::snt a woman dressed in a blue shirt , plaid shorts and brown shoes , soaking her feet in a rocky creek while sitting on a towel .
+# ::tokens ["a", "woman", "dressed", "in", "a", "blue", "shirt", ",", "plaid", "shorts", "and", "brown", "shoes", ",", "soaking", "her", "feet", "in", "a", "rocky", "creek", "while", "sitting", "on", "a", "towel", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBN", "IN", "DT", "JJ", "NN", ",", "NN", "NNS", "CC", "JJ", "NNS", ",", "VBG", "PRP$", "NNS", "IN", "DT", "JJ", "NN", "IN", "VBG", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "woman", "dress", "in", "a", "blue", "shirt", ",", "plaid", "short", "and", "brown", "shoe", ",", "soak", "her", "foot", "in", "a", "rocky", "creek", "while", "sit", "on", "a", "towel", "."]
+(a0 / and
+      :time (s0 / sit-01
+            :ARG2 (t0 / towel))
+      :op2 (c0 / chew-01
+            :ARG1 (c1 / creek
+                  :mod (r0 / rocky))
+            :ARG0 (f0 / foot
+                  :part-of (w1 / woman
+                        :ARG1-of (d0 / dress-01))))
+      :op1 (w0 / wear-01
+            :ARG1 (a1 / and
+                  :op3 (s3 / shoe
+                        :mod (b1 / brown))
+                  :op2 (s2 / short-07
+                        :ARG1 (p0 / plaid))
+                  :op1 (s1 / shirt
+                        :mod (b0 / blue)))
+            :ARG0 w1))

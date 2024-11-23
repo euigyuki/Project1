@@ -1,0 +1,13 @@
+# ::snt a man wearing sunglasses and a hat near a crowd .
+# ::tokens ["a", "man", "wearing", "sunglasses", "and", "a", "hat", "near", "a", "crowd", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBG", "NNS", "CC", "DT", "NN", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "man", "wear", "sunglass", "and", "a", "hat", "near", "a", "crowd", "."]
+(m0 / man
+      :ARG1-of (n0 / near-02
+            :ARG2 (c0 / crowd))
+      :ARG0-of (w0 / wear-01
+            :ARG1 (a0 / and
+                  :op2 (h0 / hat)
+                  :op1 (s0 / sunglass))))

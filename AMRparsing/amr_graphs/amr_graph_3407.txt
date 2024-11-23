@@ -1,0 +1,14 @@
+# ::snt a large dog is jumping up at the girl wearing a pink jacket .
+# ::tokens ["a", "large", "dog", "is", "jumping", "up", "at", "the", "girl", "wearing", "a", "pink", "jacket", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "VBZ", "VBG", "RP", "IN", "DT", "NN", "VBG", "DT", "JJ", "NN", "."]
+# ::lemmas ["a", "large", "dog", "be", "jump", "up", "at", "the", "girl", "wear", "a", "pink", "jacket", "."]
+(j0 / jump-03
+      :direction (u0 / up)
+      :destination (g0 / girl
+            :ARG0-of (w0 / wear-01
+                  :ARG1 (j1 / jacket
+                        :ARG1-of (p0 / pink-04))))
+      :ARG0 (d0 / dog
+            :mod (l0 / large)))

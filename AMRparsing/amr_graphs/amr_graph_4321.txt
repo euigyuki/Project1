@@ -1,0 +1,22 @@
+# ::snt two kids , one with green pants and the other with a white shirt and jeans are running down a street .
+# ::tokens ["two", "kids", ",", "one", "with", "green", "pants", "and", "the", "other", "with", "a", "white", "shirt", "and", "jeans", "are", "running", "down", "a", "street", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", ",", "CD", "IN", "JJ", "NNS", "CC", "DT", "JJ", "IN", "DT", "JJ", "NN", "CC", "NNS", "VBP", "VBG", "IN", "DT", "NN", "."]
+# ::lemmas ["two", "kid", ",", "one", "with", "green", "pant", "and", "the", "other", "with", "a", "white", "shirt", "and", "jean", "be", "run", "down", "a", "street", "."]
+(r0 / run-02
+      :direction (d0 / down
+            :op1 (s0 / street))
+      :ARG0 (a0 / and
+            :op2 (k1 / kid
+                  :quant (o0 / other)
+                  :ARG0-of (h1 / have-03))
+            :op1 (k0 / kid
+                  :quant 2 
+                  :ARG0-of (h0 / have-03
+                        :ARG1 (a1 / and
+                              :op3 (j0 / jean)
+                              :op2 (s1 / shirt
+                                    :ARG1-of (w0 / white-03))
+                              :op1 (p0 / pant
+                                    :ARG1-of (g0 / green-02)))))))

@@ -1,0 +1,11 @@
+# ::snt a baby wearing a nice clothes
+# ::tokens ["a", "baby", "wearing", "a", "nice", "clothes"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBG", "DT", "JJ", "NNS"]
+# ::lemmas ["a", "baby", "wear", "a", "nice", "clothe"]
+(w0 / wear-01
+      :ARG0 (b0 / baby)
+      :ARG1 (t0 / thing
+            :ARG2-of (c0 / clothe-01)
+            :ARG1-of (n0 / nice-01)))

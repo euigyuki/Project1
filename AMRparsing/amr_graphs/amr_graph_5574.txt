@@ -1,0 +1,8 @@
+(p0 / play-01
+    :ARG0 (b0 / boy
+              :ARG1-of (w0 / wear-01
+                           :ARG1 (s1 / short-07
+                                     :mod (m0 / mountain
+                                              :name (n0 / name
+                                                        :op1 "hawaiian"))))
+              :mod (l0 / little)))

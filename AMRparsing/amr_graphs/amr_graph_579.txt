@@ -1,0 +1,4 @@
+(r0 / reign-01
+    :ARG0 (w0 / woman
+              :poss-of (s0 / sock))
+    :ARG1 s0)

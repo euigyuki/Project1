@@ -1,0 +1,10 @@
+# ::snt pink shirted woman sleeping in a car with blue and white blanket on her .
+(z1 / woman
+      :ARG1-of (z2 / dress-01
+            :ARG2 (z3 / pink))
+      :ARG0-of (z4 / sleep-01
+            :location (z5 / car))
+      :ARG0-of (z6 / have-03
+            :ARG1 (z7 / blanket
+                  :mod (z8 / blue)
+                  :ARG1-of (z9 / white-03))))

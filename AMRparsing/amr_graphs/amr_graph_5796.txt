@@ -1,0 +1,14 @@
+# ::snt two kids play in shallow waves against a brilliant blue sky .
+# ::tokens ["two", "kids", "play", "in", "shallow", "waves", "against", "a", "brilliant", "blue", "sky", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "VBP", "IN", "JJ", "NNS", "IN", "DT", "JJ", "JJ", "NN", "."]
+# ::lemmas ["two", "kid", "play", "in", "shallow", "wave", "against", "a", "brilliant", "blue", "sky", "."]
+(p0 / play-01
+      :manner (s0 / sky
+            :ARG1-of (b1 / brilliant-01)
+            :mod (b0 / blue))
+      :ARG2 (w0 / wave
+            :mod (s1 / shallow))
+      :ARG0 (k0 / kid
+            :quant 2 ))

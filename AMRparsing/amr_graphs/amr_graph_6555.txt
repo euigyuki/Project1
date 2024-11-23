@@ -1,0 +1,3 @@
+(j0 / jump-on-bandwagon-09
+    :ARG1 (f0 / frisbee)
+    :ARG0 (w0 / woman))

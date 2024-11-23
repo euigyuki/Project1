@@ -1,0 +1,4 @@
+(l0 / leg
+    :part-of (m0 / man
+                 :ARG0-of (s0 / sweep-01
+                              :ARG4 (s1 / sidewalk))))

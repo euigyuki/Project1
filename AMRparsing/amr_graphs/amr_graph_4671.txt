@@ -1,0 +1,15 @@
+# ::snt this girl is playing on an object which is yellow , green , red , and blue .
+# ::tokens ["this", "girl", "is", "playing", "on", "an", "object", "which", "is", "yellow", ",", "green", ",", "red", ",", "and", "blue", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "VBG", "IN", "DT", "NN", "WDT", "VBZ", "JJ", ",", "JJ", ",", "JJ", ",", "CC", "JJ", "."]
+# ::lemmas ["this", "girl", "be", "play", "on", "an", "object", "which", "be", "yellow", ",", "green", ",", "red", ",", "and", "blue", "."]
+(p0 / play-01
+      :ARG2 (o0 / object
+            :ARG1-of (a0 / and
+                  :op4 (b0 / blue)
+                  :op3 (r0 / red-02)
+                  :op2 (g1 / green-02)
+                  :op1 (y0 / yellow)))
+      :ARG0 (g0 / girl
+            :mod (t0 / this)))

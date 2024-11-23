@@ -1,0 +1,3 @@
+(s0 / shop-01
+    :ARG0 (p0 / person
+              :quant 3))

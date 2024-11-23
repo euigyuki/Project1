@@ -1,0 +1,6 @@
+(l0 / look-01
+    :ARG0 (l1 / lady
+              :mod (h0 / hat
+                       :ARG1-of (p1 / pink-04)))
+    :ARG1 (f0 / food
+              :ARG1-of (p0 / place-01)))

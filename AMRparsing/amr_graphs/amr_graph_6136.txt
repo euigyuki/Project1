@@ -1,0 +1,9 @@
+(a0 / and
+    :op2 (r1 / reprocess-01
+             :ARG0 (m0 / man
+                       :poss-of (k0 / kitchen)
+                       :poss-of (s0 / start-01)
+                       :poss-of (c0 / counter
+                                    :op1-of (b0 / behind))))
+    :op1 (r0 / renovate-01
+             :ARG0 m0))

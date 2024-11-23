@@ -1,0 +1,3 @@
+(h0 / hold-01
+    :ARG1 (o0 / outfit
+              :mod (s0 / santa)))

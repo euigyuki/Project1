@@ -1,0 +1,8 @@
+(s0 / stand-01
+    :manner (b0 / back
+                :part-of (m0 / man
+                             :ARG0-of (h0 / have-03
+                                          :ARG1 (j0 / jacket
+                                                    :mod (b1 / blue))))
+                :op1 (c0 / camera))
+    :ARG1 m0)

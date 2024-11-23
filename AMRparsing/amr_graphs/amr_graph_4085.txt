@@ -1,0 +1,10 @@
+# ::snt three blond girls baking .
+# ::tokens ["three", "blond", "girls", "baking", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "JJ", "NNS", "VBG", "."]
+# ::lemmas ["three", "blond", "girl", "bake", "."]
+(b0 / bake-01
+      :ARG0 (g0 / girl
+            :quant 3 
+            :mod (g1 / good-02)))

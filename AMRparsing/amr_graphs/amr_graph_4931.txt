@@ -1,0 +1,5 @@
+(f0 / fly-01
+    :ARG0 (a0 / and
+              :op2 (c0 / child)
+              :op1 (m0 / man))
+    :ARG1 (k0 / kite))

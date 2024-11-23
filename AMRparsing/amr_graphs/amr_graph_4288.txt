@@ -1,0 +1,6 @@
+(p0 / play-01
+    :ARG0 (b0 / boy
+              :mod (s0 / small))
+    :ARG1 (t0 / train
+              :mod (t2 / toy)
+              :mod (b1 / blue)))

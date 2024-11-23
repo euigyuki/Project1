@@ -1,0 +1,13 @@
+# ::snt young boy climbs spiral staircase surrounded by books .
+# ::tokens ["young", "boy", "climbs", "spiral", "staircase", "surrounded", "by", "books", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["JJ", "NN", "VBZ", "JJ", "NN", "VBN", "IN", "NNS", "."]
+# ::lemmas ["young", "boy", "climb", "spiral", "staircase", "surround", "by", "book", "."]
+(c0 / climb-01
+      :ARG0 (b0 / boy
+            :mod (y0 / young))
+      :ARG1 (s0 / staircase
+            :ARG1-of (s2 / surround-01
+                  :ARG2 (b1 / book))
+            :mod (s1 / spiral)))

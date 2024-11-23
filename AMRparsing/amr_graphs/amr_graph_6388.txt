@@ -1,0 +1,16 @@
+# ::snt an asian woman eating rice in front of a yellow building .
+# ::tokens ["an", "asian", "woman", "eating", "rice", "in", "front", "of", "a", "yellow", "building", "."]
+# ::ner_tags ["O", "NORP", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "VBG", "NN", "IN", "NN", "IN", "DT", "JJ", "NN", "."]
+# ::lemmas ["an", "asian", "woman", "eat", "rice", "in", "front", "of", "a", "yellow", "building", "."]
+(b0 / be-located-at-91
+      :ARG2 (i0 / in-front-of
+            :op1 (b1 / building
+                  :ARG1-of (y0 / yellow)))
+      :ARG1 (w0 / woman
+            :ARG0-of (e0 / eat-01
+                  :ARG1 (r0 / rice))
+            :mod (c0 / continent
+                  :name (n0 / name
+                        :op1 "Asia" ))))

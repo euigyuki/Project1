@@ -1,0 +1,11 @@
+# ::snt a boy and a girl swinging on a barrel .
+# ::tokens ["a", "boy", "and", "a", "girl", "swinging", "on", "a", "barrel", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "CC", "DT", "NN", "VBG", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "boy", "and", "a", "girl", "swinge", "on", "a", "barrel", "."]
+(s0 / swim-01
+      :ARG2 (b0 / barrel)
+      :ARG0 (a0 / and
+            :op2 (g0 / girl)
+            :op1 (b1 / boy)))

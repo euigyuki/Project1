@@ -1,0 +1,3 @@
+(s0 / swing-02
+    :ARG1 (c0 / child
+              :part (s2 / stomach)))

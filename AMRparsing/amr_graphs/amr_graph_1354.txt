@@ -1,0 +1,10 @@
+# ::snt the children are playing a game of checkers .
+# ::tokens ["the", "children", "are", "playing", "a", "game", "of", "checkers", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NNS", "VBP", "VBG", "DT", "NN", "IN", "NNS", "."]
+# ::lemmas ["the", "child", "be", "play", "a", "game", "of", "checker", "."]
+(p0 / play-01
+      :ARG0 (c0 / child)
+      :ARG1 (g0 / game
+            :mod (c1 / checker)))

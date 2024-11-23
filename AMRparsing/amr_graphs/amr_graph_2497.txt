@@ -1,0 +1,13 @@
+# ::snt two men are lying in red cots on the side of a mountain .
+# ::tokens ["two", "men", "are", "lying", "in", "red", "cots", "on", "the", "side", "of", "a", "mountain", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "VBP", "VBG", "IN", "JJ", "NNS", "IN", "DT", "NN", "IN", "DT", "NN", "."]
+# ::lemmas ["two", "man", "be", "lie", "in", "red", "cot", "on", "the", "side", "of", "a", "mountain", "."]
+(l0 / lie-07
+      :ARG1 (c0 / cot
+            :ARG1-of (r0 / red-02))
+      :ARG2 (s0 / side
+            :part-of (m1 / mountain))
+      :location (m0 / man
+            :quant 2 ))

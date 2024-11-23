@@ -1,0 +1,12 @@
+# ::snt a man is photographing children playing with various toys .
+# ::tokens ["a", "man", "is", "photographing", "children", "playing", "with", "various", "toys", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "VBG", "NNS", "VBG", "IN", "JJ", "NNS", "."]
+# ::lemmas ["a", "man", "be", "photograph", "child", "play", "with", "various", "toy", "."]
+(p0 / photograph-01
+      :ARG0 (m0 / man)
+      :ARG1 (p1 / play-01
+            :ARG2 (t0 / toy
+                  :mod (v0 / various))
+            :ARG1 (c0 / child)))

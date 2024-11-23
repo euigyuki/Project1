@@ -1,0 +1,7 @@
+(a0 / and
+    :op2 (w0 / watch-01
+             :ARG1 (m0 / make-01
+                       :ARG0 (a1 / artist)
+                       :ARG1 (s0 / something)))
+    :op1 (g0 / gather-01
+             :ARG1 (c0 / crowd)))

@@ -1,0 +1,3 @@
+(r0 / ride-01
+    :ARG0 (c0 / child
+              :poss-of (b0 / bike)))

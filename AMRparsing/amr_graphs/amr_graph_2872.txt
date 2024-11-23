@@ -1,0 +1,4 @@
+(p0 / patrol-01
+    :ARG0 (g0 / group
+              :consist-of (p1 / person)
+              :consist-of (h0 / huge)))

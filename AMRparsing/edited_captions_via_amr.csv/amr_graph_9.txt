@@ -1,0 +1,19 @@
+# ::snt A man in brown t-shirt is playing a violin while another man who looks like him is accompanying him on a banjo .
+# ::tokens ["A", "man", "in", "brown", "t", "-", "shirt", "is", "playing", "a", "violin", "while", "another", "man", "who", "looks", "like", "him", "is", "accompanying", "him", "on", "a", "banjo", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "JJ", "NNP", "HYPH", "NN", "VBZ", "VBG", "DT", "NN", "IN", "DT", "NN", "WP", "VBZ", "IN", "PRP", "VBZ", "VBG", "PRP", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "man", "in", "brown", "t", "-", "shirt", "be", "play", "a", "violin", "while", "another", "man", "who", "look", "like", "he", "be", "accompany", "he", "on", "a", "banjo", "."]
+(c0 / contrast-01
+      :ARG2 (a0 / accompany-01
+            :accompanier (b0 / banjo)
+            :ARG1 (m1 / man
+                  :mod (a1 / another))
+            :ARG0 m0)
+      :ARG1 (p0 / play-11
+            :ARG2 (v0 / violin)
+            :ARG0 (m0 / man
+                  :ARG0-of (l0 / look-02)
+                  :mod (w0 / wear-01
+                        :ARG1 (t0 / t-shirt
+                              :mod (b1 / brown))))))

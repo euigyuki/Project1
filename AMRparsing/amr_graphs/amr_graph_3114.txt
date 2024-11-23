@@ -1,0 +1,17 @@
+# ::snt a dirt biker pushes his motorcycle up a rock while another rider watches .
+# ::tokens ["a", "dirt", "biker", "pushes", "his", "motorcycle", "up", "a", "rock", "while", "another", "rider", "watches", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "NN", "VBZ", "PRP$", "NN", "IN", "DT", "NN", "IN", "DT", "NN", "VBZ", "."]
+# ::lemmas ["a", "dirt", "biker", "push", "his", "motorcycle", "up", "a", "rock", "while", "another", "rider", "watch", "."]
+(p0 / push-01
+      :time (w0 / watch-01
+            :ARG1 (p1 / person
+                  :poss-of (m0 / motorcycle)
+                  :ARG0-of (r0 / ride-01
+                        :ARG1 (d0 / dirt))
+                  :mod (a0 / another)))
+      :ARG2 (u0 / up
+            :op1 (r1 / rock))
+      :ARG0 p1
+      :ARG1 m0)

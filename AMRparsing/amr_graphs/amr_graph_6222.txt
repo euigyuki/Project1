@@ -1,0 +1,14 @@
+# ::snt several people gathered at a train station - one on rollerblades .
+# ::tokens ["several", "people", "gathered", "at", "a", "train", "station", "-", "one", "on", "rollerblades", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["JJ", "NNS", "VBD", "IN", "DT", "NN", "NN", ":", "CD", "IN", "NNS", "."]
+# ::lemmas ["several", "people", "gather", "at", "a", "train", "station", "-", "one", "on", "rollerblade", "."]
+(g0 / gather-03
+      :accompanier (p1 / person
+            :quant 1 )
+      :ARG0 (p0 / person
+            :quant (s1 / several))
+      :ARG1 (s0 / station
+            :mod (t0 / train)
+            :mod (r0 / rollerblade)))

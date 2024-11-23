@@ -1,0 +1,11 @@
+# ::snt a white dog runs along a bicycle .
+# ::tokens ["a", "white", "dog", "runs", "along", "a", "bicycle", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "VBZ", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "white", "dog", "run", "along", "a", "bicycle", "."]
+(r0 / run-02
+      :ARG0 (d0 / dog
+            :ARG1-of (w0 / white-02))
+      :ARG1 (a0 / along
+            :op1 (b0 / bicycle)))

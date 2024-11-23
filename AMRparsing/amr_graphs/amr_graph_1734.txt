@@ -1,0 +1,6 @@
+(w0 / woman
+    :poss-of (b1 / bag
+                 :purpose (s0 / shop-01))
+    :ARG0-of (d0 / drink-01
+                 :ARG1 (c0 / cigarette))
+    :mod (b0 / blond))

@@ -1,0 +1,2 @@
+(e0 / examine-01
+    :ARG0 (p0 / person))

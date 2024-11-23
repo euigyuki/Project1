@@ -1,0 +1,16 @@
+# ::snt a man in red on a dirt bike struggles up a rock while another man in red watches .
+# ::tokens ["a", "man", "in", "red", "on", "a", "dirt", "bike", "struggles", "up", "a", "rock", "while", "another", "man", "in", "red", "watches", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "NN", "IN", "DT", "NN", "NN", "VBZ", "RP", "DT", "NN", "IN", "DT", "NN", "IN", "JJ", "NNS", "."]
+# ::lemmas ["a", "man", "in", "red", "on", "a", "dirt", "bike", "struggle", "up", "a", "rock", "while", "another", "man", "in", "red", "watch", "."]
+(s0 / struggle-02
+      :direction (u0 / up)
+      :time (w0 / watch-01
+            :ARG0 (m1 / man
+                  :mod (a0 / another)))
+      :ARG0 (m0 / man
+            :ARG1-of (b0 / bike
+                  :mod (d0 / dirt))
+            :ARG0-of (r1 / resemble-01))
+      :ARG1 (r0 / rock))

@@ -1,0 +1,13 @@
+# ::snt a group of children running with a dog down a grassy hill .
+# ::tokens ["a", "group", "of", "children", "running", "with", "a", "dog", "down", "a", "grassy", "hill", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "NNS", "VBG", "IN", "DT", "NN", "IN", "DT", "JJ", "NN", "."]
+# ::lemmas ["a", "group", "of", "child", "run", "with", "a", "dog", "down", "a", "grassy", "hill", "."]
+(g0 / group-01
+      :ARG0-of (r0 / run-02
+            :accompanier (d1 / dog)
+            :direction (d0 / down
+                  :op1 (h0 / hill
+                        :mod (g1 / grassy))))
+      :ARG1 (c0 / child))

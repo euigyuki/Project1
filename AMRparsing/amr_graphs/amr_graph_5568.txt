@@ -1,0 +1,18 @@
+# ::snt four women in red bathing suits are performing in the water as a crowd of people watch .
+# ::tokens ["four", "women", "in", "red", "bathing", "suits", "are", "performing", "in", "the", "water", "as", "a", "crowd", "of", "people", "watch", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "IN", "JJ", "NN", "NNS", "VBP", "VBG", "IN", "DT", "NN", "IN", "DT", "NN", "IN", "NNS", "VBP", "."]
+# ::lemmas ["four", "woman", "in", "red", "bathing", "suit", "be", "perform", "in", "the", "water", "as", "a", "crowd", "of", "people", "watch", "."]
+(p0 / perform-01
+      :time (w2 / watch-01
+            :ARG1 (w1 / woman
+                  :ARG0-of (w3 / wear-01
+                        :ARG1 (s0 / suit
+                              :mod (b0 / bathe-01)
+                              :mod (r0 / red-02)))
+                  :quant 4 )
+            :ARG0 (c0 / crowd
+                  :consist-of (p1 / person)))
+      :ARG0 w1
+      :ARG1 (w0 / water))

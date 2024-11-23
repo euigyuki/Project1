@@ -1,0 +1,10 @@
+# ::snt A man is copying text from a book .
+# ::tokens ["A", "man", "is", "copying", "text", "from", "a", "book", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "VBG", "NN", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "man", "be", "copy", "text", "from", "a", "book", "."]
+(c0 / copy-01
+      :ARG2 (b0 / book)
+      :ARG0 (m0 / man)
+      :ARG1 (t0 / text))

@@ -1,0 +1,15 @@
+# ::snt a man in blue jeans with other people smiling at someone else .
+# ::tokens ["a", "man", "in", "blue", "jeans", "with", "other", "people", "smiling", "at", "someone", "else", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "JJ", "NNS", "IN", "JJ", "NNS", "VBG", "IN", "NN", "RB", "."]
+# ::lemmas ["a", "man", "in", "blue", "jean", "with", "other", "people", "smile", "at", "someone", "else", "."]
+(m0 / man
+      :ARG0-of (s0 / smile-01
+            :ARG2 (s1 / someone
+                  :mod (e0 / else))
+            :ARG0 (p0 / person
+                  :mod (o0 / other)))
+      :accompanier (w0 / wear-01
+            :ARG1 (j0 / jean
+                  :mod (b0 / blue))))

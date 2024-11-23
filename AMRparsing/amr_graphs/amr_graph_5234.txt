@@ -1,0 +1,12 @@
+# ::snt two women are fighting in a martial arts tournament .
+# ::tokens ["two", "women", "are", "fighting", "in", "a", "martial", "arts", "tournament", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "VBP", "VBG", "IN", "DT", "JJ", "NNS", "NN", "."]
+# ::lemmas ["two", "woman", "be", "fight", "in", "a", "martial", "art", "tournament", "."]
+(f0 / fight-01
+      :ARG2 (t0 / tournament
+            :mod (a0 / art
+                  :mod (m0 / martial)))
+      :ARG0 (w0 / woman
+            :quant 2 ))

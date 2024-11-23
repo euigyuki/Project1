@@ -1,0 +1,15 @@
+# ::snt the black dog emerges from the water having collected an object in his teeth .
+# ::tokens ["the", "black", "dog", "emerges", "from", "the", "water", "having", "collected", "an", "object", "in", "his", "teeth", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "VBZ", "IN", "DT", "NN", "VBG", "VBN", "DT", "NN", "IN", "PRP$", "NNS", "."]
+# ::lemmas ["the", "black", "dog", "emerge", "from", "the", "water", "having", "collect", "an", "object", "in", "his", "tooth", "."]
+(e0 / emerge-01
+      :manner (c0 / collect-01
+            :ARG0 (d0 / dog
+                  :part (t0 / tooth)
+                  :part (b0 / black-04))
+            :ARG1 (o0 / object)
+            :ARG2 t0)
+      :ARG0 d0
+      :ARG1 (w0 / water))

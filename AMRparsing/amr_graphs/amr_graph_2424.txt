@@ -1,0 +1,11 @@
+# ::snt two young girls playing with each other .
+# ::tokens ["two", "young", "girls", "playing", "with", "each", "other", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "JJ", "NNS", "VBG", "IN", "DT", "JJ", "."]
+# ::lemmas ["two", "young", "girl", "play", "with", "each", "other", "."]
+(p0 / play-01
+      :ARG2 (o0 / other)
+      :ARG0 (g0 / girl
+            :quant 2 
+            :mod (y0 / young)))

@@ -1,0 +1,6 @@
+(m0 / man
+    :poss-of (j0 / job
+                 :ARG1-of (w0 / work-01
+                              :poss m0)
+                 :prep-as (p0 / person
+                              :ARG0-of (c1 / cook-01))))

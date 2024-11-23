@@ -1,0 +1,17 @@
+# ::snt a bald guy with a beard , and most likely drunk , eating a hotdog
+# ::tokens ["a", "bald", "guy", "with", "a", "beard", ",", "and", "most", "likely", "drunk", ",", "eating", "a", "hotdog"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "IN", "DT", "NN", ",", "CC", "RBS", "RB", "JJ", ",", "VBG", "DT", "NN"]
+# ::lemmas ["a", "bald", "guy", "with", "a", "beard", ",", "and", "most", "likely", "drunk", ",", "eat", "a", "hotdog"]
+(a0 / and
+      :op2 (l0 / likely-01
+            :ARG2-of (h1 / have-degree-91
+                  :ARG3 (m0 / most)))
+      :op1 (g0 / guy
+            :mod (d0 / drunk)
+            :ARG0-of (e0 / eat-01
+                  :ARG1 (h2 / hotdog))
+            :ARG1-of (h0 / have-03
+                  :ARG1 (b1 / beard))
+            :mod (b0 / bald)))

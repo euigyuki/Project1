@@ -1,0 +1,17 @@
+# ::snt a girl in a bikini top and shorts poses for a picture on a mountain overlooking a lake .
+# ::tokens ["a", "girl", "in", "a", "bikini", "top", "and", "shorts", "poses", "for", "a", "picture", "on", "a", "mountain", "overlooking", "a", "lake", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "DT", "NN", "NN", "CC", "NNS", "NNS", "IN", "DT", "NN", "IN", "DT", "NN", "VBG", "DT", "NN", "."]
+# ::lemmas ["a", "girl", "in", "a", "bikini", "top", "and", "short", "pose", "for", "a", "picture", "on", "a", "mountain", "overlook", "a", "lake", "."]
+(p0 / pose-01
+      :ARG0 (g0 / girl
+            :ARG0-of (h0 / have-03
+                  :ARG1 (a0 / and
+                        :op2 (s0 / short-07)
+                        :op1 (t0 / top
+                              :mod (b0 / bikini)))))
+      :ARG1 (p1 / picture
+            :location (m0 / mountain
+                  :ARG0-of (o0 / overlook-01
+                        :ARG1 (l0 / lake)))))

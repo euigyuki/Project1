@@ -1,0 +1,10 @@
+(a0 / and
+    :op2 (l0 / look-01
+             :ARG1 (a1 / around)
+             :ARG0 (t0 / teenager
+                       :mod (c1 / country
+                                :name (n0 / name
+                                          :op1 "Japan"))
+                       :mod 4))
+    :op1 (c0 / charm-01
+             :ARG0 t0))

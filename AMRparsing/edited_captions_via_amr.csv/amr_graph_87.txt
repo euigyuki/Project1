@@ -1,0 +1,16 @@
+# ::snt A tennis match is in progress with ball chasers on the sidelines with an audience in the background .
+# ::tokens ["A", "tennis", "match", "is", "in", "progress", "with", "ball", "chasers", "on", "the", "sidelines", "with", "an", "audience", "in", "the", "background", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "NN", "VBZ", "IN", "NN", "IN", "NN", "NNS", "IN", "DT", "NNS", "IN", "DT", "NN", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "tennis", "match", "be", "in", "progress", "with", "ball", "chaser", "on", "the", "sideline", "with", "an", "audience", "in", "the", "background", "."]
+(p0 / progress-01
+      :ARG1 (m0 / match-03
+            :mod (t0 / tennis)
+            :mod (a0 / and
+                  :op2 (a1 / audience
+                        :location (b0 / background))
+                  :op1 (p1 / person
+                        :location (s0 / sideline)
+                        :ARG0-of (c0 / chase-01
+                              :ARG1 (b1 / ball))))))

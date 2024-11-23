@@ -1,0 +1,11 @@
+# ::snt a chinese art performance .
+# ::tokens ["a", "chinese", "art", "performance", "."]
+# ::ner_tags ["O", "NORP", "O", "O", "O"]
+# ::ner_iob ["O", "B", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "NN", "."]
+# ::lemmas ["a", "chinese", "art", "performance", "."]
+(p0 / perform-01
+      :ARG0 (a0 / art
+            :mod (c0 / country
+                  :name (n0 / name
+                        :op1 "China" ))))

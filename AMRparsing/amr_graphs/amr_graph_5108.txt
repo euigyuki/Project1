@@ -1,0 +1,13 @@
+# ::snt business people talk after making a presentation .
+# ::tokens ["business", "people", "talk", "after", "making", "a", "presentation", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["NN", "NNS", "VBP", "IN", "VBG", "DT", "NN", "."]
+# ::lemmas ["business", "people", "talk", "after", "make", "a", "presentation", "."]
+(t0 / talk-01
+      :time (a0 / after
+            :op1 m0)
+      :ARG0 (p0 / person
+            :ARG0-of (m0 / make-01
+                  :ARG1 (p1 / presentation))
+            :mod (b0 / business)))

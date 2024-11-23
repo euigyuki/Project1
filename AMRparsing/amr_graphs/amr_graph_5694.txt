@@ -1,0 +1,5 @@
+(l0 / look-01
+    :path (t0 / through
+              :op1 (f0 / fence))
+    :ARG0 (p0 / person
+              :quant 4))

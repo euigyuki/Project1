@@ -1,0 +1,11 @@
+# ::snt four young boys play basketball .
+# ::tokens ["four", "young", "boys", "play", "basketball", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "JJ", "NNS", "VBP", "NN", "."]
+# ::lemmas ["four", "young", "boy", "play", "basketball", "."]
+(p0 / play-02
+      :ARG0 (b1 / boy
+            :quant 4 
+            :mod (y0 / young))
+      :ARG1 (b0 / basketball))

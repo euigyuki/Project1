@@ -1,0 +1,8 @@
+(p0 / perform-01
+    :ARG0 (m1 / man
+              :ARG0-of (m0 / move-01
+                           :mod (a0 / acrobatic))
+              :ARG1-of (p1 / pack-01
+                           :manner (s0 / scantily))
+              :quant 2)
+    :ARG1 m0)

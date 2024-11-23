@@ -1,0 +1,4 @@
+(w0 / walk-01
+    :direction (h0 / head
+                   :part-of (b0 / baby))
+    :ARG0 b0)

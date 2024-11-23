@@ -1,0 +1,15 @@
+# ::snt man with black shirt and sunglasses makes something out of a balloon .
+# ::tokens ["man", "with", "black", "shirt", "and", "sunglasses", "makes", "something", "out", "of", "a", "balloon", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["NN", "IN", "JJ", "NN", "CC", "NNS", "VBZ", "NN", "IN", "IN", "DT", "NN", "."]
+# ::lemmas ["man", "with", "black", "shirt", "and", "sunglass", "make", "something", "out", "of", "a", "balloon", "."]
+(m0 / make-01
+      :ARG2 (b0 / balloon)
+      :ARG0 (m1 / man
+            :ARG0-of (h0 / have-03
+                  :ARG1 (a0 / and
+                        :op2 (s2 / sunglass)
+                        :op1 (s1 / shirt
+                              :ARG1-of (b1 / black-04)))))
+      :ARG1 (s0 / something))

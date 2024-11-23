@@ -1,0 +1,11 @@
+# ::snt a black dog is swimming with a ball in his mouth .
+# ::tokens ["a", "black", "dog", "is", "swimming", "with", "a", "ball", "in", "his", "mouth", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "VBZ", "VBG", "IN", "DT", "NN", "IN", "PRP$", "NN", "."]
+# ::lemmas ["a", "black", "dog", "be", "swim", "with", "a", "ball", "in", "his", "mouth", "."]
+(s0 / swim-01
+      :accompanier (m0 / mouth)
+      :ARG0 (d0 / dog
+            :ARG0-of (b1 / ball)
+            :ARG1-of (b0 / black-04)))

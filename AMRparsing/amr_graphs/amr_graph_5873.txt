@@ -1,0 +1,7 @@
+(p0 / person
+    :ARG0-of (l0 / look-01
+                 :direction (p1 / person
+                                :mod (o0 / other)))
+    :mod (w0 / wear-01
+             :ARG1 (a0 / apron
+                       :mod (y0 / yellow))))

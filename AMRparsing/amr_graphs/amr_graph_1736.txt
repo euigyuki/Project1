@@ -1,0 +1,13 @@
+# ::snt a black and white spotted dog is jumping over the small stream of water .
+# ::tokens ["a", "black", "and", "white", "spotted", "dog", "is", "jumping", "over", "the", "small", "stream", "of", "water", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "CC", "JJ", "VBN", "NN", "VBZ", "VBG", "IN", "DT", "JJ", "NN", "IN", "NN", "."]
+# ::lemmas ["a", "black", "and", "white", "spot", "dog", "be", "jump", "over", "the", "small", "stream", "of", "water", "."]
+(j0 / jump-on-bandwagon-09
+      :ARG0 (d0 / dog
+            :ARG1-of (w1 / white-03)
+            :ARG0-of (b0 / black-04))
+      :ARG1 (s0 / stream
+            :part-of (w0 / water)
+            :mod (s1 / small)))

@@ -1,0 +1,15 @@
+# ::snt people pass each other on a busy city street while talking on their cellphones .
+# ::tokens ["people", "pass", "each", "other", "on", "a", "busy", "city", "street", "while", "talking", "on", "their", "cellphones", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["NNS", "VBP", "DT", "JJ", "IN", "DT", "JJ", "NN", "NN", "IN", "VBG", "IN", "PRP$", "NNS", "."]
+# ::lemmas ["people", "pass", "each", "other", "on", "a", "busy", "city", "street", "while", "talk", "on", "their", "cellphone", "."]
+(p0 / pass-by-17
+      :time (t0 / talk-01
+            :ARG0 (p1 / person
+                  :poss-of (c0 / cellphone))
+            :medium c0)
+      :time (s0 / street
+            :ARG1-of (b0 / busy-01)
+            :mod (c1 / city))
+      :ARG1 p1)

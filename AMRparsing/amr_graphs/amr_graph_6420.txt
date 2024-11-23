@@ -1,0 +1,13 @@
+# ::snt young men watching sesame street .
+# ::tokens ["young", "men", "watching", "sesame", "street", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["JJ", "NNS", "VBG", "NN", "NN", "."]
+# ::lemmas ["young", "man", "watch", "sesame", "street", "."]
+(w0 / watch-01
+      :ARG0 (m0 / man
+            :mod (y0 / young))
+      :ARG1 (s0 / street
+            :name (n0 / name
+                  :op2 "Street" 
+                  :op1 "sesame" )))

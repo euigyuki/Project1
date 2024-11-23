@@ -1,0 +1,6 @@
+(b0 / be-located-at-91
+    :ARG2 (s0 / stage)
+    :ARG1 (m0 / man
+              :part (w0 / wrist
+                        :ARG1-of (h1 / hold-01))
+              :part (h0 / hand)))

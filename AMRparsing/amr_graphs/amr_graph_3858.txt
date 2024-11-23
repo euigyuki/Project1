@@ -1,0 +1,4 @@
+(p0 / pet
+    :domain (c0 / child
+                :ARG1-of (d0 / dress-01
+                             :ARG2 (c1 / cowboy))))
