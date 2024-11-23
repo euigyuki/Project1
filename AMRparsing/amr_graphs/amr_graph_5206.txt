@@ -1,6 +1,0 @@
-(e0 / enjoy-01
-    :ARG0 (p0 / person
-              :ARG0-of (d1 / drive-01
-                           :ARG1 (m0 / motorcycle)))
-    :ARG1 (d0 / day
-              :mod (s0 / sunny)))

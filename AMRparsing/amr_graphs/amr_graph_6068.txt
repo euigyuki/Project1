@@ -1,7 +1,0 @@
-(j0 / jump-03
-    :direction (d1 / down)
-    :direction (d0 / down)
-    :direction (m0 / man
-                   :ARG0-of (h0 / have-03
-                                :ARG1 (h2 / hat
-                                          :ARG1-of (g0 / green-02)))))

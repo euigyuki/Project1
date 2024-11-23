@@ -1,8 +1,0 @@
-(r0 / ride-01
-    :time (b1 / beside)
-    :time (j0 / jog
-              :poss (m0 / man))
-    :ARG0 (w0 / woman
-              :ARG1-of (w1 / wear-01
-                           :ARG1 (p0 / pink-04)))
-    :ARG1 (b0 / bicycle))

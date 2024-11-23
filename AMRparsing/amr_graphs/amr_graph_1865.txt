@@ -1,9 +1,0 @@
-# ::snt blond boy waterskiing .
-# ::tokens ["blond", "boy", "waterskiing", "."]
-# ::ner_tags ["O", "O", "O", "O"]
-# ::ner_iob ["O", "O", "O", "O"]
-# ::pos_tags ["JJ", "NN", "JJ", "."]
-# ::lemmas ["blond", "boy", "waterskiing", "."]
-(t0 / talk-01
-      :ARG0 (b0 / boy
-            :mod (b1 / blond)))

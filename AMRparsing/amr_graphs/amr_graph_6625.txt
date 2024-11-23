@@ -1,5 +1,0 @@
-(m0 / man
-    :mod (c0 / continent
-             :name (n0 / name
-                       :op1 "Asia"))
-    :mod (d0 / drink-01))

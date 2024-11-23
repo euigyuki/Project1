@@ -1,5 +1,0 @@
-(s0 / show-01
-    :ARG1 (f0 / float
-              :ARG0-of (r0 / represent-01
-                           :ARG1 (t1 / time
-                                     :time-of (h0 / hanging-07)))))

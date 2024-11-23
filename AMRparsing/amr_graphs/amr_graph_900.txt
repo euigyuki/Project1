@@ -1,8 +1,0 @@
-(j0 / join-01
-    :mod (t0 / together)
-    :ARG1 (o0 / or
-              :op2 (f0 / family)
-              :op1 (p0 / person
-                       :ARG0-of (h0 / have-rel-role-91
-                                    :ARG1 f0
-                                    :ARG2 (f1 / friend)))))

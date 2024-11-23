@@ -1,8 +1,0 @@
-(l0 / lay-01
-    :time (b0 / bite-01
-              :ARG0 (d0 / dog
-                        :mod (b1 / brown)
-                        :mod (s0 / small))
-              :ARG1 (d2 / dog
-                        :ARG1-of (b2 / black-04)))
-    :ARG1 d0)

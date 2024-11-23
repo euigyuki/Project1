@@ -1,6 +1,0 @@
-(b0 / band
-    :consist-of (m0 / man
-                    :part (h0 / hand
-                              :ARG1-of (r1 / raise-01))
-                    :mod (y0 / young))
-    :ARG0-of (p0 / play-01))

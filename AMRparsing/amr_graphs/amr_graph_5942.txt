@@ -1,7 +1,0 @@
-(p0 / perform-01
-    :ARG0 (m0 / male
-              :ARG0-of (h0 / have-03
-                           :ARG1 (g0 / glasses))
-              :quant 1)
-    :ARG1 (t0 / trick
-              :mod (s0 / skateboard)))

@@ -1,6 +1,0 @@
-(l0 / look-01
-    :ARG1 (o0 / other
-              :mod (e0 / each))
-    :time (s0 / stand-01)
-    :ARG0 (g0 / group
-              :consist-of (d0 / dog)))

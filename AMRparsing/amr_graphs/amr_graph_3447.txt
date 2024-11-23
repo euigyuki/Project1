@@ -1,5 +1,0 @@
-(b0 / building
-    :ARG0-of (h0 / have-03
-                 :ARG1 (b1 / biker))
-    :mod (e0 / elegant
-             :degree (v0 / very)))

@@ -1,5 +1,0 @@
-(g0 / grill
-    :domain (m0 / man
-                :poss-of (h0 / house
-                             :poss (h1 / he)
-                             :op1-of (o0 / outside))))

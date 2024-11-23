@@ -1,4 +1,0 @@
-(c0 / crowd
-    :consist-of (p0 / person
-                    :ARG0-of (w0 / walk-01))
-    :mod (l0 / large))

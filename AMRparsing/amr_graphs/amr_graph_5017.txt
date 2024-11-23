@@ -1,6 +1,0 @@
-(l0 / look-01
-    :source (p0 / playground)
-    :direction (o0 / onward)
-    :ARG1 (b0 / boy
-              :mod (t0 / toddler)
-              :quant 2))

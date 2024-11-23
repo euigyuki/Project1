@@ -1,9 +1,0 @@
-(a0 / and
-    :op2 (b0 / boast-01
-             :ARG1 (h1 / hotdog
-                       :mod (f0 / fashion
-                                :mod (o1 / old)))
-             :ARG0 (m0 / man))
-    :op1 (h0 / have-06
-             :ARG0 m0
-             :ARG1 (b1 / beer)))

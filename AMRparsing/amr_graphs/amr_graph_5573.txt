@@ -1,4 +1,0 @@
-(p0 / play-01
-    :instrument (s0 / sprinkler)
-    :ARG0 (c0 / child
-              :mod (s1 / small)))

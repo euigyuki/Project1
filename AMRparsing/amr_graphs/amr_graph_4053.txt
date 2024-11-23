@@ -1,5 +1,0 @@
-(l0 / lift-01
-    :manner (l1 / leg)
-    :ARG1 (p0 / person
-              :ARG0-of (d0 / dance-01)
-              :quant (s1 / several)))

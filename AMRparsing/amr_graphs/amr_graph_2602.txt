@@ -1,4 +1,0 @@
-(r0 / run-02
-    :ARG0 (d0 / dog
-              :ARG1-of (w0 / white-02)
-              :mod (b1 / black-04)))

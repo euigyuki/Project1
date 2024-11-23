@@ -1,7 +1,0 @@
-(n0 / near-02
-    :ARG2 (a0 / animal
-              :quant (f0 / farm)
-              :ARG0-of (h0 / have-03
-                           :ARG1 (h1 / horn))
-              :quant 3)
-    :ARG1 (d0 / dog))

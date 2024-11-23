@@ -1,7 +1,0 @@
-(t0 / thing
-    :ARG1-of (l0 / look-01
-                 :ARG1 (w0 / woman
-                           :ARG0-of (d0 / drink-01
-                                        :instrument (s1 / straw
-                                                        :ARG1-of (g0 / green-02))
-                                        :ARG1 (s0 / something)))))

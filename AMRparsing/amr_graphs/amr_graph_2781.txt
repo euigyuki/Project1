@@ -1,8 +1,0 @@
-(l0 / look-01
-    :direction (d1 / down)
-    :ARG0 (d0 / dog
-              :ARG1-of (w0 / white-03)
-              :mod (f0 / fluffy))
-    :ARG1 (e0 / embankment
-              :mod (g0 / grassy)
-              :mod (s0 / steep)))

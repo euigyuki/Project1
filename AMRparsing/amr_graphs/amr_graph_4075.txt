@@ -1,9 +1,0 @@
-# ::snt children jumping on a trampoline .
-# ::tokens ["children", "jumping", "on", "a", "trampoline", "."]
-# ::ner_tags ["O", "O", "O", "O", "O", "O"]
-# ::ner_iob ["O", "O", "O", "O", "O", "O"]
-# ::pos_tags ["NNS", "VBG", "IN", "DT", "NN", "."]
-# ::lemmas ["child", "jump", "on", "a", "trampoline", "."]
-(c0 / child
-      :ARG0-of (j0 / jump-03
-            :destination (t0 / trampoline)))

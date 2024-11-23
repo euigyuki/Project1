@@ -1,9 +1,0 @@
-(s0 / show-01
-    :ARG0 (w0 / woman
-              :poss-of (d0 / drawing
-                           :quant 2)
-              :name (n0 / name
-                        :op1 "cindy"))
-    :ARG1 (t0 / thing
-              :ARG1-of (r0 / resemble-01
-                           :ARG1 w0)))

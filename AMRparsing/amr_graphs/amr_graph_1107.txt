@@ -1,4 +1,0 @@
-(s0 / shake-01
-    :ARG0 (d0 / dog
-              :quant 2)
-    :ARG1 (w0 / water))

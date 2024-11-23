@@ -1,4 +1,0 @@
-(h0 / hold-01
-    :ARG1 (g0 / glass)
-    :ARG2 (h1 / hand
-              :part-of (w0 / woman)))

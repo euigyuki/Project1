@@ -1,4 +1,0 @@
-(l0 / lean-01
-    :direction (b0 / back)
-    :ARG1 (c0 / child
-              :mod (s1 / small)))

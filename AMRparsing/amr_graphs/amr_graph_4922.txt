@@ -1,4 +1,0 @@
-(d0 / dance-01
-    :ARG0 (p0 / person
-              :ARG2-of (i1 / include-01)
-              :quant (s0 / several)))

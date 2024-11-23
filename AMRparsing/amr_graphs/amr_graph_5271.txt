@@ -1,5 +1,0 @@
-(r0 / round-up-02
-    :ARG0 (d0 / dog
-              :ARG1-of (c0 / color-01
-                           :ARG2 (t0 / tan))
-              :quant 2))

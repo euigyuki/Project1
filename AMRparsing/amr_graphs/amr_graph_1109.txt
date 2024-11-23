@@ -1,5 +1,0 @@
-(s0 / shake-01
-    :ARG0 (d1 / dog
-              :quant 2)
-    :ARG1 (d0 / droplet
-              :consist-of (w0 / water)))

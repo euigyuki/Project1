@@ -1,3 +1,0 @@
-(w0 / walk-01
-    :ARG0 (p0 / person
-              :quant 2))

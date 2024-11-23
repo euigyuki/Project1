@@ -1,3 +1,0 @@
-(w0 / walk-01
-    :path (l0 / lot)
-    :ARG0 (w1 / woman))

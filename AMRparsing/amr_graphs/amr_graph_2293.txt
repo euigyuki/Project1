@@ -1,8 +1,0 @@
-(h0 / hand-01
-    :ARG2 (p0 / person
-              :ARG0-of (p1 / play-01
-                           :ARG1 (f1 / football
-                                     :mod (c0 / country
-                                              :name (n0 / name
-                                                        :op1 "Romney")))))
-    :ARG1 (t0 / towel))

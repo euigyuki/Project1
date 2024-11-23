@@ -1,3 +1,0 @@
-(g0 / gather-03
-    :ARG0 (g1 / group
-              :consist-of (p0 / person)))

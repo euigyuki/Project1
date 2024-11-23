@@ -1,3 +1,0 @@
-(c0 / crawl-01
-    :ARG0 (m0 / man
-              :mod (y0 / young)))

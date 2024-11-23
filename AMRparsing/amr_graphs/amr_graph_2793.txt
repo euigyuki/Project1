@@ -1,6 +1,0 @@
-(r0 / run-02
-    :ARG0 (a0 / and
-              :op2 (d1 / dog
-                       :mod (b1 / brown))
-              :op1 (d0 / dog
-                       :ARG1-of (b0 / black-04))))

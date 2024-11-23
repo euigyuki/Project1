@@ -1,7 +1,0 @@
-(w0 / walk-01
-    :direction (u0 / up)
-    :ARG0 (w1 / woman
-              :ARG0-of (h0 / have-03
-                           :ARG1 (c0 / cellphone)
-                           :ARG0 (p0 / passenger
-                                     :mod (a0 / another)))))

@@ -1,5 +1,0 @@
-(b0 / baby
-    :domain (t0 / this)
-    :ARG1-of (s0 / stand-01
-                 :manner (b2 / barefoot))
-    :ARG0-of (d0 / dress-01))

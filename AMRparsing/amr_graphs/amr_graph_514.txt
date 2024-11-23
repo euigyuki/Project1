@@ -1,4 +1,0 @@
-(r0 / ride-01
-    :ARG0 (p0 / person
-              :quant 6)
-    :ARG1 (b0 / bike))

@@ -1,4 +1,0 @@
-(j0 / jump-03
-    :destination (c0 / castle
-                     :purpose (b0 / bounce-01))
-    :ARG0 (y0 / youth))

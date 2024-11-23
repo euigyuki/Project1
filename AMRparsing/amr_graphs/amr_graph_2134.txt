@@ -1,4 +1,0 @@
-(p0 / person
-    :ARG0-of (s0 / spin-01)
-    :mod (d0 / dance-01)
-    :mod (f0 / female))

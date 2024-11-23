@@ -1,8 +1,0 @@
-# ::snt the wine shop
-# ::tokens ["the", "wine", "shop"]
-# ::ner_tags ["O", "O", "O"]
-# ::ner_iob ["O", "O", "O"]
-# ::pos_tags ["DT", "NN", "NN"]
-# ::lemmas ["the", "wine", "shop"]
-(s0 / shop
-      :mod (w0 / wine))

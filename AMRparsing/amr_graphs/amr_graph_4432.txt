@@ -1,6 +1,0 @@
-(p0 / practice-01
-    :ARG0 (r0 / row
-              :mod (p1 / person)
-              :quant 2)
-    :ARG1 (m0 / move-01
-              :ARG2 (b0 / ballet)))

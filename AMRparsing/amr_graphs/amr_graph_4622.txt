@@ -1,6 +1,0 @@
-(t0 / take-off-07
-    :ARG0 (w0 / woman
-              :mod (b0 / blond)
-              :mod (h0 / hair))
-    :ARG1 (s0 / sweatshirt
-              :ARG1-of (w1 / white-03)))

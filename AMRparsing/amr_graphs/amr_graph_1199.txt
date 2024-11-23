@@ -1,6 +1,0 @@
-(s0 / sit-01
-    :accompanier (k0 / kid)
-    :ARG1 (l0 / lady
-              :mod (h0 / hair
-                       :ARG1-of (l1 / load-01)
-                       :part-of (h1 / have-03))))

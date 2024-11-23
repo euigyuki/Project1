@@ -1,9 +1,0 @@
-(w0 / walk-01
-    :ARG0 (a0 / and
-              :op2 (p1 / person
-                       :quant 2)
-              :op1 (p0 / person
-                       :ARG1-of (h2 / have-rel-role-91
-                                    :ARG0 p1)
-                       :ARG0-of (h1 / have-rel-role-91
-                                    :ARG1 p1))))

@@ -1,4 +1,0 @@
-(a0 / answer-01
-    :ARG0 (b0 / businessman
-              :quant 2)
-    :ARG1 (q0 / question-01))

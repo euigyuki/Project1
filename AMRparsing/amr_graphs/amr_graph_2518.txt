@@ -1,9 +1,0 @@
-(p0 / perform-01
-    :ARG0 (m0 / man
-              :ARG0-of (h0 / have-03
-                           :ARG1 (a0 / and
-                                     :op2 (h1 / helmet
-                                              :ARG1-of (b1 / black-04))
-                                     :op1 (o0 / outfit
-                                              :ARG1-of (r0 / red-02)))))
-    :ARG1 (s0 / stunt))

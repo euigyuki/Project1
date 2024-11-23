@@ -1,5 +1,0 @@
-(g0 / girl
-    :ARG0-of (p0 / play-01
-                 :accompanier (d0 / dog))
-    :mod (s0 / small)
-    :mod (l0 / little))

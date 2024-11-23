@@ -1,3 +1,0 @@
-(b0 / be-located-at-91
-    :ARG2 (y0 / young)
-    :ARG1 (b1 / boy))

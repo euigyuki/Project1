@@ -1,8 +1,0 @@
-(h0 / hold-on-06
-    :ARG0 (g0 / girl
-              :quant (i0 / include-91
-                         :ARG2 (g1 / girl
-                                   :mod (o0 / overall)))
-              :op1-of (b0 / behind)
-              :quant 2)
-    :ARG1 (f0 / fence))

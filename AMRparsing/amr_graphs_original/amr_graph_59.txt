@@ -1,8 +1,0 @@
-# ::snt a young girl does a handstand on a bed with blue sheets .
-(z1 / handstand-01
-      :ARG0 (z2 / girl
-            :mod (z3 / young))
-      :location (z4 / bed
-            :ARG0-of (z5 / have-03
-                  :ARG1 (z6 / sheet
-                        :mod (z7 / blue)))))

@@ -1,6 +1,0 @@
-(s0 / sell-01
-    :ARG0 (v0 / vendor)
-    :ARG1 (a0 / and
-              :op2 (f0 / food
-                       :mod (o0 / other))
-              :op1 (m0 / mean)))

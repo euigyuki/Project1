@@ -1,2 +1,0 @@
-(d0 / dance-01
-    :ARG0 (p0 / person))

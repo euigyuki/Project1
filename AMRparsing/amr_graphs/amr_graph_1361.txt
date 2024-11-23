@@ -1,7 +1,0 @@
-(s0 / stand-up-07
-    :ARG1 (o0 / or
-              :op2 (b0 / boy
-                       :ARG1-of (h0 / have-degree-91
-                                    :ARG3 (m1 / more)
-                                    :ARG2 (o1 / old)))
-              :op1 (m0 / man)))

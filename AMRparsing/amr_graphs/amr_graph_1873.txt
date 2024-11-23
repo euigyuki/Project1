@@ -1,6 +1,0 @@
-(t0 / toss-01
-    :ARG0 (w0 / woman
-              :ARG0-of (h0 / have-03
-                           :ARG1 (h1 / hair
-                                     :ARG1-of (r1 / red-02))))
-    :ARG1 (r0 / rock))

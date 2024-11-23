@@ -1,6 +1,0 @@
-(w0 / walk-01
-    :manner (f0 / face)
-    :ARG0 (t0 / teenager
-              :mod (f1 / fuck-01)
-              :ARG0-of (l0 / look-02
-                           :ARG1 (m0 / mean-04))))

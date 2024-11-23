@@ -1,4 +1,0 @@
-(p0 / play-01
-    :ARG2 (s0 / snow)
-    :ARG0 (b0 / boy
-              :mod (l0 / little)))

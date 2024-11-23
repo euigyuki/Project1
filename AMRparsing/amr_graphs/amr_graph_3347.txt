@@ -1,8 +1,0 @@
-(m0 / man
-    :ARG0-of (w0 / wear-01
-                 :ARG1 (r0 / robe
-                           :mod (m1 / monk)))
-    :poss-of (v0 / view-01)
-    :poss-of (l0 / look-01
-                 :direction (d0 / down)
-                 :ARG1 (s0 / street)))

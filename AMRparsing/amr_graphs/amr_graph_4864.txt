@@ -1,6 +1,0 @@
-(d0 / dive-01
-    :time (g0 / game
-              :mod (b2 / baseball))
-    :time (c0 / catch-01
-              :ARG0 (b0 / boy
-                        :mod (y0 / young))))

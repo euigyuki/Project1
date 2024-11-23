@@ -1,8 +1,0 @@
-(t0 / touch-01
-    :instrument (h0 / hand
-                    :ARG1-of (l0 / left-20))
-    :ARG0 (g0 / girl
-              :mod (c1 / continent
-                       :name (n0 / name
-                                 :op1 "Asia")))
-    :ARG1 (c0 / chest))

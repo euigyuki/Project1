@@ -1,4 +1,0 @@
-(r0 / ride-01
-    :ARG0 (g0 / group
-              :consist-of (p0 / person))
-    :ARG1 (b0 / bike))

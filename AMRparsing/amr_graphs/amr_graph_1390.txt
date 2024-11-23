@@ -1,6 +1,0 @@
-(g0 / go-02
-    :ARG4 (d0 / down
-              :op1 (h0 / hill
-                       :ARG1-of (s1 / snow-01)))
-    :ARG0 (p0 / person
-              :ARG0-of (s0 / ski-01)))

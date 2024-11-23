@@ -1,2 +1,0 @@
-(b0 / be-located-at-91
-    :ARG2 (t0 / trailer))

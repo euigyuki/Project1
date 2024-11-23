@@ -1,8 +1,0 @@
-(b0 / be-located-at-91
-    :ARG1 (s0 / skateboarder
-              :ARG0-of (h0 / have-03
-                           :ARG1 (w0 / window
-                                     :ARG1-of (f0 / full-09
-                                                  :ARG2 (f1 / flag))))
-              :quant 2)
-    :ARG2 (r0 / road))

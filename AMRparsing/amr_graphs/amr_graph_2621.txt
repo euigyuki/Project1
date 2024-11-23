@@ -1,6 +1,0 @@
-(h0 / hold-01
-    :ARG1 (a0 / and
-              :op2 (p0 / pot)
-              :op1 (a1 / and
-                       :op2 (k0 / knife)
-                       :op1 (f0 / fork))))

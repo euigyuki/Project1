@@ -1,7 +1,0 @@
-(a0 / and
-    :op2 (t0 / trick-01
-             :manner (s1 / skyscraper)
-             :ARG0 (s0 / skater))
-    :op1 (b0 / be-located-at-91
-             :ARG2 (a1 / air)
-             :ARG1 s0))

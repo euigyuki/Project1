@@ -1,8 +1,0 @@
-(a0 / and
-    :op2 (h0 / hand-01
-             :ARG1 (i1 / item
-                       :ARG1-of (w1 / white-03))
-             :ARG0 (w0 / woman))
-    :op1 (s0 / stand-01
-             :ARG1 (b0 / boy
-                       :mod (y0 / young))))

@@ -1,8 +1,0 @@
-(s0 / sit-01
-    :ARG1 (p0 / picture
-              :poss (w0 / woman
-                        :ARG0-of (h0 / have-03
-                                     :ARG1 (a0 / and
-                                               :op2 (b2 / baby)
-                                               :op1 (b1 / box)))
-                        :op1-of (b0 / behind))))

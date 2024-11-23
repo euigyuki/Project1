@@ -1,4 +1,0 @@
-(b0 / be-located-at-91
-    :ARG2 (s0 / side
-              :part-of (m0 / mountain
-                           :mod (s2 / snowy))))

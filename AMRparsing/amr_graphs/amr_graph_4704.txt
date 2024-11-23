@@ -1,3 +1,0 @@
-(t0 / troll-01
-    :ARG0 (m0 / man
-              :ARG0-of (h1 / have-03)))

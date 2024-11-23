@@ -1,9 +1,0 @@
-# ::snt a blank wall of whiteness .
-# ::tokens ["a", "blank", "wall", "of", "whiteness", "."]
-# ::ner_tags ["O", "O", "O", "O", "O", "O"]
-# ::ner_iob ["O", "O", "O", "O", "O", "O"]
-# ::pos_tags ["DT", "JJ", "NN", "IN", "NN", "."]
-# ::lemmas ["a", "blank", "wall", "of", "whiteness", "."]
-(w0 / wall
-      :consist-of (w1 / white-03)
-      :mod (b0 / blank))

@@ -1,8 +1,0 @@
-(t0 / talk-01
-    :ARG0 (w0 / woman
-              :ARG0-of (w1 / wear-01
-                           :ARG1 (a0 / and
-                                     :op2 (s2 / skirt
-                                              :mod (j0 / jean))
-                                     :op1 (s1 / shirt
-                                              :ARG1-of (p0 / pink-04))))))

@@ -1,2 +1,0 @@
-(s0 / street
-    :mod (s1 / small))

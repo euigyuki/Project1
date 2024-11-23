@@ -1,4 +1,0 @@
-(b0 / be-located-at-91
-    :ARG2 (s0 / sidewalk)
-    :ARG1 (b2 / boy
-              :poss-of (b1 / bike)))

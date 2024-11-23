@@ -1,6 +1,0 @@
-(s0 / signal-07
-    :manner (h0 / hand
-                :part-of (b0 / boy
-                             :part (w0 / walk-01)
-                             :ARG0-of s0))
-    :time w0)

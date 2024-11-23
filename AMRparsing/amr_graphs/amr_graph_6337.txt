@@ -1,6 +1,0 @@
-(p0 / person
-    :ARG0-of (w0 / walk-01
-                 :direction (d0 / down))
-    :quant (l0 / look-01
-               :ARG1 (g0 / goth))
-    :quant 4)

@@ -1,4 +1,0 @@
-(p0 / play-01
-    :ARG0 (g0 / group
-              :mod (m1 / music))
-    :ARG1 (m0 / music))

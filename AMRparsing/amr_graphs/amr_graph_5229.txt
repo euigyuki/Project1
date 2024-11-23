@@ -1,9 +1,0 @@
-# ::snt the drenched dog is swimming .
-# ::tokens ["the", "drenched", "dog", "is", "swimming", "."]
-# ::ner_tags ["O", "O", "O", "O", "O", "O"]
-# ::ner_iob ["O", "O", "O", "O", "O", "O"]
-# ::pos_tags ["DT", "VBN", "NN", "VBZ", "VBG", "."]
-# ::lemmas ["the", "drench", "dog", "be", "swim", "."]
-(s0 / swim-01
-      :ARG0 (d0 / dog
-            :ARG1-of (d1 / drench)))

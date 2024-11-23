@@ -1,7 +1,0 @@
-(r0 / refuel-01
-    :source (t1 / tower)
-    :ARG0 (l0 / locomotive
-              :poss-of (t0 / tank
-                           :mod (w0 / water))
-              :mod (s0 / steam))
-    :ARG1 t0)

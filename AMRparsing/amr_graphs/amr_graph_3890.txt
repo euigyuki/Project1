@@ -1,9 +1,0 @@
-# ::snt three elevators being occupied .
-# ::tokens ["three", "elevators", "being", "occupied", "."]
-# ::ner_tags ["CARDINAL", "O", "O", "O", "O"]
-# ::ner_iob ["B", "O", "O", "O", "O"]
-# ::pos_tags ["CD", "NNS", "VBG", "VBN", "."]
-# ::lemmas ["three", "elevator", "be", "occupy", "."]
-(o0 / occupy-01
-      :ARG1 (e0 / elevator
-            :quant 3 ))

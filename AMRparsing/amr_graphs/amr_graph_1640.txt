@@ -1,2 +1,0 @@
-(c0 / check-out-05
-    :ARG0 (f0 / family))

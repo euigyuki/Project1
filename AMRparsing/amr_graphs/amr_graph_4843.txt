@@ -1,3 +1,0 @@
-(g0 / guy
-    :ARG0-of (r0 / relax-01)
-    :poss-of (s0 / sunglass))

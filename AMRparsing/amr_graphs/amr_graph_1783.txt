@@ -1,5 +1,0 @@
-(l0 / low
-    :time (r0 / round-03
-              :ARG0 (m0 / motorcyclist)
-              :ARG1 (t0 / turn-01))
-    :time m0)

@@ -1,4 +1,0 @@
-(c0 / crawl-01
-    :ARG0 (b0 / baby
-              :mod (y0 / young)
-              :quant 2))

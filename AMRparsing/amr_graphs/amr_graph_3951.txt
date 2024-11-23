@@ -1,6 +1,0 @@
-(j0 / juggle
-    :domain (m0 / man
-                :ARG0-of (w0 / wear-01
-                             :ARG1 (t0 / trunk
-                                       :mod (s0 / swim-01)))
-                :mod (y0 / young)))

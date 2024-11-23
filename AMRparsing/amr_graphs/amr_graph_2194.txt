@@ -1,5 +1,0 @@
-(g0 / group
-    :ARG0-of (p1 / play-01
-                 :time (d0 / day
-                           :ARG1-of (h0 / hot-05)))
-    :consist-of (p0 / person))

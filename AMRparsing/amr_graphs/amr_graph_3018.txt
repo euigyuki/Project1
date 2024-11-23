@@ -1,3 +1,0 @@
-(w0 / walk-01
-    :ARG0 (a0 / adult
-              :quant 4))

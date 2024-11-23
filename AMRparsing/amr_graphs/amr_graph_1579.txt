@@ -1,9 +1,0 @@
-(l0 / look-01
-    :manner (e0 / examine-01
-                :ARG0 (s1 / scientist
-                          :ARG1-of (b0 / black-05))
-                :ARG1 (c0 / cell
-                          :part-of (s2 / speciman)
-                          :mod (b1 / blood)))
-    :ARG0 s1
-    :ARG1 (s0 / scope))

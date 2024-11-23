@@ -1,4 +1,0 @@
-(s0 / stand-01
-    :time (s1 / snow-01)
-    :ARG1 (p0 / person
-              :quant 3))

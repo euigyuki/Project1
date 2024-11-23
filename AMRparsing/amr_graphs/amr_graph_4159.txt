@@ -1,4 +1,0 @@
-(t0 / talk-01
-    :ARG2 (o0 / other)
-    :ARG0 (p0 / policeman
-              :quant 2))

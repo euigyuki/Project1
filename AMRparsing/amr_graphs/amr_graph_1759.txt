@@ -1,4 +1,0 @@
-(r0 / read-01
-    :ARG0 (m0 / man
-              :quant 2)
-    :ARG1 (d0 / direction))

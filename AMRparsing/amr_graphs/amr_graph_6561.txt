@@ -1,6 +1,0 @@
-(r0 / run-02
-    :ARG0 (d0 / dog
-              :quant (t0 / tan)
-              :mod (b1 / big)
-              :mod (b0 / brown)
-              :quant 2))

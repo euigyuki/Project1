@@ -1,8 +1,0 @@
-(l0 / look-01
-    :ARG0 (a0 / and
-              :op1-of (n0 / next-to
-                          :op2 (d0 / dog))
-              :op2 d0
-              :op1 (g0 / girl
-                       :mod (y0 / young)))
-    :ARG1 (s0 / something))

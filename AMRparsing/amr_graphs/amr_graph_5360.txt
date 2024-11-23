@@ -1,9 +1,0 @@
-# ::snt two boys rollerblading .
-# ::tokens ["two", "boys", "rollerblading", "."]
-# ::ner_tags ["CARDINAL", "O", "O", "O"]
-# ::ner_iob ["B", "O", "O", "O"]
-# ::pos_tags ["CD", "NNS", "VBG", "."]
-# ::lemmas ["two", "boy", "rollerblade", "."]
-(r0 / rollerblade
-      :domain (b0 / boy
-            :quant 2 ))

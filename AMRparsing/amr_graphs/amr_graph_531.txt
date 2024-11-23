@@ -1,6 +1,0 @@
-(p0 / play-01
-    :ARG0 (c0 / child
-              :quant (i0 / include-91
-                         :ARG1 (c1 / child
-                                   :quant 2))
-              :quant 3))

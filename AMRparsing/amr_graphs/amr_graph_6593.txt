@@ -1,4 +1,0 @@
-(s0 / stand-01
-    :ARG1 (w0 / woman
-              :ARG0-of (d0 / display-01
-                           :ARG1 (i0 / item))))

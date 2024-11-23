@@ -1,6 +1,0 @@
-(r0 / ride-01
-    :manner (t0 / together)
-    :ARG1 (p0 / person
-              :ARG0-of (h0 / have-org-role-91
-                           :ARG2 (o0 / officer))
-              :quant 2))

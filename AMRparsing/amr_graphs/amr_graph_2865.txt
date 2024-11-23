@@ -1,5 +1,0 @@
-(p0 / play-11
-    :ARG0 (a0 / and
-              :op2 (w0 / woman)
-              :op1 (m0 / man))
-    :ARG1 (i0 / instrument))

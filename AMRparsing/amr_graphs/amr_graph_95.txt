@@ -1,5 +1,0 @@
-(m0 / man
-    :ARG0-of (t0 / turn-on-13
-                 :ARG1 (g0 / glass)
-                 :op1-of (o0 / or
-                             :time-of (s0 / smile-01))))

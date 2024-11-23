@@ -1,5 +1,0 @@
-(p0 / pour-01
-    :ARG3 (g0 / glass
-              :ARG1-of (c0 / clear-08))
-    :ARG0 (w1 / woman)
-    :ARG1 (w0 / wine))

@@ -1,6 +1,0 @@
-(s0 / sit-01
-    :ARG1 (p0 / person
-              :ARG0-of (a0 / and
-                           :op2 (w1 / white-03)
-                           :op1 (r0 / red-02))
-              :mod (c0 / coach-01)))

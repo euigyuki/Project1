@@ -1,6 +1,0 @@
-(p0 / pose-01
-    :time (s0 / ski-01
-              :destination (m0 / mountain)
-              :direction (d0 / down))
-    :ARG0 (w0 / woman
-              :ARG0-of (h0 / have-03)))

@@ -1,6 +1,0 @@
-(l0 / lay-01
-    :purpose (s0 / smile-01
-                 :ARG0 (g0 / girl
-                           :mod (l1 / little)
-                           :ARG1-of l0
-                           :quant 2)))

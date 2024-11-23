@@ -1,5 +1,0 @@
-(s0 / scramble-01
-    :destination (o0 / over
-                     :op1 (b0 / bar
-                              :ARG1-of (h0 / high-02)))
-    :ARG0 (m0 / man))

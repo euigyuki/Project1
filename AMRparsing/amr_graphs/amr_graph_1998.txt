@@ -1,7 +1,0 @@
-(s0 / show-04
-    :time (w0 / walk-01
-              :ARG0 (b0 / boy
-                        :poss-of (d0 / dog
-                                     :ARG1-of (w1 / white-02))
-                        :mod (y0 / young)
-                        :ARG0-of s0)))

@@ -1,9 +1,0 @@
-(b0 / be-located-at-91
-    :ARG2 (f1 / facility
-              :name (n0 / name
-                        :op1 "Centre")
-              :mod (o0 / old))
-    :ARG1 (f0 / female
-              :mod (y0 / young)
-              :mod (b1 / blond)
-              :quant 1))

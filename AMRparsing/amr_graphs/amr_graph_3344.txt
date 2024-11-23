@@ -1,7 +1,0 @@
-(g0 / go-02
-    :ARG4 (d0 / down
-              :op1 (s1 / slope))
-    :time (t0 / tournament)
-    :ARG0 (p0 / person
-              :ARG0-of (s0 / ski-01)
-              :mod (p1 / professional)))

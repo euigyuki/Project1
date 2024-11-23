@@ -1,4 +1,0 @@
-(j0 / jump-03
-    :destination (m0 / mattress
-                     :mod (r0 / rubber))
-    :ARG0 (g0 / girl))

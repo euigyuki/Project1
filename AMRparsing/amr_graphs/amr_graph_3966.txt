@@ -1,8 +1,0 @@
-(l0 / look-01
-    :ARG0 (m0 / man
-              :ARG0-of (w1 / wear-01
-                           :ARG1 (s0 / shirt
-                                     :ARG1-of (w2 / white-03))))
-    :ARG1 (w0 / window
-              :part-of (c0 / construct-01
-                           :ARG1 (m1 / metal))))

@@ -1,7 +1,0 @@
-(l0 / look-01
-    :ARG0 (c0 / child
-              :mod (y0 / young)
-              :quant 2)
-    :ARG1 (f0 / food
-              :mod (t0 / type
-                       :mod (s0 / some))))

@@ -1,8 +1,0 @@
-(a0 / and
-    :op2 (d0 / drink-01
-             :ARG1 (b0 / beer
-                       :quant (s0 / some))
-             :ARG0 (g0 / group
-                       :consist-of (p0 / person)))
-    :op1 (h0 / hang-out-06
-             :ARG1 g0))

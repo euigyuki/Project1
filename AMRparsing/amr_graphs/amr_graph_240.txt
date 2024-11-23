@@ -1,6 +1,0 @@
-(a0 / and
-    :op2 (d0 / dislike-01
-             :ARG0 (s0 / someone)
-             :ARG1 (m0 / menu))
-    :op1 (e0 / eat-01
-             :ARG0 (c0 / child)))

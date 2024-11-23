@@ -1,4 +1,0 @@
-(f0 / family
-    :ARG0-of (l0 / look-01
-                 :ARG1 (w0 / wonder-01
-                           :ARG1 (c0 / crab))))

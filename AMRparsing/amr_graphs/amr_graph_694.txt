@@ -1,3 +1,0 @@
-(t0 / try-04
-    :ARG0 (l0 / lady)
-    :ARG1 (c0 / chair))

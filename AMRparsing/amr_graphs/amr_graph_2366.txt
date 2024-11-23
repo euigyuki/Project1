@@ -1,6 +1,0 @@
-(t0 / travel-01
-    :ARG4 (t1 / towards
-              :op1 (p2 / peak))
-    :ARG0 (p1 / person
-              :ARG0-of (f0 / fish-01)
-              :quant 5))

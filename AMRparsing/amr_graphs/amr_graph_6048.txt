@@ -1,5 +1,0 @@
-(c0 / carry-01
-    :ARG0 (b0 / boy
-              :part (n0 / neck))
-    :ARG1 (s0 / snake
-              :mod (h0 / huge)))

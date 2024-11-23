@@ -1,4 +1,0 @@
-(n0 / number
-    :quant-of (g0 / guy
-                  :ARG0-of (p0 / play-01
-                               :ARG1 (m0 / music))))

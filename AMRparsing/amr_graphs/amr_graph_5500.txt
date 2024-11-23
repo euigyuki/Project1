@@ -1,9 +1,0 @@
-# ::snt people lighting sparklers .
-# ::tokens ["people", "lighting", "sparklers", "."]
-# ::ner_tags ["O", "O", "O", "O"]
-# ::ner_iob ["O", "O", "O", "O"]
-# ::pos_tags ["NNS", "VBG", "NNS", "."]
-# ::lemmas ["people", "light", "sparkler", "."]
-(p0 / person
-      :ARG0-of (l0 / light-04
-            :ARG1 (s0 / sparkler)))

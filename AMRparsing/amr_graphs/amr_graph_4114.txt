@@ -1,3 +1,0 @@
-(m0 / meet-03
-    :ARG0 (d0 / dog
-              :quant 3))

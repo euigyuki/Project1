@@ -1,6 +1,0 @@
-(c0 / carry-01
-    :ARG0 (d0 / dog
-              :ARG1-of (w0 / white-02)
-              :ARG0-of (b0 / black-05)
-              :part (m0 / mouth))
-    :ARG1 (s0 / stick))

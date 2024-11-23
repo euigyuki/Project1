@@ -1,8 +1,0 @@
-(p0 / punch-01
-    :ARG0 (p2 / person
-              :ARG0-of (f2 / fight-01)
-              :mod (a0 / another)
-              :quant 1)
-    :ARG1 (p1 / person
-              :mod (f1 / female)
-              :mod (f0 / fight-01)))

@@ -1,7 +1,0 @@
-(p0 / pour-01
-    :ARG0 (w1 / woman
-              :mod (b0 / blond))
-    :ARG1 (w0 / wine
-              :quant (v0 / volume-quantity
-                         :unit (g0 / glass)
-                         :quant 1)))

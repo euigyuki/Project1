@@ -1,8 +1,0 @@
-(a0 / and
-    :op2 (p0 / play-01
-             :ARG2 (p2 / person
-                       :ARG1-of (h1 / have-rel-role-91
-                                    :ARG2 (s1 / son)
-                                    :ARG1 (p1 / person))))
-    :op1 (h0 / hold-01
-             :ARG1 (b0 / baby)))

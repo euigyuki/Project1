@@ -1,2 +1,0 @@
-(t0 / troll-01
-    :ARG0 (m0 / man))

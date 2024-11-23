@@ -1,6 +1,0 @@
-(s0 / stand-01
-    :ARG1 (w0 / woman
-              :poss-of (t0 / turn
-                           :ARG1-of (l0 / line-up-02
-                                        :ARG1 w0))
-              :quant 6))

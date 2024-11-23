@@ -1,5 +1,0 @@
-(j0 / jump-03
-    :ARG0 (m0 / male
-              :mod (c0 / continent
-                       :name (n0 / name
-                                 :op1 "America"))))

@@ -1,5 +1,0 @@
-(h0 / hang-01
-    :ARG1 (p0 / person
-              :ARG0-of (w0 / wash-01
-                           :ARG1 (w1 / window))
-              :ARG1-of (d0 / dress-01)))

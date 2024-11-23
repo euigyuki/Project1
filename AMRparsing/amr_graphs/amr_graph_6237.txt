@@ -1,6 +1,0 @@
-(l0 / lean-01
-    :ARG0 (b0 / boy
-              :mod (y0 / young))
-    :ARG1 (c0 / construct-01
-              :ARG0 (m0 / man
-                        :mod (o0 / other))))

@@ -1,5 +1,0 @@
-(p0 / perform-02
-    :ARG0 (m0 / man
-              :mod (o0 / oriental))
-    :ARG1 (s0 / strong-02
-              :mod (p1 / physical)))

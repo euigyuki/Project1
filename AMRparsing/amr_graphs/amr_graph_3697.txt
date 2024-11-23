@@ -1,7 +1,0 @@
-(r0 / read-01
-    :ARG3 (k0 / kill-01
-              :ARG0 (g0 / girl)
-              :ARG1 (m0 / mockingbird))
-    :time (r1 / recline
-              :ARG1 g0)
-    :ARG0 g0)

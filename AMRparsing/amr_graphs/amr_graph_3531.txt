@@ -1,4 +1,0 @@
-(h0 / hold-01
-    :ARG1 (s0 / shovel)
-    :time (p0 / pose-01
-              :ARG1 (c0 / camera)))

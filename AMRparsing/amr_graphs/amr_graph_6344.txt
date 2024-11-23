@@ -1,7 +1,0 @@
-(s0 / swim-01
-    :manner (s1 / side)
-    :time (d0 / day
-              :ARG1-of (w0 / warm-07))
-    :ARG0 (g0 / girl
-              :mod (l0 / little)
-              :quant 2))

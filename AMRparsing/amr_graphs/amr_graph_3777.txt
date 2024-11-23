@@ -1,8 +1,0 @@
-(s0 / sit-01
-    :ARG1 (b0 / baby
-              :ARG0-of (p0 / pull-01
-                           :ARG1 (f0 / face
-                                     :ARG1-of (f1 / funny-02)))
-              :poss-of (t0 / toy
-                           :ARG1-of (g0 / green-02)
-                           :mod (r0 / red-02))))

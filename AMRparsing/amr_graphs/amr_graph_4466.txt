@@ -1,7 +1,0 @@
-(a0 / and
-    :op2 (g0 / gather-01
-             :ARG1 (c2 / challenge-01
-                       :ARG2 (o0 / obstacle))
-             :ARG0 (c1 / child))
-    :op1 (c0 / climb-01
-             :ARG0 c1))

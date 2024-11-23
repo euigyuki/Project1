@@ -1,4 +1,0 @@
-(m0 / man
-    :ARG0-of (w0 / watch-01
-                 :ARG0 (l1 / lady))
-    :mod (b0 / basic))

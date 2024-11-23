@@ -1,4 +1,0 @@
-(s0 / stand-01
-    :purpose (w0 / wait-01
-                 :ARG1 (c0 / crowd))
-    :ARG1 c0)

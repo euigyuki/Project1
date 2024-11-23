@@ -1,9 +1,0 @@
-(c0 / check-out-05
-    :time (p1 / put-01
-              :ARG2 (f1 / fountain)
-              :ARG0 (h0 / human
-                        :part (f0 / foot))
-              :ARG1 f0)
-    :ARG0 (p0 / puppy
-              :part (m1 / master))
-    :ARG1 (l0 / leash))

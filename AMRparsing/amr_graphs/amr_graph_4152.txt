@@ -1,6 +1,0 @@
-(f0 / form-01
-    :ARG0 (p0 / person
-              :ARG0-of (s1 / swim-01)
-              :mod (w0 / woman))
-    :ARG1 (s0 / shape
-              :mod (e0 / elaborate)))

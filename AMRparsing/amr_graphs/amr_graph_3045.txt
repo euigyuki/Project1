@@ -1,5 +1,0 @@
-(b0 / be-located-at-91
-    :ARG2 (l0 / location
-              :ARG1-of (c0 / cover-02
-                           :ARG2 (s0 / snow)))
-    :ARG1 (p0 / person))

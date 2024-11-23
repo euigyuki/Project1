@@ -1,3 +1,0 @@
-(g0 / get-04
-    :ARG0 (b0 / boy
-              :ARG0-of (h0 / have-03)))

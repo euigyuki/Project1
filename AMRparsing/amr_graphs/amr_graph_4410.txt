@@ -1,3 +1,0 @@
-(p0 / person
-    :ARG0-of (h0 / head-02
-                 :ARG1 (h1 / home)))

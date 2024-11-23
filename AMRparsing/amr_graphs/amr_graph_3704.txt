@@ -1,4 +1,0 @@
-(p0 / person
-    :ARG0-of (p1 / pick-up-04
-                 :ARG1 (f0 / fruit
-                           :ARG1-of (l0 / look-01))))

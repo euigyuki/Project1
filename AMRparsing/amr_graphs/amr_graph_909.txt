@@ -1,5 +1,0 @@
-(d0 / do-02
-    :ARG0 (m0 / man
-              :ARG0-of (c0 / clean-up-02)
-              :ARG0-of (o0 / orange))
-    :ARG1 c0)

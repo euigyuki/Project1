@@ -1,3 +1,0 @@
-(t0 / teenager
-    :ARG0-of (s0 / surf-01)
-    :mod (r0 / ride-01))

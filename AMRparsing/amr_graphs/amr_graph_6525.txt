@@ -1,9 +1,0 @@
-(r0 / raise-01
-    :purpose (e0 / endorse-01
-                 :ARG1 (m0 / man
-                           :poss-of (w0 / wineglass)
-                           :ARG0-of (h0 / have-03
-                                        :ARG1 (p0 / polo
-                                                  :mod (b0 / blue)))))
-    :ARG0 m0
-    :ARG1 w0)

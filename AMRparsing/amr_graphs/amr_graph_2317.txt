@@ -1,8 +1,0 @@
-(a0 / and
-    :op2 (s0 / smoke-02
-             :ARG1 (c0 / cigarette)
-             :ARG0 (m0 / man))
-    :op1 (p0 / play-01
-             :ARG0 m0
-             :ARG1 (g0 / guitar
-                       :mod (e0 / electric))))

@@ -1,4 +1,0 @@
-(h0 / hold-01
-    :ARG3 (b0 / bike)
-    :ARG1 (g0 / girl
-              :mod (s0 / small)))

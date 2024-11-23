@@ -1,4 +1,0 @@
-(h0 / hold-01
-    :ARG2 (a0 / arm
-              :part-of (b0 / boy))
-    :ARG1 (g0 / goat))

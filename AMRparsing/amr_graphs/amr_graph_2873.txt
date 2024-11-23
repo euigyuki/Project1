@@ -1,8 +1,0 @@
-(b0 / be-located-at-91
-    :time (d0 / date-entity
-              :dayperiod (n0 / night))
-    :ARG2 (s0 / square
-              :ARG1-of (c0 / crowd-01
-                           :degree (v0 / very)))
-    :ARG1 (p0 / person
-              :quant (m0 / many)))

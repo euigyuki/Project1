@@ -1,5 +1,0 @@
-(h0 / hold-01
-    :ARG1 (s0 / short-07
-              :poss (m0 / man
-                        :part (b0 / belly
-                                  :mod (b1 / big)))))

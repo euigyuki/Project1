@@ -1,5 +1,0 @@
-(l0 / landscape
-    :consist-of (p0 / person
-                    :ARG0-of (w1 / walk-01)
-                    :quant 4)
-    :mod (w0 / winter))

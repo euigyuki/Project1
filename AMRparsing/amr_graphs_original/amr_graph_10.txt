@@ -1,8 +1,0 @@
-# ::snt a group of people stand in the back of a truck filled with cotton .
-(z1 / stand-01
-      :ARG1 (z2 / group
-            :consist-of (z3 / person))
-      :ARG2 (z4 / back
-            :part-of (z5 / truck
-                  :ARG1-of (z6 / fill-01
-                        :ARG2 (z7 / cotton)))))

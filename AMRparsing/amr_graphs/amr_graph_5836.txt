@@ -1,7 +1,0 @@
-(p0 / play-01
-    :ARG0 (g0 / group
-              :consist-of (p1 / person)
-              :mod (s0 / small))
-    :ARG1 (i0 / instrument
-              :mod (g1 / game
-                       :mod (v0 / video))))

@@ -1,4 +1,0 @@
-(s0 / sit-01
-    :manner (c0 / circle)
-    :ARG1 (g0 / girl
-              :mod (y0 / young)))

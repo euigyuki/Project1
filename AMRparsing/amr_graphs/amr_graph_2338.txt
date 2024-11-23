@@ -1,6 +1,0 @@
-(f0 / fun-01
-    :ARG0 (c0 / child
-              :ARG0-of (p0 / play-01
-                           :ARG1 (s0 / sack))
-              :mod (y0 / young))
-    :ARG1 p0)

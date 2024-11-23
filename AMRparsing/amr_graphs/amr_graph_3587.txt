@@ -1,9 +1,0 @@
-(p0 / play-11
-    :time (d0 / display-01
-              :ARG1 (i0 / image
-                        :poss g1))
-    :ARG0 (g1 / girl
-              :op1-of (b0 / behind))
-    :ARG1 (g0 / game
-              :mod (v1 / video)
-              :mod (v0 / virtual)))

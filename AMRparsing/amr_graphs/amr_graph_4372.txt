@@ -1,6 +1,0 @@
-(h0 / hold-01
-    :time (w1 / watch-01
-              :ARG1 (o0 / ocean))
-    :time (a0 / air)
-    :ARG1 (b0 / bouquet
-              :consist-of (f0 / flower)))

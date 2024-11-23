@@ -1,4 +1,0 @@
-(s0 / stand-01
-    :ARG1 (b0 / baby
-              :ARG0-of (c0 / carry-01
-                           :ARG1 (b1 / ball))))

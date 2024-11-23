@@ -1,4 +1,0 @@
-(s0 / shoot-02
-    :ARG0 (c0 / child
-              :quant 3)
-    :ARG1 (g0 / gun))

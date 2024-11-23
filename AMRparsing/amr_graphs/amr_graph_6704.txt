@@ -1,8 +1,0 @@
-(a0 / and
-    :op2 (d0 / dig-01
-             :ARG3 (b1 / bag
-                       :ARG1-of (w0 / white-03))
-             :ARG0 (m0 / man))
-    :op1 (b0 / bend-01
-             :direction (d1 / down)
-             :ARG0 m0))

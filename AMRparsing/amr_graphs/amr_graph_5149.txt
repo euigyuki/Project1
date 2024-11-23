@@ -1,6 +1,0 @@
-(l0 / lift-01
-    :ARG4 (h0 / helicopter)
-    :direction (u0 / upward)
-    :ARG3 (w0 / water)
-    :ARG1 (p0 / person
-              :ARG0-of (r0 / rescue-01)))

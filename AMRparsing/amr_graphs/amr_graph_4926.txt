@@ -1,7 +1,0 @@
-(s0 / sit-01
-    :manner (u0 / up-03)
-    :ARG1 (w0 / woman
-              :part (h1 / have-03)
-              :part (c1 / chest)
-              :part (k0 / knee)
-              :part (h0 / have-03)))

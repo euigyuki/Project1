@@ -1,5 +1,0 @@
-(p0 / person
-    :ARG0-of (p1 / participate-01
-                 :ARG1 (s0 / swim-01
-                           :ARG0 (p2 / pool)
-                           :ARG1 (s1 / synchronized))))

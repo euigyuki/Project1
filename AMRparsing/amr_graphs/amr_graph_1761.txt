@@ -1,7 +1,0 @@
-(a0 / and
-    :op2 (r0 / ride-01
-             :ARG1 (b0 / bike
-                       :poss (p0 / pedestrian))
-             :ARG0 p0)
-    :op1 (w0 / walk-01
-             :ARG0 p0))

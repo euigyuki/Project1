@@ -1,4 +1,0 @@
-(p0 / prepare-01
-    :time (c1 / current)
-    :ARG0 (c0 / chef)
-    :ARG1 (f0 / food))

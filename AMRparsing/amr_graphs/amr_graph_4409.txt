@@ -1,4 +1,0 @@
-(w0 / walk-01
-    :ARG0 (w1 / woman
-              :ARG1-of (b0 / black-05)
-              :quant 2))

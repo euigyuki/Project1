@@ -1,4 +1,0 @@
-(f0 / fun-01
-    :frequency (s0 / sometimes)
-    :ARG1 (a0 / accompany-01
-              :ARG1 (f1 / family)))

@@ -1,4 +1,0 @@
-(f0 / flash-01
-    :ARG0 (b0 / blond
-              :mod (y0 / young))
-    :ARG1 (c0 / chocolate))

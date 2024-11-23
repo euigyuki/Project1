@@ -1,4 +1,0 @@
-(s0 / shadow
-    :poss (p0 / person
-              :ARG1-of (s1 / sit-01)
-              :quant 2))

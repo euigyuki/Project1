@@ -1,2 +1,0 @@
-(e0 / explore-01
-    :ARG0 (b0 / baby))

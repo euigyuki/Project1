@@ -1,8 +1,0 @@
-(w0 / walk-01
-    :accompanier (m0 / man
-                     :ARG0-of (h0 / have-03
-                                  :ARG1 (k0 / kilt
-                                            :ARG1-of (b1 / black-04))))
-    :ARG0 (w1 / woman
-              :ARG0-of (g0 / gown
-                           :mod (b0 / bridal))))

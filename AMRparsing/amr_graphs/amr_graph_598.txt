@@ -1,3 +1,0 @@
-(k0 / keep-01
-    :ARG0 (m0 / man)
-    :ARG1 (o0 / order))

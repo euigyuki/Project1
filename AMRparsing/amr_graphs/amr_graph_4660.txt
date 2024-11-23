@@ -1,5 +1,0 @@
-(a0 / and
-    :op2 (e0 / enjoy-01
-             :ARG0 (p0 / person))
-    :op1 (d0 / dance-01
-             :ARG0 p0))

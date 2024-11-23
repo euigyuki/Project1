@@ -1,6 +1,0 @@
-(w0 / work-01
-    :ARG0 (p0 / person
-              :ARG0-of (b0 / black-05)
-              :mod (m0 / male))
-    :ARG1 (s0 / sculpture
-              :mod (a0 / abstract)))

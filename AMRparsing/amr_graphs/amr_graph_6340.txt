@@ -1,6 +1,0 @@
-(w0 / walk-01
-    :ARG0 (a0 / and
-              :op2 (g1 / guy
-                       :quant 2)
-              :op1 (g0 / girl
-                       :quant 2)))

@@ -1,3 +1,0 @@
-(p0 / person
-    :ARG0-of (c0 / construct-01)
-    :mod (w0 / work-01))

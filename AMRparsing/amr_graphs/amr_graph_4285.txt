@@ -1,4 +1,0 @@
-(h0 / hug-01
-    :ARG0 (g1 / girl
-              :mod (a0 / another))
-    :ARG1 (g0 / girl))

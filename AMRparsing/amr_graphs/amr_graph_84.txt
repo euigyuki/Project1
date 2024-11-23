@@ -1,8 +1,0 @@
-(b0 / be-located-at-91
-    :ARG1 (l0 / laptop
-              :ARG1-of (o0 / open-01)
-              :mod (c0 / company
-                       :op1-of (a0 / around)
-                       :name (n0 / name
-                                 :op2 (m0 / mac)
-                                 :op1 "mac"))))

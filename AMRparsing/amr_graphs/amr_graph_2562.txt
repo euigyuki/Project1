@@ -1,9 +1,0 @@
-(s0 / stand-01
-    :ARG1 (w0 / woman
-              :ARG0-of (s1 / smile-01)
-              :ARG1-of (w1 / wear-01
-                           :ARG1 (a1 / and
-                                     :op2 (j0 / jean)
-                                     :op1 (t0 / top
-                                              :mod (b1 / blue))))
-              :mod (r0 / redheaded)))

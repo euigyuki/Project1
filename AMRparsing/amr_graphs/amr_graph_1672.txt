@@ -1,5 +1,0 @@
-(t0 / try-01
-    :ARG1 (c0 / catch-01
-              :ARG0 (d0 / dog)
-              :ARG1 (s0 / snowball))
-    :ARG0 d0)

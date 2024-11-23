@@ -1,3 +1,0 @@
-(k0 / kneel-01
-    :ARG0 (w0 / woman
-              :mod (n0 / naked)))

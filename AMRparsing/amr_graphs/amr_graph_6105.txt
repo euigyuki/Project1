@@ -1,4 +1,0 @@
-(w0 / walk-01
-    :time (a0 / around)
-    :ARG0 (m0 / man
-              :quant 2))

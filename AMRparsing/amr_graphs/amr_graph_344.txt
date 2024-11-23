@@ -1,8 +1,0 @@
-(s0 / stand-01
-    :time (d0 / day
-              :mod (s1 / sunny))
-    :ARG1 (a0 / and
-              :op2 (w0 / woman
-                       :quant 2)
-              :op1 (m0 / man
-                       :quant 3)))

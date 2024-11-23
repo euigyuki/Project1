@@ -1,4 +1,0 @@
-(l0 / lay-01
-    :mod (t0 / together)
-    :ARG1 (g0 / girl
-              :quant 2))

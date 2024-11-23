@@ -1,7 +1,0 @@
-(l0 / look-01
-    :ARG0 (g0 / guy
-              :ARG1-of (h0 / have-degree-91
-                           :ARG3 (m0 / more))
-              :ARG0-of (w0 / walk-01)
-              :quant 4)
-    :ARG1 (c0 / camera))

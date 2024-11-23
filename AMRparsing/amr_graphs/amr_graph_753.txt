@@ -1,7 +1,0 @@
-(m0 / make-01
-    :ARG0 (w0 / woman
-              :ARG0-of (h0 / have-03
-                           :ARG1 (s1 / shirt
-                                     :mod (o0 / orange)))
-              :mod (b0 / blond))
-    :ARG1 (m1 / music))

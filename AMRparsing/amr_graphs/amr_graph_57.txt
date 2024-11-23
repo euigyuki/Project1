@@ -1,2 +1,0 @@
-(e0 / eat-01
-    :ARG0 (p0 / person))

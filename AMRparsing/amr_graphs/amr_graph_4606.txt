@@ -1,9 +1,0 @@
-(p0 / pull-06
-    :time (w0 / walk-01
-              :ARG0 (d0 / dog
-                        :mod (b1 / brown)
-                        :mod (s0 / small)
-                        :ARG0-of p0))
-    :ARG1 (l0 / leash
-              :ARG1-of (w1 / white-03)
-              :mod (b0 / blue)))

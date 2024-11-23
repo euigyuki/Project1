@@ -1,6 +1,0 @@
-(c0 / climb-01
-    :ARG1 (t0 / tree)
-    :ARG0 (m0 / man
-              :ARG0-of (w0 / wear-01
-                           :ARG1 (s0 / shirt
-                                     :ARG1-of (r1 / red-02)))))

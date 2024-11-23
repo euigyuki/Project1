@@ -1,4 +1,0 @@
-(r0 / ride-01
-    :ARG0 (p0 / person)
-    :ARG1 (h0 / horse
-              :ARG1-of (w0 / white-03)))

@@ -1,8 +1,0 @@
-(c0 / compete-01
-    :ARG0 (a0 / athlete
-              :quant (a1 / art
-                         :mod (m1 / martial))
-              :quant (m0 / monitor-01
-                         :ARG0 (p0 / person
-                                   :ARG0-of (j0 / judge-01)))
-              :quant 2))

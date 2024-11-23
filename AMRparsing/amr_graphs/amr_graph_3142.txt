@@ -1,5 +1,0 @@
-(g0 / group
-    :consist-of (c0 / child
-                    :mod (n0 / nude
-                             :mod (m0 / most)))
-    :consist-of (p0 / play-01))

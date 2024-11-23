@@ -1,6 +1,0 @@
-(c0 / climb-01
-    :direction (b0 / back
-                   :part-of (d1 / dog
-                                :mod (a0 / another)))
-    :ARG1 (d0 / dog
-              :quant (o0 / one)))

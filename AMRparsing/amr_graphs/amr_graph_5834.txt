@@ -1,3 +1,0 @@
-(d0 / draw-01
-    :ARG0 (k0 / kid)
-    :ARG1 (s0 / something))

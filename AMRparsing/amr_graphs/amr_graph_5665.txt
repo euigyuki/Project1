@@ -1,7 +1,0 @@
-(s0 / sit-01
-    :mod (u0 / under
-             :op1 (t0 / tree))
-    :ARG1 (p0 / person
-              :mod (c0 / continent
-                       :name (n0 / name
-                                 :op1 "Africa"))))

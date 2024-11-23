@@ -1,2 +1,0 @@
-(b0 / bend-01
-    :direction (b1 / backward))

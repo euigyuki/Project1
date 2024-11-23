@@ -1,6 +1,0 @@
-(s0 / stick-01
-    :ARG0 (m0 / man
-              :part (h0 / head)
-              :ARG0-of (l0 / look-01
-                           :direction (d0 / downward)))
-    :ARG1 h0)

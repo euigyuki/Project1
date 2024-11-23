@@ -1,6 +1,0 @@
-(b0 / be-located-at-91
-    :ARG1 (p0 / person
-              :quant (m0 / many)
-              :quant (c0 / continent
-                         :name (n0 / name
-                                   :op1 "Asia"))))

@@ -1,5 +1,0 @@
-(m0 / multi-sentence
-    :snt2 (s1 / swim-01)
-    :snt1 (s0 / swim-01
-              :ARG0 (p0 / person
-                        :ARG0-of (d1 / dive-01))))

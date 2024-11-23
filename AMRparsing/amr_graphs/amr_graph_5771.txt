@@ -1,6 +1,0 @@
-(a0 / across
-    :domain (s0 / sack
-                :ARG0-of (b0 / burlap)
-                :part-of (g0 / girl
-                             :quant 2))
-    :op1 (f0 / field))

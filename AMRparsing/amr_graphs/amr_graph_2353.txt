@@ -1,6 +1,0 @@
-(p0 / point-01
-    :ARG0 (c0 / child
-              :ARG0-of (h0 / have-03)
-              :ARG1-of (c1 / clothe-01
-                           :ARG2 (m0 / medieval)))
-    :ARG1 (s0 / something))

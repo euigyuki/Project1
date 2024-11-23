@@ -1,4 +1,0 @@
-(h0 / hold-01
-    :ARG1 (b0 / bag
-              :quant (b2 / bread)
-              :quant 2))

@@ -1,4 +1,0 @@
-(p0 / pose-01
-    :ARG0 (w0 / woman
-              :poss-of (p1 / paint-02
-                           :op1-of (i0 / in-front-of))))

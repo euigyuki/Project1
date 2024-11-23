@@ -1,5 +1,0 @@
-(r0 / reach-03
-    :ARG2 (a0 / avoid-01
-              :ARG2 (p0 / person
-                        :ARG0-of (d0 / dive-01)
-                        :ARG0-of r0)))

@@ -1,3 +1,0 @@
-(j0 / jump-03
-    :ARG0 (c0 / child
-              :quant 2))

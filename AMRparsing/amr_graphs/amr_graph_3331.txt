@@ -1,3 +1,0 @@
-(r0 / run-02
-    :ARG0 (b0 / boy
-              :mod (s0 / small)))

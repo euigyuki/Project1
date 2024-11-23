@@ -1,5 +1,0 @@
-(c0 / cruise-01
-    :direction (d1 / down
-                   :op1 (s0 / street))
-    :ARG0 (d0 / dog
-              :mod (n0 / number)))

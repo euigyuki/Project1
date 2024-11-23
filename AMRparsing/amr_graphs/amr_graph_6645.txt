@@ -1,7 +1,0 @@
-(s0 / shoot-01
-    :ARG2 (t0 / trap-01
-              :ARG2 (s1 / sand))
-    :ARG0 (p0 / person
-              :poss-of (b0 / ball)
-              :ARG0-of (g0 / golf-01))
-    :ARG1 b0)

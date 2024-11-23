@@ -1,9 +1,0 @@
-(a0 / attempt-01
-    :ARG0 (y0 / youth
-              :ARG1-of (s0 / sit-01))
-    :ARG1 (a1 / and
-              :op2 (c0 / complete-01
-                       :ARG0 y0
-                       :ARG1 (m0 / model))
-              :op1 (f0 / follow-02
-                       :ARG1 (i0 / instruct-01))))

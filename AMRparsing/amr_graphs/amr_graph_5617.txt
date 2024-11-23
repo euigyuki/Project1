@@ -1,5 +1,0 @@
-(j0 / jog
-    :manner (f0 / foot
-                :part-of (m0 / man)
-                :ARG1-of (b0 / bare-02))
-    :manner m0)

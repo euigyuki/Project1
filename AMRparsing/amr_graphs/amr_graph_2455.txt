@@ -1,8 +1,0 @@
-(a0 / and
-    :op2 (l0 / laugh-01)
-    :op1 (h0 / hold-01
-             :ARG4 (a1 / above
-                       :op1 (h1 / head
-                                :part-of (b0 / baby)))
-             :ARG1 (c0 / control-01
-                       :ARG1 (g0 / game))))

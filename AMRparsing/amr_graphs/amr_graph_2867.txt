@@ -1,7 +1,0 @@
-(h0 / hold-01
-    :time (l0 / lay-01
-              :ARG1 (b0 / baby)
-              :ARG2 (s1 / sofa
-                        :mod (b1 / brown)))
-    :ARG1 (f0 / figure
-              :mod (s0 / santa)))

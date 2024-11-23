@@ -1,9 +1,0 @@
-(s0 / sign-01
-    :beneficiary (a0 / and
-                     :op2 (f0 / fan)
-                     :op1 (p1 / person
-                              :ARG0-of (h0 / have-rel-role-91)))
-    :ARG0 (g0 / group
-              :mod (t0 / this)
-              :consist-of (p0 / person))
-    :ARG1 (b0 / book))

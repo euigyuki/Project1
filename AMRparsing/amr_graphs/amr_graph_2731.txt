@@ -1,5 +1,0 @@
-(s0 / stand-01
-    :ARG1 (d0 / dog
-              :mod (m0 / mix-01
-                       :ARG1 (c0 / chow))
-              :mod (b0 / brown)))

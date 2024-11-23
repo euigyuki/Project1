@@ -1,5 +1,0 @@
-(j0 / jump-on-bandwagon-09
-    :time (p0 / play-01
-              :ARG0 (g0 / girl
-                        :mod (l0 / little)
-                        :ARG0-of j0)))

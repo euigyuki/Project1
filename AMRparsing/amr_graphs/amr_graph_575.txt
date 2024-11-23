@@ -1,3 +1,0 @@
-(h0 / hold-01
-    :ARG1 (h1 / hand
-              :part-of (g0 / girl)))

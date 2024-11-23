@@ -1,5 +1,0 @@
-(b0 / be-located-at-91
-    :ARG1 (m0 / man
-              :ARG0-of (l0 / look-01
-                           :direction (d0 / down)
-                           :ARG1 (c0 / camera))))

@@ -1,3 +1,0 @@
-(w0 / walk-01
-    :direction (o0 / out)
-    :ARG0 (m0 / male))

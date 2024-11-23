@@ -1,6 +1,0 @@
-(p0 / play-01
-    :time (s0 / snow-01)
-    :time (n0 / near-02)
-    :ARG0 (w0 / woman
-              :mod (y0 / young)
-              :quant 3))

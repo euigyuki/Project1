@@ -1,9 +1,0 @@
-# ::snt a boy chasing a baseball .
-# ::tokens ["a", "boy", "chasing", "a", "baseball", "."]
-# ::ner_tags ["O", "O", "O", "O", "O", "O"]
-# ::ner_iob ["O", "O", "O", "O", "O", "O"]
-# ::pos_tags ["DT", "NN", "VBG", "DT", "NN", "."]
-# ::lemmas ["a", "boy", "chase", "a", "baseball", "."]
-(b0 / boy
-      :ARG0-of (c0 / chase-01
-            :ARG1 (b1 / baseball)))

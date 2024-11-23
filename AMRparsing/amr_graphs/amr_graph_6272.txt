@@ -1,7 +1,0 @@
-(a0 / and
-    :op2 (m0 / march-01
-             :ARG0 (m1 / man
-                       :quant (b0 / bunch)))
-    :op1 (p0 / play-01
-             :ARG0 m1
-             :ARG1 (t0 / trumpet)))

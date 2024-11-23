@@ -1,8 +1,0 @@
-# ::snt a person swinging on a swing
-# ::tokens ["a", "person", "swinging", "on", "a", "swing"]
-# ::ner_tags ["O", "O", "O", "O", "O", "O"]
-# ::ner_iob ["O", "O", "O", "O", "O", "O"]
-# ::pos_tags ["DT", "NN", "VBG", "IN", "DT", "NN"]
-# ::lemmas ["a", "person", "swinge", "on", "a", "swing"]
-(p0 / person
-      :ARG0-of (s0 / swing-02))

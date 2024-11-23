@@ -1,5 +1,0 @@
-(c0 / climb-01
-    :ARG0 (b0 / boy
-              :mod (l1 / little))
-    :ARG1 (s0 / staircase
-              :mod (s1 / spiral)))

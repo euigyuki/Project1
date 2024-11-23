@@ -1,9 +1,0 @@
-# ::snt a car parked at the beach .
-# ::tokens ["a", "car", "parked", "at", "the", "beach", "."]
-# ::ner_tags ["O", "O", "O", "O", "O", "O", "O"]
-# ::ner_iob ["O", "O", "O", "O", "O", "O", "O"]
-# ::pos_tags ["DT", "NN", "VBN", "IN", "DT", "NN", "."]
-# ::lemmas ["a", "car", "park", "at", "the", "beach", "."]
-(c0 / car
-      :ARG1-of (p0 / park-01
-            :ARG2 (b0 / beach)))

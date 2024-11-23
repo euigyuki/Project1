@@ -1,3 +1,0 @@
-(b0 / board-01
-    :accompanier (p0 / passenger
-                     :quant (m0 / many)))

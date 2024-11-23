@@ -1,4 +1,0 @@
-(s0 / sleep-01
-    :ARG0 (m0 / man
-              :ARG1-of (b0 / bind-01)
-              :mod (o0 / old)))

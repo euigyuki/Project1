@@ -1,7 +1,0 @@
-(c0 / crowd
-    :consist-of (p0 / person
-                    :ARG1-of (h0 / hold-01
-                                 :mod (u0 / up)
-                                 :ARG1 (a0 / and
-                                           :op2 (f0 / flier)
-                                           :op1 (s1 / sign)))))

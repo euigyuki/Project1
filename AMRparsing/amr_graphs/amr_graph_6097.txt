@@ -1,7 +1,0 @@
-(m0 / make-01
-    :ARG0 (p0 / person
-              :quant (c0 / continent
-                         :name (n0 / name
-                                   :op1 "Asia"))
-              :quant 2)
-    :ARG1 (f0 / face))

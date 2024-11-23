@@ -1,3 +1,0 @@
-(r0 / read-01
-    :ARG0 (m0 / man)
-    :ARG1 (n0 / novel))

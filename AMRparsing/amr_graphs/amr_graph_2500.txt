@@ -1,8 +1,0 @@
-# ::snt the men are climbing .
-# ::tokens ["the", "men", "are", "climbing", "."]
-# ::ner_tags ["O", "O", "O", "O", "O"]
-# ::ner_iob ["O", "O", "O", "O", "O"]
-# ::pos_tags ["DT", "NNS", "VBP", "VBG", "."]
-# ::lemmas ["the", "man", "be", "climb", "."]
-(c0 / climb-01
-      :ARG0 (m0 / man))

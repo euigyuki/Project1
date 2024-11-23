@@ -1,3 +1,0 @@
-(f0 / fall-01
-    :ARG4 (r0 / racetrack)
-    :ARG1 (m0 / man))

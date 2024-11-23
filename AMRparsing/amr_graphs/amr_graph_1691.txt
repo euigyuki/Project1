@@ -1,8 +1,0 @@
-(g0 / greet-01
-    :manner (e0 / excite-01)
-    :time (w1 / walk-01
-              :ARG0 (d0 / dog
-                        :mod (l0 / little)))
-    :ARG0 (r0 / retriever
-              :mod (g1 / golden))
-    :ARG1 (w0 / woman))

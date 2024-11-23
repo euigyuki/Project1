@@ -1,4 +1,0 @@
-(f0 / flash-01
-    :ARG0 (d0 / dog
-              :ARG1-of (b0 / black-04))
-    :ARG1 (w0 / water))

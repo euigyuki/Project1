@@ -1,6 +1,0 @@
-(d0 / dance-01
-    :ARG0 (a0 / and
-              :op2 (m0 / man)
-              :op2 (f0 / few)
-              :op1 (b0 / boy
-                       :quant (f1 / few))))

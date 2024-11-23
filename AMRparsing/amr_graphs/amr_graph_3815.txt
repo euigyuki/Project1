@@ -1,7 +1,0 @@
-(l0 / look-01
-    :destination (t0 / tent)
-    :ARG1 (a0 / and
-              :op2 (b0 / boy
-                       :quant 1)
-              :op1 (m0 / man
-                       :quant 1)))

@@ -1,6 +1,0 @@
-(w0 / walk-01
-    :ARG0 (w1 / weimaraner
-              :ARG0-of (h0 / have-03
-                           :ARG1 (t0 / tail
-                                     :ARG1-of (c0 / clip-01)))
-              :mod (m0 / male)))

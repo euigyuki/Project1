@@ -1,2 +1,0 @@
-(g0 / girl
-    :ARG1-of (m0 / move-01))

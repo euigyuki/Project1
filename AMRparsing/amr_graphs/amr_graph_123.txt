@@ -1,6 +1,0 @@
-(a0 / attempt-01
-    :ARG0 (c0 / child
-              :mod (c1 / continent
-                       :name (n0 / name
-                                 :op1 "Africa")))
-    :ARG1 (h0 / headstand))

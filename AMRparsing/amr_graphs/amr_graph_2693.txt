@@ -1,5 +1,0 @@
-(s0 / sleep-01
-    :ARG0 (g0 / girl
-              :mod (c0 / continent
-                       :name (n0 / name
-                                 :op1 "Asia"))))

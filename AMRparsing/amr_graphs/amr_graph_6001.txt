@@ -1,7 +1,0 @@
-(s0 / squat
-    :domain (m0 / man
-                :part (f0 / face)
-                :part (h0 / have-03
-                          :ARG1 (e0 / expression
-                                    :mod (f2 / fierce)
-                                    :mod (b1 / bare-02)))))

@@ -1,9 +1,0 @@
-# ::snt an outdoor festival seems to be taking place .
-# ::tokens ["an", "outdoor", "festival", "seems", "to", "be", "taking", "place", "."]
-# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
-# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
-# ::pos_tags ["DT", "JJ", "NN", "VBZ", "TO", "VB", "VBG", "NN", "."]
-# ::lemmas ["an", "outdoor", "festival", "seem", "to", "be", "take", "place", "."]
-(s0 / seem-01
-      :ARG1 (f0 / festival
-            :mod (o0 / outdoor)))

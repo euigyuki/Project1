@@ -1,4 +1,0 @@
-(s0 / smile-01
-    :ARG0 (c0 / child
-              :mod (y0 / young))
-    :time (s1 / swing))

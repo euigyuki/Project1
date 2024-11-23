@@ -1,3 +1,0 @@
-(l0 / look-01
-    :ARG0 (c0 / couple)
-    :ARG1 (d0 / downriver))

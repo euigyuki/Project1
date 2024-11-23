@@ -1,6 +1,0 @@
-(p0 / pull-01
-    :ARG0 (m0 / man)
-    :ARG2 (a0 / around)
-    :ARG1 (t0 / thing
-              :mod (s0 / some)
-              :mod (o0 / odd)))

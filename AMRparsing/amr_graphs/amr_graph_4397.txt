@@ -1,7 +1,0 @@
-(p0 / person
-    :ARG0-of (w1 / wear-01
-                 :ARG1 (a0 / and
-                           :op2 (p1 / pink-04)
-                           :op1 (r0 / red-02)))
-    :ARG1-of (w0 / walk-01
-                 :direction (d0 / down)))

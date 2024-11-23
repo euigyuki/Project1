@@ -1,5 +1,0 @@
-(h0 / hold-01
-    :ARG3 (s0 / side)
-    :ARG1 (a0 / arm
-              :part-of (c0 / child
-                           :mod (s1 / small))))

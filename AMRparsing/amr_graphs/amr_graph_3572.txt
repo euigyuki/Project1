@@ -1,5 +1,0 @@
-(t0 / toss-01
-    :ARG0 (b1 / boy
-              :poss-of (b0 / ball)
-              :mod (y0 / young))
-    :ARG1 b0)

@@ -1,4 +1,0 @@
-(g0 / get-05
-    :ARG2 (b0 / bag)
-    :ARG0 (m0 / man)
-    :ARG1 (s0 / something))

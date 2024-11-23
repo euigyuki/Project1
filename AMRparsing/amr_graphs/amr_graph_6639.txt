@@ -1,9 +1,0 @@
-# ::snt a band performing for an audience .
-# ::tokens ["a", "band", "performing", "for", "an", "audience", "."]
-# ::ner_tags ["O", "O", "O", "O", "O", "O", "O"]
-# ::ner_iob ["O", "O", "O", "O", "O", "O", "O"]
-# ::pos_tags ["DT", "NN", "VBG", "IN", "DT", "NN", "."]
-# ::lemmas ["a", "band", "perform", "for", "an", "audience", "."]
-(b0 / band
-      :ARG0-of (p0 / perform-01
-            :ARG1 (a0 / audience)))

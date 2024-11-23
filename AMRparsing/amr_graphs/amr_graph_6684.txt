@@ -1,9 +1,0 @@
-# ::snt a street with many advertisements .
-# ::tokens ["a", "street", "with", "many", "advertisements", "."]
-# ::ner_tags ["O", "O", "O", "O", "O", "O"]
-# ::ner_iob ["O", "O", "O", "O", "O", "O"]
-# ::pos_tags ["DT", "NN", "IN", "JJ", "NNS", "."]
-# ::lemmas ["a", "street", "with", "many", "advertisement", "."]
-(s0 / street
-      :ARG0-of (a0 / advertise-01
-            :quant (m0 / many)))

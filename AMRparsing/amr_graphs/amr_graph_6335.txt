@@ -1,9 +1,0 @@
-# ::snt a young girl with her bike .
-# ::tokens ["a", "young", "girl", "with", "her", "bike", "."]
-# ::ner_tags ["O", "O", "O", "O", "O", "O", "O"]
-# ::ner_iob ["O", "O", "O", "O", "O", "O", "O"]
-# ::pos_tags ["DT", "JJ", "NN", "IN", "PRP$", "NN", "."]
-# ::lemmas ["a", "young", "girl", "with", "her", "bike", "."]
-(g0 / girl
-      :poss-of (b0 / bike)
-      :mod (y0 / young))

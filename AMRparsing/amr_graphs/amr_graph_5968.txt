@@ -1,4 +1,0 @@
-(w0 / weave-01
-    :ARG2 (l0 / loom)
-    :time (w2 / watch-01
-              :ARG0 (a0 / another)))

@@ -1,6 +1,0 @@
-(g0 / group
-    :consist-of (g1 / girl
-                    :mod (y0 / young))
-    :ARG0-of (p0 / play-01
-                 :ARG1 (r0 / rope
-                           :mod (j0 / jump-on-bandwagon-09))))

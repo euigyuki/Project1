@@ -1,9 +1,0 @@
-(s0 / smile-01
-    :time (r0 / raise-01
-              :poss (w0 / woman
-                        :poss-of (f0 / fist)
-                        :ARG0-of (w1 / wear-01
-                                     :ARG1 (g0 / glass)))
-              :ARG4 (a0 / air)
-              :ARG1 f0)
-    :ARG0 w0)

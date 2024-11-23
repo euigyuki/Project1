@@ -1,5 +1,0 @@
-(t0 / try-01
-    :ARG0 (g0 / girl
-              :ARG0-of (p0 / play-11)
-              :mod (l0 / little))
-    :ARG1 p0)

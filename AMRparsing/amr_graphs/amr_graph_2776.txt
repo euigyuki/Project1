@@ -1,9 +1,0 @@
-(p0 / perform-01
-    :ARG1 (r0 / routine
-              :ARG1-of (c0 / choreographed))
-    :ARG0 (w0 / woman
-              :quant (s1 / several)
-              :part (h0 / head
-                        :ARG1-of (s0 / stretch-01))
-              :part s0
-              :mod (y0 / young)))

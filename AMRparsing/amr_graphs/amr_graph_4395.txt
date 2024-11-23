@@ -1,5 +1,0 @@
-(c0 / contrast-01
-    :ARG1 (c1 / child)
-    :ARG2 (t0 / take-01
-              :ARG0 (w0 / woman)
-              :ARG1 (p0 / picture-01)))

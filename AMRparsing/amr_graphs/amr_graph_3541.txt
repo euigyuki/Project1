@@ -1,3 +1,0 @@
-(p0 / person
-    :ARG0-of (j0 / jacket
-                 :ARG1-of (r1 / red-02)))

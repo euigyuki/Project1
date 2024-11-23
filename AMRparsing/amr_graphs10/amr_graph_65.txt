@@ -1,8 +1,0 @@
-# ::snt a man in a white shirt lays cement on a brick wall .
-(z1 / lay-01
-      :ARG0 (z2 / man
-            :prep-in (z3 / shirt
-                  :ARG1-of (z4 / white-03)))
-      :ARG1 (z5 / cement)
-      :ARG2 (z6 / wall
-            :consist-of (z7 / brick)))

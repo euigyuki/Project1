@@ -1,5 +1,0 @@
-(r0 / read-01
-    :time (s0 / sit-01
-              :ARG1 (g0 / guy))
-    :ARG0 g0
-    :ARG1 (b0 / book))

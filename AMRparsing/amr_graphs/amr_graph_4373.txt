@@ -1,3 +1,0 @@
-(s0 / scene
-    :mod (p0 / party-01
-             :mod (w0 / wed-01)))

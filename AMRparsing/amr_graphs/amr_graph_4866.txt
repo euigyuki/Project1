@@ -1,6 +1,0 @@
-(s0 / sit-01
-    :ARG1 (b0 / boy
-              :ARG0-of (h0 / have-03
-                           :ARG1 (j0 / jacket
-                                     :mod (l1 / life)))
-              :quant 5))

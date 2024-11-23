@@ -1,3 +1,0 @@
-(m0 / man
-    :ARG0-of (s0 / serve-02
-                 :ARG1 (c0 / cake)))

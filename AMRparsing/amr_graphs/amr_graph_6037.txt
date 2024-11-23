@@ -1,6 +1,0 @@
-(w0 / walk-01
-    :ARG0 (c0 / child
-              :ARG0-of (h0 / have-03
-                           :ARG1 (c1 / cape))
-              :mod (y0 / young)
-              :quant 2))

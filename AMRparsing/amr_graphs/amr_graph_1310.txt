@@ -1,3 +1,0 @@
-(d0 / drink-01
-    :ARG2 (c0 / cup)
-    :ARG0 (t0 / toddler))

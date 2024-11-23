@@ -1,4 +1,0 @@
-(w0 / walk-01
-    :ARG0 (p1 / person
-              :ARG0-of (f0 / fish-01)
-              :mod (s1 / some)))

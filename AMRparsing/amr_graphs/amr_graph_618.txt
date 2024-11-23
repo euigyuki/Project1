@@ -1,8 +1,0 @@
-(s0 / stand-01
-    :manner (n0 / number
-                :poss (b0 / boy)
-                :mod (s1 / suit
-                         :ARG1-of (w0 / wear-01
-                                      :ARG0 b0)
-                         :mod (b1 / bathing)))
-    :ARG1 b0)

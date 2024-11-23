@@ -1,6 +1,0 @@
-(j0 / jump-01
-    :ARG4 (b1 / ball)
-    :ARG1 (d0 / dog
-              :ARG1-of (b2 / black-05))
-    :ARG3 (b0 / ball
-              :part-of (h0 / hay)))

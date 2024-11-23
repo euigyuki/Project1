@@ -1,6 +1,0 @@
-(b0 / be-located-at-91
-    :ARG2 (l0 / language
-              :mod (a0 / another))
-    :ARG1 (t0 / thing
-              :quant (m0 / many)
-              :ARG0-of (p0 / post-01)))

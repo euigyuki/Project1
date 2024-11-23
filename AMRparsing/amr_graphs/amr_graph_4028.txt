@@ -1,6 +1,0 @@
-(a0 / and
-    :op2 (p0 / play-01
-             :ARG0 (c0 / child))
-    :op1 (r0 / ride-01
-             :ARG0 c0
-             :ARG1 (b0 / bike)))

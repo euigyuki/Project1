@@ -1,6 +1,0 @@
-(s0 / slip-01
-    :ARG4 (s1 / snow)
-    :time (l0 / look-01
-              :ARG0 (a0 / another))
-    :time (d0 / down)
-    :ARG1 (g0 / girl))

@@ -1,5 +1,0 @@
-(h0 / have-03
-    :ARG0 (d0 / dachshund
-              :mod (m0 / miniature)
-              :part (b0 / back))
-    :ARG1 (a0 / apron))

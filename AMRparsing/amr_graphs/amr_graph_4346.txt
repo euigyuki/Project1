@@ -1,5 +1,0 @@
-(p0 / play-01
-    :ARG0 (d1 / dog
-              :ARG1-of (c1 / color-01
-                           :ARG2 (l0 / light-06)))
-    :ARG1 (b0 / ball))

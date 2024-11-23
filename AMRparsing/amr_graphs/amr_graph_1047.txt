@@ -1,5 +1,0 @@
-(g0 / grin-01
-    :ARG0 (b0 / boy
-              :ARG0-of (g1 / go-02
-                           :ARG4 (c0 / cart))
-              :mod (l0 / little)))

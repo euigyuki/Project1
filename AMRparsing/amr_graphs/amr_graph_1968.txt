@@ -1,6 +1,0 @@
-(l0 / look-01
-    :ARG0 (g0 / girl
-              :mod (l1 / little))
-    :ARG1 (o0 / over
-              :op1 (s0 / shoulder
-                       :part-of (s1 / someone))))

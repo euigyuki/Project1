@@ -1,7 +1,0 @@
-(r0 / run-02
-    :ARG0 (g0 / girl
-              :ARG0-of (h0 / have-03
-                           :ARG1 (b1 / bathingsuit
-                                     :ARG1-of (f0 / flower)))
-              :mod (l0 / little))
-    :ARG1 (s0 / sand))

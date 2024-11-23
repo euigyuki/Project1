@@ -1,4 +1,0 @@
-(r0 / run-02
-    :ARG0 (g0 / girl
-              :mod (y0 / young)
-              :quant 2))

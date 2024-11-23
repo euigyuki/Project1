@@ -1,7 +1,0 @@
-(a0 / and
-    :op2 (s0 / smile-01
-             :ARG0 (w0 / woman
-                       :part (a1 / arm)))
-    :op1 (r0 / raise-01
-             :ARG0 w0
-             :ARG1 a1))

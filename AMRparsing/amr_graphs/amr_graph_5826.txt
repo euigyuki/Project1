@@ -1,7 +1,0 @@
-(b0 / bite-01
-    :ARG0 (d0 / dog
-              :ARG0-of (b2 / blue-collar)
-              :ARG1-of (w0 / white-02))
-    :ARG1 (c0 / cat
-              :mod (t0 / tabby
-                       :mod (o0 / orange))))

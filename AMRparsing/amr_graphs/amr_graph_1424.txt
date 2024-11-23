@@ -1,9 +1,0 @@
-# ::snt a group of children are reading .
-# ::tokens ["a", "group", "of", "children", "are", "reading", "."]
-# ::ner_tags ["O", "O", "O", "O", "O", "O", "O"]
-# ::ner_iob ["O", "O", "O", "O", "O", "O", "O"]
-# ::pos_tags ["DT", "NN", "IN", "NNS", "VBP", "VBG", "."]
-# ::lemmas ["a", "group", "of", "child", "be", "read", "."]
-(r0 / read-01
-      :ARG0 (g0 / group
-            :consist-of (c0 / child)))

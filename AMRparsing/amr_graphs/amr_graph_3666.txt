@@ -1,6 +1,0 @@
-(c0 / contrast-01
-    :ARG1 (p0 / play-01
-              :ARG1 (b1 / basketball)
-              :ARG0 (b0 / boy
-                        :mod (y0 / young)
-                        :op1-of (b2 / behind))))

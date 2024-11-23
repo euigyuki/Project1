@@ -1,5 +1,0 @@
-(h0 / happy-01
-    :degree (v0 / very)
-    :ARG1 (p0 / person
-              :ARG1-of (h2 / have-rel-role-91
-                           :ARG2 (m0 / mom))))

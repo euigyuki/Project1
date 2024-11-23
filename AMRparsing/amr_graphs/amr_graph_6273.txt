@@ -1,7 +1,0 @@
-(d0 / dance-01
-    :path (b0 / by)
-    :ARG0 (a0 / and
-              :op2 (m0 / man
-                       :quant (s1 / several))
-              :op1 (b1 / boy
-                       :mod (s0 / small))))

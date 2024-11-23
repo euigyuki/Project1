@@ -1,2 +1,0 @@
-(d0 / dock
-    :ARG1-of (b0 / busy-01))

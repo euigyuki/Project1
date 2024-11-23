@@ -1,3 +1,0 @@
-(g0 / grind-01
-    :ARG0 (m0 / man)
-    :ARG1 (i0 / image))

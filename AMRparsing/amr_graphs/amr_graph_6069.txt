@@ -1,3 +1,0 @@
-(l0 / leap-03
-    :direction (a0 / air)
-    :ARG0 (m0 / man))

@@ -1,9 +1,0 @@
-# ::snt two dogs play
-# ::tokens ["two", "dogs", "play"]
-# ::ner_tags ["CARDINAL", "O", "O"]
-# ::ner_iob ["B", "O", "O"]
-# ::pos_tags ["CD", "NNS", "VBP"]
-# ::lemmas ["two", "dog", "play"]
-(p0 / play-01
-      :ARG0 (d0 / dog
-            :quant 2 ))

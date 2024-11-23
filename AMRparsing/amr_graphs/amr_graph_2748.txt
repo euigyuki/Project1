@@ -1,3 +1,0 @@
-(s0 / stand-01
-    :time (a0 / about-to)
-    :ARG1 (w0 / woman))

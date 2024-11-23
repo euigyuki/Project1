@@ -1,9 +1,0 @@
-(a0 / and
-    :op2 (h0 / hold-01
-             :ARG1 (t0 / tool
-                       :ARG1-of (h1 / handle-01
-                                    :ARG1-of (l1 / long-03))))
-    :op1 (p0 / pontificate-01
-             :ARG1 (l0 / lip
-                       :part-of (g0 / girl
-                                    :mod (y0 / young)))))

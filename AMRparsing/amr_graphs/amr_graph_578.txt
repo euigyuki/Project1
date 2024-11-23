@@ -1,7 +1,0 @@
-(p0 / pull-01
-    :ARG0 (w0 / woman
-              :poss-of (s0 / sock)
-              :poss-of (b0 / boot
-                           :consist-of (g0 / gum)
-                           :op1-of (u0 / underneath)))
-    :ARG1 s0)

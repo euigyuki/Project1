@@ -1,6 +1,0 @@
-(l0 / look-01
-    :ARG0 (m0 / man
-              :ARG1-of (c0 / cover-02))
-    :ARG1 (i0 / inside
-              :op1 (b0 / bucket
-                       :mod (m1 / metal))))

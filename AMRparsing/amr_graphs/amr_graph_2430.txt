@@ -1,4 +1,0 @@
-(g0 / gear
-    :mod (c0 / climb-01
-             :mod (m2 / mountain)
-             :mod (m1 / mountain)))

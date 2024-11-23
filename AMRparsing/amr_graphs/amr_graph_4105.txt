@@ -1,6 +1,0 @@
-(h0 / hold-01
-    :ARG1 (c0 / cream
-              :quant (v0 / volume-quantity
-                         :unit (c1 / cup)
-                         :quant 1)
-              :consist-of (i0 / ice)))

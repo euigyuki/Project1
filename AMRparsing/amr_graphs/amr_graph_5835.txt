@@ -1,4 +1,0 @@
-(d0 / draw-01
-    :ARG0 (b1 / boy
-              :poss-of (n0 / notebook))
-    :ARG1 (b0 / box))

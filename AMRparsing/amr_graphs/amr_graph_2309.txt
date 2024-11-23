@@ -1,3 +1,0 @@
-(b0 / be-located-at-91
-    :ARG2 (r0 / roof)
-    :ARG1 (m0 / man))

@@ -1,4 +1,0 @@
-(s0 / stand-01
-    :manner (t0 / together)
-    :ARG1 (p0 / person
-              :quant (b0 / bunch)))

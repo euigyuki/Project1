@@ -1,9 +1,0 @@
-# ::snt a man in a white shirt with hot pads on is holding a tray with a variety of breads with a wooden fence behind him .
-(z1 / hold-01
-      :ARG0 (z2 / man
-            :ARG0-of (z3 / wear-01
-                  :ARG1 (z4 / shirt
-                        :ARG1-of (z5 / white-03)))
-            :ARG0-of (z6 / have-03
-                  :ARG1 (z7 / pad
-                        :ARG1-of (z8 / hot-05)))))

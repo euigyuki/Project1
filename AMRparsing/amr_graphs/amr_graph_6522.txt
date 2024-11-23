@@ -1,9 +1,0 @@
-(r0 / raise-01
-    :time (m1 / meal)
-    :ARG0 (m0 / man
-              :poss-of (w0 / wineglass)
-              :mod (o0 / other)
-              :ARG1-of (h0 / have-degree-91
-                           :ARG3 (m2 / more)
-                           :ARG2 (o2 / old)))
-    :ARG1 w0)

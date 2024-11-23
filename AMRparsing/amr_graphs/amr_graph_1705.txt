@@ -1,7 +1,0 @@
-(c0 / compete-01
-    :ARG2 (g0 / game
-              :mod (s0 / shoot-01)
-              :mod (a0 / arcade))
-    :ARG0 (m0 / man
-              :mod (y0 / young)
-              :quant 2))

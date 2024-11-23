@@ -1,6 +1,0 @@
-(a0 / and
-    :op2 (t0 / talk-01
-             :ARG0 (p0 / person
-                       :mod (y0 / young)))
-    :op1 (s0 / sit-01
-             :ARG1 p0))

@@ -1,2 +1,0 @@
-(p0 / play-01
-    :ARG0 (c0 / child))

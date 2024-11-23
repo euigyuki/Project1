@@ -1,3 +1,0 @@
-(c0 / child
-    :ARG0-of (w0 / walk-01)
-    :quant 2)

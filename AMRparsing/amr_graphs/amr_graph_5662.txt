@@ -1,4 +1,0 @@
-(r0 / relax-01
-    :ARG0 (g0 / group
-              :consist-of (p0 / person
-                              :mod (i0 / indigenous))))

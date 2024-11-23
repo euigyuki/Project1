@@ -1,7 +1,0 @@
-(s0 / sit-01
-    :ARG1 (p0 / person
-              :mod (f0 / female)
-              :ARG0-of (c0 / coach-01
-                           :ARG0 (p1 / person
-                                     :mod (m0 / male)
-                                     :part (k0 / knee)))))

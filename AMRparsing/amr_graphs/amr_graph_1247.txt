@@ -1,8 +1,0 @@
-(m0 / man
-    :ARG1-of (w0 / white-02)
-    :part (s0 / shoulder)
-    :part (h0 / have-03
-              :ARG1 (a0 / and
-                        :op2 (b0 / beard)
-                        :op1 (h1 / hair
-                                 :ARG1-of (c1 / carry-01)))))

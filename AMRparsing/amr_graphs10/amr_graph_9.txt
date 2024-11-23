@@ -1,9 +1,0 @@
-# ::snt man on scooter attracts attention from some of those in large crowd .
-(z1 / attract-01
-      :ARG0 (z2 / man
-            :prep-on (z3 / scooter))
-      :ARG1 (z4 / attend-02
-            :ARG0 (z5 / some
-                  :ARG1-of (z6 / include-91
-                        :ARG2 (z7 / crowd
-                              :mod (z8 / large))))))

@@ -1,7 +1,0 @@
-(k0 / kick-01
-    :ARG0 (b1 / boy
-              :ARG1-of (h0 / have-03
-                           :ARG1 (s1 / short-07
-                                     :mod (y0 / yellow))))
-    :ARG1 (b0 / ball
-              :mod (s0 / soccer)))

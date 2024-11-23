@@ -1,3 +1,0 @@
-(f0 / fish-01
-    :ARG0 (m1 / man
-              :quant 6))

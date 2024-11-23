@@ -1,6 +1,0 @@
-(p0 / play-01
-    :ARG0 (c0 / child
-              :mod (h0 / have-03
-                       :ARG1 (s0 / shirt
-                                 :ARG1-of (g0 / gray-02)))
-              :mod (y0 / young)))

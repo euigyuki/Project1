@@ -1,6 +1,0 @@
-(h0 / hold-01
-    :ARG2 (h1 / hand
-              :part-of (p0 / person
-                           :part (w0 / wrist))
-              :mod (o0 / other))
-    :ARG1 w0)

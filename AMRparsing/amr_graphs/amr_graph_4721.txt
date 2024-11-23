@@ -1,7 +1,0 @@
-(s0 / stand-01
-    :purpose (t0 / take-01
-                 :ARG0 (w0 / woman)
-                 :ARG1 (p0 / picture
-                           :topic (g0 / group
-                                      :consist-of (p1 / person))))
-    :ARG1 w0)

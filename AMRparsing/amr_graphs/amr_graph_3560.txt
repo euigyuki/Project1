@@ -1,9 +1,0 @@
-# ::snt the man is on the mountainside .
-# ::tokens ["the", "man", "is", "on", "the", "mountainside", "."]
-# ::ner_tags ["O", "O", "O", "O", "O", "O", "O"]
-# ::ner_iob ["O", "O", "O", "O", "O", "O", "O"]
-# ::pos_tags ["DT", "NN", "VBZ", "IN", "DT", "NN", "."]
-# ::lemmas ["the", "man", "be", "on", "the", "mountainside", "."]
-(b0 / be-located-at-91
-      :ARG2 (m1 / mountainside)
-      :ARG1 (m0 / man))

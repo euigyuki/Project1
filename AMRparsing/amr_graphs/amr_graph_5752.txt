@@ -1,5 +1,0 @@
-(h0 / hold-01
-    :purpose (b0 / blow-01
-                 :ARG1 (b2 / bubble))
-    :ARG1 (w0 / wand
-              :mod (b1 / bubble)))

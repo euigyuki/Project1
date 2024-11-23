@@ -1,9 +1,0 @@
-(c0 / contrast-01
-    :ARG2 (p0 / play-01
-              :ARG2 (w0 / water)
-              :ARG0 (o0 / other))
-    :ARG1 (t0 / talk-01
-              :ARG0 (f0 / family
-                        :mod (c1 / continent
-                                 :name (n0 / name
-                                           :op1 "Asia")))))

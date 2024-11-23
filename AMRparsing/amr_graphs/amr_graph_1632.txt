@@ -1,4 +1,0 @@
-(s0 / spray-01
-    :ARG2 (b0 / beach)
-    :ARG0 (m0 / man)
-    :ARG1 (f0 / fluid))

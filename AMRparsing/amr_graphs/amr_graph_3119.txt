@@ -1,5 +1,0 @@
-(p0 / photograph-01
-    :time (o0 / or
-              :op2 (s0 / ski-01
-                       :ARG0 (p1 / person))
-              :op1 (c0 / climb-01)))

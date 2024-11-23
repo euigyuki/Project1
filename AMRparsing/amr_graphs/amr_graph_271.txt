@@ -1,9 +1,0 @@
-(c0 / contrast-01
-    :ARG1 (l0 / look-01
-              :accompanier (f0 / fist
-                               :ARG1-of (l1 / lean-01))
-              :ARG0 (b1 / boy
-                        :part (h0 / head)
-                        :mod (y0 / young))
-              :ARG1 (b0 / board
-                        :mod (c1 / checker))))

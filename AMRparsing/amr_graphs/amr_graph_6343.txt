@@ -1,7 +1,0 @@
-(s0 / swim-01
-    :ARG2 (s1 / swing)
-    :ARG1 (b0 / back
-              :poss (g0 / girl
-                        :quant 2)
-              :part-of (c0 / camera))
-    :ARG0 g0)

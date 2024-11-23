@@ -1,9 +1,0 @@
-(r0 / run-02
-    :ARG0 (a0 / and
-              :op2 (d1 / dog
-                       :ARG1-of (w0 / white-02)
-                       :mod (h0 / have-degree-91
-                                :ARG3 (m0 / more)
-                                :ARG2 (l0 / large)))
-              :op1 (d0 / dog
-                       :ARG1-of (t0 / tan))))

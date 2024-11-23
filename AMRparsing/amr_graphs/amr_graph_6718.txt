@@ -1,5 +1,0 @@
-(w0 / walk-01
-    :ARG0 (p0 / person
-              :ARG0-of (h0 / have-03
-                           :ARG1 (u0 / umbrella
-                                     :ARG1-of (r0 / red-02)))))

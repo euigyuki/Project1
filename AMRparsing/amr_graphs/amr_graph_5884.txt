@@ -1,4 +1,0 @@
-(r0 / run-02
-    :ARG0 (a0 / and
-              :op2 (d0 / dog)
-              :op1 (b0 / boy)))

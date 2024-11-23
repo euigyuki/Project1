@@ -1,9 +1,0 @@
-# ::snt a black dog swimming .
-# ::tokens ["a", "black", "dog", "swimming", "."]
-# ::ner_tags ["O", "O", "O", "O", "O"]
-# ::ner_iob ["O", "O", "O", "O", "O"]
-# ::pos_tags ["DT", "JJ", "NN", "NN", "."]
-# ::lemmas ["a", "black", "dog", "swimming", "."]
-(s0 / swim-01
-      :ARG0 (d0 / dog
-            :ARG1-of (b0 / black-04)))

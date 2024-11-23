@@ -1,4 +1,0 @@
-(m0 / man
-    :ARG0-of (s1 / shoe-01
-                 :polarity -)
-    :ARG1-of (s0 / sit-01))

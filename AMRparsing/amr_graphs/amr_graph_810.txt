@@ -1,4 +1,0 @@
-(s0 / swim-01
-    :accompanier (t0 / turtle)
-    :ARG0 (p0 / person
-              :ARG0-of (d0 / dive-01)))

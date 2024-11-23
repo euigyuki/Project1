@@ -1,4 +1,0 @@
-(t0 / talk-01
-    :ARG0 (p0 / person
-              :ARG0-of (h0 / have-rel-role-91
-                           :ARG2 (c0 / child))))

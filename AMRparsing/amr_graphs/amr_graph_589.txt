@@ -1,4 +1,0 @@
-(o0 / observe-01
-    :ARG0 (g0 / group
-              :consist-of (p0 / person))
-    :ARG1 (f0 / fish))

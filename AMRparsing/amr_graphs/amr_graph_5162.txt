@@ -1,2 +1,0 @@
-(c0 / cruise-01
-    :ARG0 (d0 / dog))

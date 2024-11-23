@@ -1,5 +1,0 @@
-(h0 / hold-01
-    :time (l0 / look-01
-              :direction (w0 / window)
-              :ARG1 (s0 / street))
-    :ARG1 (g0 / guitar))

@@ -1,5 +1,0 @@
-(s0 / sit-01
-    :direction (o0 / over
-                   :op1 (b0 / body
-                            :mod (w0 / water)))
-    :ARG1 (d0 / dog))
