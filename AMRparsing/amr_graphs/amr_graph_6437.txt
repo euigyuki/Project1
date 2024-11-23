@@ -1,0 +1,13 @@
+# ::snt four boys hold toy guns while under a pavillion .
+# ::tokens ["four", "boys", "hold", "toy", "guns", "while", "under", "a", "pavillion", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "VBP", "NN", "NNS", "IN", "IN", "DT", "NN", "."]
+# ::lemmas ["four", "boy", "hold", "toy", "gun", "while", "under", "a", "pavillion", "."]
+(h0 / hold-01
+      :time (u0 / under
+            :op1 (p0 / pavillion))
+      :ARG0 (b0 / boy
+            :quant 4 )
+      :ARG1 (g0 / gun
+            :mod (t0 / toy)))

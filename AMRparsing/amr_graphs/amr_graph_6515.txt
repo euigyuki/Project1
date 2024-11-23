@@ -1,0 +1,10 @@
+# ::snt the children are getting off the bus .
+# ::tokens ["the", "children", "are", "getting", "off", "the", "bus", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NNS", "VBP", "VBG", "IN", "DT", "NN", "."]
+# ::lemmas ["the", "child", "be", "get", "off", "the", "bus", "."]
+(g0 / get-05
+      :ARG2 (o0 / off
+            :op1 (b0 / bus))
+      :ARG1 (c0 / child))

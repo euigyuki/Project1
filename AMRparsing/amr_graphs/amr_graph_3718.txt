@@ -1,0 +1,6 @@
+(p0 / person
+    :ARG0-of (l0 / look-01
+                 :direction (v0 / veil
+                                :ARG1-of (w0 / white-03))
+                 :direction (d0 / down))
+    :ARG1-of (h0 / have-rel-role-91))

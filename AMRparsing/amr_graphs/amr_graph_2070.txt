@@ -1,0 +1,13 @@
+# ::snt a girl with a red helmet carying a lot of rope .
+# ::tokens ["a", "girl", "with", "a", "red", "helmet", "carying", "a", "lot", "of", "rope", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "DT", "JJ", "NN", "NN", "DT", "NN", "IN", "NN", "."]
+# ::lemmas ["a", "girl", "with", "a", "red", "helmet", "carying", "a", "lot", "of", "rope", "."]
+(p0 / play-11
+      :ARG0 (g0 / girl
+            :ARG0-of (h0 / have-03
+                  :ARG1 (h1 / helmet
+                        :ARG1-of (r1 / red-02))))
+      :ARG1 (r0 / rope
+            :quant (l0 / lot)))

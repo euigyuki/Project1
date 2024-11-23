@@ -1,0 +1,4 @@
+(e0 / examine-01
+    :ARG0 (g0 / girl
+              :poss-of (b0 / bike)
+              :mod (y0 / young)))

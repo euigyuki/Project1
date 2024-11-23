@@ -1,0 +1,17 @@
+# ::snt a group of construction workers wearing orange vests are working on a train station area .
+# ::tokens ["a", "group", "of", "construction", "workers", "wearing", "orange", "vests", "are", "working", "on", "a", "train", "station", "area", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "NN", "NNS", "VBG", "JJ", "NNS", "VBP", "VBG", "IN", "DT", "NN", "NN", "NN", "."]
+# ::lemmas ["a", "group", "of", "construction", "worker", "wear", "orange", "vest", "be", "work", "on", "a", "train", "station", "area", "."]
+(w0 / work-01
+      :ARG0 (g0 / group
+            :consist-of (p0 / person
+                  :ARG0-of (w2 / wear-01
+                        :ARG1 (v0 / vest
+                              :mod (o0 / orange)))
+                  :ARG1-of (w1 / work-01
+                        :ARG1 (c0 / construct-01))))
+      :ARG1 (a0 / area
+            :mod (s0 / station
+                  :mod (t0 / train))))

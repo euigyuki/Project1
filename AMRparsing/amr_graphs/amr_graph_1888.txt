@@ -1,0 +1,13 @@
+# ::snt a bearded man in a red shirt playing guitar on a stage .
+# ::tokens ["a", "bearded", "man", "in", "a", "red", "shirt", "playing", "guitar", "on", "a", "stage", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "IN", "DT", "JJ", "NN", "VBG", "NN", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "bearded", "man", "in", "a", "red", "shirt", "play", "guitar", "on", "a", "stage", "."]
+(m0 / man
+      :part (s0 / stage)
+      :ARG0-of (h0 / have-03
+            :ARG1 (s1 / shirt
+                  :ARG1-of (r0 / red-02)))
+      :ARG1-of (p0 / play-01
+            :ARG1 (g0 / guitar)))

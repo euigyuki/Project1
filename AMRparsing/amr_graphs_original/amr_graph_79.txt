@@ -1,0 +1,15 @@
+# ::snt a man in a red shirt and glasses is bending down towards a small dog on a blanket with several stuffed animals .
+(z1 / bend-01
+      :ARG0 (z2 / man
+            :ARG0-of (z3 / wear-01
+                  :ARG1 (z4 / and
+                        :op1 (z5 / shirt
+                              :ARG1-of (z6 / red-02))
+                        :op2 (z7 / glasses))))
+      :ARG2 (z8 / dog
+            :mod (z9 / small)
+            :prep-on (z10 / blanket
+                  :accompanier (z11 / animal
+                        :ARG1-of (z12 / stuff-01)
+                        :quant (z13 / several))))
+      :direction (z14 / down))

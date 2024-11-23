@@ -1,0 +1,17 @@
+# ::snt two ladies on a sidewalk in a town and one is checking her camera .
+# ::tokens ["two", "ladies", "on", "a", "sidewalk", "in", "a", "town", "and", "one", "is", "checking", "her", "camera", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "IN", "DT", "NN", "IN", "DT", "NN", "CC", "CD", "VBZ", "VBG", "PRP$", "NN", "."]
+# ::lemmas ["two", "lady", "on", "a", "sidewalk", "in", "a", "town", "and", "one", "be", "check", "her", "camera", "."]
+(a0 / and
+      :op2 (c0 / check-01
+            :ARG0 (p0 / person
+                  :poss-of (c1 / camera)
+                  :quant 1 )
+            :ARG1 c1)
+      :op1 (b0 / be-located-at-91
+            :ARG2 (s0 / sidewalk
+                  :location (t0 / town))
+            :ARG1 (l0 / lady
+                  :quant 2 )))

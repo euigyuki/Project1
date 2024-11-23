@@ -1,0 +1,2 @@
+(w0 / woman
+    :ARG0-of (d0 / dress))

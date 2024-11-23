@@ -1,0 +1,4 @@
+(t0 / type-01
+    :ARG0 (m0 / man
+              :poss-of (c0 / computer
+                           :mod (l0 / laptop))))

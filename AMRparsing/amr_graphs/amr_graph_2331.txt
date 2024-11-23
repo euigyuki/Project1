@@ -1,0 +1,10 @@
+(l0 / land-01
+    :time (a1 / after
+              :op1 (p0 / pilot-01
+                       :ARG0 m0
+                       :ARG1 (s0 / show-04
+                                 :mod (a3 / angel
+                                          :mod (b0 / blue))
+                                 :ARG3 (a2 / air))))
+    :time (a0 / about-to)
+    :ARG1 (m0 / man))

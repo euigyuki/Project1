@@ -1,0 +1,7 @@
+(e0 / examine-01
+    :time (n0 / near-02
+              :ARG2 (m1 / man
+                        :ARG0-of (c0 / carry-01))
+              :ARG2 (p0 / pole
+                        :mod (u0 / utility)))
+    :ARG0 m1)

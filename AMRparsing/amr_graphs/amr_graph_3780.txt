@@ -1,0 +1,10 @@
+# ::snt a baby puffs up its cheeks .
+# ::tokens ["a", "baby", "puffs", "up", "its", "cheeks", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "RP", "PRP$", "NNS", "."]
+# ::lemmas ["a", "baby", "puff", "up", "its", "cheek", "."]
+(w0 / whip-up-03
+      :ARG1 (c0 / cheek
+            :part-of (b0 / baby))
+      :ARG0 b0)

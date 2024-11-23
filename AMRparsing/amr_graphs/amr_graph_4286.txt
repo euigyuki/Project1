@@ -1,0 +1,13 @@
+(p0 / play-01
+    :ARG0 (b0 / boy
+              :ARG0-of (w0 / wear-01
+                           :ARG1 (a0 / and
+                                     :op2 (p1 / pant
+                                              :mod (b3 / blue)
+                                              :mod (b2 / blue))
+                                     :op1 (s0 / shirt
+                                              :ARG1-of (g0 / green-02))))
+              :mod (y0 / young))
+    :ARG1 (t0 / train
+              :mod (t2 / toy)
+              :mod (b1 / blue)))

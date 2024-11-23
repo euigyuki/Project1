@@ -1,0 +1,4 @@
+(j0 / jump-on-bandwagon-09
+    :ARG0 (m0 / man
+              :op1-of (b0 / behind)
+              :ARG0-of (w1 / wear-01)))

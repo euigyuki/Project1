@@ -1,0 +1,14 @@
+# ::snt a man wearing a black shirt with glasses slicing a tomato .
+# ::tokens ["a", "man", "wearing", "a", "black", "shirt", "with", "glasses", "slicing", "a", "tomato", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBG", "DT", "JJ", "NN", "IN", "NNS", "VBG", "DT", "NN", "."]
+# ::lemmas ["a", "man", "wear", "a", "black", "shirt", "with", "glass", "slice", "a", "tomato", "."]
+(m0 / man
+      :ARG0-of (h0 / have-03
+            :ARG1 (g0 / glass
+                  :ARG0-of (s1 / slice-01
+                        :ARG1 (t0 / tomato))))
+      :ARG1-of (w0 / wear-01
+            :ARG1 (s0 / shirt
+                  :ARG1-of (b0 / black-04))))

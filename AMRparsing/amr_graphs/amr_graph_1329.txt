@@ -1,0 +1,4 @@
+(w0 / walk-01
+    :instrument (s0 / swim-01
+                    :mod (b0 / blue))
+    :ARG0 (m0 / man))

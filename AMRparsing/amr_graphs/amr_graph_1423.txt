@@ -1,0 +1,11 @@
+# ::snt children are reading and writing .
+# ::tokens ["children", "are", "reading", "and", "writing", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["NNS", "VBP", "VBG", "CC", "VBG", "."]
+# ::lemmas ["child", "be", "read", "and", "write", "."]
+(a0 / and
+      :op2 (w0 / write-01
+            :ARG0 c0)
+      :op1 (r0 / read-01
+            :ARG0 (c0 / child)))

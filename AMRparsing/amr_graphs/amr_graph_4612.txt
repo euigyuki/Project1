@@ -1,0 +1,10 @@
+(w0 / walk-01
+    :manner (s0 / spread-02
+                :ARG1 (a0 / arm
+                          :poss b0))
+    :ARG0 (b0 / boy
+              :ARG0-of (h0 / have-03
+                           :ARG1 (h1 / hair
+                                     :ARG1-of (l0 / long-03)
+                                     :mod (c0 / curly)))
+              :mod (y0 / young)))

@@ -1,0 +1,16 @@
+# ::snt a construction crew in safety vests are renovating a sidewalk near railroad tracks .
+# ::tokens ["a", "construction", "crew", "in", "safety", "vests", "are", "renovating", "a", "sidewalk", "near", "railroad", "tracks", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "NN", "IN", "NN", "NNS", "VBP", "VBG", "DT", "NN", "IN", "NN", "NNS", "."]
+# ::lemmas ["a", "construction", "crew", "in", "safety", "vest", "be", "renovate", "a", "sidewalk", "near", "railroad", "track", "."]
+(r0 / renovate-01
+      :ARG0 (c0 / crew
+            :ARG0-of (c1 / construct-01)
+            :mod (h0 / have-03
+                  :ARG1 (v0 / vest
+                        :purpose (s1 / safe-01))))
+      :ARG1 (s0 / sidewalk
+            :ARG1-of (n0 / near-02
+                  :ARG2 (t0 / track
+                        :mod (r1 / railroad)))))

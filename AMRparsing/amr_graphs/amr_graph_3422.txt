@@ -1,0 +1,16 @@
+# ::snt two girls wearing white are reading a paper and singing into a microphone .
+# ::tokens ["two", "girls", "wearing", "white", "are", "reading", "a", "paper", "and", "singing", "into", "a", "microphone", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "VBG", "NN", "VBP", "VBG", "DT", "NN", "CC", "VBG", "IN", "DT", "NN", "."]
+# ::lemmas ["two", "girl", "wear", "white", "be", "read", "a", "paper", "and", "singe", "into", "a", "microphone", "."]
+(a0 / and
+      :op2 (s0 / sing-01
+            :ARG2 (m0 / microphone)
+            :ARG0 g0)
+      :op1 (r0 / read-01
+            :ARG0 (g0 / girl
+                  :ARG0-of (w0 / wear-01
+                        :ARG1 (w1 / white-03))
+                  :quant 2 )
+            :ARG1 (p0 / paper)))

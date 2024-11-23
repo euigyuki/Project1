@@ -1,0 +1,9 @@
+(a0 / and
+    :op2 (l0 / look-01
+             :ARG1 (i0 / inside)
+             :ARG0 (l1 / lady
+                       :ARG0-of (w0 / wear-01
+                                    :ARG1 (j0 / jacket
+                                              :ARG1-of (w1 / white-03)))))
+    :op1 (s0 / stand-01
+             :ARG1 l1))

@@ -1,0 +1,11 @@
+# ::snt a group of people making paper lanterns .
+# ::tokens ["a", "group", "of", "people", "making", "paper", "lanterns", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "NNS", "VBG", "NN", "NNS", "."]
+# ::lemmas ["a", "group", "of", "people", "make", "paper", "lantern", "."]
+(g0 / group
+      :consist-of (p0 / person
+            :ARG0-of (m0 / make-01
+                  :ARG1 (l0 / lantern
+                        :mod (p1 / paper)))))

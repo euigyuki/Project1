@@ -1,0 +1,10 @@
+# ::snt some people are making pastries .
+# ::tokens ["some", "people", "are", "making", "pastries", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NNS", "VBP", "VBG", "NNS", "."]
+# ::lemmas ["some", "people", "be", "make", "pastry", "."]
+(m0 / make-01
+      :ARG0 (p1 / person
+            :mod (s0 / some))
+      :ARG1 (p0 / pastry))

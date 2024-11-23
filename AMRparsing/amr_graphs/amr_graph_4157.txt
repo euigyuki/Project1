@@ -1,0 +1,12 @@
+(a0 / and
+    :op2 (t0 / talk-01
+             :ARG0 (p0 / person
+                       :ARG0-of (w0 / wear-01
+                                    :ARG1 (u0 / uniform
+                                              :ARG1-of (b0 / bright-02)
+                                              :mod (y0 / yellow)))
+                       :quant (h0 / have-org-role-91
+                                  :ARG1 (p1 / police))
+                       :quant 2))
+    :op1 (s0 / stand-01
+             :ARG1 p0))

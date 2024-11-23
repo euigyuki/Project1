@@ -1,0 +1,11 @@
+(s0 / swing-02
+    :time (r0 / run-02
+              :ARG2 (w0 / woman
+                        :op1-of (b0 / behind))
+              :ARG0 (p0 / person
+                        :ARG0-of (p1 / play-11
+                                     :ARG2 (u0 / uniform)
+                                     :ARG1 (b1 / baseball))))
+    :ARG2 (d0 / dog)
+    :ARG0 w0
+    :ARG1 (f0 / frisbee))

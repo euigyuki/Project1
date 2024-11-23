@@ -1,0 +1,6 @@
+(i0 / inflate-01
+    :ARG0 (l0 / lady
+              :ARG1-of (s0 / sit-01))
+    :ARG1 (t0 / toy
+              :poss (c0 / child)
+              :poss (h0 / hulk)))

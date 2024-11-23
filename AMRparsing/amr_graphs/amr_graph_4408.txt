@@ -1,0 +1,16 @@
+# ::snt two girls trying to get to the bus station to go home .
+# ::tokens ["two", "girls", "trying", "to", "get", "to", "the", "bus", "station", "to", "go", "home", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "VBG", "TO", "VB", "IN", "DT", "NN", "NN", "TO", "VB", "RB", "."]
+# ::lemmas ["two", "girl", "try", "to", "get", "to", "the", "bus", "station", "to", "go", "home", "."]
+(t0 / try-01
+      :ARG0 (g1 / girl
+            :ARG1-of (g0 / get-05
+                  :purpose (g2 / go-02
+                        :ARG1 g1
+                        :ARG4 (h0 / home))
+                  :ARG2 (s0 / station
+                        :mod (b0 / bus)))
+            :quant 2 )
+      :ARG1 g0)

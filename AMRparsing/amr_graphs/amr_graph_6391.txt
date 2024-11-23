@@ -1,0 +1,12 @@
+(t0 / type-01
+    :ARG0 (m0 / man
+              :poss-of (m1 / macbook)
+              :ARG0-of (h0 / have-03
+                           :ARG1 (g0 / glass))
+              :ARG1-of (s0 / shirt
+                           :ARG1-of (w1 / white-03)))
+    :ARG1 (i0 / in-front-of
+              :op1 (a0 / advertise-01
+                       :accompanier (w0 / woman
+                                        :ARG0-of (a1 / attract-01))
+                       :ARG1 (f0 / fashion))))

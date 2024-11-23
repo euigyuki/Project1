@@ -1,0 +1,8 @@
+(a0 / and
+    :op2 (l0 / look-01
+             :direction (u0 / up)
+             :direction (s1 / sky)
+             :ARG0 (w0 / woman
+                       :quant 3))
+    :op1 (s0 / stumble-01
+             :ARG0 w0))

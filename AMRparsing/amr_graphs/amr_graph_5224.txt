@@ -1,0 +1,12 @@
+# ::snt a little girl hula hoops with multiple colorful hoops .
+# ::tokens ["a", "little", "girl", "hula", "hoops", "with", "multiple", "colorful", "hoops", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "VBN", "NNS", "IN", "JJ", "JJ", "NNS", "."]
+# ::lemmas ["a", "little", "girl", "hula", "hoop", "with", "multiple", "colorful", "hoop", "."]
+(h0 / have-03
+      :ARG0 (g0 / girl
+            :mod (l0 / little))
+      :ARG1 (h1 / hoop
+            :quant (m0 / multiple)
+            :mod (c0 / colorful)))

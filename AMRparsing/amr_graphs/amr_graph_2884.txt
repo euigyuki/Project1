@@ -1,0 +1,4 @@
+(o0 / open-01
+    :ARG0 (w0 / woman
+              :poss-of (d0 / dog))
+    :ARG1 (s0 / something))

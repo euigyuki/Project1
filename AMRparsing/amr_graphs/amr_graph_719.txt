@@ -1,0 +1,10 @@
+# ::snt a woman is drinking from a green straw .
+# ::tokens ["a", "woman", "is", "drinking", "from", "a", "green", "straw", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "VBG", "IN", "DT", "JJ", "NN", "."]
+# ::lemmas ["a", "woman", "be", "drink", "from", "a", "green", "straw", "."]
+(d0 / drink-01
+      :ARG2 (s0 / straw
+            :ARG1-of (g0 / green-02))
+      :ARG0 (w0 / woman))

@@ -1,0 +1,15 @@
+# ::snt a young man holds up a piece of wood and a chainsaw as presses a cigarette between his lips .
+(z1 / hold-01
+      :ARG0 (z2 / man
+            :mod (z3 / young))
+      :ARG1 (z4 / and
+            :op1 (z5 / piece
+                  :consist-of (z6 / wood))
+            :op2 (z7 / chainsaw))
+      :time (z8 / press-01
+            :ARG0 z2
+            :ARG1 (z9 / cigarette)
+            :ARG2 (z10 / between
+                  :op1 (z11 / lip
+                        :part-of z2)
+                  :op2 (z12 / cigarette))))

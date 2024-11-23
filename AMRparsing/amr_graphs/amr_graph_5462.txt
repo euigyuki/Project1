@@ -1,0 +1,9 @@
+(a0 / and
+    :op2 (c0 / carry-01
+             :direction (w0 / water)
+             :ARG0 (m0 / man
+                       :quant 1)
+             :ARG1 (s0 / surfboard))
+    :op1 (g0 / gather-03
+             :ARG1 (g1 / group
+                       :consist-of (p0 / person))))

@@ -1,0 +1,5 @@
+(s0 / smile-01
+    :time (r0 / ride-01
+              :ARG0 (g0 / girl)
+              :ARG1 (b0 / back))
+    :ARG0 g0)

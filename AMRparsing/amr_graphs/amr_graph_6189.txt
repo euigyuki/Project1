@@ -1,0 +1,14 @@
+# ::snt a toddler in a blue bandanna playing with a set of rings on a stick .
+# ::tokens ["a", "toddler", "in", "a", "blue", "bandanna", "playing", "with", "a", "set", "of", "rings", "on", "a", "stick", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "DT", "JJ", "NN", "VBG", "IN", "DT", "NN", "IN", "NNS", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "toddler", "in", "a", "blue", "bandanna", "play", "with", "a", "set", "of", "ring", "on", "a", "stick", "."]
+(p0 / play-01
+      :instrument (s0 / set
+            :consist-of (s1 / stick)
+            :consist-of (r0 / ring))
+      :ARG0 (t0 / toddler
+            :ARG0-of (h0 / have-03
+                  :ARG1 (b0 / bandanna
+                        :mod (b1 / blue)))))

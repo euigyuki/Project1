@@ -1,0 +1,10 @@
+# ::snt a group of people waiting for the bus .
+# ::tokens ["a", "group", "of", "people", "waiting", "for", "the", "bus", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "NNS", "VBG", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "group", "of", "people", "wait", "for", "the", "bus", "."]
+(g0 / group
+      :consist-of (w0 / wait-01
+            :ARG2 (b0 / bus))
+      :consist-of (p0 / person))

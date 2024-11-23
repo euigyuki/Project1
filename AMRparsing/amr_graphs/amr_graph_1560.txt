@@ -1,0 +1,10 @@
+# ::snt a mailman delivering the days mail .
+# ::tokens ["a", "mailman", "delivering", "the", "days", "mail", "."]
+# ::ner_tags ["O", "O", "O", "O", "DATE", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "B", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBG", "DT", "NNS", "NN", "."]
+# ::lemmas ["a", "mailman", "deliver", "the", "days", "mail", "."]
+(d0 / deliver-01
+      :ARG1 (m1 / mail-01
+            :time (d1 / day))
+      :ARG0 (m0 / mailman))

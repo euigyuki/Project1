@@ -1,0 +1,11 @@
+# ::snt people dressed in yellow vests doing work .
+# ::tokens ["people", "dressed", "in", "yellow", "vests", "doing", "work", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["NNS", "VBN", "IN", "JJ", "NNS", "VBG", "NN", "."]
+# ::lemmas ["people", "dress", "in", "yellow", "vest", "do", "work", "."]
+(p0 / person
+      :ARG1-of (d0 / dress-01
+            :ARG2 (v0 / vest
+                  :mod (y0 / yellow))
+            :ARG1 (w0 / work-01)))

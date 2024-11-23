@@ -1,0 +1,12 @@
+# ::snt a man is welding without the proper safety equipment on .
+# ::tokens ["a", "man", "is", "welding", "without", "the", "proper", "safety", "equipment", "on", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "VBG", "IN", "DT", "JJ", "NN", "NN", "RP", "."]
+# ::lemmas ["a", "man", "be", "weld", "without", "the", "proper", "safety", "equipment", "on", "."]
+(w0 / work-07
+      :manner (e0 / equipment
+            :polarity - 
+            :ARG0-of (s0 / safe-01)
+            :mod (p0 / proper))
+      :ARG0 (m0 / man))

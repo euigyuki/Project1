@@ -1,0 +1,7 @@
+(a0 / and
+    :op2 (c0 / cast-01
+             :ARG1 (s1 / shadow)
+             :ARG0 (d0 / dog
+                       :quant 3))
+    :op1 (w0 / walk-01
+             :ARG0 d0))

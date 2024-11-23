@@ -1,0 +1,5 @@
+(w0 / wear-01
+    :ARG0 (g0 / girl)
+    :ARG1 (a0 / and
+              :op2 (p0 / purse)
+              :op1 (b0 / backpack)))

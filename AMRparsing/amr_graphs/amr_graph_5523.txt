@@ -1,0 +1,16 @@
+# ::snt a red-haired woman in a pink shirt attempts to descend a tree .
+# ::tokens ["a", "red", "-", "haired", "woman", "in", "a", "pink", "shirt", "attempts", "to", "descend", "a", "tree", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "HYPH", "JJ", "NN", "IN", "DT", "JJ", "NN", "NNS", "TO", "VB", "DT", "NN", "."]
+# ::lemmas ["a", "red", "-", "haired", "woman", "in", "a", "pink", "shirt", "attempt", "to", "descend", "a", "tree", "."]
+(a0 / attempt-01
+      :ARG0 (w0 / woman
+            :ARG0-of (d0 / descend-01
+                  :ARG1 (t0 / tree))
+            :ARG0-of (h0 / have-03
+                  :ARG1 (s1 / shirt
+                        :ARG1-of (p0 / pink-04)))
+            :part (s0 / shirt
+                  :ARG1-of (r0 / red-02)))
+      :ARG1 d0)

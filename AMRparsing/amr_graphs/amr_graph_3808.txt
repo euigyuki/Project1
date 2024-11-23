@@ -1,0 +1,13 @@
+# ::snt a woman and a dog rowing down a wide river .
+# ::tokens ["a", "woman", "and", "a", "dog", "rowing", "down", "a", "wide", "river", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "CC", "DT", "NN", "VBG", "RP", "DT", "JJ", "NN", "."]
+# ::lemmas ["a", "woman", "and", "a", "dog", "row", "down", "a", "wide", "river", "."]
+(j0 / journey-01
+      :direction (d0 / down
+            :op1 (r0 / river
+                  :ARG1-of (w1 / wide-02)))
+      :ARG0 (a0 / and
+            :op2 (d1 / dog)
+            :op1 (w0 / woman)))

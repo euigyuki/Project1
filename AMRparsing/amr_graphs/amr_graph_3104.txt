@@ -1,0 +1,15 @@
+# ::snt view of a passenger train through some leafless tree limbs .
+# ::tokens ["view", "of", "a", "passenger", "train", "through", "some", "leafless", "tree", "limbs", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["NN", "IN", "DT", "NN", "NN", "IN", "DT", "JJ", "NN", "NNS", "."]
+# ::lemmas ["view", "of", "a", "passenger", "train", "through", "some", "leafless", "tree", "limb", "."]
+(v0 / view-01
+      :path (t1 / through
+            :op1 (l0 / limb
+                  :ARG0-of (h0 / have-03
+                        :polarity - )
+                  :ARG1-of (s0 / some)
+                  :mod (t2 / tree)))
+      :ARG1 (t0 / train
+            :mod (p0 / passenger)))

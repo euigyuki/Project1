@@ -1,0 +1,9 @@
+(o0 / open-01
+    :ARG0 (g0 / girl
+              :part (f0 / foot)
+              :part (b0 / beautiful-02)
+              :ARG1-of (h0 / have-03
+                           :ARG1 (d0 / dog
+                                     :quant 2)))
+    :ARG1 (p0 / present
+              :mod (c0 / christmas)))

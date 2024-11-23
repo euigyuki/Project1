@@ -1,0 +1,11 @@
+# ::snt a young girl running down a street .
+# ::tokens ["a", "young", "girl", "running", "down", "a", "street", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "VBG", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "young", "girl", "run", "down", "a", "street", "."]
+(r0 / run-02
+      :direction (d0 / down
+            :op1 (s0 / street))
+      :ARG0 (g0 / girl
+            :mod (y0 / young)))

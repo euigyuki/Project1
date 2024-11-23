@@ -1,0 +1,20 @@
+# ::snt a gray train with purple and blue stripes moves down a rusty track through trees .
+# ::tokens ["a", "gray", "train", "with", "purple", "and", "blue", "stripes", "moves", "down", "a", "rusty", "track", "through", "trees", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "IN", "JJ", "CC", "JJ", "NNS", "VBZ", "RP", "DT", "JJ", "NN", "IN", "NNS", "."]
+# ::lemmas ["a", "gray", "train", "with", "purple", "and", "blue", "stripe", "move", "down", "a", "rusty", "track", "through", "tree", "."]
+(m0 / move-01
+      :ARG2 (d0 / down)
+      :ARG0 (t1 / train
+            :ARG0-of (h0 / have-03
+                  :ARG1 (a0 / and
+                        :op2 (s1 / stripe)
+                        :op1 (s0 / stripe
+                              :ARG1-of (p0 / purple-02)
+                              :op1 (s2 / stripe
+                                    :mod (b0 / blue)))))
+            :ARG1-of (g0 / gray-02))
+      :ARG1 (t0 / track
+            :direction (t2 / tree)
+            :ARG1-of (r0 / rust-01)))

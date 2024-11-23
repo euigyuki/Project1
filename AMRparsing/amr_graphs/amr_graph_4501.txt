@@ -1,0 +1,7 @@
+(s0 / start-01
+    :accompanier (w0 / watch-01)
+    :time (a0 / about-to)
+    :ARG0 (g1 / group
+              :consist-of (p0 / person
+                              :ARG0-of (p1 / play-01))
+              :mod (l0 / large)))

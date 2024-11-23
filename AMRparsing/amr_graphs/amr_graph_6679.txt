@@ -1,0 +1,11 @@
+# ::snt a woman is working at a food stand in the city .
+# ::tokens ["a", "woman", "is", "working", "at", "a", "food", "stand", "in", "the", "city", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "VBG", "IN", "DT", "NN", "NN", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "woman", "be", "work", "at", "a", "food", "stand", "in", "the", "city", "."]
+(w0 / work-01
+      :ARG2 (s0 / stand
+            :mod (f0 / food)
+            :mod (c0 / city))
+      :ARG0 (w1 / woman))

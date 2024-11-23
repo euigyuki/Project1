@@ -1,0 +1,11 @@
+# ::snt orange suv drive by the shore .
+# ::tokens ["orange", "suv", "drive", "by", "the", "shore", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["NNP", "NNP", "NN", "IN", "DT", "NN", "."]
+# ::lemmas ["orange", "suv", "drive", "by", "the", "shore", "."]
+(d0 / drive-01
+      :ARG0 (t0 / team
+            :name (n0 / name
+                  :op1 "Cobra" ))
+      :ARG1 (s0 / shore))

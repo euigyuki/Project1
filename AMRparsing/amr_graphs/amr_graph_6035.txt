@@ -1,0 +1,2 @@
+(r0 / race-02
+    :ARG0 (g0 / greyhound))

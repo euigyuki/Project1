@@ -1,0 +1,18 @@
+# ::snt the barefoot man in shorts and a green and white top , is running through a park .
+# ::tokens ["the", "barefoot", "man", "in", "shorts", "and", "a", "green", "and", "white", "top", ",", "is", "running", "through", "a", "park", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "IN", "NNS", "CC", "DT", "JJ", "CC", "JJ", "NN", ",", "VBZ", "VBG", "IN", "DT", "NN", "."]
+# ::lemmas ["the", "barefoot", "man", "in", "short", "and", "a", "green", "and", "white", "top", ",", "be", "run", "through", "a", "park", "."]
+(r0 / run-02
+      :ARG0 (m0 / man
+            :mod (b0 / barefoot)
+            :mod (h1 / have-03)
+            :mod (h0 / have-03
+                  :ARG1 (a0 / and
+                        :op3 (t1 / top
+                              :ARG1-of (w0 / white-03))
+                        :op2 (t0 / top
+                              :ARG1-of (g0 / green-02))
+                        :op1 (s0 / short-06))))
+      :ARG1 (p0 / park))

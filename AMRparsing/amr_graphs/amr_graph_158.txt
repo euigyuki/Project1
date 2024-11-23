@@ -1,0 +1,12 @@
+(m0 / multi-sentence
+    :snt2 (i0 / interrupt-01
+              :ARG0 (p0 / picture)
+              :ARG1 (h0 / hand
+                        :ARG1-of (c0 / color-01)
+                        :part-of (g0 / grass-roots)))
+    :snt1 (s0 / sit-01
+              :ARG1 (a0 / and
+                        :op2 (w0 / woman)
+                        :op2 (y0 / young)
+                        :op1 (m1 / man
+                                 :mod (y1 / young)))))

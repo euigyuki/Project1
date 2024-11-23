@@ -1,0 +1,4 @@
+(l0 / look-01
+    :ARG1 (o0 / out-06)
+    :ARG0 (b0 / businessman
+              :poss-of (d0 / door)))

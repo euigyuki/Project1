@@ -1,0 +1,7 @@
+(e0 / examine-01
+    :ARG0 (w0 / woman
+              :ARG0-of (w1 / wear-01)
+              :quant (u0 / use-01)
+              :quant 2)
+    :manner (c0 / cluster
+                :consist-of (c1 / cell)))

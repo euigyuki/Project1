@@ -1,0 +1,11 @@
+# ::snt a skateboarder sails over white steps .
+# ::tokens ["a", "skateboarder", "sails", "over", "white", "steps", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NNS", "IN", "JJ", "NNS", "."]
+# ::lemmas ["a", "skateboarder", "sail", "over", "white", "step", "."]
+(s0 / sail-01
+      :ARG0 (s1 / skateboarder)
+      :ARG1 (o0 / over
+            :op1 (s2 / step-01
+                  :ARG1-of (w0 / white-03))))

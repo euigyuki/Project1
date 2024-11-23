@@ -1,0 +1,8 @@
+(p0 / pull-06
+    :time (p1 / play-01
+              :ARG0 (d0 / dog
+                        :quant 2))
+    :ARG0 d0
+    :ARG1 (b0 / ball
+              :ARG1-of (s0 / same-01)
+              :mod (o0 / orange)))

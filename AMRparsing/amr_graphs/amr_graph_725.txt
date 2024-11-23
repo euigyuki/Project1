@@ -1,0 +1,10 @@
+(c0 / count-01
+    :time (p0 / play-11
+              :ARG0 (m1 / man
+                        :poss-of (m0 / money)
+                        :poss-of (k0 / keyboard
+                                     :mod (p1 / portable)))
+              :ARG2 (c1 / cold-01)
+              :ARG1 k0)
+    :ARG0 m1
+    :ARG1 m0)

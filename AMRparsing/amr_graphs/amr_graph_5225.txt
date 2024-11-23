@@ -1,0 +1,13 @@
+# ::snt a girl in a red skirt with some hula hoops
+# ::tokens ["a", "girl", "in", "a", "red", "skirt", "with", "some", "hula", "hoops"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "DT", "JJ", "NN", "IN", "DT", "JJ", "NNS"]
+# ::lemmas ["a", "girl", "in", "a", "red", "skirt", "with", "some", "hula", "hoop"]
+(g0 / girl
+      :poss-of (s0 / skirt
+            :ARG1-of (r0 / red-02))
+      :ARG0-of (h0 / have-03
+            :ARG1 (h1 / hoop
+                  :mod (h2 / hula)
+                  :mod (s1 / some))))

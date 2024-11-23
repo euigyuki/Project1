@@ -1,0 +1,4 @@
+(p0 / play-01
+    :ARG0 (k0 / kid)
+    :ARG1 (r0 / rope
+              :mod (j0 / jump-on-bandwagon-09)))

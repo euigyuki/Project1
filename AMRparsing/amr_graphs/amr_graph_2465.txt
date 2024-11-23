@@ -1,0 +1,13 @@
+# ::snt two kids standing between two red cars .
+# ::tokens ["two", "kids", "standing", "between", "two", "red", "cars", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "CARDINAL", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "B", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "VBG", "IN", "CD", "JJ", "NNS", "."]
+# ::lemmas ["two", "kid", "stand", "between", "two", "red", "car", "."]
+(s0 / stand-01
+      :ARG2 (b0 / between
+            :op1 (c0 / car
+                  :quant 2 
+                  :ARG1-of (r0 / red-02)))
+      :ARG1 (k0 / kid
+            :quant 2 ))

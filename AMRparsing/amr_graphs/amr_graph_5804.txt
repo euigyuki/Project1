@@ -1,0 +1,13 @@
+# ::snt two dogs bite each other while playing around .
+# ::tokens ["two", "dogs", "bite", "each", "other", "while", "playing", "around", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "VBP", "DT", "JJ", "IN", "VBG", "RB", "."]
+# ::lemmas ["two", "dog", "bite", "each", "other", "while", "play", "around", "."]
+(b0 / bite-01
+      :ARG1 (o0 / other)
+      :ARG0 (d0 / dog
+            :ARG0-of (p0 / play-01
+                  :mod (a0 / around))
+            :quant 2 )
+      :time p0)

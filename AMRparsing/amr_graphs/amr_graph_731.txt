@@ -1,0 +1,12 @@
+# ::snt a child in a black cape is being chased by other children .
+# ::tokens ["a", "child", "in", "a", "black", "cape", "is", "being", "chased", "by", "other", "children", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "DT", "JJ", "NN", "VBZ", "VBG", "VBN", "IN", "JJ", "NNS", "."]
+# ::lemmas ["a", "child", "in", "a", "black", "cape", "be", "be", "chase", "by", "other", "child", "."]
+(c0 / chase-01
+      :ARG1 (c2 / child
+            :mod (c3 / cape
+                  :ARG1-of (b0 / black-04)))
+      :ARG0 (c1 / child
+            :mod (o0 / other)))

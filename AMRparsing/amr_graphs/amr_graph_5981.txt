@@ -1,0 +1,8 @@
+(i0 / interact-01
+    :ARG0 (m0 / man
+              :quant 2)
+    :ARG1 (c0 / contraption
+              :mod (m1 / mechanics)
+              :mod (a0 / automate-01)
+              :mod (s0 / sort
+                       :mod (s1 / some))))

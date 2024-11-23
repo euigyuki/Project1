@@ -1,0 +1,4 @@
+(g0 / group
+    :consist-of (w0 / woman
+                    :ARG0-of (d0 / dance-01
+                                 :accompanier (p0 / pompom))))

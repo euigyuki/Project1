@@ -1,0 +1,10 @@
+# ::snt a picture of the clarinet section of a band .
+# ::tokens ["a", "picture", "of", "the", "clarinet", "section", "of", "a", "band", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "DT", "NN", "NN", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "picture", "of", "the", "clarinet", "section", "of", "a", "band", "."]
+(p0 / picture-01
+      :ARG1 (s0 / section
+            :part-of (b0 / band)
+            :mod (c0 / clarinet)))

@@ -1,0 +1,11 @@
+(d0 / drive-01
+    :time (a0 / and
+              :op1 (s1 / sit-01
+                       :ARG1 m0
+                       :ARG1 (c0 / child))
+              :op2 (s0 / steer
+                       :ARG0 m0)
+              :op2 (l0 / lap
+                       :poss m0))
+    :ARG0 (m0 / man)
+    :ARG1 (t0 / truck))

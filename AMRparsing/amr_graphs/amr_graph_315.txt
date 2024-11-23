@@ -1,0 +1,12 @@
+(a0 / and
+    :op2 (w0 / wear-01
+             :ARG1 (o0 / or
+                       :mod (t1 / type
+                                :mod (s1 / some))
+                       :op2 (h0 / hat)
+                       :op1 (c1 / clothe-01))
+             :ARG0 (m0 / most))
+    :op1 (s0 / seat-01
+             :mod (t0 / together)
+             :ARG1 (c0 / crowd
+                       :consist-of (p0 / person))))

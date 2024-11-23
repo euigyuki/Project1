@@ -1,0 +1,12 @@
+# ::snt a lady with dark hair is playing a harp .
+# ::tokens ["a", "lady", "with", "dark", "hair", "is", "playing", "a", "harp", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "JJ", "NN", "VBZ", "VBG", "DT", "NN", "."]
+# ::lemmas ["a", "lady", "with", "dark", "hair", "be", "play", "a", "harp", "."]
+(p0 / play-11
+      :ARG0 (l0 / lady
+            :ARG0-of (h1 / have-03
+                  :ARG1 (h2 / hair
+                        :ARG1-of (d0 / dark-02))))
+      :ARG1 (h0 / harp))

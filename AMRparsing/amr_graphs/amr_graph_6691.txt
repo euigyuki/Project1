@@ -1,0 +1,15 @@
+# ::snt a man wearing orange swim trunks in jumping from a high rock into the water .
+# ::tokens ["a", "man", "wearing", "orange", "swim", "trunks", "in", "jumping", "from", "a", "high", "rock", "into", "the", "water", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBG", "JJ", "NN", "NNS", "IN", "VBG", "IN", "DT", "JJ", "NN", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "man", "wear", "orange", "swim", "trunk", "in", "jump", "from", "a", "high", "rock", "into", "the", "water", "."]
+(m0 / man
+      :ARG0-of (w0 / wear-01
+            :ARG1 (t0 / trunk
+                  :mod (s0 / swim-01)
+                  :mod (o0 / orange)))
+      :ARG1-of (j0 / jump-03
+            :source (r0 / rock
+                  :ARG1-of (h0 / high-02))
+            :source (w1 / water)))

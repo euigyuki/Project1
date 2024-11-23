@@ -1,0 +1,8 @@
+(r0 / ride-01
+    :manner (t0 / together)
+    :time (p0 / pass-03
+              :ARG0 (w0 / woman
+                        :quant 2)
+              :ARG1 (p1 / painting))
+    :ARG0 w0
+    :ARG1 (b0 / bicycle))

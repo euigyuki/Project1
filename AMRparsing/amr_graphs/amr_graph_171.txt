@@ -1,0 +1,21 @@
+# ::snt a man running in a marathon runs past <number> bagpipe players , and a drummer , all wearing a uniform
+# ::tokens ["a", "man", "running", "in", "a", "marathon", "runs", "past", "<", "number", ">", "bagpipe", "players", ",", "and", "a", "drummer", ",", "all", "wearing", "a", "uniform"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBG", "IN", "DT", "NN", "NNS", "IN", "XX", "NN", "XX", "NN", "NNS", ",", "CC", "DT", "NN", ",", "DT", "VBG", "DT", "NN"]
+# ::lemmas ["a", "man", "run", "in", "a", "marathon", "run", "past", "<", "number", ">", "bagpipe", "player", ",", "and", "a", "drummer", ",", "all", "wear", "a", "uniform"]
+(a0 / and
+      :op2 (p0 / person
+            :ARG0-of (h0 / have-org-role-91
+                  :ARG2 (d0 / drummer)))
+      :op1 (r0 / run-02
+            :direction (p1 / past
+                  :op1 (p2 / person
+                        :quant (n0 / number)
+                        :ARG0-of (p3 / play-01
+                              :ARG1 (b0 / bagpipe))))
+            :ARG0 (m0 / man
+                  :ARG0-of (r1 / run-02
+                        :ARG1 (m1 / marathon))
+                  :ARG1-of (w0 / wear-01
+                        :ARG1 (u0 / uniform)))))

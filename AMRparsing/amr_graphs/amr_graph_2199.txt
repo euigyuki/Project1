@@ -1,0 +1,4 @@
+(s0 / stand-01
+    :ARG1 (a0 / and
+              :op2 (g0 / groom)
+              :op1 (b1 / bride)))

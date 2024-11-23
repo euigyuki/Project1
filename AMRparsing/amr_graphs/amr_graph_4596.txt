@@ -1,0 +1,15 @@
+(l0 / laugh-01
+    :ARG0 (a0 / and
+              :op2 (w0 / woman
+                       :ARG1-of (h1 / have-degree-91
+                                    :ARG3 (m2 / more)
+                                    :ARG2 (y0 / young)
+                                    :ARG1 (j1 / jacket
+                                              :ARG1-of (g0 / green-02))))
+              :op1 (m0 / man
+                       :ARG0-of (w1 / wear-01
+                                    :ARG1 (j0 / jacket
+                                              :ARG1-of (b1 / black-04)))
+                       :ARG1-of (h0 / have-degree-91
+                                    :ARG3 (m1 / more)
+                                    :ARG2 (o0 / old)))))

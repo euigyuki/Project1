@@ -1,0 +1,33 @@
+version: 2
+
+category_mapping:
+  0: "Transportation/Urban"
+  1: "Restaurant"
+  2: "Recreation"
+  3: "Domestic"
+  4: "Work/Education"
+  5: "Other/Unclear (Man-made)"
+  6: "Body of Water"
+  7: "Field/Forest"
+  8: "Mountain"
+  9: "Other/Unclear (Natural)"
+
+id_mapping:
+  A17EZEAMF37MGQ: "Derrick"
+  AO2A58R9LMCKC: "Ken"
+  A6I9Z5XQ933N4: "Sonny"
+  A3M2XET3KDDS9S: "Unknown"
+
+name_to_id:
+  Derrick: "A17EZEAMF37MGQ"
+  Ken: "AO2A58R9LMCKC"
+  Sonny: "A6I9Z5XQ933N4"
+  Unknown: "A3M2XET3KDDS9S"
+
+workers:
+  worker_id_1: "A17EZEAMF37MGQ"  
+  worker_id_2: "AO2A58R9LMCKC"
+  worker_id_3: "A6I9Z5XQ933N4"
+
+path: plots
+

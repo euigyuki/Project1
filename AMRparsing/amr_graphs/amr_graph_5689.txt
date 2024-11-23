@@ -1,0 +1,11 @@
+# ::snt man wearing a blue shirt is djing .
+# ::tokens ["man", "wearing", "a", "blue", "shirt", "is", "djing", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["NN", "VBG", "DT", "JJ", "NN", "VBZ", "VBG", "."]
+# ::lemmas ["man", "wear", "a", "blue", "shirt", "be", "dj", "."]
+(d0 / dj
+      :domain (m0 / man
+            :ARG0-of (w0 / wear-01
+                  :ARG1 (s0 / shirt
+                        :mod (b0 / blue)))))

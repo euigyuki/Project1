@@ -1,0 +1,4 @@
+(t0 / tear-01
+    :ARG2 (d0 / down)
+    :ARG0 (b1 / backhoe
+              :mod (y0 / yellow)))

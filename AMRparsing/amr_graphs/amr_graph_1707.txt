@@ -1,0 +1,4 @@
+(s0 / sit-01
+    :ARG1 (c0 / couple)
+    :manner (b0 / back
+                :part-of (c1 / camera)))

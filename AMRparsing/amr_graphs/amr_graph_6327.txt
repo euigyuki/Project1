@@ -1,0 +1,16 @@
+# ::snt a white man with clown makeup wearing a microphone and a white hat .
+# ::tokens ["a", "white", "man", "with", "clown", "makeup", "wearing", "a", "microphone", "and", "a", "white", "hat", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "IN", "NN", "NN", "VBG", "DT", "NN", "CC", "DT", "JJ", "NN", "."]
+# ::lemmas ["a", "white", "man", "with", "clown", "makeup", "wear", "a", "microphone", "and", "a", "white", "hat", "."]
+(m0 / man
+      :ARG0-of (h0 / have-03
+            :ARG1 (m1 / makeup
+                  :mod (c0 / clown)))
+      :ARG1-of (w1 / white-02)
+      :part (w0 / wear-01
+            :ARG1 (a0 / and
+                  :op2 (h1 / hat
+                        :ARG1-of (w2 / white-03))
+                  :op1 (m2 / microphone))))

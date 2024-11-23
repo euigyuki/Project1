@@ -1,0 +1,14 @@
+# ::snt a black dog with white paws is jumping on hay bales .
+# ::tokens ["a", "black", "dog", "with", "white", "paws", "is", "jumping", "on", "hay", "bales", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "IN", "JJ", "NNS", "VBZ", "VBG", "IN", "NN", "NNS", "."]
+# ::lemmas ["a", "black", "dog", "with", "white", "paw", "be", "jump", "on", "hay", "bale", "."]
+(j0 / jump-on-bandwagon-09
+      :ARG1 (b0 / bale
+            :mod (h1 / hay))
+      :ARG0 (d0 / dog
+            :ARG0-of (h0 / have-03
+                  :ARG1 (p0 / paw
+                        :ARG1-of (w0 / white-03)))
+            :part (b1 / black-05)))

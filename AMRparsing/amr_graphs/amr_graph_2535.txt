@@ -1,0 +1,10 @@
+# ::snt a group of people gathered for an event
+# ::tokens ["a", "group", "of", "people", "gathered", "for", "an", "event"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "NNS", "VBD", "IN", "DT", "NN"]
+# ::lemmas ["a", "group", "of", "people", "gather", "for", "an", "event"]
+(g0 / gather-03
+      :purpose (e0 / event)
+      :ARG0 (g1 / group
+            :consist-of (p0 / person)))

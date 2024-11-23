@@ -1,0 +1,8 @@
+(s0 / sit-01
+    :ARG1 (b0 / boy
+              :ARG0-of (h0 / hold-01
+                           :ARG1 (b2 / bottle
+                                     :mod (w0 / water)))
+              :ARG1-of (b1 / black-05)
+              :mod (l0 / little)
+              :quant 2))

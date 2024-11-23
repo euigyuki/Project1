@@ -1,0 +1,7 @@
+(a0 / approach-01
+    :ARG0 (d0 / dog
+              :ARG1-of (b0 / black-04)
+              :ARG0-of (h0 / have-03
+                           :ARG1 (b1 / ball
+                                     :mod (o0 / orange))))
+    :ARG1 (c0 / camera))

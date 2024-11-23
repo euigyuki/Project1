@@ -1,0 +1,11 @@
+# ::snt three well dressed individuals talking .
+# ::tokens ["three", "well", "dressed", "individuals", "talking", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "RB", "VBN", "NNS", "VBG", "."]
+# ::lemmas ["three", "well", "dress", "individual", "talk", "."]
+(t0 / talk-01
+      :ARG0 (i0 / individual
+            :quant 3 
+            :ARG1-of (d0 / dress-01
+                  :ARG2 (w0 / well-09))))

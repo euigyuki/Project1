@@ -1,0 +1,11 @@
+(t0 / take-01
+    :path (a0 / along
+              :op1 (s0 / street
+                       :ARG1-of (l0 / line-01)))
+    :ARG0 (m0 / man
+              :poss-of (r0 / route)
+              :ARG0-of (h0 / have-03
+                           :ARG1 (d0 / dog
+                                     :quant 3))
+              :mod (t1 / this))
+    :ARG1 r0)

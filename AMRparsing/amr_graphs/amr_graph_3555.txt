@@ -1,0 +1,15 @@
+# ::snt an older couple enjoying a christmas meal .
+# ::tokens ["an", "older", "couple", "enjoying", "a", "christmas", "meal", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "DATE", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "B", "O", "O"]
+# ::pos_tags ["DT", "JJR", "NN", "VBG", "DT", "NNP", "NN", "."]
+# ::lemmas ["an", "old", "couple", "enjoy", "a", "christmas", "meal", "."]
+(e0 / enjoy-01
+      :ARG0 (c0 / couple
+            :ARG1-of (h0 / have-degree-91
+                  :ARG3 (m1 / more)
+                  :ARG2 (o0 / old)))
+      :ARG1 (m0 / meal
+            :mod (f0 / festival
+                  :name (n0 / name
+                        :op1 "Christian" ))))

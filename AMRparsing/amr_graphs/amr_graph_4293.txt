@@ -1,0 +1,11 @@
+# ::snt there is a black dog running in a shallow river .
+# ::tokens ["there", "is", "a", "black", "dog", "running", "in", "a", "shallow", "river", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["EX", "VBZ", "DT", "JJ", "NN", "VBG", "IN", "DT", "JJ", "NN", "."]
+# ::lemmas ["there", "be", "a", "black", "dog", "run", "in", "a", "shallow", "river", "."]
+(r0 / run-02
+      :ARG0 (d0 / dog
+            :ARG1-of (b0 / black-04))
+      :ARG1 (r1 / river
+            :mod (s0 / shallow)))

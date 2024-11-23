@@ -1,0 +1,12 @@
+# ::snt a young , smiling boy playing on a metal structure .
+# ::tokens ["a", "young", ",", "smiling", "boy", "playing", "on", "a", "metal", "structure", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", ",", "VBG", "NN", "VBG", "IN", "DT", "NN", "NN", "."]
+# ::lemmas ["a", "young", ",", "smile", "boy", "play", "on", "a", "metal", "structure", "."]
+(b0 / boy
+      :ARG0-of (p0 / play-01
+            :ARG2 (s1 / structure
+                  :mod (m0 / metal)))
+      :mod (s0 / smile-01)
+      :mod (y0 / young))

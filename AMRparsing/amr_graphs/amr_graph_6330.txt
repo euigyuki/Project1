@@ -1,0 +1,16 @@
+# ::snt western hobo clown wears a microphone and entertains .
+# ::tokens ["western", "hobo", "clown", "wears", "a", "microphone", "and", "entertains", "."]
+# ::ner_tags ["ORG", "ORG", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "I", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["NNP", "NNP", "NN", "VBZ", "DT", "NN", "CC", "NNS", "."]
+# ::lemmas ["western", "hobo", "clown", "wear", "a", "microphone", "and", "entertain", "."]
+(a0 / and
+      :op2 (e0 / entertain-01
+            :ARG0 c0
+            :ARG1 m0)
+      :op1 (w0 / wear-01
+            :ARG0 (c0 / clown
+                  :mod (n0 / name
+                        :op1 "West" )
+                  :mod (w1 / world-region))
+            :ARG1 (m0 / microphone)))

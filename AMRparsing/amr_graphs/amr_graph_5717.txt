@@ -1,0 +1,13 @@
+(a0 / and
+    :op2 (r0 / read-01
+             :ARG1 (t0 / towel
+                       :mod (s0 / sweat)
+                       :ARG0-of (r2 / read-01
+                                    :ARG3 (l1 / love-01
+                                              :mod (j0 / just)
+                                              :ARG1 (i0 / i))))
+             :ARG3 (r1 / rollerskate)
+             :ARG0 (m0 / man
+                       :ARG0-of (h0 / have-03)))
+    :op1 (w0 / wear-01
+             :ARG0 m0))

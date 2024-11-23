@@ -1,0 +1,13 @@
+# ::snt group of girls wearing black sleeves watches enthusiastically
+# ::tokens ["group", "of", "girls", "wearing", "black", "sleeves", "watches", "enthusiastically"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["NN", "IN", "NNS", "VBG", "JJ", "NNS", "VBZ", "RB"]
+# ::lemmas ["group", "of", "girl", "wear", "black", "sleeve", "watch", "enthusiastically"]
+(w0 / watch-01
+      :manner (e0 / enthusiastic-03)
+      :ARG0 (g0 / group
+            :consist-of (g1 / girl
+                  :ARG0-of (w1 / wear-01
+                        :ARG1 (s0 / sleeve
+                              :ARG1-of (b0 / black-04))))))

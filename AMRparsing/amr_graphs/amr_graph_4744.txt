@@ -1,0 +1,15 @@
+# ::snt a woman is using a ruler at a desk to mark a sheet of paper .
+# ::tokens ["a", "woman", "is", "using", "a", "ruler", "at", "a", "desk", "to", "mark", "a", "sheet", "of", "paper", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "VBG", "DT", "NN", "IN", "DT", "NN", "TO", "VB", "DT", "NN", "IN", "NN", "."]
+# ::lemmas ["a", "woman", "be", "use", "a", "ruler", "at", "a", "desk", "to", "mark", "a", "sheet", "of", "paper", "."]
+(u0 / use-01
+      :purpose (m0 / mark-01
+            :ARG0 (w0 / woman)
+            :ARG1 (s0 / sheet
+                  :consist-of (p0 / paper)))
+      :ARG2 (d0 / desk
+            :poss w0)
+      :ARG0 w0
+      :ARG1 (r0 / ruler))

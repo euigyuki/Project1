@@ -1,0 +1,4 @@
+(p0 / play-01
+    :ARG2 (b0 / ball
+              :ARG1-of (r0 / red-02))
+    :ARG0 (w0 / woman))

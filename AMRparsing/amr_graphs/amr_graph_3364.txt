@@ -1,0 +1,12 @@
+# ::snt a fireman on top of a ladder in the dark .
+# ::tokens ["a", "fireman", "on", "top", "of", "a", "ladder", "in", "the", "dark", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "NN", "IN", "DT", "NN", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "fireman", "on", "top", "of", "a", "ladder", "in", "the", "dark", "."]
+(b0 / be-located-at-91
+      :ARG2 (t0 / top
+            :op1 (l0 / ladder))
+      :ARG1 (p0 / person
+            :ARG0-of (h0 / have-org-role-91
+                  :ARG2 (f0 / fireman))))

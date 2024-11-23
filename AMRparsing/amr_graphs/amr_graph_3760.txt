@@ -1,0 +1,10 @@
+# ::snt a group of men playing instruments .
+# ::tokens ["a", "group", "of", "men", "playing", "instruments", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "NNS", "VBG", "NNS", "."]
+# ::lemmas ["a", "group", "of", "man", "play", "instrument", "."]
+(g0 / group
+      :consist-of (m0 / man
+            :ARG0-of (p0 / play-02
+                  :ARG1 (i0 / instrument))))

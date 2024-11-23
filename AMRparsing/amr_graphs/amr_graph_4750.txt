@@ -1,0 +1,10 @@
+# ::snt people socializing under a canopy .
+# ::tokens ["people", "socializing", "under", "a", "canopy", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["NNS", "VBG", "IN", "DT", "NN", "."]
+# ::lemmas ["people", "socialize", "under", "a", "canopy", "."]
+(p0 / politician
+      :domain (p1 / person)
+      :domain (u0 / under
+            :op1 (c0 / canopy)))

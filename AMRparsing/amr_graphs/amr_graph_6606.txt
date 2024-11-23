@@ -1,0 +1,7 @@
+(r0 / return-01
+    :ARG1 (r1 / retriever
+              :mod (l0 / labrador)
+              :ARG1-of (b0 / black-04))
+    :accompanier (c0 / cylinder
+                     :ARG1-of (w0 / white-03)
+                     :mod (n0 / nubby)))

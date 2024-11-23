@@ -1,0 +1,5 @@
+(p0 / practice-01
+    :ARG0 (c0 / child
+              :quant 3)
+    :ARG1 (a0 / art
+              :mod (m0 / martial)))

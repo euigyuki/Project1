@@ -1,0 +1,13 @@
+# ::snt three people shopping in an isle in a foreign grocery store .
+# ::tokens ["three", "people", "shopping", "in", "an", "isle", "in", "a", "foreign", "grocery", "store", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "VBG", "IN", "DT", "NN", "IN", "DT", "JJ", "NN", "NN", "."]
+# ::lemmas ["three", "people", "shop", "in", "an", "isle", "in", "a", "foreign", "grocery", "store", "."]
+(s0 / shop-01
+      :location (s1 / store
+            :mod (f0 / foreign)
+            :mod (g0 / grocery))
+      :ARG2 (i0 / isle)
+      :ARG0 (p0 / person
+            :quant 3 ))

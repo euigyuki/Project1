@@ -1,0 +1,7 @@
+(m0 / man
+    :part (t0 / top
+              :mod (t1 / tank))
+    :part (f0 / finger
+              :ARG1-of (l0 / look-01
+                           :ARG0 m0))
+    :ARG1-of (w0 / white-02))

@@ -1,0 +1,2 @@
+(p0 / person
+    :ARG0-of (s0 / shop-01))

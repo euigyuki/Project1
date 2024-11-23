@@ -1,0 +1,5 @@
+(f0 / face-01
+    :ARG0 (d1 / dog
+              :mod (b1 / brown))
+    :ARG1 (d0 / dog
+              :ARG1-of (b0 / black-05)))

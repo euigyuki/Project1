@@ -1,0 +1,9 @@
+# ::snt a young girl cleaning up .
+# ::tokens ["a", "young", "girl", "cleaning", "up", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "VBG", "RP", "."]
+# ::lemmas ["a", "young", "girl", "clean", "up", "."]
+(c0 / clean-up-02
+      :ARG0 (g0 / girl
+            :mod (y0 / young)))

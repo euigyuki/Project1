@@ -1,0 +1,18 @@
+(l0 / look-01
+    :time (s0 / stand-01
+              :ARG1 (f0 / fish))
+    :ARG0 (a0 / and
+              :op2 (g0 / gentleman
+                       :ARG1-of (h3 / have-degree-91
+                                    :ARG3 (m1 / more))
+                       :mod (a1 / another))
+              :op1 (m0 / man
+                       :ARG0-of (h2 / have-03
+                                    :ARG1 (f1 / fish
+                                              :ARG1-of (w0 / white-03
+                                                           :mod (a2 / all))))
+                       :part (h1 / have-03)
+                       :mod (h0 / have-03
+                                :ARG1 (s1 / shirt
+                                          :mod (s2 / sleeveless)
+                                          :ARG1-of (g1 / gray-02))))))

@@ -1,0 +1,14 @@
+# ::snt foreign kids playing on some type of statue or monument .
+# ::tokens ["foreign", "kids", "playing", "on", "some", "type", "of", "statue", "or", "monument", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["JJ", "NNS", "VBG", "IN", "DT", "NN", "IN", "NN", "CC", "NN", "."]
+# ::lemmas ["foreign", "kid", "play", "on", "some", "type", "of", "statue", "or", "monument", "."]
+(p0 / play-01
+      :location (o0 / or
+            :op2 (m0 / monument)
+            :op1 (s0 / statue
+                  :mod (t0 / type
+                        :mod (s1 / some))))
+      :ARG0 (k0 / kid
+            :mod (f0 / foreign)))

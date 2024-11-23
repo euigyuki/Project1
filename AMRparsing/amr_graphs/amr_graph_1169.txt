@@ -1,0 +1,13 @@
+# ::snt two little boys in bike helmets hanging out .
+# ::tokens ["two", "little", "boys", "in", "bike", "helmets", "hanging", "out", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "JJ", "NNS", "IN", "NN", "NNS", "VBG", "RP", "."]
+# ::lemmas ["two", "little", "boy", "in", "bike", "helmet", "hang", "out", "."]
+(h0 / hang-out-06
+      :ARG1 (b0 / boy
+            :quant 2 
+            :ARG0-of (h1 / have-03
+                  :ARG1 (h2 / helmet
+                        :mod (b1 / bike)))
+            :mod (l0 / little)))

@@ -1,0 +1,11 @@
+# ::snt a baby is in a sandpit playing with a bucket .
+# ::tokens ["a", "baby", "is", "in", "a", "sandpit", "playing", "with", "a", "bucket", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "IN", "DT", "NN", "VBG", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "baby", "be", "in", "a", "sandpit", "play", "with", "a", "bucket", "."]
+(b0 / be-located-at-91
+      :ARG2 (s0 / sandpit)
+      :ARG1 (b1 / baby
+            :ARG0-of (p0 / play-01
+                  :ARG2 (b2 / bucket))))

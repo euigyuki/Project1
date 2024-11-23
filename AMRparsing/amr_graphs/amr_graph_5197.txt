@@ -1,0 +1,7 @@
+(a0 / and
+    :op2 (s0 / sing-01
+             :ARG0 (m0 / man
+                       :quant 2))
+    :op1 (p0 / play-01
+             :ARG0 m0
+             :ARG1 (g0 / guitar)))

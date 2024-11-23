@@ -1,0 +1,17 @@
+# ::snt five hikers traverse a dry , scrubby plain towards snowy peaks in the background .
+# ::tokens ["five", "hikers", "traverse", "a", "dry", ",", "scrubby", "plain", "towards", "snowy", "peaks", "in", "the", "background", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "VBP", "DT", "JJ", ",", "NN", "RB", "IN", "JJ", "NNS", "IN", "DT", "NN", "."]
+# ::lemmas ["five", "hiker", "traverse", "a", "dry", ",", "scrubby", "plain", "towards", "snowy", "peak", "in", "the", "background", "."]
+(t0 / travel-01
+      :ARG4 (t1 / towards
+            :op1 (p2 / peak
+                  :location (b0 / background)
+                  :location (s1 / snowy)))
+      :ARG0 (p1 / person
+            :ARG0-of (f0 / fish-01)
+            :quant 5 )
+      :ARG1 (p0 / plain
+            :ARG1-of (d0 / dry-02)
+            :mod (s0 / scrubby)))

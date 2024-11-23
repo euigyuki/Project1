@@ -1,0 +1,10 @@
+# ::snt a man doing maintenance on the railroad tracks
+# ::tokens ["a", "man", "doing", "maintenance", "on", "the", "railroad", "tracks"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBG", "NN", "IN", "DT", "NN", "NNS"]
+# ::lemmas ["a", "man", "do", "maintenance", "on", "the", "railroad", "track"]
+(m0 / maintain-01
+      :ARG0 (m1 / man)
+      :ARG1 (t0 / track
+            :mod (r0 / railroad)))

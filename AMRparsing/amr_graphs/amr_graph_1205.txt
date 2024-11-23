@@ -1,0 +1,13 @@
+# ::snt a man trying to catch the fish with a little net .
+# ::tokens ["a", "man", "trying", "to", "catch", "the", "fish", "with", "a", "little", "net", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBG", "TO", "VB", "DT", "NN", "IN", "DT", "JJ", "NN", "."]
+# ::lemmas ["a", "man", "try", "to", "catch", "the", "fish", "with", "a", "little", "net", "."]
+(t0 / try-01
+      :ARG0 (m0 / man
+            :ARG0-of (c0 / catch-03
+                  :instrument (n0 / net
+                        :mod (l0 / little))
+                  :ARG1 (f0 / fish)))
+      :ARG1 c0)

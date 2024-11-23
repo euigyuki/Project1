@@ -1,0 +1,12 @@
+# ::snt a white dog swims through the water with a red toy .
+# ::tokens ["a", "white", "dog", "swims", "through", "the", "water", "with", "a", "red", "toy", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "VBZ", "IN", "DT", "NN", "IN", "DT", "JJ", "NN", "."]
+# ::lemmas ["a", "white", "dog", "swim", "through", "the", "water", "with", "a", "red", "toy", "."]
+(s0 / swim-01
+      :accompanier (t0 / toy
+            :ARG1-of (r0 / red-02))
+      :ARG0 (d0 / dog
+            :ARG1-of (w1 / white-02))
+      :ARG1 (w0 / water))

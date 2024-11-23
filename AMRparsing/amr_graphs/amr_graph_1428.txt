@@ -1,0 +1,9 @@
+# ::snt a large excavation is taking place in a city .
+# ::tokens ["a", "large", "excavation", "is", "taking", "place", "in", "a", "city", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "VBZ", "VBG", "NN", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "large", "excavation", "be", "take", "place", "in", "a", "city", "."]
+(u0 / uncover-01
+      :mod (l0 / large)
+      :mod (c0 / city))

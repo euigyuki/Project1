@@ -1,0 +1,5 @@
+(b0 / bark-01
+    :purpose (l0 / look-01
+                 :ARG0 (d0 / dog)
+                 :ARG1 (c0 / camera))
+    :ARG0 d0)

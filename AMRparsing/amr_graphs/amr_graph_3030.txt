@@ -1,0 +1,11 @@
+# ::snt a child is sledding down a snowy hill .
+# ::tokens ["a", "child", "is", "sledding", "down", "a", "snowy", "hill", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "VBG", "RP", "DT", "JJ", "NN", "."]
+# ::lemmas ["a", "child", "be", "sled", "down", "a", "snowy", "hill", "."]
+(s0 / sled
+      :domain (c0 / child)
+      :direction (d0 / down
+            :op1 (h0 / hill
+                  :ARG1-of (s1 / snowy))))

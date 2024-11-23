@@ -1,0 +1,14 @@
+# ::snt a black dog is running through the shallow edge of a large body of water .
+# ::tokens ["a", "black", "dog", "is", "running", "through", "the", "shallow", "edge", "of", "a", "large", "body", "of", "water", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "VBZ", "VBG", "IN", "DT", "JJ", "NN", "IN", "DT", "JJ", "NN", "IN", "NN", "."]
+# ::lemmas ["a", "black", "dog", "be", "run", "through", "the", "shallow", "edge", "of", "a", "large", "body", "of", "water", "."]
+(r0 / run-02
+      :path (e0 / edge
+            :part-of (b1 / body
+                  :consist-of (w0 / water)
+                  :mod (l0 / large))
+            :mod (s0 / shallow))
+      :ARG0 (d0 / dog
+            :ARG1-of (b0 / black-04)))

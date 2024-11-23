@@ -1,0 +1,15 @@
+# ::snt a woman in a green hat is adjusting the clothing of a woman in a white sundress .
+# ::tokens ["a", "woman", "in", "a", "green", "hat", "is", "adjusting", "the", "clothing", "of", "a", "woman", "in", "a", "white", "sundress", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "DT", "JJ", "NN", "VBZ", "VBG", "DT", "NN", "IN", "DT", "NN", "IN", "DT", "JJ", "NN", "."]
+# ::lemmas ["a", "woman", "in", "a", "green", "hat", "be", "adjust", "the", "clothing", "of", "a", "woman", "in", "a", "white", "sundress", "."]
+(a0 / adjust-01
+      :ARG0 (w0 / woman
+            :ARG0-of (h0 / hat
+                  :ARG1-of (g0 / green-02)))
+      :ARG1 (c0 / clothe-01
+            :ARG1 (w1 / woman
+                  :ARG0-of (h1 / have-03
+                        :ARG1 (s0 / sundress
+                              :ARG1-of (w2 / white-03))))))

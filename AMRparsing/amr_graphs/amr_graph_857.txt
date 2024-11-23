@@ -1,0 +1,13 @@
+(m0 / man
+    :ARG0-of (h0 / have-03
+                 :ARG1 (s2 / shirt
+                           :ARG1-of (g0 / gray-02)))
+    :poss-of (b0 / boat
+                 :mod (s1 / speed))
+    :poss-of (c1 / catch-03)
+    :ARG1-of (c0 / cut-01
+                 :ARG4 (o0 / open-01
+                           :ARG1 (f0 / fish
+                                     :mod (b1 / big)
+                                     :ARG1-of c0)))
+    :poss-of (s0 / start-01))

@@ -1,0 +1,11 @@
+# ::snt the little girl is playing with her shoes off .
+# ::tokens ["the", "little", "girl", "is", "playing", "with", "her", "shoes", "off", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "VBZ", "VBG", "IN", "PRP$", "NNS", "RP", "."]
+# ::lemmas ["the", "little", "girl", "be", "play", "with", "her", "shoe", "off", "."]
+(p0 / play-01
+      :manner (o0 / off)
+      :manner (s0 / shoe)
+      :ARG0 (g0 / girl
+            :mod (l0 / little)))

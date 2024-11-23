@@ -1,0 +1,13 @@
+# ::snt crowd waiting on main street subway platform for a train .
+# ::tokens ["crowd", "waiting", "on", "main", "street", "subway", "platform", "for", "a", "train", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["NN", "VBG", "IN", "JJ", "NN", "NN", "NN", "IN", "DT", "NN", "."]
+# ::lemmas ["crowd", "wait", "on", "main", "street", "subway", "platform", "for", "a", "train", "."]
+(c0 / crowd
+      :ARG1-of (w0 / wait-01
+            :ARG2 (t0 / train)
+            :ARG1 (p0 / platform
+                  :mod (s1 / subway)
+                  :mod (s0 / street
+                        :mod (m0 / main)))))

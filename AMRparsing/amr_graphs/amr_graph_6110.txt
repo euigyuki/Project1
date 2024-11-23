@@ -1,0 +1,7 @@
+(r0 / ride-01
+    :ARG0 (g0 / girl
+              :mod (l0 / little))
+    :ARG1 (f0 / front
+              :part-of (c0 / cart
+                           :purpose (s1 / shop-01))
+              :part-of (s0 / store)))

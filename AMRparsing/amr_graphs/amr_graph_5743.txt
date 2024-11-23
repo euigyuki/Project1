@@ -1,0 +1,17 @@
+# ::snt a woman fillets a fish , as part of preparing a recipe that includes broccoli , celery , and eggs .
+# ::tokens ["a", "woman", "fillets", "a", "fish", ",", "as", "part", "of", "preparing", "a", "recipe", "that", "includes", "broccoli", ",", "celery", ",", "and", "eggs", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "DT", "NN", ",", "IN", "NN", "IN", "VBG", "DT", "NN", "WDT", "VBZ", "NNS", ",", "NN", ",", "CC", "NNS", "."]
+# ::lemmas ["a", "woman", "fillet", "a", "fish", ",", "as", "part", "of", "prepare", "a", "recipe", "that", "include", "broccoli", ",", "celery", ",", "and", "egg", "."]
+(f0 / fill-06
+      :purpose (p0 / prepare-01
+            :ARG0 (w0 / woman)
+            :ARG1 (r0 / recipe
+                  :ARG2-of (i0 / include-01
+                        :ARG1 (a0 / and
+                              :op3 (e0 / egg)
+                              :op2 (c0 / celery)
+                              :op1 (b0 / broccoli)))))
+      :ARG0 w0
+      :ARG1 (f1 / fish))

@@ -1,0 +1,16 @@
+# ::snt two girls in a crowd are dressed up , one as the cartoon character wall-e .
+# ::tokens ["two", "girls", "in", "a", "crowd", "are", "dressed", "up", ",", "one", "as", "the", "cartoon", "character", "wall", "-", "e", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "IN", "DT", "NN", "VBP", "VBN", "RP", ",", "CD", "IN", "DT", "NN", "NN", "NNP", "HYPH", "NNP", "."]
+# ::lemmas ["two", "girl", "in", "a", "crowd", "be", "dress", "up", ",", "one", "as", "the", "cartoon", "character", "wall", "-", "e", "."]
+(d0 / dress-01
+      :ARG2 (c0 / character
+            :name (n0 / name
+                  :op1 "wall" )
+            :mod (c1 / character
+                  :mod (c3 / cartoon)))
+      :ARG1 (g0 / girl
+            :quant 2 
+            :ARG1-of (i0 / include-91
+                  :ARG2 (c2 / crowd))))

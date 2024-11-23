@@ -1,0 +1,7 @@
+(s0 / sit-01
+    :time (d0 / date-entity
+              :dayperiod (n0 / night))
+    :time (w0 / woods)
+    :ARG0 (g0 / group
+              :consist-of (p0 / person))
+    :ARG1 (c0 / campfire))

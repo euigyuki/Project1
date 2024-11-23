@@ -1,0 +1,9 @@
+# ::snt a yellow dog and a black and white dog are running in the dirt .
+(z1 / run-02
+      :ARG0 (z2 / and
+            :op1 (z3 / dog
+                  :ARG1-of (z4 / yellow-02))
+            :op2 (z5 / dog
+                  :ARG1-of (z6 / black-04))
+            :op3 (z7 / dog
+                  :ARG1-of (z8 / white-03))))

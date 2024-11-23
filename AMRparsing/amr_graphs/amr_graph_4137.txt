@@ -1,0 +1,13 @@
+# ::snt people playing soccer on a soccer field during sunset
+# ::tokens ["people", "playing", "soccer", "on", "a", "soccer", "field", "during", "sunset"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["NNS", "VBG", "NN", "IN", "DT", "NN", "NN", "IN", "NN"]
+# ::lemmas ["people", "play", "soccer", "on", "a", "soccer", "field", "during", "sunset"]
+(p0 / play-01
+      :time (d0 / date-entity
+            :season (s2 / sunset))
+      :time (f0 / field
+            :mod (s1 / soccer))
+      :ARG0 (p1 / person)
+      :ARG1 (s0 / soccer))

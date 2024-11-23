@@ -1,0 +1,10 @@
+# ::snt a street vendor selling vegetables .
+# ::tokens ["a", "street", "vendor", "selling", "vegetables", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "NN", "VBG", "NNS", "."]
+# ::lemmas ["a", "street", "vendor", "sell", "vegetable", "."]
+(s0 / sell-01
+      :ARG0 (v1 / vendor
+            :mod (s1 / street))
+      :ARG1 (v0 / vegetable))

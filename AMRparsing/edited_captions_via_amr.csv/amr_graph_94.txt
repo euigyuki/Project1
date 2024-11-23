@@ -1,0 +1,21 @@
+# ::snt A person wearing skis looking at framed pictures set up in the snow 102617084.jpg| 2| Five people wearing winter clothing
+# ::tokens ["A", "person", "wearing", "skis", "looking", "at", "framed", "pictures", "set", "up", "in", "the", "snow", "102617084.jpg|", "2|", "Five", "people", "wearing", "winter", "clothing"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "CARDINAL", "O", "CARDINAL", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B", "O", "B", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBG", "NNS", "VBG", "IN", "VBN", "NNS", "VBN", "RP", "IN", "DT", "NN", "NN", "CD", "CD", "NNS", "VBG", "NN", "NN"]
+# ::lemmas ["a", "person", "wear", "ski", "look", "at", "frame", "picture", "set", "up", "in", "the", "snow", "102617084.jpg|", "2|", "Five", "people", "wear", "winter", "clothing"]
+(a0 / and
+      :li (p0 / person
+            :quant 5 
+            :ARG0-of (h0 / have-03
+                  :ARG1 (w1 / winter)))
+      :op2 (c0 / clothe-01
+            :ARG2 (w0 / winter))
+      :op1 (l0 / look-01
+            :time (r0 / ratio-of
+                  :op2 2 
+                  :op1 4 )
+            :ARG1 (p1 / picture
+                  :ARG1-of (f0 / frame)
+                  :mod (s0 / set-up-03
+                        :location (s1 / snow)))))

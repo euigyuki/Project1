@@ -1,0 +1,15 @@
+# ::snt a woman in a green shirt and blue hat is playing tennis .
+# ::tokens ["a", "woman", "in", "a", "green", "shirt", "and", "blue", "hat", "is", "playing", "tennis", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "DT", "JJ", "NN", "CC", "JJ", "NN", "VBZ", "VBG", "NN", "."]
+# ::lemmas ["a", "woman", "in", "a", "green", "shirt", "and", "blue", "hat", "be", "play", "tennis", "."]
+(p0 / play-01
+      :ARG0 (w0 / woman
+            :ARG0-of (w1 / wear-01
+                  :ARG1 (a0 / and
+                        :op2 (h0 / hat
+                              :mod (b0 / blue))
+                        :op1 (s0 / shirt
+                              :ARG1-of (g0 / green-02)))))
+      :ARG1 (t0 / tennis))

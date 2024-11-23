@@ -1,0 +1,10 @@
+# ::snt woman making sushi from home .
+# ::tokens ["woman", "making", "sushi", "from", "home", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["NN", "VBG", "NN", "IN", "NN", "."]
+# ::lemmas ["woman", "make", "sushi", "from", "home", "."]
+(m0 / make-01
+      :ARG2 (h0 / home)
+      :ARG0 (w0 / woman)
+      :ARG1 (s0 / sushi))

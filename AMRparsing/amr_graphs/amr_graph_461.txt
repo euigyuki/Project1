@@ -1,0 +1,17 @@
+# ::snt a view through a door into a small tiled room where a man and two children are asleep on the floor .
+# ::tokens ["a", "view", "through", "a", "door", "into", "a", "small", "tiled", "room", "where", "a", "man", "and", "two", "children", "are", "asleep", "on", "the", "floor", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "CARDINAL", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "DT", "NN", "IN", "DT", "JJ", "JJ", "NN", "WRB", "DT", "NN", "CC", "CD", "NNS", "VBP", "JJ", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "view", "through", "a", "door", "into", "a", "small", "tiled", "room", "where", "a", "man", "and", "two", "child", "be", "asleep", "on", "the", "floor", "."]
+(v0 / view-01
+      :path (r0 / room
+            :location-of (r1 / roll-01)
+            :location-of (s1 / sleep-01
+                  :location (f0 / floor)
+                  :ARG0 (a0 / and
+                        :op2 (c0 / child
+                              :quant 2 )
+                        :op1 (m0 / man)))
+            :location-of (s0 / small)
+            :mod (d0 / door)))

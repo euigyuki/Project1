@@ -1,0 +1,4 @@
+(r0 / run-02
+    :time (h0 / hold-01
+              :ARG1 (s0 / stick))
+    :ARG1 (w0 / water))

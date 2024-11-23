@@ -1,0 +1,3 @@
+(p0 / person
+    :ARG2-of (e0 / elevator
+                 :mod (v0 / various)))

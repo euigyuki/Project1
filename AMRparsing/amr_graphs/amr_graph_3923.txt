@@ -1,0 +1,12 @@
+# ::snt a very little child swings on a tire swing .
+# ::tokens ["a", "very", "little", "child", "swings", "on", "a", "tire", "swing", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "RB", "JJ", "NN", "NNS", "IN", "DT", "NN", "NN", "."]
+# ::lemmas ["a", "very", "little", "child", "swing", "on", "a", "tire", "swing", "."]
+(s0 / swing-02
+      :ARG0 (c0 / child
+            :mod (l0 / little
+                  :degree (v0 / very)))
+      :ARG1 (s1 / swing
+            :mod (t0 / tire)))

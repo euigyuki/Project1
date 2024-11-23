@@ -1,0 +1,4 @@
+(p0 / play-01
+    :ARG0 (p1 / person
+              :quant 4)
+    :ARG1 (g0 / game))

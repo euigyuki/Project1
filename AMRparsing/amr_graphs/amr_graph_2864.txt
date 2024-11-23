@@ -1,0 +1,5 @@
+(p0 / play-11
+    :ARG2 (h0 / horn)
+    :ARG0 (a0 / and
+              :op2 (f0 / female)
+              :op1 (m0 / male)))

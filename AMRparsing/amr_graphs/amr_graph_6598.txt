@@ -1,0 +1,9 @@
+(w0 / walk-01
+    :manner (c0 / carry-01
+                :ARG1 (b0 / bag
+                          :ARG1-of (b1 / black-04)))
+    :direction (d0 / down
+                   :op1 (a0 / alley))
+    :ARG0 (w1 / woman
+              :ARG1-of (h0 / have-degree-91
+                           :ARG3 (m0 / more))))

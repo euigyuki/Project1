@@ -1,0 +1,13 @@
+# ::snt a family coming back from shopping and a gentlemen is reading his newspaper to the side of the street .
+(z1 / and
+      :op1 (z2 / come-01
+            :ARG1 (z3 / family)
+            :ARG3 (z4 / shop-01
+                  :ARG0 z3)
+            :direction (z5 / back))
+      :op2 (z6 / read-01
+            :ARG0 (z7 / gentleman)
+            :ARG1 (z8 / newspaper
+                  :poss z7)
+            :location (z9 / side
+                  :mod (z10 / street))))

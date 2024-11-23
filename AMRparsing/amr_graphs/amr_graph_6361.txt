@@ -1,0 +1,4 @@
+(w0 / walk-01
+    :ARG0 (g0 / group
+              :consist-of (m0 / male
+                              :mod (y0 / young))))

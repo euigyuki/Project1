@@ -1,0 +1,11 @@
+# ::snt a blond child climbing across a net .
+# ::tokens ["a", "blond", "child", "climbing", "across", "a", "net", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "VBG", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "blond", "child", "climb", "across", "a", "net", "."]
+(c0 / child
+      :ARG0-of (c1 / climb-01
+            :ARG1 (a0 / across
+                  :op1 (n0 / net)))
+      :mod (b0 / blond))

@@ -1,0 +1,14 @@
+# ::snt three brown dogs are jumping up at the woman wearing blue .
+# ::tokens ["three", "brown", "dogs", "are", "jumping", "up", "at", "the", "woman", "wearing", "blue", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "JJ", "NNS", "VBP", "VBG", "RP", "IN", "DT", "NN", "VBG", "JJ", "."]
+# ::lemmas ["three", "brown", "dog", "be", "jump", "up", "at", "the", "woman", "wear", "blue", "."]
+(j0 / jump-03
+      :direction (u0 / up)
+      :direction (w0 / woman
+            :ARG0-of (w1 / wear-01
+                  :ARG1 (b1 / blue)))
+      :ARG0 (d0 / dog
+            :quant 3 
+            :quant (b0 / brown)))

@@ -1,0 +1,11 @@
+# ::snt a baby and a young boy playing .
+# ::tokens ["a", "baby", "and", "a", "young", "boy", "playing", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "CC", "DT", "JJ", "NN", "VBG", "."]
+# ::lemmas ["a", "baby", "and", "a", "young", "boy", "play", "."]
+(p0 / play-01
+      :ARG0 (a0 / and
+            :op2 (b1 / boy
+                  :mod (y0 / young))
+            :op1 (b0 / baby)))

@@ -1,0 +1,31 @@
+# ::snt a girl sitting on the steps of a building wearing a green short-sleeve shirt , blue jeans , flip-flops holding a cup and writing in a journal with her purse sitting at her feet .
+# ::tokens ["a", "girl", "sitting", "on", "the", "steps", "of", "a", "building", "wearing", "a", "green", "short", "-", "sleeve", "shirt", ",", "blue", "jeans", ",", "flip", "-", "flops", "holding", "a", "cup", "and", "writing", "in", "a", "journal", "with", "her", "purse", "sitting", "at", "her", "feet", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBG", "IN", "DT", "NNS", "IN", "DT", "NN", "VBG", "DT", "JJ", "JJ", "HYPH", "NN", "NN", ",", "JJ", "NNS", ",", "NN", "HYPH", "NNS", "VBG", "DT", "NN", "CC", "VBG", "IN", "DT", "NN", "IN", "PRP$", "NN", "VBG", "IN", "PRP$", "NNS", "."]
+# ::lemmas ["a", "girl", "sit", "on", "the", "step", "of", "a", "building", "wear", "a", "green", "short", "-", "sleeve", "shirt", ",", "blue", "jean", ",", "flip", "-", "flop", "hold", "a", "cup", "and", "write", "in", "a", "journal", "with", "her", "purse", "sit", "at", "her", "foot", "."]
+(a0 / and
+      :op3 (w0 / write-01
+            :ARG1 (j0 / journal)
+            :ARG0 g0)
+      :op2 (h0 / hold-01
+            :ARG1 (c0 / cup))
+      :op1 (s0 / sit-01
+            :ARG2 (s1 / step
+                  :part-of (b0 / building))
+            :ARG1 (g0 / girl
+                  :part (f0 / foot
+                        :ARG2-of (s2 / sit-01
+                              :ARG1 p0))
+                  :part (p0 / purse)
+                  :part (w1 / wear-01
+                        :ARG1 (n0 / name
+                              :op1 "purse" )
+                        :location (j1 / jean
+                              :mod (f1 / flip)
+                              :mod (b1 / blue))
+                        :ARG0 (s3 / shirt
+                              :mod (g1 / green-02)
+                              :mod (s4 / sleeve
+                                    :ARG1-of (s5 / short-07))))
+                  :ARG1-of s2)))

@@ -1,0 +1,15 @@
+# ::snt two women holding children talking to one another .
+# ::tokens ["two", "women", "holding", "children", "talking", "to", "one", "another", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "VBG", "NNS", "VBG", "IN", "CD", "DT", "."]
+# ::lemmas ["two", "woman", "hold", "child", "talk", "to", "one", "another", "."]
+(a0 / and
+      :op2 (t0 / talk-01
+            :ARG2 (a1 / another)
+            :ARG0 w0
+            :ARG1 c0)
+      :op1 (h0 / hold-01
+            :ARG0 (w0 / woman
+                  :quant 2 )
+            :ARG1 (c0 / child)))

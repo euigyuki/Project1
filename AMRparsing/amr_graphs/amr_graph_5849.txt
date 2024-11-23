@@ -1,0 +1,11 @@
+# ::snt the two dogs are in the murky water
+# ::tokens ["the", "two", "dogs", "are", "in", "the", "murky", "water"]
+# ::ner_tags ["O", "CARDINAL", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "B", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "CD", "NNS", "VBP", "IN", "DT", "JJ", "NN"]
+# ::lemmas ["the", "two", "dog", "be", "in", "the", "murky", "water"]
+(b0 / be-located-at-91
+      :ARG2 (w0 / water
+            :ARG1-of (m0 / murky))
+      :ARG1 (d0 / dog
+            :quant 2 ))

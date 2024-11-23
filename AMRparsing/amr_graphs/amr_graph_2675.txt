@@ -1,0 +1,12 @@
+# ::snt boy in green tunic on rock wall .
+# ::tokens ["boy", "in", "green", "tunic", "on", "rock", "wall", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["NN", "IN", "JJ", "NN", "IN", "NN", "NN", "."]
+# ::lemmas ["boy", "in", "green", "tunic", "on", "rock", "wall", "."]
+(b0 / be-located-at-91
+      :ARG2 (w0 / wall
+            :mod (r0 / rock))
+      :ARG1 (b1 / boy
+            :prep-in (t0 / tunic
+                  :ARG1-of (g0 / green-02))))

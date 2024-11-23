@@ -1,0 +1,4 @@
+(s0 / sit-01
+    :ARG1 (g0 / group
+              :consist-of (p0 / person
+                              :ARG0-of (e0 / enjoy-01))))

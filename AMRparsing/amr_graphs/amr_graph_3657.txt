@@ -1,0 +1,15 @@
+# ::snt two dogs are running together down a with path covered in dead leaves .
+# ::tokens ["two", "dogs", "are", "running", "together", "down", "a", "with", "path", "covered", "in", "dead", "leaves", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "VBP", "VBG", "RB", "IN", "DT", "IN", "NN", "VBN", "IN", "JJ", "NNS", "."]
+# ::lemmas ["two", "dog", "be", "run", "together", "down", "a", "with", "path", "cover", "in", "dead", "leave", "."]
+(r0 / run-02
+      :direction (d1 / down)
+      :mod (t0 / together)
+      :ARG0 (d0 / dog
+            :quant 2 )
+      :ARG1 (p0 / path
+            :ARG1-of (c0 / cover-02
+                  :ARG2 (l0 / leave
+                        :ARG1-of (d2 / die-01)))))

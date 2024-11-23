@@ -1,0 +1,16 @@
+# ::snt a man sleeping on a bench outside with a white and black dog sitting next to him .
+# ::tokens ["a", "man", "sleeping", "on", "a", "bench", "outside", "with", "a", "white", "and", "black", "dog", "sitting", "next", "to", "him", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBG", "IN", "DT", "NN", "RB", "IN", "DT", "JJ", "CC", "JJ", "NN", "VBG", "RB", "IN", "PRP", "."]
+# ::lemmas ["a", "man", "sleep", "on", "a", "bench", "outside", "with", "a", "white", "and", "black", "dog", "sit", "next", "to", "he", "."]
+(s0 / sleep-01
+      :location (b0 / bench
+            :location (o0 / outside))
+      :ARG0 (m0 / man
+            :op1-of (n0 / next-to
+                  :location-of (s1 / sit-01
+                        :op1 m0
+                        :ARG2 (d0 / dog
+                              :ARG1-of (b1 / black-04)
+                              :mod (w0 / white-03))))))

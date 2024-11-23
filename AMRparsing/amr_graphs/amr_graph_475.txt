@@ -1,0 +1,20 @@
+# ::snt a young white female in a black beanie and maroon snowsuit laying on the snowy ground making a snow angel .
+# ::tokens ["a", "young", "white", "female", "in", "a", "black", "beanie", "and", "maroon", "snowsuit", "laying", "on", "the", "snowy", "ground", "making", "a", "snow", "angel", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "JJ", "NN", "IN", "DT", "JJ", "NN", "CC", "NNP", "NN", "VBG", "IN", "DT", "JJ", "NN", "VBG", "DT", "NN", "NN", "."]
+# ::lemmas ["a", "young", "white", "female", "in", "a", "black", "beanie", "and", "maroon", "snowsuit", "lay", "on", "the", "snowy", "ground", "make", "a", "snow", "angel", "."]
+(l0 / lay-01
+      :ARG2 (m0 / make-01
+            :location (g0 / ground)
+            :ARG1 (a1 / angel
+                  :mod (s1 / snow-01))
+            :location (a0 / and
+                  :op2 (s0 / snowsuit
+                        :mod (m1 / maroon))
+                  :op1 (b0 / beanie
+                        :ARG1-of (b1 / black-04))))
+      :ARG1 (f0 / female
+            :ARG0-of (w1 / wear-01)
+            :ARG1-of (w0 / white-02)
+            :mod (y0 / young)))

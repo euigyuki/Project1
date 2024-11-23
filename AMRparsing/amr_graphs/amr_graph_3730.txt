@@ -1,0 +1,9 @@
+# ::snt a woman happy about something .
+# ::tokens ["a", "woman", "happy", "about", "something", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "JJ", "IN", "NN", "."]
+# ::lemmas ["a", "woman", "happy", "about", "something", "."]
+(h0 / happy-01
+      :ARG0 (s0 / something)
+      :ARG1 (w0 / woman))

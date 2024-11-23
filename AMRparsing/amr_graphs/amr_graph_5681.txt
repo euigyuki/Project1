@@ -1,0 +1,6 @@
+(h0 / hold-01
+    :ARG3 (c0 / close-10
+              :ARG1 (m0 / man)
+              :ARG2 (p0 / person
+                        :quant 4))
+    :ARG1 (g0 / guitar))

@@ -1,0 +1,3 @@
+(p0 / play-11
+    :ARG0 (w0 / woman)
+    :ARG1 (g0 / guitar))

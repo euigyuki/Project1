@@ -1,0 +1,9 @@
+# ::snt something gets knocked down by a bulldozer .
+# ::tokens ["something", "gets", "knocked", "down", "by", "a", "bulldozer", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["NN", "VBZ", "VBN", "RP", "IN", "DT", "NN", "."]
+# ::lemmas ["something", "get", "knock", "down", "by", "a", "bulldozer", "."]
+(d0 / down-01
+      :ARG0 (b0 / bulldozer)
+      :ARG1 (s0 / something))

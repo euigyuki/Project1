@@ -1,0 +1,12 @@
+# ::snt a man in a green shirt hailing a cab .
+# ::tokens ["a", "man", "in", "a", "green", "shirt", "hailing", "a", "cab", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "DT", "JJ", "NN", "VBG", "DT", "NN", "."]
+# ::lemmas ["a", "man", "in", "a", "green", "shirt", "hail", "a", "cab", "."]
+(h0 / hail
+      :domain (m0 / man
+            :ARG0-of (h1 / have-03
+                  :ARG1 (s0 / shirt
+                        :ARG1-of (g0 / green-02))))
+      :mod (c0 / cab))

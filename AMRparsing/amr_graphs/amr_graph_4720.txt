@@ -1,0 +1,10 @@
+# ::snt children playing a soccer game .
+# ::tokens ["children", "playing", "a", "soccer", "game", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["NNS", "VBG", "DT", "NN", "NN", "."]
+# ::lemmas ["child", "play", "a", "soccer", "game", "."]
+(p0 / play-01
+      :ARG0 (c0 / child)
+      :ARG1 (g0 / game
+            :mod (s0 / soccer)))

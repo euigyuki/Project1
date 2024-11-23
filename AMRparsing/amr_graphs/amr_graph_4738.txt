@@ -1,0 +1,15 @@
+# ::snt a young man wearing a yellow shirt and baseball helemt swinging a bat
+# ::tokens ["a", "young", "man", "wearing", "a", "yellow", "shirt", "and", "baseball", "helemt", "swinging", "a", "bat"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "VBG", "DT", "JJ", "NN", "CC", "NN", "NN", "VBG", "DT", "NN"]
+# ::lemmas ["a", "young", "man", "wear", "a", "yellow", "shirt", "and", "baseball", "helemt", "swinge", "a", "bat"]
+(w0 / wield-01
+      :ARG0 (m0 / man
+            :ARG0-of (w1 / wear-01
+                  :ARG1 (a0 / and
+                        :op2 (b1 / baseball)
+                        :op1 (s0 / shirt
+                              :mod (y1 / yellow))))
+            :mod (y0 / young))
+      :ARG1 (b0 / bat))

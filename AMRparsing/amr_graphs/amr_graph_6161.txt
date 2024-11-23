@@ -1,0 +1,26 @@
+# ::snt a brunette artist wearing a respirator is carving a sad looking knight into a brick structure that is only partially visible but appears to perhaps be part of a modern castle of some kind .
+# ::tokens ["a", "brunette", "artist", "wearing", "a", "respirator", "is", "carving", "a", "sad", "looking", "knight", "into", "a", "brick", "structure", "that", "is", "only", "partially", "visible", "but", "appears", "to", "perhaps", "be", "part", "of", "a", "modern", "castle", "of", "some", "kind", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "NN", "VBG", "DT", "NN", "VBZ", "VBG", "DT", "JJ", "VBG", "NN", "IN", "DT", "NN", "NN", "WDT", "VBZ", "RB", "RB", "JJ", "CC", "VBZ", "TO", "RB", "VB", "NN", "IN", "DT", "JJ", "NN", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "brunette", "artist", "wear", "a", "respirator", "be", "carve", "a", "sad", "look", "knight", "into", "a", "brick", "structure", "that", "be", "only", "partially", "visible", "but", "appear", "to", "perhaps", "be", "part", "of", "a", "modern", "castle", "of", "some", "kind", "."]
+(c0 / carve-out-03
+      :ARG1 (k0 / knight
+            :ARG0-of (l0 / look-02
+                  :ARG1 (s2 / sad-02))
+            :ARG1-of (h0 / have-part-91
+                  :ARG1-of (a1 / appear-02)
+                  :ARG1 (c2 / castle
+                        :ARG1-of (m0 / modern-02)
+                        :mod (k1 / kind
+                              :mod (s3 / some)))))
+      :ARG0 (a0 / artist
+            :ARG0-of (w0 / wear-01
+                  :ARG1 (r0 / respirator))
+            :mod (b1 / brunette))
+      :ARG2 (s0 / structure
+            :ARG1-of (s1 / see-01
+                  :degree (p0 / part)
+                  :ARG1-of (c1 / contrast-01)
+                  :mod (o0 / only))
+            :mod (b0 / brick)))

@@ -1,0 +1,12 @@
+(s0 / swim-01
+    :ARG0 (w0 / woman
+              :poss-of (l1 / lane)
+              :poss-of l0
+              :ARG0-of (w1 / wear-01
+                           :ARG1 (a0 / and
+                                     :op2 (g0 / goggle
+                                              :ARG1-of (b0 / black-04))
+                                     :op1 (c0 / cap
+                                              :purpose (s1 / swim-01)
+                                              :ARG1-of (r0 / red-02)))))
+    :ARG1 (l0 / lap))

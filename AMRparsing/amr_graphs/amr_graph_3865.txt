@@ -1,0 +1,7 @@
+(k0 / kneel-01
+    :ARG0 (b0 / boy
+              :ARG0-of (l0 / look-01
+                           :ARG1 s0)
+              :poss-of (s0 / shovel
+                           :mod (y0 / yellow))
+              :mod (l1 / little)))

@@ -1,0 +1,13 @@
+# ::snt several young children on an inflatable device .
+# ::tokens ["several", "young", "children", "on", "an", "inflatable", "device", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["JJ", "JJ", "NNS", "IN", "DT", "JJ", "NN", "."]
+# ::lemmas ["several", "young", "child", "on", "an", "inflatable", "device", "."]
+(c0 / child
+      :location (d0 / device
+            :ARG1-of (i0 / inflate-01
+                  :ARG1-of (p0 / possible-01
+                        :polarity - )))
+      :quant (s0 / several)
+      :mod (y0 / young))

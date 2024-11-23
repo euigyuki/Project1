@@ -1,0 +1,7 @@
+(g0 / girl
+    :ARG0-of (h0 / have-03
+                 :ARG1 (s0 / suit
+                           :consist-of (b2 / bathe-01)
+                           :consist-of (b1 / blue)
+                           :mod (p0 / piece
+                                    :quant 2))))

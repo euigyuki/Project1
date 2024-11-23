@@ -1,0 +1,4 @@
+(d0 / dig-01
+    :mod (t0 / together)
+    :ARG0 (g0 / girl
+              :quant 2))

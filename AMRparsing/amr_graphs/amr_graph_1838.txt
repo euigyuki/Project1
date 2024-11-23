@@ -1,0 +1,11 @@
+(w0 / walk-01
+    :time (l0 / look-01
+              :ARG0 (w1 / woman)
+              :ARG1 (d0 / display-01
+                        :ARG1 (w2 / window)
+                        :ARG0 (m0 / mannequin
+                                  :ARG1-of (d1 / dress
+                                               :ARG1-of (r0 / red-02)))))
+    :ARG0 w1
+    :ARG1 (a0 / along
+              :op1 (s0 / street)))

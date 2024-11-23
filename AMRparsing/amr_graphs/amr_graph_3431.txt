@@ -1,0 +1,10 @@
+(a0 / and
+    :op2 (l0 / look-01
+             :ARG1 (a1 / and
+                       :op2 (o0 / ocean)
+                       :op1 (r0 / rock)))
+    :op1 (s0 / sit-01
+             :ARG1 (b0 / back
+                       :part-of (d0 / dog
+                                    :ARG1-of (l1 / light-06)
+                                    :mod (b1 / brown)))))

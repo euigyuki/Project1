@@ -1,0 +1,23 @@
+# ::snt at the bedford avenue subway stop stood a smiling and strumming acoustic guitarist wearing jeans and a colorful vest .
+# ::tokens ["at", "the", "bedford", "avenue", "subway", "stop", "stood", "a", "smiling", "and", "strumming", "acoustic", "guitarist", "wearing", "jeans", "and", "a", "colorful", "vest", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["IN", "DT", "NNP", "NNP", "NN", "NN", "VBD", "DT", "VBG", "CC", "VBG", "JJ", "NN", "VBG", "NNS", "CC", "DT", "JJ", "NN", "."]
+# ::lemmas ["at", "the", "bedford", "avenue", "subway", "stop", "stand", "a", "smile", "and", "strum", "acoustic", "guitarist", "wear", "jean", "and", "a", "colorful", "vest", "."]
+(s0 / stand-01
+      :location (l0 / location
+            :name (n0 / name
+                  :op1 "avenue" )
+            :location-of (s3 / stop-01
+                  :ARG1 (s4 / subway
+                        :name (n1 / name
+                              :op1 "avenue" ))))
+      :ARG1 (g0 / guitarist
+            :mod (a0 / acoustic)
+            :ARG0-of (w0 / wear-01
+                  :ARG1 (a1 / and
+                        :op2 (v0 / vest
+                              :mod (c0 / colorful))
+                        :op1 (j0 / jean)))
+            :mod (s2 / smile-01)
+            :mod (s1 / sing-01)))

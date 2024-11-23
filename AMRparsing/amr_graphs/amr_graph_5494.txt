@@ -1,0 +1,12 @@
+# ::snt the silhouette of a young girl swinging up to the sky .
+# ::tokens ["the", "silhouette", "of", "a", "young", "girl", "swinging", "up", "to", "the", "sky", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "DT", "JJ", "NN", "VBG", "RP", "IN", "DT", "NN", "."]
+# ::lemmas ["the", "silhouette", "of", "a", "young", "girl", "swinge", "up", "to", "the", "sky", "."]
+(s0 / silhouette
+      :poss (g0 / girl
+            :ARG0-of (s1 / swing-02
+                  :direction (u0 / up)
+                  :direction (s2 / sky))
+            :mod (y0 / young)))

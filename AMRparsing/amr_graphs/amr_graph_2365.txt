@@ -1,0 +1,11 @@
+# ::snt a man with a hat is cooking barbecue .
+# ::tokens ["a", "man", "with", "a", "hat", "is", "cooking", "barbecue", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "DT", "NN", "VBZ", "VBG", "NN", "."]
+# ::lemmas ["a", "man", "with", "a", "hat", "be", "cook", "barbecue", "."]
+(c0 / cook-01
+      :ARG0 (m0 / man
+            :ARG0-of (h0 / have-03
+                  :ARG1 (h1 / hat)))
+      :ARG1 (b0 / barbecue))

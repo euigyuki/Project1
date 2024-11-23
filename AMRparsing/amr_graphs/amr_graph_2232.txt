@@ -1,0 +1,9 @@
+(g0 / group
+    :consist-of (a0 / arm
+                    :poss (p0 / person
+                              :ARG0-of (c0 / cycle-01)
+                              :consist g0)
+                    :op1-of (a1 / around
+                                :op1 (o0 / other
+                                         :mod (e0 / each))
+                                :manner-of (r0 / race-02))))

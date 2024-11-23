@@ -1,0 +1,7 @@
+(w0 / wear-01
+    :ARG0 (g0 / girl
+              :mod (l0 / little))
+    :ARG1 (a0 / and
+              :op2 (h0 / helmet)
+              :op1 (p0 / pad
+                       :mod (k0 / knee))))

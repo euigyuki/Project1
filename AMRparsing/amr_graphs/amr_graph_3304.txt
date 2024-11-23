@@ -1,0 +1,4 @@
+(s0 / sit-01
+    :mod (t0 / together)
+    :ARG1 (g0 / group
+              :consist-of (w0 / woman)))

@@ -1,0 +1,7 @@
+(a0 / and
+    :op2 (l0 / laugh-01
+             :ARG0 (g0 / girl
+                       :mod (y1 / young)
+                       :quant 2))
+    :op1 (p0 / play-01
+             :ARG0 g0))

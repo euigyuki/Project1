@@ -1,0 +1,7 @@
+(a0 / and
+    :op2 (r0 / read-01
+             :ARG1 (m0 / magazine)
+             :ARG0 (w0 / woman
+                       :mod (b1 / blond)))
+    :op1 (s0 / sit-01
+             :ARG1 w0))

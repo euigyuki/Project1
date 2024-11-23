@@ -1,0 +1,15 @@
+# ::snt children are contemplating their next move in a game of checkers .
+# ::tokens ["children", "are", "contemplating", "their", "next", "move", "in", "a", "game", "of", "checkers", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["NNS", "VBP", "VBG", "PRP$", "JJ", "NN", "IN", "DT", "NN", "IN", "NNS", "."]
+# ::lemmas ["child", "be", "contemplate", "their", "next", "move", "in", "a", "game", "of", "checker", "."]
+(c0 / contemplate-01
+      :ARG0 (p0 / person
+            :ARG0-of (m0 / move-01
+                  :ARG2 (g0 / game
+                        :mod (c1 / checker))
+                  :mod (n0 / next))
+            :ARG0-of (h0 / have-rel-role-91
+                  :ARG2 (c2 / child)))
+      :ARG1 m0)

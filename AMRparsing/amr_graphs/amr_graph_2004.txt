@@ -1,0 +1,12 @@
+# ::snt a woman is running towards the base while playing softball .
+# ::tokens ["a", "woman", "is", "running", "towards", "the", "base", "while", "playing", "softball", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "VBG", "IN", "DT", "NN", "IN", "VBG", "NN", "."]
+# ::lemmas ["a", "woman", "be", "run", "towards", "the", "base", "while", "play", "softball", "."]
+(r0 / run-02
+      :time (p0 / play-01
+            :ARG0 (w0 / woman)
+            :ARG1 (s0 / softball))
+      :ARG0 w0
+      :ARG1 (b0 / base))

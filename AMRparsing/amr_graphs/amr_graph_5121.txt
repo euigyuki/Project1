@@ -1,0 +1,16 @@
+# ::snt a black dog and a white dog are running across a sandy beach by the ocean .
+# ::tokens ["a", "black", "dog", "and", "a", "white", "dog", "are", "running", "across", "a", "sandy", "beach", "by", "the", "ocean", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "CC", "DT", "JJ", "NN", "VBP", "VBG", "IN", "DT", "JJ", "NN", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "black", "dog", "and", "a", "white", "dog", "be", "run", "across", "a", "sandy", "beach", "by", "the", "ocean", "."]
+(r0 / run-02
+      :ARG0 (a1 / and
+            :op2 (d1 / dog
+                  :ARG1-of (w0 / white-02))
+            :op1 (d0 / dog
+                  :ARG1-of (b1 / black-05)))
+      :ARG1 (a0 / across
+            :op1 (b0 / beach
+                  :mod (o0 / ocean)
+                  :mod (s0 / sandy))))

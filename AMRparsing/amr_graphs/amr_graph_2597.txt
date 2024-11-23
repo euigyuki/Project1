@@ -1,0 +1,3 @@
+(s0 / smile-01
+    :time (h0 / hold-01
+              :ARG1 (b0 / baby)))

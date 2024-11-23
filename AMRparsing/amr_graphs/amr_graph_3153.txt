@@ -1,0 +1,15 @@
+# ::snt a lady wearing a white t-shirt and a pink skirt is playing tennis .
+# ::tokens ["a", "lady", "wearing", "a", "white", "t", "-", "shirt", "and", "a", "pink", "skirt", "is", "playing", "tennis", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBG", "DT", "JJ", "NN", "HYPH", "NN", "CC", "DT", "JJ", "NN", "VBZ", "VBG", "NN", "."]
+# ::lemmas ["a", "lady", "wear", "a", "white", "t", "-", "shirt", "and", "a", "pink", "skirt", "be", "play", "tennis", "."]
+(p0 / play-01
+      :ARG0 (l0 / lady
+            :ARG0-of (w0 / wear-01
+                  :ARG1 (a0 / and
+                        :op2 (s1 / skirt
+                              :ARG1-of (p1 / pink-04))
+                        :op1 (s0 / shirt
+                              :ARG1-of (w1 / white-03)))))
+      :ARG1 (t0 / tennis))

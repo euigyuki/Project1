@@ -1,0 +1,11 @@
+# ::snt this person is on a red motorcycle .
+# ::tokens ["this", "person", "is", "on", "a", "red", "motorcycle", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "IN", "DT", "JJ", "NN", "."]
+# ::lemmas ["this", "person", "be", "on", "a", "red", "motorcycle", "."]
+(b0 / be-located-at-91
+      :ARG1 (p0 / person
+            :mod (t0 / this))
+      :ARG2 (m0 / motorcycle
+            :ARG1-of (r0 / red-02)))

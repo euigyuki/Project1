@@ -1,0 +1,7 @@
+(n0 / number
+    :quant-of (m0 / man
+                  :ARG0-of (w0 / wear-01
+                               :ARG1 (a0 / and
+                                         :op2 (s0 / shirt)
+                                         :op1 (h0 / hat
+                                                  :ARG1-of (r0 / red-02))))))

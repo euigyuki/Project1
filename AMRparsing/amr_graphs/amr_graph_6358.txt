@@ -1,0 +1,5 @@
+(h0 / hold-01
+    :ARG1-of (n0 / near-02
+                 :ARG2 (s0 / street))
+    :ARG1 (h1 / hand
+              :part-of (m0 / man)))

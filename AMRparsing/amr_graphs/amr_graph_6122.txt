@@ -1,0 +1,9 @@
+(h0 / have-03
+    :ARG1 (b0 / blast-05)
+    :ARG0 (t0 / teenager
+              :quant (p0 / play-01
+                         :ARG1 (b2 / band
+                                   :mod (r0 / rock
+                                            :mod (g0 / game
+                                                     :mod (v0 / video)))))
+              :quant 4))

@@ -1,0 +1,13 @@
+# ::snt a young boy is jumping through water being sprayed up from the ground .
+# ::tokens ["a", "young", "boy", "is", "jumping", "through", "water", "being", "sprayed", "up", "from", "the", "ground", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "VBZ", "VBG", "IN", "NN", "VBG", "VBN", "RP", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "young", "boy", "be", "jump", "through", "water", "be", "spray", "up", "from", "the", "ground", "."]
+(j0 / jump-03
+      :ARG2 (w0 / water
+            :ARG1-of (s0 / spray-01
+                  :ARG2 (g0 / ground)
+                  :direction (u0 / up)))
+      :ARG0 (b0 / boy
+            :mod (y0 / young)))

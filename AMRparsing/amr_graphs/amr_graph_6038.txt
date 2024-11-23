@@ -1,0 +1,6 @@
+(r0 / run-02
+    :ARG0 (b0 / boy
+              :ARG1-of (d0 / dress-01
+                           :ARG2 (c0 / cape
+                                     :ARG1-of (w0 / white-03)))
+              :quant 2))

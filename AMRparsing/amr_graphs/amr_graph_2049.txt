@@ -1,0 +1,5 @@
+(h0 / hold-01
+    :time (w0 / watch-01)
+    :ARG1-of (n0 / near-02
+                 :ARG2 (g0 / ground))
+    :ARG1 (s0 / string))

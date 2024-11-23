@@ -1,0 +1,12 @@
+# ::snt two young women are reading from a paper into a microphone .
+# ::tokens ["two", "young", "women", "are", "reading", "from", "a", "paper", "into", "a", "microphone", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "JJ", "NNS", "VBP", "VBG", "IN", "DT", "NN", "IN", "DT", "NN", "."]
+# ::lemmas ["two", "young", "woman", "be", "read", "from", "a", "paper", "into", "a", "microphone", "."]
+(r0 / read-01
+      :ARG3 (m0 / microphone)
+      :ARG0 (w0 / woman
+            :quant 2 
+            :mod (y0 / young))
+      :ARG1 (p0 / paper))

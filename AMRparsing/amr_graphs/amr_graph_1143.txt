@@ -1,0 +1,4 @@
+(s0 / stand-01
+    :ARG1 (w0 / woman
+              :ARG1-of (l0 / lean-01)
+              :ARG0-of (d0 / dress-01)))

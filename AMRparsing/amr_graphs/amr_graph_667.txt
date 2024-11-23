@@ -1,0 +1,14 @@
+# ::snt a group of dogs pull a person on a dog sled up a hill .
+# ::tokens ["a", "group", "of", "dogs", "pull", "a", "person", "on", "a", "dog", "sled", "up", "a", "hill", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "NNS", "VBP", "DT", "NN", "IN", "DT", "NN", "VBD", "RP", "DT", "NN", "."]
+# ::lemmas ["a", "group", "of", "dog", "pull", "a", "person", "on", "a", "dog", "sle", "up", "a", "hill", "."]
+(p0 / pull-01
+      :direction (u0 / up)
+      :ARG2 (s0 / sle
+            :mod (d2 / dog)
+            :part-of (d1 / dog))
+      :ARG0 (g0 / group
+            :consist-of (d0 / dog))
+      :ARG1 (p1 / person))

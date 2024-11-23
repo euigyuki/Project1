@@ -1,0 +1,15 @@
+# ::snt two men , <number> in yellow shirt , preparing to play in a high school band .
+# ::tokens ["two", "men", ",", "<", "number", ">", "in", "yellow", "shirt", ",", "preparing", "to", "play", "in", "a", "high", "school", "band", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", ",", "ADD", "NN", "-RRB-", "IN", "JJ", "NN", ",", "VBG", "TO", "VB", "IN", "DT", "JJ", "NN", "NN", "."]
+# ::lemmas ["two", "man", ",", "<", "number", ">", "in", "yellow", "shirt", ",", "prepare", "to", "play", "in", "a", "high", "school", "band", "."]
+(m0 / man
+      :ARG0-of (p1 / play-01
+            :ARG2-of (p0 / prepare-02
+                  :ARG1 m0)
+            :ARG2 (b0 / band
+                  :mod (h0 / high-school)))
+      :quant (s0 / shirt
+            :mod (y0 / yellow))
+      :quant 4 )

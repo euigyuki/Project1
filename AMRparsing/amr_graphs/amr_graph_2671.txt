@@ -1,0 +1,9 @@
+(r0 / run-02
+    :path (a0 / along
+              :op1 (w0 / wall
+                       :ARG1-of (s1 / smooth-04)
+                       :mod (s0 / stone)))
+    :ARG0 (b0 / boy
+              :ARG1-of (d0 / dress-01
+                           :ARG2 (g0 / green))
+              :mod (y0 / young)))

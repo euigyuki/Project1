@@ -1,0 +1,4 @@
+(p0 / play-01
+    :ARG2 (d0 / dog
+              :mod (a0 / adult))
+    :ARG0 (p1 / puppy))

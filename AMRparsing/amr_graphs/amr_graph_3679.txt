@@ -1,0 +1,6 @@
+(a0 / and
+    :op2 (h0 / hold-01
+             :ARG1 (h1 / hammer
+                       :mod (t0 / toy)))
+    :op1 (s0 / sit-down-02
+             :ARG1 (b0 / boy)))

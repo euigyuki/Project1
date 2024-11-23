@@ -1,0 +1,5 @@
+(p0 / play-02
+    :ARG0 (b1 / boy
+              :mod (s0 / small)
+              :quant 3)
+    :ARG1 (b0 / basketball))

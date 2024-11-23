@@ -1,0 +1,8 @@
+(l0 / look-01
+    :ARG0 (w0 / woman
+              :ARG0-of (w1 / wear-01
+                           :ARG1 (c0 / coat
+                                     :mod (l1 / lab)))
+              :quant 2)
+    :ARG1 (i0 / image
+              :ARG1-of (p0 / project-01)))

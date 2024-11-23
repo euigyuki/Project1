@@ -1,0 +1,5 @@
+(h0 / have-03
+    :ARG0 (g0 / group
+              :part (a0 / arm)
+              :consist-of (b0 / bicyclist))
+    :ARG1 a0)

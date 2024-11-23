@@ -1,0 +1,12 @@
+(s0 / sit-01
+    :accompanier (m0 / man
+                     :part (h1 / have-03))
+    :ARG1 (w0 / woman
+              :ARG0-of (h0 / have-03
+                           :ARG1 (h2 / hat
+                                     :ARG1-of (b1 / black-04)))
+              :ARG1-of (w1 / wear-01
+                           :ARG1 (s1 / sweater
+                                     :ARG1-of (b0 / brown)
+                                     :mod (t0 / tan)))
+              :mod (y0 / young)))

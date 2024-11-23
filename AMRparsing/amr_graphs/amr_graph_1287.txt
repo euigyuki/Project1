@@ -1,0 +1,7 @@
+(c0 / climb-01
+    :ARG0 (d0 / dog
+              :ARG1-of (g0 / gray-02))
+    :direction (u0 / up)
+    :ARG1 (b0 / branch
+              :ARG1-of (l0 / low-04)
+              :mod (t0 / tree)))

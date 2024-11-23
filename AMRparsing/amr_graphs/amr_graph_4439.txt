@@ -1,0 +1,5 @@
+(r0 / ride-01
+    :ARG0 (b0 / boy)
+    :ARG1 (t0 / thing
+              :ARG1-of (c0 / cycle-01
+                           :polarity -)))

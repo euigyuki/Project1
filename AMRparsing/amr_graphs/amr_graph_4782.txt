@@ -1,0 +1,6 @@
+(s0 / sweep-01
+    :ARG4 (o0 / over
+              :op1 (t0 / top
+                       :part-of (p0 / playpen
+                                    :mod (b1 / blue))))
+    :ARG0 (b0 / baby))

@@ -1,0 +1,5 @@
+(s0 / smile-01
+    :time (s1 / strum
+              :ARG0 (w0 / woman
+                        :mod (y0 / young)
+                        :ARG0-of s0)))

@@ -1,0 +1,107 @@
+Sentence,Verb,Lemma,PropBank Role (n)
+several men in hard hats are operating a giant pulley system .,operate-01,operate,N/A
+a man with black hair sits in a restaurant with a glass of beer .,sit-01,sit,2
+"man wearing a blue and white outfit , holding a broom , with a traditional asian architecture in the background .",hold-01,hold,0
+"man wearing a blue and white outfit , holding a broom , with a traditional asian architecture in the background .",wear-01,wear,0
+a person in tan pants is inside a silver mobile object while people watch .,watch-01,watch,N/A
+a person in tan pants is inside a silver mobile object while people watch .,wear-01,wear,N/A
+"a man in black approaches a strange silver object containing a person , while many onlookers observe from behind a roped off barrier .",contrast-01,contrast,2
+"a man in black approaches a strange silver object containing a person , while many onlookers observe from behind a roped off barrier .",observe-01,observe,2
+"a man in black approaches a strange silver object containing a person , while many onlookers observe from behind a roped off barrier .",approach-01,approach,2
+"a man in black approaches a strange silver object containing a person , while many onlookers observe from behind a roped off barrier .",contain-01,contain,2
+white dog with brown ears standing near water with head turned to one side .,stand-01,stand,2
+white dog with brown ears standing near water with head turned to one side .,turn-01,turn,2
+two people are demonstrating martial arts to a crowd and jumping over three youngsters who are crouched on the mat .,bind-01,bind,N/A
+two people are demonstrating martial arts to a crowd and jumping over three youngsters who are crouched on the mat .,demonstrate-01,demonstrate,N/A
+a mottled black and gray dog in a blue collar jumping over a fallen tree .,fall-01,fall,m
+man on scooter attracts attention from some of those in large crowd .,attract-01,attract,N/A
+a group of people stand in the back of a truck filled with cotton .,stand-01,stand,2
+a group of people stand in the back of a truck filled with cotton .,fill-01,fill,2
+a man and a little girl happily posing in front of their cart in a supermarket .,pose-01,pose,N/A
+a man and a little girl happily posing in front of their cart in a supermarket .,happy-01,happy,N/A
+two young men and a young lady walk through a field near the water .,walk-01,walk,2
+"five snowmobile riders all wearing helmets and goggles line up in a snowy clearing in a forest in front of their snowmobiles ; they are all wearing black snow pants and from left to right they are wearing a black coat , white coat , red coat , blue coat , and black coat .",wear-01,wear,N/A
+"five snowmobile riders all wearing helmets and goggles line up in a snowy clearing in a forest in front of their snowmobiles ; they are all wearing black snow pants and from left to right they are wearing a black coat , white coat , red coat , blue coat , and black coat .",wear-01,wear,N/A
+"five snowmobile riders all wearing helmets and goggles line up in a snowy clearing in a forest in front of their snowmobiles ; they are all wearing black snow pants and from left to right they are wearing a black coat , white coat , red coat , blue coat , and black coat .",wear-01,wear,N/A
+"two men , one younger guy with a yellow shirt that has luggage and the other and older guy , are sitting on a bench in front of a large building that has a billboard for glasses and sunglasses .",sit-01,sit,2
+the man with the backpack is sitting in a buildings courtyard in front of an art sculpture reading .,sit-01,sit,2
+the man with the backpack is sitting in a buildings courtyard in front of an art sculpture reading .,read-01,read,2
+a toddler in a blue shirt with red shorts and hat looks out from behind a fenced in area of a brick patio .,look-01,look,2
+a small boy putting something in his mouth with both hands .,put-01,put,N/A
+a man in a green shirt and red life jacket is sitting in a canoe drifting around the lake .,sit-01,sit,2
+a man in a green shirt and red life jacket is sitting in a canoe drifting around the lake .,wear-01,wear,2
+a man in a green shirt and red life jacket is sitting in a canoe drifting around the lake .,drift-01,drift,2
+someone is standing on a long bridge with a cloudy blue sky in the background .,stand-01,stand,2
+"this little baby girl dressed whimsically in striped pantaloons is pictured so that one must ask which is bigger , her feet or her sleepy smile .",cause-01,cause,N/A
+"this little baby girl dressed whimsically in striped pantaloons is pictured so that one must ask which is bigger , her feet or her sleepy smile .",picture-01,picture,N/A
+"this little baby girl dressed whimsically in striped pantaloons is pictured so that one must ask which is bigger , her feet or her sleepy smile .",dress-01,dress,N/A
+"this little baby girl dressed whimsically in striped pantaloons is pictured so that one must ask which is bigger , her feet or her sleepy smile .",obligate-01,obligate,N/A
+"this little baby girl dressed whimsically in striped pantaloons is pictured so that one must ask which is bigger , her feet or her sleepy smile .",ask-01,ask,N/A
+"this little baby girl dressed whimsically in striped pantaloons is pictured so that one must ask which is bigger , her feet or her sleepy smile .",smile-01,smile,N/A
+"this little baby girl dressed whimsically in striped pantaloons is pictured so that one must ask which is bigger , her feet or her sleepy smile .",sleep-01,sleep,N/A
+"two separate women , one wearing a white top and black pants , the other wearing all black and a pair of pink flip-flops , kneel on a gray brick sidewalk path in front of green and red bushes .",lean-01,lean,2
+"two separate women , one wearing a white top and black pants , the other wearing all black and a pair of pink flip-flops , kneel on a gray brick sidewalk path in front of green and red bushes .",wear-01,wear,2
+"two separate women , one wearing a white top and black pants , the other wearing all black and a pair of pink flip-flops , kneel on a gray brick sidewalk path in front of green and red bushes .",wear-01,wear,2
+"two separate women , one wearing a white top and black pants , the other wearing all black and a pair of pink flip-flops , kneel on a gray brick sidewalk path in front of green and red bushes .",wear-01,wear,2
+a young girl wearing a multicolored holding an orange ball in her right hand walking through bright green grass behind a house,walk-01,walk,2
+a young girl wearing a multicolored holding an orange ball in her right hand walking through bright green grass behind a house,hold-01,hold,2
+"several people jogging outside on a sunny day in what seems to be a neighborhood , could be part of a marathon .",possible-01,possible,N/A
+"several people jogging outside on a sunny day in what seems to be a neighborhood , could be part of a marathon .",seem-01,seem,N/A
+pink shirted woman sleeping in a car with blue and white blanket on her .,sleep-01,sleep,2
+pink shirted woman sleeping in a car with blue and white blanket on her .,shine-01,shine,2
+firefighters converse with a man at the scene of an emergency .,converse-01,converse,N/A
+firefighters converse with a man at the scene of an emergency .,fight-01,fight,N/A
+a man is kneeling down with a child on a beach where bright blue and red boats are stationed in the background .,kneel-01,kneel,2
+a man is kneeling down with a child on a beach where bright blue and red boats are stationed in the background .,station-01,station,2
+a large earth moving machine creating a track with a man watching it closely with what looks like surveying equipment .,create-01,create,N/A
+a large earth moving machine creating a track with a man watching it closely with what looks like surveying equipment .,watch-01,watch,N/A
+a large earth moving machine creating a track with a man watching it closely with what looks like surveying equipment .,survey-01,survey,N/A
+a large earth moving machine creating a track with a man watching it closely with what looks like surveying equipment .,move-01,move,N/A
+kids riding on their bicycles near a mound of dirt with a hovel from a backhoe in front of the mound .,ride-01,ride,N/A
+a man in an all black outfit just threw a bowling ball down a lane towards the center of the bowling pins .,throw-01,throw,N/A
+a man in an all black outfit just threw a bowling ball down a lane towards the center of the bowling pins .,bowl-01,bowl,N/A
+a little boy rides a bike down a hill on a miniature dirt bike .,ride-01,ride,N/A
+a large group of people traveling down a countryside road in the back of a small pickup truck while one person is walking along side the truck .,walk-01,walk,2
+a large group of people traveling down a countryside road in the back of a small pickup truck while one person is walking along side the truck .,walk-01,walk,2
+a large group of people traveling down a countryside road in the back of a small pickup truck while one person is walking along side the truck .,travel-01,travel,2
+a male volleyball player in red trunks tries to block the shot of the opposing player during a professional volleyball game .,try-01,try,3
+a male volleyball player in red trunks tries to block the shot of the opposing player during a professional volleyball game .,block-01,block,3
+a male volleyball player in red trunks tries to block the shot of the opposing player during a professional volleyball game .,shoot-01,shoot,3
+a male volleyball player in red trunks tries to block the shot of the opposing player during a professional volleyball game .,play-01,play,3
+a male volleyball player in red trunks tries to block the shot of the opposing player during a professional volleyball game .,oppose-01,oppose,3
+a male volleyball player in red trunks tries to block the shot of the opposing player during a professional volleyball game .,wear-01,wear,3
+a male volleyball player in red trunks tries to block the shot of the opposing player during a professional volleyball game .,play-01,play,3
+a man kneels on the ground doing some sort of project on his own .,kneel-01,kneel,N/A
+a woman in a yellow shirt and green shorts is climbing an artificial red wall whilst wearing a safety harness .,climb-01,climb,N/A
+a woman in a yellow shirt and green shorts is climbing an artificial red wall whilst wearing a safety harness .,wear-01,wear,N/A
+a woman in a yellow shirt and green shorts is climbing an artificial red wall whilst wearing a safety harness .,safe-01,safe,N/A
+"a girl sitting on the steps of a building wearing a green short-sleeve shirt , blue jeans , flip-flops holding a cup and writing in a journal with her purse sitting at her feet .",write-01,write,0
+"a girl sitting on the steps of a building wearing a green short-sleeve shirt , blue jeans , flip-flops holding a cup and writing in a journal with her purse sitting at her feet .",hold-01,hold,0
+"a girl sitting on the steps of a building wearing a green short-sleeve shirt , blue jeans , flip-flops holding a cup and writing in a journal with her purse sitting at her feet .",sit-01,sit,0
+"a girl sitting on the steps of a building wearing a green short-sleeve shirt , blue jeans , flip-flops holding a cup and writing in a journal with her purse sitting at her feet .",sit-01,sit,0
+"a girl sitting on the steps of a building wearing a green short-sleeve shirt , blue jeans , flip-flops holding a cup and writing in a journal with her purse sitting at her feet .",wear-01,wear,0
+a woman dressed in a blue jacket and blue jeans rides a brown horse near a frozen lake and snow-covered mountain .,ride-01,ride,N/A
+a woman dressed in a blue jacket and blue jeans rides a brown horse near a frozen lake and snow-covered mountain .,freeze-01,freeze,N/A
+a woman dressed in a blue jacket and blue jeans rides a brown horse near a frozen lake and snow-covered mountain .,dress-01,dress,N/A
+"a person climbs a tall , flat mountain while holding onto a safety rope .",climb-01,climb,0
+"a person climbs a tall , flat mountain while holding onto a safety rope .",hold-01,hold,0
+"a person climbs a tall , flat mountain while holding onto a safety rope .",safe-01,safe,0
+a group of hikers are resting on the ground in front of some mountains .,sit-01,sit,2
+a group of hikers are resting on the ground in front of some mountains .,fish-01,fish,2
+a group of african american children with their arms above their heads and happy expressions on their faces .,express-01,express,3
+a young black person wearing a green shirt and a jacket using a sewing machine .,wear-01,wear,2
+a young black person wearing a green shirt and a jacket using a sewing machine .,sweep-01,sweep,2
+a woman smiles while holding several green peppers at a grocery stand .,smile-01,smile,0
+a woman smiles while holding several green peppers at a grocery stand .,hold-01,hold,0
+a young boy is jumping through water being sprayed up from the ground .,spray-01,spray,N/A
+three people on atvs in a brown field turn their heads to look at the camera .,turn-01,turn,m
+three people on atvs in a brown field turn their heads to look at the camera .,look-01,look,m
+a person dressed in a tan jacket jumps a quad over a harvested cornfield in front of a small out building .,jump-01,jump,2
+a person dressed in a tan jacket jumps a quad over a harvested cornfield in front of a small out building .,harvest-01,harvest,2
+a person dressed in a tan jacket jumps a quad over a harvested cornfield in front of a small out building .,dress-01,dress,2
+three men are riding on an elephant with a shack in the background and two of them are wearing hats .,wear-01,wear,N/A
+three men are riding on an elephant with a shack in the background and two of them are wearing hats .,ride-01,ride,N/A
+"a young boy , wearing goggles and a heads-up light , and a young girl , are smiling .",smile-01,smile,N/A
+"a young boy , wearing goggles and a heads-up light , and a young girl , are smiling .",wear-01,wear,N/A
+"a couple is sitting on the sand with their feet in the water , and they are shaking hands .",shake-01,shake,2
+"a couple is sitting on the sand with their feet in the water , and they are shaking hands .",sit-01,sit,2

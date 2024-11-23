@@ -1,0 +1,12 @@
+# ::snt two blue collar workers are working on a stage .
+# ::tokens ["two", "blue", "collar", "workers", "are", "working", "on", "a", "stage", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "JJ", "NN", "NNS", "VBP", "VBG", "IN", "DT", "NN", "."]
+# ::lemmas ["two", "blue", "collar", "worker", "be", "work", "on", "a", "stage", "."]
+(w0 / work-01
+      :ARG2 (s0 / stage)
+      :ARG0 (p0 / person
+            :quant 2 
+            :ARG0-of (w1 / work-01)
+            :mod (b0 / blue-collar)))

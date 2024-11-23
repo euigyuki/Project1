@@ -1,0 +1,7 @@
+(l0 / look-01
+    :accompanier (b0 / beside)
+    :ARG0 (m1 / man
+              :ARG0-of (h0 / have-03
+                           :ARG1 (t0 / tuba))
+              :ARG1-of (c0 / clothe-01))
+    :ARG1 (m0 / music))

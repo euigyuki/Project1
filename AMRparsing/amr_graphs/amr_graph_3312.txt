@@ -1,0 +1,15 @@
+(l0 / lift-01
+    :ARG1 (a1 / arm
+              :part-of (f0 / fan))
+    :ARG0 (p0 / person
+              :ARG0-of (h0 / have-org-role-91
+                           :ARG2 (m0 / member)
+                           :ARG1 (b0 / band)))
+    :time (a0 / and
+              :op2 (s0 / sing-01
+                       :ARG2 p0
+                       :time (l1 / light
+                                 :ARG1-of (l2 / low-04)))
+              :op1 (p1 / play-11
+                       :ARG1 p0
+                       :ARG2 (g0 / guitar))))

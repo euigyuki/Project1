@@ -1,0 +1,12 @@
+(c0 / contrast-01
+    :ARG2 (c1 / climb-01
+              :ARG0 (c3 / child
+                        :mod (o1 / other))
+              :ARG1 (o0 / over
+                        :op1 (p0 / part
+                                 :part-of (s0 / structure)
+                                 :part-of (o2 / other))))
+    :ARG1 (j0 / jump-03
+              :source (g0 / gym
+                          :mod (i0 / indoor))
+              :ARG0 (c2 / child)))

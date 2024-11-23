@@ -1,0 +1,12 @@
+# ::snt two football teams at the line of scrimmage
+# ::tokens ["two", "football", "teams", "at", "the", "line", "of", "scrimmage"]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "CARDINAL"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "B"]
+# ::pos_tags ["CD", "NN", "NNS", "IN", "DT", "NN", "IN", "NNP"]
+# ::lemmas ["two", "football", "team", "at", "the", "line", "of", "scrimmage"]
+(b0 / be-located-at-91
+      :ARG2 (l0 / line
+            :mod (s0 / scrimmage))
+      :ARG1 (t0 / team
+            :quant 2 
+            :mod (f0 / football)))

@@ -1,0 +1,7 @@
+(c0 / compete-01
+    :ARG0 (g1 / group
+              :consist-of (g2 / girl
+                              :mod (y0 / young)))
+    :ARG1 (g0 / game
+              :ARG1-of (h0 / hold-04)
+              :mod (b0 / basketball)))

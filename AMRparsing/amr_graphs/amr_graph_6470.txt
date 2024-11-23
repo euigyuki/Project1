@@ -1,0 +1,10 @@
+# ::snt a man in costume is ringing a bell .
+# ::tokens ["a", "man", "in", "costume", "is", "ringing", "a", "bell", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "NN", "VBZ", "VBG", "DT", "NN", "."]
+# ::lemmas ["a", "man", "in", "costume", "be", "ring", "a", "bell", "."]
+(r0 / ring
+      :ARG0 (m0 / man
+            :mod (c0 / costume))
+      :mod (b0 / bell))

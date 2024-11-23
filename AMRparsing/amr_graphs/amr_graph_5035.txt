@@ -1,0 +1,12 @@
+# ::snt guy on a ladder painting the building blue .
+# ::tokens ["guy", "on", "a", "ladder", "painting", "the", "building", "blue", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["NN", "IN", "DT", "NN", "VBG", "DT", "NN", "JJ", "."]
+# ::lemmas ["guy", "on", "a", "ladder", "paint", "the", "building", "blue", "."]
+(b0 / be-located-at-91
+      :ARG2 (l0 / ladder)
+      :ARG1 (g0 / guy
+            :ARG0-of (p0 / paint-02
+                  :ARG1 (b2 / building)
+                  :ARG2 (b1 / blue))))

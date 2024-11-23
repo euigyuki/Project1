@@ -1,0 +1,14 @@
+# ::snt a man drives a vehicle with a child on his lap .
+# ::tokens ["a", "man", "drives", "a", "vehicle", "with", "a", "child", "on", "his", "lap", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "DT", "NN", "IN", "DT", "NN", "IN", "PRP$", "NN", "."]
+# ::lemmas ["a", "man", "drive", "a", "vehicle", "with", "a", "child", "on", "his", "lap", "."]
+(d0 / drive-01
+      :instrument (l0 / lap
+            :poss (m0 / man
+                  :ARG1-of (h0 / have-rel-role-91
+                        :ARG2 (c0 / child)
+                        :ARG0 (p0 / person))))
+      :ARG0 m0
+      :ARG1 (v0 / vehicle))

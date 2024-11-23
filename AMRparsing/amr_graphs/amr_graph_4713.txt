@@ -1,0 +1,6 @@
+(s0 / stand-01
+    :ARG1 (b0 / boy
+              :ARG0-of (w0 / wear-01
+                           :ARG1 (u0 / uniform
+                                     :mod (s1 / sport)))
+              :quant 2))

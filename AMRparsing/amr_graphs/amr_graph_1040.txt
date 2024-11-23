@@ -1,0 +1,12 @@
+# ::snt three young girls are taking part in martial arts .
+# ::tokens ["three", "young", "girls", "are", "taking", "part", "in", "martial", "arts", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "JJ", "NNS", "VBP", "VBG", "NN", "IN", "JJ", "NNS", "."]
+# ::lemmas ["three", "young", "girl", "be", "take", "part", "in", "martial", "art", "."]
+(p0 / participate-01
+      :ARG0 (g0 / girl
+            :quant 3 
+            :mod (y0 / young))
+      :ARG1 (a0 / art
+            :mod (m0 / martial)))

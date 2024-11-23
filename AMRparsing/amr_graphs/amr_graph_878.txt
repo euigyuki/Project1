@@ -1,0 +1,4 @@
+(j0 / jump-03
+    :destination (p0 / pool)
+    :ARG0 (d0 / dog
+              :ARG1-of (b0 / black-04)))

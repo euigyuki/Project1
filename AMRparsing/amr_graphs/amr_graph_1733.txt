@@ -1,0 +1,6 @@
+(h0 / hold-01
+    :time (s0 / smoke-02
+              :ARG1 (c0 / cigarette))
+    :ARG1 (b0 / bag
+              :purpose (s1 / shop-01)
+              :mod (b1 / blue)))

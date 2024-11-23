@@ -1,0 +1,16 @@
+# ::snt the groom and bride are both jumping on the great wall of china .
+# ::tokens ["the", "groom", "and", "bride", "are", "both", "jumping", "on", "the", "great", "wall", "of", "china", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "GPE", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B", "O"]
+# ::pos_tags ["DT", "NN", "CC", "NN", "VBP", "DT", "VBG", "IN", "DT", "JJ", "NN", "IN", "NNP", "."]
+# ::lemmas ["the", "groom", "and", "bride", "be", "both", "jump", "on", "the", "great", "wall", "of", "china", "."]
+(j0 / jump-03
+      :ARG2 (w0 / wall
+            :part-of (c0 / country
+                  :name (n0 / name
+                        :op1 "China" ))
+            :mod (g1 / great))
+      :ARG0 (a0 / and
+            :op2 (b1 / bride)
+            :mod (b0 / both)
+            :op1 (g0 / groom)))

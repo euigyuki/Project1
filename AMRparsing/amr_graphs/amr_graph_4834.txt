@@ -1,0 +1,13 @@
+# ::snt a white man working a spotlight with no shirt on .
+# ::tokens ["a", "white", "man", "working", "a", "spotlight", "with", "no", "shirt", "on", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "VBG", "DT", "NN", "IN", "DT", "NN", "RP", "."]
+# ::lemmas ["a", "white", "man", "work", "a", "spotlight", "with", "no", "shirt", "on", "."]
+(w0 / work-01
+      :ARG0 (m0 / man
+            :ARG0-of (h0 / have-03
+                  :polarity - 
+                  :ARG1 (s1 / shirt))
+            :ARG1-of (w1 / white-02))
+      :ARG1 (s0 / spotlight))

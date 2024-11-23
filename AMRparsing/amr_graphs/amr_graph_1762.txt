@@ -1,0 +1,14 @@
+# ::snt a woman wearing a blue jacket is riding a bike on a sunny day .
+# ::tokens ["a", "woman", "wearing", "a", "blue", "jacket", "is", "riding", "a", "bike", "on", "a", "sunny", "day", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "DATE", "DATE", "DATE", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B", "I", "I", "O"]
+# ::pos_tags ["DT", "NN", "VBG", "DT", "JJ", "NN", "VBZ", "VBG", "DT", "NN", "IN", "DT", "JJ", "NN", "."]
+# ::lemmas ["a", "woman", "wear", "a", "blue", "jacket", "be", "ride", "a", "bike", "on", "a", "sunny", "day", "."]
+(r0 / ride-01
+      :time (d0 / day
+            :mod (s0 / sunny))
+      :ARG0 (w0 / woman
+            :ARG0-of (w1 / wear-01
+                  :ARG1 (j0 / jacket
+                        :mod (b1 / blue))))
+      :ARG1 (b0 / bike))

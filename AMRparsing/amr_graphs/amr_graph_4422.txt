@@ -1,0 +1,6 @@
+(p0 / play-01
+    :instrument (r0 / rope
+                    :mod (j0 / jump-03)
+                    :ARG1-of (l0 / long-03))
+    :ARG0 (p1 / person
+              :mod (y0 / young)))

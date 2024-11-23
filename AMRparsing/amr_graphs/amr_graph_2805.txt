@@ -1,0 +1,14 @@
+# ::snt a performer strikes an odd pose while on stage .
+# ::tokens ["a", "performer", "strikes", "an", "odd", "pose", "while", "on", "stage", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "NNS", "DT", "JJ", "NN", "IN", "IN", "NN", "."]
+# ::lemmas ["a", "performer", "strike", "an", "odd", "pose", "while", "on", "stage", "."]
+(s0 / strike-01
+      :time (b0 / be-located-at-91
+            :ARG1 (p1 / person
+                  :ARG0-of (p2 / perform-01))
+            :ARG2 (s1 / stage))
+      :ARG0 p1
+      :ARG1 (p0 / pose-01
+            :mod (o0 / odd)))

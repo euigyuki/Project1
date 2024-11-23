@@ -1,0 +1,3 @@
+(p0 / patrol-01
+    :ARG0 (p1 / policeman
+              :ARG0-of (w0 / wear-01)))

@@ -1,0 +1,13 @@
+# ::snt two opposing soccer team players communicating
+# ::tokens ["two", "opposing", "soccer", "team", "players", "communicating"]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "VBG", "NN", "NN", "NNS", "VBG"]
+# ::lemmas ["two", "oppose", "soccer", "team", "player", "communicate"]
+(c0 / communicate-01
+      :ARG0 (p0 / person
+            :ARG0-of (o0 / oppose-01)
+            :quant (p1 / play-01
+                  :ARG1 (t0 / team
+                        :mod (s0 / soccer)))
+            :quant 2 ))

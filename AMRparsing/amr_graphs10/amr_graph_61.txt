@@ -1,0 +1,10 @@
+# ::snt a man in a business suit talking on the phone and carrying a briefcase walking by a mirrored building .
+(z1 / walk-01
+      :ARG0 (z2 / man
+            :ARG0-of (z3 / talk-01
+                  :medium (z4 / phone))
+            :ARG0-of (z5 / carry-01
+                  :ARG1 (z6 / briefcase))
+            :ARG0-of (z7 / wear-01
+                  :ARG1 (z8 / suit
+                        :mod (z9 / business)))))

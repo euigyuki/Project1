@@ -1,0 +1,15 @@
+(d0 / divide-02
+    :ARG2 (g1 / group
+              :consist-of (h0 / hold-01
+                              :direction (u0 / up)
+                              :ARG1 (a1 / arm
+                                        :part-of (p1 / person
+                                                     :mod (b0 / back)
+                                                     :mod (e0 / each))))
+              :quant 2)
+    :ARG1 (g0 / group
+              :consist-of (a0 / and
+                              :op2 (t0 / teen
+                                       :mod (y0 / young))
+                              :op1 (k0 / kid
+                                       :mod (n0 / number)))))

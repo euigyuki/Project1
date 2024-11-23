@@ -1,0 +1,13 @@
+# ::snt cannot see picture to describe .
+# ::tokens ["can", "not", "see", "picture", "to", "describe", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["MD", "RB", "VB", "NN", "TO", "VB", "."]
+# ::lemmas ["can", "not", "see", "picture", "to", "describe", "."]
+(p0 / possible-01
+      :polarity - 
+      :ARG1 (s0 / see-01
+            :purpose (d0 / describe-01
+                  :ARG0 (y0 / you))
+            :ARG0 y0
+            :ARG1 (p1 / picture)))

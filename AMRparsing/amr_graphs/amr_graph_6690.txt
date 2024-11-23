@@ -1,0 +1,12 @@
+# ::snt a middle eastern family is walking
+# ::tokens ["a", "middle", "eastern", "family", "is", "walking"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "JJ", "NN", "VBZ", "VBG"]
+# ::lemmas ["a", "middle", "eastern", "family", "be", "walk"]
+(w0 / walk-01
+      :ARG0 (f0 / family
+            :location (w1 / world-region
+                  :name (n0 / name
+                        :op2 "East" 
+                        :op1 "Middle" ))))

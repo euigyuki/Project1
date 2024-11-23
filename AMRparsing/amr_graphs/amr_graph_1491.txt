@@ -1,0 +1,6 @@
+(c0 / contrast-01
+    :ARG2 (a1 / and
+              :op2 (s0 / swim-01
+                       :ARG0 (o0 / other))
+              :op1 (d0 / dive-01
+                       :ARG0 o0)))

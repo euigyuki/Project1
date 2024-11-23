@@ -1,0 +1,10 @@
+(m0 / move-01
+    :ARG2 (a0 / across
+              :op1 (s0 / street))
+    :ARG0 (m1 / man
+              :poss-of (c0 / cart
+                           :mod (g0 / grocery))
+              :ARG0-of (h0 / have-03
+                           :ARG1 (b0 / bottom
+                                     :ARG1-of (q0 / questionable))))
+    :ARG1 c0)

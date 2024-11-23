@@ -1,0 +1,11 @@
+# ::snt a man fills up an old bucket with sand .
+# ::tokens ["a", "man", "fills", "up", "an", "old", "bucket", "with", "sand", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "RP", "DT", "JJ", "NN", "IN", "NN", "."]
+# ::lemmas ["a", "man", "fill", "up", "an", "old", "bucket", "with", "sand", "."]
+(f0 / fill-01
+      :ARG2 (b0 / bucket
+            :mod (o0 / old))
+      :ARG0 (m0 / man)
+      :ARG1 (s0 / sand))

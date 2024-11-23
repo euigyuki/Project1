@@ -1,0 +1,17 @@
+# ::snt a boy signals with his hands while he walks a white dog with a pink leash .
+# ::tokens ["a", "boy", "signals", "with", "his", "hands", "while", "he", "walks", "a", "white", "dog", "with", "a", "pink", "leash", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "IN", "PRP$", "NNS", "IN", "PRP", "VBZ", "DT", "JJ", "NN", "IN", "DT", "JJ", "NN", "."]
+# ::lemmas ["a", "boy", "signal", "with", "his", "hand", "while", "he", "walk", "a", "white", "dog", "with", "a", "pink", "leash", "."]
+(s0 / signal-07
+      :manner (h0 / hand
+            :part-of (b0 / boy
+                  :part w0
+                  :ARG0-of s0))
+      :time (w0 / walk-01
+            :ARG2 (d0 / dog
+                  :ARG1-of (w1 / white-02)
+                  :ARG0-of (h1 / have-03
+                        :ARG1 (l0 / leash
+                              :ARG1-of (p0 / pink-04))))))

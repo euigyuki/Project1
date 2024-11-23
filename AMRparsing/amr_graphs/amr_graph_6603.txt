@@ -1,0 +1,11 @@
+# ::snt a woman jumping over a bar during the day .
+# ::tokens ["a", "woman", "jumping", "over", "a", "bar", "during", "the", "day", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "DATE", "DATE", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "B", "I", "O"]
+# ::pos_tags ["DT", "NN", "VBG", "IN", "DT", "NN", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "woman", "jump", "over", "a", "bar", "during", "the", "day", "."]
+(j0 / jump-03
+      :time (d0 / day)
+      :time (o0 / over
+            :op1 (b0 / bar))
+      :ARG0 (w0 / woman))

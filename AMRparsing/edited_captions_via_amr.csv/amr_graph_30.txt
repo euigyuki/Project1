@@ -1,0 +1,15 @@
+# ::snt There are a lot of bikes parked under the curved roof tonight .
+# ::tokens ["There", "are", "a", "lot", "of", "bikes", "parked", "under", "the", "curved", "roof", "tonight", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "TIME", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B", "O"]
+# ::pos_tags ["EX", "VBP", "DT", "NN", "IN", "NNS", "VBN", "IN", "DT", "JJ", "NN", "NN", "."]
+# ::lemmas ["there", "be", "a", "lot", "of", "bike", "park", "under", "the", "curved", "roof", "tonight", "."]
+(p0 / park-01
+      :time (d0 / date-entity
+            :dayperiod (n0 / night)
+            :dayperiod (t0 / today))
+      :time (u0 / under
+            :op1 (r0 / roof
+                  :ARG1-of (c0 / crowd-01)))
+      :ARG1 (b0 / bike
+            :quant (l0 / lot)))

@@ -1,0 +1,11 @@
+# ::snt a man on a bicycle is talking to another man .
+# ::tokens ["a", "man", "on", "a", "bicycle", "is", "talking", "to", "another", "man", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "DT", "NN", "VBZ", "VBG", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "man", "on", "a", "bicycle", "be", "talk", "to", "another", "man", "."]
+(t0 / talk-01
+      :ARG2 (m1 / man
+            :mod (a0 / another))
+      :ARG0 (m0 / man
+            :mod (b0 / bicycle)))

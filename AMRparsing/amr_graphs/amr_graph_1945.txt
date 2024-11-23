@@ -1,0 +1,12 @@
+# ::snt two soccer teams yelling at one another .
+# ::tokens ["two", "soccer", "teams", "yelling", "at", "one", "another", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NN", "NNS", "VBG", "IN", "CD", "DT", "."]
+# ::lemmas ["two", "soccer", "team", "yell", "at", "one", "another", "."]
+(y0 / yell-01
+      :ARG2 (a0 / another
+            :mod (o0 / one))
+      :ARG0 (t0 / team
+            :quant 2 
+            :mod (s0 / soccer)))

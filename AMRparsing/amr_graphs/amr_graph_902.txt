@@ -1,0 +1,7 @@
+(a0 / and
+    :op2 (s0 / sell-01
+             :ARG1 (f0 / fish))
+    :op1 (w0 / wear-01
+             :ARG1 (s1 / shirt
+                       :mod (f1 / face))
+             :ARG0 (g0 / gut)))

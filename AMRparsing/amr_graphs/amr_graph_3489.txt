@@ -1,0 +1,11 @@
+# ::snt a man jumping up in front of a wall of graffiti .
+# ::tokens ["a", "man", "jumping", "up", "in", "front", "of", "a", "wall", "of", "graffiti", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBG", "RP", "IN", "NN", "IN", "DT", "NN", "IN", "NNP", "."]
+# ::lemmas ["a", "man", "jump", "up", "in", "front", "of", "a", "wall", "of", "graffiti", "."]
+(m0 / man
+      :ARG0-of (j0 / jump-on-bandwagon-09
+            :ARG1 (i0 / in-front-of
+                  :op1 (w0 / wall
+                        :consist-of (g0 / graffiti)))))

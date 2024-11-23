@@ -1,0 +1,12 @@
+(c0 / cry-02
+    :ARG0 (g0 / girl
+              :ARG0-of (i0 / in-front-of
+                           :op1 (t0 / table
+                                    :ARG0-of (h0 / have-03
+                                                 :ARG1 (a0 / and
+                                                           :op3 (b0 / box
+                                                                    :mod (j0 / juice))
+                                                           :op2 (c2 / cup)
+                                                           :op1 (p0 / plate
+                                                                    :consist-of (t1 / toast))))))
+              :mod (l0 / little)))

@@ -1,0 +1,7 @@
+(a0 / and
+    :op2 (g1 / guy
+             :quant (p0 / person
+                        :quant 1)
+             :quant 1)
+    :op1 (g0 / guy
+             :quant 2))

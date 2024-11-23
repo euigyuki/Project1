@@ -1,0 +1,12 @@
+# ::snt a baby in a blue shirt is in a swing .
+# ::tokens ["a", "baby", "in", "a", "blue", "shirt", "is", "in", "a", "swing", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "DT", "JJ", "NN", "VBZ", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "baby", "in", "a", "blue", "shirt", "be", "in", "a", "swing", "."]
+(b0 / be-located-at-91
+      :ARG2 (s0 / swing)
+      :ARG1 (b1 / baby
+            :ARG0-of (h0 / have-03
+                  :ARG1 (s1 / shirt
+                        :mod (b2 / blue)))))

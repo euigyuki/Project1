@@ -1,0 +1,10 @@
+# ::snt a small child and an adult walk on the beach in front of ocean waves .
+(z1 / walk-01
+      :ARG0 (z2 / and
+            :op1 (z3 / child
+                  :mod (z4 / small))
+            :op2 (z5 / adult))
+      :ARG2 (z6 / beach)
+      :location (z7 / in-front-of
+            :op1 (z8 / wave
+                  :mod (z9 / ocean))))

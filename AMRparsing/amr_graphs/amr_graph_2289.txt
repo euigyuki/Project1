@@ -1,0 +1,11 @@
+# ::snt two bikers bike along the street .
+# ::tokens ["two", "bikers", "bike", "along", "the", "street", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "NN", "IN", "DT", "NN", "."]
+# ::lemmas ["two", "biker", "bike", "along", "the", "street", "."]
+(b0 / bike
+      :quant (p0 / person
+            :quant 2 )
+      :quant (a0 / along
+            :op1 (s0 / street)))

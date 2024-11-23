@@ -1,0 +1,13 @@
+(a0 / and
+    :op2 (c0 / cover-02
+             :time (c2 / cry-02
+                       :ARG0 (b0 / boy
+                                 :part (f0 / face)
+                                 :ARG1-of (w0 / wear-01
+                                              :ARG1 (s1 / shirt
+                                                        :ARG1-of (r0 / red-02)))))
+             :ARG0 b0
+             :ARG1 f0)
+    :op1 (p0 / play-01
+             :ARG0 (c1 / child
+                       :mod (s0 / some))))

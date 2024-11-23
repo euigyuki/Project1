@@ -1,0 +1,13 @@
+# ::snt a man in a blue shirt is spraying a sand sculpture .
+# ::tokens ["a", "man", "in", "a", "blue", "shirt", "is", "spraying", "a", "sand", "sculpture", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "DT", "JJ", "NN", "VBZ", "VBG", "DT", "NN", "NN", "."]
+# ::lemmas ["a", "man", "in", "a", "blue", "shirt", "be", "spray", "a", "sand", "sculpture", "."]
+(s0 / spray-01
+      :ARG0 (m0 / man
+            :ARG0-of (h0 / have-03
+                  :ARG1 (s3 / shirt
+                        :mod (b0 / blue))))
+      :ARG1 (s1 / sculpture
+            :mod (s2 / sand)))

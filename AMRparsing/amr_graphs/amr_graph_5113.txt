@@ -1,0 +1,12 @@
+# ::snt a dog catching a frisbee in front of a red building .
+# ::tokens ["a", "dog", "catching", "a", "frisbee", "in", "front", "of", "a", "red", "building", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBG", "DT", "NN", "IN", "NN", "IN", "DT", "JJ", "NN", "."]
+# ::lemmas ["a", "dog", "catch", "a", "frisbee", "in", "front", "of", "a", "red", "building", "."]
+(c0 / catch-03
+      :ARG1 (f0 / frisbee)
+      :ARG2 (i0 / in-front-of
+            :op1 (b0 / building
+                  :ARG1-of (r0 / red-02)))
+      :ARG0 (d0 / dog))

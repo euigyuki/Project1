@@ -1,0 +1,15 @@
+# ::snt person with two ski poles skiing down a snowy hill .
+# ::tokens ["person", "with", "two", "ski", "poles", "skiing", "down", "a", "snowy", "hill", "."]
+# ::ner_tags ["O", "O", "CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "B", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["NN", "IN", "CD", "JJ", "NNS", "VBG", "RP", "DT", "JJ", "NN", "."]
+# ::lemmas ["person", "with", "two", "ski", "pole", "ski", "down", "a", "snowy", "hill", "."]
+(s0 / ski-01
+      :ARG2 (d0 / down
+            :op1 (h1 / hill
+                  :ARG1-of (s1 / snowy)))
+      :ARG0 (p0 / person
+            :ARG0-of (h0 / have-03
+                  :ARG1 (p1 / pole
+                        :mod (s2 / ski-01)
+                        :quant 2 ))))

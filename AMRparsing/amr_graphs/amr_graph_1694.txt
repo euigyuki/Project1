@@ -1,0 +1,6 @@
+(j0 / jump-03
+    :time (w0 / walk-01
+              :direction (a0 / away)
+              :ARG0 (o0 / other))
+    :ARG0 (d0 / dog
+              :quant 1))

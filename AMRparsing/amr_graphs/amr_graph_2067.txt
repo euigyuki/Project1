@@ -1,0 +1,4 @@
+(h0 / hold-01
+    :ARG1 (r0 / rope
+              :ARG1-of (l0 / long-03
+                           :degree (v0 / very))))

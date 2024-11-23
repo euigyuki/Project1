@@ -1,0 +1,11 @@
+# ::snt man on a beach with a baby
+# ::tokens ["man", "on", "a", "beach", "with", "a", "baby"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["NN", "IN", "DT", "NN", "IN", "DT", "NN"]
+# ::lemmas ["man", "on", "a", "beach", "with", "a", "baby"]
+(b0 / be-located-at-91
+      :ARG2 (b1 / beach)
+      :ARG1 (m0 / man
+            :accompanier (h0 / have-03
+                  :ARG1 (b2 / baby))))

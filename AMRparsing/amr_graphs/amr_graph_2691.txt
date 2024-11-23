@@ -1,0 +1,9 @@
+(s0 / sleep-01
+    :time-of (h0 / hold-01
+                 :ARG1 (c0 / child
+                           :part (c1 / chair)
+                           :part (h2 / have-03))
+                 :ARG1 (p0 / pack
+                           :consist-of (z0 / zippered)
+                           :consist-of (b0 / blue)))
+    :time c1)

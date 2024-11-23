@@ -1,0 +1,14 @@
+# ::snt a boy skateboards and does a jump over another skateboard .
+# ::tokens ["a", "boy", "skateboards", "and", "does", "a", "jump", "over", "another", "skateboard", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "CC", "VBZ", "DT", "NN", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "boy", "skateboard", "and", "do", "a", "jump", "over", "another", "skateboard", "."]
+(a0 / and
+      :op2 (j0 / jump-03
+            :ARG2 (o0 / over
+                  :op1 (s0 / skateboard
+                        :mod (a1 / another)))
+            :ARG0 b0)
+      :op1 (c0 / chew-01
+            :ARG0 (b0 / boy)))

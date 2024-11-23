@@ -1,0 +1,17 @@
+# ::snt two kids on wakeboards attempt to give one another a high-five .
+# ::tokens ["two", "kids", "on", "wakeboards", "attempt", "to", "give", "one", "another", "a", "high", "-", "five", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "IN", "NNS", "NN", "TO", "VB", "NN", "DT", "DT", "RB", "HYPH", "CD", "."]
+# ::lemmas ["two", "kid", "on", "wakeboard", "attempt", "to", "give", "one", "another", "a", "high", "-", "five", "."]
+(a0 / attempt-01
+      :ARG0 (k0 / kid
+            :ARG0-of (g0 / give-01
+                  :ARG1 (t0 / thing
+                        :ARG0-of (p0 / person
+                              :mod (a1 / another))
+                        :ARG1-of (h0 / high-02))
+                  :ARG2 5 )
+            :quant 2 
+            :quant (w0 / wakeboard))
+      :ARG1 g0)

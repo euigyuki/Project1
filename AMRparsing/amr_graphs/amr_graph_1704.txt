@@ -1,0 +1,15 @@
+# ::snt two guys are playing a shooting cideo game while two girls watch .
+# ::tokens ["two", "guys", "are", "playing", "a", "shooting", "cideo", "game", "while", "two", "girls", "watch", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "CARDINAL", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O", "B", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "VBP", "VBG", "DT", "VBG", "NN", "NN", "IN", "CD", "NNS", "VBP", "."]
+# ::lemmas ["two", "guy", "be", "play", "a", "shoot", "cideo", "game", "while", "two", "girl", "watch", "."]
+(c0 / contrast-01
+      :ARG2 (w0 / watch-01
+            :ARG0 (g2 / girl
+                  :quant 2 ))
+      :ARG1 (p0 / play-01
+            :ARG0 (g1 / guy
+                  :quant 2 )
+            :ARG1 (g0 / game
+                  :mod (c1 / cideo))))

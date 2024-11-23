@@ -1,0 +1,16 @@
+# ::snt closeup of man with glasses blowing a bubble gum bubble in a dimly lit room with a faint ceiling light in the background .
+(z1 / close-up-10
+      :ARG1 (z2 / man
+            :ARG0-of (z3 / wear-01
+                  :ARG1 (z4 / glasses))
+            :ARG0-of (z5 / blow-01
+                  :ARG1 (z6 / bubble
+                        :consist-of (z7 / gum
+                              :mod (z8 / bubble)))))
+      :location (z9 / room
+            :ARG1-of (z10 / light-04
+                  :manner (z11 / dim))
+            :location-of (z12 / background
+                  :location-of (z13 / light
+                        :mod (z14 / faint)
+                        :mod (z15 / ceiling)))))

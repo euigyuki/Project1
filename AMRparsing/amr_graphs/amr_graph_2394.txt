@@ -1,0 +1,16 @@
+# ::snt a group of three people and one dog hike up a green mountainside .
+# ::tokens ["a", "group", "of", "three", "people", "and", "one", "dog", "hike", "up", "a", "green", "mountainside", "."]
+# ::ner_tags ["O", "O", "O", "CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "CD", "NNS", "CC", "CD", "NN", "NN", "IN", "DT", "JJ", "NN", "."]
+# ::lemmas ["a", "group", "of", "three", "people", "and", "one", "dog", "hike", "up", "a", "green", "mountainside", "."]
+(h0 / hike-02
+      :ARG0 (a0 / and
+            :op2 (d0 / dog
+                  :quant 1 )
+            :op1 (g0 / group
+                  :consist-of (p0 / person
+                        :quant 3 )))
+      :ARG1 (u0 / up
+            :op1 (m0 / mountainside
+                  :ARG1-of (g1 / green-02))))

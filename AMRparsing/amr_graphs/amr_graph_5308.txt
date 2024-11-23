@@ -1,0 +1,15 @@
+# ::snt a girl running through uneven sand with some withered grass .
+# ::tokens ["a", "girl", "running", "through", "uneven", "sand", "with", "some", "withered", "grass", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBG", "IN", "JJ", "NN", "IN", "DT", "VBN", "NN", "."]
+# ::lemmas ["a", "girl", "run", "through", "uneven", "sand", "with", "some", "wither", "grass", "."]
+(r0 / run-02
+      :ARG0 (g0 / girl)
+      :ARG1 (a0 / and
+            :op2 (g1 / grass
+                  :quant (s1 / some)
+                  :ARG1-of (w0 / wither-01))
+            :op1 (s0 / sand
+                  :ARG2-of (e0 / even-02
+                        :polarity - ))))

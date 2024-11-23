@@ -1,0 +1,7 @@
+(o0 / open-01
+    :time (f1 / festival
+              :name (n0 / name
+                        :op2 "Times"
+                        :op1 "Christian"))
+    :ARG0 (f0 / family)
+    :ARG1 (p0 / present))

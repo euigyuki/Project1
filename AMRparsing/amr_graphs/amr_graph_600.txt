@@ -1,0 +1,10 @@
+# ::snt a crowd of people crossing a street .
+# ::tokens ["a", "crowd", "of", "people", "crossing", "a", "street", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "NNS", "VBG", "DT", "NN", "."]
+# ::lemmas ["a", "crowd", "of", "people", "cross", "a", "street", "."]
+(c0 / crowd
+      :consist-of (p0 / person)
+      :ARG0-of (c1 / cross-02
+            :ARG1 (s0 / street)))

@@ -1,0 +1,17 @@
+# ::snt woman in black with beverage , with blurry urban background .
+# ::tokens ["woman", "in", "black", "with", "beverage", ",", "with", "blurry", "urban", "background", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["NN", "IN", "JJ", "IN", "NN", ",", "IN", "JJ", "JJ", "NN", "."]
+# ::lemmas ["woman", "in", "black", "with", "beverage", ",", "with", "blurry", "urban", "background", "."]
+(a0 / and
+      :op2 (h1 / have-03
+            :ARG1 (b1 / background
+                  :mod (u3 / urban)
+                  :mod (u2 / urban)
+                  :mod (u1 / urban)
+                  :mod (u0 / urban)))
+      :op1 (h0 / have-03
+            :ARG1 (b0 / beverage)
+            :ARG0 (w0 / woman
+                  :ARG1-of (b2 / black-05))))

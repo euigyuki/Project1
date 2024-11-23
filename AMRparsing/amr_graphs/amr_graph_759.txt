@@ -1,0 +1,14 @@
+# ::snt two young kids wakeboarding with one hand each in the air .
+# ::tokens ["two", "young", "kids", "wakeboarding", "with", "one", "hand", "each", "in", "the", "air", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "JJ", "NNS", "VBG", "IN", "CD", "NN", "DT", "IN", "DT", "NN", "."]
+# ::lemmas ["two", "young", "kid", "wakeboarde", "with", "one", "hand", "each", "in", "the", "air", "."]
+(b0 / bark-01
+      :accompanier (h0 / hand
+            :quant 1 
+            :mod (e0 / each))
+      :ARG2 (a0 / air)
+      :ARG0 (k0 / kid
+            :quant 2 
+            :mod (y0 / young)))

@@ -1,0 +1,5 @@
+(h0 / have-03
+    :ARG0 (b0 / boy
+              :part (k0 / knee))
+    :ARG1 (c0 / cheerleader
+              :mod (g0 / girl)))

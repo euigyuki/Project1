@@ -1,0 +1,12 @@
+# ::snt a man with a red mohawk waiting at a red light .
+# ::tokens ["a", "man", "with", "a", "red", "mohawk", "waiting", "at", "a", "red", "light", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "DT", "JJ", "NN", "VBG", "IN", "DT", "JJ", "NN", "."]
+# ::lemmas ["a", "man", "with", "a", "red", "mohawk", "wait", "at", "a", "red", "light", "."]
+(m0 / man
+      :ARG1-of (w0 / wait-01
+            :ARG2 (l0 / light))
+      :ARG0-of (h0 / have-03
+            :ARG1 (m1 / mohawk
+                  :ARG1-of (r0 / red-02))))

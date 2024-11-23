@@ -1,0 +1,7 @@
+(w0 / walk-01
+    :manner (f0 / fist
+                :part-of (b0 / boy
+                             :part (h0 / hand)
+                             :ARG0-of (w1 / wear-01
+                                          :ARG1 (b1 / black-04))))
+    :ARG0 b0)

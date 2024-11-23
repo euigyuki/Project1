@@ -1,0 +1,16 @@
+# ::snt three people in various stages of swimming strokes race along colorful lane markers .
+# ::tokens ["three", "people", "in", "various", "stages", "of", "swimming", "strokes", "race", "along", "colorful", "lane", "markers", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "IN", "JJ", "NNS", "IN", "NN", "NNS", "NN", "IN", "JJ", "NN", "NNS", "."]
+# ::lemmas ["three", "people", "in", "various", "stage", "of", "swimming", "stroke", "race", "along", "colorful", "lane", "marker", "."]
+(r0 / race-02
+      :path (a0 / along
+            :op1 (m0 / marker
+                  :purpose (l0 / lane)
+                  :mod (c0 / colorful)))
+      :ARG0 (p0 / person
+            :quant 3 
+            :ARG0-of (s0 / stage
+                  :mod (v0 / various)
+                  :mod (s1 / swim-01))))

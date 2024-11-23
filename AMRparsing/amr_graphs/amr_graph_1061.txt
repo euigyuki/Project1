@@ -1,0 +1,14 @@
+# ::snt two girls appear to be playing a very competitive chess game with each other .
+# ::tokens ["two", "girls", "appear", "to", "be", "playing", "a", "very", "competitive", "chess", "game", "with", "each", "other", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "VBP", "TO", "VB", "VBG", "DT", "RB", "JJ", "NN", "NN", "IN", "DT", "JJ", "."]
+# ::lemmas ["two", "girl", "appear", "to", "be", "play", "a", "very", "competitive", "chess", "game", "with", "each", "other", "."]
+(a0 / appear-02
+      :ARG1 (p0 / play-01
+            :ARG0 (g1 / girl
+                  :quant 2 )
+            :ARG1 (g0 / game
+                  :ARG0-of (c1 / compete-01
+                        :degree (v0 / very))
+                  :mod (c0 / chess))))

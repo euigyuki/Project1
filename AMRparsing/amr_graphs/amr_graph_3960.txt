@@ -1,0 +1,9 @@
+# ::snt a child jumps onto a bed .
+# ::tokens ["a", "child", "jumps", "onto", "a", "bed", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "child", "jump", "onto", "a", "bed", "."]
+(j0 / jump-on-bandwagon-09
+      :ARG1 (b0 / bed)
+      :ARG0 (c0 / child))

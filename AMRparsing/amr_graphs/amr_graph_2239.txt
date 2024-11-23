@@ -1,0 +1,13 @@
+# ::snt two guys dressed in vests and dress pants .
+# ::tokens ["two", "guys", "dressed", "in", "vests", "and", "dress", "pants", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "VBN", "IN", "NNS", "CC", "NN", "NNS", "."]
+# ::lemmas ["two", "guy", "dress", "in", "vest", "and", "dress", "pant", "."]
+(g0 / guy
+      :quant 2 
+      :ARG1-of (d0 / dress-01
+            :ARG2 (a0 / and
+                  :op2 (p0 / pant
+                        :mod (d1 / dress-01))
+                  :op1 (v0 / vest))))

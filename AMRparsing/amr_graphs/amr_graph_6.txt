@@ -1,0 +1,18 @@
+# ::snt white dog with brown ears standing near water with head turned to one side .
+# ::tokens ["white", "dog", "with", "brown", "ears", "standing", "near", "water", "with", "head", "turned", "to", "one", "side", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["JJ", "NN", "IN", "JJ", "NNS", "VBG", "IN", "NN", "IN", "NN", "VBD", "IN", "CD", "NN", "."]
+# ::lemmas ["white", "dog", "with", "brown", "ear", "stand", "near", "water", "with", "head", "turn", "to", "one", "side", "."]
+(d0 / dog
+      :ARG0-of (h0 / have-03
+            :ARG1 (e0 / ear
+                  :mod (b0 / brown)))
+      :ARG1-of (s0 / stand-01
+            :ARG2 (n0 / near-02
+                  :ARG2 (w1 / water
+                        :ARG1-of (t0 / turn-01
+                              :direction (s1 / side
+                                    :quant 1 )
+                              :ARG1 (h1 / head)))))
+      :poss-of (w0 / white-03))

@@ -1,0 +1,14 @@
+# ::snt the girl in a bathing suit runs past the blue pool .
+# ::tokens ["the", "girl", "in", "a", "bathing", "suit", "runs", "past", "the", "blue", "pool", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "DT", "NN", "NN", "VBZ", "IN", "DT", "JJ", "NN", "."]
+# ::lemmas ["the", "girl", "in", "a", "bathing", "suit", "run", "past", "the", "blue", "pool", "."]
+(r0 / run-02
+      :direction (p0 / past
+            :op1 (p1 / pool
+                  :mod (b0 / blue)))
+      :ARG0 (g0 / girl
+            :ARG0-of (h0 / have-03
+                  :ARG1 (s0 / suit
+                        :mod (b1 / bathe-01)))))

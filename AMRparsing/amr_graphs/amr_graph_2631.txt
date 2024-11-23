@@ -1,0 +1,19 @@
+# ::snt a man carries a box into his red pickup truck as a dazzling red tree attracts attention .
+# ::tokens ["a", "man", "carries", "a", "box", "into", "his", "red", "pickup", "truck", "as", "a", "dazzling", "red", "tree", "attracts", "attention", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "DT", "NN", "IN", "PRP$", "JJ", "NN", "NN", "IN", "DT", "VBG", "JJ", "NN", "VBZ", "NN", "."]
+# ::lemmas ["a", "man", "carry", "a", "box", "into", "his", "red", "pickup", "truck", "as", "a", "dazzle", "red", "tree", "attract", "attention", "."]
+(c0 / carry-01
+      :time (a0 / attract-01
+            :ARG0 (m0 / man)
+            :ARG0 (t1 / tree
+                  :ARG1-of (a1 / attend-02)
+                  :ARG1-of (b1 / bright-02))
+            :ARG1 a1)
+      :time (t0 / truck
+            :poss m0
+            :ARG1-of (r0 / red-02)
+            :mod (p0 / pickup))
+      :ARG0 m0
+      :ARG1 (b0 / box))

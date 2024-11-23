@@ -1,0 +1,14 @@
+# ::snt a group of teenage girls in a ballet class are doing their barre exercises .
+# ::tokens ["a", "group", "of", "teenage", "girls", "in", "a", "ballet", "class", "are", "doing", "their", "barre", "exercises", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "PERSON", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "JJ", "NNS", "IN", "DT", "NN", "NN", "VBP", "VBG", "PRP$", "JJ", "NNS", "."]
+# ::lemmas ["a", "group", "of", "teenage", "girl", "in", "a", "ballet", "class", "be", "do", "their", "barre", "exercise", "."]
+(d0 / do-02
+      :ARG1 (e0 / exercise-02
+            :ARG1 (b0 / barre))
+      :ARG0 (g0 / group
+            :consist-of (g1 / girl
+                  :mod (t0 / teenage))
+            :consist-of (c0 / class
+                  :mod (b1 / ballet))))

@@ -1,0 +1,15 @@
+# ::snt two men with red vests and green hats smoothing out wet cement
+# ::tokens ["two", "men", "with", "red", "vests", "and", "green", "hats", "smoothing", "out", "wet", "cement"]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "IN", "JJ", "NNS", "CC", "JJ", "NNS", "VBG", "RP", "JJ", "NN"]
+# ::lemmas ["two", "man", "with", "red", "vest", "and", "green", "hat", "smooth", "out", "wet", "cement"]
+(w0 / wet
+      :domain (m0 / man
+            :quant 2 
+            :ARG0-of (h0 / have-03
+                  :ARG1 (a0 / and
+                        :op2 (h1 / hat
+                              :ARG1-of (g0 / green-02))
+                        :op1 (v0 / vest
+                              :ARG1-of (r0 / red-02))))))

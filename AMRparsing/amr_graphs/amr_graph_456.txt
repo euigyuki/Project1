@@ -1,0 +1,15 @@
+# ::snt nine individuals are sitting on a yellow tile floor around a whiteboard with small colored tiles on it .
+# ::tokens ["nine", "individuals", "are", "sitting", "on", "a", "yellow", "tile", "floor", "around", "a", "whiteboard", "with", "small", "colored", "tiles", "on", "it", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "VBP", "VBG", "IN", "DT", "JJ", "NN", "NN", "IN", "DT", "NN", "IN", "JJ", "JJ", "NNS", "IN", "PRP", "."]
+# ::lemmas ["nine", "individual", "be", "sit", "on", "a", "yellow", "tile", "floor", "around", "a", "whiteboard", "with", "small", "colored", "tile", "on", "it", "."]
+(s0 / sit-01
+      :ARG2 (a0 / around
+            :op1 (w0 / whiteboard)
+            :op1 (f0 / floor
+                  :consist-of (t0 / tile
+                        :ARG1-of (c0 / color-01)
+                        :mod (s1 / small))))
+      :ARG1 (i0 / individual
+            :quant 9 ))

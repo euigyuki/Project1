@@ -1,0 +1,3 @@
+(h0 / hold-01
+    :ARG1 (p0 / pot
+              :ARG1-of (f0 / flame-01)))

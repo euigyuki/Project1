@@ -1,0 +1,21 @@
+# ::snt a construction worker wearing jeans , a white shirt with a black stripe , and a white hard hat repairing something .
+# ::tokens ["a", "construction", "worker", "wearing", "jeans", ",", "a", "white", "shirt", "with", "a", "black", "stripe", ",", "and", "a", "white", "hard", "hat", "repairing", "something", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "NN", "VBG", "NNS", ",", "DT", "JJ", "NN", "IN", "DT", "JJ", "NN", ",", "CC", "DT", "JJ", "JJ", "NN", "VBG", "NN", "."]
+# ::lemmas ["a", "construction", "worker", "wear", "jean", ",", "a", "white", "shirt", "with", "a", "black", "stripe", ",", "and", "a", "white", "hard", "hat", "repair", "something", "."]
+(w0 / wear-01
+      :ARG1 (a0 / and
+            :op3 (h0 / hat
+                  :mod (h1 / hard)
+                  :mod (r0 / repair-01
+                        :ARG1 (s2 / something)))
+            :op2 (s0 / shirt
+                  :ARG1-of (w3 / white-03)
+                  :ARG0-of (s1 / stripe
+                        :ARG1-of (b0 / black-04))))
+      :ARG0 (p0 / person
+            :ARG0-of (w2 / wear-01
+                  :ARG1 (j0 / jean))
+            :mod (w1 / work-01
+                  :ARG1 (c0 / construct-01))))

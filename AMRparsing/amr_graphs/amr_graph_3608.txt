@@ -1,0 +1,11 @@
+# ::snt a child in blue and wearing a hat smiles .
+# ::tokens ["a", "child", "in", "blue", "and", "wearing", "a", "hat", "smiles", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "JJ", "CC", "VBG", "DT", "NN", "NNS", "."]
+# ::lemmas ["a", "child", "in", "blue", "and", "wear", "a", "hat", "smile", "."]
+(s0 / smile-01
+      :ARG0 (c0 / child
+            :mod (b0 / blue)
+            :ARG0-of (w0 / wear-01
+                  :ARG1 (h0 / hat))))

@@ -1,0 +1,4 @@
+(p0 / prepare-02
+    :ARG0 (m0 / man
+              :quant 2)
+    :ARG1 (d0 / dinner))

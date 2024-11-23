@@ -1,0 +1,16 @@
+(a0 / and
+    :ARG1-of (c1 / cause-01
+                 :ARG0 (w0 / watch-01
+                           :ARG1-of (c2 / close-10)
+                           :ARG0 (s0 / sheepdog)))
+    :op2 (p0 / prepare-02
+             :ARG0 (p1 / person
+                       :ARG0-of (f1 / farm-01
+                                    :ARG2 (s1 / sheep)))
+             :ARG1 (f0 / feed-01
+                       :ARG0 p1
+                       :ARG1 (a1 / animal
+                                 :poss p1)))
+    :op1 (c0 / crouch
+             :domain p1
+             :domain f0))

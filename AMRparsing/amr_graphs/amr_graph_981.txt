@@ -1,0 +1,8 @@
+(a0 / and
+    :op3 (h0 / hold-01
+             :ARG1 (b0 / banner))
+    :op2 (s1 / stand-01
+             :ARG1 (g0 / group
+                       :consist-of (p0 / person)))
+    :op1 (s0 / sit-01
+             :ARG1 g0))

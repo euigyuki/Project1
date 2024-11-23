@@ -1,0 +1,11 @@
+# ::snt a man in white clothing cooks food .
+# ::tokens ["a", "man", "in", "white", "clothing", "cooks", "food", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "JJ", "NN", "NNS", "NN", "."]
+# ::lemmas ["a", "man", "in", "white", "clothing", "cook", "food", "."]
+(c0 / cook-01
+      :ARG0 (m0 / man
+            :ARG1-of (c1 / clothe-01
+                  :ARG2 (w0 / white-03)))
+      :ARG1 (f0 / food))

@@ -1,0 +1,6 @@
+(s0 / stand-01
+    :ARG1 (a0 / and
+              :manner (a1 / attire
+                          :mod (w1 / wed-01))
+              :op2 (w0 / woman)
+              :op1 (m0 / man)))

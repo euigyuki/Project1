@@ -1,0 +1,5 @@
+(s0 / stand-01
+    :mod (a0 / alone)
+    :ARG1 (w0 / woman
+              :mod (b0 / blond)
+              :mod (t0 / trashy)))

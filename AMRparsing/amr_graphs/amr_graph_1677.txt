@@ -1,0 +1,3 @@
+(s0 / set-up-03
+    :ARG0 (p0 / person)
+    :ARG1 (t0 / tent))

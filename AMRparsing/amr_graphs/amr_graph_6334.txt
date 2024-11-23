@@ -1,0 +1,12 @@
+# ::snt a little girl plays with the reflector on her bicycle .
+# ::tokens ["a", "little", "girl", "plays", "with", "the", "reflector", "on", "her", "bicycle", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "VBZ", "IN", "DT", "NN", "IN", "PRP$", "NN", "."]
+# ::lemmas ["a", "little", "girl", "play", "with", "the", "reflector", "on", "her", "bicycle", "."]
+(p0 / play-01
+      :ARG1 (t0 / thing
+            :ARG0-of (r0 / reflect-01))
+      :ARG2 (b0 / bicycle)
+      :ARG0 (g0 / girl
+            :mod (l0 / little)))

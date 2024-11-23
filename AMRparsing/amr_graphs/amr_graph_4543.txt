@@ -1,0 +1,6 @@
+(w0 / walk-01
+    :path (a0 / along
+              :op1 (s0 / side
+                       :part-of (b0 / building
+                                    :ARG1-of (p0 / purple-02))))
+    :ARG0 (w1 / woman))

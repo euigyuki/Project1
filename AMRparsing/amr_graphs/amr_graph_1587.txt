@@ -1,0 +1,6 @@
+(w0 / wear-01
+    :ARG0 (m0 / man
+              :part (e0 / elbow)
+              :ARG1-of (t0 / tattoo-01))
+    :ARG1 (h0 / helmet
+              :accompanier (m1 / mohawk)))

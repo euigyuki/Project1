@@ -1,0 +1,8 @@
+# ::snt the musicians are playing .
+# ::tokens ["the", "musicians", "are", "playing", "."]
+# ::ner_tags ["O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NNS", "VBP", "VBG", "."]
+# ::lemmas ["the", "musician", "be", "play", "."]
+(p0 / play-11
+      :ARG0 (m0 / musician))

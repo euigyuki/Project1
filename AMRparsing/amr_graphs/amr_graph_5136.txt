@@ -1,0 +1,21 @@
+# ::snt a large black dog is catching a frisbee while a large brown dog follows shortly after .
+# ::tokens ["a", "large", "black", "dog", "is", "catching", "a", "frisbee", "while", "a", "large", "brown", "dog", "follows", "shortly", "after", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "JJ", "NN", "VBZ", "VBG", "DT", "NN", "IN", "DT", "JJ", "JJ", "NN", "VBZ", "RB", "RB", "."]
+# ::lemmas ["a", "large", "black", "dog", "be", "catch", "a", "frisbee", "while", "a", "large", "brown", "dog", "follow", "shortly", "after", "."]
+(c0 / contrast-01
+      :ARG1 (c1 / catch-02
+            :ARG0 (d2 / dog
+                  :mod (b1 / brown)
+                  :mod (l1 / large))
+            :ARG1 (d1 / disease
+                  :name (n0 / name
+                        :op1 "frisbee" ))
+            :time d0)
+      :ARG2 (f0 / follow-01
+            :ARG2 (a0 / after
+                  :ARG1-of (s0 / short-07))
+            :ARG1 (d0 / dog
+                  :ARG1-of (b0 / black-04)
+                  :mod (l0 / large))))

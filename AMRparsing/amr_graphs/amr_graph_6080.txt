@@ -1,0 +1,11 @@
+# ::snt two small dogs playing with a volleyball
+# ::tokens ["two", "small", "dogs", "playing", "with", "a", "volleyball"]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "JJ", "NNS", "VBG", "IN", "DT", "NN"]
+# ::lemmas ["two", "small", "dog", "play", "with", "a", "volleyball"]
+(p0 / play-01
+      :ARG0 (d0 / dog
+            :quant 2 
+            :mod (s0 / small))
+      :ARG1 (v0 / volleyball))

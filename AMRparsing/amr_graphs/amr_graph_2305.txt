@@ -1,0 +1,5 @@
+(s0 / sleep-01
+    :ARG0 (a0 / and
+              :op2 (c0 / child
+                       :quant 2)
+              :op1 (m0 / man)))

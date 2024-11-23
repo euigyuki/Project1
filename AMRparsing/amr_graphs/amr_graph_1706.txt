@@ -1,0 +1,10 @@
+(a0 / and
+    :op2 (f0 / face-01
+             :ARG1 (w0 / way
+                       :poss (c1 / camera)
+                       :ARG1-of (o0 / opposite-01))
+             :ARG0 (a1 / and
+                       :op2 (w1 / woman)
+                       :op1 (m0 / man)))
+    :op1 (s0 / sit-01
+             :ARG1 a1))

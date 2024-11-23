@@ -1,0 +1,20 @@
+# ::snt a small child with a red shirt stands in front of a large television screen showing an unfocused image .
+# ::tokens ["a", "small", "child", "with", "a", "red", "shirt", "stands", "in", "front", "of", "a", "large", "television", "screen", "showing", "an", "unfocused", "image", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "IN", "DT", "JJ", "NN", "VBZ", "IN", "NN", "IN", "DT", "JJ", "NN", "NN", "VBG", "DT", "JJ", "NN", "."]
+# ::lemmas ["a", "small", "child", "with", "a", "red", "shirt", "stand", "in", "front", "of", "a", "large", "television", "screen", "show", "an", "unfocused", "image", "."]
+(s0 / stand-01
+      :ARG2 (i0 / in-front-of
+            :op1 (s2 / screen
+                  :part-of (t0 / television)
+                  :ARG0-of (s4 / show-01
+                        :ARG1 (i1 / image
+                              :ARG1-of (f0 / focus-01
+                                    :polarity - )))
+                  :mod (l0 / large)))
+      :ARG1 (c0 / child
+            :ARG0-of (h0 / have-03
+                  :ARG1 (s3 / shirt
+                        :ARG1-of (r0 / red-02)))
+            :mod (s1 / small)))

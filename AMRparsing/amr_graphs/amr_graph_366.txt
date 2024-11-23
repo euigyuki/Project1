@@ -1,0 +1,11 @@
+(a0 / and
+    :op2 (p0 / pass-05
+             :ARG0 (c1 / camel
+                       :ord (o0 / ordinal-entity
+                                :value "-1"))
+             :ARG1 (s1 / sign))
+    :op1 (r0 / round-03
+             :quant (s0 / several)
+             :ARG1 (c0 / caravan
+                       :mod (c2 / camel)
+                       :mod (l0 / long-03))))

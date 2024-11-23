@@ -1,0 +1,16 @@
+# ::snt a man is playing a small guitar-like instrument and singing into a microphone .
+# ::tokens ["a", "man", "is", "playing", "a", "small", "guitar", "-", "like", "instrument", "and", "singing", "into", "a", "microphone", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "VBG", "DT", "JJ", "NN", "HYPH", "JJ", "NN", "CC", "VBG", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "man", "be", "play", "a", "small", "guitar", "-", "like", "instrument", "and", "singe", "into", "a", "microphone", "."]
+(a0 / and
+      :op2 (s0 / sing-01
+            :ARG2 (m1 / microphone)
+            :ARG0 m0)
+      :op1 (p0 / play-11
+            :ARG2 (i0 / instrument
+                  :mod (s1 / small)
+                  :mod (r0 / resemble-01
+                        :ARG2 (g0 / guitar)))
+            :ARG0 (m0 / man)))

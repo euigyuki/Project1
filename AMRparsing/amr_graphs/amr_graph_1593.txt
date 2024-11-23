@@ -1,0 +1,5 @@
+(s0 / sleep-01
+    :ARG0 (a0 / and
+              :op2 (a1 / animal
+                       :ARG1-of (s1 / stuff))
+              :op1 (t0 / toddler)))

@@ -1,0 +1,4 @@
+(c0 / catch-01
+    :ARG0 (p0 / person
+              :ARG0-of (p1 / play-01)
+              :mod (b0 / baseball)))

@@ -1,0 +1,12 @@
+# ::snt many kids are participating in a potato sack race .
+# ::tokens ["many", "kids", "are", "participating", "in", "a", "potato", "sack", "race", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["JJ", "NNS", "VBP", "VBG", "IN", "DT", "NN", "NN", "NN", "."]
+# ::lemmas ["many", "kid", "be", "participate", "in", "a", "potato", "sack", "race", "."]
+(p0 / participate-01
+      :ARG0 (k0 / kid
+            :quant (m0 / many))
+      :ARG1 (r0 / race-02
+            :ARG2 (s0 / sack
+                  :part-of (p1 / potato))))

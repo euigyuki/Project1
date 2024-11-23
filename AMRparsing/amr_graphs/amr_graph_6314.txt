@@ -1,0 +1,6 @@
+(w0 / walk-01
+    :ARG0 (m0 / man
+              :ARG0-of (h0 / have-03
+                           :ARG1 (s1 / suit
+                                     :ARG1-of (g0 / green-02)))
+              :quant 3))

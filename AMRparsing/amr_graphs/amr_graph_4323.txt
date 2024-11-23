@@ -1,0 +1,14 @@
+# ::snt two children run up the street on the sidewalk near the building .
+# ::tokens ["two", "children", "run", "up", "the", "street", "on", "the", "sidewalk", "near", "the", "building", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "VBN", "RP", "DT", "NN", "IN", "DT", "NN", "IN", "DT", "NN", "."]
+# ::lemmas ["two", "child", "run", "up", "the", "street", "on", "the", "sidewalk", "near", "the", "building", "."]
+(r0 / run-02
+      :direction (u0 / up
+            :op1 (s1 / street))
+      :direction (s0 / sidewalk
+            :ARG1-of (n0 / near-02
+                  :ARG2 (b0 / building)))
+      :ARG0 (c0 / child
+            :quant 2 ))

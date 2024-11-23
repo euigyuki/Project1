@@ -1,0 +1,4 @@
+(g0 / group-01
+    :mod (t0 / together)
+    :ARG1 (d0 / dog
+              :quant (s1 / several)))

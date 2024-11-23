@@ -1,0 +1,4 @@
+(p0 / play-01
+    :ARG0 (l0 / lab
+              :mod (y0 / yellow)
+              :quant 2))

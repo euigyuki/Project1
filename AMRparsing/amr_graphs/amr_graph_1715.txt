@@ -1,0 +1,10 @@
+# ::snt three women riding the bus .
+# ::tokens ["three", "women", "riding", "the", "bus", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "VBG", "DT", "NN", "."]
+# ::lemmas ["three", "woman", "ride", "the", "bus", "."]
+(r0 / ride-01
+      :ARG0 (w0 / woman
+            :quant 3 )
+      :ARG1 (b0 / bus))

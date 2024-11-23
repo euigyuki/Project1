@@ -1,0 +1,17 @@
+# ::snt tehse people are exercising using the oriental ti chi .
+# ::tokens ["tehse", "people", "are", "exercising", "using", "the", "oriental", "ti", "chi", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["NNP", "NNS", "VBP", "VBG", "VBG", "DT", "JJ", "NN", "NN", "."]
+# ::lemmas ["tehse", "people", "be", "exercise", "use", "the", "oriental", "ti", "chi", "."]
+(e0 / exercise-01
+      :ARG0 (p0 / person
+            :mod (e1 / ethnic-group
+                  :name (n0 / name
+                        :op1 "Asia" )))
+      :ARG1 (o0 / oriental
+            :mod (u0 / use-01
+                  :ARG0 p0
+                  :ARG1 (p1 / person
+                        :name (n1 / name
+                              :op1 "chi" )))))

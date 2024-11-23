@@ -1,0 +1,6 @@
+(t0 / talk-01
+    :ARG0 (m0 / man
+              :ARG1-of (a1 / applaud-01
+                           :op2-of (a0 / and
+                                       :op2 c0))
+              :ARG2-of (c0 / cheer-02)))

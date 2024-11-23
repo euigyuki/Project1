@@ -1,0 +1,6 @@
+(w0 / walk-01
+    :ARG0 (g0 / group
+              :consist-of (m0 / male
+                              :ARG1-of (d1 / dress-01)))
+    :direction (d0 / down
+                   :op1 (s0 / sidewalk)))

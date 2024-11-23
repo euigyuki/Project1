@@ -1,0 +1,4 @@
+(w0 / wear-01
+    :ARG0 (p0 / person
+              :quant 6)
+    :ARG1 (c0 / costume))

@@ -1,0 +1,14 @@
+# ::snt a group of people are at an aquarium to view marine life .
+# ::tokens ["a", "group", "of", "people", "are", "at", "an", "aquarium", "to", "view", "marine", "life", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "NNS", "VBP", "IN", "DT", "NN", "TO", "VB", "JJ", "NN", "."]
+# ::lemmas ["a", "group", "of", "people", "be", "at", "an", "aquarium", "to", "view", "marine", "life", "."]
+(b0 / be-located-at-91
+      :purpose (v0 / view-01
+            :ARG0 (g0 / group
+                  :consist-of (p0 / person))
+            :ARG1 (l0 / life
+                  :mod (m0 / marine)))
+      :ARG2 (a0 / aquarium)
+      :ARG1 g0)

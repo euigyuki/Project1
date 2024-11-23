@@ -1,0 +1,14 @@
+# ::snt the boy is bending down ready to catch the ball .
+# ::tokens ["the", "boy", "is", "bending", "down", "ready", "to", "catch", "the", "ball", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "VBG", "RP", "JJ", "TO", "VB", "DT", "NN", "."]
+# ::lemmas ["the", "boy", "be", "bend", "down", "ready", "to", "catch", "the", "ball", "."]
+(b0 / bend-01
+      :direction (d0 / down)
+      :purpose (r0 / ready-02
+            :ARG1 (b1 / boy
+                  :ARG0-of (c0 / catch-01
+                        :ARG1 (b2 / ball)))
+            :ARG2 c0)
+      :ARG1 b1)

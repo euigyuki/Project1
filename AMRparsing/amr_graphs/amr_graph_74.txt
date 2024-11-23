@@ -1,0 +1,5 @@
+(w0 / wear-01
+    :time (p0 / play-01
+              :ARG0 (g0 / girl
+                        :mod (y0 / young)
+                        :ARG0-of w0)))

@@ -1,0 +1,11 @@
+# ::snt two girls picks berries from a field .
+# ::tokens ["two", "girls", "picks", "berries", "from", "a", "field", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "VBZ", "NNS", "IN", "DT", "NN", "."]
+# ::lemmas ["two", "girl", "pick", "berry", "from", "a", "field", "."]
+(p0 / pick-01
+      :ARG2 (f0 / field)
+      :ARG0 (g0 / girl
+            :quant 2 )
+      :ARG1 (b0 / berry))

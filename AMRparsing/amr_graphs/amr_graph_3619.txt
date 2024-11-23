@@ -1,0 +1,4 @@
+(a0 / apply-02
+    :ARG2 (w0 / woman)
+    :ARG1 (m0 / makeup
+              :mod (e0 / eye)))

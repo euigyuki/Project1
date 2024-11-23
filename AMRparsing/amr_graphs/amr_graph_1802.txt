@@ -1,0 +1,18 @@
+# ::snt a man in a plaid shirt and blue jacket is handing out copies of the " new testament " .
+# ::tokens ["a", "man", "in", "a", "plaid", "shirt", "and", "blue", "jacket", "is", "handing", "out", "copies", "of", "the", "\"", "new", "testament", "\"", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "DT", "JJ", "NN", "CC", "JJ", "NN", "VBZ", "VBG", "RP", "NNS", "IN", "DT", "``", "JJ", "NN", "''", "."]
+# ::lemmas ["a", "man", "in", "a", "plaid", "shirt", "and", "blue", "jacket", "be", "hand", "out", "copy", "of", "the", "\"", "new", "testament", "\"", "."]
+(h0 / hand-out-03
+      :ARG0 (m0 / man
+            :ARG0-of (w0 / wear-01
+                  :ARG1 (a0 / and
+                        :op2 (j0 / jacket
+                              :mod (b0 / blue))
+                        :op1 (s0 / shirt
+                              :mod (p0 / plaid)))))
+      :ARG1 (t0 / thing
+            :ARG2-of (c0 / copy-01
+                  :ARG1 (t1 / testament
+                        :ARG1-of (n0 / new-01)))))

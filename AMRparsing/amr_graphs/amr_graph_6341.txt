@@ -1,0 +1,13 @@
+(r0 / ride-01
+    :time-of (c0 / cast-01
+                 :ARG0 (t0 / tree)
+                 :ARG2 (r1 / remainder
+                           :part-of (p1 / park))
+                 :ARG1 (s1 / shadow
+                           :mod (r2 / random)))
+    :ARG0 (g0 / girl
+              :ARG1-of (d1 / dress-01
+                           :ARG2 (p0 / pink-04))
+              :quant 2)
+    :ARG1 (d0 / day
+              :mod (s0 / sunlight)))

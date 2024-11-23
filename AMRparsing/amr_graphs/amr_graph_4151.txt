@@ -1,0 +1,7 @@
+(a0 / arrange-01
+    :manner (s0 / shape
+                :mod (s1 / star))
+    :ARG0 (g0 / group
+              :consist-of (p1 / person
+                              :ARG0-of (s3 / synchronized)
+                              :mod (s2 / swim-01))))

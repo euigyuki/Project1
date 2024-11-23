@@ -1,0 +1,11 @@
+# ::snt two young adults lounging on the green .
+# ::tokens ["two", "young", "adults", "lounging", "on", "the", "green", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "JJ", "NNS", "VBG", "IN", "DT", "NN", "."]
+# ::lemmas ["two", "young", "adult", "lounge", "on", "the", "green", "."]
+(l0 / lounge
+      :location (g0 / green-02)
+      :location (a0 / adult
+            :quant 2 
+            :mod (y0 / young)))

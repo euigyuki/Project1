@@ -1,0 +1,12 @@
+# ::snt two dogs play tug-of-war with a ball .
+# ::tokens ["two", "dogs", "play", "tug", "-", "of", "-", "war", "with", "a", "ball", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "VBP", "NN", "HYPH", "IN", "HYPH", "NN", "IN", "DT", "NN", "."]
+# ::lemmas ["two", "dog", "play", "tug", "-", "of", "-", "war", "with", "a", "ball", "."]
+(p0 / play-01
+      :ARG1 (c0 / counter-01
+            :ARG1 (w0 / war-01))
+      :ARG2 (b0 / ball)
+      :ARG0 (d0 / dog
+            :quant 2 ))

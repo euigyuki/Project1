@@ -1,0 +1,5 @@
+(w0 / walk-01
+    :ARG0 (f0 / female
+              :ARG0-of (w1 / wear-01
+                           :ARG1 (s1 / skirt))
+              :quant 2))

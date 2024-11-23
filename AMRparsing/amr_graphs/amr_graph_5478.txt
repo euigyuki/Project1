@@ -1,0 +1,14 @@
+# ::snt the man in the yellow shirt is singing and playing guitar .
+# ::tokens ["the", "man", "in", "the", "yellow", "shirt", "is", "singing", "and", "playing", "guitar", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "DT", "JJ", "NN", "VBZ", "VBG", "CC", "VBG", "NN", "."]
+# ::lemmas ["the", "man", "in", "the", "yellow", "shirt", "be", "singe", "and", "play", "guitar", "."]
+(a0 / and
+      :op2 (p0 / play-11
+            :ARG2 (g0 / guitar)
+            :ARG0 m0)
+      :op1 (s0 / sing-01
+            :ARG0 (m0 / man
+                  :prep-in (s1 / shirt
+                        :mod (y0 / yellow)))))

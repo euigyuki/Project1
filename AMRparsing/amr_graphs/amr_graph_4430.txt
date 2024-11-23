@@ -1,0 +1,10 @@
+# ::snt a smiling child is climbing on a playground .
+# ::tokens ["a", "smiling", "child", "is", "climbing", "on", "a", "playground", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "VBG", "NN", "VBZ", "VBG", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "smile", "child", "be", "climb", "on", "a", "playground", "."]
+(c0 / climb-01
+      :ARG0 (c1 / child
+            :ARG0-of (s0 / smile-01))
+      :ARG1 (p0 / playground))

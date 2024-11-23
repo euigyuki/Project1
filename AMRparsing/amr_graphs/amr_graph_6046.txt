@@ -1,0 +1,11 @@
+(s0 / stand-01
+    :ARG1 (b0 / boy
+              :part (c0 / chest
+                        :op1-of (w0 / wrap-01
+                                    :ARG1 (s3 / snake
+                                              :mod (l0 / large))))
+              :part (b1 / blond)
+              :mod (h0 / have-03
+                       :ARG1 s3)
+              :mod (s1 / setting
+                       :mod (s2 / shady))))

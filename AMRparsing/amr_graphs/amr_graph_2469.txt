@@ -1,0 +1,3 @@
+(r0 / read-01
+    :ARG0 (p0 / person)
+    :ARG1 (m0 / magazine))

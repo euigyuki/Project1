@@ -1,0 +1,13 @@
+# ::snt a man wearing red pants about to reach the ground .
+# ::tokens ["a", "man", "wearing", "red", "pants", "about", "to", "reach", "the", "ground", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBG", "JJ", "NNS", "IN", "TO", "VB", "DT", "NN", "."]
+# ::lemmas ["a", "man", "wear", "red", "pant", "about", "to", "reach", "the", "ground", "."]
+(r0 / reach-01
+      :time (a0 / about-to)
+      :ARG0 (m0 / man
+            :ARG0-of (w0 / wear-01
+                  :ARG1 (p0 / pant
+                        :ARG1-of (r1 / red-02))))
+      :ARG1 (g0 / ground))

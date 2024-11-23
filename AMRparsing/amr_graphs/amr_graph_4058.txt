@@ -1,0 +1,6 @@
+(a0 / allow-01
+    :ARG0 (a1 / art
+              :ARG1-of (b0 / beautiful-02)
+              :mod (s0 / stone))
+    :ARG1 (v0 / view-01
+              :ARG1 (w0 / woman)))

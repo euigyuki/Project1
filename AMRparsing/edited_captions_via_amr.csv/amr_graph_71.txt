@@ -1,0 +1,14 @@
+# ::snt A black and white dog drinking water from a water spray .
+# ::tokens ["A", "black", "and", "white", "dog", "drinking", "water", "from", "a", "water", "spray", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "CC", "JJ", "NN", "NN", "NN", "IN", "DT", "NN", "NN", "."]
+# ::lemmas ["a", "black", "and", "white", "dog", "drinking", "water", "from", "a", "water", "spray", "."]
+(d0 / drink-01
+      :ARG2 (t0 / thing
+            :ARG0-of (s0 / spray-01
+                  :ARG1 (w2 / water)))
+      :ARG0 (d1 / dog
+            :ARG1-of (w1 / white-03)
+            :ARG0-of (b0 / black-04))
+      :ARG1 (w0 / water))

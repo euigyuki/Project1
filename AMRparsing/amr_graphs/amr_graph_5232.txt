@@ -1,0 +1,16 @@
+# ::snt students in white clothing practice martial arts while spectators watch .
+# ::tokens ["students", "in", "white", "clothing", "practice", "martial", "arts", "while", "spectators", "watch", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["NNS", "IN", "JJ", "NN", "NN", "JJ", "NNS", "IN", "NNS", "VBP", "."]
+# ::lemmas ["student", "in", "white", "clothing", "practice", "martial", "art", "while", "spectator", "watch", "."]
+(p0 / practice-01
+      :time (w0 / watch-01
+            :ARG2 (p1 / person
+                  :ARG0-of (s0 / study-01)
+                  :ARG1-of (c0 / clothe-01
+                        :ARG2 (w1 / white-03)))
+            :ARG0 (s1 / spectator))
+      :ARG0 p1
+      :ARG1 (a0 / art
+            :mod (m0 / martial)))

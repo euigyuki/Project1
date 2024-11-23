@@ -1,0 +1,14 @@
+# ::snt a young woman in a cupcake shirt unwraps a gift .
+# ::tokens ["a", "young", "woman", "in", "a", "cupcake", "shirt", "unwraps", "a", "gift", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "IN", "DT", "NN", "NN", "VBZ", "DT", "NN", "."]
+# ::lemmas ["a", "young", "woman", "in", "a", "cupcake", "shirt", "unwrap", "a", "gift", "."]
+(u0 / unwrap
+      :ARG0 (w0 / woman
+            :ARG0-of (w1 / wear-01
+                  :ARG1 (s0 / shirt
+                        :mod (c0 / cupcake)))
+            :mod (y0 / young))
+      :domain (t0 / thing
+            :ARG1-of (g0 / gift-01)))

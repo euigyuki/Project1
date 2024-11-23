@@ -1,0 +1,14 @@
+# ::snt one cook watching another cook grill chicken .
+# ::tokens ["one", "cook", "watching", "another", "cook", "grill", "chicken", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NN", "VBG", "DT", "NN", "JJ", "NN", "."]
+# ::lemmas ["one", "cook", "watch", "another", "cook", "grill", "chicken", "."]
+(w0 / watch-01
+      :ARG0 (p0 / person
+            :quant 1 
+            :ARG0-of (c1 / cook-01))
+      :ARG1 (b0 / bark-01
+            :ARG0 (p1 / person
+                  :mod (a0 / another))
+            :ARG1 (c0 / chicken)))

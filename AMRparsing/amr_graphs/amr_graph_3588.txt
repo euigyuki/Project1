@@ -1,0 +1,7 @@
+(s0 / smile-01
+    :accompanier (s1 / screen)
+    :ARG0 (w0 / woman
+              :part (a0 / arm
+                        :ARG1-of (h0 / have-03
+                                     :ARG0 w0))
+              :op1-of (b0 / behind)))

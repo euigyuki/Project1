@@ -1,0 +1,11 @@
+# ::snt a black man in a red shirt .
+# ::tokens ["a", "black", "man", "in", "a", "red", "shirt", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "IN", "DT", "JJ", "NN", "."]
+# ::lemmas ["a", "black", "man", "in", "a", "red", "shirt", "."]
+(m0 / man
+      :ARG0-of (w0 / wear-01
+            :ARG1 (s0 / shirt
+                  :ARG1-of (r0 / red-02)))
+      :ARG1-of (b0 / black-04))

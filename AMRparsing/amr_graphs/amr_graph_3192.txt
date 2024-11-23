@@ -1,0 +1,13 @@
+# ::snt a mother is going to kiss a cross invited by her baby .
+# ::tokens ["a", "mother", "is", "going", "to", "kiss", "a", "cross", "invited", "by", "her", "baby", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "VBG", "TO", "VB", "DT", "NN", "VBN", "IN", "PRP$", "NN", "."]
+# ::lemmas ["a", "mother", "be", "go", "to", "kiss", "a", "cross", "invite", "by", "her", "baby", "."]
+(k0 / kiss-01
+      :ARG0 (p0 / person
+            :ARG1-of (b0 / baby)
+            :ARG0-of (h0 / have-rel-role-91
+                  :ARG2 (m0 / mother)))
+      :ARG1 (c0 / cross
+            :ARG1-of (i0 / invite-01)))

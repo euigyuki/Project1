@@ -1,0 +1,15 @@
+# ::snt two kids wakeboarding simultaneously decide to signal for a high-five .
+# ::tokens ["two", "kids", "wakeboarding", "simultaneously", "decide", "to", "signal", "for", "a", "high", "-", "five", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "VBG", "RB", "VB", "TO", "VB", "IN", "DT", "RB", "HYPH", "CD", "."]
+# ::lemmas ["two", "kid", "wakeboarde", "simultaneously", "decide", "to", "signal", "for", "a", "high", "-", "five", "."]
+(d0 / decide-01
+      :mod (s1 / simultaneous)
+      :ARG0 (k0 / kid
+            :ARG0-of (s0 / signal-07
+                  :ARG1 (h0 / high-02
+                        :ARG1 5 ))
+            :quant 2 
+            :ARG0-of (b0 / break-down-11))
+      :ARG1 s0)

@@ -1,0 +1,10 @@
+# ::snt dog swimming in the water with a stick .
+# ::tokens ["dog", "swimming", "in", "the", "water", "with", "a", "stick", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["NN", "NN", "IN", "DT", "NN", "IN", "DT", "NN", "."]
+# ::lemmas ["dog", "swimming", "in", "the", "water", "with", "a", "stick", "."]
+(s0 / swim-01
+      :instrument (s1 / stick)
+      :ARG0 (d0 / dog)
+      :ARG1 (w0 / water))

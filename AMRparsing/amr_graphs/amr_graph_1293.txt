@@ -1,0 +1,4 @@
+(s0 / side
+    :part-of (w0 / woman
+                 :ARG1-of (s1 / stand-01))
+    :mod (b0 / back))

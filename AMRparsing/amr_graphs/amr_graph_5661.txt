@@ -1,0 +1,6 @@
+(s0 / sit-01
+    :ARG1 (g0 / group
+              :consist-of (p0 / person
+                              :mod (c0 / country
+                                       :name (n0 / name
+                                                 :op1 "America")))))

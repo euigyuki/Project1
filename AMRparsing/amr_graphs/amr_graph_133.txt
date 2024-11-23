@@ -1,0 +1,6 @@
+(c0 / contrast-01
+    :ARG1 (s0 / stand-01
+              :ARG1 (c1 / cutout
+                        :ARG1-of (w1 / white-03
+                                     :ARG1 (s2 / snow))
+                        :mod (c2 / cartoon))))

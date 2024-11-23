@@ -1,0 +1,17 @@
+# ::snt workers are preparing for what they plan to be a tasty barbecue treat .
+# ::tokens ["workers", "are", "preparing", "for", "what", "they", "plan", "to", "be", "a", "tasty", "barbecue", "treat", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["NNS", "VBP", "VBG", "IN", "WP", "PRP", "VBP", "TO", "VB", "DT", "JJ", "NN", "NN", "."]
+# ::lemmas ["worker", "be", "prepare", "for", "what", "they", "plan", "to", "be", "a", "tasty", "barbecue", "treat", "."]
+(p0 / prepare-02
+      :ARG2 (t0 / thing
+            :domain (t1 / thing
+                  :ARG1-of (p2 / plan-01
+                        :ARG0 p1
+                        :ARG1 t0)
+                  :ARG1-of (t3 / treat-01
+                        :ARG2 (b0 / barbecue))
+                  :mod (t2 / tasty)))
+      :ARG1 (p1 / person
+            :ARG1-of (w0 / work-01)))

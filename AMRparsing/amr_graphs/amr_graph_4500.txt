@@ -1,0 +1,10 @@
+# ::snt the football player is being tackled .
+# ::tokens ["the", "football", "player", "is", "being", "tackled", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "NN", "VBZ", "VBG", "VBN", "."]
+# ::lemmas ["the", "football", "player", "be", "be", "tackle", "."]
+(t0 / tackle-01
+      :ARG1 (p0 / person
+            :ARG0-of (p1 / play-01
+                  :ARG1 (f0 / football))))

@@ -1,0 +1,6 @@
+(w0 / watch-01
+    :ARG0 (p0 / person
+              :ARG1-of (s1 / sit-01))
+    :ARG1 (g0 / game
+              :poss (m0 / man)
+              :mod (s0 / soccer)))

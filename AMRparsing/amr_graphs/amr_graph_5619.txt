@@ -1,0 +1,4 @@
+(r0 / run-02
+    :ARG0 (m0 / man)
+    :ARG1 (s0 / shoeless
+              :polarity -))

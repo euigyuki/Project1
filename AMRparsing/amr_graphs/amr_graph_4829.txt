@@ -1,0 +1,8 @@
+(h0 / hold-back-07
+    :ARG2 (j0 / jump-03
+              :ARG0 (m0 / man
+                        :poss-of (d0 / dog
+                                     :mod (b0 / brown))
+                        :poss-of (w0 / water)
+                        :ARG0-of h0))
+    :ARG1 d0)

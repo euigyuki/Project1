@@ -1,0 +1,3 @@
+(g0 / group
+    :consist-of (k0 / kid)
+    :ARG0-of (p0 / play-01))

@@ -1,0 +1,13 @@
+# ::snt a girl in a red shirt is outside crying .
+# ::tokens ["a", "girl", "in", "a", "red", "shirt", "is", "outside", "crying", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "DT", "JJ", "NN", "VBZ", "JJ", "VBG", "."]
+# ::lemmas ["a", "girl", "in", "a", "red", "shirt", "be", "outside", "cry", "."]
+(b0 / be-located-at-91
+      :ARG2 (o0 / outside)
+      :ARG1 (g0 / girl
+            :ARG0-of (h0 / have-03
+                  :ARG1 (s0 / shirt
+                        :ARG1-of (r0 / red-02)))
+            :mod (c0 / cry-01)))

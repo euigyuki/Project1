@@ -1,0 +1,16 @@
+# ::snt three children play together and act like celebrities with their props .
+# ::tokens ["three", "children", "play", "together", "and", "act", "like", "celebrities", "with", "their", "props", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "VBP", "RB", "CC", "VB", "IN", "NNS", "IN", "PRP$", "NNS", "."]
+# ::lemmas ["three", "child", "play", "together", "and", "act", "like", "celebrity", "with", "their", "prop", "."]
+(a0 / and
+      :op2 (a1 / act-01
+            :ARG1 (r0 / resemble-01
+                  :ARG2 (c1 / celebrity))
+            :ARG1-of (p1 / prop)
+            :ARG0 c0)
+      :op1 (p0 / play-01
+            :mod (t0 / together)
+            :ARG0 (c0 / child
+                  :quant 3 )))

@@ -1,0 +1,14 @@
+# ::snt a man puts his motorcycle up on its rear wheel on a track .
+# ::tokens ["a", "man", "puts", "his", "motorcycle", "up", "on", "its", "rear", "wheel", "on", "a", "track", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "PRP$", "NN", "RP", "IN", "PRP$", "JJ", "NN", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "man", "put", "his", "motorcycle", "up", "on", "its", "rear", "wheel", "on", "a", "track", "."]
+(p0 / put-01
+      :direction (u0 / up)
+      :ARG2 (t0 / track)
+      :ARG0 (m1 / man
+            :poss-of (m0 / motorcycle)
+            :poss-of (w0 / wheel
+                  :mod (r0 / rear)))
+      :ARG1 m0)

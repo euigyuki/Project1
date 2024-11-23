@@ -1,0 +1,14 @@
+# ::snt three people on atvs in a brown field turn their heads to look at the camera .
+(z1 / turn-01
+      :ARG0 (z2 / person
+            :quant 3)
+      :ARG1 (z3 / head
+            :part-of z2)
+      :purpose (z4 / look-01
+            :ARG0 z2
+            :ARG1 (z5 / camera))
+      :instrument (z6 / vehicle
+            :name (z7 / name
+                  :op1 "Atvs"))
+      :location (z8 / field
+            :mod (z9 / brown)))

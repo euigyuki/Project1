@@ -1,0 +1,11 @@
+# ::snt two women harvesting their garden .
+# ::tokens ["two", "women", "harvesting", "their", "garden", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "VBG", "PRP$", "NN", "."]
+# ::lemmas ["two", "woman", "harvest", "their", "garden", "."]
+(h0 / harvest-01
+      :ARG0 (w0 / woman
+            :poss-of (g0 / garden)
+            :quant 2 )
+      :ARG1 g0)

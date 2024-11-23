@@ -1,0 +1,18 @@
+# ::snt a woman riding a horse wearing a blue shirt and cap , white slacks and black boots .
+# ::tokens ["a", "woman", "riding", "a", "horse", "wearing", "a", "blue", "shirt", "and", "cap", ",", "white", "slacks", "and", "black", "boots", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBG", "DT", "NN", "VBG", "DT", "JJ", "NN", "CC", "NN", ",", "JJ", "NNS", "CC", "JJ", "NNS", "."]
+# ::lemmas ["a", "woman", "ride", "a", "horse", "wear", "a", "blue", "shirt", "and", "cap", ",", "white", "slack", "and", "black", "boot", "."]
+(r0 / ride-01
+      :ARG1 (h0 / horse)
+      :ARG0 (w0 / woman
+            :ARG0-of (w1 / wear-01
+                  :ARG1 (a0 / and
+                        :op4 (b0 / boot
+                              :ARG1-of (b2 / black-04))
+                        :op3 (s1 / slack
+                              :ARG1-of (w2 / white-03))
+                        :op2 (c0 / cap)
+                        :op1 (s0 / shirt
+                              :mod (b1 / blue))))))

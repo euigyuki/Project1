@@ -1,0 +1,18 @@
+# ::snt older man in blue shirt staring down at a beer can in his hand .
+# ::tokens ["older", "man", "in", "blue", "shirt", "staring", "down", "at", "a", "beer", "can", "in", "his", "hand", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["JJR", "NN", "IN", "JJ", "NN", "VBG", "RP", "IN", "DT", "NN", "MD", "IN", "PRP$", "NN", "."]
+# ::lemmas ["old", "man", "in", "blue", "shirt", "stare", "down", "at", "a", "beer", "can", "in", "his", "hand", "."]
+(m0 / man
+      :part (h1 / hand)
+      :ARG0-of (s0 / stare-01
+            :direction (d0 / down)
+            :ARG1 (c0 / can
+                  :mod (b1 / beer)))
+      :ARG1-of (w0 / wear-01
+            :ARG1 (s1 / shirt
+                  :mod (b0 / blue)))
+      :mod (h0 / have-degree-91
+            :ARG3 (m1 / more))
+      :mod (o0 / old))

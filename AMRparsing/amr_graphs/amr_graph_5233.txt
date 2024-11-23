@@ -1,0 +1,15 @@
+# ::snt two people wearing white outfits sparring in front of a group of people .
+# ::tokens ["two", "people", "wearing", "white", "outfits", "sparring", "in", "front", "of", "a", "group", "of", "people", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "VBG", "JJ", "NNS", "VBG", "IN", "NN", "IN", "DT", "NN", "IN", "NNS", "."]
+# ::lemmas ["two", "people", "wear", "white", "outfit", "spar", "in", "front", "of", "a", "group", "of", "people", "."]
+(r0 / ride-01
+      :ARG0 (p0 / person
+            :quant 2 
+            :ARG0-of (w0 / wear-01
+                  :ARG1 (o0 / outfit
+                        :ARG1-of (w1 / white-03))))
+      :ARG1 (i0 / in-front-of
+            :op1 (g0 / group
+                  :consist-of (p1 / person))))

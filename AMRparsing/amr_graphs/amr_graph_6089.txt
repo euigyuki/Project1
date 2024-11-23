@@ -1,0 +1,4 @@
+(s0 / ski-01
+    :ARG2 (d0 / down)
+    :ARG0 (c0 / child
+              :ARG0-of (h0 / have-03)))

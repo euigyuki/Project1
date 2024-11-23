@@ -1,0 +1,14 @@
+# ::snt a construction worker stares down a flight of stairs being built .
+# ::tokens ["a", "construction", "worker", "stares", "down", "a", "flight", "of", "stairs", "being", "built", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "NN", "NNS", "IN", "DT", "NN", "IN", "NNS", "VBG", "VBN", "."]
+# ::lemmas ["a", "construction", "worker", "stare", "down", "a", "flight", "of", "stair", "be", "build", "."]
+(s0 / stare-01
+      :direction (d0 / down
+            :op1 (f0 / fly-01
+                  :ARG1-of (b0 / build-01)
+                  :ARG1 (s1 / stair)))
+      :ARG1 (p0 / person
+            :ARG0-of (w0 / work-01
+                  :ARG1 (c0 / construct-01))))

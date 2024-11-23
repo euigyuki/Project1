@@ -1,0 +1,5 @@
+(c0 / carry-01
+    :ARG0 (d0 / dog
+              :part (m0 / mouth)
+              :ARG1-of (b0 / brown))
+    :ARG1 (t0 / toy))

@@ -1,0 +1,13 @@
+# ::snt a group of construction workers working on a ramp that is closed .
+# ::tokens ["a", "group", "of", "construction", "workers", "working", "on", "a", "ramp", "that", "is", "closed", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "NN", "NNS", "VBG", "IN", "DT", "NN", "WDT", "VBZ", "VBN", "."]
+# ::lemmas ["a", "group", "of", "construction", "worker", "work", "on", "a", "ramp", "that", "be", "close", "."]
+(g0 / group
+      :consist-of (p0 / person
+            :ARG0-of (w1 / work-01)
+            :mod (c0 / construct-01)
+            :ARG1-of (w0 / work-01
+                  :ARG1 (r0 / ramp
+                        :ARG1-of (c1 / close-01)))))

@@ -1,0 +1,11 @@
+(a0 / and
+    :time (d0 / date-entity
+              :dayperiod (n1 / night))
+    :op2 (s0 / sit-01
+             :ARG1 (a1 / and
+                       :op2 (f0 / family)
+                       :op1 (p0 / person
+                                :ARG0-of (h0 / have-rel-role-91
+                                             :ARG1 f0))))
+    :op1 (r0 / relax-01
+             :ARG1 a1))

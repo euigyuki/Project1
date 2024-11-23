@@ -1,0 +1,11 @@
+# ::snt three men work on a railroad line .
+# ::tokens ["three", "men", "work", "on", "a", "railroad", "line", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "VBP", "IN", "DT", "NN", "NN", "."]
+# ::lemmas ["three", "man", "work", "on", "a", "railroad", "line", "."]
+(w0 / work-01
+      :ARG2 (l0 / line
+            :mod (r0 / railroad))
+      :ARG0 (m0 / man
+            :quant 3 ))

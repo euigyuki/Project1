@@ -1,0 +1,13 @@
+# ::snt a young person wearing a helmet rides a unicycle .
+# ::tokens ["a", "young", "person", "wearing", "a", "helmet", "rides", "a", "unicycle", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "VBG", "DT", "NN", "VBZ", "DT", "NN", "."]
+# ::lemmas ["a", "young", "person", "wear", "a", "helmet", "ride", "a", "unicycle", "."]
+(r0 / ride-01
+      :ARG1 (u0 / unicycle
+            :polarity - )
+      :ARG0 (p0 / person
+            :ARG0-of (w0 / wear-01
+                  :ARG1 (h0 / helmet))
+            :mod (y0 / young)))

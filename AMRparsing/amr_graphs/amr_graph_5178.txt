@@ -1,0 +1,12 @@
+# ::snt a young couple relaxing against a stone wall .
+# ::tokens ["a", "young", "couple", "relaxing", "against", "a", "stone", "wall", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "VBG", "IN", "DT", "NN", "NN", "."]
+# ::lemmas ["a", "young", "couple", "relax", "against", "a", "stone", "wall", "."]
+(r0 / relax-01
+      :ARG2 (a0 / against
+            :op1 (w0 / wall
+                  :mod (s0 / stone)))
+      :ARG1 (c0 / couple
+            :mod (y0 / young)))

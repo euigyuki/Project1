@@ -1,0 +1,12 @@
+# ::snt asian children playing by a rail .
+# ::tokens ["asian", "children", "playing", "by", "a", "rail", "."]
+# ::ner_tags ["NORP", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["JJ", "NNS", "VBG", "IN", "DT", "NN", "."]
+# ::lemmas ["asian", "child", "play", "by", "a", "rail", "."]
+(p0 / play-01
+      :ARG2 (r0 / rail)
+      :ARG0 (c0 / child
+            :mod (c1 / continent
+                  :name (n0 / name
+                        :op1 "Asia" ))))

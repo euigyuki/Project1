@@ -1,0 +1,18 @@
+# ::snt a man sits at a table and pours a drink into one of six glasses .
+# ::tokens ["a", "man", "sits", "at", "a", "table", "and", "pours", "a", "drink", "into", "one", "of", "six", "glasses", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "CARDINAL", "O", "CARDINAL", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B", "O", "B", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "IN", "DT", "NN", "CC", "VBZ", "DT", "NN", "IN", "CD", "IN", "CD", "NNS", "."]
+# ::lemmas ["a", "man", "sit", "at", "a", "table", "and", "pour", "a", "drink", "into", "one", "of", "six", "glass", "."]
+(a0 / and
+      :op2 (p0 / pour-01
+            :ARG3 (g0 / glass
+                  :quant 1 
+                  :ARG1-of (i0 / include-91
+                        :ARG2 (g1 / glass
+                              :quant 6 )))
+            :ARG1 (d0 / drink)
+            :ARG0 m0)
+      :op1 (s0 / sit-01
+            :ARG2 (t0 / table)
+            :ARG1 (m0 / man)))

@@ -1,0 +1,23 @@
+# ::snt a young girl in a black shirt and a blue helmet is sitting on a quad , or four wheeler , with her right hand on the handlebars .
+# ::tokens ["a", "young", "girl", "in", "a", "black", "shirt", "and", "a", "blue", "helmet", "is", "sitting", "on", "a", "quad", ",", "or", "four", "wheeler", ",", "with", "her", "right", "hand", "on", "the", "handlebars", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "IN", "DT", "JJ", "NN", "CC", "DT", "JJ", "NN", "VBZ", "VBG", "IN", "DT", "NN", ",", "CC", "CD", "NN", ",", "IN", "PRP$", "JJ", "NN", "IN", "DT", "NNS", "."]
+# ::lemmas ["a", "young", "girl", "in", "a", "black", "shirt", "and", "a", "blue", "helmet", "be", "sit", "on", "a", "quad", ",", "or", "four", "wheeler", ",", "with", "her", "right", "hand", "on", "the", "handlebar", "."]
+(s0 / sit-01
+      :ARG2 (o0 / or
+            :op2 (w1 / wheeler
+                  :quant 4 )
+            :op1 (q0 / quad))
+      :ARG1 (g0 / girl
+            :part (h0 / hand
+                  :location (h1 / handlebar)
+                  :ARG1-of (r0 / right-04))
+            :ARG0-of (w0 / wear-01
+                  :ARG1 (a0 / and
+                        :op2 (h2 / helmet
+                              :mod (b1 / blue))
+                        :op1 (s1 / shirt
+                              :ARG1-of (b0 / black-04))))
+            :mod (y0 / young))
+      :manner h0)

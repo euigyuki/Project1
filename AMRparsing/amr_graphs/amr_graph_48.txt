@@ -1,0 +1,17 @@
+# ::snt three men are riding on an elephant with a shack in the background and two of them are wearing hats .
+# ::tokens ["three", "men", "are", "riding", "on", "an", "elephant", "with", "a", "shack", "in", "the", "background", "and", "two", "of", "them", "are", "wearing", "hats", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "CARDINAL", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "VBP", "VBG", "IN", "DT", "NN", "IN", "DT", "NN", "IN", "DT", "NN", "CC", "CD", "IN", "PRP", "VBP", "VBG", "NNS", "."]
+# ::lemmas ["three", "man", "be", "ride", "on", "an", "elephant", "with", "a", "shack", "in", "the", "background", "and", "two", "of", "they", "be", "wear", "hat", "."]
+(a0 / and
+      :op2 (w0 / wear-01
+            :ARG1 (h0 / hat))
+      :op1 (r0 / ride-01
+            :ARG0 (m0 / man
+                  :quant 2 
+                  :quant 3 )
+            :ARG1 (e0 / elephant
+                  :ARG0-of (h1 / have-03
+                        :ARG1 (b0 / background))
+                  :ARG2-of (i0 / include-91))))

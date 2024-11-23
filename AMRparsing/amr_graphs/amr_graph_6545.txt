@@ -1,0 +1,5 @@
+(c0 / cruise-01
+    :path (a0 / across
+              :op1 (f0 / field
+                       :mod (g0 / grassy)))
+    :ARG0 (d0 / dog))

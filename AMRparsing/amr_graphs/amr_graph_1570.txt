@@ -1,0 +1,10 @@
+# ::snt this man is repairing the pipes .
+# ::tokens ["this", "man", "is", "repairing", "the", "pipes", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "VBG", "DT", "NNS", "."]
+# ::lemmas ["this", "man", "be", "repair", "the", "pipe", "."]
+(r0 / repair-01
+      :ARG0 (m0 / man
+            :mod (t0 / this))
+      :ARG1 (p0 / pipe))

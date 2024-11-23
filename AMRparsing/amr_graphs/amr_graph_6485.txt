@@ -1,0 +1,3 @@
+(r0 / relax-01
+    :ARG1 (p0 / person
+              :quant (m0 / many)))

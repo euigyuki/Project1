@@ -1,0 +1,6 @@
+(s0 / sit-01
+    :purpose (r0 / read-01
+                 :ARG0 (k0 / kid
+                           :quant 3)
+                 :ARG1 (b0 / book))
+    :ARG1 k0)

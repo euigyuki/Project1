@@ -1,0 +1,11 @@
+(l0 / lift-01
+    :ARG0 (m0 / man
+              :quant 2)
+    :ARG1 (s0 / sheet
+              :ARG1-of (a0 / attach-01
+                           :ARG2 (p0 / piece
+                                     :mod (b0 / blue)
+                                     :mod (e0 / equipment)))
+              :consist-of (g0 / glass)
+              :mod (h0 / have-03
+                       :ARG1 p0)))

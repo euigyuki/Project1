@@ -1,0 +1,6 @@
+(c0 / carry-01
+    :purpose (w0 / walk-01)
+    :ARG0 (d0 / dog
+              :ARG1-of (b1 / black-04))
+    :ARG1 (b0 / ball
+              :mod (o0 / orange)))

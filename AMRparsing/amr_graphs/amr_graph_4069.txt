@@ -1,0 +1,4 @@
+(b0 / boy
+    :ARG1-of (s0 / surround-01
+                 :ARG2 (b1 / bird))
+    :mod (l0 / little))

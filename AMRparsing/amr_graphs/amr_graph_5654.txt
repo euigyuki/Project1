@@ -1,0 +1,11 @@
+# ::snt a young girl cleans the ground with a rag .
+# ::tokens ["a", "young", "girl", "cleans", "the", "ground", "with", "a", "rag", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "VBZ", "DT", "NN", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "young", "girl", "clean", "the", "ground", "with", "a", "rag", "."]
+(c0 / clean-01
+      :instrument (r0 / rag)
+      :ARG0 (g1 / girl
+            :mod (y0 / young))
+      :ARG1 (g0 / ground))

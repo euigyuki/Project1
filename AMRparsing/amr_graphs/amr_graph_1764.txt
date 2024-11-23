@@ -1,0 +1,3 @@
+(c0 / commute-01
+    :ARG0 (p0 / person
+              :quant (f0 / few)))

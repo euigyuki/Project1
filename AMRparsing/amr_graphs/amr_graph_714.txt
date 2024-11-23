@@ -1,0 +1,4 @@
+(b0 / babble-01
+    :ARG0 (m0 / man
+              :ARG0-of (h0 / have-03
+                           :ARG1 (h1 / hat))))

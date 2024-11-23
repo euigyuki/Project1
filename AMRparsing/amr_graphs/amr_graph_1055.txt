@@ -1,0 +1,8 @@
+(e0 / eat-01
+    :source (b0 / bowl
+                :ARG1-of (w0 / white-03))
+    :ARG0 (m0 / man
+              :ARG1-of (s0 / seat-01)
+              :mod (c0 / country
+                       :name (n0 / name
+                                 :op1 "India"))))

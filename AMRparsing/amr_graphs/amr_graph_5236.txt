@@ -1,0 +1,21 @@
+# ::snt a young man with his back to the camera is being watched by youths sitting at two picnic tables before a backdrop of grass and trees .
+# ::tokens ["a", "young", "man", "with", "his", "back", "to", "the", "camera", "is", "being", "watched", "by", "youths", "sitting", "at", "two", "picnic", "tables", "before", "a", "backdrop", "of", "grass", "and", "trees", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "IN", "PRP$", "NN", "IN", "DT", "NN", "VBZ", "VBG", "VBN", "IN", "NNS", "VBG", "IN", "CD", "NN", "NNS", "IN", "DT", "NN", "IN", "NN", "CC", "NNS", "."]
+# ::lemmas ["a", "young", "man", "with", "his", "back", "to", "the", "camera", "be", "be", "watch", "by", "youth", "sit", "at", "two", "picnic", "table", "before", "a", "backdrop", "of", "grass", "and", "tree", "."]
+(w0 / watch-01
+      :ARG1 (m0 / man
+            :part (b0 / back
+                  :location-of (c0 / camera))
+            :mod (y1 / young))
+      :ARG0 (y0 / youth
+            :ARG1-of (s0 / sit-01
+                  :ARG2 (b1 / before
+                        :op1 (b2 / backdrop
+                              :consist-of (a0 / and
+                                    :op2 (t1 / tree)
+                                    :op1 (g0 / grass))))
+                  :location (t0 / table
+                        :quant 2 
+                        :mod (p0 / picnic)))))

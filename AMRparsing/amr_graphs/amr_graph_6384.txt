@@ -1,0 +1,9 @@
+(w0 / work-01
+    :mod (t0 / together)
+    :ARG0 (a0 / and
+              :ARG0-of (i0 / install-01
+                           :ARG1 (p0 / pipe))
+              :domain (g0 / group)
+              :op2 (m0 / man)
+              :op1 (l0 / lady))
+    :ARG1 i0)

@@ -1,0 +1,17 @@
+# ::snt a small girl dressed in yellow wearing flip-flops climbing onto red playground equipment .
+# ::tokens ["a", "small", "girl", "dressed", "in", "yellow", "wearing", "flip", "-", "flops", "climbing", "onto", "red", "playground", "equipment", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "VBN", "IN", "JJ", "VBG", "NN", "HYPH", "NNS", "VBG", "IN", "JJ", "NN", "NN", "."]
+# ::lemmas ["a", "small", "girl", "dress", "in", "yellow", "wear", "flip", "-", "flop", "climb", "onto", "red", "playground", "equipment", "."]
+(c0 / climb-01
+      :ARG0 (g0 / girl
+            :ARG1-of (d0 / dress-01
+                  :ARG2 (y0 / yellow))
+            :mod (w0 / wear-01
+                  :ARG1 (f0 / flop))
+            :mod (s0 / small))
+      :ARG1 (o0 / onto
+            :op1 (e0 / equipment
+                  :ARG1-of (r0 / red-02)
+                  :mod (p0 / playground))))

@@ -1,0 +1,17 @@
+# ::snt a man stands near a christian sign , as a public train passes behind him .
+# ::tokens ["a", "man", "stands", "near", "a", "christian", "sign", ",", "as", "a", "public", "train", "passes", "behind", "him", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "NORP", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "IN", "DT", "JJ", "NN", ",", "IN", "DT", "JJ", "NN", "VBZ", "IN", "PRP", "."]
+# ::lemmas ["a", "man", "stand", "near", "a", "christian", "sign", ",", "as", "a", "public", "train", "pass", "behind", "he", "."]
+(s0 / stand-01
+      :time (p0 / pass-by-17
+            :ARG0 (t0 / train
+                  :ARG1-of (p1 / public-02)))
+      :ARG1-of (n0 / near-02
+            :ARG2 (s1 / sign
+                  :mod (r0 / religious-group
+                        :name (n1 / name
+                              :op1 "Christian" ))))
+      :ARG1 (m0 / man
+            :op1-of (b0 / behind)))

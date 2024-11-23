@@ -1,0 +1,12 @@
+# ::snt a young boy has a snake draped over his shoulders .
+# ::tokens ["a", "young", "boy", "has", "a", "snake", "draped", "over", "his", "shoulders", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "VBZ", "DT", "NN", "VBN", "IN", "PRP$", "NNS", "."]
+# ::lemmas ["a", "young", "boy", "have", "a", "snake", "drape", "over", "his", "shoulder", "."]
+(w0 / wrap-01
+      :ARG2 (s1 / shoulder
+            :part-of (b0 / boy
+                  :mod (y0 / young)))
+      :ARG0 b0
+      :ARG1 (s0 / snake))

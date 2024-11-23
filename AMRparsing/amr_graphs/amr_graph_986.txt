@@ -1,0 +1,21 @@
+# ::snt so many people came out with their sweatshirts , blankets and hats that very cold november night .
+# ::tokens ["so", "many", "people", "came", "out", "with", "their", "sweatshirts", ",", "blankets", "and", "hats", "that", "very", "cold", "november", "night", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "TIME", "TIME", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B", "I", "O"]
+# ::pos_tags ["RB", "JJ", "NNS", "VBD", "RP", "IN", "PRP$", "NNS", ",", "NNS", "CC", "NNS", "WDT", "RB", "JJ", "NNP", "NN", "."]
+# ::lemmas ["so", "many", "people", "come", "out", "with", "their", "sweatshirt", ",", "blanket", "and", "hat", "that", "very", "cold", "november", "night", "."]
+(c0 / come-out-09
+      :time (d0 / date-entity
+            :dayperiod (n0 / night
+                  :ARG1-of (c1 / cold-01
+                        :degree (v0 / very)))
+            :mod 11 )
+      :time (a0 / and
+            :op3 (h0 / hat)
+            :op2 b0
+            :op1 s0)
+      :ARG1 (p0 / person
+            :poss-of (b0 / blanket)
+            :poss-of (s0 / sweatshirt)
+            :quant (m0 / many
+                  :degree (s1 / so))))

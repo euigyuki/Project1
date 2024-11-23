@@ -1,0 +1,15 @@
+# ::snt a middle-aged caucasian man is driving a postal van .
+# ::tokens ["a", "middle", "-", "aged", "caucasian", "man", "is", "driving", "a", "postal", "van", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "HYPH", "JJ", "JJ", "NN", "VBZ", "VBG", "DT", "JJ", "NN", "."]
+# ::lemmas ["a", "middle", "-", "aged", "caucasian", "man", "be", "drive", "a", "postal", "van", "."]
+(d0 / drive-01
+      :ARG1 (v0 / van
+            :mod (p0 / postal))
+      :ARG0 (m0 / man
+            :mod (c0 / continent
+                  :name (n0 / name
+                        :op1 "Asia" ))
+            :mod (a0 / age-01
+                  :ARG2 (m1 / middle))))

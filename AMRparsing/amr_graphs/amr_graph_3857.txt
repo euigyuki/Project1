@@ -1,0 +1,17 @@
+# ::snt a boy dressed as a cowboy is petting a four-legged animal with horns and a saddle .
+# ::tokens ["a", "boy", "dressed", "as", "a", "cowboy", "is", "petting", "a", "four", "-", "legged", "animal", "with", "horns", "and", "a", "saddle", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "B", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBN", "IN", "DT", "NN", "VBZ", "VBG", "DT", "CD", "HYPH", "JJ", "NN", "IN", "NNS", "CC", "DT", "NN", "."]
+# ::lemmas ["a", "boy", "dress", "as", "a", "cowboy", "be", "pet", "a", "four", "-", "legged", "animal", "with", "horn", "and", "a", "saddle", "."]
+(p0 / pet
+      :domain (b0 / boy
+            :ARG1-of (d0 / dress-01
+                  :ARG2 (c0 / cowboy)))
+      :domain (a0 / animal
+            :part (l0 / legged
+                  :quant 4 )
+            :ARG0-of (h0 / have-03
+                  :ARG1 (a1 / and
+                        :op2 (s0 / saddle)
+                        :op1 (h1 / horn)))))

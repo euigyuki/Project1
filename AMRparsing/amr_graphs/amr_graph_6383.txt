@@ -1,0 +1,15 @@
+# ::snt group of people with facing each other with their fingers thrust through some type of pipe .
+# ::tokens ["group", "of", "people", "with", "facing", "each", "other", "with", "their", "fingers", "thrust", "through", "some", "type", "of", "pipe", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["NN", "IN", "NNS", "IN", "VBG", "DT", "JJ", "IN", "PRP$", "NNS", "VBD", "IN", "DT", "NN", "IN", "NN", "."]
+# ::lemmas ["group", "of", "people", "with", "face", "each", "other", "with", "their", "finger", "thrust", "through", "some", "type", "of", "pipe", "."]
+(g0 / group
+      :consist-of (p0 / person
+            :part (f1 / finger)
+            :ARG0-of (f0 / face-01
+                  :ARG1 (p1 / pipe
+                        :mod (t2 / type
+                              :mod (s0 / some)))
+                  :manner (t0 / thrust-01
+                        :path (t1 / through)))))

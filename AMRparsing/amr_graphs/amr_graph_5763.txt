@@ -1,0 +1,15 @@
+# ::snt a man gets ready to throw a tennis ball for his dog .
+# ::tokens ["a", "man", "gets", "ready", "to", "throw", "a", "tennis", "ball", "for", "his", "dog", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "JJ", "TO", "VB", "DT", "NN", "NN", "IN", "PRP$", "NN", "."]
+# ::lemmas ["a", "man", "get", "ready", "to", "throw", "a", "tennis", "ball", "for", "his", "dog", "."]
+(r0 / ready-01
+      :ARG2 (t0 / throw-01
+            :ARG0 (m0 / man
+                  :poss-of (b0 / ball
+                        :mod (t1 / tennis))
+                  :poss-of (d0 / dog))
+            :ARG1 b0
+            :ARG2 d0)
+      :ARG1 m0)

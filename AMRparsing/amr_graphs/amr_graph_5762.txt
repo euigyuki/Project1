@@ -1,0 +1,7 @@
+(t0 / throw-01
+    :time (a0 / about-to)
+    :ARG2 (d0 / dog
+              :ARG1-of (b1 / brown))
+    :ARG0 (m0 / man)
+    :ARG1 (b0 / ball
+              :mod (t1 / tennis)))

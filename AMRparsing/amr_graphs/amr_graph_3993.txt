@@ -1,0 +1,3 @@
+(s0 / stand-01
+    :ARG1 (c0 / cow
+              :quant 2))

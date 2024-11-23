@@ -1,0 +1,13 @@
+# ::snt some young adults hike by boulders and a stream .
+# ::tokens ["some", "young", "adults", "hike", "by", "boulders", "and", "a", "stream", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NNS", "NN", "IN", "NNS", "CC", "DT", "NN", "."]
+# ::lemmas ["some", "young", "adult", "hike", "by", "boulder", "and", "a", "stream", "."]
+(h0 / hike-02
+      :ARG0 (a1 / adult
+            :quant (s1 / some)
+            :mod (y0 / young))
+      :ARG1 (a0 / and
+            :op2 (s0 / stream)
+            :op1 (b0 / boulder)))

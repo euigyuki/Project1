@@ -1,0 +1,10 @@
+# ::snt a costume party in full swing .
+# ::tokens ["a", "costume", "party", "in", "full", "swing", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "IN", "JJ", "NN", "."]
+# ::lemmas ["a", "costume", "party", "in", "full", "swing", "."]
+(s0 / swing-02
+      :ARG1-of (f0 / full-09)
+      :ARG1 (p0 / party-01
+            :mod (c0 / costume)))

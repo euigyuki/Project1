@@ -1,0 +1,10 @@
+# ::snt A person is sleeping on a bench on the sidewalk
+# ::tokens ["A", "person", "is", "sleeping", "on", "a", "bench", "on", "the", "sidewalk"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "VBG", "IN", "DT", "NN", "IN", "DT", "NN"]
+# ::lemmas ["a", "person", "be", "sleep", "on", "a", "bench", "on", "the", "sidewalk"]
+(s0 / sleep-01
+      :location (b0 / bench
+            :location (s1 / sidewalk))
+      :ARG0 (p0 / person))

@@ -1,0 +1,7 @@
+(a0 / and
+    :op2 (l0 / look-01
+             :ARG1 (p1 / puppy)
+             :ARG0 (w0 / woman
+                       :part (f0 / foot)))
+    :op1 (s0 / sit-01
+             :ARG1 w0))

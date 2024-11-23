@@ -1,0 +1,17 @@
+(a0 / and
+    :op3 (s1 / smile-01
+             :manner (c1 / close-01)
+             :ARG0 (h1 / he))
+    :op2 (h0 / have-03
+             :ARG0 (p0 / person
+                       :part (e0 / eye)
+                       :part (h3 / have-rel-role-91)
+                       :ARG1-of (h2 / have-rel-role-91
+                                    :ARG1 (p1 / person
+                                              :ARG1-of (h4 / have-degree-91
+                                                           :ARG3 (m1 / more))))))
+    :op1 (s0 / sit-01
+             :ARG1 (c0 / cake
+                       :ARG1-of (s2 / slice-01
+                                    :instrument (s3 / sprinkler))
+                       :mod (b0 / birthday))))

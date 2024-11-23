@@ -1,0 +1,8 @@
+(m0 / make-01
+    :ARG0 (m1 / man
+              :ARG0-of (w0 / wear-01
+                           :ARG1 (a1 / and
+                                     :op2 (g0 / glass)
+                                     :op1 (h0 / hat
+                                              :mod (b1 / baseball)))))
+    :ARG1 (b0 / barbecue))

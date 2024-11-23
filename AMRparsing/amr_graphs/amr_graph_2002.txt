@@ -1,0 +1,19 @@
+(c0 / contrast-01
+    :ARG2 (b0 / be-located-at-91
+              :ARG1 (w1 / woman
+                        :ARG0-of (w3 / wear-01
+                                     :ARG1 (j0 / jersey
+                                               :mod (y0 / yellow)))
+                        :quant (t1 / throw-01
+                                   :ARG1 (b1 / ball))
+                        :quant 2)
+              :ARG2 (m0 / middle
+                        :op1 t1))
+    :ARG1 (r0 / run-02
+              :ARG0 (w0 / woman
+                        :ARG0-of (w2 / wear-01
+                                     :ARG1 (a1 / and
+                                               :op2 (g0 / gear
+                                                        :ARG1-of (r1 / red-02)
+                                                        :mod (s0 / softball))
+                                               :op1 (b2 / black-04))))))

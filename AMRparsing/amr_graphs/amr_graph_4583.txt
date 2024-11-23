@@ -1,0 +1,6 @@
+(p0 / pause-01
+    :ARG0 (m0 / man
+              :ARG0-of (e0 / examine-01)
+              :poss-of (c0 / camera)
+              :poss-of (i0 / image)
+              :poss-of (y0 / young)))

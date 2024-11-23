@@ -1,0 +1,6 @@
+(w0 / walk-01
+    :time (d0 / date-entity
+              :dayperiod (n0 / night))
+    :ARG0 (g0 / guy
+              :ARG0-of (w1 / wear-01
+                           :ARG1 (g1 / gray))))

@@ -1,0 +1,168 @@
+<meta charset="UTF-8" />
+<meta content="width=device-width, initial-scale=1.0" name="viewport" />
+<title>Progressive Sentence Classification</title>
+<script src="https://assets.crowd.aws/crowd-html-elements.js"></script>
+<script src="https://s3.amazonaws.com/mturk-public/externalHIT_v1.js"></script>
+<style type="text/css">
+    body { font-family: Arial, sans-serif; margin: 20px; }
+    fieldset { border: 1px solid #ddd; margin-bottom: 10px; padding: 10px; }
+    legend { font-weight: bold; }
+    label { display: block; margin-bottom: 5px; }
+    button { background-color: #4CAF50; color: white; padding: 10px 15px; border: none; cursor: pointer; }
+    .hidden { display: none; }
+    .description { margin-bottom: 10px; font-style: italic; }
+    .confidence { margin-top: 10px; }
+    .confidence label { display: inline-block; margin-right: 10px; }
+</style>
+<crowd-form id="mturk_form">
+    <h1>Progressive Sentence Classification</h1>
+
+    <p>In this task you will see an image and answer questions about it to determine the location described in the sentence.</p>
+
+    <p><b>Image to annotate:</b></p>
+
+    <div id="imageContainer">
+        <img id="taskImage" src="${image_url}" alt="Task image" style="width: 30%; height: auto;">
+    </div>
+
+    <p><strong>Important Note:</strong> Remember to answer these questions with respect to the location, not what the people in the image are doing. For example, if the image involves children playing a game in the street or workers doing construction on a sidewalk, the correct answer for Step 3 would be 'Transportation/Urban', since streets and sidewalks are used for transportation.</p>
+
+    <fieldset id="step1">
+        <legend>Step 1: Indoor/Outdoor</legend>
+        <p class="description">Any building or vehicle interior is indoors, while anything that you could consider to be 'outside' is outdoors.</p>
+        <label><input name="location" required="" type="radio" value="indoors" /> Indoors</label>
+        <label><input name="location" type="radio" value="outdoors" /> Outdoors</label>
+        <div class="confidence">
+            <p>How confident are you in your answer?</p>
+            <label><input name="confidence1" required="" type="radio" value="1" /> 1 (Low)</label>
+            <label><input name="confidence1" type="radio" value="2" /> 2 (Medium)</label>
+            <label><input name="confidence1" type="radio" value="3" /> 3 (High)</label>
+        </div>
+    </fieldset>
+
+    <fieldset class="hidden" id="step2">
+        <legend>Step 2: Man-made/Natural</legend>
+        <p class="description">Natural locations are places that can be found in nature, or in the wild, while man-made locations have been constructed by humans.</p>
+        <label><input name="type" required="" type="radio" value="man-made" /> Man-made</label>
+        <label><input name="type" type="radio" value="natural" /> Natural</label>
+        <div class="confidence">
+            <p>How confident are you in your answer?</p>
+            <label><input name="confidence2" required="" type="radio" value="1" /> 1 (Low)</label>
+            <label><input name="confidence2" type="radio" value="2" /> 2 (Medium)</label>
+            <label><input name="confidence2" type="radio" value="3" /> 3 (High)</label>
+        </div>
+    </fieldset>
+
+    <fieldset class="hidden" id="step3">
+        <legend>Step 3: Specific Category</legend>
+        <p class="description">Choose the most specific category that applies to the location described in the sentence.</p>
+
+        <div class="hidden" id="ManMade">
+            <ul>
+                <li>Transportation/urban: streets, sidewalks, city squares and plazas, car interiors, airports</li>
+                <li>Restaurant: bars, restaurants. Does not include kitchens in houses or apartments, which would be 'domestic'.</li>
+                <li>Recreation: athletic facilities, sports fields, dance clubs, concert venues, arcades, parks, gardens</li>
+                <li>Domestic: Interiors and exteriors of houses and apartments</li>
+                <li>Work/education: shops, office buildings, schools, farms, doctor's offices</li>
+                <li>Other/Unclear: any location that doesn't fit into the previous categories or if the location cannot be determined from the image</li>
+            </ul>
+            <label><input name="category" type="radio" value="0" /> Transportation/Urban</label>
+            <label><input name="category" type="radio" value="1" /> Restaurant</label>
+            <label><input name="category" type="radio" value="2" /> Recreation</label>
+            <label><input name="category" type="radio" value="3" /> Domestic</label>
+            <label><input name="category" type="radio" value="4" /> Work/Education</label>
+            <label><input name="category" type="radio" value="5" /> Other/Unclear</label>
+        </div>
+
+        <div class="hidden" id="Natural">
+            <ul>
+                <li>Body of water: lake, ocean, river, beach</li>
+                <li>Field/Forest: Location covered with trees, undergrowth, or vegetation or a field would be any(usually grassy) open field</li>
+                <li>Mountain: any part of a mountain or a similar elevated, usually rocky, location</li>
+                <li>Other/unclear: Any outside natural locations that don't fit into the previous categories or if the location cannot be determined from the image.</li>
+            </ul>
+            <label><input name="category" type="radio" value="6" /> Body of Water</label>
+            <label><input name="category" type="radio" value="7" /> Field/Forest</label>
+            <label><input name="category" type="radio" value="8" /> Mountain</label>
+            <label><input name="category" type="radio" value="9" /> Other/Unclear</label>
+        </div>
+        <div class="confidence">
+            <p>How confident are you in your answer?</p>
+            <label><input name="confidence3" required="" type="radio" value="1" /> 1 (Low)</label>
+            <label><input name="confidence3" type="radio" value="2" /> 2 (Medium)</label>
+            <label><input name="confidence3" type="radio" value="3" /> 3 (High)</label>
+        </div>
+    </fieldset>
+    <crowd-button class="hidden" form-action="submit" id="submitButton">Submit</crowd-button>
+</crowd-form>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const step1 = document.getElementById('step1');
+        const step2 = document.getElementById('step2');
+        const step3 = document.getElementById('step3');
+        const ManMade = document.getElementById('ManMade');
+        const Natural = document.getElementById('Natural');
+        const submitButton = document.getElementById('submitButton');
+
+        function updateUI() {
+            const location = document.querySelector('input[name="location"]:checked');
+            const type = document.querySelector('input[name="type"]:checked');
+            const confidence1 = document.querySelector('input[name="confidence1"]:checked');
+            const confidence2 = document.querySelector('input[name="confidence2"]:checked');
+            const confidence3 = document.querySelector('input[name="confidence3"]:checked');
+
+            // Always show step 1
+            step1.classList.remove('hidden');
+
+            // Show step 2 if step 1 is answered and confidence is selected
+            if (location && confidence1) {
+                step2.classList.remove('hidden');
+            } else {
+                step2.classList.add('hidden');
+            }
+
+            // Show step 3 if both step 1 and 2 are answered and confidence is selected
+            if (location && type && confidence1 && confidence2) {
+                step3.classList.remove('hidden');
+
+                // Show relevant options in step 3
+                if (type.value === 'man-made') {
+                    ManMade.classList.remove('hidden');
+                    Natural.classList.add('hidden');
+                } else if (type.value === 'natural') {
+                    ManMade.classList.add('hidden');
+                    Natural.classList.remove('hidden');
+                } else {
+                    ManMade.classList.add('hidden');
+                    Natural.classList.add('hidden');
+                }
+            } else {
+                step3.classList.add('hidden');
+            }
+
+            // Show submit button if all steps are answered and all confidence levels are selected
+            if (location && type && document.querySelector('input[name="category"]:checked') && confidence1 && confidence2 && confidence3) {
+                submitButton.classList.remove('hidden');
+            } else {
+                submitButton.classList.add('hidden');
+            }
+        }
+
+        // Add event listeners to all radio buttons
+        document.querySelectorAll('input[type="radio"]').forEach(radio => {
+            radio.addEventListener('change', updateUI);
+        });
+          // Load the image
+        const taskImage = document.getElementById('taskImage');
+        taskImage.onload = function() {
+            console.log('Image loaded');
+        };
+        taskImage.onerror = function() {
+            console.error('Error loading image');
+            taskImage.style.display = 'none';
+        };
+        // Initial UI update
+        updateUI();
+    });
+</script>

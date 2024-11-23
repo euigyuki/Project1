@@ -1,0 +1,6 @@
+(l0 / look-01
+    :ARG0 (b0 / baby
+              :poss-of (p0 / playpen
+                           :part (e0 / edge)))
+    :ARG1 (o0 / over
+              :op1 e0))

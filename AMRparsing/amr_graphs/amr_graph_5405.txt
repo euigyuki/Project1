@@ -1,0 +1,12 @@
+# ::snt people in asia on a busy escalator .
+# ::tokens ["people", "in", "asia", "on", "a", "busy", "escalator", "."]
+# ::ner_tags ["O", "O", "LOC", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "B", "O", "O", "O", "O", "O"]
+# ::pos_tags ["NNS", "IN", "NNP", "IN", "DT", "JJ", "NN", "."]
+# ::lemmas ["people", "in", "asia", "on", "a", "busy", "escalator", "."]
+(p0 / person
+      :location (c0 / continent
+            :name (n0 / name
+                  :op1 "Asia" ))
+      :location (e0 / escalator
+            :ARG1-of (b0 / busy-01)))

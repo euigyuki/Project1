@@ -1,0 +1,18 @@
+# ::snt a blond boy is staring at a toy robot and looks like he wants to play with it .
+# ::tokens ["a", "blond", "boy", "is", "staring", "at", "a", "toy", "robot", "and", "looks", "like", "he", "wants", "to", "play", "with", "it", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "VBZ", "VBG", "IN", "DT", "NN", "NN", "CC", "VBZ", "IN", "PRP", "VBZ", "TO", "VB", "IN", "PRP", "."]
+# ::lemmas ["a", "blond", "boy", "be", "stare", "at", "a", "toy", "robot", "and", "look", "like", "he", "want", "to", "play", "with", "it", "."]
+(a0 / and
+      :op2 (l0 / look-02
+            :ARG1 (w0 / want-01
+                  :ARG0 (b0 / boy
+                        :mod (b1 / blond))
+                  :ARG1 p0)
+            :ARG0 b0)
+      :op1 (s0 / stare-01
+            :ARG0 b0
+            :ARG1 (r0 / robot
+                  :mod (t0 / toy)
+                  :ARG1-of (p0 / play-11))))

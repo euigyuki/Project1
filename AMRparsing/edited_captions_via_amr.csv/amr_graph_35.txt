@@ -1,0 +1,10 @@
+# ::snt Missed that point by a landslide .
+# ::tokens ["Missed", "that", "point", "by", "a", "landslide", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["VBN", "DT", "NN", "IN", "DT", "NN", "."]
+# ::lemmas ["miss", "that", "point", "by", "a", "landslide", "."]
+(m0 / miss-02
+      :ARG0 (l0 / landslide)
+      :ARG1 (p0 / point
+            :mod (t0 / that)))

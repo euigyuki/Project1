@@ -1,0 +1,14 @@
+# ::snt Four people walking through the sunset in clear blue skies .
+# ::tokens ["Four", "people", "walking", "through", "the", "sunset", "in", "clear", "blue", "skies", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "VBG", "IN", "DT", "NN", "IN", "JJ", "JJ", "NNS", "."]
+# ::lemmas ["Four", "people", "walk", "through", "the", "sunset", "in", "clear", "blue", "sky", "."]
+(w0 / walk-01
+      :ARG2 (t0 / through
+            :op1 (s0 / sunset
+                  :ARG1-of (s1 / sky
+                        :ARG1-of (c0 / clear-06)
+                        :mod (b0 / blue))))
+      :ARG0 (p0 / person
+            :quant 4 ))

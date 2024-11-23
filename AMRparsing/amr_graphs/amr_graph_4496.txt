@@ -1,0 +1,21 @@
+# ::snt an american footballer in red is being tackled by three players in white whilst other red players look on .
+# ::tokens ["an", "american", "footballer", "in", "red", "is", "being", "tackled", "by", "three", "players", "in", "white", "whilst", "other", "red", "players", "look", "on", "."]
+# ::ner_tags ["O", "NORP", "O", "O", "O", "O", "O", "O", "O", "CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "B", "O", "O", "O", "O", "O", "O", "O", "B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "IN", "NNP", "VBZ", "VBG", "VBN", "IN", "CD", "NNS", "IN", "JJ", "IN", "JJ", "JJ", "NNS", "VBP", "RP", "."]
+# ::lemmas ["an", "american", "footballer", "in", "red", "be", "be", "tackle", "by", "three", "player", "in", "white", "whilst", "other", "red", "player", "look", "on", "."]
+(c0 / contrast-01
+      :ARG1 (t0 / tackle-01
+            :ARG1 (p2 / person
+                  :mod (f0 / footballer)
+                  :ARG0-of (p4 / play-01)))
+      :ARG2 (l0 / look-01
+            :ARG0 (p1 / person
+                  :ARG1-of (w0 / white-02)
+                  :mod (c1 / country
+                        :name (n0 / name
+                              :op1 "America" )))
+            :ARG1 (p0 / person
+                  :quant 3 
+                  :ARG0-of (p3 / play-01)
+                  :mod (o0 / other))))

@@ -1,0 +1,4 @@
+(w0 / work-01
+    :ARG0 (m1 / man
+              :quant 2)
+    :ARG1 (m0 / machine))

@@ -1,0 +1,6 @@
+(l0 / lay-01
+    :ARG1 (a0 / and
+              :op2 (c0 / child
+                       :mod (s0 / small)
+                       :quant 2)
+              :op1 (m0 / man)))

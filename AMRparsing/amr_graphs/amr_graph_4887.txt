@@ -1,0 +1,7 @@
+(m0 / move-01
+    :ARG2 (t0 / toward
+              :op1 (c0 / camera))
+    :ARG1 (d0 / dog
+              :ARG0-of (h0 / have-03
+                           :ARG1 (o0 / objest))
+              :mod (b0 / brown)))

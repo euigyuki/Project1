@@ -1,0 +1,14 @@
+# ::snt they are doing the carpentry work and their ears are closed by the headphone .
+# ::tokens ["they", "are", "doing", "the", "carpentry", "work", "and", "their", "ears", "are", "closed", "by", "the", "headphone", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["PRP", "VBP", "VBG", "DT", "NN", "NN", "CC", "PRP$", "NNS", "VBP", "VBN", "IN", "DT", "NN", "."]
+# ::lemmas ["they", "be", "do", "the", "carpentry", "work", "and", "their", "ear", "be", "close", "by", "the", "headphone", "."]
+(a0 / and
+      :op2 (c0 / close-01
+            :ARG0 (h0 / headphone)
+            :ARG1 (e0 / ear
+                  :part-of (t0 / they)))
+      :op1 (w0 / work-01
+            :ARG1 (c1 / carpentry)
+            :ARG0 t0))

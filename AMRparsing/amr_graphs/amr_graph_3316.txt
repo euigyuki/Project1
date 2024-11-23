@@ -1,0 +1,10 @@
+(c0 / contrast-01
+    :ARG2 (f0 / form-01
+              :ARG1 (f1 / foreground)
+              :ARG0 (v0 / vehicle
+                        :mod (e0 / excavator)))
+    :ARG1 (w0 / work-01
+              :ARG0 (p0 / person
+                        :quant (b0 / bunch)
+                        :ARG0-of (w1 / work-01
+                                     :ARG1 (c1 / construct-01)))))

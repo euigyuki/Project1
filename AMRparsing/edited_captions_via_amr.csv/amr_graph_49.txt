@@ -1,0 +1,15 @@
+# ::snt The white and brown dog is running over the surface of the snow .
+# ::tokens ["The", "white", "and", "brown", "dog", "is", "running", "over", "the", "surface", "of", "the", "snow", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "CC", "JJ", "NN", "VBZ", "VBG", "IN", "DT", "NN", "IN", "DT", "NN", "."]
+# ::lemmas ["the", "white", "and", "brown", "dog", "be", "run", "over", "the", "surface", "of", "the", "snow", "."]
+(r0 / run-02
+      :ARG0 (a0 / and
+            :op2 (d1 / dog
+                  :mod (b0 / brown))
+            :op1 (d0 / dog
+                  :ARG1-of (w0 / white-03)))
+      :ARG1 (o0 / over
+            :op1 (s0 / surface
+                  :part-of (s1 / snow))))

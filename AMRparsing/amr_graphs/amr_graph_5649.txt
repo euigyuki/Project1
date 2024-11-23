@@ -1,0 +1,12 @@
+# ::snt two women are making some kind of a presentation .
+# ::tokens ["two", "women", "are", "making", "some", "kind", "of", "a", "presentation", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "VBP", "VBG", "DT", "NN", "IN", "DT", "NN", "."]
+# ::lemmas ["two", "woman", "be", "make", "some", "kind", "of", "a", "presentation", "."]
+(m0 / make-01
+      :ARG1 (p0 / presentation
+            :mod (k0 / kind
+                  :mod (s0 / some)))
+      :ARG0 (w0 / woman
+            :quant 2 ))

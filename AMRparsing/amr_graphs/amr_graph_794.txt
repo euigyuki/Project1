@@ -1,0 +1,19 @@
+# ::snt several people are riding on a roller coaster while reacting to going through a loop in various ways .
+# ::tokens ["several", "people", "are", "riding", "on", "a", "roller", "coaster", "while", "reacting", "to", "going", "through", "a", "loop", "in", "various", "ways", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["JJ", "NNS", "VBP", "VBG", "IN", "DT", "NN", "NN", "IN", "VBG", "IN", "VBG", "IN", "DT", "NN", "IN", "JJ", "NNS", "."]
+# ::lemmas ["several", "people", "be", "ride", "on", "a", "roller", "coaster", "while", "react", "to", "go", "through", "a", "loop", "in", "various", "way", "."]
+(r0 / ride-01
+      :time (r1 / react-01
+            :ARG0 (p0 / person
+                  :ARG1-of (g0 / go-02
+                        :ARG4 (l0 / loop)
+                        :manner (w0 / way
+                              :mod (v0 / various)))
+                  :quant (s0 / several))
+            :ARG1 g0
+            :ARG2 s0)
+      :ARG0 p0
+      :ARG1 (c0 / coaster
+            :mod (r2 / roller)))

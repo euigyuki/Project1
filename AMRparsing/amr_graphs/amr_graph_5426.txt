@@ -1,0 +1,9 @@
+(g0 / golf-01
+    :ARG0 (p0 / person
+              :poss-of (c0 / chair
+                           :mod (b1 / beach)
+                           :op1-of (o0 / or
+                                       :op2 (s0 / sand)))
+              :poss-of (n0 / near-02
+                           :ARG2 (w0 / wheeler
+                                     :quant 4))))

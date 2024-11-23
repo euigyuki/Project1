@@ -1,0 +1,32 @@
+# ::snt A woman wearing a short-sleeved striped shirt and carrying a green shopping bag examines fish in an open air market while a vendor in a white apron over a gray t-shirt hands her an empty plastic bag .
+# ::tokens ["A", "woman", "wearing", "a", "short", "-", "sleeved", "striped", "shirt", "and", "carrying", "a", "green", "shopping", "bag", "examines", "fish", "in", "an", "open", "air", "market", "while", "a", "vendor", "in", "a", "white", "apron", "over", "a", "gray", "t", "-", "shirt", "hands", "her", "an", "empty", "plastic", "bag", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBG", "DT", "RB", "HYPH", "VBN", "JJ", "NN", "CC", "VBG", "DT", "JJ", "NN", "NN", "VBZ", "NN", "IN", "DT", "JJ", "NN", "NN", "IN", "DT", "NN", "IN", "DT", "JJ", "NN", "IN", "DT", "JJ", "NN", "HYPH", "NN", "VBZ", "PRP", "DT", "JJ", "JJ", "NN", "."]
+# ::lemmas ["a", "woman", "wear", "a", "short", "-", "sleeve", "striped", "shirt", "and", "carry", "a", "green", "shopping", "bag", "examine", "fish", "in", "an", "open", "air", "market", "while", "a", "vendor", "in", "a", "white", "apron", "over", "a", "gray", "t", "-", "shirt", "hand", "she", "an", "empty", "plastic", "bag", "."]
+(c0 / contrast-01
+      :ARG1 (e0 / examine-01
+            :location (m0 / market
+                  :mod (o0 / open-06))
+            :ARG1 (f0 / fish))
+      :ARG2 (h0 / hand-01
+            :ARG2 (p0 / person
+                  :ARG0-of (h1 / have-org-role-91
+                        :ARG2 (v0 / vendor))
+                  :mod (w2 / wear-01
+                        :ARG1 (a0 / apron
+                              :location (o1 / over
+                                    :op1 (t0 / t-shirt))
+                              :ARG1-of (w3 / white-03))))
+            :ARG0 (w0 / woman
+                  :ARG0-of (c1 / carry-01
+                        :ARG1 (b1 / bag
+                              :ARG1-of (g0 / green-03)
+                              :mod (s1 / shop-01)))
+                  :ARG1-of (w1 / wear-01
+                        :ARG1 (s0 / shirt
+                              :ARG0-of (p2 / pale-03
+                                    :ARG1 (s2 / short-07)))))
+            :ARG1 (b0 / bag
+                  :ARG1-of (e1 / empty-02)
+                  :consist-of (p1 / plastic))))

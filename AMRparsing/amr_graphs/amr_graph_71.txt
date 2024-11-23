@@ -1,0 +1,19 @@
+# ::snt a young man wearing a baseball cap brushes at the base of a statue of jesus christ , during the day .
+# ::tokens ["a", "young", "man", "wearing", "a", "baseball", "cap", "brushes", "at", "the", "base", "of", "a", "statue", "of", "jesus", "christ", ",", "during", "the", "day", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "PERSON", "PERSON", "O", "O", "DATE", "DATE", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B", "I", "O", "O", "B", "I", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "VBG", "DT", "NN", "NN", "NNS", "IN", "DT", "NN", "IN", "DT", "NN", "IN", "NNP", "NNP", ",", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "young", "man", "wear", "a", "baseball", "cap", "brush", "at", "the", "base", "of", "a", "statue", "of", "jesus", "christ", ",", "during", "the", "day", "."]
+(b0 / bark-01
+      :location (b1 / base
+            :part-of (s0 / statue
+                  :name (n0 / name
+                        :op3 "Jesus" 
+                        :op2 "of" 
+                        :op1 "jesus" )))
+      :time (d0 / day)
+      :ARG0 (m0 / man
+            :ARG0-of (w0 / wear-01
+                  :ARG1 (c0 / cap
+                        :mod (b2 / baseball)))
+            :mod (y0 / young)))

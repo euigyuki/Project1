@@ -1,0 +1,18 @@
+# ::snt two girls with purple hair and a short-haired woman are smiling .
+# ::tokens ["two", "girls", "with", "purple", "hair", "and", "a", "short", "-", "haired", "woman", "are", "smiling", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "IN", "JJ", "NN", "CC", "DT", "JJ", "HYPH", "JJ", "NN", "VBP", "VBG", "."]
+# ::lemmas ["two", "girl", "with", "purple", "hair", "and", "a", "short", "-", "haired", "woman", "be", "smile", "."]
+(s0 / smile-01
+      :ARG0 (a0 / and
+            :op2 (w0 / woman
+                  :ARG0-of (h2 / have-03
+                        :ARG1 (h4 / hair
+                              :ARG1-of (p0 / purple-02)))
+                  :ARG1-of (h1 / have-03))
+            :op1 (g0 / girl
+                  :quant 2 
+                  :ARG0-of (h0 / have-03
+                        :ARG1 (h3 / hair
+                              :ARG1-of (l0 / long-03))))))

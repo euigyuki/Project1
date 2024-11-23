@@ -1,0 +1,10 @@
+# ::snt a young boy throws a baseball .
+# ::tokens ["a", "young", "boy", "throws", "a", "baseball", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "VBZ", "DT", "NN", "."]
+# ::lemmas ["a", "young", "boy", "throw", "a", "baseball", "."]
+(t0 / throw-01
+      :ARG0 (b1 / boy
+            :mod (y0 / young))
+      :ARG1 (b0 / baseball))

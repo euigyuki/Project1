@@ -1,0 +1,11 @@
+(a0 / attempt-01
+    :ARG0 (p0 / person
+              :ARG0-of (w0 / walk-01)
+              :ARG0-of (h0 / have-03
+                           :ARG1 (a1 / and
+                                     :op3 (r1 / robe
+                                              :ARG1-of (r2 / red-02))
+                                     :op2 (u0 / umbrella)
+                                     :op1 (h1 / head
+                                              :ARG1-of (s0 / shave-01)))))
+    :ARG1 w0)

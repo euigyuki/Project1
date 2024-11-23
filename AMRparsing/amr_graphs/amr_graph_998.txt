@@ -1,0 +1,15 @@
+# ::snt people going through a buffet style line to design dyed eggs .
+# ::tokens ["people", "going", "through", "a", "buffet", "style", "line", "to", "design", "dyed", "eggs", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["NNS", "VBG", "IN", "DT", "NN", "NN", "NN", "TO", "VB", "VBN", "NNS", "."]
+# ::lemmas ["people", "go", "through", "a", "buffet", "style", "line", "to", "design", "dye", "egg", "."]
+(g0 / go-through-20
+      :purpose (d0 / design-01
+            :ARG0 (p0 / person)
+            :ARG1 (e0 / egg
+                  :ARG1-of (d1 / dye-01)))
+      :ARG0 p0
+      :ARG1 (l0 / line
+            :mod (s0 / style
+                  :mod (b0 / buffet))))

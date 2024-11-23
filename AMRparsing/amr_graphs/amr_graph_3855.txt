@@ -1,0 +1,11 @@
+# ::snt two individuals use a photo kiosk
+# ::tokens ["two", "individuals", "use", "a", "photo", "kiosk"]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "VBP", "DT", "NN", "NN"]
+# ::lemmas ["two", "individual", "use", "a", "photo", "kiosk"]
+(u0 / use-01
+      :ARG0 (i0 / individual
+            :quant 2 )
+      :ARG1 (k0 / kiosk
+            :mod (p0 / photo)))

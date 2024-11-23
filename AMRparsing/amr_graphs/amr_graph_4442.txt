@@ -1,0 +1,14 @@
+# ::snt a light brown dog is playing in front of two spotted cows .
+# ::tokens ["a", "light", "brown", "dog", "is", "playing", "in", "front", "of", "two", "spotted", "cows", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "CARDINAL", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "B", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "JJ", "NN", "VBZ", "VBG", "IN", "NN", "IN", "CD", "VBN", "NNS", "."]
+# ::lemmas ["a", "light", "brown", "dog", "be", "play", "in", "front", "of", "two", "spot", "cow", "."]
+(p0 / play-01
+      :location (i0 / in-front-of
+            :op1 (c0 / cow
+                  :quant 2 
+                  :ARG1-of (s0 / spot-01)))
+      :ARG0 (d0 / dog
+            :ARG1-of (l0 / light-06)
+            :mod (b0 / brown)))

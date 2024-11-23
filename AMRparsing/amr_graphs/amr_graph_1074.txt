@@ -1,0 +1,11 @@
+# ::snt a group of men with brass instruments .
+# ::tokens ["a", "group", "of", "men", "with", "brass", "instruments", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "NNS", "IN", "NN", "NNS", "."]
+# ::lemmas ["a", "group", "of", "man", "with", "brass", "instrument", "."]
+(g0 / group
+      :consist-of (m0 / man
+            :ARG0-of (h0 / have-03
+                  :ARG1 (i0 / instrument
+                        :mod (b0 / brass)))))

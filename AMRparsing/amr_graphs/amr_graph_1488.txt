@@ -1,0 +1,5 @@
+(r0 / ride-01
+    :ARG0 (m0 / man
+              :ARG0-of (h0 / helmet))
+    :ARG1 (b0 / bike
+              :mod (d0 / dirt)))

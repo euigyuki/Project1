@@ -1,0 +1,15 @@
+# ::snt the young football player is trying to avoid being tackled .
+# ::tokens ["the", "young", "football", "player", "is", "trying", "to", "avoid", "being", "tackled", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "NN", "VBZ", "VBG", "TO", "VB", "VBG", "VBN", "."]
+# ::lemmas ["the", "young", "football", "player", "be", "try", "to", "avoid", "be", "tackle", "."]
+(t0 / try-01
+      :ARG0 (p0 / person
+            :ARG0-of (a0 / avoid-01
+                  :ARG1 (t1 / tackle-01
+                        :ARG1 p0))
+            :ARG0-of (p1 / play-01
+                  :ARG1 (f0 / football))
+            :mod (y0 / young))
+      :ARG1 a0)

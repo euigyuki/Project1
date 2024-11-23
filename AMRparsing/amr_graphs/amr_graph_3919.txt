@@ -1,0 +1,16 @@
+# ::snt a father and his son cuddle while sleeping .
+# ::tokens ["a", "father", "and", "his", "son", "cuddle", "while", "sleeping", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "CC", "PRP$", "NN", "VB", "IN", "VBG", "."]
+# ::lemmas ["a", "father", "and", "his", "son", "cuddle", "while", "sleep", "."]
+(b0 / breastfeed-01
+      :time (s0 / sleep-01)
+      :ARG0 (a0 / and
+            :op2 (p1 / person
+                  :ARG0-of (h1 / have-rel-role-91
+                        :ARG2 (s1 / son)))
+            :op1 (p0 / person
+                  :ARG0-of (h0 / have-rel-role-91
+                        :ARG1 p1
+                        :ARG2 (f0 / father)))))

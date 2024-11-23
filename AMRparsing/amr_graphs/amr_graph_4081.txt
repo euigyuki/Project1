@@ -1,0 +1,8 @@
+(e0 / embrace-01
+    :time (d0 / display-01
+              :ARG0 (w0 / woman
+                        :mod (y0 / young)
+                        :quant 3)
+              :ARG1 (g0 / good
+                        :ARG1-of (b0 / baked)))
+    :ARG0 w0)

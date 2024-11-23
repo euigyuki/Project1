@@ -1,0 +1,16 @@
+# ::snt older man in a hat , yellow shirt and dress slacks playing in the sand with a young boy .
+(z1 / man
+      :ARG0-of (z2 / play-01
+            :location (z3 / sand)
+            :accompanier (z4 / boy
+                  :mod (z5 / young)))
+      :ARG0-of (z6 / wear-01
+            :ARG1 (z7 / and
+                  :op1 (z8 / hat)
+                  :op2 (z9 / shirt
+                        :ARG1-of (z10 / yellow-02))
+                  :op3 (z11 / slack
+                        :mod (z12 / dress))))
+      :ARG1-of (z13 / have-degree-91
+            :ARG2 (z14 / old)
+            :ARG3 (z15 / more)))

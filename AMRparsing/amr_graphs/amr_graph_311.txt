@@ -1,0 +1,6 @@
+(p0 / pause-01
+    :time (h0 / hike-02
+              :ARG0 (m0 / man
+                        :quant 2))
+    :ARG0 m0
+    :time (r0 / rock))

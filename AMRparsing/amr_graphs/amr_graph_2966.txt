@@ -1,0 +1,5 @@
+(c0 / crawl-01
+    :ARG0 (g0 / girl
+              :ARG2-of (i0 / include-91)
+              :mod (y0 / young)
+              :quant 2))

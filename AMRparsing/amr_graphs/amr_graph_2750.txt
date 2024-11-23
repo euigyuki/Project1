@@ -1,0 +1,8 @@
+# ::snt a girl skiing .
+# ::tokens ["a", "girl", "skiing", "."]
+# ::ner_tags ["O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "NN", "."]
+# ::lemmas ["a", "girl", "skiing", "."]
+(s0 / swim-01
+      :ARG0 (g0 / girl))

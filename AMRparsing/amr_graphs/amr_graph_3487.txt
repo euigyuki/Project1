@@ -1,0 +1,2 @@
+(g0 / guy
+    :ARG0-of (j0 / jump-03))

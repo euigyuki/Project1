@@ -1,0 +1,6 @@
+(a0 / and
+    :op2 (s1 / surf-01
+             :ARG0 (p0 / person))
+    :op1 (s0 / sit-01
+             :ARG2 (r0 / room)
+             :mod (a1 / alone)))

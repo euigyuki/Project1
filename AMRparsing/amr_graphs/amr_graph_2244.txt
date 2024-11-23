@@ -1,0 +1,6 @@
+(h0 / hold-01
+    :time (w0 / walk-01
+              :ARG1 (p0 / person))
+    :ARG1 (h1 / hand
+              :part-of (g0 / girl
+                           :mod (l0 / little))))

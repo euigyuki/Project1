@@ -1,0 +1,4 @@
+(p0 / play-01
+    :ARG0 (d0 / dog
+              :ARG1-of (b0 / black-04)
+              :mod (l0 / large)))

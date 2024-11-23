@@ -1,0 +1,15 @@
+# ::snt a blond woman pours a glass of wine in a dim restaurant .
+# ::tokens ["a", "blond", "woman", "pours", "a", "glass", "of", "wine", "in", "a", "dim", "restaurant", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "VBZ", "DT", "NN", "IN", "NN", "IN", "DT", "JJ", "NN", "."]
+# ::lemmas ["a", "blond", "woman", "pour", "a", "glass", "of", "wine", "in", "a", "dim", "restaurant", "."]
+(p0 / pour-01
+      :location (r0 / restaurant
+            :ARG1-of (d0 / dim))
+      :ARG0 (w1 / woman
+            :mod (b0 / blond))
+      :ARG1 (w0 / wine
+            :quant (v0 / volume-quantity
+                  :unit (g0 / glass)
+                  :quant 1 )))

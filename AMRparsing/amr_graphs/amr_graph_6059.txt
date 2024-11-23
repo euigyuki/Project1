@@ -1,0 +1,15 @@
+# ::snt a child catcher reaching out his mitt to catch a ball .
+# ::tokens ["a", "child", "catcher", "reaching", "out", "his", "mitt", "to", "catch", "a", "ball", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "NN", "VBG", "RP", "PRP$", "NNS", "TO", "VB", "DT", "NN", "."]
+# ::lemmas ["a", "child", "catcher", "reach", "out", "his", "mitt", "to", "catch", "a", "ball", "."]
+(r0 / reach-03
+      :purpose (c0 / catch-03
+            :poss (p0 / person
+                  :poss-of (m0 / mitt)
+                  :ARG0-of (c2 / coach-01)
+                  :mod (c1 / child))
+            :ARG1 (b0 / ball))
+      :ARG0 p0
+      :ARG1 m0)

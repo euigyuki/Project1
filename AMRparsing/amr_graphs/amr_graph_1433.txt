@@ -1,0 +1,6 @@
+(g0 / get-04
+    :purpose (p0 / party)
+    :mod (t0 / together)
+    :ARG0 (l0 / lady
+              :quant 4)
+    :ARG1 (f0 / food))

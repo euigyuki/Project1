@@ -1,0 +1,17 @@
+# ::snt man wearing a black shirt is using a chainsaw to sculpt a bird from a block of wood .
+# ::tokens ["man", "wearing", "a", "black", "shirt", "is", "using", "a", "chainsaw", "to", "sculpt", "a", "bird", "from", "a", "block", "of", "wood", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["NN", "VBG", "DT", "JJ", "NN", "VBZ", "VBG", "DT", "NN", "IN", "NNP", "DT", "NN", "IN", "DT", "NN", "IN", "NN", "."]
+# ::lemmas ["man", "wear", "a", "black", "shirt", "be", "use", "a", "chainsaw", "to", "sculpt", "a", "bird", "from", "a", "block", "of", "wood", "."]
+(u0 / use-01
+      :ARG2 (z0 / zap-01
+            :ARG2 (m0 / man
+                  :ARG0-of (w0 / wear-01
+                        :ARG1 (s0 / shirt
+                              :ARG1-of (b2 / black-04))))
+            :ARG2 (b1 / block
+                  :consist-of (w1 / wood))
+            :ARG1 (b0 / bird))
+      :ARG0 m0
+      :ARG1 (c0 / chainsaw))

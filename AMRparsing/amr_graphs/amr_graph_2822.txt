@@ -1,0 +1,13 @@
+# ::snt a woman working a food stand with lots of desserts .
+# ::tokens ["a", "woman", "working", "a", "food", "stand", "with", "lots", "of", "desserts", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBG", "DT", "NN", "NN", "IN", "NNS", "IN", "NNS", "."]
+# ::lemmas ["a", "woman", "work", "a", "food", "stand", "with", "lot", "of", "dessert", "."]
+(w0 / work-01
+      :ARG0 (w1 / woman)
+      :ARG1 (s0 / stand
+            :ARG0-of (h0 / have-03
+                  :ARG1 (d0 / dessert
+                        :quant (l0 / lot)))
+            :mod (f0 / food)))

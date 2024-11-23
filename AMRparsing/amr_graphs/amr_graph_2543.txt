@@ -1,0 +1,11 @@
+# ::snt two black women are watching a performance .
+# ::tokens ["two", "black", "women", "are", "watching", "a", "performance", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "JJ", "NNS", "VBP", "VBG", "DT", "NN", "."]
+# ::lemmas ["two", "black", "woman", "be", "watch", "a", "performance", "."]
+(w0 / watch-01
+      :ARG0 (w1 / woman
+            :quant 2 
+            :ARG1-of (b0 / black-05))
+      :ARG1 (p0 / perform-01))

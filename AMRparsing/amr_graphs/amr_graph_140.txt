@@ -1,0 +1,18 @@
+# ::snt a female swimmer in a black bathing suit about to jump off the racing platform into a pool .
+# ::tokens ["a", "female", "swimmer", "in", "a", "black", "bathing", "suit", "about", "to", "jump", "off", "the", "racing", "platform", "into", "a", "pool", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "IN", "DT", "JJ", "NN", "NN", "IN", "TO", "VB", "RP", "DT", "NN", "NN", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "female", "swimmer", "in", "a", "black", "bathing", "suit", "about", "to", "jump", "off", "the", "racing", "platform", "into", "a", "pool", "."]
+(j0 / jump-03
+      :destination (p1 / pool)
+      :time (a0 / about-to)
+      :ARG2 (o0 / off
+            :op1 (p2 / platform
+                  :purpose (r0 / race-02)))
+      :ARG0 (p0 / person
+            :ARG0-of (s0 / sail-01)
+            :mod (w0 / wear-01
+                  :ARG1 (s1 / suit
+                        :ARG1-of (b0 / black-04)))
+            :mod (f0 / female)))

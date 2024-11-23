@@ -1,0 +1,10 @@
+# ::snt two people are taking pictures .
+# ::tokens ["two", "people", "are", "taking", "pictures", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "VBP", "VBG", "NNS", "."]
+# ::lemmas ["two", "people", "be", "take", "picture", "."]
+(p0 / photograph-01
+      :ARG0 (p2 / person
+            :quant 2 )
+      :ARG1 (p1 / picture))

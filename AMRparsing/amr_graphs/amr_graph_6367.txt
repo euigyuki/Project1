@@ -1,0 +1,11 @@
+# ::snt a black and white dog jumps over a hurdle .
+# ::tokens ["a", "black", "and", "white", "dog", "jumps", "over", "a", "hurdle", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "CC", "JJ", "NN", "VBZ", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "black", "and", "white", "dog", "jump", "over", "a", "hurdle", "."]
+(j0 / jump-on-bandwagon-09
+      :ARG1 (h0 / hurdle)
+      :ARG0 (d0 / dog
+            :ARG1-of (w0 / white-02)
+            :ARG0-of (b0 / black-05)))

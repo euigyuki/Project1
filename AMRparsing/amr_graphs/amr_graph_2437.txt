@@ -1,0 +1,14 @@
+# ::snt two poodles are in the snow and one is jumping high
+# ::tokens ["two", "poodles", "are", "in", "the", "snow", "and", "one", "is", "jumping", "high"]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "VBP", "IN", "DT", "NN", "CC", "CD", "VBZ", "VBG", "JJ"]
+# ::lemmas ["two", "poodle", "be", "in", "the", "snow", "and", "one", "be", "jump", "high"]
+(a0 / and
+      :op2 (j0 / jump-03
+            :ARG0 1 
+            :ARG1-of (h0 / high-02))
+      :op1 (b0 / be-located-at-91
+            :ARG2 (s0 / snow)
+            :ARG1 (p0 / poodle
+                  :quant 2 )))

@@ -1,0 +1,14 @@
+# ::snt a man is riding a horse that is trying to buck him off .
+# ::tokens ["a", "man", "is", "riding", "a", "horse", "that", "is", "trying", "to", "buck", "him", "off", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "VBG", "DT", "NN", "WDT", "VBZ", "VBG", "TO", "VB", "PRP", "RP", "."]
+# ::lemmas ["a", "man", "be", "ride", "a", "horse", "that", "be", "try", "to", "buck", "he", "off", "."]
+(r0 / ride-01
+      :ARG0 (m0 / man)
+      :ARG1 (h0 / horse
+            :ARG0-of (t0 / try-01
+                  :ARG0 m0
+                  :ARG1 (p0 / pull-off-03
+                        :ARG1 h0
+                        :ARG1 m0))))

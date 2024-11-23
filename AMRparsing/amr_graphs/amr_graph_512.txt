@@ -1,0 +1,12 @@
+# ::snt men , surrounded by nature , are riding mountain bikes .
+# ::tokens ["men", ",", "surrounded", "by", "nature", ",", "are", "riding", "mountain", "bikes", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["NNS", ",", "VBN", "IN", "NN", ",", "VBP", "VBG", "NN", "NNS", "."]
+# ::lemmas ["man", ",", "surround", "by", "nature", ",", "be", "ride", "mountain", "bike", "."]
+(r0 / ride-01
+      :ARG0 (m0 / man
+            :ARG1-of (s0 / surround-01
+                  :ARG2 (n0 / nature)))
+      :ARG1 (b0 / bike
+            :mod (m1 / mountain)))

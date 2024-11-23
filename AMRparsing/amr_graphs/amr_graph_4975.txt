@@ -1,0 +1,6 @@
+(s0 / sit-01
+    :manner (c0 / check-01
+                :ARG0 (w0 / woman
+                          :poss-of (c1 / cellphone))
+                :ARG1 c1)
+    :ARG1 w0)

@@ -1,0 +1,2 @@
+(s0 / street
+    :ARG1-of (l0 / line-01))

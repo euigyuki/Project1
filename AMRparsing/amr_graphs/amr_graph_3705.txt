@@ -1,0 +1,13 @@
+# ::snt a buyer chooses fruit from an outdoor fruit stand
+# ::tokens ["a", "buyer", "chooses", "fruit", "from", "an", "outdoor", "fruit", "stand"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "NN", "IN", "DT", "JJ", "NN", "NN"]
+# ::lemmas ["a", "buyer", "choose", "fruit", "from", "an", "outdoor", "fruit", "stand"]
+(c0 / choose-01
+      :ARG2 (s0 / stand
+            :mod (f1 / fruit)
+            :mod (o0 / outdoor))
+      :ARG0 (p0 / person
+            :ARG0-of (b0 / buy-01))
+      :ARG1 (f0 / fruit))

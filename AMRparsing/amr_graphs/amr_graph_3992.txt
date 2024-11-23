@@ -1,0 +1,12 @@
+# ::snt people commuting on a bus passing a couple of cows .
+# ::tokens ["people", "commuting", "on", "a", "bus", "passing", "a", "couple", "of", "cows", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["NNS", "VBG", "IN", "DT", "NN", "VBG", "DT", "NN", "IN", "NNS", "."]
+# ::lemmas ["people", "commute", "on", "a", "bus", "pass", "a", "couple", "of", "cow", "."]
+(c0 / commute-01
+      :manner (b0 / bus)
+      :ARG0 (p0 / person
+            :ARG0-of (p1 / pass-03
+                  :ARG1 (c1 / cow
+                        :quant (c2 / couple)))))

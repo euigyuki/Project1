@@ -1,0 +1,5 @@
+(l0 / look-01
+    :direction (o1 / out)
+    :ARG0 (p0 / person
+              :quant 5)
+    :ARG1 (o0 / ocean))

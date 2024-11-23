@@ -1,0 +1,18 @@
+# ::snt a man is reclining in an adirondack chair wearing khaki pants and a print shirt .
+# ::tokens ["a", "man", "is", "reclining", "in", "an", "adirondack", "chair", "wearing", "khaki", "pants", "and", "a", "print", "shirt", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "VBG", "IN", "DT", "NN", "NN", "VBG", "NN", "NNS", "CC", "DT", "NN", "NN", "."]
+# ::lemmas ["a", "man", "be", "recline", "in", "an", "adirondack", "chair", "wear", "khaki", "pant", "and", "a", "print", "shirt", "."]
+(r0 / recline
+      :location (c0 / chair
+            :mod (c1 / city-district
+                  :name (n0 / name
+                        :op1 "adirondack" )))
+      :location (m0 / man
+            :ARG0-of (w0 / wear-01
+                  :ARG1 (a0 / and
+                        :op2 (s0 / shirt
+                              :mod (p1 / print))
+                        :op1 (p0 / pant
+                              :mod (k0 / khaki))))))

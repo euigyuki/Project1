@@ -1,0 +1,16 @@
+# ::snt a boy in a white shirt and black shorts is throwing a green frisbee .
+# ::tokens ["a", "boy", "in", "a", "white", "shirt", "and", "black", "shorts", "is", "throwing", "a", "green", "frisbee", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "DT", "JJ", "NN", "CC", "JJ", "NNS", "VBZ", "VBG", "DT", "JJ", "NN", "."]
+# ::lemmas ["a", "boy", "in", "a", "white", "shirt", "and", "black", "short", "be", "throw", "a", "green", "frisbee", "."]
+(t0 / throw-01
+      :ARG0 (b0 / boy
+            :ARG0-of (h0 / have-03
+                  :ARG1 (a0 / and
+                        :op2 (s1 / short-07
+                              :ARG1-of (b1 / black-04))
+                        :op1 (s0 / shirt
+                              :ARG1-of (w0 / white-03)))))
+      :ARG1 (f0 / frisbee
+            :ARG1-of (g0 / green-02)))

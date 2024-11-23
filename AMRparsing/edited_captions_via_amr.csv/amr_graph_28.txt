@@ -1,0 +1,20 @@
+# ::snt A gray-haired woman in a yellow jacket looks at vegetable produce at a farmer 's market stall .
+# ::tokens ["A", "gray", "-", "haired", "woman", "in", "a", "yellow", "jacket", "looks", "at", "vegetable", "produce", "at", "a", "farmer", "'s", "market", "stall", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "HYPH", "JJ", "NN", "IN", "DT", "JJ", "NN", "VBZ", "IN", "JJ", "NN", "IN", "DT", "NN", "POS", "NN", "NN", "."]
+# ::lemmas ["a", "gray", "-", "haired", "woman", "in", "a", "yellow", "jacket", "look", "at", "vegetable", "produce", "at", "a", "farmer", "'s", "market", "stall", "."]
+(l0 / look-01
+      :location (s0 / stall
+            :mod (m0 / market
+                  :poss (p1 / person
+                        :ARG0-of (f0 / farm-01))))
+      :ARG0 (w0 / woman
+            :ARG0-of (h1 / have-03
+                  :ARG1 (j1 / jacket
+                        :mod (y0 / yellow)))
+            :ARG1-of (h0 / have-03
+                  :ARG1 (j0 / jacket
+                        :ARG1-of (g0 / gray-02))))
+      :ARG1 (p0 / produce-01
+            :ARG1 (v0 / vegetable)))

@@ -1,0 +1,4 @@
+(d0 / drive-01
+    :path (a0 / along
+              :op1 (b0 / beach))
+    :ARG0 (t0 / truck))

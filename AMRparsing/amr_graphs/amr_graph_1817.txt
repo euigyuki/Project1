@@ -1,0 +1,7 @@
+(h0 / hula
+    :purpose (a0 / attend-02
+                 :ARG2 (p0 / person
+                           :ARG0-of (p1 / perform-01))
+                 :ARG0 (p2 / person
+                           :ARG0-of (t0 / tour-01)))
+    :domain p0)

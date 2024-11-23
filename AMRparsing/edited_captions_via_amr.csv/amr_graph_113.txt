@@ -1,0 +1,9 @@
+# ::snt A woman is signaling is to traffic
+# ::tokens ["A", "woman", "is", "signaling", "is", "to", "traffic"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "VBG", "VBZ", "TO", "NN"]
+# ::lemmas ["a", "woman", "be", "signal", "be", "to", "traffic"]
+(s0 / signal-07
+      :ARG3 (t0 / traffic)
+      :ARG1 (w0 / woman))

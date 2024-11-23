@@ -1,0 +1,13 @@
+# ::snt an indian man with a big cellphone .
+# ::tokens ["an", "indian", "man", "with", "a", "big", "cellphone", "."]
+# ::ner_tags ["O", "NORP", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "B", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "IN", "DT", "JJ", "NN", "."]
+# ::lemmas ["an", "indian", "man", "with", "a", "big", "cellphone", "."]
+(m0 / man
+      :mod (c0 / country
+            :name (n0 / name
+                  :op1 "India" ))
+      :ARG0-of (h0 / have-03
+            :ARG1 (c1 / cellphone
+                  :mod (b0 / big))))

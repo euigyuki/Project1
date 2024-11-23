@@ -1,0 +1,12 @@
+# ::snt a small dog wearing a purple and green cape
+# ::tokens ["a", "small", "dog", "wearing", "a", "purple", "and", "green", "cape"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "VBG", "DT", "JJ", "CC", "JJ", "NN"]
+# ::lemmas ["a", "small", "dog", "wear", "a", "purple", "and", "green", "cape"]
+(w0 / wear-01
+      :ARG1 (c0 / cape
+            :ARG1-of (g0 / green-02)
+            :mod (p0 / purple-02))
+      :ARG0 (d0 / dog
+            :mod (s0 / small)))

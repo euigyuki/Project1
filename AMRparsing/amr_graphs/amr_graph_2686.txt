@@ -1,0 +1,19 @@
+# ::snt a young girl , wearing a matching red hat , scarf and boots , bravely jumps above a patch of ice .
+# ::tokens ["a", "young", "girl", ",", "wearing", "a", "matching", "red", "hat", ",", "scarf", "and", "boots", ",", "bravely", "jumps", "above", "a", "patch", "of", "ice", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", ",", "VBG", "DT", "JJ", "JJ", "NN", ",", "NN", "CC", "NNS", ",", "RB", "VBZ", "IN", "DT", "NN", "IN", "NN", "."]
+# ::lemmas ["a", "young", "girl", ",", "wear", "a", "matching", "red", "hat", ",", "scarf", "and", "boot", ",", "bravely", "jump", "above", "a", "patch", "of", "ice", "."]
+(j0 / jump-on-bandwagon-09
+      :manner (d0 / drive-03)
+      :ARG0 (g0 / girl
+            :ARG0-of (w0 / wear-01
+                  :ARG1 (a0 / and
+                        :op3 (b0 / boot)
+                        :op2 (s0 / scarf)
+                        :op1 (h0 / hat
+                              :ARG1-of (r0 / red-02)
+                              :mod (m0 / match-01))))
+            :mod (y0 / young))
+      :ARG1 (p0 / patch
+            :mod (i0 / ice)))

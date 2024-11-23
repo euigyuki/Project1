@@ -1,0 +1,10 @@
+# ::snt a little girl climbs a fence .
+# ::tokens ["a", "little", "girl", "climbs", "a", "fence", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "VBZ", "DT", "NN", "."]
+# ::lemmas ["a", "little", "girl", "climb", "a", "fence", "."]
+(c0 / climb-01
+      :ARG0 (g0 / girl
+            :mod (l0 / little))
+      :ARG1 (f0 / fence))

@@ -1,0 +1,13 @@
+# ::snt a black and white dog sliding down a slope on a beach .
+# ::tokens ["a", "black", "and", "white", "dog", "sliding", "down", "a", "slope", "on", "a", "beach", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "CC", "JJ", "NN", "VBG", "RP", "DT", "NN", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "black", "and", "white", "dog", "slide", "down", "a", "slope", "on", "a", "beach", "."]
+(s0 / slide-01
+      :path (b0 / beach)
+      :direction (d1 / down
+            :op1 (s1 / slope))
+      :ARG1 (d0 / dog
+            :ARG1-of (b1 / black-04)
+            :ARG0-of (w0 / white-03)))

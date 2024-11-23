@@ -1,0 +1,14 @@
+# ::snt a man and a woman are outside a car that is filled with items .
+# ::tokens ["a", "man", "and", "a", "woman", "are", "outside", "a", "car", "that", "is", "filled", "with", "items", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "CC", "DT", "NN", "VBP", "IN", "DT", "NN", "WDT", "VBZ", "VBN", "IN", "NNS", "."]
+# ::lemmas ["a", "man", "and", "a", "woman", "be", "outside", "a", "car", "that", "be", "fill", "with", "item", "."]
+(b0 / be-located-at-91
+      :ARG2 (o0 / outside
+            :op1 (c0 / car
+                  :ARG1-of (f0 / fill-01
+                        :ARG2 (i0 / item))))
+      :ARG1 (a0 / and
+            :op2 (w0 / woman)
+            :op1 (m0 / man)))

@@ -1,0 +1,4 @@
+(r0 / run-02
+    :ARG0 (d1 / dog
+              :mod (s1 / small))
+    :ARG1 (d0 / dirt))

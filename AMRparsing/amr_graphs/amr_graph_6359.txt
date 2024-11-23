@@ -1,0 +1,7 @@
+(s0 / stand-01
+    :manner (b0 / back
+                :part-of (c0 / couple
+                             :poss-of (m0 / mirror
+                                          :mod (l0 / large)
+                                          :destination-of b0)))
+    :ARG1 c0)

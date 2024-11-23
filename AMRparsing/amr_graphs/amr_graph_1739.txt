@@ -1,0 +1,10 @@
+# ::snt a spotted dog jumps over a muddy creek .
+# ::tokens ["a", "spotted", "dog", "jumps", "over", "a", "muddy", "creek", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "VBN", "NN", "VBZ", "IN", "DT", "JJ", "NN", "."]
+# ::lemmas ["a", "spot", "dog", "jump", "over", "a", "muddy", "creek", "."]
+(j0 / jump-on-bandwagon-09
+      :ARG0 (d0 / dog)
+      :ARG1 (c0 / creek
+            :ARG1-of (m0 / muddy)))

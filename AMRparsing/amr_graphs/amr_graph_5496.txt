@@ -1,0 +1,6 @@
+(l0 / look-01
+    :direction (d0 / down)
+    :ARG0 (c0 / child
+              :quant 3)
+    :ARG1 (f0 / firework
+              :ARG0-of (s0 / spark-01)))

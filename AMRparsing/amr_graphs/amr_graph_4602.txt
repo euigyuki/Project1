@@ -1,0 +1,15 @@
+# ::snt an asian man wearing a blue shirt is kicking up water .
+# ::tokens ["an", "asian", "man", "wearing", "a", "blue", "shirt", "is", "kicking", "up", "water", "."]
+# ::ner_tags ["O", "NORP", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "VBG", "DT", "JJ", "NN", "VBZ", "VBG", "RP", "NN", "."]
+# ::lemmas ["an", "asian", "man", "wear", "a", "blue", "shirt", "be", "kick", "up", "water", "."]
+(k0 / kick-01
+      :ARG0 (m0 / man
+            :mod (c0 / continent
+                  :name (n0 / name
+                        :op1 "Asia" ))
+            :ARG0-of (w1 / wear-01
+                  :ARG1 (s0 / shirt
+                        :mod (b0 / blue))))
+      :ARG1 (w0 / water))

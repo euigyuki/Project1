@@ -1,0 +1,6 @@
+(h0 / hold-01
+    :direction (o0 / out)
+    :ARG3 (r0 / resemble-01
+              :ARG2 (c0 / claw))
+    :ARG1 (h1 / hand
+              :part-of (w0 / woman)))

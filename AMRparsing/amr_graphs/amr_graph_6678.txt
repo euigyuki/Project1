@@ -1,0 +1,6 @@
+(w0 / work-01
+    :ARG2 (v0 / vendor)
+    :ARG0 (w1 / woman
+              :ARG0-of (h0 / have-03
+                           :ARG1 (h1 / hat
+                                     :ARG1-of (p0 / pink-04)))))

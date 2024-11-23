@@ -1,0 +1,8 @@
+(d0 / display-01
+    :manner (p0 / pride-01)
+    :ARG0 (c0 / crew
+              :consist-of (p2 / person
+                              :ARG0-of (h0 / have-org-role-91)
+                              :ARG1-of (d1 / dress-01)))
+    :ARG1 (a0 / array
+              :consist-of (p1 / pastry)))

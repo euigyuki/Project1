@@ -1,0 +1,3 @@
+(r0 / ride-01
+    :ARG0 (w0 / woman)
+    :ARG1 (b0 / bike))

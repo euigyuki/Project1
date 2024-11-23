@@ -1,0 +1,16 @@
+(a0 / and
+    :time (s0 / stand-01
+              :ARG1 (p0 / person
+                        :mod (o1 / other)))
+    :op2 (b0 / bend-01
+             :mod (o0 / over)
+             :ARG0 (m0 / man
+                       :ARG0-of (h1 / have-03
+                                    :ARG1 (j0 / jean
+                                              :mod (b3 / blue))
+                                    :polarity -)
+                       :mod (h0 / have-03
+                                :ARG1 (h2 / home))))
+    :op1 (c0 / carry-01
+             :ARG1 (b1 / bag)
+             :ARG0 m0))

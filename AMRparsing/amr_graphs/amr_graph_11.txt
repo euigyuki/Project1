@@ -1,0 +1,13 @@
+# ::snt large brown dog running away from the sprinkler in the grass .
+# ::tokens ["large", "brown", "dog", "running", "away", "from", "the", "sprinkler", "in", "the", "grass", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["JJ", "JJ", "NN", "VBG", "RB", "IN", "DT", "NN", "IN", "DT", "NN", "."]
+# ::lemmas ["large", "brown", "dog", "run", "away", "from", "the", "sprinkler", "in", "the", "grass", "."]
+(r0 / run-02
+      :direction (a0 / away
+            :op1 (s0 / sprinkler
+                  :location (g0 / grass)))
+      :ARG0 (d0 / dog
+            :mod (l0 / large)
+            :mod (b0 / brown)))

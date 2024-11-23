@@ -1,0 +1,7 @@
+(l0 / look-01
+    :ARG0 (w0 / woman
+              :ARG0-of (h0 / have-03
+                           :ARG1 (c0 / child))
+              :quant 2)
+    :ARG1 (o0 / other
+              :mod (e0 / each)))

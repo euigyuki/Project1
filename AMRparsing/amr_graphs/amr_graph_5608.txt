@@ -1,0 +1,11 @@
+# ::snt an unhappy toddler eating a sandwich .
+# ::tokens ["an", "unhappy", "toddler", "eating", "a", "sandwich", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "VBG", "DT", "NN", "."]
+# ::lemmas ["an", "unhappy", "toddler", "eat", "a", "sandwich", "."]
+(e0 / eat-01
+      :ARG0 (t0 / toddler
+            :ARG1-of (h0 / happy-01
+                  :polarity - ))
+      :ARG1 (s0 / sandwich))

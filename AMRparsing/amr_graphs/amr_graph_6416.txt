@@ -1,0 +1,31 @@
+# ::snt four guys including one with a black backpack , one drinking coffee , one in a red shirt and one with a gray shirt are watching elmo on tv .
+# ::tokens ["four", "guys", "including", "one", "with", "a", "black", "backpack", ",", "one", "drinking", "coffee", ",", "one", "in", "a", "red", "shirt", "and", "one", "with", "a", "gray", "shirt", "are", "watching", "elmo", "on", "tv", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "CARDINAL", "O", "O", "O", "O", "O", "CARDINAL", "O", "O", "O", "CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "B", "O", "O", "O", "O", "O", "B", "O", "O", "O", "B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "VBG", "CD", "IN", "DT", "JJ", "NN", ",", "CD", "NN", "NN", ",", "CD", "IN", "DT", "JJ", "NN", "CC", "CD", "IN", "DT", "JJ", "NN", "VBP", "VBG", "NNS", "IN", "NN", "."]
+# ::lemmas ["four", "guy", "include", "one", "with", "a", "black", "backpack", ",", "one", "drinking", "coffee", ",", "one", "in", "a", "red", "shirt", "and", "one", "with", "a", "gray", "shirt", "be", "watch", "elmo", "on", "tv", "."]
+(w0 / watch-01
+      :ARG0 (c0 / company
+            :name (n0 / name
+                  :op1 "elmo" ))
+      :ARG1 (a0 / and
+            :op3 (g2 / guy
+                  :quant 1 
+                  :quant (h0 / have-03
+                        :ARG1 (s1 / shirt
+                              :ARG1-of (r0 / red-02))
+                        :ARG0 (s0 / shirt
+                              :ARG1-of (b1 / black-04)))
+                  :ARG0-of (d0 / drink-01
+                        :ARG1 (c1 / coffee)))
+            :op2 (g1 / guy
+                  :quant 1 )
+            :op1 (g0 / guy
+                  :ARG2-of (i0 / include-01
+                        :ARG1 (a1 / and
+                              :op1 (b0 / backpack
+                                    :ARG1-of (b2 / black-04))
+                              :op1 (s2 / shirt
+                                    :ARG1-of (g3 / gray-02))))
+                  :quant 4 ))
+      :medium (t0 / television))

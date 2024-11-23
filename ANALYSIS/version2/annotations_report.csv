@@ -1,0 +1,4 @@
+Caption,Annotator 1,Annotator 2,Annotator 3,Agreement
+A sunny day in the park,Indoors,Indoors,Indoors,True
+A bustling city street,Outdoors,Outdoors,Outdoors,True
+A quiet library scene,Indoors,Outdoors,Indoors,False

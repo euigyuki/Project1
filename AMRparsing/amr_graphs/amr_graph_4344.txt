@@ -1,0 +1,13 @@
+# ::snt a boy and a woman are on top of large rocks at sunset .
+# ::tokens ["a", "boy", "and", "a", "woman", "are", "on", "top", "of", "large", "rocks", "at", "sunset", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "CC", "DT", "NN", "VBP", "IN", "NN", "IN", "JJ", "NNS", "IN", "NN", "."]
+# ::lemmas ["a", "boy", "and", "a", "woman", "be", "on", "top", "of", "large", "rock", "at", "sunset", "."]
+(t0 / top-01
+      :time (s0 / sunset)
+      :ARG2 (a0 / and
+            :op2 (w0 / woman)
+            :op1 (b0 / boy))
+      :ARG1 (r0 / rock
+            :mod (l0 / large)))

@@ -1,0 +1,6 @@
+(s0 / stop-01
+    :time (h0 / hike-02
+              :ARG0 (g0 / group
+                        :consist-of (a0 / adult
+                                        :quant 7)))
+    :purpose (p0 / photograph-01))

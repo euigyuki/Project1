@@ -1,0 +1,5 @@
+(s0 / swing-02
+    :ARG0 (g0 / girl)
+    :ARG1 (h0 / hair
+              :ARG1-of (w0 / wet-01)
+              :mod (l1 / long-03)))

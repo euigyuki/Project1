@@ -1,0 +1,5 @@
+(h0 / hold-01
+    :time (w0 / walk-01
+              :accompanier (m0 / man))
+    :ARG1 (b0 / bouquet
+              :ARG1-of (p0 / purple-02)))

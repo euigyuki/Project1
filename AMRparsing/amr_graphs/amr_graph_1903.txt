@@ -1,0 +1,6 @@
+(a0 / and
+    :op2 (w0 / weave-01
+             :ARG0 (w1 / woman))
+    :op1 (s0 / sit-01
+             :ARG2 (i0 / in-front-of
+                       :op1 (h0 / house))))

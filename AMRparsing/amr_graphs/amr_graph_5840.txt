@@ -1,0 +1,10 @@
+# ::snt a group of people in a room .
+# ::tokens ["a", "group", "of", "people", "in", "a", "room", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "NNS", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "group", "of", "people", "in", "a", "room", "."]
+(b0 / be-located-at-91
+      :ARG2 (r0 / room)
+      :ARG1 (g0 / group
+            :consist-of (p0 / person)))

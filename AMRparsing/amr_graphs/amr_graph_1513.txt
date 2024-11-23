@@ -1,0 +1,12 @@
+# ::snt a gray dog runs along the green grass .
+# ::tokens ["a", "gray", "dog", "runs", "along", "the", "green", "grass", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "VBZ", "IN", "DT", "JJ", "NN", "."]
+# ::lemmas ["a", "gray", "dog", "run", "along", "the", "green", "grass", "."]
+(r0 / run-02
+      :ARG0 (d0 / dog
+            :ARG1-of (g1 / gray-02))
+      :ARG1 (a0 / along
+            :op1 (g0 / grass
+                  :ARG1-of (g2 / green-02))))

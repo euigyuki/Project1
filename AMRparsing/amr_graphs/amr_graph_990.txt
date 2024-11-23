@@ -1,0 +1,10 @@
+# ::snt a lot of people bundled up together
+# ::tokens ["a", "lot", "of", "people", "bundled", "up", "together"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "NNS", "VBN", "RP", "RB"]
+# ::lemmas ["a", "lot", "of", "people", "bundle", "up", "together"]
+(p0 / person
+      :quant (l1 / lot)
+      :ARG1-of (l0 / line-up-02
+            :mod (t0 / together)))

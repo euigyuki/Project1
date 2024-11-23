@@ -1,0 +1,10 @@
+# ::snt a man drilling a hole into a pumpkin .
+# ::tokens ["a", "man", "drilling", "a", "hole", "into", "a", "pumpkin", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBG", "DT", "NN", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "man", "drill", "a", "hole", "into", "a", "pumpkin", "."]
+(d0 / drill-01
+      :ARG2 (p0 / pumpkin)
+      :ARG0 (m0 / man)
+      :ARG1 (h0 / hole))

@@ -1,0 +1,9 @@
+(r0 / ride-01
+    :ARG1 (h0 / horse
+              :mod (t0 / tone
+                       :ARG1-of (w1 / well-09)))
+    :ARG0 (j0 / jockey
+              :ARG0-of (w0 / wear-01
+                           :ARG1 (a1 / and
+                                     :op2 (w2 / white-03)
+                                     :op1 (p0 / purple-02)))))

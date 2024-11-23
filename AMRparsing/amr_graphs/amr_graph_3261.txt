@@ -1,0 +1,8 @@
+(s0 / show-01
+    :ARG0 (p0 / person
+              :ARG0-of (h1 / have-org-role-91
+                           :ARG1 (c0 / camera)
+                           :ARG2 (g0 / groomsman)))
+    :ARG1 (s1 / skill
+              :mod (h0 / hoop
+                       :mod (h2 / hula))))

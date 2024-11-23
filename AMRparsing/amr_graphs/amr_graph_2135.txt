@@ -1,0 +1,4 @@
+(s0 / sit-01
+    :purpose (s1 / show-04
+                 :ARG0 (g0 / girl))
+    :ARG1 g0)

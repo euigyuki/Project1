@@ -1,0 +1,5 @@
+(a0 / and
+    :op2 (d0 / drink-01
+             :ARG0 (c0 / child))
+    :op1 (s0 / sit-01
+             :ARG1 c0))

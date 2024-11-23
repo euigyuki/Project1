@@ -1,0 +1,8 @@
+(r0 / ready-01
+    :ARG1 (b0 / boy
+              :ARG0-of (h0 / hit-01
+                           :ARG1 (b1 / bat
+                                     :mod (o0 / orange)
+                                     :mod (b2 / baseball)))
+              :prep-in (s0 / shirt
+                           :mod (y0 / yellow))))

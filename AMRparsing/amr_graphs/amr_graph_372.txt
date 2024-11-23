@@ -1,0 +1,11 @@
+(a0 / and
+    :op2 (p0 / point-01
+             :ARG0 (p2 / person
+                       :ARG0-of (w1 / wear-01
+                                    :ARG1 (c1 / coat
+                                              :ARG1-of (r0 / red-02))))
+             :ARG1 (b0 / body
+                       :mod (w0 / water)))
+    :op1 (s0 / stand-01
+             :ARG1 (p1 / person
+                       :quant (c0 / couple))))

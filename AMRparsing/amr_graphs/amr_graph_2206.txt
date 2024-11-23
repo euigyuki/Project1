@@ -1,0 +1,17 @@
+(a0 / and
+    :time (s0 / sit-01)
+    :op2 (c0 / chew-01
+             :ARG1 (c1 / creek
+                       :mod (r0 / rocky))
+             :ARG0 (f0 / foot
+                       :part-of (w1 / woman
+                                    :ARG1-of (d0 / dress-01))))
+    :op1 (w0 / wear-01
+             :ARG1 (a1 / and
+                       :op3 (s3 / shoe
+                                :mod (b1 / brown))
+                       :op2 (s2 / short-07
+                                :ARG1 (p0 / plaid))
+                       :op1 (s1 / shirt
+                                :mod (b0 / blue)))
+             :ARG0 w1))

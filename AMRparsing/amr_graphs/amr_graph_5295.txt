@@ -1,0 +1,10 @@
+# ::snt little girl in pink is on a ride .
+# ::tokens ["little", "girl", "in", "pink", "is", "on", "a", "ride", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["JJ", "NN", "IN", "NN", "VBZ", "IN", "DT", "NN", "."]
+# ::lemmas ["little", "girl", "in", "pink", "be", "on", "a", "ride", "."]
+(r0 / ride-01
+      :ARG0 (g0 / girl
+            :ARG1-of (p0 / pink-04)
+            :mod (l0 / little)))

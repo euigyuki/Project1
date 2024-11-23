@@ -1,0 +1,13 @@
+# ::snt four people making music with a collection of pokemon in the background .
+# ::tokens ["four", "people", "making", "music", "with", "a", "collection", "of", "pokemon", "in", "the", "background", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "VBG", "NN", "IN", "DT", "NN", "IN", "NN", "IN", "DT", "NN", "."]
+# ::lemmas ["four", "people", "make", "music", "with", "a", "collection", "of", "pokemon", "in", "the", "background", "."]
+(m0 / make-01
+      :instrument (b0 / background)
+      :ARG0 (p0 / person
+            :quant 4 
+            :quant (c0 / collect-01
+                  :ARG1 (p1 / pokemon)))
+      :ARG1 (m1 / music))

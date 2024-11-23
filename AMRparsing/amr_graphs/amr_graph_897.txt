@@ -1,0 +1,3 @@
+(s0 / seat-01
+    :ARG1 (g0 / group
+              :consist-of (p1 / person)))

@@ -1,0 +1,14 @@
+# ::snt a man with a bushy beard and pink shirt is smiling .
+# ::tokens ["a", "man", "with", "a", "bushy", "beard", "and", "pink", "shirt", "is", "smiling", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "DT", "JJ", "NN", "CC", "JJ", "NN", "VBZ", "VBG", "."]
+# ::lemmas ["a", "man", "with", "a", "bushy", "beard", "and", "pink", "shirt", "be", "smile", "."]
+(s0 / smile-01
+      :ARG0 (m0 / man
+            :ARG0-of (h0 / have-03
+                  :ARG1 (a0 / and
+                        :op2 (s1 / shirt
+                              :ARG1-of (p0 / pink-04))
+                        :op1 (b0 / beard
+                              :mod (b1 / bushy))))))

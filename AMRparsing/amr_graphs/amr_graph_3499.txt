@@ -1,0 +1,13 @@
+# ::snt <number> people in long pants and long-sleeved shirts jumping in the snow .
+# ::tokens ["<", "number", ">", "people", "in", "long", "pants", "and", "long", "-", "sleeved", "shirts", "jumping", "in", "the", "snow", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["XX", "NN", "-RRB-", "NNS", "IN", "JJ", "NNS", "CC", "RB", "HYPH", "VBN", "NNS", "VBG", "IN", "DT", "NN", "."]
+# ::lemmas ["<", "number", ">", "people", "in", "long", "pant", "and", "long", "-", "sleeve", "shirt", "jump", "in", "the", "snow", "."]
+(p0 / person
+      :ARG0-of (n0 / number)
+      :mod (j0 / jump-on-bandwagon-09
+            :ARG1 (a0 / and
+                  :op2 (t0 / t-shirt)
+                  :op1 (p1 / pant
+                        :ARG1-of (l0 / long-03)))))

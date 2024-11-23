@@ -1,0 +1,14 @@
+# ::snt two woman wearing body paint ride bikes through a crowd .
+# ::tokens ["two", "woman", "wearing", "body", "paint", "ride", "bikes", "through", "a", "crowd", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NN", "VBG", "NN", "NN", "NN", "NNS", "IN", "DT", "NN", "."]
+# ::lemmas ["two", "woman", "wear", "body", "paint", "ride", "bike", "through", "a", "crowd", "."]
+(r0 / ride-01
+      :path (c0 / crowd)
+      :ARG0 (w0 / woman
+            :quant 2 
+            :ARG0-of (w1 / wear-01
+                  :ARG1 (p0 / paint
+                        :mod (b1 / body))))
+      :ARG1 (b0 / bike))

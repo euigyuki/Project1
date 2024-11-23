@@ -1,0 +1,4 @@
+(a0 / and
+    :op2 (f0 / fence)
+    :op1 (r0 / run-02
+             :ARG0 (d0 / dog)))

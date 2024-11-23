@@ -1,0 +1,6 @@
+(h0 / hold-01
+    :time (e0 / enter-01
+              :ARG1 (c0 / center
+                        :mod (c2 / community)
+                        :mod (c1 / construct-01)))
+    :ARG1 (h1 / hand))

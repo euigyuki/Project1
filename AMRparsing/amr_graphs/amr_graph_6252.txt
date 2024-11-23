@@ -1,0 +1,11 @@
+(a0 / admire-01
+    :ARG0 (p0 / person)
+    :ARG1 (a1 / and
+              :op2 (c2 / car
+                       :mod (v0 / vintage)
+                       :mod (o0 / other))
+              :op1 (c1 / car-make
+                       :name (n0 / name
+                                 :op2 "bug"
+                                 :op1 "volkswagen")
+                       :mod (g0 / green-02))))

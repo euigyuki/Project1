@@ -1,0 +1,11 @@
+(v0 / veto-01
+    :ARG0 (c0 / child
+              :ARG0-of (w0 / wear-01
+                           :ARG1 (a0 / and
+                                     :op3 (c1 / chap)
+                                     :op2 (v1 / vest
+                                              :mod (l0 / leather))
+                                     :op1 (h0 / hat
+                                              :ARG1-of (b0 / black-04)))))
+    :ARG1 (n0 / nose
+              :part-of (s0 / steer)))

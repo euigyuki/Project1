@@ -1,0 +1,13 @@
+# ::snt the constructions workers are smoothing out freshly poured concrete .
+# ::tokens ["the", "constructions", "workers", "are", "smoothing", "out", "freshly", "poured", "concrete", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NNS", "NNS", "VBP", "VBG", "RP", "RB", "VBN", "NN", "."]
+# ::lemmas ["the", "construction", "worker", "be", "smooth", "out", "freshly", "pour", "concrete", "."]
+(s0 / smooth
+      :domain (p0 / person
+            :ARG0-of (w0 / work-01
+                  :ARG1 (c1 / construct-01)))
+      :domain (c0 / concrete
+            :ARG1-of (p1 / pour-01
+                  :ARG1-of (f0 / fresh-04))))

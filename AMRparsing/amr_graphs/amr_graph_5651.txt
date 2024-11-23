@@ -1,0 +1,14 @@
+# ::snt a small , child on her hands and knees , appears to be wiping tiles with a cloth .
+# ::tokens ["a", "small", ",", "child", "on", "her", "hands", "and", "knees", ",", "appears", "to", "be", "wiping", "tiles", "with", "a", "cloth", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", ",", "NN", "IN", "PRP$", "NNS", "CC", "NNS", ",", "VBZ", "TO", "VB", "VBG", "NNS", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "small", ",", "child", "on", "her", "hand", "and", "knee", ",", "appear", "to", "be", "wipe", "tile", "with", "a", "cloth", "."]
+(a0 / appear-02
+      :ARG1 (w0 / wipe-01
+            :instrument (c1 / cloth)
+            :ARG0 (c0 / child
+                  :part (h0 / hand)
+                  :ARG1-of (k0 / kneel-01)
+                  :mod (s0 / small))
+            :ARG1 (t0 / tile)))

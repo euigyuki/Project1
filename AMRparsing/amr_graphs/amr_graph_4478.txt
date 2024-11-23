@@ -1,0 +1,10 @@
+# ::snt football players playing a football game .
+# ::tokens ["football", "players", "playing", "a", "football", "game", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["NN", "NNS", "VBG", "DT", "NN", "NN", "."]
+# ::lemmas ["football", "player", "play", "a", "football", "game", "."]
+(p0 / play-01
+      :ARG1 (g0 / game
+            :mod (f1 / football))
+      :ARG0 (f0 / football))

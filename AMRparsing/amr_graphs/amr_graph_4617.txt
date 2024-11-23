@@ -1,0 +1,12 @@
+# ::snt a man in dress clothing playing a brown piano .
+# ::tokens ["a", "man", "in", "dress", "clothing", "playing", "a", "brown", "piano", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "NN", "NN", "VBG", "DT", "JJ", "NN", "."]
+# ::lemmas ["a", "man", "in", "dress", "clothing", "play", "a", "brown", "piano", "."]
+(m0 / man
+      :ARG0-of (p0 / play-11
+            :ARG2 (p1 / piano
+                  :mod (b0 / brown)))
+      :ARG1-of (c0 / clothe-01
+            :ARG2 (d0 / dress)))

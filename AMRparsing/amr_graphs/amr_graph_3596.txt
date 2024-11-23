@@ -1,0 +1,31 @@
+# ::snt a shirtless tanned male , with black hair , wearing paint stained blue jeans and sneakers , putting plaster along a building 's wall .
+# ::tokens ["a", "shirtless", "tanned", "male", ",", "with", "black", "hair", ",", "wearing", "paint", "stained", "blue", "jeans", "and", "sneakers", ",", "putting", "plaster", "along", "a", "building", "'s", "wall", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBN", "NN", ",", "IN", "JJ", "NN", ",", "VBG", "NN", "VBD", "JJ", "NNS", "CC", "NNS", ",", "VBG", "NN", "IN", "DT", "NN", "POS", "NN", "."]
+# ::lemmas ["a", "shirtless", "tan", "male", ",", "with", "black", "hair", ",", "wear", "paint", "stain", "blue", "jean", "and", "sneaker", ",", "put", "plaster", "along", "a", "building", "'s", "wall", "."]
+(a0 / and
+      :op2 (p0 / put-01
+            :ARG1 (m0 / male
+                  :part (p1 / plaster)
+                  :part (s0 / shirtless)
+                  :part (h5 / have-03
+                        :ARG1 (p2 / plaster))
+                  :part (h4 / have-03)
+                  :part (h3 / have-03)
+                  :part (h2 / have-03
+                        :ARG1 (h6 / hair
+                              :ARG1-of (b0 / black-04)))
+                  :part (h1 / have-03)
+                  :ARG0-of (h0 / have-03)
+                  :mod (w0 / wear-01
+                        :ARG1 (a2 / and
+                              :op2 (s1 / sneaker
+                                    :mod (p3 / paint))
+                              :op1 (j0 / jean
+                                    :ARG1-of (s2 / stain-01)
+                                    :mod (b2 / blue)))))
+            :ARG2 (a1 / along
+                  :op1 (w1 / wall
+                        :part-of (b1 / building))))
+      :op1 m0)

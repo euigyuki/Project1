@@ -1,0 +1,5 @@
+(s0 / shake-01
+    :accompanier (p1 / person)
+    :ARG0 (p0 / person
+              :op1-of (i0 / in-front-of))
+    :ARG1 (h0 / hand))

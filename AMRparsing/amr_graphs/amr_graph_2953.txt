@@ -1,0 +1,18 @@
+# ::snt several police officers standing near a vintage citroen car .
+# ::tokens ["several", "police", "officers", "standing", "near", "a", "vintage", "citroen", "car", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["JJ", "NN", "NNS", "VBG", "IN", "DT", "JJ", "NN", "NN", "."]
+# ::lemmas ["several", "police", "officer", "stand", "near", "a", "vintage", "citroen", "car", "."]
+(s0 / stand-01
+      :ARG2 (n0 / near-02
+            :ARG2 (c0 / car
+                  :poss (c1 / company
+                        :name (n1 / name
+                              :op1 "Walmart" ))
+                  :mod (v0 / vintage)))
+      :ARG1 (p0 / person
+            :quant (s1 / several)
+            :ARG0-of (h0 / have-org-role-91
+                  :ARG2 (o0 / officer)
+                  :ARG1 (p1 / police))))

@@ -1,0 +1,14 @@
+# ::snt Two people standing outside a blue tent structure on a snowy surface .
+# ::tokens ["Two", "people", "standing", "outside", "a", "blue", "tent", "structure", "on", "a", "snowy", "surface", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "VBG", "IN", "DT", "JJ", "NN", "NN", "IN", "DT", "JJ", "NN", "."]
+# ::lemmas ["Two", "people", "stand", "outside", "a", "blue", "tent", "structure", "on", "a", "snowy", "surface", "."]
+(s0 / stand-01
+      :ARG2 (o0 / outside
+            :op1 (s1 / structure
+                  :location (s2 / snowy)
+                  :mod (t0 / tent)
+                  :mod (b0 / blue)))
+      :ARG1 (p0 / person
+            :quant 2 ))

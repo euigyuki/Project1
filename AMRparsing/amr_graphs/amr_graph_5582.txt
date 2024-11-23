@@ -1,0 +1,5 @@
+(b0 / be-located-at-91
+    :ARG2 (p0 / patio
+              :poss (a0 / apartment))
+    :ARG1 (m0 / man
+              :quant 3))

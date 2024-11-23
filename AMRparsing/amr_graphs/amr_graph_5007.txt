@@ -1,0 +1,10 @@
+# ::snt two black dogs are jumping in waves at the beach
+# ::tokens ["two", "black", "dogs", "are", "jumping", "in", "waves", "at", "the", "beach"]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "JJ", "NNS", "VBP", "VBG", "IN", "NNS", "IN", "DT", "NN"]
+# ::lemmas ["two", "black", "dog", "be", "jump", "in", "wave", "at", "the", "beach"]
+(j0 / jump-on-bandwagon-09
+      :ARG1 (d0 / dog
+            :quant 2 
+            :ARG1-of (b0 / black-05)))

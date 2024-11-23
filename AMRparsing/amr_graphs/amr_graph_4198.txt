@@ -1,0 +1,11 @@
+# ::snt a small child hangs from a wire fence .
+# ::tokens ["a", "small", "child", "hangs", "from", "a", "wire", "fence", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "VBZ", "IN", "DT", "NN", "NN", "."]
+# ::lemmas ["a", "small", "child", "hang", "from", "a", "wire", "fence", "."]
+(h0 / hanging-07
+      :ARG2 (f0 / fence
+            :mod (w0 / wire))
+      :ARG1 (c0 / child
+            :mod (s0 / small)))

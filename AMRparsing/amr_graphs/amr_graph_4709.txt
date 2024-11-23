@@ -1,0 +1,12 @@
+# ::snt a group of kids play soccer on a sunny day
+# ::tokens ["a", "group", "of", "kids", "play", "soccer", "on", "a", "sunny", "day"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "DATE", "DATE", "DATE"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "B", "I", "I"]
+# ::pos_tags ["DT", "NN", "IN", "NNS", "VBP", "NN", "IN", "DT", "JJ", "NN"]
+# ::lemmas ["a", "group", "of", "kid", "play", "soccer", "on", "a", "sunny", "day"]
+(p0 / play-01
+      :time (d0 / day
+            :mod (s1 / sunny))
+      :ARG0 (g0 / group
+            :consist-of (k0 / kid))
+      :ARG1 (s0 / soccer))

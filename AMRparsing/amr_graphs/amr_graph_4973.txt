@@ -1,0 +1,9 @@
+(a0 / and
+    :op3 (h0 / have-03
+             :ARG1 (b0 / backpack
+                       :ARG1-of (b1 / black-04))
+             :ARG0 (w0 / woman))
+    :op2 (l0 / look-01
+             :ARG0 w0)
+    :op1 (s0 / sit-01
+             :ARG1 w0))

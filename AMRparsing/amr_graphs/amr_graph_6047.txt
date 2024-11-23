@@ -1,0 +1,3 @@
+(h0 / hold-01
+    :ARG1 (s0 / snake
+              :mod (l0 / large)))

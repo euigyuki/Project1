@@ -1,0 +1,9 @@
+# ::snt a woman playing a harp .
+# ::tokens ["a", "woman", "playing", "a", "harp", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBG", "DT", "NN", "."]
+# ::lemmas ["a", "woman", "play", "a", "harp", "."]
+(p0 / play-11
+      :ARG0 (w0 / woman)
+      :ARG1 (h0 / harp))

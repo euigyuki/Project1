@@ -1,0 +1,4 @@
+(t0 / talk-01
+    :ARG0 (w0 / woman)
+    :ARG2 (m0 / man
+              :quant (f0 / few)))

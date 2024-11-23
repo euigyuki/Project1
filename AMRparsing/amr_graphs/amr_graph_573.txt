@@ -1,0 +1,13 @@
+# ::snt a woman dressed in blue clasps her hands together .
+# ::tokens ["a", "woman", "dressed", "in", "blue", "clasps", "her", "hands", "together", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBN", "IN", "NNP", "VBZ", "PRP$", "NNS", "RB", "."]
+# ::lemmas ["a", "woman", "dress", "in", "blue", "clasp", "her", "hand", "together", "."]
+(c0 / clasp
+      :mod (t0 / together)
+      :mod (w0 / woman
+            :part (h0 / hand)
+            :ARG1-of (d0 / dress-01
+                  :ARG2 (b0 / blue)))
+      :mod h0)

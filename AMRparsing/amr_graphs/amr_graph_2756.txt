@@ -1,0 +1,5 @@
+(p0 / perform-01
+    :ARG0 (d0 / dog
+              :ARG0-of (j0 / jump-03)
+              :mod (b0 / brown))
+    :ARG1 j0)

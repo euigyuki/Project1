@@ -1,0 +1,15 @@
+# ::snt a chinese man inside a restaurant waiting for people to enter .
+# ::tokens ["a", "chinese", "man", "inside", "a", "restaurant", "waiting", "for", "people", "to", "enter", "."]
+# ::ner_tags ["O", "NORP", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "IN", "DT", "NN", "VBG", "IN", "NNS", "TO", "VB", "."]
+# ::lemmas ["a", "chinese", "man", "inside", "a", "restaurant", "wait", "for", "people", "to", "enter", "."]
+(m0 / man
+      :location (i0 / inside
+            :op1 (r0 / restaurant))
+      :ARG1-of (w0 / wait-01
+            :ARG2 (e0 / enter-01
+                  :ARG0 (p0 / person)))
+      :location (c0 / country
+            :name (n0 / name
+                  :op1 "China" )))

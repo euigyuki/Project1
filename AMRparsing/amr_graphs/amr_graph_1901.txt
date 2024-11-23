@@ -1,0 +1,6 @@
+(w0 / weave-01
+    :ARG2 (l1 / loom)
+    :time (l0 / look-01
+              :ARG0 (m0 / man))
+    :ARG0 (w1 / woman
+              :ARG0-of (w2 / wear-01)))

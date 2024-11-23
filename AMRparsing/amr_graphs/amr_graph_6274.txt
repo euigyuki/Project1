@@ -1,0 +1,7 @@
+(w0 / walk-01
+    :ARG0 (g0 / group
+              :consist-of (m0 / man
+                              :ARG0-of (w1 / wear-01
+                                           :ARG1 (a0 / and
+                                                     :op2 (y0 / yellow)
+                                                     :op1 (r0 / red-02))))))

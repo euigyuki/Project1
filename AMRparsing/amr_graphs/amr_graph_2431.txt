@@ -1,0 +1,4 @@
+(s0 / sit-01
+    :ARG1 (p0 / person
+              :ARG0-of (f0 / fish-01)
+              :mod (l0 / lone)))

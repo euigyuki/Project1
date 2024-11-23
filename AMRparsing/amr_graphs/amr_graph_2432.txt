@@ -1,0 +1,10 @@
+# ::snt a person is climbing a snowy mountain .
+# ::tokens ["a", "person", "is", "climbing", "a", "snowy", "mountain", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "VBG", "DT", "JJ", "NN", "."]
+# ::lemmas ["a", "person", "be", "climb", "a", "snowy", "mountain", "."]
+(c0 / climb-01
+      :ARG0 (p0 / person)
+      :ARG1 (m0 / mountain
+            :mod (s0 / snowy)))

@@ -1,0 +1,20 @@
+# ::snt a little boy and adult woman are playing " store clerk " with a toy cash register and basket of food .
+# ::tokens ["a", "little", "boy", "and", "adult", "woman", "are", "playing", "\"", "store", "clerk", "\"", "with", "a", "toy", "cash", "register", "and", "basket", "of", "food", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "CC", "NN", "NN", "VBP", "VBG", "``", "NN", "NN", "''", "IN", "DT", "NN", "NN", "NN", "CC", "NN", "IN", "NN", "."]
+# ::lemmas ["a", "little", "boy", "and", "adult", "woman", "be", "play", "\"", "store", "clerk", "\"", "with", "a", "toy", "cash", "register", "and", "basket", "of", "food", "."]
+(p0 / play-01
+      :ARG2 (a1 / and
+            :op2 (b1 / basket
+                  :consist-of (f0 / food))
+            :op1 (r0 / register
+                  :mod (c1 / cash)
+                  :mod (t0 / toy)))
+      :ARG0 (a0 / and
+            :op2 (w0 / woman
+                  :mod (a2 / adult))
+            :op1 (b0 / boy
+                  :mod (l0 / little)))
+      :ARG1 (c0 / clerk
+            :mod (s0 / store)))

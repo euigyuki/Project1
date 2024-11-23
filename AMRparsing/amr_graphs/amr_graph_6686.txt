@@ -1,0 +1,8 @@
+(a0 / and
+    :op2 (w1 / walk-01
+             :ARG0 (a1 / and
+                       :op2 (b0 / boy)
+                       :op1 (m0 / man)))
+    :op1 (w0 / woman
+             :ARG1-of (d0 / dress-01)
+             :quant 3))

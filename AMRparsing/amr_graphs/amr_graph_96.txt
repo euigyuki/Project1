@@ -1,0 +1,7 @@
+(p0 / play-01
+    :time (s0 / sit-01
+              :ARG1 (a0 / adult
+                        :quant (b0 / backyard)
+                        :ARG0-of p0
+                        :quant 5))
+    :ARG1 (c0 / card))

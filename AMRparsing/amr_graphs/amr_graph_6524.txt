@@ -1,0 +1,8 @@
+(s0 / sit-01
+    :accompanier (w0 / wine
+                     :quant (v0 / volume-quantity
+                                :unit (g0 / glass)
+                                :quant 1))
+    :ARG1 (m0 / man
+              :ARG0-of (b0 / blue)
+              :mod (e0 / elderly)))

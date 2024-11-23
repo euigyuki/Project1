@@ -1,0 +1,18 @@
+# ::snt a man wearing a snorkel and goggles gives a thumbs up as he and another person speed through the water .
+# ::tokens ["a", "man", "wearing", "a", "snorkel", "and", "goggles", "gives", "a", "thumbs", "up", "as", "he", "and", "another", "person", "speed", "through", "the", "water", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBG", "DT", "NN", "CC", "NNS", "VBZ", "DT", "NNS", "RP", "IN", "PRP", "CC", "DT", "NN", "VBP", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "man", "wear", "a", "snorkel", "and", "goggle", "give", "a", "thumb", "up", "as", "he", "and", "another", "person", "speed", "through", "the", "water", "."]
+(g0 / give-16
+      :ARG1 (t0 / thumb)
+      :ARG0 (m0 / man
+            :ARG0-of (w1 / wear-01
+                  :ARG1 (a1 / and
+                        :op2 (g1 / goggle)
+                        :op1 (s1 / snorkel))))
+      :time (s0 / speed-01
+            :path (w0 / water)
+            :ARG0 (a0 / and
+                  :op2 (p0 / person
+                        :mod (a2 / another)))))

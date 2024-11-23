@@ -1,0 +1,10 @@
+# ::snt a smiling woman playing the harp .
+# ::tokens ["a", "smiling", "woman", "playing", "the", "harp", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "VBG", "NN", "VBG", "DT", "NN", "."]
+# ::lemmas ["a", "smile", "woman", "play", "the", "harp", "."]
+(w0 / woman
+      :ARG0-of (p0 / play-11
+            :ARG2 (h0 / harp))
+      :ARG1-of (s0 / smile-01))

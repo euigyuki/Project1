@@ -1,0 +1,4 @@
+(m0 / man
+    :prep-in (s0 / short-07
+                 :mod (b0 / boxer)
+                 :mod (w0 / white-03)))

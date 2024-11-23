@@ -1,0 +1,4 @@
+(k0 / kick-01
+    :ARG0 (b1 / boy
+              :mod (y0 / young))
+    :ARG1 (b0 / ball))

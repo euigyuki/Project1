@@ -1,0 +1,16 @@
+# ::snt two women both in sandals , one in a green hat is tying the other woman 's dress strap .
+# ::tokens ["two", "women", "both", "in", "sandals", ",", "one", "in", "a", "green", "hat", "is", "tying", "the", "other", "woman", "'s", "dress", "strap", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "CC", "IN", "NNS", ",", "CD", "IN", "DT", "JJ", "NN", "VBZ", "VBG", "DT", "JJ", "NN", "POS", "NN", "NN", "."]
+# ::lemmas ["two", "woman", "both", "in", "sandal", ",", "one", "in", "a", "green", "hat", "be", "tie", "the", "other", "woman", "'s", "dress", "strap", "."]
+(t0 / tie-01
+      :ARG0 (w0 / woman
+            :quant 2 
+            :quant (h0 / have-03
+                  :ARG1 (h1 / hat
+                        :ARG1-of (g0 / green-02))
+                  :ARG0 (s1 / sandal))
+            :quant (o0 / other))
+      :ARG1 (s0 / strap
+            :mod (d0 / dress)))

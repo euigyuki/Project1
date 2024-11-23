@@ -1,0 +1,14 @@
+(p0 / perform-02
+    :ARG0 (p1 / person
+              :ARG0-of (w0 / work-01)
+              :ARG0-of (c0 / construct-01)
+              :quant (w2 / wear-01
+                         :ARG1 (a0 / and
+                                   :op2 (h0 / helmet
+                                            :ARG1-of (w4 / white-03)
+                                            :mod (w3 / work-01))
+                                   :op1 (v0 / vest
+                                            :mod (o0 / orange))))
+              :quant (w1 / work-01)
+              :quant 3)
+    :ARG1 w0)

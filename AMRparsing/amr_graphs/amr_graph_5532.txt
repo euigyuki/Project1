@@ -1,0 +1,10 @@
+(b0 / be-located-at-91
+    :ARG2 (i0 / in-front-of
+              :op1 (p0 / person
+                       :quant (m0 / many)
+                       :ARG0-of (r1 / ride-01
+                                    :ARG1 (s0 / scooter))
+                       :mod (o0 / other)))
+    :ARG1 (w0 / woman
+              :ARG0-of (r0 / ride-01
+                           :ARG1 s0)))

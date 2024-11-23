@@ -1,0 +1,9 @@
+(f0 / follow-01
+    :ARG0 (w0 / woman
+              :ARG0-of (h0 / have-03
+                           :ARG1 (a0 / and
+                                     :op2 (s0 / sweater
+                                              :mod (o0 / orange))
+                                     :op1 (w1 / wheelchair))))
+    :ARG1 (b0 / boy
+              :mod (y0 / young)))

@@ -1,0 +1,8 @@
+(l0 / look-01
+    :ARG0 (g0 / girl
+              :ARG0-of (h0 / have-03
+                           :ARG1 (s0 / shirt
+                                     :ARG1-of (p0 / purple-02)))
+              :mod (l1 / little))
+    :ARG1 (o0 / over
+              :op1 (r0 / rail)))

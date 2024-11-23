@@ -1,0 +1,12 @@
+# ::snt the two dogs are playing catch with a red frisbee .
+# ::tokens ["the", "two", "dogs", "are", "playing", "catch", "with", "a", "red", "frisbee", "."]
+# ::ner_tags ["O", "CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "B", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "CD", "NNS", "VBP", "VBG", "NN", "IN", "DT", "JJ", "NN", "."]
+# ::lemmas ["the", "two", "dog", "be", "play", "catch", "with", "a", "red", "frisbee", "."]
+(p0 / play-01
+      :ARG1 (c0 / catch-03)
+      :ARG2 (f0 / frisbee
+            :ARG1-of (r0 / red-02))
+      :ARG0 (d0 / dog
+            :quant 2 ))

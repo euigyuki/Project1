@@ -1,0 +1,16 @@
+# ::snt a man 's head protrudes from one of a series of small shuttered windows set into a wall .
+# ::tokens ["a", "man", "'s", "head", "protrudes", "from", "one", "of", "a", "series", "of", "small", "shuttered", "windows", "set", "into", "a", "wall", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "POS", "NN", "VBZ", "IN", "CD", "IN", "DT", "NN", "IN", "JJ", "VBN", "NNS", "VBN", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "man", "'s", "head", "protrude", "from", "one", "of", "a", "series", "of", "small", "shutter", "window", "set", "into", "a", "wall", "."]
+(p0 / protrude
+      :source (i0 / include-91
+            :ARG2 (s0 / series
+                  :consist-of (w0 / window
+                        :ARG1-of (s3 / shutter)
+                        :mod (s2 / set-up-03
+                              :ARG2 (w1 / wall))
+                        :mod (s1 / small))))
+      :source (h0 / head
+            :part-of (m0 / man)))

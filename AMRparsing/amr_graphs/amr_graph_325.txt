@@ -1,0 +1,12 @@
+(a0 / and
+    :op3 (a1 / and
+             :purpose (p0 / punch
+                          :purpose (r0 / refreshment))
+             :op1 (s1 / strawberry))
+    :op2 (c0 / cake
+             :ARG1-of (n0 / new-01)
+             :mod (l0 / lovely))
+    :op1 (h0 / hold-01
+             :ARG1 (s0 / shower
+                       :beneficiary (p1 / person)
+                       :beneficiary (b0 / baby))))

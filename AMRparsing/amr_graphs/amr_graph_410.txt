@@ -1,0 +1,18 @@
+# ::snt two people use a plumb line on the ground while a woman in a gray sweater looks on .
+# ::tokens ["two", "people", "use", "a", "plumb", "line", "on", "the", "ground", "while", "a", "woman", "in", "a", "gray", "sweater", "looks", "on", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "VBP", "DT", "JJ", "NN", "IN", "DT", "NN", "IN", "DT", "NN", "IN", "DT", "JJ", "NN", "VBZ", "IN", "."]
+# ::lemmas ["two", "people", "use", "a", "plumb", "line", "on", "the", "ground", "while", "a", "woman", "in", "a", "gray", "sweater", "look", "on", "."]
+(c0 / contrast-01
+      :ARG2 (l0 / look-01
+            :ARG0 (w0 / woman
+                  :ARG0-of (w1 / wear-01
+                        :ARG1 (s0 / sweater
+                              :ARG1-of (g1 / gray-02)))))
+      :ARG1 (u0 / use-01
+            :location (g0 / ground)
+            :ARG0 (p0 / person
+                  :quant 2 )
+            :ARG1 (l1 / line
+                  :mod (p1 / plumb))))

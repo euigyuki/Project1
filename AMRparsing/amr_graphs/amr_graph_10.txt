@@ -1,0 +1,13 @@
+# ::snt a group of people stand in the back of a truck filled with cotton .
+# ::tokens ["a", "group", "of", "people", "stand", "in", "the", "back", "of", "a", "truck", "filled", "with", "cotton", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "NNS", "VBP", "IN", "DT", "NN", "IN", "DT", "NN", "VBN", "IN", "NN", "."]
+# ::lemmas ["a", "group", "of", "people", "stand", "in", "the", "back", "of", "a", "truck", "fill", "with", "cotton", "."]
+(s0 / stand-01
+      :ARG2 (b0 / back
+            :part-of (t0 / truck
+                  :ARG1-of (f0 / fill-01
+                        :ARG2 (c0 / cotton))))
+      :ARG1 (g0 / group
+            :consist-of (p0 / person)))

@@ -1,0 +1,12 @@
+# ::snt two young males wear silver helmets .
+# ::tokens ["two", "young", "males", "wear", "silver", "helmets", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "JJ", "NNS", "VBP", "JJ", "NNS", "."]
+# ::lemmas ["two", "young", "male", "wear", "silver", "helmet", "."]
+(w0 / wear-01
+      :ARG0 (m0 / male
+            :quant 2 
+            :mod (y0 / young))
+      :ARG1 (h0 / helmet
+            :consist-of (s0 / silver)))

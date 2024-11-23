@@ -1,0 +1,10 @@
+# ::snt a dog running with a stick in its mouth .
+# ::tokens ["a", "dog", "running", "with", "a", "stick", "in", "its", "mouth", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBG", "IN", "DT", "NN", "IN", "PRP$", "NN", "."]
+# ::lemmas ["a", "dog", "run", "with", "a", "stick", "in", "its", "mouth", "."]
+(r0 / run-02
+      :manner (m0 / mouth)
+      :ARG0 (d0 / dog
+            :ARG0-of (s0 / stick)))

@@ -1,0 +1,3 @@
+(s0 / shop-01
+    :ARG0 (w0 / woman)
+    :ARG1 (p0 / purse))

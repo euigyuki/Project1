@@ -1,0 +1,8 @@
+(s0 / sit-01
+    :purpose (w1 / work-01
+                 :ARG0 (w0 / woman
+                           :ARG1-of (g0 / ground)
+                           :ARG1-of s0
+                           :quant 2)
+                 :ARG1 (p0 / project
+                           :topic (w2 / weave-01))))

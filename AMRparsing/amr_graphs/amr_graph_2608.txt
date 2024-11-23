@@ -1,0 +1,11 @@
+# ::snt two children are playing a game of cricket .
+# ::tokens ["two", "children", "are", "playing", "a", "game", "of", "cricket", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "VBP", "VBG", "DT", "NN", "IN", "NN", "."]
+# ::lemmas ["two", "child", "be", "play", "a", "game", "of", "cricket", "."]
+(p0 / play-01
+      :ARG0 (c0 / child
+            :quant 2 )
+      :ARG1 (g0 / game
+            :mod (c1 / cricket)))

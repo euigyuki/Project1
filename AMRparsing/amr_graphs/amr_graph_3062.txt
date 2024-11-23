@@ -1,0 +1,15 @@
+# ::snt a man flips barbecue chicken legs while another chef watches .
+# ::tokens ["a", "man", "flips", "barbecue", "chicken", "legs", "while", "another", "chef", "watches", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "NNP", "NNP", "NNS", "IN", "DT", "NN", "VBZ", "."]
+# ::lemmas ["a", "man", "flip", "barbecue", "chicken", "leg", "while", "another", "chef", "watch", "."]
+(c0 / contrast-01
+      :ARG1 (f0 / flip-01
+            :ARG0 (m0 / man)
+            :ARG1 (l0 / leg
+                  :mod (c2 / chicken)
+                  :mod (b0 / barbecue)))
+      :ARG2 (w0 / watch-01
+            :ARG0 (c1 / chef
+                  :mod (a0 / another))))

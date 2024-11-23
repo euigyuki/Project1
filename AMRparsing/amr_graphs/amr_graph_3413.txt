@@ -1,0 +1,7 @@
+(h0 / hold-01
+    :ARG2 (h1 / hand
+              :part-of (m0 / man
+                           :mod (y0 / young)
+                           :quant 2))
+    :ARG1 (l0 / leg
+              :quant 1))

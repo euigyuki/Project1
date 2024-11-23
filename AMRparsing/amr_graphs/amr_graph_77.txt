@@ -1,0 +1,12 @@
+(s0 / sleep-01
+    :ARG0 (g0 / girl
+              :ARG1-of (h2 / have-rel-role-91
+                           :ARG2 (d0 / doll)
+                           :ARG3 (b1 / baby)
+                           :ARG0 (p0 / person))
+              :part (b0 / barefoot)
+              :mod (h1 / have-03)
+              :ARG0-of (h0 / have-03
+                           :ARG1 (g1 / gown
+                                     :ARG1-of (p1 / pink-04)))
+              :mod (y0 / young)))

@@ -1,0 +1,16 @@
+# ::snt a boy catcher in a helmet , stretching out his gloved hand for a catch .
+# ::tokens ["a", "boy", "catcher", "in", "a", "helmet", ",", "stretching", "out", "his", "gloved", "hand", "for", "a", "catch", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "NN", "IN", "DT", "NN", ",", "VBG", "RP", "PRP$", "JJ", "NN", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "boy", "catcher", "in", "a", "helmet", ",", "stretch", "out", "his", "gloved", "hand", "for", "a", "catch", "."]
+(s0 / stretch-01
+      :purpose (c0 / catch-01
+            :ARG1 (b0 / boy
+                  :part (h0 / hand
+                        :ARG1-of (c1 / cover-02))
+                  :ARG0-of (w0 / wear-01
+                        :ARG1 (h1 / helmet))
+                  :mod (b1 / boy)))
+      :ARG0 b0
+      :ARG1 h0)

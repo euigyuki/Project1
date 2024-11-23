@@ -1,0 +1,5 @@
+(g0 / gather-03
+    :ARG0 (g1 / group
+              :consist-of (p0 / person))
+    :ARG1 (i0 / item
+              :mod (v0 / various)))

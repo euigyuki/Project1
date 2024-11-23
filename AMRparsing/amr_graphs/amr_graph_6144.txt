@@ -1,0 +1,5 @@
+(s0 / stand-01
+    :purpose (u0 / use-01
+                 :ARG0 (w0 / woman)
+                 :ARG1 (p0 / potty))
+    :ARG1 w0)

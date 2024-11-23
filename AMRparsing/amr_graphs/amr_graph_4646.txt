@@ -1,0 +1,8 @@
+(m0 / man
+    :ARG0-of (j0 / jump-on-bandwagon-09
+                 :ARG1 (c1 / chair
+                           :mod (l0 / lawn))
+                 :ARG2 (c0 / circle-01))
+    :ARG1-of (w0 / wear-01
+                 :ARG1 (w1 / white-03
+                           :mod (a0 / all))))

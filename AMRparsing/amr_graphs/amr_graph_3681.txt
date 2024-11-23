@@ -1,0 +1,7 @@
+(p0 / play-01
+    :ARG3 (b1 / bubble)
+    :ARG0 (b0 / boy
+              :ARG0-of (h0 / have-03
+                           :ARG1 (s0 / shirt
+                                     :mod (o1 / orange)))
+              :mod (l0 / little)))

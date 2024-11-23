@@ -1,0 +1,16 @@
+# ::snt a stout gentleman does not know how to use his umbrella .
+# ::tokens ["a", "stout", "gentleman", "does", "not", "know", "how", "to", "use", "his", "umbrella", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "VBZ", "RB", "VB", "WRB", "TO", "VB", "PRP$", "NN", "."]
+# ::lemmas ["a", "stout", "gentleman", "do", "not", "know", "how", "to", "use", "his", "umbrella", "."]
+(k0 / know-01
+      :polarity - 
+      :ARG0 (g0 / gentleman
+            :poss-of (u1 / umbrella
+                  :ARG1-of (u0 / use-01
+                        :ARG2 s0
+                        :manner t0
+                        :ARG0 g0))
+            :mod (s0 / stout))
+      :ARG1 (t0 / thing))

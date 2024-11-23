@@ -1,0 +1,11 @@
+# ::snt peoples working with a nice head seat
+# ::tokens ["peoples", "working", "with", "a", "nice", "head", "seat"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["NNS", "VBG", "IN", "DT", "JJ", "NN", "NN"]
+# ::lemmas ["people", "work", "with", "a", "nice", "head", "seat"]
+(w0 / work-01
+      :manner (s0 / seat
+            :mod (h0 / head)
+            :mod (n0 / nice-01))
+      :ARG0 (p0 / person))

@@ -1,0 +1,9 @@
+# ::snt child watching television .
+# ::tokens ["child", "watching", "television", "."]
+# ::ner_tags ["O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O"]
+# ::pos_tags ["NN", "VBG", "NN", "."]
+# ::lemmas ["child", "watch", "television", "."]
+(c0 / child
+      :ARG0-of (w0 / watch-01
+            :ARG1 (t0 / television)))

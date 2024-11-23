@@ -1,0 +1,3 @@
+(t0 / troll-01
+    :ARG0 (p0 / person
+              :mod (m0 / male)))

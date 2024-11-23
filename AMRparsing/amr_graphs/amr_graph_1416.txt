@@ -1,0 +1,6 @@
+(s0 / stand-01
+    :ARG1 (w0 / woman
+              :ARG0-of (w1 / wear-01
+                           :ARG1 (s2 / sweater
+                                     :ARG1-of (b1 / black-04)
+                                     :mod (l0 / long-03)))))

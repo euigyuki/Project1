@@ -1,0 +1,6 @@
+(l0 / lean-01
+    :direction (b0 / backwards)
+    :ARG1 (m0 / man
+              :ARG0-of (h0 / have-03
+                           :ARG1 (h2 / hat
+                                     :mod (c0 / cowboy)))))

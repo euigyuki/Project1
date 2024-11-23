@@ -1,0 +1,23 @@
+# ::snt a toddler in a green and yellow jersey is being followed by a wheelchair bound woman in a red sweater past a wooden bench .
+# ::tokens ["a", "toddler", "in", "a", "green", "and", "yellow", "jersey", "is", "being", "followed", "by", "a", "wheelchair", "bound", "woman", "in", "a", "red", "sweater", "past", "a", "wooden", "bench", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "GPE", "GPE", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "B", "I", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "DT", "JJ", "CC", "JJ", "NNP", "VBZ", "VBG", "VBN", "IN", "DT", "NN", "VBN", "NN", "IN", "DT", "JJ", "NN", "IN", "DT", "JJ", "NN", "."]
+# ::lemmas ["a", "toddler", "in", "a", "green", "and", "yellow", "jersey", "be", "be", "follow", "by", "a", "wheelchair", "bind", "woman", "in", "a", "red", "sweater", "past", "a", "wooden", "bench", "."]
+(f0 / follow-01
+      :ARG2 (p0 / past
+            :op1 (b0 / bench
+                  :mod (w1 / wooden)))
+      :ARG1 (t0 / toddler
+            :ARG0-of (h0 / have-03
+                  :ARG1 (w0 / woman
+                        :ARG1-of (b1 / bind-01
+                              :ARG2 (w3 / wheelchair))
+                        :ARG0-of (w2 / wear-01
+                              :ARG1 (s0 / sweater
+                                    :ARG1-of (r0 / red-02))))
+                  :ARG0 (a0 / and
+                        :op2 (j1 / jersey
+                              :mod (y0 / yellow))
+                        :op1 (j0 / jersey
+                              :ARG1-of (g0 / green-02))))))

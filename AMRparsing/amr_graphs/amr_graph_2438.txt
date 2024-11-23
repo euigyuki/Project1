@@ -1,0 +1,14 @@
+# ::snt two french poodles romp on a snowy field
+# ::tokens ["two", "french", "poodles", "romp", "on", "a", "snowy", "field"]
+# ::ner_tags ["CARDINAL", "NORP", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "B", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "JJ", "NNS", "VBP", "IN", "DT", "JJ", "NN"]
+# ::lemmas ["two", "french", "poodle", "romp", "on", "a", "snowy", "field"]
+(j0 / jump-on-bandwagon-09
+      :ARG1 (f0 / field
+            :ARG1-of (s0 / snowy))
+      :ARG0 (p0 / person
+            :quant 2 
+            :mod (c0 / country
+                  :name (n0 / name
+                        :op1 "France" ))))

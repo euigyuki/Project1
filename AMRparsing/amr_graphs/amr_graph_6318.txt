@@ -1,0 +1,17 @@
+# ::snt two men in bowler hats and union jack underwear perform acrobatics .
+# ::tokens ["two", "men", "in", "bowler", "hats", "and", "union", "jack", "underwear", "perform", "acrobatics", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "IN", "NN", "NNS", "CC", "NNP", "NNP", "NNP", "NN", "NNS", "."]
+# ::lemmas ["two", "man", "in", "bowler", "hat", "and", "union", "jack", "underwear", "perform", "acrobatic", "."]
+(p0 / perform-01
+      :ARG0 (m0 / man
+            :quant 2 
+            :ARG0-of (w0 / wear-01
+                  :ARG1 (a1 / and
+                        :op2 (u0 / underwear
+                              :mod (j0 / jack)
+                              :mod (u1 / union))
+                        :op1 (h0 / hat
+                              :mod (b0 / bowl-01)))))
+      :ARG1 (a0 / acrobatic))

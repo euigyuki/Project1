@@ -1,0 +1,10 @@
+(p0 / perform-01
+    :ARG0 (m0 / man
+              :ARG2-of (t0 / task-01)
+              :prep-in (b0 / black-04)
+              :ARG0-of (h0 / have-03
+                           :ARG1 (a0 / and
+                                     :op2 (a1 / arm)
+                                     :op1 (f0 / foot
+                                              :quant 1))))
+    :ARG1 t0)

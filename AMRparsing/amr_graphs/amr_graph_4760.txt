@@ -1,0 +1,3 @@
+(p0 / person
+    :ARG1-of (h0 / hang-out-06)
+    :mod (s0 / some))

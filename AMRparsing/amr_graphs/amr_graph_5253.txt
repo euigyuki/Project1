@@ -1,0 +1,5 @@
+(c0 / cluster
+    :time (b0 / be-located-at-91
+              :ARG1 (d0 / dog)
+              :ARG2 (n0 / nearby))
+    :mod (s0 / sheep))

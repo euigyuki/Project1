@@ -1,0 +1,6 @@
+(w0 / walk-01
+    :ARG0 (g0 / girl
+              :ARG0-of (h0 / have-03
+                           :ARG1 (d1 / dress
+                                     :ARG1-of (w1 / white-03)))
+              :mod (y0 / young)))

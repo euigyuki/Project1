@@ -1,0 +1,17 @@
+# ::snt an elderly married couple enjoy christmas dinner with their family .
+# ::tokens ["an", "elderly", "married", "couple", "enjoy", "christmas", "dinner", "with", "their", "family", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "JJ", "NN", "VBP", "NNP", "NN", "IN", "PRP$", "NN", "."]
+# ::lemmas ["an", "elderly", "married", "couple", "enjoy", "christmas", "dinner", "with", "their", "family", "."]
+(e0 / enjoy-01
+      :ARG0 (c0 / couple
+            :ARG1-of (m0 / marry-01)
+            :mod (e1 / elderly)
+            :poss-of (h0 / have-rel-role-91
+                  :ARG2 (m1 / member)))
+      :ARG1 (d0 / dinner
+            :mod (f0 / festival
+                  :name (n0 / name
+                        :op1 "Christian" )
+                  :mod-of (f1 / family))))

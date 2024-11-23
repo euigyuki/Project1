@@ -1,0 +1,17 @@
+# ::snt a man pushing a hand-truck of boxes is bending over to pick up a pear .
+# ::tokens ["a", "man", "pushing", "a", "hand", "-", "truck", "of", "boxes", "is", "bending", "over", "to", "pick", "up", "a", "pear", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBG", "DT", "NN", "HYPH", "NN", "IN", "NNS", "VBZ", "VBG", "RP", "TO", "VB", "RP", "DT", "NN", "."]
+# ::lemmas ["a", "man", "push", "a", "hand", "-", "truck", "of", "box", "be", "bend", "over", "to", "pick", "up", "a", "pear", "."]
+(b0 / bend-01
+      :purpose (p0 / pick-up-04
+            :poss (m0 / man
+                  :ARG0-of (p1 / push-01
+                        :ARG1 (t0 / truck
+                              :consist-of (b1 / box)
+                              :mod (h0 / hand))))
+            :ARG1 (p2 / pear))
+      :mod (o0 / over
+            :ARG1 m0)
+      :ARG1 m0)

@@ -1,0 +1,10 @@
+# ::snt the little boy is playing by tires .
+# ::tokens ["the", "little", "boy", "is", "playing", "by", "tires", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "VBZ", "VBG", "IN", "NNS", "."]
+# ::lemmas ["the", "little", "boy", "be", "play", "by", "tire", "."]
+(p0 / play-01
+      :manner (t0 / tire)
+      :ARG0 (b0 / boy
+            :mod (l0 / little)))

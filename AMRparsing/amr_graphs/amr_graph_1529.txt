@@ -1,0 +1,11 @@
+# ::snt a black dog jumps high out of the water .
+# ::tokens ["a", "black", "dog", "jumps", "high", "out", "of", "the", "water", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "VBZ", "JJ", "IN", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "black", "dog", "jump", "high", "out", "of", "the", "water", "."]
+(j0 / jump-on-bandwagon-09
+      :ARG1-of (h0 / high-02
+            :ARG2 (w0 / water))
+      :ARG1 (d0 / dog
+            :ARG1-of (b0 / black-04)))

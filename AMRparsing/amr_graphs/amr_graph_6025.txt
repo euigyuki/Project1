@@ -1,0 +1,10 @@
+# ::snt a man hands out balloons to children .
+# ::tokens ["a", "man", "hands", "out", "balloons", "to", "children", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "RP", "NNS", "IN", "NNS", "."]
+# ::lemmas ["a", "man", "hand", "out", "balloon", "to", "child", "."]
+(h0 / hand-out-03
+      :ARG2 (c0 / child)
+      :ARG0 (m0 / man)
+      :ARG1 (b0 / balloon))

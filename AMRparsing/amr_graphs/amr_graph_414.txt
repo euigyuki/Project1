@@ -1,0 +1,18 @@
+# ::snt a smiling woman wearing a red hard hat has a long length of rope around her shoulders .
+# ::tokens ["a", "smiling", "woman", "wearing", "a", "red", "hard", "hat", "has", "a", "long", "length", "of", "rope", "around", "her", "shoulders", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "VBG", "NN", "VBG", "DT", "JJ", "JJ", "NN", "VBZ", "DT", "JJ", "NN", "IN", "NN", "IN", "PRP$", "NNS", "."]
+# ::lemmas ["a", "smile", "woman", "wear", "a", "red", "hard", "hat", "have", "a", "long", "length", "of", "rope", "around", "her", "shoulder", "."]
+(h0 / have-03
+      :location (a0 / around
+            :op1 s1)
+      :ARG1 (w0 / woman
+            :part (s1 / shoulder)
+            :part (s0 / smile-01)
+            :ARG0-of (w1 / wear-01
+                  :ARG1 (h1 / hat
+                        :mod (h2 / hard-04)
+                        :ARG1-of (r1 / red-02)))
+            :part (l0 / long-03
+                  :ARG1 (r0 / rope))))

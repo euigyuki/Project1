@@ -1,0 +1,5 @@
+(s0 / smile-01
+    :ARG0 (p0 / person
+              :ARG0-of (c0 / climb-01
+                           :ARG1 (m1 / mountain))
+              :quant 2))

@@ -1,0 +1,20 @@
+# ::snt two older children hold the hands of a younger child in goggles while jumping into a pool .
+# ::tokens ["two", "older", "children", "hold", "the", "hands", "of", "a", "younger", "child", "in", "goggles", "while", "jumping", "into", "a", "pool", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "JJR", "NNS", "VBP", "DT", "NNS", "IN", "DT", "JJR", "NN", "IN", "NNS", "IN", "VBG", "IN", "DT", "NN", "."]
+# ::lemmas ["two", "old", "child", "hold", "the", "hand", "of", "a", "young", "child", "in", "goggle", "while", "jump", "into", "a", "pool", "."]
+(h0 / hold-01
+      :time (j0 / jump-03
+            :ARG0 (c0 / child
+                  :mod 2 
+                  :ARG1-of (h2 / have-degree-91
+                        :ARG3 (m0 / more)
+                        :ARG2 (o0 / old)))
+            :ARG2 (p0 / pool))
+      :ARG0 c0
+      :ARG1 (h1 / hand
+            :part-of (c1 / child
+                  :ARG1-of (h3 / have-degree-91
+                        :ARG3 (m1 / more)
+                        :ARG2 (y0 / young)))))

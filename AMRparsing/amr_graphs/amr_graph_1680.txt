@@ -1,0 +1,12 @@
+# ::snt mountain climbers are setting up their tents .
+# ::tokens ["mountain", "climbers", "are", "setting", "up", "their", "tents", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["NN", "NNS", "VBP", "VBG", "RP", "PRP$", "NNS", "."]
+# ::lemmas ["mountain", "climber", "be", "set", "up", "their", "tent", "."]
+(s0 / set-up-03
+      :ARG0 (p0 / person
+            :poss-of (t0 / tent)
+            :ARG0-of (c0 / climb-01)
+            :mod (m0 / mountain))
+      :ARG1 t0)

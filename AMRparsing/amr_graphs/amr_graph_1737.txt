@@ -1,0 +1,11 @@
+# ::snt a black and white spotted dog jumps over a stream .
+# ::tokens ["a", "black", "and", "white", "spotted", "dog", "jumps", "over", "a", "stream", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "CC", "JJ", "VBN", "NN", "VBZ", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "black", "and", "white", "spot", "dog", "jump", "over", "a", "stream", "."]
+(j0 / jump-on-bandwagon-09
+      :ARG0 (d0 / dog
+            :ARG1-of (w0 / white-03)
+            :ARG0-of (b0 / black-04))
+      :ARG1 (s0 / stream))

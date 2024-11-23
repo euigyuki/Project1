@@ -1,0 +1,7 @@
+(t0 / travel-01
+    :ARG4 (m0 / mountain)
+    :time (d0 / date-entity
+              :season (s1 / sunset))
+    :ARG0 (p0 / person
+              :ARG0-of (s0 / ski-01
+                           :mod (c0 / crosscountry))))

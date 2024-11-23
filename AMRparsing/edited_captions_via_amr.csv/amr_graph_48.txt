@@ -1,0 +1,21 @@
+# ::snt An older gentleman is harvesting while wearing a large maroon sweater vest and rolled up navy pants .
+# ::tokens ["An", "older", "gentleman", "is", "harvesting", "while", "wearing", "a", "large", "maroon", "sweater", "vest", "and", "rolled", "up", "navy", "pants", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "ORG", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B", "O", "O"]
+# ::pos_tags ["DT", "JJR", "NN", "VBZ", "VBG", "IN", "VBG", "DT", "JJ", "NN", "NN", "NN", "CC", "VBD", "RP", "NN", "NNS", "."]
+# ::lemmas ["an", "old", "gentleman", "be", "harvest", "while", "wear", "a", "large", "maroon", "sweater", "vest", "and", "roll", "up", "navy", "pant", "."]
+(a0 / and
+      :op2 (w0 / wear-01
+            :ARG1 (a1 / and
+                  :op2 (p0 / pant
+                        :ARG1-of (r0 / roll-01)
+                        :mod (n0 / navy))
+                  :op1 (v0 / vest
+                        :mod (l0 / large)
+                        :mod (m1 / maroon)))
+            :ARG0 g0)
+      :op1 (i0 / intrude-01
+            :ARG0 (g0 / gentleman
+                  :ARG1-of (o0 / old)
+                  :mod (h0 / have-degree-91
+                        :ARG3 (m0 / more)))))

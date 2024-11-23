@@ -1,0 +1,5 @@
+(l0 / lay-01
+    :ARG0 (p0 / person
+              :ARG0-of (w0 / work-01
+                           :ARG1 (c0 / construct-01)))
+    :ARG1 (b0 / brick))

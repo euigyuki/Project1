@@ -1,0 +1,22 @@
+# ::snt three woman and one man all holding microphones , but only two are singing or talking into them .
+# ::tokens ["three", "woman", "and", "one", "man", "all", "holding", "microphones", ",", "but", "only", "two", "are", "singing", "or", "talking", "into", "them", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "CARDINAL", "O", "O", "O", "O", "O", "O", "CARDINAL", "CARDINAL", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "B", "O", "O", "O", "O", "O", "O", "B", "I", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NN", "CC", "CD", "NN", "DT", "VBG", "NNS", ",", "CC", "RB", "CD", "VBP", "VBG", "CC", "VBG", "IN", "PRP", "."]
+# ::lemmas ["three", "woman", "and", "one", "man", "all", "hold", "microphone", ",", "but", "only", "two", "be", "singe", "or", "talk", "into", "they", "."]
+(c0 / contrast-01
+      :ARG1 (h0 / hold-01
+            :ARG0 (a0 / and
+                  :ARG0-of (t0 / talk-01
+                        :ARG2 p0)
+                  :op2 (m1 / man
+                        :quant 1 )
+                  :op1 (w0 / woman
+                        :quant 3 ))
+            :ARG1 (m0 / microphone))
+      :ARG2 (o0 / or
+            :op2 t0
+            :op1 (s0 / sing-01
+                  :ARG0 (p0 / person
+                        :quant 2 
+                        :mod (o1 / only)))))

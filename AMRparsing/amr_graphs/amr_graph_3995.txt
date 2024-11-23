@@ -1,0 +1,14 @@
+# ::snt two cows walk past a train in asia .
+# ::tokens ["two", "cows", "walk", "past", "a", "train", "in", "asia", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "LOC", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "B", "O"]
+# ::pos_tags ["CD", "NNS", "VBP", "IN", "DT", "NN", "IN", "NNP", "."]
+# ::lemmas ["two", "cow", "walk", "past", "a", "train", "in", "asia", "."]
+(w0 / walk-01
+      :ARG2 (p0 / past
+            :op1 (t0 / train
+                  :location (c1 / continent
+                        :name (n0 / name
+                              :op1 "Asia" ))))
+      :ARG0 (c0 / cow
+            :quant 2 ))

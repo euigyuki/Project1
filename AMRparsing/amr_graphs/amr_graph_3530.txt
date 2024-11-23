@@ -1,0 +1,5 @@
+(h0 / hold-01
+    :time (d0 / date-entity
+              :dayperiod (n0 / night))
+    :ARG1 (t0 / torch
+              :ARG1-of (f0 / flame-01)))

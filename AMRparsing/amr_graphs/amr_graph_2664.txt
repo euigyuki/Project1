@@ -1,0 +1,3 @@
+(b0 / boy
+    :ARG1-of (s0 / sit-01)
+    :ARG0-of (b1 / barefoote))

@@ -1,0 +1,17 @@
+# ::snt mark zuccherberg , inventor of facebook , talks with a young man .
+# ::tokens ["mark", "zuccherberg", ",", "inventor", "of", "facebook", ",", "talks", "with", "a", "young", "man", "."]
+# ::ner_tags ["PERSON", "PERSON", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "I", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["NNP", "NNP", ",", "NN", "IN", "NN", ",", "NNS", "IN", "DT", "JJ", "NN", "."]
+# ::lemmas ["mark", "zuccherberg", ",", "inventor", "of", "facebook", ",", "talk", "with", "a", "young", "man", "."]
+(t0 / talk-01
+      :ARG2 (m0 / man
+            :mod (y0 / young))
+      :ARG0 (p0 / person
+            :ARG0-of (i0 / invent-01
+                  :ARG1 (p1 / publication
+                        :name (n1 / name
+                              :op1 "Facebook" )))
+            :name (n0 / name
+                  :op2 "zuccherberg" 
+                  :op1 "mark" )))

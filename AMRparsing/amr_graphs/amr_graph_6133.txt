@@ -1,0 +1,16 @@
+# ::snt a barbecue with at least two attendants in an undisclosed location .
+# ::tokens ["a", "barbecue", "with", "at", "least", "two", "attendants", "in", "an", "undisclosed", "location", "."]
+# ::ner_tags ["O", "O", "O", "CARDINAL", "CARDINAL", "CARDINAL", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "B", "I", "I", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "RB", "RBS", "CD", "NNS", "IN", "DT", "JJ", "NN", "."]
+# ::lemmas ["a", "barbecue", "with", "at", "least", "two", "attendant", "in", "an", "undisclosed", "location", "."]
+(b0 / be-located-at-91
+      :ARG2 (l0 / location
+            :ARG1-of (d0 / disclose-01
+                  :polarity - ))
+      :ARG1 (b1 / barbecue
+            :consist-of (p0 / person
+                  :quant (a0 / at-least
+                        :op1 2 )
+                  :ARG0-of (h0 / have-org-role-91
+                        :ARG2 (a1 / attendant)))))

@@ -1,0 +1,7 @@
+(h0 / hold-01
+    :ARG3 (r0 / ready-02
+              :part-of (p0 / person
+                           :poss-of (b0 / bat)
+                           :ARG1-of (s0 / swing-02))
+              :ARG2 s0)
+    :ARG1 b0)

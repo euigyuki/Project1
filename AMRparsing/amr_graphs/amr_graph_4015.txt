@@ -1,0 +1,10 @@
+# ::snt a man wearing glasses is drawing .
+# ::tokens ["a", "man", "wearing", "glasses", "is", "drawing", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBG", "NNS", "VBZ", "VBG", "."]
+# ::lemmas ["a", "man", "wear", "glass", "be", "draw", "."]
+(d0 / draw-02
+      :ARG0 (m0 / man
+            :ARG0-of (w0 / wear-01
+                  :ARG1 (g0 / glasses))))

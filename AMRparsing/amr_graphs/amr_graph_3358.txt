@@ -1,0 +1,18 @@
+# ::snt two women and a man are all wearing black jackets and smiling .
+# ::tokens ["two", "women", "and", "a", "man", "are", "all", "wearing", "black", "jackets", "and", "smiling", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "CC", "DT", "NN", "VBP", "DT", "VBG", "JJ", "NNS", "CC", "VBG", "."]
+# ::lemmas ["two", "woman", "and", "a", "man", "be", "all", "wear", "black", "jacket", "and", "smile", "."]
+(a0 / and
+      :op2 (s0 / smile-01
+            :ARG0 a1
+            :ARG1 j0)
+      :op1 (w0 / wear-01
+            :ARG0 (a1 / and
+                  :mod (a2 / all)
+                  :mod (m0 / man)
+                  :op1 (w1 / woman
+                        :quant 2 ))
+            :ARG1 (j0 / jacket
+                  :ARG1-of (b0 / black-04))))

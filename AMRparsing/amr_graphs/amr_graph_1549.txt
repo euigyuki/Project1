@@ -1,0 +1,7 @@
+(w0 / work-01
+    :ARG0 (p0 / person
+              :ARG0-of (w1 / work-01
+                           :ARG1 (r1 / road))
+              :quant 3)
+    :ARG1 (r0 / ramp
+              :mod (d0 / dirt)))

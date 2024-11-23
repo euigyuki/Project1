@@ -1,0 +1,4 @@
+(h0 / hold-01
+    :ARG1 (s0 / stick
+              :consist-of (w0 / wooden)
+              :ARG1-of (l0 / long-03)))

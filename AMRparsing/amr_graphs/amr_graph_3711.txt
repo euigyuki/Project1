@@ -1,0 +1,9 @@
+(l0 / leave-behind-18
+    :time (m0 / make-18
+              :poss (p0 / person
+                        :poss-of (w0 / way)
+                        :ARG0-of (s0 / ski-01
+                                     :mod (c0 / crosscountry))
+                        :mod (b0 / behind))
+              :path w0)
+    :ARG0 p0)

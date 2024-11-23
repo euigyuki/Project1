@@ -1,0 +1,14 @@
+# ::snt man wearing no pants pulling a cart down the street .
+# ::tokens ["man", "wearing", "no", "pants", "pulling", "a", "cart", "down", "the", "street", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["NN", "VBG", "DT", "NNS", "VBG", "DT", "NN", "IN", "DT", "NN", "."]
+# ::lemmas ["man", "wear", "no", "pant", "pull", "a", "cart", "down", "the", "street", "."]
+(p0 / pull-01
+      :ARG2 (d0 / down
+            :op1 (s0 / street))
+      :ARG0 (m0 / man
+            :ARG0-of (w0 / wear-01
+                  :ARG1 (p1 / pant
+                        :polarity - )))
+      :ARG1 (c0 / cart))

@@ -1,0 +1,11 @@
+# ::snt a black dog nurses white puppies .
+# ::tokens ["a", "black", "dog", "nurses", "white", "puppies", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "VBZ", "JJ", "NNS", "."]
+# ::lemmas ["a", "black", "dog", "nurse", "white", "puppy", "."]
+(n0 / nurse-01
+      :ARG0 (d0 / dog
+            :ARG1-of (b0 / black-05))
+      :ARG1 (p0 / puppy
+            :ARG1-of (w0 / white-02)))

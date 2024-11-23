@@ -1,0 +1,5 @@
+(w0 / walk-01
+    :ARG0 (p0 / person
+              :ARG0-of (h0 / have-03
+                           :ARG1 (a0 / apron
+                                     :mod (y0 / yellow)))))

@@ -1,0 +1,8 @@
+(p0 / push-01
+    :ARG2 (a0 / around
+              :op1 (h2 / hay))
+    :ARG0 (g0 / girl
+              :part (h1 / hair)
+              :part (h0 / have-03
+                        :ARG1 (b0 / braid))
+              :mod (l0 / little)))

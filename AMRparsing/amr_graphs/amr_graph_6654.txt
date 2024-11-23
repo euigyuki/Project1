@@ -1,0 +1,11 @@
+# ::snt a woman in an orange sweater have a drink .
+# ::tokens ["a", "woman", "in", "an", "orange", "sweater", "have", "a", "drink", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "DT", "JJ", "NN", "VBP", "DT", "NN", "."]
+# ::lemmas ["a", "woman", "in", "an", "orange", "sweater", "have", "a", "drink", "."]
+(d0 / drink-01
+      :ARG0 (w0 / woman
+            :ARG0-of (w1 / wear-01
+                  :ARG1 (s0 / sweater
+                        :mod (o0 / orange)))))

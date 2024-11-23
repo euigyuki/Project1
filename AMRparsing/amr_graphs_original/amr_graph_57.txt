@@ -1,0 +1,9 @@
+# ::snt people are eating in a cafeteria with a wood beam and glass ceiling .
+(z1 / eat-01
+      :ARG0 (z2 / person)
+      :location (z3 / cafeteria
+            :part (z4 / and
+                  :op1 (z5 / beam
+                        :consist-of (z6 / wood))
+                  :op2 (z7 / ceiling
+                        :consist-of (z8 / glass)))))

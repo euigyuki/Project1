@@ -1,0 +1,8 @@
+(s0 / sit-01
+    :ARG1 (w0 / woman
+              :ARG0-of (h0 / have-03
+                           :ARG1 (h1 / hair
+                                     :ARG1-of (s1 / short-07)))
+              :ARG1-of (t0 / toss-01
+                           :destination (w1 / water)
+                           :ARG1 (r1 / rock))))

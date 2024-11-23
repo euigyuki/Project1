@@ -1,0 +1,11 @@
+# ::snt a man surrounded by football players .
+# ::tokens ["a", "man", "surrounded", "by", "football", "players", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBN", "IN", "NN", "NNS", "."]
+# ::lemmas ["a", "man", "surround", "by", "football", "player", "."]
+(m0 / man
+      :ARG1-of (s0 / surround-01
+            :ARG2 (p0 / person
+                  :ARG0-of (p1 / play-01
+                        :ARG1 (f0 / football)))))

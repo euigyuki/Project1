@@ -1,0 +1,5 @@
+(r0 / run-02
+    :destination (s0 / something)
+    :ARG0 (d0 / dog
+              :ARG1-of (l0 / light-06)
+              :mod (b0 / brown)))

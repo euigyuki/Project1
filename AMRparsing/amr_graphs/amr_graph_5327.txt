@@ -1,0 +1,17 @@
+# ::snt a group of men wearing hard hats and orange reflector vests are commemorating an event .
+# ::tokens ["a", "group", "of", "men", "wearing", "hard", "hats", "and", "orange", "reflector", "vests", "are", "commemorating", "an", "event", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "NNS", "VBG", "JJ", "NNS", "CC", "JJ", "NN", "NNS", "VBP", "VBG", "DT", "NN", "."]
+# ::lemmas ["a", "group", "of", "man", "wear", "hard", "hat", "and", "orange", "reflector", "vest", "be", "commemorate", "an", "event", "."]
+(c0 / commemorate-01
+      :ARG0 (g0 / group
+            :consist-of (m0 / man
+                  :ARG0-of (w0 / wear-01
+                        :ARG1 (a0 / and
+                              :op2 (v0 / vest
+                                    :mod (r0 / reflector)
+                                    :mod (o0 / orange))
+                              :op1 (h0 / hat
+                                    :ARG1-of (h1 / hard-04))))))
+      :ARG1 (e0 / event))

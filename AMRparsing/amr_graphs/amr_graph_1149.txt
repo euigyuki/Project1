@@ -1,0 +1,10 @@
+# ::snt a man playing drums at a concert .
+# ::tokens ["a", "man", "playing", "drums", "at", "a", "concert", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBG", "NNS", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "man", "play", "drum", "at", "a", "concert", "."]
+(m0 / man
+      :ARG0-of (p0 / play-11
+            :ARG2 (c0 / concert)
+            :ARG1 (d0 / drum)))

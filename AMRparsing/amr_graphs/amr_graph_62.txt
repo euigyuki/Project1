@@ -1,0 +1,8 @@
+(s0 / swim-01
+    :ARG2 (w0 / water)
+    :ARG0 (d0 / dog
+              :part (m0 / mouth)
+              :part (h0 / have-03
+                        :ARG1 (b1 / ball
+                                  :mod (t0 / tennis)))
+              :part (b0 / brown)))

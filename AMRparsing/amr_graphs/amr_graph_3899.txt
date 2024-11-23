@@ -1,0 +1,8 @@
+(h0 / hike-02
+    :time (l0 / look-01
+              :poss (m0 / man
+                        :ARG0-of (w0 / wear-01
+                                     :ARG1 (h1 / hat
+                                               :mod (s0 / straw))))
+              :ARG1 (c0 / camera))
+    :ARG1 m0)

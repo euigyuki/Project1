@@ -1,0 +1,5 @@
+(h0 / hang-out-06
+    :ARG1 (g0 / group
+              :consist-of (p0 / person
+                              :ARG0-of (h1 / have-rel-role-91
+                                           :ARG2 (f0 / friend)))))

@@ -1,0 +1,16 @@
+# ::snt two soccer players , one wearing a white uniform and the other in red , try to reach the soccer ball first .
+(z1 / try-01
+      :ARG0 (z2 / person
+            :quant 2
+            :ARG0-of (z3 / play-01
+                  :ARG1 (z4 / soccer))
+            :ARG2-of (z5 / include-91
+                  :ARG1 (z6 / and
+                        :op1 (z7 / one
+                              :ARG0-of (z8 / wear-01
+                                    :ARG1 (z9 / uniform
+                                          :ARG1-of (z10 / white-03))))
+                        :op2 (z11 / other
+                              :ARG0-of (z12 / wear-01
+                                    :ARG1 (z13 / uniform
+                                          :ARG1-of (z14 / red-02))))))))

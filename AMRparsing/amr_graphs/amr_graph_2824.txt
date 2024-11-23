@@ -1,0 +1,6 @@
+(s0 / stand-01
+    :ARG1 (l0 / lady
+              :poss-of (s1 / stand)
+              :poss-of (c0 / cream
+                           :mod (i0 / ice)
+                           :mod-of s1)))

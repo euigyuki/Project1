@@ -1,0 +1,10 @@
+# ::snt a blond man on a single waterski .
+# ::tokens ["a", "blond", "man", "on", "a", "single", "waterski", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "IN", "DT", "JJ", "NN", "."]
+# ::lemmas ["a", "blond", "man", "on", "a", "single", "waterski", "."]
+(m0 / man
+      :ARG0-of (w0 / waterski
+            :ARG1-of (s0 / single-02))
+      :mod (b0 / blond))

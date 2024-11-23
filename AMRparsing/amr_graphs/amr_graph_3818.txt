@@ -1,0 +1,12 @@
+# ::snt a blond dog playing with a colorful dog toy .
+# ::tokens ["a", "blond", "dog", "playing", "with", "a", "colorful", "dog", "toy", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "VBG", "IN", "DT", "JJ", "NN", "NN", "."]
+# ::lemmas ["a", "blond", "dog", "play", "with", "a", "colorful", "dog", "toy", "."]
+(p0 / play-01
+      :ARG2 (t0 / toy
+            :mod (d1 / dog)
+            :mod (c0 / colorful))
+      :ARG0 (d0 / dog
+            :mod (b0 / blond)))

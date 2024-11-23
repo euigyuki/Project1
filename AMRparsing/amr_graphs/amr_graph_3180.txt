@@ -1,0 +1,13 @@
+# ::snt two dogs run through a snow-patched desert .
+# ::tokens ["two", "dogs", "run", "through", "a", "snow", "-", "patched", "desert", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "VBN", "IN", "DT", "NN", "HYPH", "VBN", "NN", "."]
+# ::lemmas ["two", "dog", "run", "through", "a", "snow", "-", "patch", "desert", "."]
+(r0 / run-02
+      :path (t0 / through
+            :op1 (d1 / desert
+                  :ARG1-of (h0 / have-03
+                        :ARG1 (s0 / snow))))
+      :ARG0 (d0 / dog
+            :quant 2 ))

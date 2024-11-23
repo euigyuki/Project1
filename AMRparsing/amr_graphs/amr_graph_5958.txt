@@ -1,0 +1,11 @@
+# ::snt women are surrounding a table full of handbags .
+# ::tokens ["women", "are", "surrounding", "a", "table", "full", "of", "handbags", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["NNS", "VBP", "VBG", "DT", "NN", "JJ", "IN", "NNS", "."]
+# ::lemmas ["woman", "be", "surround", "a", "table", "full", "of", "handbag", "."]
+(s0 / surround-01
+      :ARG2 (w0 / woman)
+      :ARG1 (t0 / table
+            :ARG1-of (f0 / full-09
+                  :ARG2 (h0 / handbag))))

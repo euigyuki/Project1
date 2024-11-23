@@ -1,0 +1,7 @@
+(l0 / look-01
+    :ARG0 (c0 / child
+              :ARG0-of (j0 / jacket
+                           :ARG1-of (r1 / red-02))
+              :mod (b0 / blond))
+    :ARG1 (t0 / toy
+              :mod (r0 / robotic)))

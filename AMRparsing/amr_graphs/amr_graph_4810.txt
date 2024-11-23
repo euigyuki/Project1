@@ -1,0 +1,10 @@
+# ::snt a woman is on a carnival swing ride .
+# ::tokens ["a", "woman", "is", "on", "a", "carnival", "swing", "ride", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "IN", "DT", "NN", "NN", "NN", "."]
+# ::lemmas ["a", "woman", "be", "on", "a", "carnival", "swing", "ride", "."]
+(r0 / ride-01
+      :ARG0 (w0 / woman)
+      :ARG1 (s0 / swing
+            :mod (c0 / carnival)))

@@ -1,0 +1,12 @@
+# ::snt a dog is jumping into a swimming pool after a duck .
+# ::tokens ["a", "dog", "is", "jumping", "into", "a", "swimming", "pool", "after", "a", "duck", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "VBG", "IN", "DT", "NN", "NN", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "dog", "be", "jump", "into", "a", "swimming", "pool", "after", "a", "duck", "."]
+(j0 / jump-03
+      :destination (p0 / pool
+            :mod (s0 / swim-01))
+      :time (a0 / after
+            :op1 (d1 / duck))
+      :ARG0 (d0 / dog))

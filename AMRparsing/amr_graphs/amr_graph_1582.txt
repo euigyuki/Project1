@@ -1,0 +1,14 @@
+# ::snt two dogs wrestle with each other with their teeth bared .
+# ::tokens ["two", "dogs", "wrestle", "with", "each", "other", "with", "their", "teeth", "bared", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "NN", "IN", "DT", "JJ", "IN", "PRP$", "NNS", "JJ", "."]
+# ::lemmas ["two", "dog", "wrestle", "with", "each", "other", "with", "their", "tooth", "bared", "."]
+(d0 / demonstrate-01
+      :manner (b0 / bare-02
+            :ARG1 t0)
+      :ARG0 (d1 / dog
+            :quant 2 
+            :part (t0 / tooth))
+      :ARG1 (o0 / other
+            :mod (e0 / each)))

@@ -1,0 +1,13 @@
+(a0 / and
+    :op2 (l0 / look-01
+             :ARG1 (s1 / set
+                       :ARG1-of (b1 / beside
+                                    :op1 (s2 / statue
+                                             :ARG1-of (w0 / white-03)
+                                             :mod (h0 / head
+                                                      :part-of (m0 / man)))))
+             :ARG0 (p0 / pigeon
+                       :quant 4))
+    :op1 (s0 / sit-01
+             :ARG1 (c0 / crowd
+                       :consist-of (p1 / person))))

@@ -1,0 +1,10 @@
+# ::snt a construction crew filling a whole .
+# ::tokens ["a", "construction", "crew", "filling", "a", "whole", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "NN", "VBG", "DT", "NN", "."]
+# ::lemmas ["a", "construction", "crew", "fill", "a", "whole", "."]
+(f0 / fill-01
+      :ARG2 (w0 / whole)
+      :ARG1 (c0 / crew
+            :mod (c1 / construct-01)))

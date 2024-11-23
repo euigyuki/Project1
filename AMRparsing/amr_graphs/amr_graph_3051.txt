@@ -1,0 +1,24 @@
+# ::snt two asian cheerleaders are facing forward waving silver pompoms , whilst other cheerleaders are performing facing the other way .
+# ::tokens ["two", "asian", "cheerleaders", "are", "facing", "forward", "waving", "silver", "pompoms", ",", "whilst", "other", "cheerleaders", "are", "performing", "facing", "the", "other", "way", "."]
+# ::ner_tags ["CARDINAL", "NORP", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "JJ", "NNS", "VBP", "VBG", "RB", "VBG", "NN", "NNS", ",", "IN", "JJ", "NNS", "VBP", "VBG", "VBG", "DT", "JJ", "NN", "."]
+# ::lemmas ["two", "asian", "cheerleader", "be", "face", "forward", "wave", "silver", "pompom", ",", "whilst", "other", "cheerleader", "be", "perform", "face", "the", "other", "way", "."]
+(c0 / contrast-01
+      :ARG2 (p0 / perform-01
+            :manner (f1 / face-01
+                  :ARG1 (w1 / way
+                        :mod (o2 / other)))
+            :ARG1 (p3 / person
+                  :mod (o0 / other)))
+      :ARG1 (w0 / wave-01
+            :direction (f0 / forward)
+            :ARG0 (p2 / person
+                  :ARG0-of (h0 / have-org-role-91
+                        :ARG2 (c1 / cheerleader)
+                        :ARG1 (o1 / organization
+                              :name (n0 / name
+                                    :op1 "Asia" )))
+                  :quant 2 )
+            :ARG1 (p1 / pompom
+                  :mod (s0 / silver))))

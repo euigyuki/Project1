@@ -1,0 +1,6 @@
+(a0 / and
+    :op2 (m0 / make-18
+             :ARG1 (f0 / face))
+    :op1 (h0 / hold-01
+             :ARG1 (u0 / utensil
+                       :mod (k0 / kitchen))))

@@ -1,0 +1,9 @@
+# ::snt a motorbike jumping a pole .
+# ::tokens ["a", "motorbike", "jumping", "a", "pole", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBG", "DT", "NN", "."]
+# ::lemmas ["a", "motorbike", "jump", "a", "pole", "."]
+(j0 / jump-on-bandwagon-09
+      :ARG0 (p1 / person)
+      :ARG1 (p0 / pole))

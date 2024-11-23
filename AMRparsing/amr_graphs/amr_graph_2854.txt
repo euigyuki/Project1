@@ -1,0 +1,13 @@
+# ::snt a boy with lips messy from eating fruit
+# ::tokens ["a", "boy", "with", "lips", "messy", "from", "eating", "fruit"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "NNS", "JJ", "IN", "VBG", "NN"]
+# ::lemmas ["a", "boy", "with", "lip", "messy", "from", "eat", "fruit"]
+(b0 / boy
+      :ARG0-of (e0 / eat-01
+            :ARG1 (f0 / fruit))
+      :part (h0 / have-03
+            :ARG1 (l0 / lip
+                  :purpose e0
+                  :ARG1-of (m0 / mess-up-02))))

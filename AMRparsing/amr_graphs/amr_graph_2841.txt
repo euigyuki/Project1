@@ -1,0 +1,14 @@
+(e0 / engage-01
+    :ARG2 (m1 / match-03
+              :ARG3 (b0 / box-03))
+    :ARG1 (m0 / man
+              :ARG2-of (i1 / include-91
+                           :ARG1 (m2 / man
+                                     :ARG0-of (h0 / have-03
+                                                  :ARG1 (h1 / headgear
+                                                            :ARG1-of (r1 / red-02)
+                                                            :mod (b2 / blue)))
+                                     :quant 1))
+              :quant (i0 / inside
+                         :op1 (r0 / ring))
+              :quant 2))

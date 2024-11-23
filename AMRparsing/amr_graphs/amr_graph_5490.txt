@@ -1,0 +1,12 @@
+# ::snt the man with the ponytail and helmet looks on .
+# ::tokens ["the", "man", "with", "the", "ponytail", "and", "helmet", "looks", "on", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "DT", "NN", "CC", "NN", "VBZ", "RP", "."]
+# ::lemmas ["the", "man", "with", "the", "ponytail", "and", "helmet", "look", "on", "."]
+(l0 / look-up-05
+      :ARG0 (m0 / man
+            :ARG0-of (h0 / have-03
+                  :ARG1 (a0 / and
+                        :op2 (h1 / helmet)
+                        :op1 (p0 / ponytail)))))

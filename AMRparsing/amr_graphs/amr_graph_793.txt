@@ -1,0 +1,13 @@
+(s0 / seem-01
+    :time (f0 / fun-01
+              :ARG1 (e0 / everybody
+                        :mod (e1 / else)))
+    :ARG1 (s1 / scare-01
+              :ARG2-of (h0 / have-degree-91
+                           :ARG1 (l0 / lady
+                                     :quant (s2 / seat
+                                                :mod (f1 / front)
+                                                :mod (v0 / very))
+                                     :quant 1)
+                           :ARG3 (t0 / too))
+              :ARG1 l0))

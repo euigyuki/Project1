@@ -1,0 +1,11 @@
+# ::snt a soccer game being played as the sun sets .
+# ::tokens ["a", "soccer", "game", "being", "played", "as", "the", "sun", "sets", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "NN", "VBG", "VBN", "IN", "DT", "NN", "NNS", "."]
+# ::lemmas ["a", "soccer", "game", "be", "play", "as", "the", "sun", "set", "."]
+(p0 / play-01
+      :time (s0 / set-02
+            :ARG1 (s2 / sun))
+      :ARG1 (g0 / game
+            :mod (s1 / soccer)))

@@ -1,0 +1,13 @@
+# ::snt a black and white dog is sliding down a sandy hill .
+# ::tokens ["a", "black", "and", "white", "dog", "is", "sliding", "down", "a", "sandy", "hill", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "CC", "JJ", "NN", "VBZ", "VBG", "RP", "DT", "JJ", "NN", "."]
+# ::lemmas ["a", "black", "and", "white", "dog", "be", "slide", "down", "a", "sandy", "hill", "."]
+(s0 / slide-01
+      :direction (d1 / down
+            :op1 (h0 / hill
+                  :mod (s1 / sandy)))
+      :direction (d0 / dog
+            :ARG1-of (w0 / white-03)
+            :mod (b0 / black-04)))

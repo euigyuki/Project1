@@ -1,0 +1,6 @@
+(a0 / and
+    :op2 (d0 / drink-01
+             :ARG0 (p0 / person
+                       :mod (s1 / some)))
+    :op1 (s0 / sit-01
+             :ARG1 p0))

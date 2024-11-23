@@ -1,0 +1,21 @@
+(p0 / pose-01
+    :time (s0 / sight-01
+              :poss (f0 / figure
+                        :ARG0-of (h0 / have-03)
+                        :ARG1-of (c1 / clothe-01
+                                     :ARG2 (a1 / and
+                                               :op2 (b0 / black-04)
+                                               :op1 (g0 / green-02)))
+                        :ARG2-of (o0 / obscure-02
+                                     :degree (p1 / part)
+                                     :degree (s1 / setting
+                                                 :mod (r0 / rural)
+                                                 :mod (s2 / snowy)
+                                                 :mod (o2 / outdoor))))
+              :ARG1 (a0 / and
+                        :op2 (c2 / camera)
+                        :op1 (o1 / object
+                                 :ARG1-of (r1 / resemble-01
+                                              :ARG2 (s3 / sword)))))
+    :ARG0 f0
+    :ARG1 (c0 / camera))

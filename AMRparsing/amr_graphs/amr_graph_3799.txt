@@ -1,0 +1,4 @@
+(c0 / carry-01
+    :ARG0 (p0 / puppy)
+    :ARG1 (b0 / ball
+              :mod (t0 / tennis)))

@@ -1,0 +1,11 @@
+# ::snt a person riding a large unicycle .
+# ::tokens ["a", "person", "riding", "a", "large", "unicycle", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBG", "DT", "JJ", "NN", "."]
+# ::lemmas ["a", "person", "ride", "a", "large", "unicycle", "."]
+(r0 / ride-01
+      :ARG1 (u0 / unicycle
+            :polarity - 
+            :mod (l0 / large))
+      :ARG0 (p0 / person))

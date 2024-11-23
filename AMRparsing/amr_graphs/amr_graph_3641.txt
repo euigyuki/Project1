@@ -1,0 +1,17 @@
+# ::snt a performer dressed in a blue outfit is juggling the balls as many onlookers watch intently .
+# ::tokens ["a", "performer", "dressed", "in", "a", "blue", "outfit", "is", "juggling", "the", "balls", "as", "many", "onlookers", "watch", "intently", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBN", "IN", "DT", "JJ", "NN", "VBZ", "VBG", "DT", "NNS", "IN", "JJ", "NNS", "VBP", "RB", "."]
+# ::lemmas ["a", "performer", "dress", "in", "a", "blue", "outfit", "be", "juggle", "the", "ball", "as", "many", "onlooker", "watch", "intently", "."]
+(j0 / juggle
+      :ARG1-of (w0 / watch-01
+            :manner (i0 / intently)
+            :ARG0 (o0 / onlooker
+                  :quant (m0 / many)))
+      :ARG0-of (p0 / person
+            :ARG0-of (p1 / perform-01)
+            :ARG1-of (d0 / dress-01
+                  :ARG2 (o1 / outfit
+                        :mod (b1 / blue))))
+      :time (b0 / ball))

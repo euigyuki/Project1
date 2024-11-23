@@ -1,0 +1,10 @@
+(w0 / walk-01
+    :ARG1-of (n0 / near-02)
+    :ARG0 (w1 / woman
+              :ARG0-of (h0 / have-03
+                           :ARG1 (a0 / and
+                                     :op2 (b0 / boot
+                                              :ARG1-of (s1 / short-07)
+                                              :mod (w2 / white-03))
+                                     :op1 (p0 / purse
+                                              :mod (b1 / blue))))))

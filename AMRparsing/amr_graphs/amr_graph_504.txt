@@ -1,0 +1,11 @@
+# ::snt a white and tan dog leaps through the air .
+# ::tokens ["a", "white", "and", "tan", "dog", "leaps", "through", "the", "air", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "CC", "NNP", "NNP", "VBZ", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "white", "and", "tan", "dog", "leap", "through", "the", "air", "."]
+(l0 / leap-03
+      :destination (a0 / air)
+      :ARG0 (d0 / dog
+            :ARG1-of (t0 / tan)
+            :mod (w0 / white-02)))

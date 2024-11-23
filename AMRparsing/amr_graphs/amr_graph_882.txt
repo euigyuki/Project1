@@ -1,0 +1,15 @@
+# ::snt a woman in shorts throwing a bowling ball down a bowling alley .
+# ::tokens ["a", "woman", "in", "shorts", "throwing", "a", "bowling", "ball", "down", "a", "bowling", "alley", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "NNS", "VBG", "DT", "NN", "NN", "IN", "DT", "NN", "NN", "."]
+# ::lemmas ["a", "woman", "in", "short", "throw", "a", "bowling", "ball", "down", "a", "bowling", "alley", "."]
+(t0 / throw-01
+      :direction (d0 / down)
+      :ARG2 (a0 / alley
+            :mod (d1 / down))
+      :ARG0 (w0 / woman
+            :ARG0-of (h0 / have-03
+                  :ARG1 (s0 / short-07)))
+      :ARG1 (b0 / ball
+            :instrument-of (b1 / bowl-01)))

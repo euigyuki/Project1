@@ -1,0 +1,19 @@
+# ::snt a man is kneeling down with a child on a beach where bright blue and red boats are stationed in the background .
+# ::tokens ["a", "man", "is", "kneeling", "down", "with", "a", "child", "on", "a", "beach", "where", "bright", "blue", "and", "red", "boats", "are", "stationed", "in", "the", "background", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "VBG", "RP", "IN", "DT", "NN", "IN", "DT", "NN", "WRB", "JJ", "JJ", "CC", "JJ", "NNS", "VBP", "VBN", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "man", "be", "kneel", "down", "with", "a", "child", "on", "a", "beach", "where", "bright", "blue", "and", "red", "boat", "be", "station", "in", "the", "background", "."]
+(k0 / kneel-01
+      :location (b0 / beach
+            :location-of (s0 / station-01
+                  :ARG2 (b1 / background)
+                  :ARG1 (a0 / and
+                        :op2 (b3 / boat
+                              :ARG1-of (r0 / red-02))
+                        :op1 (b2 / boat
+                              :mod (b5 / blue)
+                              :ARG1-of (b4 / bright-02)))))
+      :ARG0 (m0 / man
+            :accompanier (h0 / have-rel-role-91
+                  :ARG0 (c0 / child))))

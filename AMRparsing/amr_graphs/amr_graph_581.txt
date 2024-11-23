@@ -1,0 +1,15 @@
+# ::snt a casually dressed man has several flutes into which he is pouring champagne .
+# ::tokens ["a", "casually", "dressed", "man", "has", "several", "flutes", "into", "which", "he", "is", "pouring", "champagne", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "RB", "VBN", "NN", "VBZ", "JJ", "NNS", "IN", "WDT", "PRP", "VBZ", "VBG", "NN", "."]
+# ::lemmas ["a", "casually", "dress", "man", "have", "several", "flute", "into", "which", "he", "be", "pour", "champagne", "."]
+(h0 / have-03
+      :ARG0 (m0 / man
+            :ARG1-of (d0 / dress-01
+                  :ARG2 (c1 / casually)))
+      :ARG1 (f0 / flute
+            :ARG2-of (p0 / pour-01
+                  :ARG0 m0
+                  :ARG1 (c0 / champagne))
+            :quant (s0 / several)))

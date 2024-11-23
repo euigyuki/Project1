@@ -1,0 +1,19 @@
+# ::snt a blond girl points with the same hand that is holding a cigarette and an mp3 player .
+# ::tokens ["a", "blond", "girl", "points", "with", "the", "same", "hand", "that", "is", "holding", "a", "cigarette", "and", "an", "mp3", "player", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "NNS", "IN", "DT", "JJ", "NN", "WDT", "VBZ", "VBG", "DT", "NN", "CC", "DT", "NN", "NN", "."]
+# ::lemmas ["a", "blond", "girl", "point", "with", "the", "same", "hand", "that", "be", "hold", "a", "cigarette", "and", "an", "mp3", "player", "."]
+(p0 / point-01
+      :instrument (h0 / hand
+            :ARG1-of (s0 / same-01)
+            :ARG0-of (h1 / hold-01
+                  :ARG1 (a0 / and
+                        :op2 (t0 / thing
+                              :ARG2-of (p1 / play-11
+                                    :ARG2 (p2 / product
+                                          :name (n0 / name
+                                                :op1 "mp3" ))))
+                        :op1 (c0 / cigarette))))
+      :ARG0 (g0 / girl
+            :mod (b0 / blond)))

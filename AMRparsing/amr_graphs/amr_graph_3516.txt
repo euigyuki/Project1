@@ -1,0 +1,11 @@
+(e0 / emerge-01
+    :direction (u0 / up-03
+                   :ARG2 (s1 / stair))
+    :direction (s0 / subway)
+    :ARG0 (a0 / and
+              :op2 (m0 / man
+                       :ARG0-of (h0 / have-03
+                                    :ARG1 (m1 / mustache)))
+              :op1 (w0 / woman
+                       :ARG0-of (t0 / talk-01
+                                    :medium (c0 / cellphone)))))

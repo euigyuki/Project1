@@ -1,0 +1,7 @@
+(h0 / have-03
+    :time (s1 / swim-01
+              :ARG0 (d0 / dog
+                        :quant 2))
+    :ARG0 d0
+    :ARG1 (s0 / stick
+              :ARG1-of (s2 / same-01)))

@@ -1,0 +1,5 @@
+(f0 / face-01
+    :ARG1 (o0 / other
+              :mod (e0 / each))
+    :ARG0 (d0 / dog
+              :quant 2))

@@ -1,0 +1,12 @@
+# ::snt a man in aerodynamic gear riding a bicycle down a road around a sharp curve .
+(z1 / ride-01
+      :ARG0 (z2 / man
+            :ARG0-of (z3 / have-03
+                  :ARG1 (z4 / gear
+                        :mod (z5 / aerodynamics))))
+      :ARG1 (z6 / bicycle)
+      :path (z7 / road
+            :direction (z8 / down)
+            :path (z9 / around
+                  :op1 (z10 / curve
+                        :ARG1-of (z11 / sharp-02)))))

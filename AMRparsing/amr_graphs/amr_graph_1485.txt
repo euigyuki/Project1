@@ -1,0 +1,3 @@
+(c0 / clean-01
+    :ARG0 (w1 / woman)
+    :ARG1 (w0 / window))

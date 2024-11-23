@@ -1,0 +1,16 @@
+# ::snt a man in a green hat and white t-shirt jumping on a sandy hill .
+# ::tokens ["a", "man", "in", "a", "green", "hat", "and", "white", "t", "-", "shirt", "jumping", "on", "a", "sandy", "hill", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "DT", "JJ", "NN", "CC", "JJ", "NNP", "HYPH", "NN", "VBG", "IN", "DT", "JJ", "NN", "."]
+# ::lemmas ["a", "man", "in", "a", "green", "hat", "and", "white", "t", "-", "shirt", "jump", "on", "a", "sandy", "hill", "."]
+(j0 / jump-03
+      :ARG2 (h0 / hill
+            :mod (s0 / sandy))
+      :ARG0 (m0 / man
+            :ARG0-of (h1 / have-03
+                  :ARG1 (a0 / and
+                        :op2 (t0 / t-shirt
+                              :ARG1-of (w0 / white-03))
+                        :op1 (h2 / hat
+                              :ARG1-of (g0 / green-02))))))

@@ -1,0 +1,4 @@
+(a0 / and
+    :op2 (h0 / hold-01
+             :ARG1 (b0 / beer))
+    :op1 (t0 / troll-01))

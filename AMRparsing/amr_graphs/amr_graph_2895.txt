@@ -1,0 +1,9 @@
+# ::snt the kid is on a float in the snow .
+# ::tokens ["the", "kid", "is", "on", "a", "float", "in", "the", "snow", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "IN", "DT", "NN", "IN", "DT", "NN", "."]
+# ::lemmas ["the", "kid", "be", "on", "a", "float", "in", "the", "snow", "."]
+(f0 / float-01
+      :ARG2 (s0 / snow)
+      :ARG1 (k0 / kid))

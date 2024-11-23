@@ -1,0 +1,5 @@
+(s0 / sit-01
+    :time (m0 / move-01
+              :ARG0 (o0 / other))
+    :ARG1 (p0 / person
+              :quant 2))

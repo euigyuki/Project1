@@ -1,0 +1,18 @@
+# ::snt a girl smiles as she runs across the white sandy beach in her swimsuit .
+# ::tokens ["a", "girl", "smiles", "as", "she", "runs", "across", "the", "white", "sandy", "beach", "in", "her", "swimsuit", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "IN", "PRP", "VBZ", "IN", "DT", "NNP", "NNP", "NN", "IN", "PRP$", "NN", "."]
+# ::lemmas ["a", "girl", "smile", "as", "she", "run", "across", "the", "white", "sandy", "beach", "in", "her", "swimsuit", "."]
+(s0 / smile-01
+      :time (r0 / run-02
+            :ARG0 (g0 / girl
+                  :poss-of (s1 / swimsuit
+                        :ARG1-of (w0 / wear-01
+                              :poss g0
+                              :manner-of r0)))
+            :path (a0 / across
+                  :op1 (b0 / beach
+                        :ARG1-of (w1 / white-03)
+                        :mod (s2 / sandy))))
+      :ARG0 g0)

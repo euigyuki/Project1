@@ -1,0 +1,7 @@
+(w0 / wonder-01
+    :ARG0 (p0 / person
+              :quant (f0 / few)
+              :ARG0-of (h0 / have-rel-role-91
+                           :ARG1 (b0 / baby)))
+    :ARG1 (t0 / thing
+              :quant (l0 / lot)))

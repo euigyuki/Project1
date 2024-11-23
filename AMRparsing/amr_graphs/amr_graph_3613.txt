@@ -1,0 +1,14 @@
+# ::snt a man is laying down inside a black , non-working boat .
+# ::tokens ["a", "man", "is", "laying", "down", "inside", "a", "black", ",", "non", "-", "working", "boat", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "VBG", "RP", "IN", "DT", "JJ", ",", "JJ", "JJ", "JJ", "NN", "."]
+# ::lemmas ["a", "man", "be", "lay", "down", "inside", "a", "black", ",", "non", "-", "working", "boat", "."]
+(l0 / lie-07
+      :ARG2 (d0 / down)
+      :mod (i0 / inside
+            :op1 (b0 / boat
+                  :ARG1-of (b1 / black-04)
+                  :ARG0-of (w0 / work-01
+                        :polarity - )))
+      :ARG1 (m0 / man))

@@ -1,0 +1,12 @@
+# ::snt two workers in a wood shop cutting wood .
+# ::tokens ["two", "workers", "in", "a", "wood", "shop", "cutting", "wood", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "IN", "DT", "NN", "NN", "VBG", "NN", "."]
+# ::lemmas ["two", "worker", "in", "a", "wood", "shop", "cut", "wood", "."]
+(p0 / person
+      :quant 2 
+      :ARG0-of (c0 / cut-01
+            :ARG1 (w1 / wood))
+      :quant (w0 / work-01
+            :ARG2 (s0 / shop)))

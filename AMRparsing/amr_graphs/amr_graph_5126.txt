@@ -1,0 +1,15 @@
+(k0 / kick-01
+    :time (l0 / look-01
+              :ARG0 (p0 / person
+                        :ARG0-of (h1 / have-rel-role-91)))
+    :ARG0 (b0 / boy
+              :ARG0-of (h0 / have-03
+                           :ARG1 (a0 / and
+                                     :op2 (u0 / uniform
+                                              :ARG1-of (b2 / black-04)
+                                              :mod (w0 / white-03)
+                                              :mod (s0 / soccer))
+                                     :op1 (h2 / hair
+                                              :mod (b1 / blond))))
+              :mod (y0 / young))
+    :ARG1 (g0 / goal))

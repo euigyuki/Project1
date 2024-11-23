@@ -1,0 +1,12 @@
+# ::snt a football player is talking to his coach .
+# ::tokens ["a", "football", "player", "is", "talking", "to", "his", "coach", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "NN", "VBZ", "VBG", "IN", "PRP$", "NN", "."]
+# ::lemmas ["a", "football", "player", "be", "talk", "to", "his", "coach", "."]
+(t0 / talk-01
+      :ARG2 (p1 / person
+            :ARG0-of (p2 / play-01
+                  :ARG1 (f0 / football)))
+      :ARG0 (p0 / person
+            :ARG0-of (c0 / coach-01)))

@@ -1,0 +1,21 @@
+# ::snt a group of black people are all in their bathing suits and are standing around fountains which are shooting water on them .
+# ::tokens ["a", "group", "of", "black", "people", "are", "all", "in", "their", "bathing", "suits", "and", "are", "standing", "around", "fountains", "which", "are", "shooting", "water", "on", "them", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "JJ", "NNS", "VBP", "DT", "IN", "PRP$", "NN", "NNS", "CC", "VBP", "VBG", "IN", "NNS", "WDT", "VBP", "VBG", "NN", "IN", "PRP", "."]
+# ::lemmas ["a", "group", "of", "black", "people", "be", "all", "in", "their", "bathing", "suit", "and", "be", "stand", "around", "fountain", "which", "be", "shoot", "water", "on", "they", "."]
+(a0 / and
+      :op2 (s0 / stand-01
+            :ARG2 (a1 / around
+                  :op1 (f0 / fountain))
+            :ARG1 g0)
+      :op1 (w0 / wear-01
+            :ARG0 (g0 / group
+                  :consist-of (p0 / person
+                        :ARG0-of (s2 / shoot-01
+                              :ARG0 f0
+                              :ARG1 (w1 / water))
+                        :ARG1-of (b1 / black-05)
+                        :mod (a2 / all)))
+            :ARG1 (s1 / suit
+                  :mod (b0 / bathing))))

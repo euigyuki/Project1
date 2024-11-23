@@ -1,0 +1,9 @@
+(s0 / spew-01
+    :time (w0 / wait-01
+              :ARG0 (b1 / boy
+                        :prep-in (s1 / shirt
+                                     :mod (b5 / blue))
+                        :ARG1-of (r0 / run-02)
+                        :ARG0-of s0))
+    :ARG1 (b0 / bat
+              :mod (b3 / baseball)))

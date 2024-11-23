@@ -1,0 +1,13 @@
+# ::snt two cops in cowboys hats riding on a golf cart .
+# ::tokens ["two", "cops", "in", "cowboys", "hats", "riding", "on", "a", "golf", "cart", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "IN", "NNS", "NNS", "VBG", "IN", "DT", "NN", "NN", "."]
+# ::lemmas ["two", "cop", "in", "cowboy", "hat", "ride", "on", "a", "golf", "cart", "."]
+(r0 / ride-01
+      :ARG0 (c1 / cop
+            :quant 2 
+            :quant (h0 / hat
+                  :mod (c2 / cowboy)))
+      :ARG1 (c0 / cart
+            :mod (g0 / golf)))

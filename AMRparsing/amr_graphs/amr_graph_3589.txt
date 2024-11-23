@@ -1,0 +1,3 @@
+(p0 / play-01
+    :ARG2 (i0 / image)
+    :ARG0 (g0 / girl))

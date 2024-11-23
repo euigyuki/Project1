@@ -1,0 +1,4 @@
+(p0 / pain-01
+    :ARG0 (b0 / boy
+              :mod (l0 / little))
+    :ARG1 (p1 / plate))

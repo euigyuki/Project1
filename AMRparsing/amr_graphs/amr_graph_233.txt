@@ -1,0 +1,9 @@
+(p0 / patrol-01
+    :ARG0 (a1 / and
+              :op2 (b1 / blue)
+              :op1 (w1 / white-03))
+    :time (d0 / day
+              :mod (c0 / cloudy))
+    :time (w0 / walk-01
+              :ARG2 (s2 / sand)
+              :ARG0 (s1 / seagull)))

@@ -1,0 +1,9 @@
+(a0 / assemble-02
+    :instrument (a1 / and
+                    :op2 (w0 / walk-01
+                             :ARG0 (w1 / woman))
+                    :op1 (s2 / see-01
+                             :ARG1 (b0 / balloon
+                                       :mod (t0 / toy))))
+    :ARG1 (c0 / crowd
+              :mod (l0 / large)))

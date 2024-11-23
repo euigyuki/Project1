@@ -1,0 +1,5 @@
+(w0 / walk-01
+    :ARG0 (g0 / girl
+              :ARG0-of (h0 / have-03
+                           :ARG1 (d0 / dress
+                                     :mod (p0 / plaid)))))

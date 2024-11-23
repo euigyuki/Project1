@@ -1,0 +1,12 @@
+# ::snt two people are planting flowers around a pole .
+# ::tokens ["two", "people", "are", "planting", "flowers", "around", "a", "pole", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "VBP", "VBG", "NNS", "IN", "DT", "NN", "."]
+# ::lemmas ["two", "people", "be", "plant", "flower", "around", "a", "pole", "."]
+(p0 / plant-01
+      :ARG2 (a0 / around
+            :op1 (p2 / pole))
+      :ARG0 (p1 / person
+            :quant 2 )
+      :ARG1 (f0 / flower))

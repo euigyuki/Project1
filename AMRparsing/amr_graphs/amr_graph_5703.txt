@@ -1,0 +1,10 @@
+# ::snt a girl is holding on to the rope of a sailboat .
+# ::tokens ["a", "girl", "is", "holding", "on", "to", "the", "rope", "of", "a", "sailboat", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "VBG", "RP", "IN", "DT", "NN", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "girl", "be", "hold", "on", "to", "the", "rope", "of", "a", "sailboat", "."]
+(h0 / hold-on-06
+      :ARG0 (g0 / girl)
+      :ARG1 (r0 / rope
+            :part-of (s0 / sailboat)))

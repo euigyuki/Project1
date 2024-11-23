@@ -1,0 +1,10 @@
+# ::snt a person swings at a tennis ball .
+# ::tokens ["a", "person", "swings", "at", "a", "tennis", "ball", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "IN", "DT", "NN", "NN", "."]
+# ::lemmas ["a", "person", "swing", "at", "a", "tennis", "ball", "."]
+(s0 / swing-02
+      :ARG0 (p0 / person)
+      :ARG1 (b0 / ball
+            :mod (t0 / tennis)))

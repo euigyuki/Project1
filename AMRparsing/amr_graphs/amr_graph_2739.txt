@@ -1,0 +1,9 @@
+# ::snt a dog jumps onto the sidewalk .
+# ::tokens ["a", "dog", "jumps", "onto", "the", "sidewalk", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "dog", "jump", "onto", "the", "sidewalk", "."]
+(j0 / jump-on-bandwagon-09
+      :ARG1 (s0 / sidewalk)
+      :ARG0 (d0 / dog))

@@ -1,0 +1,16 @@
+# ::snt a group of people in a white room wearing costumes one girl is wearing white toga .
+# ::tokens ["a", "group", "of", "people", "in", "a", "white", "room", "wearing", "costumes", "one", "girl", "is", "wearing", "white", "toga", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "NNS", "IN", "DT", "JJ", "NN", "VBG", "NNS", "CD", "NN", "VBZ", "VBG", "JJ", "NN", "."]
+# ::lemmas ["a", "group", "of", "people", "in", "a", "white", "room", "wear", "costume", "one", "girl", "be", "wear", "white", "toga", "."]
+(a0 / and
+      :op2 (w0 / wear-01
+            :ARG0 (g1 / girl
+                  :quant 1 )
+            :ARG1 (t0 / toga
+                  :ARG1-of (w2 / white-03)))
+      :op1 (g0 / group
+            :consist-of (r0 / room
+                  :ARG1-of (w1 / white-03))
+            :consist-of (p0 / person)))

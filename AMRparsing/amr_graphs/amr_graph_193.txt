@@ -1,0 +1,7 @@
+(a0 / attempt-01
+    :ARG0 (p0 / person
+              :ARG0-of (c0 / climb-01
+                           :ARG1 (a1 / around
+                                     :op1 (o0 / overhang)))
+              :ARG0-of (c1 / climb-01))
+    :ARG1 c0)

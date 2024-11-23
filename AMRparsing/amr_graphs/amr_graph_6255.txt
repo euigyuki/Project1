@@ -1,0 +1,10 @@
+# ::snt a lime green vw bug .
+# ::tokens ["a", "lime", "green", "vw", "bug", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "JJ", "JJ", "NN", "."]
+# ::lemmas ["a", "lime", "green", "vw", "bug", "."]
+(b0 / bug
+      :mod (l0 / love-01)
+      :mod (g0 / green-02
+            :mod (l1 / lime)))

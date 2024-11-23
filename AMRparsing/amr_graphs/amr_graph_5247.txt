@@ -1,0 +1,14 @@
+# ::snt a couple just got married and are taking a picture with family
+# ::tokens ["a", "couple", "just", "got", "married", "and", "are", "taking", "a", "picture", "with", "family"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "RB", "VBD", "VBN", "CC", "VBP", "VBG", "DT", "NN", "IN", "NN"]
+# ::lemmas ["a", "couple", "just", "get", "marry", "and", "be", "take", "a", "picture", "with", "family"]
+(a0 / and
+      :op2 (p0 / photograph-01
+            :ARG1 (p1 / picture-01
+                  :ARG1 (f0 / family))
+            :ARG0 c0)
+      :op1 (m0 / marry-01
+            :time (j0 / just)
+            :ARG1 (c0 / couple)))

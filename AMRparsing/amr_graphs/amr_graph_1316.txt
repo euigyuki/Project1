@@ -1,0 +1,16 @@
+# ::snt wedding photo of the bride and groom jumping for joy on the great wall of china .
+# ::tokens ["wedding", "photo", "of", "the", "bride", "and", "groom", "jumping", "for", "joy", "on", "the", "great", "wall", "of", "china", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "GPE", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B", "O"]
+# ::pos_tags ["NN", "NN", "IN", "DT", "NN", "CC", "NN", "VBG", "IN", "NN", "IN", "DT", "JJ", "NN", "IN", "NNP", "."]
+# ::lemmas ["wedding", "photo", "of", "the", "bride", "and", "groom", "jump", "for", "joy", "on", "the", "great", "wall", "of", "china", "."]
+(p0 / photograph-01
+      :mod (w1 / wed-01)
+      :mod (w0 / wall
+            :part-of (c0 / country
+                  :name (n0 / name
+                        :op1 "China" ))
+            :mod (g0 / great))
+      :ARG1 (a0 / and
+            :ARG0-of (j0 / jump-on-bandwagon-09)
+            :op1 (b0 / bride)))

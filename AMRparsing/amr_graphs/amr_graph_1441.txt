@@ -1,0 +1,16 @@
+# ::snt a woman wearing a dark blue scarf is in the process of preparing homemade sushi .
+# ::tokens ["a", "woman", "wearing", "a", "dark", "blue", "scarf", "is", "in", "the", "process", "of", "preparing", "homemade", "sushi", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBG", "DT", "JJ", "JJ", "NN", "VBZ", "IN", "DT", "NN", "IN", "VBG", "JJ", "NN", "."]
+# ::lemmas ["a", "woman", "wear", "a", "dark", "blue", "scarf", "be", "in", "the", "process", "of", "prepare", "homemade", "sushi", "."]
+(p0 / process-02
+      :ARG0 (w0 / woman
+            :ARG0-of (p1 / prepare-01
+                  :ARG1 (s0 / sushi
+                        :mod (h0 / homemade)))
+            :ARG0-of (w1 / wear-01
+                  :ARG1 (s1 / scarf
+                        :ARG1-of (d0 / dark-02)
+                        :mod (b0 / blue))))
+      :ARG1 p1)

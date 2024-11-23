@@ -1,0 +1,5 @@
+(c0 / chew-01
+    :ARG2 (h0 / house
+              :poss (m0 / man
+                        :ARG0-of (r0 / reside-01)
+                        :ARG0-of c0)))

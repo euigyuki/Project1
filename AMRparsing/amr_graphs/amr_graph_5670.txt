@@ -1,0 +1,2 @@
+(c0 / cafe
+    :mod (o0 / outdoor))

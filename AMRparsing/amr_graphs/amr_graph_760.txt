@@ -1,0 +1,11 @@
+# ::snt two children on surfboards wave to each other .
+# ::tokens ["two", "children", "on", "surfboards", "wave", "to", "each", "other", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "IN", "NNS", "VB", "IN", "DT", "JJ", "."]
+# ::lemmas ["two", "child", "on", "surfboard", "wave", "to", "each", "other", "."]
+(w0 / wave-01
+      :instrument (s0 / surfboard)
+      :ARG2 (o0 / other)
+      :ARG1 (c0 / child
+            :quant 2 ))

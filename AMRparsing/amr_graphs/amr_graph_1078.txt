@@ -1,0 +1,15 @@
+# ::snt a group of women wearing all black uniforms play various stringed instruments .
+# ::tokens ["a", "group", "of", "women", "wearing", "all", "black", "uniforms", "play", "various", "stringed", "instruments", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "NNS", "VBG", "DT", "JJ", "NNS", "VBP", "JJ", "VBN", "NNS", "."]
+# ::lemmas ["a", "group", "of", "woman", "wear", "all", "black", "uniform", "play", "various", "string", "instrument", "."]
+(p0 / play-11
+      :ARG2 (i0 / instrument
+            :mod (v0 / various)
+            :mod (s0 / string))
+      :ARG0 (g0 / group
+            :consist-of (w0 / woman
+                  :ARG0-of (w1 / wear-01
+                        :ARG1 (u0 / uniform
+                              :ARG1-of (b0 / black-05))))))

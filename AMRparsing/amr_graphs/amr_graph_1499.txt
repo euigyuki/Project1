@@ -1,0 +1,5 @@
+(p0 / play-01
+    :ARG0 (a0 / and
+              :op2 (d0 / dog)
+              :op1 (g0 / girl
+                       :mod (l0 / little))))

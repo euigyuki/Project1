@@ -1,0 +1,17 @@
+# ::snt one white male is jumping over a line of white lawn chairs outside in a lawn .
+# ::tokens ["one", "white", "male", "is", "jumping", "over", "a", "line", "of", "white", "lawn", "chairs", "outside", "in", "a", "lawn", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "JJ", "NN", "VBZ", "VBG", "IN", "DT", "NN", "IN", "JJ", "NN", "NNS", "RB", "IN", "DT", "NN", "."]
+# ::lemmas ["one", "white", "male", "be", "jump", "over", "a", "line", "of", "white", "lawn", "chair", "outside", "in", "a", "lawn", "."]
+(j0 / jump-03
+      :ARG0 (m0 / male
+            :quant 1 
+            :ARG1-of (w0 / white-02))
+      :ARG1 (o0 / over
+            :op1 (l0 / line
+                  :consist-of (c0 / chair
+                        :ARG1-of (w1 / white-03)
+                        :mod (l2 / lawn))
+                  :consist-of (o1 / outside
+                        :op1 (l1 / lawn)))))

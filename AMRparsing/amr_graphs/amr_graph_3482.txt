@@ -1,0 +1,7 @@
+(s0 / sweep-01
+    :ARG4 (i0 / in-front-of
+              :op1 (b0 / building
+                       :ARG1-of (c0 / cover-02)))
+    :ARG0 (w0 / woman
+              :mod (e0 / elderly))
+    :ARG1 (s1 / sidewalk))

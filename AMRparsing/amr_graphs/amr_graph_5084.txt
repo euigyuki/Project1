@@ -1,0 +1,11 @@
+# ::snt the group of people are all covered by umbrellas .
+# ::tokens ["the", "group", "of", "people", "are", "all", "covered", "by", "umbrellas", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "NNS", "VBP", "DT", "VBN", "IN", "NNS", "."]
+# ::lemmas ["the", "group", "of", "people", "be", "all", "cover", "by", "umbrella", "."]
+(c0 / cover-02
+      :ARG2 (u0 / umbrella)
+      :ARG1 (g0 / group
+            :consist-of (p0 / person
+                  :mod (a0 / all))))

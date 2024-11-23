@@ -1,0 +1,12 @@
+# ::snt two young boys putting fruit on the bike .
+# ::tokens ["two", "young", "boys", "putting", "fruit", "on", "the", "bike", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "JJ", "NNS", "VBG", "NN", "IN", "DT", "NN", "."]
+# ::lemmas ["two", "young", "boy", "put", "fruit", "on", "the", "bike", "."]
+(p0 / put-01
+      :ARG2 (b1 / bike)
+      :ARG0 (b0 / boy
+            :quant 2 
+            :mod (y0 / young))
+      :ARG1 (f0 / fruit))

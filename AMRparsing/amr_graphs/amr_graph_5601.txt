@@ -1,0 +1,10 @@
+(a0 / and
+    :op2 (h0 / hold-03
+             :ARG1 (h1 / hand
+                       :part-of (m0 / man
+                                    :ARG0-of (w0 / wear-01
+                                                 :ARG1 (s1 / shirt
+                                                           :ARG1-of (g0 / green-02)))))
+             :ARG0 m0)
+    :op1 (s0 / stand-01
+             :ARG1 m0))

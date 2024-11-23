@@ -1,0 +1,10 @@
+(b0 / blow-01
+    :instrument (w0 / wand
+                    :ARG1-of (h1 / hold-01
+                                 :ARG0 (g0 / girl)))
+    :ARG0 (b2 / boy
+              :ARG0-of (h0 / have-03
+                           :ARG1 (h2 / hair
+                                     :mod (c0 / curly)))
+              :mod (l0 / little))
+    :ARG1 (b1 / bubble))

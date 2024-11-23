@@ -1,0 +1,13 @@
+# ::snt two men grilling outside on a half mowed lawn .
+# ::tokens ["two", "men", "grilling", "outside", "on", "a", "half", "mowed", "lawn", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "VBG", "RB", "IN", "DT", "NN", "VBN", "NN", "."]
+# ::lemmas ["two", "man", "grill", "outside", "on", "a", "half", "mow", "lawn", "."]
+(b0 / brief-01
+      :ARG2 (o0 / outside
+            :op1 (l0 / lawn
+                  :ARG1-of (w0 / wet-01
+                        :degree (h0 / half))))
+      :ARG0 (m0 / man
+            :quant 2 ))

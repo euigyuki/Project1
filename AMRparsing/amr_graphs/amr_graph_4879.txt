@@ -1,0 +1,11 @@
+# ::snt child post-throw of a baseball at a base .
+# ::tokens ["child", "post", "-", "throw", "of", "a", "baseball", "at", "a", "base", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["NN", "NN", "JJ", "VB", "IN", "DT", "NN", "IN", "DT", "NN", "."]
+# ::lemmas ["child", "post", "-", "throw", "of", "a", "baseball", "at", "a", "base", "."]
+(t0 / throw-01
+      :time (a0 / after)
+      :time (b1 / base)
+      :ARG0 (c0 / child)
+      :ARG1 (b0 / baseball))

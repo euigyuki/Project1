@@ -1,0 +1,3 @@
+(p0 / pose-01
+    :purpose (p1 / picture)
+    :ARG0 (w0 / woman))

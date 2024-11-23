@@ -1,0 +1,13 @@
+# ::snt two children in harnesses are riding on zip lines .
+# ::tokens ["two", "children", "in", "harnesses", "are", "riding", "on", "zip", "lines", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "IN", "NNS", "VBP", "VBG", "IN", "NN", "NNS", "."]
+# ::lemmas ["two", "child", "in", "harness", "be", "ride", "on", "zip", "line", "."]
+(r0 / ride-01
+      :ARG0 (c0 / child
+            :ARG0-of (h0 / have-03
+                  :ARG1 (h1 / harness))
+            :quant 2 )
+      :ARG1 (l0 / line
+            :mod (z0 / zip)))

@@ -1,0 +1,14 @@
+# ::snt two young kids running on sand towards a large body of water .
+# ::tokens ["two", "young", "kids", "running", "on", "sand", "towards", "a", "large", "body", "of", "water", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "JJ", "NNS", "VBG", "IN", "NN", "IN", "DT", "JJ", "NN", "IN", "NN", "."]
+# ::lemmas ["two", "young", "kid", "run", "on", "sand", "towards", "a", "large", "body", "of", "water", "."]
+(r0 / run-02
+      :destination (b0 / body
+            :consist-of (w0 / water)
+            :mod (l0 / large))
+      :ARG0 (k0 / kid
+            :quant 2 
+            :mod (y0 / young))
+      :ARG1 (s0 / sand))

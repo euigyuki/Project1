@@ -1,0 +1,10 @@
+(a0 / and
+    :time (l0 / look-01
+              :ARG0 (w1 / woman))
+    :op2 (p0 / pour-01
+             :ARG3 (a1 / another)
+             :ARG1 (l2 / liquid))
+    :op1 (c0 / coat
+             :purpose (l1 / lab)
+             :ARG1-of (w0 / white-03)
+             :domain (m0 / man)))

@@ -1,0 +1,14 @@
+# ::snt a man , with a machete clinging to his side , climbs a tree .
+# ::tokens ["a", "man", ",", "with", "a", "machete", "clinging", "to", "his", "side", ",", "climbs", "a", "tree", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", ",", "IN", "DT", "NN", "VBG", "IN", "PRP$", "NN", ",", "VBZ", "DT", "NN", "."]
+# ::lemmas ["a", "man", ",", "with", "a", "machete", "cling", "to", "his", "side", ",", "climb", "a", "tree", "."]
+(c0 / climb-01
+      :ARG0 (m0 / man
+            :part (s0 / side
+                  :ARG2-of (c1 / cling-01
+                        :ARG0 (m1 / machete)))
+            :ARG0-of (h0 / have-03
+                  :ARG1 m1))
+      :ARG1 (t0 / tree))

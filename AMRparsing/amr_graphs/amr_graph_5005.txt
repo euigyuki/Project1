@@ -1,0 +1,9 @@
+# ::snt a man climbing a rock .
+# ::tokens ["a", "man", "climbing", "a", "rock", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBG", "DT", "NN", "."]
+# ::lemmas ["a", "man", "climb", "a", "rock", "."]
+(c0 / climb-01
+      :ARG0 (m0 / man)
+      :ARG1 (r0 / rock))

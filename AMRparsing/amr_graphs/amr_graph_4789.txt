@@ -1,0 +1,4 @@
+(k0 / kick-01
+    :ARG0 (w0 / woman
+              :poss-of (s0 / swimsuit))
+    :ARG1 (b0 / ball))

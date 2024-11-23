@@ -1,0 +1,16 @@
+# ::snt a crowd moves in two directions through a station , near pillars decorated with spongebob squarepants .
+# ::tokens ["a", "crowd", "moves", "in", "two", "directions", "through", "a", "station", ",", "near", "pillars", "decorated", "with", "spongebob", "squarepants", "."]
+# ::ner_tags ["O", "O", "O", "O", "CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "NNS", "IN", "CD", "NNS", "IN", "DT", "NN", ",", "IN", "NNS", "VBN", "IN", "JJ", "NNS", "."]
+# ::lemmas ["a", "crowd", "move", "in", "two", "direction", "through", "a", "station", ",", "near", "pillar", "decorate", "with", "spongebob", "squarepant", "."]
+(m0 / move-01
+      :ARG2 (s0 / station)
+      :ARG0 (c0 / crowd)
+      :ARG1 (d0 / direction
+            :quant 2 
+            :quant (n0 / near-02
+                  :ARG2 (p0 / pillar
+                        :ARG1-of (p1 / process-01
+                              :ARG2 (s1 / squarepant
+                                    :mod (s2 / spongebob)))))))

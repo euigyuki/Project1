@@ -1,0 +1,21 @@
+# ::snt a little girl in a white dress and no shoes walks down a dirt road in america .
+# ::tokens ["a", "little", "girl", "in", "a", "white", "dress", "and", "no", "shoes", "walks", "down", "a", "dirt", "road", "in", "america", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "GPE", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "IN", "DT", "JJ", "NN", "CC", "DT", "NNS", "VBZ", "IN", "DT", "NN", "NN", "IN", "NNP", "."]
+# ::lemmas ["a", "little", "girl", "in", "a", "white", "dress", "and", "no", "shoe", "walk", "down", "a", "dirt", "road", "in", "america", "."]
+(w0 / walk-01
+      :ARG0 (g0 / girl
+            :ARG0-of (w1 / wear-01
+                  :ARG1 (a0 / and
+                        :op2 (s0 / shoe
+                              :polarity - )
+                        :op1 (d2 / dress
+                              :ARG1-of (w2 / white-03))))
+            :mod (l0 / little))
+      :ARG2 (r0 / road
+            :location (c0 / country
+                  :name (n0 / name
+                        :op1 "America" ))
+            :mod (d1 / dirt))
+      :direction (d0 / down))

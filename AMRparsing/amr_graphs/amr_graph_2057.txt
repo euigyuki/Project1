@@ -1,0 +1,8 @@
+(b0 / bury-01
+    :manner (e0 / expose-01
+                :ARG1 (k0 / kid
+                          :part (h0 / head
+                                    :mod (o0 / only)
+                                    :ARG1-of e0)))
+    :ARG0 k0
+    :ARG1 (s0 / sand))

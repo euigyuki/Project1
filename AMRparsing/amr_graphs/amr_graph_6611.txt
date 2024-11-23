@@ -1,0 +1,15 @@
+# ::snt a large group of people and possessions packed into a small boat .
+# ::tokens ["a", "large", "group", "of", "people", "and", "possessions", "packed", "into", "a", "small", "boat", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "IN", "NNS", "CC", "NNS", "VBD", "IN", "DT", "JJ", "NN", "."]
+# ::lemmas ["a", "large", "group", "of", "people", "and", "possession", "pack", "into", "a", "small", "boat", "."]
+(p0 / pack-01
+      :ARG2 (b0 / boat
+            :mod (s0 / small))
+      :ARG0 (g0 / group
+            :consist-of (a0 / and
+                  :op2 (t0 / thing
+                        :ARG1-of (p2 / possess-01))
+                  :op1 (p1 / person))
+            :consist-of (l0 / large)))

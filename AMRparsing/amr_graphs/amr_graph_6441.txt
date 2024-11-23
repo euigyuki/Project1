@@ -1,0 +1,13 @@
+# ::snt two young , white boys , are running from the beach into the ocean .
+# ::tokens ["two", "young", ",", "white", "boys", ",", "are", "running", "from", "the", "beach", "into", "the", "ocean", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "JJ", ",", "JJ", "NNS", ",", "VBP", "VBG", "IN", "DT", "NN", "IN", "DT", "NN", "."]
+# ::lemmas ["two", "young", ",", "white", "boy", ",", "be", "run", "from", "the", "beach", "into", "the", "ocean", "."]
+(r0 / run-02
+      :source (b1 / beach)
+      :ARG0 (b0 / boy
+            :quant 2 
+            :ARG1-of (w0 / white-02)
+            :mod (y0 / young))
+      :ARG1 (o0 / ocean))

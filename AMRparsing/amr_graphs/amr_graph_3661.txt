@@ -1,0 +1,14 @@
+# ::snt a photographer takes pictures of a family that includes four children and two parents
+# ::tokens ["a", "photographer", "takes", "pictures", "of", "a", "family", "that", "includes", "four", "children", "and", "two", "parents"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "CARDINAL", "O", "O", "CARDINAL", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "B", "O", "O", "B", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "NNS", "IN", "DT", "NN", "WDT", "VBZ", "CD", "NNS", "CC", "CD", "NNS"]
+# ::lemmas ["a", "photographer", "take", "picture", "of", "a", "family", "that", "include", "four", "child", "and", "two", "parent"]
+(p0 / photograph-01
+      :ARG1 (f0 / family
+            :ARG2-of (i0 / include-01
+                  :ARG1 (a0 / and
+                        :op2 (p1 / parent
+                              :quant 2 )
+                        :op1 (c0 / child
+                              :quant 4 )))))

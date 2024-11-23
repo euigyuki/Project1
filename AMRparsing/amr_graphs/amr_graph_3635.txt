@@ -1,0 +1,11 @@
+# ::snt a bride questioning her future marriage .
+# ::tokens ["a", "bride", "questioning", "her", "future", "marriage", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBG", "PRP$", "JJ", "NN", "."]
+# ::lemmas ["a", "bride", "question", "her", "future", "marriage", "."]
+(q0 / question-03
+      :ARG0 (b0 / bride
+            :ARG1-of (m0 / marry-01
+                  :time (f0 / future)))
+      :ARG1 m0)

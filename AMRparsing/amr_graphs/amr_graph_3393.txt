@@ -1,0 +1,4 @@
+(s0 / sleep-01
+    :ARG0 (b0 / boy
+              :poss-of (p0 / pajama)
+              :mod (y0 / young)))

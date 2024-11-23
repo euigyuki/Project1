@@ -1,0 +1,19 @@
+# ::snt an over weight man wearing overalls and a helmet rides down the sidewalk on his segway .
+# ::tokens ["an", "over", "weight", "man", "wearing", "overalls", "and", "a", "helmet", "rides", "down", "the", "sidewalk", "on", "his", "segway", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "IN", "NN", "NN", "VBG", "NNS", "CC", "DT", "NN", "VBZ", "IN", "DT", "NN", "IN", "PRP$", "NN", "."]
+# ::lemmas ["an", "over", "weight", "man", "wear", "overall", "and", "a", "helmet", "ride", "down", "the", "sidewalk", "on", "his", "segway", "."]
+(r0 / ride-01
+      :manner (s1 / segway
+            :poss (m0 / man
+                  :poss-of (s0 / sidewalk)
+                  :mod (w1 / weight
+                        :mod (o0 / over))
+                  :ARG0-of (w0 / wear-01
+                        :ARG1 (a0 / and
+                              :op2 (h0 / helmet)
+                              :op1 (o1 / overall)))))
+      :direction (d0 / down)
+      :ARG0 m0
+      :ARG1 s0)

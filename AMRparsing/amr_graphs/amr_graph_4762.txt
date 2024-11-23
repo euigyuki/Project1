@@ -1,0 +1,15 @@
+# ::snt a dog is on his hind legs and a frisbee is near the ground .
+# ::tokens ["a", "dog", "is", "on", "his", "hind", "legs", "and", "a", "frisbee", "is", "near", "the", "ground", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "IN", "PRP$", "NN", "NNS", "CC", "DT", "NN", "VBZ", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "dog", "be", "on", "his", "hind", "leg", "and", "a", "frisbee", "be", "near", "the", "ground", "."]
+(a0 / and
+      :op2 (n0 / near-02
+            :ARG2 (g0 / ground)
+            :ARG1 (f0 / frisbee))
+      :op1 (b0 / be-located-at-91
+            :ARG2 (l0 / leg
+                  :part-of (d0 / dog)
+                  :mod (h0 / hind))
+            :ARG1 d0))

@@ -1,0 +1,11 @@
+# ::snt a group of people in various costumes .
+# ::tokens ["a", "group", "of", "people", "in", "various", "costumes", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "NNS", "IN", "JJ", "NNS", "."]
+# ::lemmas ["a", "group", "of", "people", "in", "various", "costume", "."]
+(g0 / group
+      :consist-of (p0 / person
+            :ARG0-of (h0 / have-03
+                  :ARG1 (c0 / costume
+                        :mod (v0 / various)))))

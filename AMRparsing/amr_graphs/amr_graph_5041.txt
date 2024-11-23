@@ -1,0 +1,2 @@
+(s0 / stop-01
+    :purpose (l0 / look-01))

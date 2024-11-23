@@ -1,0 +1,8 @@
+(s0 / sit-01
+    :time (d0 / drink-01
+              :ARG0 (b0 / boy
+                        :poss-of (c1 / cup
+                                     :ARG0-of (s1 / sippy))
+                        :poss-of (c0 / car
+                                     :mod (t0 / toy))))
+    :ARG1 b0)

@@ -1,0 +1,14 @@
+# ::snt a little boy squats while playing with a yellow plastic shovel .
+# ::tokens ["a", "little", "boy", "squats", "while", "playing", "with", "a", "yellow", "plastic", "shovel", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "NNS", "IN", "VBG", "IN", "DT", "JJ", "NN", "NN", "."]
+# ::lemmas ["a", "little", "boy", "squat", "while", "play", "with", "a", "yellow", "plastic", "shovel", "."]
+(s0 / squat
+      :time (p0 / play-01
+            :ARG0 (b0 / boy
+                  :mod (l0 / little))
+            :ARG2 (s1 / shovel
+                  :consist-of (p1 / plastic)
+                  :mod (y0 / yellow)))
+      :time b0)

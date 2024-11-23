@@ -1,0 +1,6 @@
+(h0 / hold-01
+    :ARG2 (c0 / chest
+              :part-of (g0 / girl
+                           :part (h1 / hand)
+                           :part (f0 / face)))
+    :ARG1 h1)

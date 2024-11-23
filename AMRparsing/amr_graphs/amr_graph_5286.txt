@@ -1,0 +1,7 @@
+(s0 / sit-01
+    :ARG1 (m0 / man
+              :ARG0-of (h1 / have-03
+                           :ARG1 (s3 / sunglass))
+              :ARG1-of (h0 / hold-01
+                           :ARG1 (p0 / pan
+                                     :consist-of (m1 / metal)))))

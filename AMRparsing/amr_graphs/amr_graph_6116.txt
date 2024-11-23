@@ -1,0 +1,14 @@
+# ::snt two women are outside with a basket picking produce .
+# ::tokens ["two", "women", "are", "outside", "with", "a", "basket", "picking", "produce", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "VBP", "RB", "IN", "DT", "NN", "NN", "NN", "."]
+# ::lemmas ["two", "woman", "be", "outside", "with", "a", "basket", "picking", "produce", "."]
+(b0 / be-located-at-91
+      :ARG1 (w0 / woman
+            :ARG0-of (p0 / pick-01
+                  :ARG1 (p1 / produce)
+                  :ARG2 (b1 / basket))
+            :quant 2 )
+      :accompanier p0
+      :ARG2 (o0 / outside))

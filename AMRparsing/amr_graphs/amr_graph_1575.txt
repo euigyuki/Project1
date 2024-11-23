@@ -1,0 +1,15 @@
+# ::snt a stadium crowd in red shirts claps and looks on .
+# ::tokens ["a", "stadium", "crowd", "in", "red", "shirts", "claps", "and", "looks", "on", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "NN", "IN", "JJ", "NNS", "NNS", "CC", "VBZ", "RP", "."]
+# ::lemmas ["a", "stadium", "crowd", "in", "red", "shirt", "clap", "and", "look", "on", "."]
+(a0 / and
+      :op2 (l0 / look-up-05
+            :ARG0 c1)
+      :op1 (c0 / clap
+            :domain (c1 / crowd
+                  :ARG0-of (w0 / wear-01
+                        :ARG1 (s1 / shirt
+                              :ARG1-of (r0 / red-02)))
+                  :mod (s0 / stadium))))

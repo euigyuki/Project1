@@ -1,0 +1,13 @@
+# ::snt an informally dressed orchestra is rehearsing in an empty auditorium .
+# ::tokens ["an", "informally", "dressed", "orchestra", "is", "rehearsing", "in", "an", "empty", "auditorium", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "RB", "VBN", "NN", "VBZ", "VBG", "IN", "DT", "JJ", "NN", "."]
+# ::lemmas ["an", "informally", "dress", "orchestra", "be", "rehearse", "in", "an", "empty", "auditorium", "."]
+(r0 / rehearse
+      :location (a0 / auditorium
+            :ARG1-of (e0 / empty-02))
+      :location (o0 / orchestra
+            :ARG1-of (d0 / dress-01
+                  :ARG2 (f0 / formal
+                        :polarity - ))))

@@ -1,0 +1,16 @@
+# ::snt man wearing a blue and white outfit , holding a broom , with a traditional asian architecture in the background .
+(z1 / man
+      :ARG0-of (z2 / wear-01
+            :ARG1 (z3 / outfit
+                  :consist-of (z4 / and
+                        :op1 (z5 / blue)
+                        :op2 (z6 / white-03))))
+      :ARG0-of (z7 / hold-01
+            :ARG1 (z8 / broom))
+      :ARG0-of (z9 / have-03
+            :ARG1 (z10 / architecture
+                  :mod (z11 / tradition)
+                  :mod (z12 / world-region
+                        :name (z13 / name
+                              :op1 "Asia"))
+                  :location (z14 / background))))

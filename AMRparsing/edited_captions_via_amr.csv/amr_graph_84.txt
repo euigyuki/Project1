@@ -1,0 +1,12 @@
+# ::snt A brown dog chases the water from a sprinkler on a lawn .
+# ::tokens ["A", "brown", "dog", "chases", "the", "water", "from", "a", "sprinkler", "on", "a", "lawn", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "VBZ", "DT", "NN", "IN", "DT", "NN", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "brown", "dog", "chase", "the", "water", "from", "a", "sprinkler", "on", "a", "lawn", "."]
+(c0 / chase-01
+      :source (s0 / sprinkler
+            :location (l0 / lawn))
+      :ARG0 (d0 / dog
+            :ARG1-of (b0 / brown))
+      :ARG1 (w0 / water))

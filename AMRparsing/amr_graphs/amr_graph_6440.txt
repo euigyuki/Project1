@@ -1,0 +1,11 @@
+# ::snt three boys play with toy guns .
+# ::tokens ["three", "boys", "play", "with", "toy", "guns", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "VBP", "IN", "NN", "NNS", "."]
+# ::lemmas ["three", "boy", "play", "with", "toy", "gun", "."]
+(p0 / play-01
+      :ARG2 (g0 / gun
+            :mod (t0 / toy))
+      :ARG0 (b0 / boy
+            :quant 3 ))

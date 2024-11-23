@@ -1,0 +1,13 @@
+# ::snt a passerby and a sidewalk construction worker .
+# ::tokens ["a", "passerby", "and", "a", "sidewalk", "construction", "worker", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "CC", "DT", "NN", "NN", "NN", "."]
+# ::lemmas ["a", "passerby", "and", "a", "sidewalk", "construction", "worker", "."]
+(a0 / and
+      :op2 (p1 / person
+            :ARG0-of (w0 / work-01
+                  :ARG1 (c0 / construct-01
+                        :ARG1 (s0 / sidewalk))))
+      :op1 (p0 / person
+            :ARG0-of (p2 / pass-by-17)))

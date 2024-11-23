@@ -1,0 +1,4 @@
+(e0 / enjoy-01
+    :ARG0 (b1 / boy
+              :mod (l0 / little))
+    :ARG1 (b0 / bird))

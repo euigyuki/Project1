@@ -1,0 +1,2 @@
+(c0 / contrast-01
+    :ARG1 (e0 / eat-01))

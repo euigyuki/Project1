@@ -1,0 +1,4 @@
+(c0 / close-01
+    :ARG2 (d0 / distance)
+    :ARG0 (m0 / man)
+    :ARG1 (g0 / gate))

@@ -1,0 +1,14 @@
+# ::snt a boy with a red hat is about to touch a wooden box .
+# ::tokens ["a", "boy", "with", "a", "red", "hat", "is", "about", "to", "touch", "a", "wooden", "box", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "DT", "JJ", "NN", "VBZ", "JJ", "TO", "VB", "DT", "JJ", "NN", "."]
+# ::lemmas ["a", "boy", "with", "a", "red", "hat", "be", "about", "to", "touch", "a", "wooden", "box", "."]
+(t0 / touch-01
+      :time (a0 / about-to)
+      :ARG0 (b1 / boy
+            :ARG0-of (h0 / have-03
+                  :ARG1 (h1 / hat
+                        :ARG1-of (r0 / red-02))))
+      :ARG1 (b0 / box
+            :ARG1-of (w0 / wooden)))

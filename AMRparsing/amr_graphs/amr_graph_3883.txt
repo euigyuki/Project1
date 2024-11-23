@@ -1,0 +1,12 @@
+# ::snt a man wearing a black jacket is working on a roof .
+# ::tokens ["a", "man", "wearing", "a", "black", "jacket", "is", "working", "on", "a", "roof", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBG", "DT", "JJ", "NN", "VBZ", "VBG", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "man", "wear", "a", "black", "jacket", "be", "work", "on", "a", "roof", "."]
+(w0 / work-01
+      :ARG2 (r0 / roof)
+      :ARG0 (m0 / man
+            :ARG0-of (w1 / wear-01
+                  :ARG1 (j0 / jacket
+                        :ARG1-of (b0 / black-04)))))

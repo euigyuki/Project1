@@ -1,0 +1,10 @@
+# ::snt a child dressed in blue laughs .
+# ::tokens ["a", "child", "dressed", "in", "blue", "laughs", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBN", "IN", "JJ", "NNS", "."]
+# ::lemmas ["a", "child", "dress", "in", "blue", "laugh", "."]
+(l0 / laugh-01
+      :ARG0 (c0 / child
+            :ARG1-of (d0 / dress-01
+                  :ARG2 (b0 / blue))))

@@ -1,0 +1,19 @@
+# ::snt a man in a black t-shirt , cap and jeans is playing drums on an upside down yellow pail .
+# ::tokens ["a", "man", "in", "a", "black", "t", "-", "shirt", ",", "cap", "and", "jeans", "is", "playing", "drums", "on", "an", "upside", "down", "yellow", "pail", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "DT", "JJ", "NN", "HYPH", "NN", ",", "NN", "CC", "NNS", "VBZ", "VBG", "NNS", "IN", "DT", "JJ", "RB", "JJ", "NN", "."]
+# ::lemmas ["a", "man", "in", "a", "black", "t", "-", "shirt", ",", "cap", "and", "jean", "be", "play", "drum", "on", "an", "upside", "down", "yellow", "pail", "."]
+(p0 / play-11
+      :ARG1 (d0 / drum)
+      :ARG2 (p1 / pail
+            :ARG1-of (d1 / down-03)
+            :mod (u0 / upside)
+            :mod (y0 / yellow))
+      :ARG0 (m0 / man
+            :ARG0-of (w0 / wear-01
+                  :ARG1 (a0 / and
+                        :op3 (j0 / jean)
+                        :op2 (c0 / cap)
+                        :op1 (t0 / t-shirt
+                              :ARG1-of (b0 / black-04))))))

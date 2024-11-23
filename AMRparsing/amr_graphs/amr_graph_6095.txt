@@ -1,0 +1,3 @@
+(g0 / girl
+    :ARG0-of (w0 / walk-01)
+    :mod (o0 / oriental))

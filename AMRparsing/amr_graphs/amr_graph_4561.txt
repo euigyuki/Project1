@@ -1,0 +1,14 @@
+# ::snt a little baby is taking a bath in a large tupperware bowl filled with water .
+# ::tokens ["a", "little", "baby", "is", "taking", "a", "bath", "in", "a", "large", "tupperware", "bowl", "filled", "with", "water", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "VBZ", "VBG", "DT", "NN", "IN", "DT", "JJ", "NN", "NN", "VBN", "IN", "NN", "."]
+# ::lemmas ["a", "little", "baby", "be", "take", "a", "bath", "in", "a", "large", "tupperware", "bowl", "fill", "with", "water", "."]
+(b0 / bathe-01
+      :ARG2 (b2 / bowl
+            :mod (t0 / tupperware)
+            :mod (l1 / large)
+            :mod (f0 / fill-01
+                  :ARG2 (w0 / water)))
+      :ARG0 (b1 / baby
+            :mod (l0 / little)))

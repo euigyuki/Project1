@@ -1,0 +1,26 @@
+# ::snt many people are sitting outside the leaning tower of piza , one girl dressed in green is facing the camera and eating a sandwich .
+# ::tokens ["many", "people", "are", "sitting", "outside", "the", "leaning", "tower", "of", "piza", ",", "one", "girl", "dressed", "in", "green", "is", "facing", "the", "camera", "and", "eating", "a", "sandwich", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["JJ", "NNS", "VBP", "VBG", "IN", "DT", "VBG", "NN", "IN", "NN", ",", "CD", "NN", "VBN", "IN", "NNP", "VBZ", "VBG", "DT", "NN", "CC", "VBG", "DT", "NN", "."]
+# ::lemmas ["many", "people", "be", "sit", "outside", "the", "lean", "tower", "of", "piza", ",", "one", "girl", "dress", "in", "green", "be", "face", "the", "camera", "and", "eat", "a", "sandwich", "."]
+(a0 / and
+      :op2 (a1 / and
+            :op2 (e0 / eat-01
+                  :ARG1 (s1 / sandwich)
+                  :ARG0 g0)
+            :op1 (f0 / face-01
+                  :ARG0 (g0 / girl
+                        :quant 1 
+                        :ARG1-of (d0 / dress-01
+                              :ARG2 (g1 / green-02)))
+                  :ARG1 (c0 / camera)))
+      :op1 (s0 / sit-01
+            :ARG2 (o0 / outside
+                  :op1 (t0 / tower
+                        :ARG2-of (l0 / lean-01)
+                        :mod (c1 / country
+                              :name (n0 / name
+                                    :op1 "Palestine" ))))
+            :ARG1 (p0 / person
+                  :quant (m0 / many))))

@@ -1,0 +1,9 @@
+(h0 / hold-01
+    :instrument (r0 / racket
+                    :poss (p0 / person
+                              :ARG1-of (p1 / play-01
+                                           :ARG1 (t1 / tennis))
+                              :mod (w0 / woman)))
+    :ARG1 (b0 / ball
+              :quant (b1 / bunch)
+              :mod (t0 / tennis)))

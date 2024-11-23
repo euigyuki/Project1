@@ -1,0 +1,22 @@
+# ::snt an older and a younger woman , both with tennis attire and rackets , smile side to side for the camera .
+# ::tokens ["an", "older", "and", "a", "younger", "woman", ",", "both", "with", "tennis", "attire", "and", "rackets", ",", "smile", "side", "to", "side", "for", "the", "camera", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJR", "CC", "DT", "JJR", "NN", ",", "CC", "IN", "NN", "NN", "CC", "NNS", ",", "VBP", "NN", "TO", "VB", "IN", "DT", "NN", "."]
+# ::lemmas ["an", "old", "and", "a", "young", "woman", ",", "both", "with", "tennis", "attire", "and", "racket", ",", "smile", "side", "to", "side", "for", "the", "camera", "."]
+(s0 / smile-01
+      :destination (c0 / camera)
+      :manner (s1 / side)
+      :ARG0 (a0 / and
+            :op2 (w0 / woman
+                  :ARG1-of (h2 / have-degree-91
+                        :ARG3 (m1 / more)
+                        :ARG2 (y0 / young)))
+            :op2 (h1 / have-03
+                  :ARG1 (a1 / and
+                        :op2 (r0 / racket)
+                        :op1 (a2 / attire
+                              :mod (t0 / tennis))))
+            :op1 (h0 / have-degree-91
+                  :ARG3 (m0 / more)
+                  :ARG2 (o0 / old))))

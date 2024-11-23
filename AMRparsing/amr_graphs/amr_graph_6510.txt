@@ -1,0 +1,2 @@
+(g0 / group
+    :consist-of (g1 / girl))

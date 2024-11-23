@@ -1,0 +1,13 @@
+# ::snt a little boy with baby food on his face .
+# ::tokens ["a", "little", "boy", "with", "baby", "food", "on", "his", "face", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "IN", "NN", "NN", "IN", "PRP$", "NN", "."]
+# ::lemmas ["a", "little", "boy", "with", "baby", "food", "on", "his", "face", "."]
+(b0 / be-located-at-91
+      :ARG2 (f0 / face)
+      :ARG1 (b1 / boy
+            :ARG0-of (h0 / have-03
+                  :ARG1 (f1 / food
+                        :mod (b2 / baby)))
+            :mod (l0 / little)))

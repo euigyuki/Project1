@@ -1,0 +1,12 @@
+# ::snt a black and white dog carrying a large stick
+# ::tokens ["a", "black", "and", "white", "dog", "carrying", "a", "large", "stick"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "CC", "JJ", "NN", "VBG", "DT", "JJ", "NN"]
+# ::lemmas ["a", "black", "and", "white", "dog", "carry", "a", "large", "stick"]
+(c0 / carry-01
+      :ARG0 (d0 / dog
+            :ARG1-of (w0 / white-02)
+            :ARG0-of (b0 / black-05))
+      :ARG1 (s0 / stick
+            :mod (l0 / large)))

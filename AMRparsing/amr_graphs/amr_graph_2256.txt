@@ -1,0 +1,8 @@
+(w0 / walk-01
+    :ARG0 (w1 / woman
+              :ARG0-of (h0 / have-03
+                           :ARG1 (s0 / sundress
+                                     :ARG1-of (f0 / flower))))
+    :ARG1 (p0 / past
+              :op1 (b0 / building
+                       :ARG1-of (g0 / green-02))))

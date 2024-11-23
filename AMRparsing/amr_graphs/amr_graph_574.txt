@@ -1,0 +1,4 @@
+(i0 / interview-01
+    :ARG1 (w0 / woman
+              :poss-of (t0 / table)
+              :ARG0-of (d0 / dine-01)))

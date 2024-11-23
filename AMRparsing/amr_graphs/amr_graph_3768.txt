@@ -1,0 +1,5 @@
+(p0 / paddle-01
+    :destination (s0 / spot
+                     :poss (f0 / fisherman)
+                     :ARG1-of (n0 / new-01))
+    :ARG1 f0)

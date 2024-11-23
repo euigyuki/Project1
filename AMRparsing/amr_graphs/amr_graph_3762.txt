@@ -1,0 +1,6 @@
+(c0 / come-01
+    :ARG4 (d0 / down)
+    :direction (s0 / slide-01
+                   :ARG1 (w0 / water)
+                   :mod (y0 / yellow))
+    :ARG1 (p0 / person))

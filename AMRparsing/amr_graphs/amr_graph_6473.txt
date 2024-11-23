@@ -1,0 +1,13 @@
+# ::snt a large fountain statue graces the center of a town square .
+# ::tokens ["a", "large", "fountain", "statue", "graces", "the", "center", "of", "a", "town", "square", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "NN", "VBZ", "DT", "NN", "IN", "DT", "NN", "NN", "."]
+# ::lemmas ["a", "large", "fountain", "statue", "grace", "the", "center", "of", "a", "town", "square", "."]
+(s0 / south
+      :domain (s1 / statue
+            :mod (f0 / fountain)
+            :mod (l0 / large))
+      :mod (c0 / center
+            :part-of (s2 / square
+                  :mod (t0 / town))))

@@ -1,0 +1,12 @@
+# ::snt a young boy in a white shirt in a field
+# ::tokens ["a", "young", "boy", "in", "a", "white", "shirt", "in", "a", "field"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "IN", "DT", "JJ", "NN", "IN", "DT", "NN"]
+# ::lemmas ["a", "young", "boy", "in", "a", "white", "shirt", "in", "a", "field"]
+(b0 / be-located-at-91
+      :ARG2 (f0 / field)
+      :ARG1 (b1 / boy
+            :ARG0-of (s0 / shirt
+                  :ARG1-of (w0 / white-03))
+            :mod (y0 / young)))

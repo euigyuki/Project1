@@ -1,0 +1,5 @@
+(w0 / walk-01
+    :ARG0 (g0 / girl
+              :ARG0-of (w1 / wear-01
+                           :ARG1 (b1 / backpack
+                                     :mod (b3 / blue)))))

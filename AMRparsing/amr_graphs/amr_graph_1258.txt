@@ -1,0 +1,3 @@
+(r0 / ride-01
+    :ARG1 (m0 / motorbike)
+    :ARG0 (p0 / person))

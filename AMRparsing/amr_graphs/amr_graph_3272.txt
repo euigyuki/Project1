@@ -1,0 +1,25 @@
+# ::snt two men in shorts , sleeveless shirts , and sandals hold plastic cups of iced tea in front of a clock tower labeled ' farmers market . '
+# ::tokens ["two", "men", "in", "shorts", ",", "sleeveless", "shirts", ",", "and", "sandals", "hold", "plastic", "cups", "of", "iced", "tea", "in", "front", "of", "a", "clock", "tower", "labeled", "'", "farmers", "market", ".", "'"]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "IN", "NNS", ",", "JJ", "NNS", ",", "CC", "NNS", "VBP", "NN", "NNS", "IN", "JJ", "NN", "IN", "NN", "IN", "DT", "NN", "NN", "VBD", "''", "NNS", "NN", ".", "''"]
+# ::lemmas ["two", "man", "in", "short", ",", "sleeveless", "shirt", ",", "and", "sandal", "hold", "plastic", "cup", "of", "iced", "tea", "in", "front", "of", "a", "clock", "tower", "label", "'", "farmer", "market", ".", "'"]
+(h0 / hold-01
+      :ARG1 (c0 / cup
+            :consist-of (t1 / tea
+                  :ARG1-of (i1 / iced)
+                  :consist-of (p1 / person
+                        :ARG0-of (f0 / farm-01)))
+            :consist-of (p0 / plastic))
+      :location (i0 / in-front-of
+            :op1 (t0 / tower
+                  :ARG1-of (l0 / label-01
+                        :ARG2 (m1 / market))
+                  :mod (c1 / clock)))
+      :ARG0 (m0 / man
+            :quant 2 
+            :ARG0-of (w0 / wear-01
+                  :ARG1 (a0 / and
+                        :op3 (s2 / sandal)
+                        :op2 (s1 / shirt)
+                        :op1 (s0 / short-07)))))

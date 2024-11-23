@@ -1,0 +1,10 @@
+# ::snt three dogs trot down the beach .
+# ::tokens ["three", "dogs", "trot", "down", "the", "beach", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "VBP", "IN", "DT", "NN", "."]
+# ::lemmas ["three", "dog", "trot", "down", "the", "beach", "."]
+(d0 / down
+      :domain (d1 / dog
+            :quant 3 )
+      :op1 (b0 / beach))

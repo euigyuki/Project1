@@ -1,0 +1,14 @@
+# ::snt a group of people including a woman in a wedding dress are posing for a photograph .
+# ::tokens ["a", "group", "of", "people", "including", "a", "woman", "in", "a", "wedding", "dress", "are", "posing", "for", "a", "photograph", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "NNS", "VBG", "DT", "NN", "IN", "DT", "NN", "NN", "VBP", "VBG", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "group", "of", "people", "include", "a", "woman", "in", "a", "wedding", "dress", "be", "pose", "for", "a", "photograph", "."]
+(p0 / pose-01
+      :purpose (p1 / photograph-01)
+      :ARG0 (g0 / group
+            :consist-of (p2 / person
+                  :ARG2-of (i0 / include-01
+                        :ARG1 (w0 / woman
+                              :ARG0-of (d0 / dress-01
+                                    :ARG2 (w1 / wed-01)))))))

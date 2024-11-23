@@ -1,0 +1,6 @@
+(r0 / repute-01
+    :ARG0 (m0 / man
+              :ARG0-of (p0 / push-01
+                           :ARG2 (c0 / carriage)))
+    :ARG1 (g0 / good
+              :ARG1-of (s0 / sell-01)))

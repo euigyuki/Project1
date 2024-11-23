@@ -1,0 +1,14 @@
+# ::snt a man , in his garage , throwing knives against the wall .
+# ::tokens ["a", "man", ",", "in", "his", "garage", ",", "throwing", "knives", "against", "the", "wall", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", ",", "IN", "PRP$", "NN", ",", "VBG", "NNS", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "man", ",", "in", "his", "garage", ",", "throw", "knife", "against", "the", "wall", "."]
+(b0 / be-located-at-91
+      :ARG2 (g0 / garage
+            :poss (m0 / man
+                  :ARG0-of (t0 / throw-01
+                        :ARG2 (a0 / against
+                              :op1 (w0 / wall))
+                        :ARG1 (k0 / knife))))
+      :ARG1 m0)

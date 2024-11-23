@@ -1,0 +1,12 @@
+# ::snt a little girl sliding on her belly down a slide .
+# ::tokens ["a", "little", "girl", "sliding", "on", "her", "belly", "down", "a", "slide", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "VBG", "IN", "PRP$", "NN", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "little", "girl", "slide", "on", "her", "belly", "down", "a", "slide", "."]
+(s0 / slide-01
+      :direction (d0 / down
+            :op1 (s1 / slide-01))
+      :ARG1 (g0 / girl
+            :part (b0 / belly)
+            :mod (l0 / little)))

@@ -1,0 +1,10 @@
+# ::snt Women are seated at a picnic table eating
+# ::tokens ["Women", "are", "seated", "at", "a", "picnic", "table", "eating"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["NNS", "VBP", "VBN", "IN", "DT", "NN", "NN", "VBG"]
+# ::lemmas ["woman", "be", "seat", "at", "a", "picnic", "table", "eat"]
+(s0 / seat-01
+      :ARG2 (t0 / table
+            :mod (p0 / picnic))
+      :ARG1 (w0 / woman))

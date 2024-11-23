@@ -1,0 +1,4 @@
+(l0 / look-01
+    :ARG0 (w0 / woman
+              :mod (o0 / old))
+    :ARG1 (f0 / food))

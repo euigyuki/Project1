@@ -1,0 +1,6 @@
+(b0 / back
+    :time (s0 / swing-02
+              :ARG1 (f0 / female
+                        :part b0
+                        :ARG0-of (h0 / have-03
+                                     :ARG1 (s1 / sky)))))

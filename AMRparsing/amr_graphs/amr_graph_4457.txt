@@ -1,0 +1,7 @@
+(a0 / and
+    :op2 (e0 / engage-01
+             :ARG0 (p0 / person
+                       :mod (y0 / young)
+                       :quant 3))
+    :op1 (s0 / sit-01
+             :ARG1 p0))

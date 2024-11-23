@@ -1,0 +1,5 @@
+(p0 / person
+    :accompanier (b0 / beach)
+    :ARG0-of (t0 / troll-01
+                 :ARG2 (s0 / swimsuit
+                           :mod (b1 / blue))))

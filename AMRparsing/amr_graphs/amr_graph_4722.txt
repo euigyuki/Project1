@@ -1,0 +1,5 @@
+(c0 / contrast-01
+    :ARG1 (g0 / gather-01
+              :purpose (p0 / picture)
+              :ARG1 (g1 / group
+                        :consist-of (p1 / person))))

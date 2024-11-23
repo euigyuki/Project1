@@ -1,0 +1,14 @@
+# ::snt a man kneels on the ground doing some sort of project on his own .
+# ::tokens ["a", "man", "kneels", "on", "the", "ground", "doing", "some", "sort", "of", "project", "on", "his", "own", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "NNS", "IN", "DT", "NN", "VBG", "DT", "NN", "IN", "NN", "IN", "PRP$", "JJ", "."]
+# ::lemmas ["a", "man", "kneel", "on", "the", "ground", "do", "some", "sort", "of", "project", "on", "his", "own", "."]
+(k0 / kneel-01
+      :location (g0 / ground)
+      :ARG0 (m0 / man
+            :ARG0-of (d0 / do-02
+                  :mod (b0 / by-oneself)
+                  :ARG1 (p0 / project
+                        :mod (s0 / sort
+                              :mod (s1 / some))))))

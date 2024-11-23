@@ -1,0 +1,4 @@
+(p0 / pick-01
+    :ARG0 (w0 / woman
+              :quant 2)
+    :ARG1 (p1 / plant))

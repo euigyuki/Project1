@@ -1,0 +1,6 @@
+(b0 / band
+    :ARG0-of (l0 / light
+                 :ARG1-of (r1 / red-02))
+    :ARG1-of (r0 / ready-02
+                 :ARG2 (p0 / perform-01))
+    :mod (m0 / music))

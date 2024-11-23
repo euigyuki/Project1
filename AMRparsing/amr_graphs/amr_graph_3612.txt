@@ -1,0 +1,6 @@
+(l0 / lie-07
+    :purpose (r0 / rest-01
+                 :ARG1 (m0 / man))
+    :ARG2 (d0 / down
+              :ARG0 m0)
+    :ARG1 m0)

@@ -1,0 +1,4 @@
+(w0 / walk-01
+    :ARG0 (w1 / woman
+              :ARG1-of (h0 / have-degree-91
+                           :ARG3 (m1 / more))))

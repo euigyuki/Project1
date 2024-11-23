@@ -1,0 +1,3 @@
+(s0 / sit-01
+    :ARG1 (b0 / baby
+              :ARG0-of (s1 / smile-01)))

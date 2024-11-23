@@ -1,0 +1,15 @@
+# ::snt a crowd of people are in the streets and some have torches .
+# ::tokens ["a", "crowd", "of", "people", "are", "in", "the", "streets", "and", "some", "have", "torches", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "NNS", "VBP", "IN", "DT", "NNS", "CC", "DT", "VBP", "NNS", "."]
+# ::lemmas ["a", "crowd", "of", "people", "be", "in", "the", "street", "and", "some", "have", "torch", "."]
+(a0 / and
+      :op2 (h0 / have-03
+            :ARG0 (p1 / person
+                  :quant (s1 / some))
+            :ARG1 (t0 / torch))
+      :op1 (b0 / be-located-at-91
+            :ARG2 (s0 / street)
+            :ARG1 (p0 / person
+                  :quant (c0 / crowd))))

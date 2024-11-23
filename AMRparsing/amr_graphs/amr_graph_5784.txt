@@ -1,0 +1,7 @@
+(r0 / ride-01
+    :ARG0 (w0 / woman
+              :ARG0-of (w1 / wear-01
+                           :ARG1 (u0 / uniform
+                                     :instrument-of (r1 / ride-01)
+                                     :ARG1-of (p0 / purple-02))))
+    :ARG1 (h0 / horse))

@@ -1,0 +1,6 @@
+(l0 / look-01
+    :ARG0 (b0 / boy
+              :ARG1-of (d0 / dress-01)
+              :mod (y0 / young)
+              :quant 2)
+    :ARG1 (s0 / something))

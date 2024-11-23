@@ -1,0 +1,28 @@
+# ::snt there is a child around <number> months old sitting on a large elmo doll , looks like he is about to gum it with a sesame street book in their right hand .
+# ::tokens ["there", "is", "a", "child", "around", "<", "number", ">", "months", "old", "sitting", "on", "a", "large", "elmo", "doll", ",", "looks", "like", "he", "is", "about", "to", "gum", "it", "with", "a", "sesame", "street", "book", "in", "their", "right", "hand", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["EX", "VBZ", "DT", "NN", "IN", "ADD", "NN", "-RRB-", "NNS", "JJ", "VBG", "IN", "DT", "JJ", "JJ", "NN", ",", "VBZ", "IN", "PRP", "VBZ", "JJ", "TO", "VB", "PRP", "IN", "DT", "NNP", "NN", "NN", "IN", "PRP$", "JJ", "NN", "."]
+# ::lemmas ["there", "be", "a", "child", "around", "<", "number", ">", "month", "old", "sit", "on", "a", "large", "elmo", "doll", ",", "look", "like", "he", "be", "about", "to", "gum", "it", "with", "a", "sesame", "street", "book", "in", "their", "right", "hand", "."]
+(a0 / and
+      :op3 (c0 / child
+            :age (t0 / temporal-quantity
+                  :unit (m0 / month)
+                  :quant 1 )
+            :part (h0 / hand
+                  :ARG1-of (r0 / right-04)))
+      :op2 (l0 / look-02
+            :ARG1 (g0 / gum
+                  :ARG0 c0
+                  :manner (b0 / book
+                        :name (n1 / name
+                              :op1 "sesame" )
+                        :mod (s1 / street))
+                  :time (a2 / about-to)))
+      :op1 (s0 / sit-01
+            :ARG2 (d0 / doll
+                  :mod (l1 / large)
+                  :mod (c1 / company
+                        :name (n0 / name
+                              :op1 "elmo" )))
+            :time (a1 / around)))

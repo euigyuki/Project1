@@ -1,0 +1,6 @@
+(a0 / and
+    :op2 (s1 / stand-01
+             :ARG1 (w0 / woman
+                       :quant (l0 / lot)))
+    :op1 (s0 / sit-01
+             :ARG1 w0))

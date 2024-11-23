@@ -1,0 +1,3 @@
+(p0 / perform-01
+    :ARG0 (b0 / band)
+    :ARG1 (g0 / guest))

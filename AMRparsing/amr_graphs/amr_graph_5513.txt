@@ -1,0 +1,17 @@
+# ::snt two dogs , one black the other brown and white , swim with a stick .
+# ::tokens ["two", "dogs", ",", "one", "black", "the", "other", "brown", "and", "white", ",", "swim", "with", "a", "stick", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", ",", "CD", "JJ", "DT", "JJ", "JJ", "CC", "JJ", ",", "VB", "IN", "DT", "NN", "."]
+# ::lemmas ["two", "dog", ",", "one", "black", "the", "other", "brown", "and", "white", ",", "swim", "with", "a", "stick", "."]
+(s0 / swim-01
+      :instrument (s1 / stick)
+      :ARG0 (d0 / dog
+            :ARG2-of (i0 / include-91
+                  :ARG1 (a0 / and
+                        :mod (o0 / other)
+                        :op3 (w0 / white-02)
+                        :op1 (b1 / brown))
+                  :ARG2 (d1 / dog
+                        :ARG1-of (b0 / black-05)))
+            :quant 2 ))

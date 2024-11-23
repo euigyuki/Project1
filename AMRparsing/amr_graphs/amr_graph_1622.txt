@@ -1,0 +1,12 @@
+(s0 / stand-01
+    :ARG1 (w0 / woman
+              :ARG0-of (a0 / and
+                           :op3 (p0 / punch)
+                           :op2 (s1 / strawberry)
+                           :op1 (c0 / cake))
+              :ARG1-of (h0 / have-03
+                           :ARG1 (a1 / and
+                                     :op2 (p1 / pant
+                                              :ARG1-of (p2 / pink-04))
+                                     :op1 (s2 / shirt
+                                              :ARG1-of (w1 / white-03))))))

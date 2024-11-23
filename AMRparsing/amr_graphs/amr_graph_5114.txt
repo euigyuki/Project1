@@ -1,0 +1,13 @@
+# ::snt black and white dog leaping for frisbee .
+# ::tokens ["black", "and", "white", "dog", "leaping", "for", "frisbee", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["JJ", "CC", "JJ", "NN", "VBG", "IN", "NNP", "."]
+# ::lemmas ["black", "and", "white", "dog", "leap", "for", "frisbee", "."]
+(l0 / leap-03
+      :destination (a0 / animal
+            :name (n0 / name
+                  :op1 "frisbee" ))
+      :ARG0 (d0 / dog
+            :ARG1-of (w0 / white-03)
+            :ARG0-of (b0 / black-04)))

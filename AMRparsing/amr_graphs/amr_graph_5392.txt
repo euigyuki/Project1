@@ -1,0 +1,8 @@
+(p0 / play-01
+    :time (d0 / day
+              :mod (s0 / sunny)
+              :mod 2)
+    :ARG0 (m0 / man
+              :age (t0 / temporal-quantity
+                       :quant (m1 / middle)))
+    :ARG1 (g0 / game))

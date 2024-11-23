@@ -1,0 +1,10 @@
+(g0 / girl
+    :ARG0-of (l0 / look-01
+                 :ARG1 (u0 / upset-01
+                           :ARG0 (p0 / playground
+                                     :poss (c1 / child)
+                                     :mod (o0 / outdoor))))
+    :mod (c0 / continent
+             :name (n0 / name
+                       :op1 "Asia"))
+    :mod (y0 / young))

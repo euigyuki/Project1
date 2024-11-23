@@ -1,0 +1,14 @@
+# ::snt two officers in uniform chatting in a golf cart .
+# ::tokens ["two", "officers", "in", "uniform", "chatting", "in", "a", "golf", "cart", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "IN", "NNP", "VBG", "IN", "DT", "NN", "NN", "."]
+# ::lemmas ["two", "officer", "in", "uniform", "chat", "in", "a", "golf", "cart", "."]
+(c0 / chat-01
+      :ARG0 (p0 / person
+            :quant 2 
+            :ARG0-of (h0 / have-org-role-91
+                  :ARG2 (o0 / officer)
+                  :ARG1 (u0 / uniform)))
+      :ARG2 (c1 / cart
+            :mod (g0 / golf)))

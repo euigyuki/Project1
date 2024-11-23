@@ -1,0 +1,7 @@
+(p0 / pose-01
+    :ARG0 (p1 / person
+              :ARG0-of (f0 / fish-01)
+              :mod (w0 / wear-01
+                       :ARG1 (j0 / jacket
+                                 :ARG1-of (g1 / green-02)))
+              :mod (m0 / male)))

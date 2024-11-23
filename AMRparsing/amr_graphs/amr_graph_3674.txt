@@ -1,0 +1,11 @@
+# ::snt black dog running very fast .
+# ::tokens ["black", "dog", "running", "very", "fast", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["JJ", "NN", "VBG", "RB", "RB", "."]
+# ::lemmas ["black", "dog", "run", "very", "fast", "."]
+(r0 / run-02
+      :ARG1-of (f0 / fast-02
+            :degree (v0 / very))
+      :ARG0 (d0 / dog
+            :ARG1-of (b0 / black-04)))

@@ -1,0 +1,2 @@
+(p0 / person
+    :ARG0-of (t0 / thump-01))

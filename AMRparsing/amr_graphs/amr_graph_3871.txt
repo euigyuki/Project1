@@ -1,0 +1,5 @@
+(f0 / fly-01
+    :manner (a1 / air
+                :poss (m0 / man
+                          :poss-of (s0 / skateboard)))
+    :ARG0 m0)

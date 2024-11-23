@@ -1,0 +1,15 @@
+# ::snt young man in blue shirt peering through a large bubble .
+# ::tokens ["young", "man", "in", "blue", "shirt", "peering", "through", "a", "large", "bubble", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["JJ", "NN", "IN", "JJ", "NN", "VBG", "IN", "DT", "JJ", "NN", "."]
+# ::lemmas ["young", "man", "in", "blue", "shirt", "peer", "through", "a", "large", "bubble", "."]
+(s0 / see-01
+      :path (t0 / through
+            :op1 (b0 / bubble
+                  :mod (l0 / large)))
+      :ARG0 (m0 / man
+            :ARG0-of (h0 / have-03
+                  :ARG1 (s1 / shirt
+                        :mod (b1 / blue)))
+            :mod (y0 / young)))

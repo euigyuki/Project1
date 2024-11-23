@@ -1,0 +1,14 @@
+# ::snt two dogs run along a path strewn with dead leaves .
+# ::tokens ["two", "dogs", "run", "along", "a", "path", "strewn", "with", "dead", "leaves", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "VBP", "IN", "DT", "NN", "VBN", "IN", "JJ", "NNS", "."]
+# ::lemmas ["two", "dog", "run", "along", "a", "path", "strew", "with", "dead", "leave", "."]
+(r0 / run-02
+      :ARG0 (d0 / dog
+            :quant 2 )
+      :ARG1 (a0 / along
+            :op1 (p0 / path
+                  :ARG1-of (s0 / strew
+                        :consist-of (l0 / leave-17
+                              :ARG1-of (d1 / die-01))))))

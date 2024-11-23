@@ -1,0 +1,2 @@
+(p0 / party
+    :mod (w0 / wed-01))

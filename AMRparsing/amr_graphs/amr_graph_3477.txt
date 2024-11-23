@@ -1,0 +1,8 @@
+(a0 / and
+    :op2 (d0 / descend-01
+             :ARG1 (s0 / set
+                       :consist-of (s2 / stair)
+                       :mod (s1 / steep))
+             :ARG0 (p0 / person))
+    :op1 (a1 / approach-01
+             :ARG1 p0))

@@ -1,0 +1,12 @@
+# ::snt two women are playing volleyball in bathing suits .
+# ::tokens ["two", "women", "are", "playing", "volleyball", "in", "bathing", "suits", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "VBP", "VBG", "NN", "IN", "NN", "NNS", "."]
+# ::lemmas ["two", "woman", "be", "play", "volleyball", "in", "bathing", "suit", "."]
+(p0 / play-01
+      :instrument (s0 / suit
+            :mod (b0 / bathing))
+      :ARG0 (w0 / woman
+            :quant 2 )
+      :ARG1 (v0 / volleyball))

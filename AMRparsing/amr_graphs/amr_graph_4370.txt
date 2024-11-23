@@ -1,0 +1,2 @@
+(l0 / lower-05
+    :ARG1 (m0 / man))

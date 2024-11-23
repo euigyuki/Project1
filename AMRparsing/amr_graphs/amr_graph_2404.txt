@@ -1,0 +1,11 @@
+# ::snt a beautiful view from the dock overlooking the lake .
+# ::tokens ["a", "beautiful", "view", "from", "the", "dock", "overlooking", "the", "lake", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "IN", "DT", "NN", "VBG", "DT", "NN", "."]
+# ::lemmas ["a", "beautiful", "view", "from", "the", "dock", "overlook", "the", "lake", "."]
+(v0 / view
+      :source (d0 / dock
+            :ARG0-of (o0 / overlook-01
+                  :ARG1 (l0 / lake)))
+      :ARG1-of (b0 / beautiful-02))

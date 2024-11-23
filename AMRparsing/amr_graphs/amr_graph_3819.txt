@@ -1,0 +1,6 @@
+(l0 / look-01
+    :ARG1 (t0 / toy
+              :ARG1-of (c0 / chew-01)
+              :mod (y0 / yellow))
+    :ARG0 (d0 / dog
+              :mod (f0 / fluffy)))

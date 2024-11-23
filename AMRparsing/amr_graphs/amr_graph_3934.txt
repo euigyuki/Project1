@@ -1,0 +1,6 @@
+(o0 / open-01
+    :ARG0 (w0 / woman)
+    :ARG1 (p0 / present
+              :mod (h0 / hat
+                       :mod (b0 / blue)
+                       :mod (c0 / crochet))))

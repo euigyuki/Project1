@@ -1,0 +1,14 @@
+# ::snt christmas time in a city square full of people .
+# ::tokens ["christmas", "time", "in", "a", "city", "square", "full", "of", "people", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["NNP", "NN", "IN", "DT", "NN", "NN", "JJ", "IN", "NNS", "."]
+# ::lemmas ["christmas", "time", "in", "a", "city", "square", "full", "of", "people", "."]
+(b0 / be-temporally-at-91
+      :ARG2 (s0 / square
+            :ARG1-of (f1 / full-09
+                  :ARG2 (p0 / person))
+            :mod (c0 / city))
+      :ARG1 (f0 / festival
+            :name (n0 / name
+                  :op1 "Christian" )))

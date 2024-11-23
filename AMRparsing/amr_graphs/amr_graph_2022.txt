@@ -1,0 +1,13 @@
+# ::snt a blond man is wakeboarding and is jumping into the air .
+# ::tokens ["a", "blond", "man", "is", "wakeboarding", "and", "is", "jumping", "into", "the", "air", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "VBZ", "VBG", "CC", "VBZ", "VBG", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "blond", "man", "be", "wakeboarde", "and", "be", "jump", "into", "the", "air", "."]
+(a0 / and
+      :op2 (j0 / jump-03
+            :direction (a1 / air)
+            :ARG0 m0)
+      :op1 (c0 / chew-01
+            :ARG0 (m0 / man
+                  :mod (b0 / blond))))

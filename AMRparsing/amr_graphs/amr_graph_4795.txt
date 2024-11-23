@@ -1,0 +1,6 @@
+(s0 / say-01
+    :ARG2 (p1 / person)
+    :ARG1 (p0 / program
+              :topic (r0 / read-01
+                         :ARG0 (m0 / man
+                                   :ARG1-of (b0 / black-05)))))

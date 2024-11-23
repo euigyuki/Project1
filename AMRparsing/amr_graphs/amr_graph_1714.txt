@@ -1,0 +1,10 @@
+# ::snt the three girls are sitting down the set .
+# ::tokens ["the", "three", "girls", "are", "sitting", "down", "the", "set", "."]
+# ::ner_tags ["O", "CARDINAL", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "B", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "CD", "NNS", "VBP", "VBG", "IN", "DT", "NN", "."]
+# ::lemmas ["the", "three", "girl", "be", "sit", "down", "the", "set", "."]
+(s0 / sit-down-02
+      :ARG1 (g0 / girl
+            :quant 3 )
+      :ARG2 (s1 / set))

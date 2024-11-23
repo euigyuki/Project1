@@ -1,0 +1,11 @@
+# ::snt a girl is dressed up as wall-e the robot .
+# ::tokens ["a", "girl", "is", "dressed", "up", "as", "wall", "-", "e", "the", "robot", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "VBN", "RP", "IN", "NN", "HYPH", "NNP", "DT", "NN", "."]
+# ::lemmas ["a", "girl", "be", "dress", "up", "as", "wall", "-", "e", "the", "robot", "."]
+(d0 / dress-01
+      :ARG2 (p0 / person
+            :name (n0 / name
+                  :op1 "robot" ))
+      :ARG1 (g0 / girl))

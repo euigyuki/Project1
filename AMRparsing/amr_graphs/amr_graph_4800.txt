@@ -1,0 +1,6 @@
+(e0 / exchange-01
+    :ARG0 (a0 / and
+              :op2 (w0 / woman)
+              :op1 (m0 / man))
+    :ARG1 (l0 / look-01
+              :manner (q0 / quizzical)))

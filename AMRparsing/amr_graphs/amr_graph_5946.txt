@@ -1,0 +1,14 @@
+# ::snt a small boy walks next to a group of four large birds .
+# ::tokens ["a", "small", "boy", "walks", "next", "to", "a", "group", "of", "four", "large", "birds", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "CARDINAL", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "B", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "VBZ", "RB", "IN", "DT", "NN", "IN", "CD", "JJ", "NNS", "."]
+# ::lemmas ["a", "small", "boy", "walk", "next", "to", "a", "group", "of", "four", "large", "bird", "."]
+(w0 / walk-01
+      :location (n0 / next-to
+            :op1 (g0 / group
+                  :consist-of (b1 / bird)
+                  :quant 4 
+                  :consist-of (l0 / large)))
+      :ARG0 (b0 / boy
+            :mod (s0 / small)))

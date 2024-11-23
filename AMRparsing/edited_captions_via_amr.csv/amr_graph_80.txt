@@ -1,0 +1,17 @@
+# ::snt A young woman walks past two young people dressed in hip black outfits .
+# ::tokens ["A", "young", "woman", "walks", "past", "two", "young", "people", "dressed", "in", "hip", "black", "outfits", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "B", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "VBZ", "IN", "CD", "JJ", "NNS", "VBN", "IN", "NN", "JJ", "NNS", "."]
+# ::lemmas ["a", "young", "woman", "walk", "past", "two", "young", "people", "dress", "in", "hip", "black", "outfit", "."]
+(w0 / walk-01
+      :ARG2 (p0 / past
+            :op1 (p1 / person
+                  :quant 2 
+                  :ARG1-of (d0 / dress-01
+                        :ARG2 (o0 / outfit
+                              :mod (h0 / hip)
+                              :mod (b0 / black-04)))
+                  :mod (y1 / young)))
+      :ARG0 (w1 / woman
+            :mod (y0 / young)))

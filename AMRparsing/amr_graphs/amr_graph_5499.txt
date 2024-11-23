@@ -1,0 +1,10 @@
+# ::snt three children play with sparklers .
+# ::tokens ["three", "children", "play", "with", "sparklers", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "VBP", "IN", "NNS", "."]
+# ::lemmas ["three", "child", "play", "with", "sparkler", "."]
+(p0 / play-01
+      :ARG0 (c0 / child
+            :quant 3 )
+      :ARG1 (s0 / sparkler))

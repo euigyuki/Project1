@@ -1,0 +1,17 @@
+Combination,Word,KL_Divergence,Max_elementwise_KL
+"('indoors', 'man-made', 'work_education')",ensure,-1.37847405e-08,-7.89722343075283e-10
+"('indoors', 'man-made', 'domestic')",open,0.13996837,0.1334694623947143
+"('indoors', 'man-made', 'recreation')",fight,0.17059922,0.1814412623643875
+"('indoors', 'man-made', 'restaurant')",,,
+"('indoors', 'man-made', 'transportation_urban')",,,
+"('indoors', 'man-made', 'other_unclear')",,,
+"('outdoors', 'man-made', 'work_education')",,,
+"('outdoors', 'man-made', 'domestic')",,,
+"('outdoors', 'man-made', 'recreation')",ready,0.12950717,0.1390705555677414
+"('outdoors', 'man-made', 'restaurant')",,,
+"('outdoors', 'man-made', 'transportation_urban')",sign,0.13271911,0.1681120097637176
+"('outdoors', 'man-made', 'other_unclear')",,,
+"('outdoors', 'natural', 'field_forest')",,,
+"('outdoors', 'natural', 'body_of_water')",fall,0.1645984,0.1496453285217285
+"('outdoors', 'natural', 'mountain')",,,
+"('outdoors', 'natural', 'other_unclear')",,,

@@ -1,0 +1,5 @@
+(o0 / open-01
+    :ARG1-of (r0 / resemble-01)
+    :ARG1 (m0 / mouth
+              :part-of (d0 / dog
+                           :ARG0-of (y0 / yawn))))

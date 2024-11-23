@@ -1,0 +1,16 @@
+# ::snt one person does a flip in the middle of the field while their friend takes a picture .
+# ::tokens ["one", "person", "does", "a", "flip", "in", "the", "middle", "of", "the", "field", "while", "their", "friend", "takes", "a", "picture", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NN", "VBZ", "DT", "NN", "IN", "DT", "NN", "IN", "DT", "NN", "IN", "PRP$", "NN", "VBZ", "DT", "NN", "."]
+# ::lemmas ["one", "person", "do", "a", "flip", "in", "the", "middle", "of", "the", "field", "while", "their", "friend", "take", "a", "picture", "."]
+(f0 / flip-01
+      :time (t0 / take-01
+            :ARG0 (p2 / person
+                  :ARG0-of (h0 / have-rel-role-91
+                        :ARG2 (f2 / friend)))
+            :ARG1 (p1 / picture))
+      :time (m0 / middle
+            :part-of (f1 / field))
+      :ARG0 (p0 / person
+            :quant 1 ))

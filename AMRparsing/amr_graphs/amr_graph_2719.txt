@@ -1,0 +1,12 @@
+# ::snt a girl in a ballet fairy costume is touched by a wand .
+# ::tokens ["a", "girl", "in", "a", "ballet", "fairy", "costume", "is", "touched", "by", "a", "wand", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "DT", "NN", "NN", "NN", "VBZ", "VBN", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "girl", "in", "a", "ballet", "fairy", "costume", "be", "touch", "by", "a", "wand", "."]
+(t0 / touch-01
+      :ARG1 (g0 / girl
+            :ARG0-of (h0 / have-03
+                  :ARG1 (c0 / costume
+                        :mod (b0 / ballet))))
+      :ARG0 (w0 / wand))

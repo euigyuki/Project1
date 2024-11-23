@@ -1,0 +1,24 @@
+# ::snt Two Asian women and an Asian girl are sitting at a farmers market and are selling produce including yams .
+# ::tokens ["Two", "Asian", "women", "and", "an", "Asian", "girl", "are", "sitting", "at", "a", "farmers", "market", "and", "are", "selling", "produce", "including", "yams", "."]
+# ::ner_tags ["CARDINAL", "NORP", "O", "O", "O", "NORP", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "B", "O", "O", "O", "B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "JJ", "NNS", "CC", "DT", "JJ", "NN", "VBP", "VBG", "IN", "DT", "NNS", "NN", "CC", "VBP", "VBG", "NN", "VBG", "NNS", "."]
+# ::lemmas ["Two", "Asian", "woman", "and", "an", "Asian", "girl", "be", "sit", "at", "a", "farmer", "market", "and", "be", "sell", "produce", "include", "yam", "."]
+(a0 / and
+      :op2 (s1 / sell-01
+            :ARG1 (p0 / produce
+                  :ARG2-of (i0 / include-91
+                        :ARG1 (y0 / yam)))
+            :ARG0 a1
+            :ARG2 m0)
+      :op1 (s0 / sit-01
+            :ARG1 (a1 / and
+                  :op2 (g0 / girl
+                        :mod c0)
+                  :op1 (w0 / woman
+                        :mod (c0 / continent
+                              :name (n0 / name
+                                    :op1 "Asia" ))))
+            :ARG2 (m0 / market
+                  :mod (p1 / person
+                        :ARG0-of (f0 / farm-01)))))

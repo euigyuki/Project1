@@ -1,0 +1,7 @@
+(p0 / pass-by-17
+    :ARG0 (c0 / couple
+              :ARG1-of (h0 / have-degree-91
+                           :ARG3 (m0 / more)
+                           :ARG2 (o0 / old)))
+    :ARG1 (l0 / lady
+              :mod (y0 / young)))

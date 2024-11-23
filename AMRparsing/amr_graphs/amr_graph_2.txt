@@ -1,0 +1,16 @@
+# ::snt a man with black hair sits in a restaurant with a glass of beer .
+# ::tokens ["a", "man", "with", "black", "hair", "sits", "in", "a", "restaurant", "with", "a", "glass", "of", "beer", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "JJ", "NN", "VBZ", "IN", "DT", "NN", "IN", "DT", "NN", "IN", "NN", "."]
+# ::lemmas ["a", "man", "with", "black", "hair", "sit", "in", "a", "restaurant", "with", "a", "glass", "of", "beer", "."]
+(s0 / sit-01
+      :ARG2 (r0 / restaurant)
+      :ARG1 (m0 / man
+            :ARG0-of (h0 / have-03
+                  :ARG1 (h1 / hair
+                        :ARG1-of (b1 / black-04))
+                  :ARG2 (b0 / beer
+                        :quant (v0 / volume-quantity
+                              :unit (g0 / glass)
+                              :quant 1 )))))

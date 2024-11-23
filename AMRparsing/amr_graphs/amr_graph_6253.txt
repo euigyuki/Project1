@@ -1,0 +1,17 @@
+# ::snt the courtyard of a south american city with a crowd and vintage cars .
+# ::tokens ["the", "courtyard", "of", "a", "south", "american", "city", "with", "a", "crowd", "and", "vintage", "cars", "."]
+# ::ner_tags ["O", "O", "O", "O", "NORP", "NORP", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "B", "I", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "DT", "JJ", "JJ", "NN", "IN", "DT", "NN", "CC", "JJ", "NNS", "."]
+# ::lemmas ["the", "courtyard", "of", "a", "south", "american", "city", "with", "a", "crowd", "and", "vintage", "car", "."]
+(c0 / courtyard
+      :location (c1 / city
+            :location (s0 / south
+                  :part-of (c2 / country
+                        :name (n0 / name
+                              :op1 "America" )))
+            :location (h0 / have-03
+                  :ARG1 (a0 / and
+                        :op2 (c4 / car
+                              :mod (v0 / vintage))
+                        :op1 (c3 / crowd)))))

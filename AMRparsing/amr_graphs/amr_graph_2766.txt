@@ -1,0 +1,9 @@
+(a0 / and
+    :op2 (p0 / paint-02
+             :ARG0 (w0 / woman
+                       :mod (o0 / old))
+             :ARG1 (p1 / picture
+                       :ARG0-of (h0 / have-03
+                                    :ARG1 (p2 / person
+                                              :quant (s0 / several)))))
+    :op1 w0)

@@ -1,0 +1,4 @@
+(b0 / bicyclist
+    :ARG0-of (b1 / break-19
+                 :ARG1 (r0 / ride-01))
+    :quant 2)

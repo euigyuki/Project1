@@ -1,0 +1,9 @@
+# ::snt a dog playing in water .
+# ::tokens ["a", "dog", "playing", "in", "water", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "NN", "IN", "NN", "."]
+# ::lemmas ["a", "dog", "playing", "in", "water", "."]
+(p0 / play-01
+      :ARG2 (w0 / water)
+      :ARG0 (d0 / dog))

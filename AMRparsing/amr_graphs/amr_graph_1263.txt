@@ -1,0 +1,15 @@
+# ::snt a black and white dog leaps for a flying disc while another one watches .
+# ::tokens ["a", "black", "and", "white", "dog", "leaps", "for", "a", "flying", "disc", "while", "another", "one", "watches", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "CC", "JJ", "NN", "NNS", "IN", "DT", "VBG", "NN", "IN", "DT", "NN", "VBZ", "."]
+# ::lemmas ["a", "black", "and", "white", "dog", "leap", "for", "a", "fly", "disc", "while", "another", "one", "watch", "."]
+(l0 / leap-03
+      :destination (d1 / disc
+            :ARG0-of (f0 / fly-01))
+      :time (w0 / watch-01
+            :ARG0 (p0 / person
+                  :mod (a0 / another)))
+      :ARG0 (d0 / dog
+            :ARG1-of (w1 / white-03)
+            :ARG2-of (b0 / black-05)))

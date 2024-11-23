@@ -1,0 +1,15 @@
+# ::snt a small black infant is pushed in stroller by an unknown white person .
+# ::tokens ["a", "small", "black", "infant", "is", "pushed", "in", "stroller", "by", "an", "unknown", "white", "person", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "JJ", "NN", "VBZ", "VBN", "IN", "NN", "IN", "DT", "JJ", "JJ", "NN", "."]
+# ::lemmas ["a", "small", "black", "infant", "be", "push", "in", "stroller", "by", "an", "unknown", "white", "person", "."]
+(p0 / push-01
+      :ARG2 (s0 / stroller)
+      :ARG0 (p1 / person
+            :ARG1-of (w0 / white-02)
+            :ARG0-of (k0 / know-01
+                  :polarity - ))
+      :ARG1 (i0 / infant
+            :ARG1-of (b0 / black-05)
+            :mod (s1 / small)))

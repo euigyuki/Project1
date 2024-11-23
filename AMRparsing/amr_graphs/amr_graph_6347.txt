@@ -1,0 +1,7 @@
+(w0 / walk-01
+    :direction (d0 / down)
+    :ARG0 (w1 / woman
+              :ARG0-of (h0 / have-03
+                           :ARG1 (p0 / purse
+                                     :ARG1-of (w2 / white-03)))
+              :quant 2))

@@ -1,0 +1,11 @@
+# ::snt a boy plays with a dog and a frisbee .
+# ::tokens ["a", "boy", "plays", "with", "a", "dog", "and", "a", "frisbee", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "IN", "DT", "NN", "CC", "DT", "NN", "."]
+# ::lemmas ["a", "boy", "play", "with", "a", "dog", "and", "a", "frisbee", "."]
+(p0 / play-01
+      :ARG0 (b0 / boy)
+      :ARG1 (a0 / and
+            :op2 (f0 / frisbee)
+            :op1 (d0 / dog)))

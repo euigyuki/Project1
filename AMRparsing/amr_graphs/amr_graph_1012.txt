@@ -1,0 +1,4 @@
+(w0 / walk-01
+    :ARG0 (h0 / horse
+              :ARG0-of (p0 / pull-01
+                           :ARG1 (s1 / something))))

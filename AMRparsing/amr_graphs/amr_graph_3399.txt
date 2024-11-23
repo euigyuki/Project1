@@ -1,0 +1,11 @@
+# ::snt a brown dog jumps through three hoops .
+# ::tokens ["a", "brown", "dog", "jumps", "through", "three", "hoops", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "CARDINAL", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "B", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "VBZ", "IN", "CD", "NNS", "."]
+# ::lemmas ["a", "brown", "dog", "jump", "through", "three", "hoop", "."]
+(j0 / jump-03
+      :path (h0 / hoop
+            :quant 3 )
+      :ARG0 (d0 / dog
+            :ARG1-of (b0 / brown)))

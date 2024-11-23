@@ -1,0 +1,11 @@
+# ::snt black dog running with his tongue out .
+# ::tokens ["black", "dog", "running", "with", "his", "tongue", "out", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["JJ", "NN", "VBG", "IN", "PRP$", "NN", "RP", "."]
+# ::lemmas ["black", "dog", "run", "with", "his", "tongue", "out", "."]
+(r0 / run-02
+      :manner (t0 / tongue
+            :ARG1-of (o0 / out-06))
+      :ARG0 (d0 / dog
+            :ARG1-of (b0 / black-05)))

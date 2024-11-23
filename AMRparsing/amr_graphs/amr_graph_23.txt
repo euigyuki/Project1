@@ -1,0 +1,36 @@
+# ::snt two separate women , one wearing a white top and black pants , the other wearing all black and a pair of pink flip-flops , kneel on a gray brick sidewalk path in front of green and red bushes .
+# ::tokens ["two", "separate", "women", ",", "one", "wearing", "a", "white", "top", "and", "black", "pants", ",", "the", "other", "wearing", "all", "black", "and", "a", "pair", "of", "pink", "flip", "-", "flops", ",", "kneel", "on", "a", "gray", "brick", "sidewalk", "path", "in", "front", "of", "green", "and", "red", "bushes", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "JJ", "NNS", ",", "CD", "VBG", "DT", "JJ", "NN", "CC", "JJ", "NNS", ",", "DT", "JJ", "VBG", "DT", "NN", "CC", "DT", "NN", "IN", "JJ", "NN", "HYPH", "NNS", ",", "VB", "IN", "DT", "JJ", "NN", "NN", "NN", "IN", "NN", "IN", "JJ", "CC", "JJ", "NNS", "."]
+# ::lemmas ["two", "separate", "woman", ",", "one", "wear", "a", "white", "top", "and", "black", "pant", ",", "the", "other", "wear", "all", "black", "and", "a", "pair", "of", "pink", "flip", "-", "flop", ",", "kneel", "on", "a", "gray", "brick", "sidewalk", "path", "in", "front", "of", "green", "and", "red", "bush", "."]
+(m0 / multi-sentence
+      :snt2 (l0 / lean-01
+            :ARG2 (p0 / path
+                  :mod (b1 / brick)
+                  :mod (s1 / sidewalk
+                        :mod (b2 / brick)))
+            :location (i0 / in-front-of
+                  :op1 (b0 / bush
+                        :ARG1-of (r0 / red-02)
+                        :mod (g0 / green-02)))
+            :ARG1 (w2 / woman
+                  :quant 2 
+                  :ARG1-of (s0 / separate-02)))
+      :snt1 (a0 / and
+            :op2 (w1 / wear-01
+                  :ARG0 (w3 / woman
+                        :quant 1 
+                        :quant (w4 / wear-01
+                              :ARG1 (a2 / and
+                                    :op2 (f0 / flop
+                                          :ARG1-of (p2 / pink-04))
+                                    :op1 (t1 / top
+                                          :mod (w6 / white-03))
+                                    :op1 (a3 / all)))))
+            :op1 (w0 / wear-01
+                  :ARG1 (a1 / and
+                        :op2 (p1 / pant
+                              :ARG1-of (b3 / black-04))
+                        :op1 (t0 / top
+                              :ARG1-of (w5 / white-03))))))

@@ -1,0 +1,13 @@
+# ::snt several chefs posing with their products .
+# ::tokens ["several", "chefs", "posing", "with", "their", "products", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["JJ", "NNS", "VBG", "IN", "PRP$", "NNS", "."]
+# ::lemmas ["several", "chef", "pose", "with", "their", "product", "."]
+(p0 / pose-01
+      :ARG0 (p2 / person
+            :poss-of (p1 / product)
+            :quant (s0 / several)
+            :ARG0-of (h0 / have-org-role-91
+                  :ARG2 (c0 / chef)))
+      :accompanier p1)

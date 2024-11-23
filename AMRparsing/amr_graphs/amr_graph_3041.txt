@@ -1,0 +1,17 @@
+# ::snt three people take a lift up the mountain in the ski resort of adirondack express .
+# ::tokens ["three", "people", "take", "a", "lift", "up", "the", "mountain", "in", "the", "ski", "resort", "of", "adirondack", "express", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "VBP", "DT", "NN", "IN", "DT", "NN", "IN", "DT", "NN", "NN", "IN", "NN", "VB", "."]
+# ::lemmas ["three", "people", "take", "a", "lift", "up", "the", "mountain", "in", "the", "ski", "resort", "of", "adirondack", "express", "."]
+(t0 / take-01
+      :location (r0 / resort
+            :mod (s0 / ski-01)
+            :mod (c0 / city
+                  :name (n0 / name
+                        :op1 "adirondack" )))
+      :ARG0 (p0 / person
+            :quant 3 )
+      :ARG1 (l0 / lift
+            :direction (u0 / up
+                  :op1 (m0 / mountain))))

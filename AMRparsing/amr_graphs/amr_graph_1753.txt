@@ -1,0 +1,21 @@
+# ::snt two asian males smile while celebrating a birthday with a layered chocolate cake with a sparkling candle .
+# ::tokens ["two", "asian", "males", "smile", "while", "celebrating", "a", "birthday", "with", "a", "layered", "chocolate", "cake", "with", "a", "sparkling", "candle", "."]
+# ::ner_tags ["CARDINAL", "NORP", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "JJ", "NNS", "VBP", "IN", "VBG", "DT", "NN", "IN", "DT", "JJ", "NN", "NN", "IN", "DT", "VBG", "NN", "."]
+# ::lemmas ["two", "asian", "male", "smile", "while", "celebrate", "a", "birthday", "with", "a", "layered", "chocolate", "cake", "with", "a", "sparkle", "candle", "."]
+(s0 / smile-01
+      :time (c0 / celebrate-02
+            :ARG0 (m0 / male
+                  :mod (c1 / continent
+                        :name (n0 / name
+                              :op1 "Asia" ))
+                  :quant 2 )
+            :ARG1 (c2 / cake
+                  :consist-of (c3 / chocolate)
+                  :ARG1-of (h0 / have-03
+                        :ARG1 (c4 / candle
+                              :ARG0-of (s1 / sail-01)))
+                  :consist-of (l0 / layered))
+            :accompanier (b0 / birthday))
+      :ARG0 m0)

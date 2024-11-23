@@ -1,0 +1,13 @@
+# ::snt people with a dog hike up a green mountain .
+# ::tokens ["people", "with", "a", "dog", "hike", "up", "a", "green", "mountain", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["NNS", "IN", "DT", "NN", "NN", "IN", "DT", "JJ", "NN", "."]
+# ::lemmas ["people", "with", "a", "dog", "hike", "up", "a", "green", "mountain", "."]
+(h0 / hike-02
+      :direction (u0 / up
+            :op1 (m0 / mountain
+                  :ARG1-of (g0 / green-02)))
+      :ARG1 (p0 / person
+            :ARG0-of (h1 / have-03
+                  :ARG1 (d0 / dog))))

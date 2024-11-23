@@ -1,0 +1,4 @@
+(p0 / play-01
+    :ARG0 (c0 / clown)
+    :ARG1 (h0 / hoop
+              :mod (h1 / hula)))

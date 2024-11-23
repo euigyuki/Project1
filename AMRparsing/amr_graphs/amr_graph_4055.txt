@@ -1,0 +1,3 @@
+(p0 / perform-01
+    :ARG0 (p1 / person
+              :ARG0-of (t0 / teach-01)))

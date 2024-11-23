@@ -1,0 +1,3 @@
+(h0 / hold-01
+    :ARG1 (f0 / flower
+              :ARG1-of (r0 / red-02)))

@@ -1,0 +1,12 @@
+# ::snt a toddler boy being cute and pointing .
+# ::tokens ["a", "toddler", "boy", "being", "cute", "and", "pointing", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "NN", "VBG", "JJ", "CC", "JJ", "."]
+# ::lemmas ["a", "toddler", "boy", "be", "cute", "and", "pointing", "."]
+(a0 / and
+      :op2 (p0 / point-01
+            :ARG0 b0)
+      :op1 (c0 / cute
+            :domain (b0 / boy
+                  :mod (t0 / toddler))))

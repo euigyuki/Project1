@@ -1,0 +1,13 @@
+# ::snt a clown wearing a cowboy hat and a microphone smiles .
+# ::tokens ["a", "clown", "wearing", "a", "cowboy", "hat", "and", "a", "microphone", "smiles", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBG", "DT", "NN", "NN", "CC", "DT", "NN", "NNS", "."]
+# ::lemmas ["a", "clown", "wear", "a", "cowboy", "hat", "and", "a", "microphone", "smile", "."]
+(s0 / smile-01
+      :ARG0 (c0 / clown
+            :ARG0-of (w0 / wear-01
+                  :ARG1 (a0 / and
+                        :op2 (m0 / microphone)
+                        :op1 (h0 / hat
+                              :mod (c1 / cowboy))))))

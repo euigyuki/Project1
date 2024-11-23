@@ -1,0 +1,9 @@
+# ::snt a cricket batsman swinging
+# ::tokens ["a", "cricket", "batsman", "swinging"]
+# ::ner_tags ["O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "NN", "VBG"]
+# ::lemmas ["a", "cricket", "batsman", "swinge"]
+(s0 / swinge
+      :mod (b0 / batsman
+            :mod (c0 / cricket)))

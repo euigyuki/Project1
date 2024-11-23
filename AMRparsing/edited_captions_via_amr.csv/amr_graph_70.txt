@@ -1,0 +1,23 @@
+# ::snt The girl in the salmon colored bikini is standing next to two young people ; one is wearing a black outfit and the other is drinking pop .
+# ::tokens ["The", "girl", "in", "the", "salmon", "colored", "bikini", "is", "standing", "next", "to", "two", "young", "people", ";", "one", "is", "wearing", "a", "black", "outfit", "and", "the", "other", "is", "drinking", "pop", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "DT", "NN", "VBN", "NNP", "VBZ", "VBG", "RB", "IN", "CD", "JJ", "NNS", ":", "PRP", "VBZ", "VBG", "DT", "JJ", "NN", "CC", "DT", "JJ", "VBZ", "VBG", "NN", "."]
+# ::lemmas ["the", "girl", "in", "the", "salmon", "color", "bikini", "be", "stand", "next", "to", "two", "young", "people", ";", "one", "be", "wear", "a", "black", "outfit", "and", "the", "other", "be", "drink", "pop", "."]
+(a0 / and
+      :op2 (a1 / and
+            :op2 (d0 / drink-01
+                  :ARG1 (p1 / pop))
+            :op1 (w0 / wear-01
+                  :ARG0 (o1 / other)
+                  :ARG1 (o0 / outfit
+                        :ARG1-of (b1 / black-04))))
+      :op1 (s0 / stand-01
+            :ARG2 (n0 / next-to
+                  :op1 (p0 / person
+                        :quant 2 
+                        :mod (y0 / young)))
+            :ARG1 (g0 / girl
+                  :mod (b0 / bikini
+                        :ARG1-of (c0 / color-01
+                              :ARG2 (s1 / salmon))))))

@@ -1,0 +1,13 @@
+# ::snt a black dog wearing a red collar is dragging a rope though a river .
+# ::tokens ["a", "black", "dog", "wearing", "a", "red", "collar", "is", "dragging", "a", "rope", "though", "a", "river", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "VBG", "DT", "JJ", "NN", "VBZ", "VBG", "DT", "NN", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "black", "dog", "wear", "a", "red", "collar", "be", "drag", "a", "rope", "though", "a", "river", "."]
+(d0 / drag-01
+      :ARG2 (r1 / river)
+      :ARG0 (d1 / dog
+            :ARG0-of (w0 / wear-01
+                  :ARG1 (b1 / blue-collar))
+            :ARG1-of (b0 / black-04))
+      :ARG1 (r0 / rope))

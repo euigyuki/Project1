@@ -1,0 +1,16 @@
+(o0 / open-01
+    :ARG0 (a0 / and
+              :op2 (m0 / man
+                       :ARG0-of (h0 / have-03
+                                    :ARG1 (a1 / and
+                                              :op2 (b0 / beard)
+                                              :op1 (h1 / hair
+                                                       :ARG1-of (g1 / gray-02))))
+                       :mod (o1 / old))
+              :op1 (g0 / girl
+                       :mod (y0 / young)
+                       :quant 2))
+    :ARG1 (p0 / present
+              :mod (f0 / festival
+                       :name (n0 / name
+                                 :op1 "christmas"))))

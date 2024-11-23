@@ -1,0 +1,11 @@
+# ::snt a baby is playing with cleaning supplies .
+# ::tokens ["a", "baby", "is", "playing", "with", "cleaning", "supplies", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "VBG", "IN", "NN", "NNS", "."]
+# ::lemmas ["a", "baby", "be", "play", "with", "cleaning", "supply", "."]
+(p0 / play-01
+      :ARG2 (t0 / thing
+            :ARG1-of (s0 / supply-01
+                  :ARG1 (c0 / clean-01)))
+      :ARG0 (b0 / baby))

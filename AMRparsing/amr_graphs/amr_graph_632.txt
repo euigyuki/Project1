@@ -1,0 +1,6 @@
+(r0 / ride-01
+    :ARG0 (p0 / person
+              :ARG0-of (h0 / have-03
+                           :ARG1 (h1 / helmet))
+              :quant 2)
+    :ARG1 (b0 / bike))

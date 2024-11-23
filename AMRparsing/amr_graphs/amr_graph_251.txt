@@ -1,0 +1,6 @@
+(a0 / appear-02
+    :ARG1 (f0 / fall-01
+              :ARG3 (b0 / bed)
+              :source (d0 / distance
+                          :ARG1-of (h1 / high-02))
+              :ARG1 (m0 / man)))

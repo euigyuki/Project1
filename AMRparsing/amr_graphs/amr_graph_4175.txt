@@ -1,0 +1,3 @@
+(t0 / take-01
+    :ARG0 (d0 / dog)
+    :ARG1 (p0 / poop))

@@ -1,0 +1,5 @@
+(u0 / up-03
+    :ARG2 (p1 / palm
+              :part-of (d0 / dummy
+                           :purpose (t0 / test-01
+                                        :ARG2 (c1 / crash-01)))))

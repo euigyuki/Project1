@@ -1,0 +1,10 @@
+(a0 / and
+    :op2 (h0 / hold-01
+             :ARG1 (c0 / controller
+                       :mod (g0 / game))
+             :ARG3 (o0 / over
+                       :op1 (h1 / head)))
+    :op1 (s0 / sit-01
+             :ARG2 (f0 / floor)
+             :ARG1 (b0 / baby
+                       :part h1)))

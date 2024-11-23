@@ -1,0 +1,8 @@
+(a0 / and
+    :op2 (u0 / use-01
+             :ARG1 (c0 / cellphone
+                       :poss (w1 / woman
+                                 :poss-of (d0 / dog)
+                                 :ARG0-of u0)))
+    :op1 (w0 / walk-01
+             :ARG0 w1))

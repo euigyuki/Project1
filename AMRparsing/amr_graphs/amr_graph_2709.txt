@@ -1,0 +1,13 @@
+# ::snt a man accompanies his grandmother on the bus .
+# ::tokens ["a", "man", "accompanies", "his", "grandmother", "on", "the", "bus", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "PRP$", "NN", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "man", "accompany", "his", "grandmother", "on", "the", "bus", "."]
+(a0 / accompany-01
+      :ARG1 (p0 / person)
+      :ARG0 (m0 / man
+            :ARG1-of (h0 / have-rel-role-91
+                  :ARG0 p0
+                  :ARG2 (g0 / grandmother)))
+      :ARG4 (b0 / bus))

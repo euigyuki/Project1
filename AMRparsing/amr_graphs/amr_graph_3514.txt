@@ -1,0 +1,13 @@
+# ::snt a sculptor in a blue sweater chiseling a piece of stone .
+# ::tokens ["a", "sculptor", "in", "a", "blue", "sweater", "chiseling", "a", "piece", "of", "stone", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "DT", "JJ", "NN", "VBG", "DT", "NN", "IN", "NN", "."]
+# ::lemmas ["a", "sculptor", "in", "a", "blue", "sweater", "chisel", "a", "piece", "of", "stone", "."]
+(b0 / babble-01
+      :ARG0 (p1 / person
+            :ARG0-of (c0 / consult-01)
+            :mod (s1 / sweater
+                  :mod (b1 / blue)))
+      :ARG1 (p0 / piece
+            :consist-of (s0 / stone)))

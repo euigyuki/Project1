@@ -1,0 +1,8 @@
+# ::snt a young boy is jumping through water being sprayed up from the ground .
+(z1 / jump-03
+      :ARG0 (z2 / boy
+            :mod (z3 / young))
+      :path (z4 / water
+            :ARG1-of (z5 / spray-01
+                  :ARG2 (z6 / ground)
+                  :direction (z7 / up))))

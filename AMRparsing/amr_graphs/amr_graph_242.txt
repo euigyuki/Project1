@@ -1,0 +1,10 @@
+(c0 / contrast-01
+    :ARG1 (s0 / speak-01
+              :ARG0 (m0 / man
+                        :op1-of (b0 / beside
+                                    :op1 (m2 / man
+                                             :mod (a0 / another)
+                                             :ARG1-of (s1 / sit-01)))
+                        :ARG0-of (h0 / have-03
+                                     :ARG1 (p0 / pair-01
+                                               :ARG1-of (d0 / dark-02))))))

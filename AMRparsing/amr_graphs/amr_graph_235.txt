@@ -1,0 +1,13 @@
+(p0 / prepare-02
+    :time (l0 / look-01
+              :ARG1 (v0 / vendor
+                        :ARG0-of (w1 / wear-01
+                                     :ARG1 (a0 / and
+                                               :op2 (c1 / clothing
+                                                        :ARG1-of (r0 / red-02))
+                                               :mod (a1 / all)
+                                               :op1 (c0 / clothing
+                                                        :ARG1-of (p1 / pink-04))))
+                        :poss-of (w0 / wear-01)
+                        :ARG0-of p0)
+              :direction (f0 / forward)))

@@ -1,0 +1,13 @@
+# ::snt two girls running through pool while water sprays over them
+# ::tokens ["two", "girls", "running", "through", "pool", "while", "water", "sprays", "over", "them"]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "VBG", "IN", "NN", "IN", "NN", "NNS", "IN", "PRP"]
+# ::lemmas ["two", "girl", "run", "through", "pool", "while", "water", "spray", "over", "they"]
+(r0 / run-02
+      :time (s0 / spray-01
+            :ARG0 (g0 / girl
+                  :quant 2 )
+            :ARG1 (w0 / water))
+      :ARG0 g0
+      :ARG1 (p0 / pool))

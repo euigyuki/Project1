@@ -1,0 +1,9 @@
+# ::snt a group of hikers are resting on the ground in front of some mountains .
+(z1 / rest-01
+      :ARG1 (z2 / group
+            :consist-of (z3 / person
+                  :ARG0-of (z4 / hike-01)))
+      :ARG2 (z5 / ground
+            :location (z6 / in-front-of
+                  :op1 (z7 / mountain
+                        :quant (z8 / some)))))

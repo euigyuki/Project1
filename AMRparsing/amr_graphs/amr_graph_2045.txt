@@ -1,0 +1,10 @@
+# ::snt a child having dental work done .
+# ::tokens ["a", "child", "having", "dental", "work", "done", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBG", "JJ", "NN", "VBN", "."]
+# ::lemmas ["a", "child", "have", "dental", "work", "do", "."]
+(h0 / have-03
+      :ARG0 (c0 / child)
+      :ARG1 (w0 / work-01
+            :ARG1 (m0 / mind)))

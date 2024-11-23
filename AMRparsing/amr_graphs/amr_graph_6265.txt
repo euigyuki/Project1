@@ -1,0 +1,10 @@
+# ::snt a man breakdancing on a tiled floor
+# ::tokens ["a", "man", "breakdancing", "on", "a", "tiled", "floor"]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBG", "IN", "DT", "VBN", "NN"]
+# ::lemmas ["a", "man", "breakdance", "on", "a", "tile", "floor"]
+(m0 / man
+      :ARG0-of (b0 / break-01
+            :ARG1 (f0 / floor
+                  :ARG1-of (g0 / grind-01))))

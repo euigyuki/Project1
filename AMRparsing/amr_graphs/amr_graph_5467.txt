@@ -1,0 +1,2 @@
+(n0 / nipping
+    :domain (d0 / dog))

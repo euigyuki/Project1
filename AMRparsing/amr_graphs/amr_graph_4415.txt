@@ -1,0 +1,10 @@
+# ::snt a group of men are on a bus .
+# ::tokens ["a", "group", "of", "men", "are", "on", "a", "bus", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "NNS", "VBP", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "group", "of", "man", "be", "on", "a", "bus", "."]
+(b0 / be-located-at-91
+      :ARG2 (b1 / bus)
+      :ARG1 (g0 / group
+            :consist-of (m0 / man)))

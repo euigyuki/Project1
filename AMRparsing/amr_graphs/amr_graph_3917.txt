@@ -1,0 +1,5 @@
+(h0 / hold-01
+    :ARG3 (e0 / eye
+              :part-of (m0 / man)
+              :ARG1-of (c0 / close-01))
+    :ARG1 (b0 / baby))

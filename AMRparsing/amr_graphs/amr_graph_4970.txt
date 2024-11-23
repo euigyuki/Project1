@@ -1,0 +1,3 @@
+(p0 / person
+    :ARG0-of (d0 / drink-01)
+    :ARG1-of (s0 / sit-01))

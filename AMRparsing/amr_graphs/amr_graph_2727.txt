@@ -1,0 +1,7 @@
+(d0 / down
+    :domain (w0 / woman
+                :part (h1 / hand
+                          :mod (b0 / both))
+                :ARG0-of (h0 / have-03
+                             :ARG1 (r0 / racket
+                                       :mod (t0 / tennis)))))

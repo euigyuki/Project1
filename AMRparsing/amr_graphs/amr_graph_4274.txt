@@ -1,0 +1,6 @@
+(p0 / poke-01
+    :ARG2 (g0 / get-05
+              :part-of (m0 / man
+                           :part (h0 / head))
+              :ARG2 (w0 / window))
+    :ARG0 m0)

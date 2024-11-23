@@ -1,0 +1,4 @@
+(w0 / walk-01
+    :instrument (d0 / dalmatian
+                    :quant 3)
+    :ARG0 (m0 / man))

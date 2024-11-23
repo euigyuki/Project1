@@ -1,0 +1,4 @@
+(h0 / have-03
+    :ARG0 (m0 / man)
+    :ARG1 (b0 / ball
+              :mod (y0 / yellow)))

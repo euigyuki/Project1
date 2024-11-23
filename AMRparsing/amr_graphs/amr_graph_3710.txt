@@ -1,0 +1,9 @@
+# ::snt a brown dog growls .
+# ::tokens ["a", "brown", "dog", "growls", "."]
+# ::ner_tags ["O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "NNS", "."]
+# ::lemmas ["a", "brown", "dog", "growl", "."]
+(g0 / growl
+      :domain (d0 / dog
+            :mod (b0 / brown)))

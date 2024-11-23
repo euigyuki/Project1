@@ -1,0 +1,5 @@
+(t0 / try-04
+    :ARG0 (w0 / woman
+              :mod (b0 / blond))
+    :ARG1 (h0 / heel
+              :mod (s1 / some)))

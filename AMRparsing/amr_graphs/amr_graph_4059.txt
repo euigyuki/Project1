@@ -1,0 +1,15 @@
+# ::snt a middle eastern woman standing on an odd shaped building .
+# ::tokens ["a", "middle", "eastern", "woman", "standing", "on", "an", "odd", "shaped", "building", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "JJ", "NN", "VBG", "IN", "DT", "JJ", "JJ", "NN", "."]
+# ::lemmas ["a", "middle", "eastern", "woman", "stand", "on", "an", "odd", "shaped", "building", "."]
+(s0 / stand-01
+      :ARG2 (b0 / building
+            :ARG1-of (s1 / shape-01
+                  :ARG2 (o0 / odd)))
+      :ARG1 (w0 / woman
+            :location (w1 / world-region
+                  :name (n0 / name
+                        :op2 "East" 
+                        :op1 "Middle" ))))

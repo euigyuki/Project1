@@ -1,0 +1,5 @@
+(e0 / eat-01
+    :time (w0 / wear-01
+              :ARG0 (c0 / child
+                        :mod (y0 / young)
+                        :ARG0-of e0)))

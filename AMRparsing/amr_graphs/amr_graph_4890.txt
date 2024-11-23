@@ -1,0 +1,10 @@
+# ::snt a dog running though a grassy field .
+# ::tokens ["a", "dog", "running", "though", "a", "grassy", "field", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBG", "IN", "DT", "JJ", "NN", "."]
+# ::lemmas ["a", "dog", "run", "though", "a", "grassy", "field", "."]
+(r0 / run-02
+      :path (f0 / field
+            :mod (g0 / grassy))
+      :ARG0 (d0 / dog))

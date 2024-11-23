@@ -1,0 +1,16 @@
+# ::snt a man in blue shorts and a red hat sculpting a sand castle .
+# ::tokens ["a", "man", "in", "blue", "shorts", "and", "a", "red", "hat", "sculpting", "a", "sand", "castle", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "JJ", "NNS", "CC", "DT", "JJ", "NN", "VBG", "DT", "NN", "NN", "."]
+# ::lemmas ["a", "man", "in", "blue", "short", "and", "a", "red", "hat", "sculpt", "a", "sand", "castle", "."]
+(c0 / climb-01
+      :ARG1 (c1 / castle
+            :mod (s0 / sand))
+      :ARG0 (m0 / man
+            :ARG0-of (h0 / have-03
+                  :ARG1 (a0 / and
+                        :op2 (h1 / hat
+                              :ARG1-of (r0 / red-02))
+                        :op1 (s1 / short-07
+                              :mod (b0 / blue))))))

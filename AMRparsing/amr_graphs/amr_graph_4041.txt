@@ -1,0 +1,7 @@
+(s0 / stand-01
+    :mod (t0 / together)
+    :ARG1 (g0 / group
+              :consist-of (d0 / dog
+                              :ARG0-of (h0 / have-03
+                                           :ARG1 (h1 / harness))
+                              :ARG1-of (l0 / load-01))))

@@ -1,0 +1,14 @@
+# ::snt a baby carrying a ball in stands in front of a house with a hose in the background .
+# ::tokens ["a", "baby", "carrying", "a", "ball", "in", "stands", "in", "front", "of", "a", "house", "with", "a", "hose", "in", "the", "background", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBG", "DT", "NN", "IN", "NNS", "IN", "NN", "IN", "DT", "NN", "IN", "DT", "NN", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "baby", "carry", "a", "ball", "in", "stand", "in", "front", "of", "a", "house", "with", "a", "hose", "in", "the", "background", "."]
+(s0 / stand-01
+      :ARG2 (i0 / in-front-of
+            :op1 (h0 / house
+                  :location (b2 / background
+                        :location-of (h1 / hose))))
+      :ARG1 (b0 / baby
+            :ARG0-of (c0 / carry-01
+                  :ARG1 (b1 / ball))))

@@ -1,0 +1,10 @@
+# ::snt a boy high-fives a mannequin .
+# ::tokens ["a", "boy", "high", "-", "fives", "a", "mannequin", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "JJ", "HYPH", "NNS", "DT", "NN", "."]
+# ::lemmas ["a", "boy", "high", "-", "five", "a", "mannequin", "."]
+(o0 / odds
+      :topic (h0 / high-02)
+      :domain (b0 / boy)
+      :quant 5 )

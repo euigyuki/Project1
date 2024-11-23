@@ -1,0 +1,9 @@
+(w0 / walk-01
+    :destination (m0 / mountain)
+    :ARG0 (p0 / person
+              :ARG0-of (f0 / fish-01)
+              :quant 5)
+    :ARG1 (a0 / across
+              :op1 (s0 / space
+                       :ARG1-of (o0 / open-09)
+                       :mod (l0 / large))))

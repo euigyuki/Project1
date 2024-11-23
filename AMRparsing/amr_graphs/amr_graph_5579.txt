@@ -1,0 +1,10 @@
+# ::snt a small boy plays in the sprinkler .
+# ::tokens ["a", "small", "boy", "plays", "in", "the", "sprinkler", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "JJ", "NN", "VBZ", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "small", "boy", "play", "in", "the", "sprinkler", "."]
+(p0 / play-01
+      :ARG2 (s0 / sprinkler)
+      :ARG0 (b0 / boy
+            :mod (s1 / small)))

@@ -1,0 +1,10 @@
+# ::snt a dog is leaping through the grass .
+# ::tokens ["a", "dog", "is", "leaping", "through", "the", "grass", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "VBG", "IN", "DT", "NN", "."]
+# ::lemmas ["a", "dog", "be", "leap", "through", "the", "grass", "."]
+(l0 / leap-03
+      :path (t0 / through
+            :op1 (g0 / grass))
+      :ARG0 (d0 / dog))

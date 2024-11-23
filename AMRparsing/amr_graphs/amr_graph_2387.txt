@@ -1,0 +1,5 @@
+(s0 / stand-01
+    :ARG1 (p0 / person
+              :ARG0-of (h0 / have-03
+                           :ARG1 (t0 / tube
+                                     :mod "Cypress"))))

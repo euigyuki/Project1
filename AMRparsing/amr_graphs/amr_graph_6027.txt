@@ -1,0 +1,16 @@
+# ::snt a man with disheveled hair and facial hair in a crowd of people is smiling .
+# ::tokens ["a", "man", "with", "disheveled", "hair", "and", "facial", "hair", "in", "a", "crowd", "of", "people", "is", "smiling", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "VBN", "NN", "CC", "JJ", "NN", "IN", "DT", "NN", "IN", "NNS", "VBZ", "VBG", "."]
+# ::lemmas ["a", "man", "with", "dishevel", "hair", "and", "facial", "hair", "in", "a", "crowd", "of", "people", "be", "smile", "."]
+(s0 / smile-01
+      :ARG0 (m0 / man
+            :ARG0-of (h0 / have-03
+                  :ARG1 (a0 / and
+                        :op2 (h2 / hair
+                              :mod (f0 / face))
+                        :op1 (h1 / hair
+                              :ARG1-of (d0 / dishevel))))
+            :ARG1-of (c0 / crowd
+                  :consist-of (p0 / person))))

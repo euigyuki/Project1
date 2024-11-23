@@ -1,0 +1,10 @@
+(a0 / and
+    :op2 (l0 / look-01
+             :ARG1 (c0 / camera)
+             :ARG0 (m0 / man
+                       :ARG1-of (l1 / light-07
+                                    :ARG1 (c1 / candle))
+                       :mod (h0 / have-degree-91
+                                :ARG3 (m1 / more))))
+    :op1 (s0 / sit-01
+             :ARG1 m0))

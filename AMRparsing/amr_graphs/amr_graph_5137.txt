@@ -1,0 +1,14 @@
+# ::snt two dark colored dogs romp in the grass with a blue frisbee .
+# ::tokens ["two", "dark", "colored", "dogs", "romp", "in", "the", "grass", "with", "a", "blue", "frisbee", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "JJ", "JJ", "NNS", "VBP", "IN", "DT", "NN", "IN", "DT", "JJ", "NN", "."]
+# ::lemmas ["two", "dark", "colored", "dog", "romp", "in", "the", "grass", "with", "a", "blue", "frisbee", "."]
+(j0 / jump-on-bandwagon-09
+      :ARG1 (f0 / frisbee
+            :mod (b0 / blue))
+      :ARG0 (d0 / dog
+            :quant 2 
+            :ARG1-of (c0 / color-01
+                  :ARG1-of (d1 / dark-02)))
+      :ARG2 (g0 / grass))

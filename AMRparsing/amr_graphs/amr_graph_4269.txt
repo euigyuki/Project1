@@ -1,0 +1,11 @@
+# ::snt four women are on stage singing .
+# ::tokens ["four", "women", "are", "on", "stage", "singing", "."]
+# ::ner_tags ["CARDINAL", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["B", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["CD", "NNS", "VBP", "IN", "NN", "NN", "."]
+# ::lemmas ["four", "woman", "be", "on", "stage", "singing", "."]
+(b0 / be-located-at-91
+      :ARG2 (s0 / stage)
+      :ARG1 (w0 / woman
+            :quant 4 
+            :ARG0-of (s1 / sing-01)))

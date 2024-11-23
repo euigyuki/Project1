@@ -1,0 +1,15 @@
+# ::snt Ballet dancers in a studio practice jumping with wonderful form .
+# ::tokens ["Ballet", "dancers", "in", "a", "studio", "practice", "jumping", "with", "wonderful", "form", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["NN", "NNS", "IN", "DT", "NN", "NN", "VBG", "IN", "JJ", "NN", "."]
+# ::lemmas ["ballet", "dancer", "in", "a", "studio", "practice", "jump", "with", "wonderful", "form", "."]
+(p0 / practice-01
+      :ARG1 (j0 / jump-03
+            :location-of (p1 / person
+                  :location (s0 / studio)
+                  :ARG0-of (d0 / dance-01
+                        :location (b0 / ballet)))
+            :manner (f0 / form
+                  :ARG1-of (w0 / wonderful-03)))
+      :ARG0 p1)

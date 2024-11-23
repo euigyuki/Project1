@@ -1,0 +1,18 @@
+# ::snt man with a backpack and bandanna reviewing pictures on his dslr camera .
+# ::tokens ["man", "with", "a", "backpack", "and", "bandanna", "reviewing", "pictures", "on", "his", "dslr", "camera", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["NN", "IN", "DT", "NN", "CC", "NN", "VBG", "NNS", "IN", "PRP$", "NN", "NN", "."]
+# ::lemmas ["man", "with", "a", "backpack", "and", "bandanna", "review", "picture", "on", "his", "dslr", "camera", "."]
+(r0 / review-01
+      :instrument (c0 / camera
+            :poss (m0 / man
+                  :ARG0-of (h0 / have-03
+                        :ARG1 (a0 / and
+                              :op2 (b1 / bandanna)
+                              :op1 (b0 / backpack))))
+            :mod (p1 / product
+                  :name (n0 / name
+                        :op1 "Slammer" )))
+      :ARG0 m0
+      :ARG1 (p0 / picture))

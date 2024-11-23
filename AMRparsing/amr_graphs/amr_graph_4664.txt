@@ -1,0 +1,4 @@
+(s0 / sit-01
+    :ARG1 (r0 / row
+              :consist-of (g0 / girl
+                              :ARG1-of (d0 / dress-01))))

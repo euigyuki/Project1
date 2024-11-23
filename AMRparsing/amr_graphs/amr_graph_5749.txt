@@ -1,0 +1,14 @@
+# ::snt a person is walking up the steps in front of costco .
+# ::tokens ["a", "person", "is", "walking", "up", "the", "steps", "in", "front", "of", "costco", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "VBZ", "VBG", "RP", "DT", "NNS", "IN", "NN", "IN", "NN", "."]
+# ::lemmas ["a", "person", "be", "walk", "up", "the", "step", "in", "front", "of", "costco", "."]
+(w0 / walk-01
+      :location (i0 / in-front-of
+            :op1 (c0 / car-make
+                  :name (n0 / name
+                        :op1 "costco" )))
+      :ARG2 (u0 / up-03
+            :ARG1 (s0 / step-01))
+      :ARG0 (p0 / person))

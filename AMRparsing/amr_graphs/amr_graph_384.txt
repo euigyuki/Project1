@@ -1,0 +1,16 @@
+(h0 / hold-01
+    :time (h1 / hand
+              :part-of (m0 / man
+                           :part (r1 / reach-03
+                                     :ARG2 (a0 / and
+                                               :op2 (n0 / next-to
+                                                        :op1 (b1 / branch
+                                                                 :mod (l2 / large)))
+                                               :op1 (o0 / over
+                                                        :op1 (c0 / carpet
+                                                                 :mod (b2 / blue))))
+                                     :ARG1 (s0 / snake))
+                           :part (l0 / left-19))
+              :ARG1-of (l1 / left-19))
+    :time r1
+    :ARG1 (r0 / rattle))

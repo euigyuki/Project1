@@ -1,0 +1,7 @@
+(w0 / walk-01
+    :ARG0 (a0 / and
+              :op2 (b0 / boy
+                       :ARG0-of (a1 / accompany-01
+                                    :ARG0 (b1 / backpack)))
+              :op1 (m0 / man
+                       :ARG0-of (s1 / smile-01))))

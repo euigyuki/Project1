@@ -1,0 +1,18 @@
+# ::snt a group of young boys , one naked , play around a rickety bridge .
+# ::tokens ["a", "group", "of", "young", "boys", ",", "one", "naked", ",", "play", "around", "a", "rickety", "bridge", "."]
+# ::ner_tags ["O", "O", "O", "O", "O", "O", "CARDINAL", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::ner_iob ["O", "O", "O", "O", "O", "O", "B", "O", "O", "O", "O", "O", "O", "O", "O"]
+# ::pos_tags ["DT", "NN", "IN", "JJ", "NNS", ",", "CD", "JJ", ",", "VB", "IN", "DT", "NN", "NN", "."]
+# ::lemmas ["a", "group", "of", "young", "boy", ",", "one", "naked", ",", "play", "around", "a", "rickety", "bridge", "."]
+(p0 / play-01
+      :ARG0 (g0 / group
+            :consist-of (b1 / boy
+                  :ARG2-of (i0 / include-91
+                        :ARG1 (b2 / boy
+                              :quant 1 
+                              :quant (n0 / naked)
+                              :mod (y1 / young)))
+                  :mod (y0 / young)))
+      :ARG1 (a0 / around
+            :op1 (b0 / bridge
+                  :mod (r0 / rickety))))
