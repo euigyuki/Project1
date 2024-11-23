@@ -1,7 +1,6 @@
 import numpy as np
 import pandas as pd
-import ast
-
+from helper_functions import load_yaml
 
 
 def kl_divergence(p, q):
@@ -54,16 +53,24 @@ def generate_p(df):
 
 
 def main():
-    # Load the DataFrame
+    """input and output file paths"""
     file_path = "word_counts_and_combinations.csv"
+    normalized_word_counts = "normalized_word_counts.csv"
+    CFAC_path = "../data/helper/counts_for_all_combinations.yaml"
+    all_combinations_path = "../data/helper/combinations.yaml"
+    """input and output file paths"""
+
+    counts_for_all_combinations = load_yaml(CFAC_path)
+    all_combinations = load_yaml(all_combinations_path)
+
+    # Load the DataFrame
     df = pd.read_csv(file_path)
 
     # Generate the p distribution
     df = generate_p(df)
-    print(df)
-    df.to_csv("normalized_word_counts.csv", index=False)
+    df.to_csv(normalized_word_counts, index=False)
 
-    # Generate the q distribution (assumes the order matches `all_combinations`)
+    # Generate the q distribution 
     q_distribution = generate_qs(counts_for_all_combinations)
     print("*" * 50, len(q_distribution))
 
@@ -102,10 +109,10 @@ def main():
     top_third = df_sorted.iloc[:third].sort_values(
         by="Max_elementwise_KL", ascending=False
     )
-    middle_third = df_sorted.iloc[third : 2 * third].sort_values(
+    middle_third = df_sorted.iloc[third: 2 * third].sort_values(
         by="Max_elementwise_KL", ascending=False
     )
-    bottom_third = df_sorted.iloc[2 * third :].sort_values(
+    bottom_third = df_sorted.iloc[2 * third:].sort_values(
         by="Max_elementwise_KL", ascending=False
     )
 
@@ -125,9 +132,9 @@ def main():
     output_path_for_kl_with_divider = "kl_divergence_sorted_with_divider.csv"
     output_path_for_kl = "kl_divergence_sorted.csv"
     final_sorted_df[
-        ["Word", "KL_Divergence", "Max_Index", "Max_elementwise_KL"]
+        ["Word", "KLD", "Max_Index", "Max_elementwise_KL"]
     ].to_csv(output_path_for_kl_with_divider, index=False)
-    combined_df[["Word", "KL_Divergence", "Max_Index", "Max_elementwise_KL"]].to_csv(
+    combined_df[["Word", "KLD", "Max_Index", "Max_elementwise_KL"]].to_csv(
         output_path_for_kl, index=False
     )
 

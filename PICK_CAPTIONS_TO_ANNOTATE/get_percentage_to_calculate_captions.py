@@ -92,7 +92,8 @@ def read_captions(file_path):
         reader = csv.reader(csvfile)
         next(reader)  # Skip header row if present
         for row in reader:
-            captions.append(row[0].lower())  # Assuming captions are in the first column
+            # Assuming captions are in the first column
+            captions.append(row[0].lower())  
     print(f"Total captions: {len(captions)}")
     return captions
 
@@ -153,7 +154,7 @@ def print_results(percentages):
 
 def main():
     """input and output file paths"""
-    file_path = "results.csv"
+    file_path = "../data/sentences/sentences.csv"
     """input and output file paths"""
 
     captions = read_captions(file_path)
