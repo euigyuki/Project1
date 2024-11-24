@@ -22,6 +22,7 @@ def map_to_valid_combination(q1, q2, q3, q4):
 
 def export_to_csv(output_csv, target_words, category_counts, all_combinations):
     csv_data = []
+    all_combinations = [tuple(combo) for combo in all_combinations]
 
     # Prepare the header row
     header = ["Word"] + [" - ".join(combo) for combo in all_combinations]
@@ -43,6 +44,7 @@ def export_to_csv(output_csv, target_words, category_counts, all_combinations):
 
 
 def verify_counts(word_counts, category_counts, target_words, all_combos):
+    all_combos = [tuple(combo) for combo in all_combos]
     # Verification step
     for word in target_words:
         print(f"{word}: {word_counts[word]}")
@@ -61,14 +63,16 @@ def verify_counts(word_counts, category_counts, target_words, all_combos):
 
 def main():
     """input and output file paths"""
-    file_path = "target_verbs.csv"
+    file_path = "../data/verbs/target_verbs.csv"
     all_combinations_path = "../data/helper/combinations.yaml"
-    senteces_path = "sentences.csv"
+    sentences_path = "../data/sentences/sentences.csv"
+    output_csv_dir = "../data/word_counts_and_combinations/"
     output_csv = "word_counts_and_combinations.csv"
     """input and output file paths"""
 
     with open(all_combinations_path, "r") as file:
-        all_combinations = yaml.safe_load(file)
+        yaml_data = yaml.safe_load(file)
+        all_combinations = yaml_data["all_combinations"]
 
     data_verbs = pd.read_csv(file_path)
     print(data_verbs.head())
@@ -80,7 +84,7 @@ def main():
     category_counts = defaultdict(lambda: defaultdict(int))
 
     # Load the data
-    data = pd.read_csv(senteces_path)
+    data = pd.read_csv(sentences_path)
 
     # Iterate through rows in the data
     for _, row in data.iterrows():
@@ -98,8 +102,11 @@ def main():
                 word_counts[word] += 1
                 category_counts[word][valid_combination] += 1
 
-    verify_counts(word_counts, category_counts)
-    export_to_csv(output_csv, target_words, category_counts, all_combinations)
+    verify_counts(word_counts, category_counts, target_words, all_combinations)
+    csv_dir = output_csv_dir+output_csv
+    export_to_csv(
+        csv_dir, target_words, category_counts, all_combinations
+    )
 
 
 if __name__ == "__main__":

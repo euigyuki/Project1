@@ -30,13 +30,15 @@ def get_sentences(input_file, start_row, end_row, output_file):
 def main():
     # Specify the starting and ending row numbers (inclusive)
     start_row = 1  # Change this to your desired starting row
-    end_row = 50  # Change this to your desired ending row
+    end_row = 50  # Change this to your desired ending row  
 
-    # Input and output file names
-    input_file = "sentences_edited.csv"
-    output_file = f"sentences_edited_first{end_row}.csv"
+    """input and output file paths"""
+    input_file = "../data/sentences/sentences_edited.csv"
+    output_file = f"../data/sentences/sentences_edited_first{end_row}.csv"
+    """input and output file paths"""
 
     get_sentences(input_file, start_row, end_row, output_file)
+
 
 if __name__ == "__main__":
     main()

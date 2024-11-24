@@ -50,8 +50,12 @@ def return_n_of_amr_string(amr_string):
 
 def export_sentences_to_csv(original_sents, processed_sents, output_file):
     data = {
-        "Original Sentence": original_sents,
-        "Processed Sentence": processed_sents,
+        "Original Sentence": [
+            sent if sent != "skip" else "skip" for sent in original_sents
+        ],
+        "Processed Sentence": [
+            sent if sent != "skip" else "skip" for sent in processed_sents
+        ],
     }
     df = pd.DataFrame(data)
     df.to_csv(output_file, index=False, encoding="utf-8")
@@ -80,15 +84,6 @@ def stog(sentences):
         graph = stog.parse_sents([sentence])[0]
         graphs.append(graph)
     return graphs
-
-
-def save_graphs_to_directory(graphs, output_dir):
-    if not os.path.exists(output_dir):
-        os.makedirs(output_dir)
-    for i, graph in enumerate(graphs):
-        file_path = os.path.join(output_dir, f"amr_graph_{i+1}.txt")
-        with open(file_path, "w", encoding="utf-8") as f:
-            f.write(graph)
 
 
 def gtos(graph_strings, gtos):
@@ -206,15 +201,10 @@ def process_and_save_graphs(amr_graphs, output_dir, output_file_path):
                 processed_sentences.append(processed_sentence)
             else:
                 original_sentence = gtos_model.generate([graph])[0]
-                original_sentences.append(original_sentence)
-                processed_sentences.append(original_sentence)
-                processed_graph = graph
+                original_sentences.append("skip_because_no_change")
+                processed_sentences.append("skip")
+                processed_graph = None
             processed_graphs.append(processed_graph)
-
-            file_path = os.path.join(output_dir, f"amr_graph_{i+1}.txt")
-            with open(file_path, "w", encoding="utf-8") as f:
-                f.write(processed_graph)
-            print(f"Saved processed graph {i+1} to {file_path}")
         except Exception as e:
             print(f"Error processing graph {i+1}: {str(e)}")
             print(f"Exception type: {type(e)}")
@@ -223,6 +213,17 @@ def process_and_save_graphs(amr_graphs, output_dir, output_file_path):
                 graph
             )  # Keep the original graph if there's an error
     return processed_graphs, original_sentences, processed_sentences
+
+
+def save_graphs_to_directory(graphs, output_dir):
+    for i, graph in enumerate(graphs):
+        if graph is None:  # Skip None entries
+            print(f"Skipping graph {i+1} as it is None.")
+            continue
+        file_path = os.path.join(output_dir, f"amr_graph_{i+1}.txt")
+        with open(file_path, "w", encoding="utf-8") as f:
+            f.write(graph)
+        print(f"Saved processed graph {i+1} to {file_path}")
 
 
 def process_verbs_and_save(sentences, amr_graphs, output_file):
@@ -267,8 +268,8 @@ def main():
     graphs, original_sents, processed_sents = process_and_save_graphs(
         amr_graphs, output_directory_for_graphs, output_file
     )
+    save_graphs_to_directory(graphs, output_directory_for_graphs)
     export_sentences_to_csv(original_sents, processed_sents, output_file)
-    save_graphs_to_directory(amr_graphs, output_directory_for_graphs)
     sentences = read_sentences_from_csv(input_csv)
     process_verbs_and_save(sentences, amr_graphs, output_verbs_csv)
 

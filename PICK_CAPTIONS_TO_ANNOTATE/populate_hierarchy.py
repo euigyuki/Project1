@@ -3,14 +3,16 @@ import ast
 import yaml
 
 
-def populate_hierarchy(file_path, pick):
+def populate_hierarchy(file_path):
     df = pd.read_csv(file_path)
-    print("length of df", len(df))
-    with open("data/helper/combinations.yaml", "r") as file:
+    with open("../data/helper/combinations.yaml", "r") as file:
         all_combinations = yaml.safe_load(file)
+    all_combos = []
+    for combo in all_combinations['all_combinations']:
+        all_combos.append(tuple(combo))
     output_rows = []
     unmatched_combinations = []
-    for i in all_combinations:
+    for i in all_combos:
         best_match = None
         max_elementwise_KLD = -float("inf")
         for index, row in df.iterrows():
@@ -24,7 +26,7 @@ def populate_hierarchy(file_path, pick):
                         best_match = [
                             i,
                             row["Word"],
-                            row["KL_Divergence"],
+                            row["KLD"],
                             row["Max_elementwise_KL"],
                         ]
 
@@ -45,7 +47,10 @@ def populate_hierarchy(file_path, pick):
         output_rows,
         columns=["Combination", "Word", "KL_Divergence", "Max_elementwise_KL"],
     )
-    output_path = f"hierarchy_populated_{pick}.csv"
+    return output_df
+
+
+def write_output(output_df, output_path, pick):    
     output_df.to_csv(output_path, index=False)
 
     print(f"Hierarchy populated and saved to {output_path}")
@@ -53,12 +58,17 @@ def populate_hierarchy(file_path, pick):
 
 def main():
     """input and output file paths"""
-    KLD = "../data/kl_divergence"
+    KLD = "../data/kl_divergence/"
+    input_path = f"{KLD}kl_divergence_sorted"
+    output_path = f"{KLD}hierarchy_populated"
     """input and output file paths"""
 
     iterables = ["top_third", "second_third", "third_third"]
     for pick in iterables:
-        populate_hierarchy(f"{KLD}kl_divergence_sorted_{pick}.csv", pick)
+        input = input_path+f"_{pick}.csv"
+        output_df = populate_hierarchy(input)
+        output = output_path+f"_{pick}.csv"
+        write_output(output_df, output, pick)
 
 
 if __name__ == "__main__":

@@ -1,6 +1,13 @@
+import sys
+import os
 import numpy as np
 import pandas as pd
-from helper_functions import load_yaml
+
+# Add the path to the helper_functions directory
+sys.path.append(os.path.abspath("../helper_functions"))
+
+# Import load_config from load_yaml.py
+from load_yaml import load_config
 
 
 def kl_divergence(p, q):
@@ -54,16 +61,21 @@ def generate_p(df):
 
 def main():
     """input and output file paths"""
-    file_path = "word_counts_and_combinations.csv"
+    file_path = "../data/word_counts_and_combinations/word_counts_and_combinations.csv"
     normalized_word_counts = "normalized_word_counts.csv"
     CFAC_path = "../data/helper/counts_for_all_combinations.yaml"
     all_combinations_path = "../data/helper/combinations.yaml"
+    output_path_for_kl_with_divider = "../data/kl_divergence/kl_divergence_sorted_with_divider.csv"
+    output_path_for_kl = "../data/kl_divergence/kl_divergence_sorted.csv"
     """input and output file paths"""
 
-    counts_for_all_combinations = load_yaml(CFAC_path)
-    all_combinations = load_yaml(all_combinations_path)
+    CFAC = load_config(CFAC_path)
+    counts_for_all_combinations = [int(count) for count in CFAC['CFAC']]
+    all_combinations = load_config(all_combinations_path)
+    all_combos = []
+    for combo in all_combinations['all_combinations']:
+        all_combos.append(tuple(combo))
 
-    # Load the DataFrame
     df = pd.read_csv(file_path)
 
     # Generate the p distribution
@@ -72,7 +84,6 @@ def main():
 
     # Generate the q distribution 
     q_distribution = generate_qs(counts_for_all_combinations)
-    print("*" * 50, len(q_distribution))
 
     # Calculate the KL divergence for each word and store it in a new column
     kl_values = []
@@ -86,7 +97,7 @@ def main():
 
         # Find the index of the maximum value in the p distribution
         max_index = np.argmax(p)
-        max_indices.append(all_combinations[max_index])
+        max_indices.append(all_combos[max_index])
 
         # Calculate element-wise KL divergence
         elementwise_kl = elementwise_kl_divergence(p, q)
@@ -94,12 +105,12 @@ def main():
         max_elementwise_kls.append(max_elementwise_kl)
 
     # Add the KL divergence to the DataFrame
-    df["KL_Divergence"] = kl_values
+    df["KLD"] = kl_values
     df["Max_Index"] = max_indices  # New column for max index in p distribution
     df["Max_elementwise_KL"] = max_elementwise_kls
 
     # Sort the DataFrame by KL divergence in descending order
-    df_sorted = df.sort_values(by="KL_Divergence", ascending=False)
+    df_sorted = df.sort_values(by="KLD", ascending=False)
 
     # Divide the sorted DataFrame into thirds
     n = len(df_sorted)
@@ -129,8 +140,6 @@ def main():
     )
 
     # Save the final sorted DataFrame to a CSV file
-    output_path_for_kl_with_divider = "kl_divergence_sorted_with_divider.csv"
-    output_path_for_kl = "kl_divergence_sorted.csv"
     final_sorted_df[
         ["Word", "KLD", "Max_Index", "Max_elementwise_KL"]
     ].to_csv(output_path_for_kl_with_divider, index=False)
