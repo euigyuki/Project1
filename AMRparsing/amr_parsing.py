@@ -202,7 +202,7 @@ def process_and_save_graphs(amr_graphs, output_dir, output_file_path):
             else:
                 original_sentence = gtos_model.generate([graph])[0]
                 original_sentences.append("skip_because_no_change")
-                processed_sentences.append("skip")
+                processed_sentences.append(original_sentence)
                 processed_graph = None
             processed_graphs.append(processed_graph)
         except Exception as e:
@@ -228,7 +228,11 @@ def save_graphs_to_directory(graphs, output_dir):
 
 def process_verbs_and_save(sentences, amr_graphs, output_file):
     processed_data = []
-    for sentence, amr_string in zip(sentences, amr_graphs):
+    for sentence, amr_string in tqdm(
+            zip(sentences, amr_graphs),
+            total=len(sentences),
+            desc="Processing sentences"
+    ):
         try:
             graph = penman.decode(amr_string)
             verbs = [
@@ -258,9 +262,9 @@ def process_verbs_and_save(sentences, amr_graphs, output_file):
 
 def main():
     """input and output file paths"""
-    input_csv = "../data/sentences/sentences_edited_first50.csv"
+    input_csv = "../data/sentences/sentences_edited_first500.csv"
     output_verbs_csv = "../data/verbs/output_verbs.csv"
-    output_file = "sentences_export_first50.csv"
+    output_file = "sentences_export_first500.csv"
     output_directory_for_graphs = "../data/amr_graphs"
     """input and output file paths"""
 
