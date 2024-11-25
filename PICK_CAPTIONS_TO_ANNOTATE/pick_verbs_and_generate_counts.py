@@ -85,7 +85,7 @@ def analyze_comments_with_verbs(csv_file, number_of_top_words, verbs):
 
 def main():
     """input and output file paths"""
-    verb_path = "../data/verbs/output_verbs.csv"  
+    verb_path = "../data/verbs/output_verbs.csv"
     csv_file_path = "../data/sentences/sentences.csv"
     target_verbs_csv = "../data/verbs/target_verbs.csv"
     """input and output file paths"""

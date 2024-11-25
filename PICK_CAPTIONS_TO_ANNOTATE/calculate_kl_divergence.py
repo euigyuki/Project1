@@ -62,7 +62,7 @@ def generate_p(df):
 def main():
     """input and output file paths"""
     file_path = "../data/word_counts_and_combinations/word_counts_and_combinations.csv"
-    normalized_word_counts = "normalized_word_counts.csv"
+    normalized_word_counts = "../data/normalized_word_counts/normalized_word_counts.csv"
     CFAC_path = "../data/helper/counts_for_all_combinations.yaml"
     all_combinations_path = "../data/helper/combinations.yaml"
     output_path_for_kl_with_divider = "../data/kl_divergence/kl_divergence_sorted_with_divider.csv"
