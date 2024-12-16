@@ -4,14 +4,6 @@ import csv
 import yaml
 
 
-def print_counts(word_counts, category_counts):
-    for word in word_counts:
-        print(f"{word}: {word_counts[word]}")
-        for index, count in category_counts[word].items():
-            print(f"Combination {index}: {count}")
-        print("length of category_counts[word]:", len(category_counts[word]))
-
-
 # Function to map raw combination to valid combination
 def map_to_valid_combination(q1, q2, q3, q4):
     if q1 == "outdoors" and q2 == "natural":
@@ -65,7 +57,7 @@ def main():
     """input and output file paths"""
     file_path = "../data/verbs/target_verbs.csv"
     all_combinations_path = "../data/helper/combinations.yaml"
-    sentences_path = "../data/sentences/sentences.csv"
+    verbs_path = "../data/verbs/output_verbs.csv"
     output_csv_dir = "../data/word_counts_and_combinations/"
     output_csv = "word_counts_and_combinations.csv"
     """input and output file paths"""
@@ -84,11 +76,11 @@ def main():
     category_counts = defaultdict(lambda: defaultdict(int))
 
     # Load the data
-    data = pd.read_csv(sentences_path)
+    data = pd.read_csv(verbs_path)
 
     # Iterate through rows in the data
     for _, row in data.iterrows():
-        sentence = row["sentence"].lower()
+        verb = row["Verb"]
 
         # Get q1, q2, q3, and q4 values as strings
         q1, q2, q3, q4 = row["q1"], row["q2"], row["q3"], row["q4"]
@@ -97,10 +89,8 @@ def main():
         valid_combination = map_to_valid_combination(q1, q2, q3, q4)
 
         # Count occurrences of each target word
-        for word in target_words:
-            if word in sentence:
-                word_counts[word] += 1
-                category_counts[word][valid_combination] += 1
+        word_counts[verb] += 1
+        category_counts[verb][valid_combination] += 1
 
     verify_counts(word_counts, category_counts, target_words, all_combinations)
     csv_dir = output_csv_dir+output_csv
