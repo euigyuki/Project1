@@ -1,30 +1,5 @@
 import csv
 from collections import Counter
-from nltk.corpus import stopwords
-
-
-def extract_lemmas_from_csv(file_path):
-    """
-    Reads a CSV file and extracts all unique lemmas into a list.
-
-    :param file_path: Path to the input CSV file.
-    :return: List of unique lemmas.
-    """
-    lemmas = []
-    try:
-        with open(file_path, mode="r", encoding="utf-8") as csvfile:
-            reader = csv.DictReader(csvfile)
-            for row in reader:
-                if "Lemma" in row:  # Ensure the column exists
-                    lemmas.append(row["Lemma"])
-        # Return unique lemmas
-        return list(set(lemmas))
-    except FileNotFoundError:
-        print(f"File not found: {file_path}")
-        return []
-    except Exception as e:
-        print(f"An error occurred: {e}")
-        return []
     
 
 def save_verbs_to_csv(verbs, output_csv):
@@ -41,15 +16,13 @@ def save_verbs_to_csv(verbs, output_csv):
         print(f"Verbs saved to {output_csv}")
 
 
-def analyze_comments_with_verbs(csv_file, number_of_top_words, verbs):
+def analyze_captions_with_verbs(csv_file, number_of_top_words):
     """
-    Analyze comments from a CSV file and count occurrences of PropBank verbs.
+    Analyze captions from a CSV file and count occurrences of PropBank verbs.
     :param csv_file: Path to the CSV file.
     :param number_of_top_words: Number of top words to display.
-    :param verbs: Set of verbs to use as a filter.
     """
     word_counts = Counter()
-    stop_words = set(stopwords.words("english"))
     unique_verbs = []
 
     try:
@@ -59,14 +32,7 @@ def analyze_comments_with_verbs(csv_file, number_of_top_words, verbs):
 
             for row in csv_reader:
                 if row:
-                    # Split the combined column into parts
-                    words = row[0].split()
-                    filtered_verbs = [
-                        word
-                        for word in words
-                        if (word in verbs) and (word not in stop_words)
-                    ]
-                    word_counts.update(filtered_verbs)
+                    word_counts[row[2]] += 1
 
         print("Verb counts in comments (filtered by PropBank verbs):")
         for word, count in word_counts.most_common(number_of_top_words):
@@ -85,24 +51,13 @@ def analyze_comments_with_verbs(csv_file, number_of_top_words, verbs):
 
 def main():
     """input and output file paths"""
-    verb_path = "../data/verbs/output_verbs.csv"  
-    csv_file_path = "../data/sentences/sentences.csv"
+    verb_path = "../data/verbs/output_verbs.csv"
     target_verbs_csv = "../data/verbs/target_verbs.csv"
     """input and output file paths"""
-
-    # Extract lemmas
-    lemmas_list = extract_lemmas_from_csv(verb_path)
-
-    # Print the lemmas
-    print("Extracted Lemmas:")
-    print(lemmas_list)
-    print(f"Total unique lemmas: {len(lemmas_list)}")
     number_of_top_words = 300
 
     # Analyze comments filtered by verbs
-    unique_verbs = analyze_comments_with_verbs(
-        csv_file_path, number_of_top_words, lemmas_list
-    )
+    unique_verbs = analyze_captions_with_verbs(verb_path, number_of_top_words)
     print(unique_verbs)
     save_verbs_to_csv(unique_verbs, target_verbs_csv)
 
