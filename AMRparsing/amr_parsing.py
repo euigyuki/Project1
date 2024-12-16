@@ -258,9 +258,9 @@ def process_verbs_and_save(sentences, amr_graphs, output_file):
 
 def main():
     """input and output file paths"""
-    input_csv = "../data/sentences/sentences_edited_first50.csv"
+    input_csv = "../data/sentences/sentences_edited.csv"
     output_verbs_csv = "../data/verbs/output_verbs.csv"
-    output_file = "sentences_export_first50.csv"
+    output_file = "sentences_export_all.csv"
     output_directory_for_graphs = "../data/amr_graphs"
     """input and output file paths"""
 
