@@ -80,8 +80,8 @@ def read_sentences_from_csv(file_path):
     return sentences, categories
 
 
-def stog(sentences):
-    stog = amrlib.load_stog_model()
+def stog(sentences,path_to_stog):
+    stog = amrlib.load_stog_model(path_to_stog)
     graphs = []
     # Initialize a progress bar with tqdm
     for sentence in tqdm(sentences, desc="Generating graphs", unit="sentence"):
@@ -91,8 +91,8 @@ def stog(sentences):
     return graphs
 
 
-def sentence_to_graph(sentences):
-    amr_graphs = stog(sentences)
+def sentence_to_graph(sentences, path_to_stog):
+    amr_graphs = stog(sentences, path_to_stog)
     print(f"Generated {len(amr_graphs)} AMR graphs")
     return amr_graphs
 
@@ -164,9 +164,9 @@ def remove_location_or_argument(amr_string, location_arguments):
         return amr_string
 
 
-def process_graphs(amr_graphs, location_arguments):
+def process_graphs(amr_graphs, location_arguments,path_to_gtos):
     processed_graphs = []
-    gtos_model = amrlib.load_gtos_model()
+    gtos_model = amrlib.load_gtos_model(path_to_gtos)
     processed_sentences = []
     for i, graph in enumerate(amr_graphs):
         try:
@@ -256,23 +256,24 @@ def process_verbs_and_save(sentences, categories, amr_graphs,
 def main():
     """input file paths"""
     input_csv = "../data/sentences/sentences_edited_first11.csv"
+    path_to_stog = "../models/model_stog"
+    path_to_gtos = "../models/model_gtos"
 
     """output file paths"""
     output_verbs_csv = "../data/verbs/output_verbs_edited_first11.csv"
-    output_file = "sentences_export_edited_first11.csv"
+    output_file_exported_sentences = "../data/exported_sentences/sentences_export_edited_first11.csv"
     output_directory_for_original_graphs = "../data/amr_graphs_original"
     output_directory_for_processed_graphs = "../data/amr_graphs_processed"
-    # Specify the path to your frames folder
     frames_folder = "../data/propbank-frames/frames"
     location_arguments = get_location_arguments(frames_folder)
 
     sentences, categories = read_sentences_from_csv(input_csv)
     print(f"Read {len(sentences)} sentences from {input_csv}")
-    amr_graphs = sentence_to_graph(sentences)
+    amr_graphs = sentence_to_graph(sentences,path_to_stog)
     save_graphs_to_directory(amr_graphs, output_directory_for_original_graphs, prefix="original")
-    graphs, processed_sents = process_graphs(amr_graphs, location_arguments)
-    save_graphs_to_directory(graphs, output_directory_for_processed_graphs)
-    export_sentences_to_csv(sentences, processed_sents, output_file)
+    graphs, processed_sents = process_graphs(amr_graphs, location_arguments,path_to_gtos)
+    save_graphs_to_directory(graphs, output_directory_for_processed_graphs, prefix = "processed" )
+    export_sentences_to_csv(sentences, processed_sents, output_file_exported_sentences)
     process_verbs_and_save(sentences, categories, amr_graphs,
                            location_arguments, output_verbs_csv)
 
