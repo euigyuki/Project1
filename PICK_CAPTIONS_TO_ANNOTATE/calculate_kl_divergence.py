@@ -55,18 +55,24 @@ def generate_p(df):
         # Skip 'Word', 'Total_Count', and 'Probability'
         for col in df.columns[1:-1]:  
             if row["Total_Count"] > 0:  # Avoid division by zero
+                df[col] = df[col].astype(float)     # Ensure the column is of type float64
                 df.at[index, col] = row[col] / row["Total_Count"]
+
     return df
 
 
 def main():
     """input and output file paths"""
+    #input
     file_path = "../data/word_counts_and_combinations/word_counts_and_combinations.csv"
-    normalized_word_counts = "normalized_word_counts.csv"
     CFAC_path = "../data/helper/counts_for_all_combinations.yaml"
     all_combinations_path = "../data/helper/combinations.yaml"
+    #output
     output_path_for_kl_with_divider = "../data/kl_divergence/kl_divergence_sorted_with_divider.csv"
     output_path_for_kl = "../data/kl_divergence/kl_divergence_sorted.csv"
+    normalized_word_counts = "normalized_word_counts.csv"
+    kl_divergence_by_row = "kl_divergence_by_row.csv"
+    column_maxima_output = "column_maxima.csv"
     """input and output file paths"""
 
     CFAC = load_config(CFAC_path)
@@ -87,66 +93,36 @@ def main():
 
     # Calculate the KL divergence for each word and store it in a new column
     kl_values = []
-    max_indices = []
-    max_elementwise_kls = []
+    kl_matrix = []
     for index, row in df.iterrows():
         p = row[1:-1].values  # Skip 'Word', 'Total_Count'
         q = q_distribution  # Use the same q distribution for all words
         kl_value = kl_divergence(p, q)
         kl_values.append(kl_value)
 
-        # Find the index of the maximum value in the p distribution
-        max_index = np.argmax(p)
-        max_indices.append(all_combos[max_index])
 
         # Calculate element-wise KL divergence
         elementwise_kl = elementwise_kl_divergence(p, q)
-        max_elementwise_kl = np.max(elementwise_kl)
-        max_elementwise_kls.append(max_elementwise_kl)
+        kl_matrix.append(elementwise_kl)
 
-    # Add the KL divergence to the DataFrame
-    df["KLD"] = kl_values
-    df["Max_Index"] = max_indices  # New column for max index in p distribution
-    df["Max_elementwise_KL"] = max_elementwise_kls
+    kl_df = pd.DataFrame(kl_matrix, columns=df.columns[1:-1])
+    kl_df.insert(0, "Word", df["Word"])
+    kl_df.to_csv(kl_divergence_by_row, index=False)
+    column_maxima = []
+    for col in kl_df.columns[1:]:
+        max_kl_value = kl_df[col].max()
+        max_word = kl_df.loc[kl_df[col].idxmax(), "Word"]
+        column_maxima.append({
+            "Column": col,
+            "Max_KL_Divergence": max_kl_value,
+            "Word": max_word
+        })
 
-    # Sort the DataFrame by KL divergence in descending order
-    df_sorted = df.sort_values(by="KLD", ascending=False)
+    column_maxima_df = pd.DataFrame(column_maxima)
+    column_maxima_df.to_csv(column_maxima_output, index=False)
+ 
 
-    # Divide the sorted DataFrame into thirds
-    n = len(df_sorted)
-    third = n // 3
-
-    # Split into three segments and sort each by 'Max_before_KL'
-    top_third = df_sorted.iloc[:third].sort_values(
-        by="Max_elementwise_KL", ascending=False
-    )
-    middle_third = df_sorted.iloc[third: 2 * third].sort_values(
-        by="Max_elementwise_KL", ascending=False
-    )
-    bottom_third = df_sorted.iloc[2 * third:].sort_values(
-        by="Max_elementwise_KL", ascending=False
-    )
-
-    combined_df = pd.concat([top_third, middle_third, bottom_third])
-
-    # Create separator rows
-    separator = pd.DataFrame(
-        [["*****"] * len(df_sorted.columns)], columns=df_sorted.columns
-    )
-
-    # Concatenate the three parts with separators in between
-    final_sorted_df = pd.concat(
-        [top_third, separator, middle_third, separator, bottom_third]
-    )
-
-    # Save the final sorted DataFrame to a CSV file
-    final_sorted_df[
-        ["Word", "KLD", "Max_Index", "Max_elementwise_KL"]
-    ].to_csv(output_path_for_kl_with_divider, index=False)
-    combined_df[["Word", "KLD", "Max_Index", "Max_elementwise_KL"]].to_csv(
-        output_path_for_kl, index=False
-    )
-
+    
 
 if __name__ == "__main__":
     main()

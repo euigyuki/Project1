@@ -12,7 +12,6 @@ from collections import defaultdict
 
 spacy.load("en_core_web_sm")
 
-
 def find_n_edges(amr_string, location_arguments):
     # Decode the AMR graph
     graph = penman.decode(amr_string)
@@ -194,17 +193,18 @@ def process_graphs(amr_graphs, location_arguments):
     return processed_graphs, processed_sentences
 
 
-def save_graphs_to_directory(graphs, output_dir):
+def save_graphs_to_directory(graphs, output_dir, prefix="processed"):
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
     for i, graph in enumerate(graphs):
         if graph is None:  # Skip None entries
             print(f"Skipping graph {i+1} as it is None.")
             continue
-        file_path = os.path.join(output_dir, f"amr_graph_{i+1}.txt")
+        file_path = os.path.join(output_dir, f"{prefix}_amr_graph_{i+1}.txt")
         with open(file_path, "w", encoding="utf-8") as f:
             f.write(graph)
-        print(f"Saved processed graph {i+1} to {file_path}")
+        print(f"Saved {prefix} graph {i+1} to {file_path}")
+
 
 
 def process_verbs_and_save(sentences, categories, amr_graphs,
@@ -254,12 +254,14 @@ def process_verbs_and_save(sentences, categories, amr_graphs,
 
 
 def main():
-    """input and output file paths"""
-    input_csv = "../data/sentences/sentences.csv"
-    output_verbs_csv = "../data/verbs/output_verbs.csv"
-    output_file = "sentences_export.csv"
-    output_directory_for_graphs = "../data/amr_graphs"
-    """input and output file paths"""
+    """input file paths"""
+    input_csv = "../data/sentences/sentences_edited_first11.csv"
+
+    """output file paths"""
+    output_verbs_csv = "../data/verbs/output_verbs_edited_first11.csv"
+    output_file = "sentences_export_edited_first11.csv"
+    output_directory_for_original_graphs = "../data/amr_graphs_original"
+    output_directory_for_processed_graphs = "../data/amr_graphs_processed"
     # Specify the path to your frames folder
     frames_folder = "../data/propbank-frames/frames"
     location_arguments = get_location_arguments(frames_folder)
@@ -267,8 +269,9 @@ def main():
     sentences, categories = read_sentences_from_csv(input_csv)
     print(f"Read {len(sentences)} sentences from {input_csv}")
     amr_graphs = sentence_to_graph(sentences)
+    save_graphs_to_directory(amr_graphs, output_directory_for_original_graphs, prefix="original")
     graphs, processed_sents = process_graphs(amr_graphs, location_arguments)
-    save_graphs_to_directory(graphs, output_directory_for_graphs)
+    save_graphs_to_directory(graphs, output_directory_for_processed_graphs)
     export_sentences_to_csv(sentences, processed_sents, output_file)
     process_verbs_and_save(sentences, categories, amr_graphs,
                            location_arguments, output_verbs_csv)
