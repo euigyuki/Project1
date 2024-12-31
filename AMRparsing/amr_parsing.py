@@ -9,6 +9,10 @@ import pandas as pd
 import glob
 import xml.etree.ElementTree as ET
 from collections import defaultdict
+import os
+print("Current Working Directory:", os.getcwd())
+os.environ["HF_HOME"] = "/home/egk265/.cache/huggingface"
+
 
 spacy.load("en_core_web_sm")
 
@@ -103,7 +107,7 @@ def find_type_edges(amr_string, type):
         graph = penman.decode(amr_string)
         for triple in graph.triples:
             source, role, target = triple
-            if role == type:
+            if role in type:
                 location_edges.append((source, target))
     except Exception as e:
         print(f"Error decoding AMR string: {e}")
@@ -111,57 +115,57 @@ def find_type_edges(amr_string, type):
     return location_edges
 
 
+def filter_branches(branches, location_nodes):
+    new_branches = []
+    for role, target in branches:
+        if target[0] not in location_nodes:
+            if isinstance(target, tuple):
+                # Recursively filter sub-branches
+                new_target = (target[0], filter_branches(target[1], location_nodes))
+                new_branches.append((role, new_target))
+            else:
+                new_branches.append((role, target))
+    return new_branches
+
 def remove_location_or_argument(amr_string, location_arguments):
     graph = penman.decode(amr_string)
-    instances = graph.instances()
-    edges = graph.edges()
-    attributes = graph.attributes()
     top = graph.top
-    n = find_n_edges(amr_string, location_arguments)
-    # Step 1: Remove location-related edges
-    non_location_edges = []
-    for edge in edges:
-        if edge[1] != ":location" and edge not in n:
-            non_location_edges.append(edge)
-    # Step 2: Find reachable nodes using BFS
-    reachable = set([top])
-    queue = [top]
-    while queue:
-        node = queue.pop(0)
-        for s, _, t in non_location_edges:
-            if s == node and t not in reachable:
-                reachable.add(t)
-                queue.append(t)
-            elif t == node and s not in reachable:
-                reachable.add(s)
-                queue.append(s)
-            elif s in reachable and t not in reachable:
-                reachable.add(t)
-                queue.append(t)
-            elif t in reachable and s not in reachable:
-                reachable.add(s)
-                queue.append(s)
-    # Step 3: Keep only triples with reachable nodes
-    new_triples = []
-    for t in non_location_edges:
-        if t[0] in reachable and (isinstance(t[2], str) or t[2] in reachable):
-            new_triples.append(t)
-    # Step 4: Keep only instances and attributes with reachable nodes
-    new_instances = []
-    for instance in instances:
-        if instance.source in reachable:
-            new_instances.append(instance)
-    new_attributes = []
-    for attribute in attributes:
-        if attribute.source in reachable:
-            new_attributes.append(attribute)
-    new_graph = new_instances + new_triples + new_attributes
-    new_graph = penman.Graph(new_graph, top=top)
-    try:
-        return penman.encode(new_graph)
-    except penman.exceptions.LayoutError:
-        print("Warning: Could not encode modified graph. Returning original.")
-        return amr_string
+    tree = penman.parse(amr_string)
+    prefix_to_concept = {}
+    # Populate the prefix-to-concept mapping
+    for path, branch in tree.walk():
+        role, target = branch
+        if role == '/': #concept definition
+            prefix_to_concept[tuple(path)] = target
+    
+    # Step 1: Identify location-related nodes
+    location_paths = []
+    roles_to_remove = [":location"]
+    for path, branch in tree.walk():
+        role,target = branch
+        # Check if the edge role is location-related or its target is a location-related node
+        #if role in [":location", ":location-of"] or role in location_arguments:
+        if role in roles_to_remove:
+            location_paths.insert(0, path)
+        temp = path[:-1] + (0,)
+        parent_prefix = tuple(temp)
+        parent_concept = prefix_to_concept.get(parent_prefix, None)
+        # Check if the role is in location_arguments for the parent concept
+        if parent_concept and parent_concept in location_arguments:
+            role_number = role.replace(':ARG', '')
+            if role_number in location_arguments[parent_concept]:
+                location_paths.insert(0,path)
+    top = tree.nodes()[0]
+    for path in location_paths:
+        node = top
+        for index in path[:-1]:
+            node = node[1][index][1]
+        node[1].pop(path[-1])
+
+    new_tree = penman.Tree(top)
+    new_amr = penman.format(new_tree)
+    return new_amr
+
 
 
 def process_graphs(amr_graphs, location_arguments,path_to_gtos):
@@ -169,27 +173,22 @@ def process_graphs(amr_graphs, location_arguments,path_to_gtos):
     gtos_model = amrlib.load_gtos_model(path_to_gtos)
     processed_sentences = []
     for i, graph in enumerate(amr_graphs):
-        try:
-            location_edges = find_type_edges(graph, ":location")
-            n = find_n_edges(graph, location_arguments)
-            if location_edges or n:
-                processed_graph = remove_location_or_argument(
-                    graph, location_arguments
-                    )
-                processed_sentence=gtos_model.generate([processed_graph])[0][0]
-                processed_sentences.append(processed_sentence)
-            else:
-                processed_sentences.append("skip_because_no_change")
-                processed_graph = None
-            processed_graphs.append(processed_graph)
-        except Exception as e:
-            print(f"Error processing graph {i+1}: {str(e)}")
-            print(f"Exception type: {type(e)}")
-            traceback.print_exc()
-            processed_sentences.append('skip_because_error')
-            processed_graphs.append(
-                graph
-            )  # Keep the original graph if there's an error
+        location_edges = find_type_edges(graph,[":location", ":location-of"])
+        n = find_n_edges(graph, location_arguments)
+        if location_edges or n:
+            print("original graph")
+            print(graph)
+            processed_graph = remove_location_or_argument(
+                graph, location_arguments
+                )
+            print("processed graph")
+            print(processed_graph)
+            processed_sentence=gtos_model.generate([processed_graph])[0][0]
+            processed_sentences.append(processed_sentence)
+        else:
+            processed_sentences.append("skip_because_no_change")
+            processed_graph = None
+        processed_graphs.append(processed_graph)
     return processed_graphs, processed_sentences
 
 
@@ -265,11 +264,13 @@ def main():
     output_directory_for_original_graphs = "../data/amr_graphs_original"
     output_directory_for_processed_graphs = "../data/amr_graphs_processed"
     frames_folder = "../data/propbank-frames/frames"
-    location_arguments = get_location_arguments(frames_folder)
 
+
+    location_arguments = get_location_arguments(frames_folder)
     sentences, categories = read_sentences_from_csv(input_csv)
     print(f"Read {len(sentences)} sentences from {input_csv}")
     amr_graphs = sentence_to_graph(sentences,path_to_stog)
+    amr_graphs.append("(b / believe-01 :ARG0 (g / girl) :ARG1 (s / sit-01 :location (c / cat) :ARG2 (m / mat)))")
     save_graphs_to_directory(amr_graphs, output_directory_for_original_graphs, prefix="original")
     graphs, processed_sents = process_graphs(amr_graphs, location_arguments,path_to_gtos)
     save_graphs_to_directory(graphs, output_directory_for_processed_graphs, prefix = "processed" )
