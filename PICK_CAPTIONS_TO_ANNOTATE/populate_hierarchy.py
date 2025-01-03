@@ -59,7 +59,9 @@ def write_output(output_df, output_path, pick):
 def main():
     """input and output file paths"""
     KLD = "../data/kl_divergence/"
+    #input
     input_path = f"{KLD}kl_divergence_sorted"
+    #output
     output_path = f"{KLD}hierarchy_populated"
     """input and output file paths"""
 

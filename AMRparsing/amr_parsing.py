@@ -4,7 +4,6 @@ import os
 import csv
 from tqdm import tqdm
 import penman
-import traceback
 import pandas as pd
 import glob
 import xml.etree.ElementTree as ET
@@ -206,63 +205,18 @@ def save_graphs_to_directory(graphs, output_dir, prefix="processed"):
 
 
 
-def process_verbs_and_save(sentences, categories, amr_graphs,
-                           location_arguments, output_file):
-    processed_data = []
-    i = 1
-    for sentence, category, amr_string in tqdm(
-            zip(sentences, categories, amr_graphs),
-            total=len(sentences),
-            desc="Processing sentences"
-    ):
-        try:
-            graph = penman.decode(amr_string)
-            instances = [
-                instance
-                for instance in graph.instances()
-                if instance.target[-2:].isnumeric()
-            ]
-            n_edges = find_n_edges(amr_string, location_arguments)
-            for instance in instances:
-                verb = instance.target
-                source = instance.source
-                lemma = verb.split("-")[0]  # Compute the lemma from the verb
-                n_value = '+'.join([n[1][-1] for n in n_edges if n[0]==source])
-                q1, q2, q3, q4 = category
-                processed_data.append(
-                    {
-                        "ID": i,
-                        "Sentence": sentence,
-                        "Verb": verb,
-                        "Lemma": lemma,
-                        "PropBank Role (n)": n_value
-                        or "N/A",  # Use "N/A" if no role number
-                        "q1": q1,
-                        "q2": q2,
-                        "q3": q3,
-                        "q4": q4
-                    }
-                )
-        except Exception as e:
-            print(f"Error processing AMR graph: {str(e)}")
-            traceback.print_exc()
-        i += 1
-    df = pd.DataFrame(processed_data)
-    df.to_csv(output_file, index=False, encoding="utf-8")
-    print(f"Processed verbs saved to {output_file}")
-
 
 def main():
     """input file paths"""
-    input_csv = "../data/sentences/sentences_edited_first11.csv"
+    input_csv = "../data/sentences/sentences.csv"
     path_to_stog = "../models/model_stog"
     path_to_gtos = "../models/model_gtos"
 
     """output file paths"""
-    output_verbs_csv = "../data/verbs/output_verbs_edited_first11.csv"
-    output_file_exported_sentences = "../data/exported_sentences/sentences_export_edited_first11.csv"
-    output_directory_for_original_graphs = "../data/amr_graphs_original"
-    output_directory_for_processed_graphs = "../data/amr_graphs_processed"
+    output_verbs_csv = "../data/verbs/output_verbs.csv"
+    output_file_exported_sentences = "../data/exported_sentences/sentences_export25k.csv"
+    output_directory_for_original_graphs = "../data/amr_graphs_original25k"
+    output_directory_for_processed_graphs = "../data/amr_graphs_processed25k"
     frames_folder = "../data/propbank-frames/frames"
 
 
@@ -270,13 +224,11 @@ def main():
     sentences, categories = read_sentences_from_csv(input_csv)
     print(f"Read {len(sentences)} sentences from {input_csv}")
     amr_graphs = sentence_to_graph(sentences,path_to_stog)
-    amr_graphs.append("(b / believe-01 :ARG0 (g / girl) :ARG1 (s / sit-01 :location (c / cat) :ARG2 (m / mat)))")
     save_graphs_to_directory(amr_graphs, output_directory_for_original_graphs, prefix="original")
-    graphs, processed_sents = process_graphs(amr_graphs, location_arguments,path_to_gtos)
-    save_graphs_to_directory(graphs, output_directory_for_processed_graphs, prefix = "processed" )
+    processed_graphs, processed_sents = process_graphs(amr_graphs, location_arguments,path_to_gtos)
+    save_graphs_to_directory(processed_graphs, output_directory_for_processed_graphs, prefix = "processed" )
     export_sentences_to_csv(sentences, processed_sents, output_file_exported_sentences)
-    process_verbs_and_save(sentences, categories, amr_graphs,
-                           location_arguments, output_verbs_csv)
+    
 
 
 if __name__ == "__main__":
