@@ -12,7 +12,7 @@ Run amr_parser.py to parse the input data and extract relevant structures.
 
 python amr_parser.py
 Purpose: Parses and preprocesses the input dataset for downstream analysis.
-
+1.5 process verbs
 2. Pick Verbs
 Run pick_verbs_and_generate_counts.py to extract verbs from the parsed data and generate initial counts.
 
