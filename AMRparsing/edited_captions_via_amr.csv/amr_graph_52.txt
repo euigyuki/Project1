@@ -1,9 +1,0 @@
-# ::snt A girls plays in the surf .
-# ::tokens ["A", "girls", "plays", "in", "the", "surf", "."]
-# ::ner_tags ["O", "O", "O", "O", "O", "O", "O"]
-# ::ner_iob ["O", "O", "O", "O", "O", "O", "O"]
-# ::pos_tags ["DT", "NNS", "VBZ", "IN", "DT", "NN", "."]
-# ::lemmas ["a", "girl", "play", "in", "the", "surf", "."]
-(p0 / play-01
-      :location (s0 / surf-01)
-      :ARG0 (g0 / girl))

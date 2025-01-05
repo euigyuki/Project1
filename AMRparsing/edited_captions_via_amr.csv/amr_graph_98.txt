@@ -1,8 +1,0 @@
-# ::snt Five men
-# ::tokens ["Five", "men"]
-# ::ner_tags ["CARDINAL", "O"]
-# ::ner_iob ["B", "O"]
-# ::pos_tags ["CD", "NNS"]
-# ::lemmas ["Five", "man"]
-(m0 / man
-      :quant 5 )

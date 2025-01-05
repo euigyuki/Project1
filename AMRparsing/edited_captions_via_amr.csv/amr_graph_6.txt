@@ -1,8 +1,0 @@
-# ::snt A tattooed girl
-# ::tokens ["A", "tattooed", "girl"]
-# ::ner_tags ["O", "O", "O"]
-# ::ner_iob ["O", "O", "O"]
-# ::pos_tags ["DT", "NN", "NN"]
-# ::lemmas ["a", "tattooed", "girl"]
-(g0 / girl
-      :ARG1-of (w0 / wet-01))
