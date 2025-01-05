@@ -42,17 +42,21 @@ python split_kl_into_thirds.py
 Purpose: Categorizes KL values into thirds (low, medium, high) to facilitate downstream tasks.
 
 8. Populate Hierarchy
+
 Run populate_hierarchy.py to map the grouped data into a predefined hierarchy.
 
 python populate_hierarchy.py
 Purpose: Organizes data into a hierarchical structure based on KL divergence groupings.
 
 9. Pick Captions
+
 Run pick_captions.py to select captions containing location information based on the hierarchical analysis.
 
 python pick_captions.py
 Purpose: Filters captions by location relevance and hierarchical criteria.
-Notes
+
+
+NOTES
 
 Ensure all required dependencies are installed before running the scripts. You can install dependencies using:
 pip install -r requirements.txt
