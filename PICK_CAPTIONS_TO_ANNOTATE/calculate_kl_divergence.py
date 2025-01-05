@@ -64,15 +64,14 @@ def generate_p(df):
 def main():
     """input and output file paths"""
     #input
-    file_path = "../data/word_counts_and_combinations/word_counts_and_combinations.csv"
+    #file_path = "../data/word_counts_and_combinations/word_counts_and_combinations_edited.csv"
+    file_path = "../data/word_counts_and_combinations/filtered_rows.csv"
     CFAC_path = "../data/helper/counts_for_all_combinations.yaml"
     all_combinations_path = "../data/helper/combinations.yaml"
     #output
-    output_path_for_kl_with_divider = "../data/kl_divergence/kl_divergence_sorted_with_divider.csv"
-    output_path_for_kl = "../data/kl_divergence/kl_divergence_sorted.csv"
-    normalized_word_counts = "normalized_word_counts.csv"
-    kl_divergence_by_row = "kl_divergence_by_row.csv"
-    column_maxima_output = "column_maxima.csv"
+    normalized_word_counts = "../data/normalized_word_counts/normalized_word_counts.csv"
+    kl_divergence_by_row = "../data/kl_divergence/kl_divergence_by_row.csv"
+    column_maxima_output = "../data/column_maxima/column_maxima.csv"
     """input and output file paths"""
 
     CFAC = load_config(CFAC_path)

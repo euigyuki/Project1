@@ -32,8 +32,8 @@ def process_verbs_and_save(sentences, categories, amr_graphs,
             root_node = graph.top
             root_instances =[]
             for instance in graph.instances():
-                #if instance.source == root_node and instance.target[-2:].isnumeric():
-                if instance.target[-2:].isnumeric():
+                if instance.source == root_node and instance.target[-2:].isnumeric():
+                #if instance.target[-2:].isnumeric():
                     root_instances.append(instance)
            
           
@@ -69,17 +69,17 @@ def process_verbs_and_save(sentences, categories, amr_graphs,
 def main():
     """input file paths"""
     input_csv = "../data/sentences/sentences.csv"
-    directory_for_processed_graphs = "../data/amr_graphs_processed25k"
+    directory_for_original_graphs = "../data/amr_graphs_original25k"
     frames_folder = "../data/propbank-frames/frames"
 
     """output file paths"""
     output_verbs_csv = "../data/verbs/output_verbs.csv"
 
-    amr_graphs = load_amr_graphs_from_directory(directory_for_processed_graphs)
+    original_amr_graphs = load_amr_graphs_from_directory(directory_for_original_graphs)
     location_arguments = get_location_arguments(frames_folder)
     sentences, categories = read_sentences_from_csv(input_csv)
 
-    process_verbs_and_save(sentences, categories, amr_graphs,
+    process_verbs_and_save(sentences, categories, original_amr_graphs,
                             location_arguments, output_verbs_csv)
     
 if __name__ == "__main__":
