@@ -4,10 +4,12 @@ import math
 
 def main():
     """input and output file paths"""
-    input_file = "../data/kl_divergence/kl_divergence_sorted.csv"
-    first = "../data/kl_divergence/kl_divergence_sorted_top_third.csv"
-    second = "../data/kl_divergence/kl_divergence_sorted_second_third.csv"
-    third = "../data/kl_divergence/kl_divergence_sorted_third_third.csv"
+    #input
+    input_file = "../../data/kl_divergence/kl_divergence_by_row.csv"
+    #output
+    first = "../../data/kl_divergence/kl_divergence_by_row_top_third.csv"
+    second = "../../data/kl_divergence/kl_divergence_by_row_second_third.csv"
+    third = "../../data/kl_divergence/kl_divergence_by_row_third_third.csv"
     """input and output file paths"""
 
     # Load the data from the CSV file

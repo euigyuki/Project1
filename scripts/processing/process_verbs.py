@@ -1,6 +1,6 @@
 from tqdm import tqdm
 import penman
-from amr_parsing import find_n_edges, get_location_arguments, read_sentences_from_csv
+from AMRparsing.amr_parsing import find_n_edges, get_location_arguments, read_sentences_from_csv
 import traceback
 import pandas as pd
 import os
@@ -68,12 +68,12 @@ def process_verbs_and_save(sentences, categories, amr_graphs,
 
 def main():
     """input file paths"""
-    input_csv = "../data/sentences/sentences.csv"
-    directory_for_original_graphs = "../data/amr_graphs_original25k"
-    frames_folder = "../data/propbank-frames/frames"
+    input_csv = "../../data/sentences/sentences.csv"
+    directory_for_original_graphs = "../../data/amr_graphs_original25k"
+    frames_folder = "../../data/propbank-frames/frames"
 
     """output file paths"""
-    output_verbs_csv = "../data/verbs/output_verbs.csv"
+    output_verbs_csv = "../../data/verbs/output_verbs.csv"
 
     original_amr_graphs = load_amr_graphs_from_directory(directory_for_original_graphs)
     location_arguments = get_location_arguments(frames_folder)
