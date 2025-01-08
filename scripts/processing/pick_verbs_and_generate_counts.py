@@ -52,9 +52,9 @@ def analyze_captions_with_verbs(csv_file, number_of_top_words):
 def main():
     """input and output file paths"""
     #input
-    verb_path = "../data/verbs/output_verbs.csv"
+    verb_path = "../../data/verbs/output_verbs.csv"
     #output
-    target_verbs_csv = "../data/verbs/target_verbs.csv"
+    target_verbs_csv = "../../data/verbs/target_verbs.csv"
     """input and output file paths"""
     number_of_top_words = 300
 

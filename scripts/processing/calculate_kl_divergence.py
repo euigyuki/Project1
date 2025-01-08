@@ -3,11 +3,8 @@ import os
 import numpy as np
 import pandas as pd
 
-# Add the path to the helper_functions directory
-sys.path.append(os.path.abspath("../helper_functions"))
-
 # Import load_config from load_yaml.py
-from load_yaml import load_config
+from helper_functions.load_yaml import load_config
 
 
 def kl_divergence(p, q):
@@ -65,13 +62,13 @@ def main():
     """input and output file paths"""
     #input
     #file_path = "../data/word_counts_and_combinations/word_counts_and_combinations_edited.csv"
-    file_path = "../data/word_counts_and_combinations/filtered_rows.csv"
-    CFAC_path = "../data/helper/counts_for_all_combinations.yaml"
-    all_combinations_path = "../data/helper/combinations.yaml"
+    file_path = "../../data/word_counts_and_combinations/filtered_rows.csv"
+    CFAC_path = "../../data/helper/counts_for_all_combinations.yaml"
+    all_combinations_path = "../../data/helper/combinations.yaml"
     #output
-    normalized_word_counts = "../data/normalized_word_counts/normalized_word_counts.csv"
-    kl_divergence_by_row = "../data/kl_divergence/kl_divergence_by_row.csv"
-    column_maxima_output = "../data/column_maxima/column_maxima.csv"
+    normalized_word_counts = "../../data/normalized_word_counts/normalized_word_counts.csv"
+    kl_divergence_by_row = "../../data/kl_divergence/kl_divergence_by_row.csv"
+    column_maxima_output = "../../data/column_maxima/column_maxima.csv"
     """input and output file paths"""
 
     CFAC = load_config(CFAC_path)

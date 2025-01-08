@@ -62,10 +62,10 @@ def filter_rows_with_value(input_csv, output_csv, threshold=4):
 # Example usage
 if __name__ == "__main__":
     #input
-    file_path = "../data/word_counts_and_combinations/word_counts_and_combinations_edited.csv"
-    filtered_path = "../data/word_counts_and_combinations/filtered_rows.csv"
+    file_path = "../../data/word_counts_and_combinations/word_counts_and_combinations_edited.csv"
+    filtered_path = "../../data/word_counts_and_combinations/filtered_rows.csv"
     #output
-    file_path = "../data/word_counts_and_combinations/word_counts_and_combinations_edited.csv"
+    file_path = "../../data/word_counts_and_combinations/word_counts_and_combinations_edited.csv"
 
     result = count_rows_with_value(file_path, file_path, threshold=4)
     print(f"Number of rows with at least one value >= 4: {result}")

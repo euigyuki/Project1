@@ -56,11 +56,11 @@ def verify_counts(word_counts, category_counts, target_words, all_combos):
 def main():
     """input and output file paths"""
     #input
-    file_path = "../data/verbs/target_verbs.csv"
-    all_combinations_path = "../data/helper/combinations.yaml"
+    file_path = "../../data/verbs/target_verbs.csv"
+    all_combinations_path = "../../data/helper/combinations.yaml"
     #output
-    verbs_path = "../data/verbs/output_verbs.csv"
-    output_csv_dir = "../data/word_counts_and_combinations/"
+    verbs_path = "../../data/verbs/output_verbs.csv"
+    output_csv_dir = "../../data/word_counts_and_combinations/"
     output_csv = "word_counts_and_combinations.csv"
     """input and output file paths"""
 
