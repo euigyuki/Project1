@@ -1,73 +1,75 @@
 import pandas as pd
+from collections import defaultdict
 
 # Function to extract best verbs
 def extract_best_verbs(file_paths):
     best_verbs_dict = {}
+    verbs_and_locations = {}
+    verb_and_bucket_info={}
     for file_path in file_paths:
         df = pd.read_csv(file_path)
         if 'Best Verb' in df.columns:
-            for verb in df['Best Verb']:
+            for _, row in df.iterrows():
+                verb = row['Best Verb']
+                location = row['Best Match Column']
+                # Update the count of the verb
                 best_verbs_dict[verb] = best_verbs_dict.get(verb, 0) + 1
+                # Store the best match column for the verb
+                verbs_and_locations[verb] = location
+                if "top" in file_path:
+                    verb_and_bucket_info[verb] = "top"
+                elif "second" in file_path:
+                    verb_and_bucket_info[verb] = "second"
+                elif "third" in file_path:
+                    verb_and_bucket_info[verb] = "third"
         else:
             print(f"'Best Verb' column not found in {file_path}")
-    return best_verbs_dict
+    return best_verbs_dict, verbs_and_locations, verb_and_bucket_info
 
-# Function to find sentences containing verbs
-def find_sentences_with_verbs(output_verbs_path, verbs_set):
-    # Read the CSV file into a DataFrame
-    df_sentences = pd.read_csv(output_verbs_path)
-    
-    # Check if required columns are present
-    if 'Sentence' not in df_sentences.columns or 'Verb' not in df_sentences.columns:
-        raise ValueError("The required columns ('Sentence', 'Verb') are missing in the sentences file.")
-    
-    # Filter rows where the 'Verb' column matches any verb in verbs_set
-    filtered_sentences = df_sentences[df_sentences['Verb'].isin(verbs_set)]
-    temp = len(filtered_sentences)
-    return filtered_sentences[['Sentence', 'Verb']]
 
-def cross_check_sentences(sentences_with_verbs, sentences_path, exported_sentences_path):
+
+def cross_check_sentences(best_verbs_set,output_verbs_path, exported_sentences_path):
     # Read the CSV files into DataFrames
-    df_sentences = pd.read_csv(sentences_path)
     df_exported_sentences = pd.read_csv(exported_sentences_path)
 
-    matching_sentences = []
-    matching_exported_sentences = []
+    output_verbs = pd.read_csv(output_verbs_path)
+    sentences = pd.read_csv(exported_sentences_path)
+    sentences['ID'] = range(1, 25341)
+    sentences['Image ID'] = (sentences['ID'] - 1) // 5
 
-    for _, row in sentences_with_verbs.iterrows():
-        sentence = row['Sentence']
-        verb = row['Verb']
-
-        matching_rows = df_sentences[df_sentences['sentence'] == sentence]
-        matching_rows_exported = df_exported_sentences[df_exported_sentences['Original Sentence'] == sentence]
-        # Add the Verb column to the matches for tracking
-        if not matching_rows.empty:
-            matching_rows = matching_rows.assign(Verb=verb)
-            matching_sentences.append(matching_rows)
-        if not matching_rows_exported.empty:
-            matching_rows_exported = matching_rows_exported.assign(Verb=verb)
-            matching_exported_sentences.append(matching_rows_exported)
-    print(len(matching_sentences), len(matching_exported_sentences))
-
-    # Combine all matches into DataFrames for further processing
-    combined_matching_sentences = pd.concat(matching_sentences, ignore_index=True) if matching_sentences else pd.DataFrame()
-    combined_matching_exported = pd.concat(matching_exported_sentences, ignore_index=True) if matching_exported_sentences else pd.DataFrame()
-    
-    # Merge the two DataFrames on the sentence column
-    combined_data = pd.merge(
-        combined_matching_sentences,
-        combined_matching_exported,
-        left_on='sentence',
-        right_on='Original Sentence',
-        how='inner'
-    )
-    
-    # Display combined data with Verb
-    print(combined_data.head())
-    print(f"Number of combined rows: {len(combined_data)}")
-
+    merged = output_verbs.merge(sentences, on='ID')
+    processed = merged.loc[merged['Processed Sentence'] != 'skip_because_no_change']
+    combined_data = processed.loc[processed['Verb'].isin(best_verbs_set)]
     return combined_data
 
+def pick_captions(combined_data,verbs_and_locations,verb_and_bucket_info):
+    indices_to_keep = []
+    verb_count ={}
+    distinct_verbs = {}
+    for idx, row in combined_data.iterrows():
+        verb = row['Verb']
+        location = verbs_and_locations[verb]
+        categories = (str(row['q1']), str(row['q2']), str(row['q3']), str(row['q4']))
+        combination = ' - '.join(categories).replace(' - nan', '')
+        if location==combination:
+            indices_to_keep.append(idx)
+    combined_data=combined_data.loc[indices_to_keep]
+    indices_to_keep = []
+    for idx,row in combined_data.iterrows():
+        verb = row['Verb']
+        verb_count[verb] = verb_count.get(verb, 0) + 1
+    for idx,row in combined_data.iterrows():
+        verb = row['Verb']
+        if verb_count[verb] >= 5:
+            indices_to_keep.append(idx)
+            distinct_verbs[verb] = distinct_verbs.get(verb, 0) + 1
+    combined_data=combined_data.loc[indices_to_keep]
+    print(f"Number of distinct verbs: {len(distinct_verbs)}")
+    for element in distinct_verbs:
+        print(f"{element}: { distinct_verbs[element]}",verb_and_bucket_info[element],verbs_and_locations[element])
+    return combined_data
+
+    
 
 # Main script
 if __name__ == "__main__":
@@ -77,18 +79,20 @@ if __name__ == "__main__":
         '../../data/kl_divergence/hierarchy_populated_second_third.csv',
         '../../data/kl_divergence/hierarchy_populated_third_third.csv'
     ]
-    sentences_path = "../../data/sentences/sentences.csv"
     exported_sentences_path = "../../data/exported_sentences/sentences_export25k.csv"
     output_verbs_path = "../../data/verbs/output_verbs.csv"
     #output
     combined_data_path = "../../data/combined_data/combined_data.csv"
+    picked_captions_path = "../../data/picked_captions/picked_captions.csv"
     
-    best_verbs_dict = extract_best_verbs(csv_files)
+    best_verbs_dict,verbs_and_locations,verb_and_bucket_info = extract_best_verbs(csv_files)
     best_verbs_set = set(best_verbs_dict.keys())
     
-    sentences_with_verbs = find_sentences_with_verbs(output_verbs_path, best_verbs_set)
     
-    combined_data = cross_check_sentences(sentences_with_verbs, sentences_path, exported_sentences_path)
+    combined_data = cross_check_sentences(best_verbs_set,output_verbs_path, exported_sentences_path)
     
     combined_data.to_csv(combined_data_path, index=False)
     print("Combined data exported to 'combined_data.csv'")
+
+    picked_captions = pick_captions(combined_data,verbs_and_locations,verb_and_bucket_info)
+    picked_captions.to_csv(picked_captions_path, index=False)
