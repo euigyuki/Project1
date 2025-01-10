@@ -14,6 +14,7 @@ Run amr_parser.py to parse the input data and extract relevant structures.
     input_csv = "../data/sentences/sentences.csv"
     path_to_stog = "../models/model_stog"
     path_to_gtos = "../models/model_gtos"
+    
     #output
     sentences_export25k.csv
     output_directory_for_original_graphs = "amr_graphs_original25k"
@@ -23,17 +24,21 @@ Run amr_parser.py to parse the input data and extract relevant structures.
 Purpose: Parses and preprocesses the input dataset for downstream analysis.
 
 2. process verbs: process_verbs.py from AMRparsing folder
+
     #input
     input_csv = sentences.csv
     directory_for_original_graphs = "../../data/amr_graphs_original25k"
     frames_folder = "../../data/propbank-frames/frames"
+
     #output
     output_verbs_csv = "../../data/verbs/output_verbs.csv"
 
 3. analyze word counts and combinations.py
+
     #input
     word_counts_and_combinations_edited.csv"
     filtered_rows.csv"
+
     #output
     word_counts_and_combinations_edited.csv"
 
@@ -43,6 +48,7 @@ Run pick_verbs_and_generate_counts.py to extract verbs from the parsed data and 
 
     #input
     output_verbs.csv"
+
     #output
     target_verbs.csv"
     """input and output file paths"""
@@ -56,9 +62,11 @@ Run count_topk_words_and_display_q1q2q3q4.py to generate word counts and analyze
 
 python count_topk_words_and_display_q1q2q3q4.py
 Purpose: Computes the frequency distribution of top-k words and visualizes their spread.
+
     #input
     file_path = "../../data/verbs/target_verbs.csv"
     all_combinations_path = "../../data/helper/combinations.yaml"
+
     #output
     verbs_path = "../../data/verbs/output_verbs.csv"
     output_csv_dir = "../../data/word_counts_and_combinations/"
@@ -69,11 +77,13 @@ Run calculate_kl_divergence.py to compute KL divergence values for the analyzed 
 
 python calculate_kl_divergence.py
 Purpose: Measures the divergence between distributions to identify variability.
+
     #input
     #file_path = "../data/word_counts_and_combinations/word_counts_and_combinations_edited.csv"
     file_path = "../../data/word_counts_and_combinations/filtered_rows.csv"
     CFAC_path = "../../data/helper/counts_for_all_combinations.yaml"
     all_combinations_path = "../../data/helper/combinations.yaml"
+
     #output
     normalized_word_counts = "../../data/normalized_word_counts/normalized_word_counts.csv"
     kl_divergence_by_row = "../../data/kl_divergence/kl_divergence_by_row.csv"
@@ -88,6 +98,7 @@ Purpose: Categorizes KL values into thirds (low, medium, high) to facilitate dow
 
     #input
     input_file = "../../data/kl_divergence/kl_divergence_by_row.csv"
+
     #output
     first = "../../data/kl_divergence/kl_divergence_by_row_top_third.csv"
     second = "../../data/kl_divergence/kl_divergence_by_row_second_third.csv"
@@ -103,6 +114,7 @@ Purpose: Organizes data into a hierarchical structure based on KL divergence gro
     KLD = "../../data/kl_divergence/"
     #input
     input_path = f"{KLD}kl_divergence_by_row"
+
     #output
     output_path = f"{KLD}hierarchy_populated"
 
@@ -121,7 +133,9 @@ Purpose: Filters captions by location relevance and hierarchical criteria.
     ]
     exported_sentences_path = "../../data/exported_sentences/sentences_export25k.csv"
     output_verbs_path = "../../data/verbs/output_verbs.csv"
+
     #output
+
     combined_data_path = "../../data/combined_data/combined_data.csv"
     picked_captions_path = "../../data/picked_captions/picked_captions.csv"
     
