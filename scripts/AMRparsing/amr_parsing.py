@@ -213,7 +213,6 @@ def main():
     path_to_gtos = "../models/model_gtos"
 
     """output file paths"""
-    output_verbs_csv = "../data/verbs/output_verbs.csv"
     output_file_exported_sentences = "../data/exported_sentences/sentences_export25k.csv"
     output_directory_for_original_graphs = "../data/amr_graphs_original25k"
     output_directory_for_processed_graphs = "../data/amr_graphs_processed25k"
