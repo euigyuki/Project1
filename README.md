@@ -36,29 +36,6 @@ Purpose: Parses and preprocesses the input dataset for downstream analysis.
     output_verbs_csv = "../../data/verbs/output_verbs.csv"
     ```
 
-3. analyze word counts and combinations.py
-
-    ```python
-    #input
-    word_counts_and_combinations_edited.csv"
-    filtered_rows.csv"
-    #output
-    word_counts_and_combinations_edited.csv"
-    ```
-
-4. pick_verbs_and_generate_counts.py
-Run pick_verbs_and_generate_counts.py to extract verbs from the parsed data and generate initial counts.
-
-    ```python
-    #input
-    verb_path = "../../data/verbs/output_verbs.csv"
-    #output
-    target_verbs_csv = "../../data/verbs/target_verbs.csv"
-    number_of_top_words = 300
-    ```
-
-python pick_verbs_and_generate_counts.py
-Purpose: Identifies verbs in the dataset and calculates their frequencies.
 
 5. count_topk_words_and_display_q1q2q3q4.py 
 Run count_topk_words_and_display_q1q2q3q4.py to generate word counts and analyze the distribution across quantiles.
@@ -69,10 +46,9 @@ Purpose: Computes the frequency distribution of top-k words and visualizes their
 
     ```python
     #input
-    file_path = "../../data/verbs/target_verbs.csv"
+    verbs_path = "../../data/verbs/output_verbs.csv"
     all_combinations_path = "../../data/helper/combinations.yaml"
     #output
-    verbs_path = "../../data/verbs/output_verbs.csv"
     output_csv_dir = "../../data/word_counts_and_combinations/"
     output_csv = "word_counts_and_combinations.csv"
     ```
