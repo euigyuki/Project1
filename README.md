@@ -66,6 +66,7 @@ Run count_topk_words_and_display_q1q2q3q4.py to generate word counts and analyze
 python count_topk_words_and_display_q1q2q3q4.py
 Purpose: Computes the frequency distribution of top-k words and visualizes their spread.
 
+
     ```python
     #input
     file_path = "../../data/verbs/target_verbs.csv"
@@ -76,11 +77,13 @@ Purpose: Computes the frequency distribution of top-k words and visualizes their
     output_csv = "word_counts_and_combinations.csv"
     ```
 
+
 6. Calculate KL Divergence
 Run calculate_kl_divergence.py to compute KL divergence values for the analyzed data.
 
 python calculate_kl_divergence.py
 Purpose: Measures the divergence between distributions to identify variability.
+
 
     ```python
     #input
@@ -94,11 +97,13 @@ Purpose: Measures the divergence between distributions to identify variability.
     column_maxima_output = "../../data/column_maxima/column_maxima.csv"
     ```
 
+
 7. Split KL into Thirds
 Run split_kl_into_thirds.py to divide the KL divergence values into three groups for hierarchical analysis.
 
 python split_kl_into_thirds.py
 Purpose: Categorizes KL values into thirds (low, medium, high) to facilitate downstream tasks.
+
 
     ```python
     #input
@@ -109,12 +114,14 @@ Purpose: Categorizes KL values into thirds (low, medium, high) to facilitate dow
     third = "../../data/kl_divergence/kl_divergence_by_row_third_third.csv"
     ```
 
+
 8. Populate Hierarchy
 
 Run populate_hierarchy.py to map the grouped data into a predefined hierarchy.
 
 python populate_hierarchy.py
 Purpose: Organizes data into a hierarchical structure based on KL divergence groupings.
+
 
     ```python
     KLD = "../../data/kl_divergence/"
@@ -140,7 +147,7 @@ Purpose: Filters captions by location relevance and hierarchical criteria.
     ]
     exported_sentences_path = "../../data/exported_sentences/sentences_export25k.csv"
     output_verbs_path = "../../data/verbs/output_verbs.csv"
-    #output```python
+    #output
     combined_data_path = "../../data/combined_data/combined_data.csv"
     picked_captions_path = "../../data/picked_captions/picked_captions.csv"
     ```
