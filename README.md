@@ -10,13 +10,12 @@ Workflow
 1. Parse the Data
 Run amr_parser.py to parse the input data and extract relevant structures.
 
-    """input file paths"""
+    #input
     input_csv = "../data/sentences/sentences.csv"
     path_to_stog = "../models/model_stog"
     path_to_gtos = "../models/model_gtos"
-
-    """output file paths"""
-    output_file_exported_sentences = "../data/exported_sentences/sentences_export25k.csv"
+    #output
+    sentences_export25k.csv
     output_directory_for_original_graphs = "amr_graphs_original25k"
     output_directory_for_processed_graphs = "amr_graphs_processed25k"
     frames_folder = "/propbank-frames/frames"
@@ -24,12 +23,11 @@ Run amr_parser.py to parse the input data and extract relevant structures.
 Purpose: Parses and preprocesses the input dataset for downstream analysis.
 
 2. process verbs: process_verbs.py from AMRparsing folder
-    """input file paths"""
+    #input
     input_csv = sentences.csv
     directory_for_original_graphs = "../../data/amr_graphs_original25k"
     frames_folder = "../../data/propbank-frames/frames"
-
-    """output file paths"""
+    #output
     output_verbs_csv = "../../data/verbs/output_verbs.csv"
 
 3. analyze word counts and combinations.py
@@ -65,7 +63,6 @@ Purpose: Computes the frequency distribution of top-k words and visualizes their
     verbs_path = "../../data/verbs/output_verbs.csv"
     output_csv_dir = "../../data/word_counts_and_combinations/"
     output_csv = "word_counts_and_combinations.csv"
-    """input and output file paths"""
 
 6. Calculate KL Divergence
 Run calculate_kl_divergence.py to compute KL divergence values for the analyzed data.
@@ -116,7 +113,7 @@ Run pick_captions.py to select captions containing location information based on
 python pick_captions.py
 Purpose: Filters captions by location relevance and hierarchical criteria.
 
-#input
+    #input
     csv_files = [
         '../../data/kl_divergence/hierarchy_populated_top_third.csv',
         '../../data/kl_divergence/hierarchy_populated_second_third.csv',
