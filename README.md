@@ -52,7 +52,7 @@ Purpose: Parses and preprocesses the input dataset for downstream analysis.
 4. pick_verbs_and_generate_counts.py
 Run pick_verbs_and_generate_counts.py to extract verbs from the parsed data and generate initial counts.
 
-    '''python
+    ```python
     #input
     verb_path = "../../data/verbs/output_verbs.csv"
     #output
