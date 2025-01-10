@@ -52,13 +52,12 @@ Purpose: Parses and preprocesses the input dataset for downstream analysis.
 4. pick_verbs_and_generate_counts.py
 Run pick_verbs_and_generate_counts.py to extract verbs from the parsed data and generate initial counts.
 
+   """input and output file paths"""
     #input
-
-    output_verbs.csv"
-
+    verb_path = "../../data/verbs/output_verbs.csv"
     #output
-
-    target_verbs.csv"
+    target_verbs_csv = "../../data/verbs/target_verbs.csv"
+    """input and output file paths"""
     number_of_top_words = 300
 
 python pick_verbs_and_generate_counts.py
@@ -125,7 +124,7 @@ python populate_hierarchy.py
 Purpose: Organizes data into a hierarchical structure based on KL divergence groupings.
 
     KLD = "../../data/kl_divergence/"
-    '''input
+    input
     input_path = f"{KLD}kl_divergence_by_row"
     #output
     output_path = f"{KLD}hierarchy_populated"
