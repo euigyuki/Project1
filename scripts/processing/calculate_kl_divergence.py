@@ -61,8 +61,7 @@ def generate_p(df):
 def main():
     """input and output file paths"""
     #input
-    #file_path = "../data/word_counts_and_combinations/word_counts_and_combinations_edited.csv"
-    file_path = "../../data/word_counts_and_combinations/filtered_rows.csv"
+    file_path = "../../data/word_counts_and_combinations/word_counts_and_combinations.csv"
     CFAC_path = "../../data/helper/counts_for_all_combinations.yaml"
     all_combinations_path = "../../data/helper/combinations.yaml"
     #output
@@ -103,7 +102,13 @@ def main():
 
     kl_df = pd.DataFrame(kl_matrix, columns=df.columns[1:-1])
     kl_df.insert(0, "Word", df["Word"])
-    kl_df.to_csv(kl_divergence_by_row, index=False)
+    kl_df.iloc[:, 1:] = kl_df.iloc[:, 1:].apply(pd.to_numeric, errors='coerce')
+
+    kl_df['KLD_Sum'] = kl_df.iloc[:, 1:].sum(axis=1)
+    kl_df_sorted = kl_df.sort_values(by='KLD_Sum', ascending=False)
+
+
+    kl_df_sorted.to_csv(kl_divergence_by_row, index=False)
     column_maxima = []
     for col in kl_df.columns[1:]:
         max_kl_value = kl_df[col].max()
