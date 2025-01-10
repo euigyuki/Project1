@@ -31,12 +31,9 @@ def generate_word_counts(output_verbs, sentences):
         for verb, image_ids in verbs.items():
             print(f"  Verb: {verb}, Image IDs: {image_ids}")
     word_counts_and_combinations = pd.DataFrame.from_dict(image_counts)
-
     return word_counts_and_combinations
 
     
-
-
 
 
 def main():

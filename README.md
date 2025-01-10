@@ -46,11 +46,10 @@ Purpose: Computes the frequency distribution of top-k words and visualizes their
 
     ```python
     #input
-    verbs_path = "../../data/verbs/output_verbs.csv"
-    all_combinations_path = "../../data/helper/combinations.yaml"
+    output_verbs_path = "../../data/verbs/output_verbs.csv"
+    sentences_export_path = "../../data/exported_sentences/sentences_export25k.csv"
     #output
-    output_csv_dir = "../../data/word_counts_and_combinations/"
-    output_csv = "word_counts_and_combinations.csv"
+    output_csv= "../../data/word_counts_and_combinations/word_counts_and_combinations.csv"
     ```
 
 
