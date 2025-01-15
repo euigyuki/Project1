@@ -2,18 +2,17 @@ import pandas as pd
 import ast
 import yaml
 
+
 def populate_hierarchy(file_path):
     # Load data
     df = pd.read_csv(file_path)
-    with open("../../data/helper/combinations.yaml", "r") as file:
-        all_combinations = yaml.safe_load(file)
-
+   
     # Prepare combinations and results
-    all_combos = [tuple(combo) for combo in all_combinations['all_combinations']]
+    
     output_rows = []
     unmatched_combinations = []
 
-    for column_name, column_data in df.items():
+    for column_name, column_data in df.iloc[:, :-1].items():
         best_match = None
         best_verb = None
         max_elementwise_KLD = -float("inf")
@@ -42,12 +41,12 @@ def populate_hierarchy(file_path):
   
 
     # Convert results to DataFrame
-    output_df = pd.DataFrame(output_rows)
+    df = pd.DataFrame(output_rows)
 
     # Log unmatched combinations for debugging
     if unmatched_combinations:
         print(f"Unmatched combinations: {unmatched_combinations}")
-
+    output_df = df.sort_values(by='Max KLD', ascending=False)
     return output_df
 
 

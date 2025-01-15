@@ -15,7 +15,8 @@ def extract_best_verbs(file_paths):
                 # Update the count of the verb
                 best_verbs_dict[verb] = best_verbs_dict.get(verb, 0) + 1
                 # Store the best match column for the verb
-                verbs_and_locations[verb] = location
+                if verb not in verbs_and_locations:
+                    verbs_and_locations[verb] = location
                 if "top" in file_path:
                     verb_and_bucket_info[verb] = "top"
                 elif "second" in file_path:
@@ -65,9 +66,14 @@ def pick_captions(combined_data,verbs_and_locations,verb_and_bucket_info):
             distinct_verbs[verb] = distinct_verbs.get(verb, 0) + 1
     combined_data=combined_data.loc[indices_to_keep]
     print(f"Number of distinct verbs: {len(distinct_verbs)}")
-    for element in distinct_verbs:
-        print(f"{element}: { distinct_verbs[element]}",verb_and_bucket_info[element],verbs_and_locations[element])
     return combined_data
+
+def pick(combined_data):
+    unique_verb_image_pairs = combined_data.drop_duplicates(subset=['Verb', 'Image ID'])
+
+    top_captions = unique_verb_image_pairs.groupby('Verb').head(5).reset_index(drop=True)
+    return top_captions 
+
 
     
 
@@ -91,8 +97,10 @@ if __name__ == "__main__":
     
     combined_data = cross_check_sentences(best_verbs_set,output_verbs_path, exported_sentences_path)
     
+
     combined_data.to_csv(combined_data_path, index=False)
     print("Combined data exported to 'combined_data.csv'")
 
     picked_captions = pick_captions(combined_data,verbs_and_locations,verb_and_bucket_info)
+    picked_captions = pick(picked_captions)
     picked_captions.to_csv(picked_captions_path, index=False)
