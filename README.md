@@ -37,7 +37,7 @@ Purpose: Parses and preprocesses the input dataset for downstream analysis.
     ```
 
 
-5. count_topk_words_and_display_q1q2q3q4.py 
+3. count_topk_words_and_display_q1q2q3q4.py 
 Run count_topk_words_and_display_q1q2q3q4.py to generate word counts and analyze the distribution across quantiles.
 
 python count_topk_words_and_display_q1q2q3q4.py
@@ -53,7 +53,7 @@ Purpose: Computes the frequency distribution of top-k words and visualizes their
     ```
 
 
-6. Calculate KL Divergence
+4. Calculate KL Divergence
 Run calculate_kl_divergence.py to compute KL divergence values for the analyzed data.
 
 python calculate_kl_divergence.py
@@ -73,7 +73,7 @@ Purpose: Measures the divergence between distributions to identify variability.
     ```
 
 
-7. Split KL into Thirds
+5. Split KL into Thirds
 Run split_kl_into_thirds.py to divide the KL divergence values into three groups for hierarchical analysis.
 
 python split_kl_into_thirds.py
@@ -90,7 +90,7 @@ Purpose: Categorizes KL values into thirds (low, medium, high) to facilitate dow
     ```
 
 
-8. Populate Hierarchy
+6. Populate Hierarchy
 
 Run populate_hierarchy.py to map the grouped data into a predefined hierarchy.
 
@@ -106,7 +106,7 @@ Purpose: Organizes data into a hierarchical structure based on KL divergence gro
     output_path = f"{KLD}hierarchy_populated"
     ```
 
-9. Pick Captions
+7. Pick Captions
 
 Run pick_captions.py to select captions containing location information based on the hierarchical analysis.
 
