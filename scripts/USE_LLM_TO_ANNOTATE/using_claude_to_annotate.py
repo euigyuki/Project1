@@ -1,17 +1,12 @@
 import anthropic
 import json
 from typing import List, Tuple
-import configparser
+import os
 from utils import load_first_column
 
-# Initialize the parser
-config = configparser.ConfigParser()
-
-# Read the config file
-config.read('config.cfg')
 
 # Retrieve the API key
-api_key = config.get('anthropic', 'api_key')
+api_key = os.getenv("anthropic_api_key")
 
 
 def annotate_caption(caption: str, hierarchy: List[Tuple[str, str, str]], client: anthropic.Client) -> Tuple[str, str, str]:

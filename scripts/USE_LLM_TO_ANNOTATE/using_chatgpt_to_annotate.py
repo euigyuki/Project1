@@ -1,21 +1,13 @@
 import openai
 import json
 from typing import List, Tuple
-import configparser
 import pandas as pd
 from utils import load_first_column
+import os
 
-# Initialize the parser
-config = configparser.ConfigParser()
 
-# Read the config file
-config.read('config.cfg')
+api_key = os.getenv("openai_api_key")
 
-# Retrieve the API key
-api_key = config.get('openai', 'api_key')
-
-# Set the OpenAI API key
-openai.api_key = api_key
 
 
 

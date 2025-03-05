@@ -3,16 +3,10 @@ import json
 from typing import List, Tuple
 import re
 from utils import load_first_column
-import configparser
-
-# Initialize the parser
-config = configparser.ConfigParser()
-
-# Read the config file
-config.read('config.cfg')
+import os
 
 # Retrieve the API key
-api_key = config.get('perplexity', 'api_key')
+api_key = os.getenv("perplexity_api_key")
 print("api key is", api_key)
 
 def get_perplexity_client(api_key: str):

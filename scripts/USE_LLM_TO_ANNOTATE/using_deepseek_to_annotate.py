@@ -3,17 +3,10 @@ import json
 from typing import List, Tuple
 import re
 from utils import load_first_column
-import configparser
+import os
 
-# Initialize the parser
-config = configparser.ConfigParser()
+api_key = os.getenv("deepseek_api_key")
 
-# Read the config file
-config.read('config.cfg')
-
-# Retrieve the API key
-api_key = config.get('deepseek', 'api_key')
-print("API key is", api_key)
 
 def get_deepseek_client(api_key: str):
     """Initialize the DeepSeek client."""
