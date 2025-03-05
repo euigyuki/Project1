@@ -1,69 +1,61 @@
 import anthropic
 import json
 from typing import List, Tuple
+import configparser
+from utils import load_first_column
 
-# Set your Anthropic API key
-ANTHROPIC_API_KEY = "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"
+# Initialize the parser
+config = configparser.ConfigParser()
 
+# Read the config file
+config.read('config.cfg')
 
-def load_captions(file_path: str) -> List[str]:
-    with open(file_path, "r") as f:
-        return [line.strip() for line in f]
-
-
-def annotate_caption(
-    caption: str, hierarchy: List[Tuple[str, str, str]], client: anthropic.Anthropic
-) -> Tuple[str, str, str]:
-    prompt = f"""
-    Given the following caption, classify it according to the hierarchy below. 
-    Return only the matching tuple from the hierarchy, nothing else.
-
-    Caption: "{caption}"
-
-    Hierarchy:
-    {hierarchy}
-
-    Classification:
-    """
-
-    message = client.messages.create(
-        model="claude-3-5-sonnet-20241022",
-        max_tokens=50,
-        temperature=0,
-        messages=[{"role": "user", "content": prompt}],
-    )
-
-    result = message.content[0].text.strip()
-    # Convert string tuple to actual tuple
-    return eval(result)
+# Retrieve the API key
+api_key = config.get('anthropic', 'api_key')
 
 
-def explain_annotation(
-    caption: str, annotation: Tuple[str, str, str], client: anthropic.Anthropic
-) -> str:
-    prompt = f"""
-    Given the following caption and its annotation, explain why this annotation was chosen.
+def annotate_caption(caption: str, hierarchy: List[Tuple[str, str, str]], client: anthropic.Client) -> Tuple[str, str, str]:
+    messages = [
+        {"role": "user", "content": f"Given the following caption, classify it according to the hierarchy below. Return only the matching tuple from the hierarchy, nothing else.\n\nCaption: \"{caption}\"\n\nHierarchy:\n{hierarchy}\n\nClassification:"}
+    ]
+    
+    try:
+        response = client.messages.create(
+            model="claude-3-7-sonnet-20250219",
+            messages=messages,
+            max_tokens=50,
+            temperature=0,
+        )
+        # Access the content attribute directly
+        result = response.content[0].text.strip()
+        return eval(result)
+    except Exception as e:
+        print(f"Error during annotation: {e}")
+        return ("error", "error", "error")
 
-    Caption: "{caption}"
-    Annotation: {annotation}
-
-    Explanation:
-    """
-
-    message = client.messages.create(
-        model="claude-3-5-sonnet-20241022",
-        max_tokens=100,
-        temperature=0,
-        messages=[{"role": "user", "content": prompt}],
-    )
-
-    return message.content[0].text.strip()
+def explain_annotation(caption: str, annotation: Tuple[str, str, str], client: anthropic.Client) -> str:
+    messages = [
+        {"role": "user", "content": f"Given the following caption and its annotation, explain why this annotation was chosen.\n\nCaption: \"{caption}\"\nAnnotation: {annotation}\n\nExplanation:"}
+    ]
+    
+    try:
+        response = client.messages.create(
+            model="claude-3-7-sonnet-20250219",
+            messages=messages,
+            max_tokens=100,
+            temperature=0,
+        )
+        # Access the content attribute directly
+        return response.content[0].text.strip()
+    except Exception as e:
+        print(f"Error during explanation: {e}")
+        return "An error occurred during explanation."
 
 
 def main():
-    client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
-
-    captions = load_captions("captions.txt")
+    client = anthropic.Client(api_key=api_key)
+    file_path = "../../data/results/total_captions.csv"
+    captions = load_first_column(file_path)
     all_combinations = [
         ("indoors", "man-made", "work_education"),
         ("indoors", "man-made", "domestic"),
@@ -93,13 +85,12 @@ def main():
         )
 
     # Save results to a JSON file
-    with open("claude_annotations_with_explanations.json", "w") as f:
+    with open("../../data/results/claude_annotations_with_explanations.json", "w") as f:
         json.dump(results, f, indent=2)
 
     print(
         "Processing complete. Results saved to claude_annotations_with_explanations.json"
     )
-
 
 if __name__ == "__main__":
     main()

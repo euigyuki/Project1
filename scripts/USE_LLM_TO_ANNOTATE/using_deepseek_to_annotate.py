@@ -12,30 +12,25 @@ config = configparser.ConfigParser()
 config.read('config.cfg')
 
 # Retrieve the API key
-api_key = config.get('perplexity', 'api_key')
-print("api key is", api_key)
+api_key = config.get('deepseek', 'api_key')
+print("API key is", api_key)
 
-def get_perplexity_client(api_key: str):
-    """Initialize the Perplexity client."""
+def get_deepseek_client(api_key: str):
+    """Initialize the DeepSeek client."""
     return {
         "headers": {
             "Authorization": f"Bearer {api_key}",
             "Content-Type": "application/json",
         },
-        "url": "https://api.perplexity.ai/chat/completions",
+        "url": "https://api.deepseek.com/chat/completions",
     }
 
-
-def load_captions(file_path: str) -> List[str]:
-    """Load captions from a text file."""
-    with open(file_path, "r") as f:
-        return [line.strip() for line in f]
 
 
 def annotate_caption(
     caption: str, hierarchy: list, client: dict
 ) -> Tuple[str, str, str]:
-    """Classify a caption according to the given hierarchy using Perplexity."""
+    """Classify a caption according to the given hierarchy using DeepSeek."""
     prompt = f"""Classify the following caption according to the given hierarchy.
 
 Caption: '{caption}'
@@ -54,7 +49,7 @@ Instructions:
 Classification:"""
 
     payload = {
-        "model": "llama-3.1-sonar-large-128k-online",
+        "model": "deepseek-chat",
         "messages": [
             {
                 "role": "system",
@@ -100,11 +95,10 @@ Classification:"""
 
     return ("unknown", "unknown", "unknown")
 
-
 def explain_annotation(
     caption: str, annotation: Tuple[str, str, str], client: dict
 ) -> str:
-    """Generate an explanation for the annotation using Perplexity."""
+    """Generate an explanation for the annotation using DeepSeek."""
     prompt = f"""Explain the following annotation for the given caption.
 
 Caption: '{caption}'
@@ -120,7 +114,7 @@ Instructions:
 Explanation:"""
 
     payload = {
-        "model": "llama-3.1-sonar-large-128k-online",
+        "model": "deepseek-chat",
         "messages": [
             {
                 "role": "system",
@@ -152,7 +146,6 @@ Explanation:"""
 
     return "Failed to generate explanation"
 
-
 def main():
     all_combinations = [
         ("indoors", "man-made", "work_education"),
@@ -174,7 +167,7 @@ def main():
     ]
 
     try:
-        client = get_perplexity_client(api_key)
+        client = get_deepseek_client(api_key)
         
         file_path = "../../data/results/total_captions.csv"
         captions = load_first_column(file_path)
@@ -192,17 +185,17 @@ def main():
             print("-" * 80)
 
             results.append(
-                {
-                    "caption": caption,
-                    "annotation": annotation,
-                    "explanation": explanation,
-                }
-            )
+                        {
+                            "caption": caption,
+                            "annotation": annotation,
+                            "explanation": explanation,
+                        }
+                    )
 
-        with open("../../data/results/perplexity_annotations.json", "w") as f:
-            json.dump(results, f, indent=2)
+            with open("../../data/results/deepseek_annotations.json", "w") as f:
+                json.dump(results, f, indent=2)
 
-        print("Processing complete. Results saved to perplexity_annotations.json")
+            print("Processing complete.")
 
     except Exception as e:
         print(f"An error occurred: {str(e)}")
@@ -210,3 +203,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+ 

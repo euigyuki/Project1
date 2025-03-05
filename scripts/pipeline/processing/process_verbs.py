@@ -33,7 +33,8 @@ def process_verbs_and_save(sentences, categories, amr_graphs,
             root_instances =[]
             for instance in graph.instances():
                 if instance.source == root_node and instance.target[-2:].isnumeric():
-                #if instance.target[-2:].isnumeric():
+                    #if location instance is "LOC-02"(that is why we need -2), 
+                    #then we want to append the instance to the root_instances list
                     root_instances.append(instance)
            
           
@@ -43,6 +44,15 @@ def process_verbs_and_save(sentences, categories, amr_graphs,
                 source = instance.source
                 lemma = verb.split("-")[0]  # Compute the lemma from the verb
                 n_value = '+'.join([n[1][-1] for n in n_edges if n[0]==source])
+                """Propbank defines a set of core roles for each verb, labeled Arg0 to Arg5
+                Arg0: Prototypical agent(doer of the action)
+                Arg1: Prototypical patient(recipient of the action)
+                Arg2+: other verb specific roles
+                For example for "give",
+                Arg0: giver
+                Arg1: Thing given
+                Arg2: Recipient
+                """
                 q1, q2, q3, q4 = category
                 processed_data.append(
                     {
