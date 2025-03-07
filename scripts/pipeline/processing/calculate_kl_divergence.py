@@ -93,7 +93,6 @@ def main():
     #output
     normalized_word_counts = "../../data/normalized_word_counts/normalized_word_counts.csv"
     kl_divergence_by_row = "../../data/kl_divergence/kl_divergence_by_row.csv"
-    column_maxima_output = "../../data/column_maxima/column_maxima.csv"
     """input and output file paths"""
 
     CFAC = load_config(CFAC_path)
