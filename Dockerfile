@@ -6,14 +6,15 @@ WORKDIR /app
 COPY requirements.txt .
 
 # Install required dependencies
-RUN pip install --no-cache-dir -r requirements.txt
-RUN pip install --no-cache-dir debugpy
+RUN pip install --no-cache-dir -r requirements.txt && \
+    pip install --no-cache-dir debugpy
 
 
-# Copy only the `data/results/` directory into the container
 COPY data/results /app/data/results
+COPY data/picked_captions /app/data/picked_captions/
 
 
 
 # Default command
-CMD ["python", "/app/data/results/get_fleiss_kappas.py"]
+#CMD ["python", "/app/data/results/get_fleiss_kappas.py"]
+CMD ["tail", "-f", "/dev/null"]
