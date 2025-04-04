@@ -1,12 +1,12 @@
 import pandas as pd
 import json
-from Project1.scripts.analysis.get_fleiss_kappas import bool_dict_to_int_list
+from get_fleiss_kappas import bool_dict_to_int_list
 import csv
 from scipy.spatial.distance import jensenshannon
-from Project1.scripts.analysis.helper import categories_to_num_9,normalize_caption,load_combined_df
-from Project1.scripts.analysis.helper import clip_probs,categories_to_num_16,nums9_to_categories
+from helper import categories_to_num_9,normalize_caption,load_combined_df
+from helper import clip_probs,categories_to_num_16,nums9_to_categories
 from collections import defaultdict
-from Project1.scripts.analysis.helper import get_set_of
+from helper import get_set_of
 
 
 def process_categories(categories_map):
@@ -165,19 +165,19 @@ def write_grouped_to_csv(nested_dict, output_csv):
 def main():
 
     ###inputs
-    captions_filepaths = ["captions1.csv", "captions2.csv"]
-    finalized_captions_filepaths = ["../finalized_captions/finalized_captions.csv"]
+    captions_filepaths = ["../../data/results/captions/captions1.csv", "../../data/results/captions/captions2.csv"]
+    finalized_captions_filepaths = ["../../data/finalized_captions/finalized_captions.csv"]
     llm_annotations_filepaths = [
-    "deepseek_annotations.json",
-    "perplexity_annotations.json",
-    "claude_annotations.json",
-    "chatgpt_annotations.json"
+    "../../data/results/llm_annotations/deepseek_annotations.json",
+    "../../data/results/llm_annotations/perplexity_annotations.json",
+    "../../data/results/llm_annotations/claude_annotations.json",
+    "../../data/results/llm_annotations/chatgpt_annotations.json"
     ]
     ###output
-    original_js_output_csv = "original_caption_to_jensenshannon_divergences.csv"
-    finalized_js_output_csv = "finalized_caption_to_jensenshannon_divergences.csv"
-    original_captions_grouped_by_verb_csv = "original_captions_grouped_by_verb.csv"
-    finalized_captions_grouped_by_verb_csv = "finalized_captions_grouped_by_verb.csv"
+    original_js_output_csv = "../../data/results/original_caption_to_jensenshannon_divergences.csv"
+    finalized_js_output_csv = "../../data/results/finalized_caption_to_jensenshannon_divergences.csv"
+    original_captions_grouped_by_verb_csv = "../../data/results/original_captions_grouped_by_verb.csv"
+    finalized_captions_grouped_by_verb_csv = "../../data/results/finalized_captions_grouped_by_verb.csv"
 
     original_captions_js,finalized_captions_js = analyze_annotations(finalized_captions_filepaths,captions_filepaths, llm_annotations_filepaths)
     output_to_csv(original_captions_js, original_js_output_csv)

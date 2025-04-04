@@ -2,7 +2,7 @@ import pandas as pd
 from statsmodels.stats.inter_rater import aggregate_raters, fleiss_kappa
 import numpy as np
 import json
-from Project1.scripts.analysis.helper import load_combined_df,WORKERS,categories_to_num_9
+from helper import load_combined_df,WORKERS,categories_to_num_9
 
 
 def bool_dict_to_int_list(d):
