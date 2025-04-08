@@ -139,13 +139,15 @@ def fleiss_kappa_for_llm_annotations(filepath):
 
 if __name__ == "__main__":
  
-    captions_filepaths = ["captions1.csv", "captions2.csv"]
-    images_filepaths = ["images1.csv", "images2.csv"]
+    
+    ###inputs
+    captions_filepaths = ["../../data/results/captions/captions.csv"]
+    images_filepaths = ["../../data/results/images/images.csv"]
     llm_annotations_filepaths = [
-    "deepseek_annotations.json",
-    "perplexity_annotations.json",
-    "claude_annotations.json",
-    "chatgpt_annotations.json"
+    "../../data/results/llm_annotations/deepseek_annotations.json",
+    "../../data/results/llm_annotations/perplexity_annotations.json",
+    "../../data/results/llm_annotations/claude_annotations.json",
+    "../../data/results/llm_annotations/chatgpt_annotations.json"
     ]
 
     # Analyze human annotations for captions

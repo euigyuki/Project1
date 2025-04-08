@@ -64,3 +64,12 @@ def load_combined_df(filepaths):
     dataframes = [pd.read_csv(filepath) for filepath in filepaths]
     combined_df = pd.concat(dataframes, axis=0)
     return combined_df
+
+
+# Function to calculate probability distribution
+def calculate_probability_distribution(annotations):
+    total = [0]*16
+    for annotation in annotations:
+        index = categories_to_num_16[annotation]
+        total[index] += 1
+    return total
