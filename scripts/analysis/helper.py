@@ -1,5 +1,7 @@
 import pandas as pd
 import numpy as np
+import re
+
 categories_to_num_16 = {
     "outdoors/man-made/transportation_urban":0,
     "outdoors/man-made/recreation":1,  
@@ -49,6 +51,10 @@ WORKERS = ["A17EZEAMF37MGQ",#derrick
 "A2ZY94PZ5CVH0" #matt
 ]
 
+def strip_word(word):
+    if isinstance(word, str):
+        return re.sub(r'-\d+$', '', word)
+    return word
 
 def get_set_of(filepaths,value):
     combined_df = load_combined_df(filepaths)

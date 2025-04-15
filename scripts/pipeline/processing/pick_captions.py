@@ -1,5 +1,4 @@
 import pandas as pd
-from collections import defaultdict
 
 # Function to extract best verbs
 def extract_best_verbs(file_paths):
@@ -31,7 +30,6 @@ def extract_best_verbs(file_paths):
 
 def cross_check_sentences(best_verbs_set,output_verbs_path, exported_sentences_path):
     # Read the CSV files into DataFrames
-    df_exported_sentences = pd.read_csv(exported_sentences_path)
 
     output_verbs = pd.read_csv(output_verbs_path)
     sentences = pd.read_csv(exported_sentences_path)

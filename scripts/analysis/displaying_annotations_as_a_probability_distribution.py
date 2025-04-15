@@ -3,18 +3,13 @@ import json
 from get_fleiss_kappas import bool_dict_to_int_list
 import csv
 from scipy.spatial.distance import jensenshannon
+from scipy.special import rel_entr
 from helper import categories_to_num_9,normalize_caption,load_combined_df
 from helper import clip_probs,categories_to_num_16,nums9_to_categories
 from collections import defaultdict
 from helper import get_set_of
 from helper import WORKERS
-
-
-def calculate_average_divergence(csv_file):
-    df = pd.read_csv(csv_file)
-    avg = df['KL Divergence'].mean()
-    print(f"Average Jensen-Shannon Divergence in {csv_file}: {avg:.4f}")
-    return avg       
+import numpy as np
 
 
 class AnnotationProcessor:
@@ -92,12 +87,20 @@ class DivergenceCalculator:
         divergences = {}
         for caption in human_annotations:
             if caption in llm_annotations:
-                human_probs = DivergenceCalculator.calculate_probability_distribution(human_annotations[caption])
-                llm_probs = DivergenceCalculator.calculate_probability_distribution(llm_annotations[caption])
-                human_probs = clip_probs(human_probs)
-                llm_probs = clip_probs(llm_probs)
+                prev_human_probs = DivergenceCalculator.calculate_probability_distribution(human_annotations[caption])
+                prev_llm_probs = DivergenceCalculator.calculate_probability_distribution(llm_annotations[caption])
+                human_probs = clip_probs(prev_human_probs)
+                llm_probs = clip_probs(prev_llm_probs)
                 js_div = jensenshannon(human_probs, llm_probs)
-                divergences[caption] = js_div
+                kl_div_human_llm = np.sum(rel_entr(np.array(human_probs),np.array(llm_probs)))
+                kl_div_llm_human = np.sum(rel_entr(np.array(llm_probs),np.array(human_probs)))
+                divergences[caption] = {
+                "kl_div_human_llm": kl_div_human_llm,
+                "kl_div_llm_human": kl_div_llm_human,
+                "js_div": js_div,
+                "human_probs": prev_human_probs,
+                "llm_probs": prev_llm_probs
+            }
         return divergences
     
     @classmethod
@@ -116,9 +119,17 @@ class FileManager:
     def output_to_csv(data, output_csv):
         with open(output_csv, mode='w', newline='') as file:
             writer = csv.writer(file)
-            writer.writerow(['Caption', 'Jensen-Shannon Divergence'])
+            writer.writerow(['Caption', 'KLD Human to LLM', 'KLD LLM to Human',
+                             'Jensen-Shannon Divergence', 'Human Probs', 'LLM Probs'])
             for caption, divergence in data.items():
-                writer.writerow([caption, divergence])
+                writer.writerow([
+                    caption,
+                    divergence["kl_div_human_llm"],
+                    divergence["kl_div_llm_human"],
+                    divergence['js_div'],  # only write the numeric value here
+                    json.dumps(divergence['human_probs']),
+                    json.dumps(divergence['llm_probs'])
+                ])
         print(f"Data has been written to {output_csv}")
 
     @staticmethod
@@ -127,70 +138,84 @@ class FileManager:
         avg = df['Jensen-Shannon Divergence'].mean()
         print(f"Average Jensen-Shannon Divergence in {csv_file}: {avg:.4f}")
         return avg
-  
-
-def output_to_csv(divergences, output_csv):
-      # Write the KL divergences to the CSV file
-    with open(output_csv, mode='w', newline='') as file:
-        writer = csv.writer(file)
-        # Write the header
-        writer.writerow(['Caption', 'KL Divergence'])
-        # Write each caption and its corresponding KL divergence
-        for caption, div in divergences.items():
-            writer.writerow([caption, div])
-    print(f"jensen shannon divergences have been written to {output_csv}")        
 
 def get_dict_of(df, value):
     combined_df = load_combined_df(df)
     result = {}
     for _, row in combined_df.iterrows():
         caption = normalize_caption(row[value])
-        lemma = row['Lemma']
+        lemma = row['Verb']
         result[caption] = lemma
     return result
 
-def group_by_verb(filepaths,js,original_or_finalized):
-    # lemmas = get_set_of(filepaths, "Lemma") 
+def group_by_verb(filepaths, js_dict, original_or_finalized):
     checked_lemmas = get_dict_of(filepaths, original_or_finalized)
-    #result = defaultdict(lambda: defaultdict(float))
     result = defaultdict(lambda: defaultdict(list))
     for caption in checked_lemmas:
-        caption = normalize_caption(caption)
+        norm_caption = normalize_caption(caption)
         lemma = checked_lemmas[caption]
-        result[lemma][caption].append(js[caption])
+        if norm_caption in js_dict:
+            result[lemma][norm_caption].append(js_dict[norm_caption])  # dict with js_div, human_probs, llm_probs
     return result
 
 
+
+
 def write_grouped_to_csv(nested_dict, output_csv):
-    # Prepare to compute sums and counts for averages per outer_key
-    sum_dict = defaultdict(float)
+    sum_jsd = defaultdict(float)
+    sum_kld_human_llm = defaultdict(float)
+    sum_kld_llm_human = defaultdict(float)
     count_dict = defaultdict(int)
 
     with open(output_csv, 'w', newline='') as csvfile:
         writer = csv.writer(csvfile)
-        writer.writerow(['outer_key', 'inner_key', 'value'])  # header
+        writer.writerow([
+            'outer_key', 'inner_key', 'KLD Human to LLM',
+            'KLD LLM to Human',
+            'Jensen-Shannon Divergence',
+            'Human Probabilities', 'LLM Probabilities'
+        ])  # header for detailed rows
 
         for outer_key, inner_dict in nested_dict.items():
-            for inner_key, value_list in inner_dict.items():
-                for val in value_list:  # loop over JS values in the list
-                    writer.writerow([outer_key, inner_key, val])
-                    sum_dict[outer_key] += val
+            for inner_key, annotation_list in inner_dict.items():
+                for annotation in annotation_list:
+                    kl_div_human_llm = annotation['kl_div_human_llm']
+                    kl_div_llm_human = annotation['kl_div_llm_human']
+                    js_div = annotation['js_div']
+                    human_probs = annotation['human_probs']
+                    llm_probs = annotation['llm_probs']
+
+                    writer.writerow([
+                        outer_key, inner_key,
+                        kl_div_human_llm, kl_div_llm_human, js_div,
+                        json.dumps(human_probs), json.dumps(llm_probs)
+                    ])
+
+                    sum_kld_human_llm[outer_key] += kl_div_human_llm
+                    sum_kld_llm_human[outer_key] += kl_div_llm_human
+                    sum_jsd[outer_key] += js_div
                     count_dict[outer_key] += 1
 
-        # Add a blank row and then write the averages per outer_key
+        # Blank row before summary
         writer.writerow([])
-        writer.writerow(['outer_key', 'average_value'])  # header for averages
-        averages = [(key, sum_dict[key] / count_dict[key]) for key in sum_dict]
+        writer.writerow(['outer_key', 'average_KLD_Human_to_LLM', 'average_KLD_LLM_to_Human', 'average_JSD'])
 
-        # Sort by average value (ascending). Use `reverse=True` for descending.
-        averages.sort(key=lambda x: x[1])  # or key=lambda x: x[1], reverse=True
+        all_keys = sorted(count_dict.keys(), key=lambda k: sum_jsd[k] / count_dict[k])  # sort by JSD
 
-        # Write sorted averages
-        for key, avg in averages:
-            writer.writerow([key, f"{avg:.2f}"])
+        for key in all_keys:
+            avg_kld_human_llm = sum_kld_human_llm[key] / count_dict[key]
+            avg_kld_llm_human = sum_kld_llm_human[key] / count_dict[key]
+            avg_jsd = sum_jsd[key] / count_dict[key]
+            writer.writerow([
+                key,
+                f"{avg_kld_human_llm:.2f}",
+                f"{avg_kld_llm_human:.2f}",
+                f"{avg_jsd:.2f}"
+            ])
 
-    print(f"Grouped dictionary and outer_key averages have been written to {output_csv}")
- 
+    print(f"Grouped dictionary with full probability info written to {output_csv}")
+
+
 def main():
     ### Inputs
     captions_filepaths = ["../../data/results/captions/captions.csv"]
@@ -237,19 +262,6 @@ def main():
 
     result = group_by_verb(finalized_captions_filepaths, finalized_captions_js, "Finalized Sentence")
     write_grouped_to_csv(result, finalized_captions_grouped_by_verb_csv)
-
-#original code
-    # original_captions_js,finalized_captions_js = analyze_annotations(finalized_captions_filepaths,captions_filepaths, llm_annotations_filepaths)
-    # output_to_csv(original_captions_js, original_js_output_csv)
-    # output_to_csv(finalized_captions_js, finalized_js_output_csv)
-    # calculate_average_divergence(original_js_output_csv)
-    # calculate_average_divergence(finalized_js_output_csv)
-
-    # result =group_by_verb(finalized_captions_filepaths,original_captions_js)
-    # write_grouped_to_csv(result, original_captions_grouped_by_verb_csv)
-
-    # result =group_by_verb(finalized_captions_filepaths,original_captions_js)
-    # write_grouped_to_csv(result, finalized_captions_grouped_by_verb_csv)
 
 if __name__ == "__main__":
     main()

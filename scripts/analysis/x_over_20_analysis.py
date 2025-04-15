@@ -1,90 +1,78 @@
 import pandas as pd
 from collections import defaultdict
 import json
-from collections import Counter
-from helper import WORKERS,categories
+from helper import WORKERS,nums9_to_categories,normalize_caption
 
 EXPECTED_ANNOTATIONS = 10
+TOTAL_PER_SENTENCE = 20
 
+class ClassificationMapper:
+    def __init__(self, picked_captions_filepath):
+        self.verb_to_classification = defaultdict(str)
+        self.sentences_to_classification = defaultdict(str)
+        self.processed_sentence_to_classification = defaultdict(str)
+        self.sentences_to_verbs = defaultdict(str)
+        self.verbs_to_original = defaultdict(list)
+        self.verbs_to_processed = defaultdict(list)
+        self._load_data(picked_captions_filepath)
 
-def normalize_and_strip_quotes(sentence):
-    """
-    Normalize and clean up sentences by replacing typographic quotes and stripping extra whitespace.
-    """
-    return sentence.replace('“', '"').replace('”', '"').strip('"').strip()
+    def _load_data(self, filepath):
+        df = pd.read_csv(filepath)
+        for _, row in df.iterrows():
+            classification = ":".join(
+                str(val) for val in [row['q1'], row['q2'], row['q3'], row['q4']] if pd.notna(val)
+            )
+            verb = row['Verb']
+            sentence = normalize_caption(row['Sentence'])
+            finalized = normalize_caption(row['Finalized Sentence'])
 
+            self.verb_to_classification[verb] = classification
+            self.sentences_to_verbs[sentence] = verb
+            self.sentences_to_verbs[finalized] = verb
 
-def create_classification(answer_list):
-    """
-    Creates a classification string based on the provided answer list.
-    """
-    # Merge all dictionaries in the list into a single dictionary
-    merged_dict = {key: value for d in answer_list for key, value in d.items()}
+            self.verbs_to_original[verb].append(sentence)
+            self.verbs_to_processed[verb].append(finalized)
 
-    # Extract relevant sub-dictionaries
-    category = merged_dict.get('category', {})
-    indoors_outdoors = merged_dict.get('location', {})
-    man_made_or_natural = merged_dict.get('type', {})
+            self.sentences_to_classification[sentence] = classification
+            self.processed_sentence_to_classification[finalized] = classification
 
-    # Collect valid location keys
-    valid_values = [k for k, v in indoors_outdoors.items() if v]
-    valid_values.extend([k for k, v in man_made_or_natural.items() if v])
-    valid_values.extend([categories[int(k)] for k, v in category.items() if v])
+    def get_classification(self, sentence):
+        sentence = normalize_caption(sentence)
+        return (self.sentences_to_classification.get(sentence) or 
+                self.processed_sentence_to_classification.get(sentence))
 
-    # Create classification string
-    classification = ":".join(valid_values)
-    return classification
-
-
-
-def create_classifications(picked_captions_filepath):
-    """
-    Reads data from CSV and generates mappings for verb classification and sentence associations.
-    """
-    df = pd.read_csv(picked_captions_filepath)
+    def get_verb(self, sentence):
+        return self.sentences_to_verbs.get(normalize_caption(sentence), '')
     
-    verb_to_classification = defaultdict(str)
-    sentences_to_verbs = defaultdict(str)
-    sentences_to_classification = defaultdict(str)
-    processed_sentence_to_classification = defaultdict(str)
-    verbs_to_original_captions = defaultdict(list)
-    verbs_to_processed_captions = defaultdict(list)
-    
-    for _, row in df.iterrows():
-        valid_values = [str(val) for val in [row['q1'], row['q2'], row['q3'], row['q4']] if pd.notna(val)]
-        classification = ":".join(valid_values)
-        
-        verb = row['Verb']
-        sentence = normalize_and_strip_quotes(row['Sentence'])
-        finalized_sentence = normalize_and_strip_quotes(row['Finalized sentence'])
-        
-        verb_to_classification[verb] = classification
-        sentences_to_verbs[sentence] = verb
-        sentences_to_verbs[finalized_sentence] = verb
-        
-        verbs_to_original_captions[verb].append(sentence)
-        verbs_to_processed_captions[verb].append(finalized_sentence)
-        
-        sentences_to_classification[sentence] = classification
-        processed_sentence_to_classification[finalized_sentence] = classification
-    return verb_to_classification, sentences_to_classification,processed_sentence_to_classification, verbs_to_original_captions, verbs_to_processed_captions, sentences_to_verbs
+    @staticmethod
+    def create_classification(answer_list):
+        merged = {key: value for d in answer_list for key, value in d.items()}
+        category = merged.get('category', {})
+        indoors_outdoors = merged.get('location', {})
+        man_made_or_natural = merged.get('type', {})
+
+        valid = [k for k, v in indoors_outdoors.items() if v]
+        valid += [k for k, v in man_made_or_natural.items() if v]
+        valid += [nums9_to_categories[int(k)] for k, v in category.items() if v]
+
+        return ":".join(valid)
 
 
 
-def counting_for_analysis(filepaths,picked_captions_filepath):
+
+
+
+def counting_for_analysis(filepaths,picked_captions_filepath,missing_annotations_filepath,output_filepath):
     """
     Processes CSV files and counts verb occurrences per classification.
     """
-    verb_to_classification, sentences_to_classification, processed_sentence_to_classification, verbs_to_original_captions, verbs_to_processed_captions, sentences_to_verbs = create_classifications(picked_captions_filepath)
-    
+    mapper  = ClassificationMapper(picked_captions_filepath)
     combination = pd.concat([pd.read_csv(fp) for fp in filepaths])
     selected_columns = combination[['WorkerId', 'Input.sentence', 'Answer.taskAnswers']]
     selected_columns = selected_columns[selected_columns['WorkerId'].isin(WORKERS)]
     
-
-
     selected_columns['verbs'] = selected_columns['Input.sentence'].apply(
-        lambda x: sentences_to_verbs.get(normalize_and_strip_quotes(x), '')
+        lambda x: mapper.get_verb(x)
     )
     
     df = pd.DataFrame(selected_columns)
@@ -98,7 +86,7 @@ def counting_for_analysis(filepaths,picked_captions_filepath):
         per_worker_count = group['WorkerId'].value_counts()
         for worker in WORKERS:
             count = per_worker_count.get(worker, 0)
-            print(f"   {worker}: {count} / {EXPECTED_ANNOTATIONS}")
+            # print(f"   {worker}: {count} / {EXPECTED_ANNOTATIONS}")
 
             if count < EXPECTED_ANNOTATIONS:
                 missing_annotations.append({
@@ -112,21 +100,22 @@ def counting_for_analysis(filepaths,picked_captions_filepath):
 
         original_count, processed_count = 0, 0
         for _, row in group.iterrows():
-            sentence = normalize_and_strip_quotes(row['Input.sentence'])
-            annotator_id = row['WorkerId']
-            if sentence in sentences_to_classification:
-                answer_dict = json.loads(row['Answer.taskAnswers'])
-                classification_of_annotator= create_classification(answer_dict)
-                ground_truth = sentences_to_classification.get(sentence, '')
-                if ground_truth == classification_of_annotator:
+            sentence = normalize_caption(row['Input.sentence'])
+            answer_dict = json.loads(row['Answer.taskAnswers'])
+            classification_of_annotator = mapper.create_classification(answer_dict)
+            ground_truth = mapper.get_classification(sentence)
+
+            if ground_truth == classification_of_annotator:
+                if sentence in mapper.sentences_to_classification:
                     original_count += 1
-            elif sentence in processed_sentence_to_classification:
-                answer_dict = json.loads(row['Answer.taskAnswers'])
-                classification_of_annotator= create_classification(answer_dict)
-                ground_truth = processed_sentence_to_classification.get(sentence, '')
-                if ground_truth == classification_of_annotator:
+                elif sentence in mapper.processed_sentence_to_classification:
                     processed_count += 1
+        original_count_percentage = original_count / TOTAL_PER_SENTENCE
+        processed_count_percentage = processed_count / TOTAL_PER_SENTENCE
         print(f"Original count: {original_count}, Processed count: {processed_count}")
+        print(f"Original count percentage: {original_count_percentage}")
+        print(f"Processed count percentage: {processed_count_percentage}")
+        print()
         summary_rows.append({
             "Verb": verb,
             "Total annotations": len(group),
@@ -135,30 +124,31 @@ def counting_for_analysis(filepaths,picked_captions_filepath):
             "Worker A2SMHEGRLML092": f"{per_worker_count.get('A2SMHEGRLML092', 0)} / {EXPECTED_ANNOTATIONS}",
             "Worker A2ZY94PZ5CVH0": f"{per_worker_count.get('A2ZY94PZ5CVH0', 0)} / {EXPECTED_ANNOTATIONS}",
             "Original correct": original_count,
-            "Processed correct": processed_count
+            "Processed correct": processed_count,
+            "Original percentage": original_count_percentage,
+            "Processed percentage": processed_count_percentage,
         })
             # Save missing annotation data to CSV for debugging
         if missing_annotations:
             missing_df = pd.DataFrame(missing_annotations)
-            missing_df.to_csv("missing_annotations.csv", index=False)
-            print("\n⚠️ Missing annotation details saved to 'missing_annotations.csv'")
+            missing_df.to_csv(missing_annotations_filepath, index=False)
 
         df_summary = pd.DataFrame(summary_rows)
-        df_summary.to_csv("x_over_20.csv", index=False)
+        df_summary.to_csv(output_filepath, index=False)
 
-        # print("\n")
 
 def main():
-    #captions_filepaths = ["/app/data/results/captions1.csv", "/app/data/results/captions2.csv"]
-    captions_filepaths = ["captions1.csv", "captions2.csv"]
+    captions_filepaths = ["../../data/results/captions/captions.csv"]
 
     # images_filepaths = ["/app/data/results/images1.csv", "/app/data/results/images2.csv"]
-    #picked_captions_filepath = "/app/data/picked_captions/picked_captions.csv"
-    picked_captions_filepath = "../picked_captions/picked_captions.csv"
+    finalized_captions_filepath = "../../data/finalized_captions/finalized_captions.csv"
+
 
     #output
-    output_filepath = "x_over_20.csv"
-    counting_for_analysis(captions_filepaths,picked_captions_filepath)
+    output_filepath = "../../data/results/x_over_20.csv"
+    missing_annotations_filepath = "../../data/results/missing_annotations.csv"
+
+    counting_for_analysis(captions_filepaths,finalized_captions_filepath,missing_annotations_filepath,output_filepath)
 
 if __name__ == "__main__":
     main()
