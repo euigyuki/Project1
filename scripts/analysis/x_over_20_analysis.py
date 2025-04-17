@@ -1,20 +1,23 @@
 import pandas as pd
 from collections import defaultdict
 import json
-from helper import WORKERS,nums9_to_categories,normalize_caption
+from Project1.scripts.helper.helper import WORKERS,nums9_to_categories,normalize_caption
+from dataclasses import dataclass
+from typing import List
+from Project1.scripts.helper.helper import load_combined_df
 
 EXPECTED_ANNOTATIONS = 10
 TOTAL_PER_SENTENCE = 20
 
 class ClassificationMapper:
-    def __init__(self, picked_captions_filepath):
+    def __init__(self, finalized_captions_filepath):
         self.verb_to_classification = defaultdict(str)
         self.sentences_to_classification = defaultdict(str)
         self.processed_sentence_to_classification = defaultdict(str)
         self.sentences_to_verbs = defaultdict(str)
         self.verbs_to_original = defaultdict(list)
         self.verbs_to_processed = defaultdict(list)
-        self._load_data(picked_captions_filepath)
+        self._load_data(finalized_captions_filepath)
 
     def _load_data(self, filepath):
         df = pd.read_csv(filepath)
@@ -50,43 +53,44 @@ class ClassificationMapper:
         category = merged.get('category', {})
         indoors_outdoors = merged.get('location', {})
         man_made_or_natural = merged.get('type', {})
-
         valid = [k for k, v in indoors_outdoors.items() if v]
         valid += [k for k, v in man_made_or_natural.items() if v]
         valid += [nums9_to_categories[int(k)] for k, v in category.items() if v]
-
         return ":".join(valid)
 
+def filter_valid_annotations(df, workers):
+    df = df[df['WorkerId'].isin(workers)]
+    return df[['WorkerId', 'Input.sentence', 'Answer.taskAnswers']]
 
 
+def group_annotations_by_verb(df, mapper):
+    df = df.copy()
+    df['verbs'] = df['Input.sentence'].apply(lambda x: mapper.get_verb(x))
+    grouped = df.groupby('verbs')
+    return grouped, df
 
-
-
-def counting_for_analysis(filepaths,picked_captions_filepath,missing_annotations_filepath,output_filepath):
+def generate_annotation_report(path_config):
     """
     Processes CSV files and counts verb occurrences per classification.
     """
-    mapper  = ClassificationMapper(picked_captions_filepath)
-    combination = pd.concat([pd.read_csv(fp) for fp in filepaths])
-    selected_columns = combination[['WorkerId', 'Input.sentence', 'Answer.taskAnswers']]
-    selected_columns = selected_columns[selected_columns['WorkerId'].isin(WORKERS)]
+    caption_filepaths = path_config.captions_filepaths
+    finalized_captions_filepath = path_config.finalized_captions_filepath
     
-    selected_columns['verbs'] = selected_columns['Input.sentence'].apply(
-        lambda x: mapper.get_verb(x)
-    )
+    mapper  = ClassificationMapper(finalized_captions_filepath)
+    combination = load_combined_df(caption_filepaths)
+    selected_columns = filter_valid_annotations(combination, WORKERS)
+    grouped, selected_columns = group_annotations_by_verb(selected_columns, mapper)
     
-    df = pd.DataFrame(selected_columns)
-    df.to_csv('sanity_check.csv', index=False)
+    
     missing_annotations = []
     summary_rows = []
-    grouped = selected_columns.groupby('verbs')
+    print(grouped)
     for verb, group in grouped:
         print(f"Group: {verb}, Size: {len(group)}")
         # Count annotations per worker for this verb
         per_worker_count = group['WorkerId'].value_counts()
         for worker in WORKERS:
             count = per_worker_count.get(worker, 0)
-            # print(f"   {worker}: {count} / {EXPECTED_ANNOTATIONS}")
 
             if count < EXPECTED_ANNOTATIONS:
                 missing_annotations.append({
@@ -128,27 +132,47 @@ def counting_for_analysis(filepaths,picked_captions_filepath,missing_annotations
             "Original percentage": original_count_percentage,
             "Processed percentage": processed_count_percentage,
         })
-            # Save missing annotation data to CSV for debugging
-        if missing_annotations:
-            missing_df = pd.DataFrame(missing_annotations)
-            missing_df.to_csv(missing_annotations_filepath, index=False)
+    
+    df_summary = pd.DataFrame(summary_rows)
+    return df_summary,missing_annotations
+    
+def save_summary(path_config, df_summary,missing_annotations_human):
+    if missing_annotations_human:
+        missing_annotations_df = pd.DataFrame(missing_annotations_human)
+        missing_annotations_df.to_csv(path_config.missing_annotations_filepath, index=False)
+    kld_filepath =path_config.kld_filepath
+    output_filepath = path_config.output_filepath_for_human_annotators
+    # Merge and sort by KLD
+    kld_df = pd.read_csv(kld_filepath)
+    kld_df.rename(columns={'propbank_predicate': 'Verb', 'kld': 'KLDivergence'}, inplace=True)
 
-        df_summary = pd.DataFrame(summary_rows)
-        df_summary.to_csv(output_filepath, index=False)
+    df_summary = df_summary.merge(kld_df, on='Verb', how='left')
+    df_summary.sort_values(by='KLDivergence', ascending=False, inplace=True)
+    df_summary.to_csv(output_filepath, index=False)
 
+
+@dataclass
+class PathConfig:
+    captions_filepaths: List[str]
+    finalized_captions_filepath: str
+    kld_filepath: str
+    output_filepath_for_human_annotators: str
+    output_filepath_for_llms: str
+    missing_annotations_filepath: str
 
 def main():
-    captions_filepaths = ["../../data/results/captions/captions.csv"]
-
-    # images_filepaths = ["/app/data/results/images1.csv", "/app/data/results/images2.csv"]
-    finalized_captions_filepath = "../../data/finalized_captions/finalized_captions.csv"
-
-
-    #output
-    output_filepath = "../../data/results/x_over_20.csv"
-    missing_annotations_filepath = "../../data/results/missing_annotations.csv"
-
-    counting_for_analysis(captions_filepaths,finalized_captions_filepath,missing_annotations_filepath,output_filepath)
-
+    path_config = PathConfig(
+        ###input
+        captions_filepaths=["../../data/results/captions_annotated_by_humans/captions_annotated_by_humans.csv"],
+        finalized_captions_filepath="../../data/finalized_captions/finalized_captions.csv",
+        kld_filepath="../../data/kl_divergence/propbank_predicate_to_kld_mapping.csv",
+        ##output
+        output_filepath_for_human_annotators="../../data/results/x_over_20_for_human_annotators.csv",
+        output_filepath_for_llms="../../data/results/x_over_20_for_llms.csv",
+        missing_annotations_filepath="../../data/results/missing_annotations_for_human_annotators.csv"
+    )
+    df_human,missing_annotations_human = generate_annotation_report(path_config)
+    save_summary(path_config, df_human,missing_annotations_human)
+    
 if __name__ == "__main__":
     main()

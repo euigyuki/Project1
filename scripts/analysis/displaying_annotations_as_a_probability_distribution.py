@@ -4,73 +4,14 @@ from get_fleiss_kappas import bool_dict_to_int_list
 import csv
 from scipy.spatial.distance import jensenshannon
 from scipy.special import rel_entr
-from helper import categories_to_num_9,normalize_caption,load_combined_df
-from helper import clip_probs,categories_to_num_16,nums9_to_categories
+from Project1.scripts.helper.helper import categories_to_num_9,normalize_caption,load_combined_df
+from Project1.scripts.helper.helper import clip_probs,categories_to_num_16,nums9_to_categories
 from collections import defaultdict
-from helper import get_set_of
-from helper import WORKERS
+from Project1.scripts.helper.helper import get_set_of
+from Project1.scripts.helper.helper import WORKERS
 import numpy as np
+from Project1.scripts.helper.helper import AnnotationProcessor
 
-
-class AnnotationProcessor:
-    def __init__(self, human_files, llm_files):
-        self.human_files = human_files
-        self.llm_files = llm_files
-        self.human_annotations = {
-        "original": {},
-        "finalized": {}
-         }
-        self.llm_annotations = {
-        "original": {},
-        "finalized": {}
-         }
-
-    def process_human_annotations(self, original_captions_set):
-        combined_df = load_combined_df(self.human_files)
-        print("length of self.human_annotations", len(self.human_annotations),len(combined_df))
-        for _, row in combined_df.iterrows():
-            workerID = row['WorkerId']
-            if row['WorkerId'] == "ASSIGNMENT_ID_NOT_AVAILABLE":
-                continue
-            if workerID not in WORKERS:
-                continue
-            caption = normalize_caption(row['Input.sentence'])
-            answer_dict = json.loads(row['Answer.taskAnswers'])[0]
-            category = self._process_categories(answer_dict['category'])
-            location = "indoors" if bool_dict_to_int_list(answer_dict['location']) == 0 else "outdoors"
-            type_ = "man-made" if bool_dict_to_int_list(answer_dict['type']) == 0 else "natural"
-            total = f"{location}/{type_}/{category}"
-            if caption in original_captions_set:
-                self.human_annotations["original"].setdefault(caption, []).append(total)
-            else:
-                self.human_annotations["finalized"].setdefault(caption, []).append(total)
-        print("length of self.human_annotations", len(self.human_annotations["original"]),len(self.human_annotations["finalized"])) 
-
-            
-
-    def process_llm_annotations(self, original_captions_set):
-        for filepath in self.llm_files:
-            with open(filepath, 'r') as file:
-                data = json.load(file)
-                for item in data:
-                    caption = normalize_caption(item['caption'])
-                    annotation = item['annotation']
-                    category = categories_to_num_9.get(annotation[2], -1)
-                    category = nums9_to_categories[category]
-                    location = "indoors" if 'indoors' in annotation else "outdoors"
-                    type_ = "man-made" if 'man-made' in annotation else "natural"
-                    total = f"{location}/{type_}/{category}"
-                    if total == "outdoors/natural/recreation":
-                        total = "outdoors/man-made/recreation"
-                    if caption in original_captions_set:
-                        self.llm_annotations["original"].setdefault(caption, []).append(total)
-                    else:
-                        self.llm_annotations["finalized"].setdefault(caption, []).append(total)
-
-    def _process_categories(self, categories_map):
-        for key, value in categories_map.items():
-            if value:
-                return nums9_to_categories[int(key)]
 
 
 class DivergenceCalculator:

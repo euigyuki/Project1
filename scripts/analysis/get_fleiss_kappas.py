@@ -2,20 +2,11 @@ import pandas as pd
 from statsmodels.stats.inter_rater import aggregate_raters, fleiss_kappa
 import numpy as np
 import json
-from helper import load_combined_df,WORKERS,categories_to_num_9
+from Project1.scripts.helper.helper import load_combined_df,WORKERS,categories_to_num_9
+from Project1.scripts.helper.helper import bool_dict_to_int_list
 
 
-def bool_dict_to_int_list(d):
-    if len(d) == 10:
-        for key,value in d.items():
-            if value == True:
-                return int(key)
-    else:
-        for key,value in d.items():
-            if (key == "indoors" and value == True) or (key == "man-made" and value == True):
-                return 0
-            else:
-                return 1
+
          
 def calculate_fleiss_kappa(data):
     """
