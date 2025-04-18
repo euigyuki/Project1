@@ -4,13 +4,13 @@ from get_fleiss_kappas import bool_dict_to_int_list
 import csv
 from scipy.spatial.distance import jensenshannon
 from scipy.special import rel_entr
-from Project1.scripts.helper.helper import categories_to_num_9,normalize_caption,load_combined_df
-from Project1.scripts.helper.helper import clip_probs,categories_to_num_16,nums9_to_categories
+from Project1.scripts.helper.helper_functions import categories_to_num_9,normalize_caption,load_combined_df
+from Project1.scripts.helper.helper_functions import clip_probs,categories_to_num_16,nums9_to_categories
 from collections import defaultdict
-from Project1.scripts.helper.helper import get_set_of
-from Project1.scripts.helper.helper import WORKERS
+from Project1.scripts.helper.helper_functions import get_set_of
+from Project1.scripts.helper.helper_functions import WORKERS
 import numpy as np
-from Project1.scripts.helper.helper import AnnotationProcessor
+from Project1.scripts.helper.helper_functions import AnnotationProcessor
 
 
 

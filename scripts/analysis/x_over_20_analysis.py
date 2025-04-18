@@ -1,13 +1,16 @@
 import pandas as pd
 from collections import defaultdict
 import json
-from Project1.scripts.helper.helper import WORKERS,nums9_to_categories,normalize_caption
 from dataclasses import dataclass
 from typing import List
-from Project1.scripts.helper.helper import load_combined_df
+from scripts.helper.helper_functions import normalize_caption,load_combined_df, WORKERS  
+from scripts.helper.helper_functions import nums9_to_categories
+from pathlib import Path
 
 EXPECTED_ANNOTATIONS = 10
 TOTAL_PER_SENTENCE = 20
+PROJECT_ROOT = Path(__file__).parent.parent.parent
+DATA_DIR = PROJECT_ROOT / "data"
 
 class ClassificationMapper:
     def __init__(self, finalized_captions_filepath):
@@ -105,6 +108,7 @@ def generate_annotation_report(path_config):
         original_count, processed_count = 0, 0
         for _, row in group.iterrows():
             sentence = normalize_caption(row['Input.sentence'])
+            classification_of_annotator = row['Answer.taskAnswers']
             answer_dict = json.loads(row['Answer.taskAnswers'])
             classification_of_annotator = mapper.create_classification(answer_dict)
             ground_truth = mapper.get_classification(sentence)
@@ -162,14 +166,14 @@ class PathConfig:
 
 def main():
     path_config = PathConfig(
-        ###input
-        captions_filepaths=["../../data/results/captions_annotated_by_humans/captions_annotated_by_humans.csv"],
-        finalized_captions_filepath="../../data/finalized_captions/finalized_captions.csv",
-        kld_filepath="../../data/kl_divergence/propbank_predicate_to_kld_mapping.csv",
-        ##output
-        output_filepath_for_human_annotators="../../data/results/x_over_20_for_human_annotators.csv",
-        output_filepath_for_llms="../../data/results/x_over_20_for_llms.csv",
-        missing_annotations_filepath="../../data/results/missing_annotations_for_human_annotators.csv"
+        # Input paths
+        captions_filepaths=[str(DATA_DIR / "results" /"captions_annotated_by_humans"/ "captions_annotated_by_humans_backup.csv")],
+        finalized_captions_filepath=str(DATA_DIR / "finalized_captions" / "finalized_captions.csv"),
+        kld_filepath=str(DATA_DIR / "kl_divergence" / "propbank_predicate_to_kld_mapping.csv"),
+        # Output paths
+        output_filepath_for_human_annotators=str(DATA_DIR / "results" / "x_over_20_for_human_annotators.csv"),
+        output_filepath_for_llms=str(DATA_DIR / "results" / "x_over_20_for_llms.csv"),
+        missing_annotations_filepath=str(DATA_DIR / "results" / "missing_annotations_for_human_annotators.csv")
     )
     df_human,missing_annotations_human = generate_annotation_report(path_config)
     save_summary(path_config, df_human,missing_annotations_human)

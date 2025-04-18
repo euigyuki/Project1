@@ -1,5 +1,5 @@
 import csv
-from Project1.scripts.helper.helper import strip_word
+from Project1.scripts.helper.helper_functions import strip_word
 
 def load_kld_mapping(kld_csv_path, verbs):
     kld_dict = {}

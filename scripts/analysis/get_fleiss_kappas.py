@@ -2,8 +2,8 @@ import pandas as pd
 from statsmodels.stats.inter_rater import aggregate_raters, fleiss_kappa
 import numpy as np
 import json
-from Project1.scripts.helper.helper import load_combined_df,WORKERS,categories_to_num_9
-from Project1.scripts.helper.helper import bool_dict_to_int_list
+from Project1.scripts.helper.helper_functions import load_combined_df,WORKERS,categories_to_num_9
+from Project1.scripts.helper.helper_functions import bool_dict_to_int_list
 
 
 
