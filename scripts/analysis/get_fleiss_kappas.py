@@ -1,13 +1,11 @@
 import pandas as pd
 from statsmodels.stats.inter_rater import aggregate_raters, fleiss_kappa
 import numpy as np
-import json
-from Project1.scripts.helper.helper_functions import load_combined_df,WORKERS,categories_to_num_9
-from Project1.scripts.helper.helper_functions import bool_dict_to_int_list
+from scripts.helper.helper_functions import WORKERS,categories_to_num_9,LLMS
+from dataclasses import dataclass
+from pathlib import Path
 
 
-
-         
 def calculate_fleiss_kappa(data):
     """
     Calculates Fleiss' Kappa for the provided data.
@@ -18,28 +16,23 @@ def calculate_fleiss_kappa(data):
 
 
 
-def process_group(group):
+def process_group(group,workers_or_llms):
     """
     Processes a group of data to extract category, location, and type annotations.
     """
     category_group = []
     indoors_or_outdoors_group = []
     man_made_or_natural_group = []
-
-
     for _, row in group.iterrows():
-        if row['WorkerId'] not in WORKERS:
+        if row['WorkerId'] not in workers_or_llms:
             continue
-
-        answer_dict = json.loads(row['Answer.taskAnswers'])
-        category = answer_dict[0]['category']
-        indoors_or_outdoors = answer_dict[0]['location']
-        man_made_or_natural = answer_dict[0]['type']
-
-        category_group.append(bool_dict_to_int_list(category))
-        indoors_or_outdoors_group.append(bool_dict_to_int_list(indoors_or_outdoors))
-        man_made_or_natural_group.append(bool_dict_to_int_list(man_made_or_natural))
-
+        parts=str.split(row['Answer.taskAnswers'], "/")
+        category = parts[2]
+        indoors_or_outdoors = parts[0]
+        man_made_or_natural = parts[1]
+        category_group.append(category)
+        indoors_or_outdoors_group.append(indoors_or_outdoors)
+        man_made_or_natural_group.append(man_made_or_natural)
     return category_group, indoors_or_outdoors_group, man_made_or_natural_group
 
 def calculate_fleiss_kappas(categories, indoors_or_outdoors, man_made_or_natural):
@@ -47,15 +40,15 @@ def calculate_fleiss_kappas(categories, indoors_or_outdoors, man_made_or_natural
     print(f"Fleiss' Kappa - indoors or outdoors: {calculate_fleiss_kappa(indoors_or_outdoors)}")
     print(f"Fleiss' Kappa - man-made or natural: {calculate_fleiss_kappa(man_made_or_natural)}")
 
-def analyze_data(filepaths, group_by_column):
-    combined_data = load_combined_df(filepaths)
+def analyze_data(filepaths, group_by_column,workers_or_llms):
+    combined_data = pd.read_csv(filepaths)
     selected_columns = combined_data[['WorkerId', group_by_column, 'Answer.taskAnswers']]
     grouped = selected_columns.groupby(group_by_column)
-
+    print(f"Number of groups: {len(grouped)}")
     categories, indoors_or_outdoors, man_made_or_natural = [], [], []
     missing_labels = 0
     for name, group in grouped:
-        category_group, location_group, type_group = process_group(group)
+        category_group, location_group, type_group = process_group(group,workers_or_llms)
         if all(len(lst) == 4 for lst in [category_group, location_group, type_group]):
             categories.append(category_group)
             indoors_or_outdoors.append(location_group)
@@ -66,7 +59,7 @@ def analyze_data(filepaths, group_by_column):
             print(group)
             missing_labels += 1
             print("\n")
-    print(f"Skipped {missing_labels} groups due to inconsistent lengths.")
+    print(f"Skipped {missing_labels} groups due to inconsistent lengths.# of missing labels{missing_labels}")
     return categories, indoors_or_outdoors, man_made_or_natural
 
 
@@ -86,67 +79,46 @@ def convert_annotation_to_int(annotation):
             category = categories_to_num_9[element]
     return category, indoors_or_outdoors, man_made_or_natural
 
+def load_captions_filepaths(path_config):
+    return path_config.captions_filepaths
 
-def load_llm_annotations(filepaths):
-    """
-    Load and process LLM annotations from JSON files.
-    """
-    categories=[]
-    indoors_or_outdoors_group=[]
-    man_made_or_natural_group=[]
-    for filepath in filepaths:
-        category_temp=[]
-        indoors_or_outdoors_temp=[]
-        man_made_or_natural_temp=[]
-        with open(filepath, 'r') as file:
-            data = json.load(file)
-            for item in data:
-                caption = item['caption']
-                annotation = item['annotation']
-                category, indoors_or_outdoors,man_made_or_natural = convert_annotation_to_int(annotation)
-                category_temp.append(category)
-                indoors_or_outdoors_temp.append(indoors_or_outdoors)
-                man_made_or_natural_temp.append(man_made_or_natural)
-        categories.append(category_temp)
-        indoors_or_outdoors_group.append(indoors_or_outdoors_temp)
-        man_made_or_natural_group.append(man_made_or_natural_temp)
-    categories = [list(row) for row in zip(*categories)]
-    indoors_or_outdoors_group = [list(row) for row in zip(*indoors_or_outdoors_group)]
-    man_made_or_natural_group = [list(row) for row in zip(*man_made_or_natural_group)]
-    return categories, indoors_or_outdoors_group, man_made_or_natural_group
+def load_images_filepaths(path_config):
+    return path_config.images_filepaths
 
-def fleiss_kappa_for_human_data(filepaths, group_by_column):
-    categories, indoors_or_outdoors, man_made_or_natural = analyze_data(filepaths, group_by_column)
+def load_llm_annotations(path_config):
+    return path_config.llm_annotations_filepaths
+
+def fleiss_kappa_for_all_three(path_config,load_func, group_by_column,workers_or_llms):
+    filepaths = load_func(path_config)
+    categories, indoors_or_outdoors, man_made_or_natural = analyze_data(filepaths, group_by_column,workers_or_llms)
     print(f"Data shapes - Categories: {np.shape(categories)}, Indoors/Outdoors: {np.shape(indoors_or_outdoors)}, Man-made/Natural: {np.shape(man_made_or_natural)}")
     calculate_fleiss_kappas(categories, indoors_or_outdoors, man_made_or_natural)
 
-def fleiss_kappa_for_llm_annotations(filepath):
-    categories, indoors_or_outdoors_group, man_made_or_natural_group = load_llm_annotations(filepath)
-    print("\n")
-    print("printing shapes",np.array(categories).shape,np.array(indoors_or_outdoors_group).shape,np.array(man_made_or_natural_group).shape) 
-    print("calculating LLM fleiss kappas - CAPTIONS")
-    calculate_fleiss_kappas(categories, indoors_or_outdoors_group,man_made_or_natural_group)
 
+@dataclass
+class PathConfig:
+    captions_filepaths: Path
+    images_filepaths: Path
+    llm_annotations_filepaths: Path
+
+PROJECT_ROOT = Path(__file__).parent.parent.parent
+DATA_DIR = PROJECT_ROOT / "data"
 
 if __name__ == "__main__":
- 
+    path_config = PathConfig(
+        ## Input paths
+        captions_filepaths=DATA_DIR / "results" / "captions_annotated_by_humans"/ "captions_annotated_by_humans.csv",
+        images_filepaths=DATA_DIR / "results" / "images_annotated_by_humans"/"images_annotated_by_humans.csv",
+        llm_annotations_filepaths=DATA_DIR / "results" / "llm_annotations" / "captions_annotated_by_llms.csv"
+    )
     
-    ###inputs
-    captions_filepaths = ["../../data/results/captions/captions.csv"]
-    images_filepaths = ["../../data/results/images/images.csv"]
-    llm_annotations_filepaths = [
-    "../../data/results/llm_annotations/deepseek_annotations.json",
-    "../../data/results/llm_annotations/perplexity_annotations.json",
-    "../../data/results/llm_annotations/claude_annotations.json",
-    "../../data/results/llm_annotations/chatgpt_annotations.json"
-    ]
-
+   
     # Analyze human annotations for captions
-    fleiss_kappa_for_human_data(captions_filepaths, 'Input.sentence')
+    fleiss_kappa_for_all_three(path_config,load_captions_filepaths,'Input.sentence',WORKERS)
 
     # Analyze human annotations for images
-    fleiss_kappa_for_human_data(images_filepaths, 'Input.image_url')
+    fleiss_kappa_for_all_three(path_config,load_images_filepaths, 'Input.image_url',WORKERS)
 
     # Analyze LLM annotations
-    fleiss_kappa_for_llm_annotations(llm_annotations_filepaths)
+    fleiss_kappa_for_all_three(path_config,load_llm_annotations,"Input.sentence",LLMS)
    

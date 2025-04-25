@@ -20,6 +20,8 @@ categories_to_num_16 = {
     "outdoors/natural/other_unclear":14,
     "outdoors/man-made/restaurant":15
 }
+num_16_to_category = {v: k for k, v in categories_to_num_16.items()}
+
 categories_to_num_9 = {
     "transportation_urban":0,
     "restaurant":1,
@@ -50,6 +52,23 @@ WORKERS = ["A17EZEAMF37MGQ",#derrick
 "A2SMHEGRLML092",#Lindsay
 "A2ZY94PZ5CVH0" #matt
 ]
+
+LLMS=[
+    "chatgpt",
+    "claude",
+    "deepseek",
+    "perplexity"
+]
+VLMS=[
+    "flux",
+    "dalle",
+    "midjourney"
+]
+ENTITY_TO_WORKERS = {
+    "human": WORKERS,
+    "llms": LLMS,
+    "vlms": VLMS
+}
 
 
 class AnnotationProcessor:
@@ -153,6 +172,33 @@ def load_combined_df(filepaths):
     combined_df = pd.concat(dataframes, axis=0)
     return combined_df
 
+def majority_vote_from_distribution(counts,adjudication=None):
+    """
+    Returns the majority-vote annotation string from a count vector.
+    
+    Args:
+        counts (List[int]): A list of 16 integers representing annotation counts.
+    
+    Returns:
+        str: The majority-vote annotation (e.g. 'outdoors/natural/body_of_water').
+    """
+    #print("counts",counts)
+    if len(counts) != 16:
+        raise ValueError("Input must be a list of length 16.")
+
+    max_count = max(counts)
+    if max_count == 0:
+        return None  # or raise an error if needed
+    #print("max_count",max_count)
+
+    # Find all categories with max count (in case of tie)
+    tied_indices = [i for i, count in enumerate(counts) if count == max_count]
+    #print("tied_indices",tied_indices)
+    if len(tied_indices) > 1:
+        return num_16_to_category[adjudication]
+    else:
+        return num_16_to_category[tied_indices[0]]
+        
 
 # Function to calculate probability distribution
 def calculate_probability_distribution(annotations):
