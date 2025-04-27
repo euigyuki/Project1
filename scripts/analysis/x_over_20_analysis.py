@@ -8,8 +8,7 @@ from pathlib import Path
 
 EXPECTED_ANNOTATIONS = 10
 TOTAL_PER_SENTENCE = 20
-PROJECT_ROOT = Path(__file__).parent.parent.parent
-DATA_DIR = PROJECT_ROOT / "data"
+
 
 class ClassificationMapper:
     def __init__(self, finalized_captions_filepath):
@@ -42,6 +41,7 @@ class ClassificationMapper:
             self.processed_sentence_to_classification[finalized] = classification
         print(len(self.sentences_to_classification))
         print(len(self.processed_sentence_to_classification))
+
     def get_classification(self, sentence):
         sentence = normalize_caption(sentence)
         return (self.sentences_to_classification.get(sentence) or 
@@ -62,6 +62,79 @@ class ClassificationMapper:
         valid += [nums9_to_categories[int(k)] for k, v in category.items() if v]
         return "/".join(valid)
 
+    @staticmethod
+    def create_location_only_classification(answer_list):
+        """
+        Extracts only the location (indoor/outdoor) labels from the answer list.
+        """
+        merged = {key: value for d in answer_list for key, value in d.items()}
+        indoors_outdoors = merged.get('location', {})
+        return indoors_outdoors
+
+class AnnotationProcessor:
+    def __init__(self, path_config):
+        self.path_config = path_config
+
+    def process(self, loader_func, agents, output_func):
+        df_summary, missing = generate_annotation_report(self.path_config, loader_func, agents)
+        save_summary(self.path_config, df_summary, missing, output_func)
+
+def compute_worker_missing(group, workers, verb):
+    """
+    Returns list of missing annotation info for a group (one verb).
+    """
+    per_worker_count = group['WorkerId'].value_counts()
+    missing_annotations = []
+    for worker in workers:
+        count = per_worker_count.get(worker, 0)
+        if count < EXPECTED_ANNOTATIONS:
+            missing_annotations.append({
+                "WorkerId": worker,
+                "Verb": verb,
+                "Provided": count,
+                "Missing": EXPECTED_ANNOTATIONS - count
+            })
+    return missing_annotations, per_worker_count
+
+def compute_correct_counts(group, mapper):
+    """
+    Count how many annotations match the classification (original vs. processed).
+    """
+    original_count, processed_count = 0, 0
+    for _, row in group.iterrows():
+        sentence = normalize_caption(row['Input.sentence'])
+        annotation = row['Answer.taskAnswers']
+        ground_truth = mapper.get_classification(sentence)
+        if ground_truth == annotation:
+            if sentence in mapper.sentences_to_classification:
+                original_count += 1
+            elif sentence in mapper.processed_sentence_to_classification:
+                processed_count += 1
+    return original_count, processed_count
+
+def generate_annotation_report(path_config, load_annotations_func, WORKERS_or_LLMS):
+    caption_filepath = load_annotations_func(path_config)
+    finalized_captions_filepath = path_config.finalized_captions_filepath
+
+    mapper = ClassificationMapper(finalized_captions_filepath)
+    combination = pd.read_csv(caption_filepath)
+    selected_columns = filter_valid_annotations(combination, WORKERS_or_LLMS)
+    selected_columns = selected_columns.drop_duplicates(subset=["WorkerId", "Input.sentence"])
+    grouped, selected_columns = group_annotations_by_verb(selected_columns, mapper)
+
+    summary_rows = []
+    all_missing = []
+
+    for verb, group in grouped:
+        # print(f"Group: {verb}, Size: {len(group)}")
+        row, missing = summarize_group(verb, group, WORKERS_or_LLMS, mapper)
+        summary_rows.append(row)
+        all_missing.extend(missing)
+
+    df_summary = pd.DataFrame(summary_rows)
+    return df_summary, all_missing
+
+
 def filter_valid_annotations(df, workers):
     df = df[df['WorkerId'].isin(workers)]
     return df[['WorkerId', 'Input.sentence', 'Answer.taskAnswers']]
@@ -74,6 +147,25 @@ def group_annotations_by_verb(df, mapper):
     grouped = df.groupby('verbs')
     return grouped, df
 
+
+def summarize_group(verb, group, workers, mapper):
+    missing, counts = compute_worker_missing(group, workers, verb)
+    original_correct, processed_correct = compute_correct_counts(group, mapper)
+    original_pct = original_correct / TOTAL_PER_SENTENCE
+    processed_pct = processed_correct / TOTAL_PER_SENTENCE
+    row = {
+        "Verb": verb,
+        "Total annotations": len(group),
+        "Original correct": original_correct,
+        "Processed correct": processed_correct,
+        "Original percentage": original_pct,
+        "Processed percentage": processed_pct,
+    }
+
+    for worker in workers:
+        row[f"Worker {worker}"] = f"{counts.get(worker, 0)} / {EXPECTED_ANNOTATIONS}"
+    return row, missing
+
 def load_human_annotations(path_config):
     return path_config.captions_filepaths
 
@@ -83,84 +175,14 @@ def load_llm_annotations(path_config):
 def load_vlm_annotations(path_config):
     return path_config.vlm_captions_filepath
 
-def generate_annotation_report(path_config,load_annotations_func,WORKERS_or_LLMS):
-    """
-    Processes CSV files and counts verb occurrences per classification.
-    """
-    caption_filepath = load_annotations_func(path_config)
-
-    finalized_captions_filepath = path_config.finalized_captions_filepath
-    
-    mapper  = ClassificationMapper(finalized_captions_filepath)
-    combination = pd.read_csv(caption_filepath)
-    selected_columns = filter_valid_annotations(combination, WORKERS_or_LLMS)
-    selected_columns = selected_columns.drop_duplicates(subset=["WorkerId", "Input.sentence"])
-    grouped, selected_columns = group_annotations_by_verb(selected_columns, mapper)
-    
-    
-    missing_annotations = []
-    summary_rows = []
-    print(len(grouped))
-    print("Unique verbs:", grouped.groups.keys())
-
-    for verb, group in grouped:
-        print(f"Group: {verb}, Size: {len(group)}")
-        # Count annotations per worker for this verb
-        per_worker_count = group['WorkerId'].value_counts()
-        for worker in WORKERS_or_LLMS:
-            count = per_worker_count.get(worker, 0)
-
-            if count < EXPECTED_ANNOTATIONS:
-                missing_annotations.append({
-                    "WorkerId": worker,
-                    "Verb": verb,
-                    "Provided": count,
-                    "Missing": EXPECTED_ANNOTATIONS - count
-                })
-
-        print("Annotations per worker:")
-
-        original_count, processed_count = 0, 0
-        for _, row in group.iterrows():
-            sentence = normalize_caption(row['Input.sentence'])
-            classification_of_annotator = row['Answer.taskAnswers']
-            ground_truth = mapper.get_classification(sentence)
-            if ground_truth == classification_of_annotator:
-                if sentence in mapper.sentences_to_classification:
-                    original_count += 1
-                elif sentence in mapper.processed_sentence_to_classification:
-                    processed_count += 1
-        original_count_percentage = original_count / TOTAL_PER_SENTENCE
-        processed_count_percentage = processed_count / TOTAL_PER_SENTENCE
-        print(f"Original count: {original_count}, Processed count: {processed_count}")
-        print(f"Original count percentage: {original_count_percentage}")
-        print(f"Processed count percentage: {processed_count_percentage}")
-        print()
-        
-        row = {
-            "Verb": verb,
-            "Total annotations": len(group),
-            "Original correct": original_count,
-            "Processed correct": processed_count,
-            "Original percentage": original_count_percentage,
-            "Processed percentage": processed_count_percentage,
-        }
-        # Dynamically add entries for each worker/LLM
-        for worker in WORKERS_or_LLMS:
-            row[f"Worker {worker}"] = f"{per_worker_count.get(worker, 0)} / {EXPECTED_ANNOTATIONS}"
-        summary_rows.append(row)
-    
-    df_summary = pd.DataFrame(summary_rows)
-    return df_summary,missing_annotations
-
 def load_human_output_path(path_config):
-    return path_config.output_filepath_for_human_annotators
+    return path_config.lvl3_output_filepath_for_human_annotators
 
 def load_llm_output_path(path_config):
-    return path_config.output_filepath_for_llms
+    return path_config.lvl3_output_filepath_for_llms
 
 def load_vlm_output_path(path_config):
-    return path_config.output_filepath_for_vlms
+    return path_config.lvl3_output_filepath_for_vlms
 
 
 def save_summary(path_config, df_summary,missing_annotations,load_func):
@@ -178,17 +200,23 @@ def save_summary(path_config, df_summary,missing_annotations,load_func):
     df_summary.to_csv(output_filepath, index=False)
 
 
+
 @dataclass
 class PathConfig:
+    #input
     captions_filepaths: List[str]
     finalized_captions_filepath: Path
     kld_filepath: Path
-    output_filepath_for_human_annotators: Path
-    output_filepath_for_llms: Path
-    missing_annotations_filepath: Path
     llm_captions_filepath: Path
     vlm_captions_filepath: Path
-    output_filepath_for_vlms: Path
+    #output
+    lvl3_output_filepath_for_human_annotators: Path
+    lvl3_output_filepath_for_llms: Path
+    lvl3_output_filepath_for_vlms: Path
+    missing_annotations_filepath: Path
+
+PROJECT_ROOT = Path(__file__).parent.parent.parent
+DATA_DIR = PROJECT_ROOT / "data"
 
 def main():
     path_config = PathConfig(
@@ -199,20 +227,19 @@ def main():
         llm_captions_filepath=str(DATA_DIR / "results" / "llm_annotations" / "captions_annotated_by_llms.csv"),
         vlm_captions_filepath=str(DATA_DIR / "results" / "vlm_annotations" / "images_annotated_by_vlms.csv"),
         # Output paths
-        output_filepath_for_human_annotators=str(DATA_DIR / "results" / "x_over_20" / "x_over_20_for_human_annotators.csv"),
-        output_filepath_for_llms=str(DATA_DIR / "results" / "x_over_20"/ "x_over_20_for_llms.csv"),
-        output_filepath_for_vlms=str(DATA_DIR / "results" / "x_over_20"/ "x_over_20_for_vlms.csv"),
+        lvl3_output_filepath_for_human_annotators=str(DATA_DIR / "results" /"x_over_20"/ "lvl3"/ "x_over_20_for_human_annotators.csv"),
+        lvl3_output_filepath_for_llms=str(DATA_DIR / "results" / "x_over_20"/ "lvl3"/ "x_over_20_for_llms.csv"),
+        lvl3_output_filepath_for_vlms=str(DATA_DIR / "results" / "x_over_20"/ "lvl3"/ "x_over_20_for_vlms.csv"),
         missing_annotations_filepath=str(DATA_DIR / "results" / "missing_annotations_for_human_annotators.csv")
     )
-    df_human,missing_annotations_human = generate_annotation_report(path_config,load_human_annotations,WORKERS)
-    save_summary(path_config, df_human,missing_annotations_human,load_human_output_path)
+    processor = AnnotationProcessor(path_config)
 
-    # Save the summary for LLMs
-    df_llm,missing_annotations_llm = generate_annotation_report(path_config,load_llm_annotations,LLMS)
-    save_summary(path_config, df_llm,missing_annotations_llm,load_llm_output_path)
-    # Save the summary for VLMs
-    df_vlm,missing_annotations_vlm = generate_annotation_report(path_config,load_vlm_annotations,VLMS)
-    save_summary(path_config, df_vlm,missing_annotations_vlm,load_vlm_output_path)
-    
+    for loader, group, output_path_func in [
+        (load_human_annotations, WORKERS, load_human_output_path),
+        (load_llm_annotations, LLMS, load_llm_output_path),
+        (load_vlm_annotations, VLMS, load_vlm_output_path),
+    ]:
+        processor.process(loader, group, output_path_func)
+
 if __name__ == "__main__":
     main()

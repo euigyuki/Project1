@@ -19,8 +19,46 @@ class VerbAccuracyPlotter:
 
     def plot_all(self):
         for idx, group in enumerate(self.groups):
-            self._plot_group(group, idx, "Processed percentage")
-            self._plot_group(group, idx, "Original percentage")
+            for source in ["Human", "LLM", "VLM"]:
+                self._plot_source_comparison(group, idx, source)
+                
+    def _plot_source_comparison(self, verb_group: List[str], group_index: int, source: str):
+        if source == "Human":
+            df = self.df_human
+        elif source == "LLM":
+            df = self.df_llm
+        elif source == "VLM":
+            df = self.df_vlm
+        else:
+            raise ValueError(f"Invalid source: {source}")
+
+        data = {
+            "Verb": verb_group,
+            "Original": [df[df["Verb"] == v]["Original percentage"].values[0] for v in verb_group],
+            "Processed": [df[df["Verb"] == v]["Processed percentage"].values[0] for v in verb_group],
+        }
+        df_plot = pd.DataFrame(data)
+
+        fig, ax = plt.subplots(figsize=(10, 6))
+        bar_width = 0.3
+        x = range(len(df_plot))
+
+        ax.bar([i - bar_width / 2 for i in x], df_plot["Original"], width=bar_width, label="Original")
+        ax.bar([i + bar_width / 2 for i in x], df_plot["Processed"], width=bar_width, label="Processed")
+
+        ax.set_xticks(x)
+        ax.set_xticklabels(df_plot["Verb"], rotation=45, ha="right")
+        ax.set_ylabel("Accuracy")
+        ax.set_ylim(0, 1.1)
+        ax.set_title(f"{source}: Original vs. Processed – Group {group_index + 1}")
+        ax.legend()
+
+        plt.tight_layout()
+        output_file = self.path_config.output_path / f"group_{group_index + 1}_{source.lower()}_original_vs_processed.png"
+        plt.savefig(output_file, dpi=300, bbox_inches="tight")
+        plt.close()
+        print(f"Saved: {output_file}")
+
 
     def _plot_group(self, verb_group: List[str], group_index: int, column: str):
         data = {
