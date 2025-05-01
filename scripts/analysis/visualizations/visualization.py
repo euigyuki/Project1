@@ -3,14 +3,23 @@ import matplotlib.pyplot as plt
 from dataclasses import dataclass
 from pathlib import Path
 from typing import List
-
+from typing import List
+from pathlib import Path
 
 class VerbAccuracyPlotter:
-    def __init__(self, path_config):
-        self.path_config = path_config
-        self.df_human = pd.read_csv(path_config.x_over_20_for_human_annotators)
-        self.df_vlm = pd.read_csv(path_config.x_over_20_for_human_vlms)
-        self.df_llm = pd.read_csv(path_config.x_over_20_for_human_llms)
+    @dataclass
+    class SingleLevelPath:
+        human: Path
+        llm: Path
+        vlm: Path
+
+    def __init__(self, level_name: str, path: SingleLevelPath, output_dir: Path):
+        self.level_name = level_name
+        self.df_human = pd.read_csv(path.human)
+        self.df_llm = pd.read_csv(path.llm)
+        self.df_vlm = pd.read_csv(path.vlm)
+        self.output_dir = output_dir / level_name
+        self.output_dir.mkdir(parents=True, exist_ok=True)
         self.verbs = sorted(set(self.df_human["Verb"].dropna()))
         self.groups = self._group_verbs(self.verbs)
 
@@ -21,16 +30,9 @@ class VerbAccuracyPlotter:
         for idx, group in enumerate(self.groups):
             for source in ["Human", "LLM", "VLM"]:
                 self._plot_source_comparison(group, idx, source)
-                
+
     def _plot_source_comparison(self, verb_group: List[str], group_index: int, source: str):
-        if source == "Human":
-            df = self.df_human
-        elif source == "LLM":
-            df = self.df_llm
-        elif source == "VLM":
-            df = self.df_vlm
-        else:
-            raise ValueError(f"Invalid source: {source}")
+        df = {"Human": self.df_human, "LLM": self.df_llm, "VLM": self.df_vlm}[source]
 
         data = {
             "Verb": verb_group,
@@ -50,67 +52,61 @@ class VerbAccuracyPlotter:
         ax.set_xticklabels(df_plot["Verb"], rotation=45, ha="right")
         ax.set_ylabel("Accuracy")
         ax.set_ylim(0, 1.1)
-        ax.set_title(f"{source}: Original vs. Processed – Group {group_index + 1}")
+        ax.set_title(f"{self.level_name.upper()} – {source}: Original vs. Processed (Group {group_index + 1})")
         ax.legend()
 
         plt.tight_layout()
-        output_file = self.path_config.output_path / f"group_{group_index + 1}_{source.lower()}_original_vs_processed.png"
-        plt.savefig(output_file, dpi=300, bbox_inches="tight")
+        out_path = self.output_dir / f"group_{group_index + 1}_{source.lower()}_original_vs_processed.png"
+        plt.savefig(out_path, dpi=300, bbox_inches="tight")
         plt.close()
-        print(f"Saved: {output_file}")
+        print(f"Saved: {out_path}")
 
-
-    def _plot_group(self, verb_group: List[str], group_index: int, column: str):
-        data = {
-            "Verb": verb_group,
-            "Human": [self.df_human[self.df_human["Verb"] == v][column].values[0] for v in verb_group],
-            "LLM": [self.df_llm[self.df_llm["Verb"] == v][column].values[0] for v in verb_group],
-            "VLM": [self.df_vlm[self.df_vlm["Verb"] == v][column].values[0] for v in verb_group],
-        }
-        df_plot = pd.DataFrame(data)
-
-        fig, ax = plt.subplots(figsize=(10, 6))
-        bar_width = 0.2
-        x = range(len(df_plot))
-
-        ax.bar([i - bar_width for i in x], df_plot["Human"], width=bar_width, label="Human")
-        ax.bar(x, df_plot["LLM"], width=bar_width, label="LLM")
-        ax.bar([i + bar_width for i in x], df_plot["VLM"], width=bar_width, label="VLM")
-
-        ax.set_xticks(x)
-        ax.set_xticklabels(df_plot["Verb"], rotation=45, ha="right")
-        ax.set_ylabel("Accuracy")
-        ax.set_ylim(0, 1.1)
-        ax.set_title(f"{column} – Group {group_index + 1}")
-        ax.legend()
-
-        plt.tight_layout()
-        output_file = self.path_config.output_path / f"group_{group_index + 1}_{column.replace(' ', '_').lower()}.png"
-        plt.savefig(output_file, dpi=300, bbox_inches="tight")
-        plt.close()
-        print(f"Saved: {output_file}")
+@dataclass
+class SingleLevelPath:
+    human: Path
+    llm: Path
+    vlm: Path
 
 @dataclass
 class PathConfig:
-    x_over_20_for_human_annotators: Path
-    x_over_20_for_human_vlms: Path
-    x_over_20_for_human_llms: Path
+    lvl3: SingleLevelPath
+    indoor_or_outdoor: SingleLevelPath
+    manmade_or_natural: SingleLevelPath
     output_path: Path
+
 
 # Paths setup
 PROJECT_ROOT = Path(__file__).parent.parent.parent.parent
 DATA_DIR = PROJECT_ROOT / "data"/"results"/"x_over_20"
 
 def main():
-    path_config = PathConfig(
-        x_over_20_for_human_annotators=DATA_DIR / "x_over_20_for_human_annotators.csv",
-        x_over_20_for_human_vlms=DATA_DIR / "x_over_20_for_vlms.csv",
-        x_over_20_for_human_llms=DATA_DIR / "x_over_20_for_llms.csv",
-        output_path = DATA_DIR 
+    base = PROJECT_ROOT/DATA_DIR
+    config = PathConfig(
+        lvl3=SingleLevelPath(
+            human=base / "lvl3" / "x_over_20_for_humans.csv",
+            llm=base / "lvl3" / "x_over_20_for_llms.csv",
+            vlm=base / "lvl3" / "x_over_20_for_vlms.csv"
+        ),
+        indoor_or_outdoor=SingleLevelPath(
+            human=base / "indoor_or_outdoor" / "x_over_20_for_humans.csv",
+            llm=base / "indoor_or_outdoor" / "x_over_20_for_llms.csv",
+            vlm=base / "indoor_or_outdoor" / "x_over_20_for_vlms.csv"
+        ),
+        manmade_or_natural=SingleLevelPath(
+            human=base / "man_made_or_natural" / "x_over_20_for_humans.csv",
+            llm=base / "man_made_or_natural" / "x_over_20_for_llms.csv",
+            vlm=base / "man_made_or_natural" / "x_over_20_for_vlms.csv"
+        ),
+        output_path=base
     )
-    plotter = VerbAccuracyPlotter(path_config)
-    plotter.plot_all()
 
+    for level_name, level_path in {
+        "lvl3": config.lvl3,
+        "indoor_or_outdoor": config.indoor_or_outdoor,
+        "man_made_or_natural": config.manmade_or_natural
+    }.items():
+        plotter = VerbAccuracyPlotter(level_name, level_path, config.output_path)
+        plotter.plot_all()
 
 if __name__ == "__main__":
     main()
