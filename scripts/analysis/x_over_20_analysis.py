@@ -157,11 +157,13 @@ def summarize_group(verb, group, workers, mapper, classification_transform_func,
     original_correct, processed_correct = compute_correct_counts(group, mapper,classification_transform_func)
     original_pct = original_correct / total_per_sentence
     processed_pct = processed_correct / total_per_sentence
+    change = (original_correct-processed_correct)/original_correct
     row = {
         "Verb": verb,
         "Total annotations": len(group),
         "Original correct": original_correct,
         "Processed correct": processed_correct,
+        "drop in percentage": change,
         "Original percentage": original_pct,
         "Processed percentage": processed_pct,
     }
@@ -215,7 +217,7 @@ def save_summary(path_config, df_summary,missing_annotations,load_func):
     kld_df.rename(columns={'propbank_predicate': 'Verb', 'kld': 'KLDivergence'}, inplace=True)
 
     df_summary = df_summary.merge(kld_df, on='Verb', how='left')
-    df_summary.sort_values(by='KLDivergence', ascending=False, inplace=True)
+    df_summary.sort_values(by='drop in percentage', ascending=False, inplace=True)
     df_summary.to_csv(output_filepath, index=False)
 
 
