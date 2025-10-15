@@ -34,6 +34,8 @@ categories_to_num_9 = {
     "mountain":8,
     "other_unclear":9
 }
+
+
 nums9_to_categories = {
     0: "transportation_urban",
     1: "restaurant",

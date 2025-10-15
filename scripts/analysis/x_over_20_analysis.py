@@ -157,7 +157,7 @@ def summarize_group(verb, group, workers, mapper, classification_transform_func,
     original_correct, processed_correct = compute_correct_counts(group, mapper,classification_transform_func)
     original_pct = original_correct / total_per_sentence
     processed_pct = processed_correct / total_per_sentence
-    change = (original_correct-processed_correct)/original_correct
+    change = (original_correct-processed_correct)/total_per_sentence
     row = {
         "Verb": verb,
         "Total annotations": len(group),
