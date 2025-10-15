@@ -1,11 +1,11 @@
 import pandas as pd
 import json
 import csv
-from Project1.scripts.helper.helper_functions import categories_to_num_9,normalize_caption,load_combined_df
+from Project1.src.helper.helper_functions import categories_to_num_9,normalize_caption,load_combined_df
 from collections import defaultdict
-from Project1.scripts.helper.helper_functions import get_set_of
-from Project1.scripts.helper.helper_functions import WORKERS
-from Project1.scripts.helper.helper_functions import AnnotationProcessor
+from Project1.src.helper.helper_functions import get_set_of
+from Project1.src.helper.helper_functions import WORKERS
+from Project1.src.helper.helper_functions import AnnotationProcessor
 from pathlib import Path
 
 

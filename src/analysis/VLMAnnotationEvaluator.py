@@ -1,14 +1,14 @@
 from collections import defaultdict
 from scipy.spatial.distance import jensenshannon
-from Project1.scripts.helper.helper_functions import normalize_caption,clip_probs,load_combined_df    
+from Project1.src.helper.helper_functions import normalize_caption,clip_probs,load_combined_df    
 import json
 from displaying_annotations_as_a_probability_distribution import process_human_caption_annotations
 from displaying_annotations_as_a_probability_distribution import calculate_probability_distribution
 from utils import save_judgements_for_ken_to_csv
 from utils import get_max_indices, extract_number_from_url, pick_first_of_the_annotations
 from utils import change_mturk_annotation_to_more_readable_form
-from Project1.scripts.helper.helper_functions import get_set_of
-from Project1.scripts.helper.helper_functions import WORKERS  
+from Project1.src.helper.helper_functions import get_set_of
+from Project1.src.helper.helper_functions import WORKERS  
 
 RECREATION_CATEGORY = "outdoors/natural/recreation"
 

@@ -2,8 +2,8 @@ import pandas as pd
 from collections import defaultdict
 from dataclasses import dataclass
 from typing import List
-from scripts.helper.helper_functions import normalize_caption, WORKERS  
-from scripts.helper.helper_functions import LLMS,VLMS
+from src.helper.helper_functions import normalize_caption, WORKERS  
+from src.helper.helper_functions import LLMS,VLMS
 from pathlib import Path
 
 EXPECTED_ANNOTATIONS = 10

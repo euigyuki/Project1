@@ -1,5 +1,5 @@
-from Project1.scripts.analysis.displaying_annotations_as_a_probability_distribution import process_categories, output_to_csv
-from Project1.scripts.analysis.VLMAnnotationEvaluator import VLMAnnotationEvaluator
+from Project1.src.analysis.displaying_annotations_as_a_probability_distribution import process_categories, output_to_csv
+from Project1.src.analysis.VLMAnnotationEvaluator import VLMAnnotationEvaluator
 import os
 from pathlib import Path
 

@@ -1,7 +1,7 @@
 import pandas as pd
 from statsmodels.stats.inter_rater import aggregate_raters, fleiss_kappa
 import numpy as np
-from scripts.helper.helper_functions import WORKERS,categories_to_num_9,LLMS
+from src.helper.helper_functions import WORKERS,categories_to_num_9,LLMS
 from dataclasses import dataclass
 from pathlib import Path
 

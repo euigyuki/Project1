@@ -2,7 +2,7 @@ from get_fleiss_kappas import load_and_combine_csv
 import pandas as pd
 from comparing_humans_vs_vlms import change_mturk_annotation_to_more_readable_form
 import json
-from Project1.scripts.helper.helper_functions import WORKERS
+from Project1.src.helper.helper_functions import WORKERS
 from pathlib import Path
 
 
