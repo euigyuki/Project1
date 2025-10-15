@@ -1,6 +1,7 @@
 import re,csv,json
 from get_fleiss_kappas import bool_dict_to_int_list
 from displaying_annotations_as_a_probability_distribution import process_categories
+from pathlib import Path
 
 def change_mturk_annotation_to_more_readable_form(answer_dict):
     if isinstance(answer_dict, list):
@@ -27,6 +28,13 @@ def pick_first_of_the_annotations(midjourney_probs, dalle_probs, flux_probs):
     if flux_max_index is not None:
         result[flux_max_index] += 1
     return result
+
+def project_root() -> Path:
+    here = Path(__file__).resolve()
+    for p in [here, *here.parents]:
+        if (p / ".git").exists():
+            return p
+    return here.parent  # fallback
 
 def get_max_indices(arr):
     if not arr:

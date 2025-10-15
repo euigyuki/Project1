@@ -3,17 +3,14 @@ import pandas as pd
 from comparing_humans_vs_vlms import change_mturk_annotation_to_more_readable_form
 import json
 from Project1.scripts.helper.helper_functions import WORKERS
-
+from pathlib import Path
 
 
 def restructure_annotations(df,sentence_or_image):
     # Load CSV
-
     # Select relevant columns
     df = df[[sentence_or_image, "WorkerId", "Answer.taskAnswers"]]
     df = df[df["WorkerId"].isin(WORKERS)]
-
-
     # Pivot table to have one row per caption, with different annotators' responses as columns
     df_pivot = df.pivot_table(index=sentence_or_image, columns="WorkerId", values="Answer.taskAnswers", aggfunc='first')
     for index, row in df_pivot.iterrows():

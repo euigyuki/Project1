@@ -1,0 +1,3 @@
+[submodule "src/pipeline/AMRparsing/amrlib"]
+	path = src/pipeline/AMRparsing/amrlib
+	url = https://github.com/someuser/amrlib.git

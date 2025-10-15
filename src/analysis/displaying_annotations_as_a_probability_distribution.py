@@ -1,58 +1,13 @@
 import pandas as pd
 import json
-from get_fleiss_kappas import bool_dict_to_int_list
 import csv
-from scipy.spatial.distance import jensenshannon
-from scipy.special import rel_entr
 from Project1.scripts.helper.helper_functions import categories_to_num_9,normalize_caption,load_combined_df
-from Project1.scripts.helper.helper_functions import clip_probs,categories_to_num_16,nums9_to_categories
 from collections import defaultdict
 from Project1.scripts.helper.helper_functions import get_set_of
 from Project1.scripts.helper.helper_functions import WORKERS
-import numpy as np
 from Project1.scripts.helper.helper_functions import AnnotationProcessor
+from pathlib import Path
 
-
-
-class DivergenceCalculator:
-    @staticmethod
-    def calculate_probability_distribution(annotations):
-        total = [0] * 16
-        for annotation in annotations:
-            index = categories_to_num_16[annotation]
-            total[index] += 1
-        return total
-
-    @staticmethod
-    def calculate_jensen_shannon_divergence(human_annotations, llm_annotations):
-        divergences = {}
-        for caption in human_annotations:
-            if caption in llm_annotations:
-                prev_human_probs = DivergenceCalculator.calculate_probability_distribution(human_annotations[caption])
-                prev_llm_probs = DivergenceCalculator.calculate_probability_distribution(llm_annotations[caption])
-                human_probs = clip_probs(prev_human_probs)
-                llm_probs = clip_probs(prev_llm_probs)
-                js_div = jensenshannon(human_probs, llm_probs)
-                kl_div_human_llm = np.sum(rel_entr(np.array(human_probs),np.array(llm_probs)))
-                kl_div_llm_human = np.sum(rel_entr(np.array(llm_probs),np.array(human_probs)))
-                divergences[caption] = {
-                "kl_div_human_llm": kl_div_human_llm,
-                "kl_div_llm_human": kl_div_llm_human,
-                "js_div": js_div,
-                "human_probs": prev_human_probs,
-                "llm_probs": prev_llm_probs
-            }
-        return divergences
-    
-    @classmethod
-    def calculate_all(cls, human_annotations, llm_annotations):
-        results = {}
-        for split in ['original', 'finalized']:
-            results[split] = cls.calculate_jensen_shannon_divergence(
-                human_annotations[split],
-                llm_annotations[split]
-            )
-        return results
 
 
 class FileManager:
@@ -98,8 +53,6 @@ def group_by_verb(filepaths, js_dict, original_or_finalized):
         if norm_caption in js_dict:
             result[lemma][norm_caption].append(js_dict[norm_caption])  # dict with js_div, human_probs, llm_probs
     return result
-
-
 
 
 def write_grouped_to_csv(nested_dict, output_csv):
@@ -156,6 +109,14 @@ def write_grouped_to_csv(nested_dict, output_csv):
 
     print(f"Grouped dictionary with full probability info written to {output_csv}")
 
+@dataclass
+class PathConfig:
+    verb_csv_path: Path
+    kld_csv_path: Path
+    output_csv_path: Path
+    
+PROJECT_ROOT = Path(__file__).parent.parent.parent
+DATA_DIR = PROJECT_ROOT / "data"  
 
 def main():
     ### Inputs
