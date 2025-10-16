@@ -1,6 +1,5 @@
 import pandas as pd
 
-csv_files = ['../../data/kl_divergence/hierarchy_populated_top_third.csv', '../../data/kl_divergence/hierarchy_populated_second_third.csv', '../../data/kl_divergence/hierarchy_populated_third_third.csv']
 
 
 # Define a function to read a CSV file and extract unique best verbs
@@ -22,6 +21,9 @@ def extract_best_verbs(file_paths):
     return best_verbs_dict
 
 # List of file paths for the CSV files
+
+csv_files = ['../../data/kl_divergence/hierarchy_populated_top_third.csv', '../../data/kl_divergence/hierarchy_populated_second_third.csv', '../../data/kl_divergence/hierarchy_populated_third_third.csv']
+
 
 # Extract the best verbs and store them in a dictionary
 best_verbs = extract_best_verbs(csv_files)

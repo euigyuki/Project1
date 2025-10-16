@@ -3,7 +3,6 @@ from dataclasses import dataclass
 from pathlib import Path
 
 
-
 def load_kld_mapping(path_config, verbs):
     kld_csv_path = path_config.kld_csv_path
     kld_dict = {}

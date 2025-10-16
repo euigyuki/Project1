@@ -1,39 +1,20 @@
 import pandas as pd
 import json
 import csv
-from Project1.src.helper.helper_functions import categories_to_num_9,normalize_caption,load_combined_df
 from collections import defaultdict
-from Project1.src.helper.helper_functions import get_set_of
-from Project1.src.helper.helper_functions import WORKERS
-from Project1.src.helper.helper_functions import AnnotationProcessor
 from pathlib import Path
+from dataclasses import dataclass
+from analysis.divergence_calculator import DivergenceCalculator
+from analysis.file_manager import FileManager
+from helper.helper_functions import (
+    normalize_caption,
+    load_combined_df,
+    get_set_of,
+    WORKERS,
+    AnnotationProcessor
+)
 
 
-
-class FileManager:
-    @staticmethod
-    def output_to_csv(data, output_csv):
-        with open(output_csv, mode='w', newline='') as file:
-            writer = csv.writer(file)
-            writer.writerow(['Caption', 'KLD Human to LLM', 'KLD LLM to Human',
-                             'Jensen-Shannon Divergence', 'Human Probs', 'LLM Probs'])
-            for caption, divergence in data.items():
-                writer.writerow([
-                    caption,
-                    divergence["kl_div_human_llm"],
-                    divergence["kl_div_llm_human"],
-                    divergence['js_div'],  # only write the numeric value here
-                    json.dumps(divergence['human_probs']),
-                    json.dumps(divergence['llm_probs'])
-                ])
-        print(f"Data has been written to {output_csv}")
-
-    @staticmethod
-    def calculate_average_divergence(csv_file):
-        df = pd.read_csv(csv_file)
-        avg = df['Jensen-Shannon Divergence'].mean()
-        print(f"Average Jensen-Shannon Divergence in {csv_file}: {avg:.4f}")
-        return avg
 
 def get_dict_of(df, value):
     combined_df = load_combined_df(df)
@@ -116,24 +97,26 @@ class PathConfig:
     output_csv_path: Path
     
 PROJECT_ROOT = Path(__file__).parent.parent.parent
-DATA_DIR = PROJECT_ROOT / "data"  
+DATA = PROJECT_ROOT / "data"  
+RESULTS = DATA / "results"
 
 def main():
-    ### Inputs
-    captions_filepaths = ["../../data/results/captions/captions.csv"]
-    finalized_captions_filepaths = ["../../data/finalized_captions/finalized_captions.csv"]
+    # Inputs (all under data/)
+    captions_filepaths = [RESULTS / "captions" / "captions.csv"]
+    finalized_captions_filepaths = [DATA / "finalized_captions" / "finalized_captions.csv"]
     llm_annotations_filepaths = [
-        "../../data/results/llm_annotations/deepseek_annotations.json",
-        "../../data/results/llm_annotations/perplexity_annotations.json",
-        "../../data/results/llm_annotations/claude_annotations.json",
-        "../../data/results/llm_annotations/chatgpt_annotations.json"
+        RESULTS / "llm_annotations" / "deepseek_annotations.json",
+        RESULTS / "llm_annotations" / "perplexity_annotations.json",
+        RESULTS / "llm_annotations" / "claude_annotations.json",
+        RESULTS / "llm_annotations" / "chatgpt_annotations.json",
     ]
 
-    ### Outputs
-    original_js_output_csv = "../../data/results/original_caption_to_jensenshannon_divergences.csv"
-    finalized_js_output_csv = "../../data/results/finalized_caption_to_jensenshannon_divergences.csv"
-    original_captions_grouped_by_verb_csv = "../../data/results/original_captions_grouped_by_verb.csv"
-    finalized_captions_grouped_by_verb_csv = "../../data/results/finalized_captions_grouped_by_verb.csv"
+    # Outputs
+    original_js_output_csv  = RESULTS / "original_caption_to_jensenshannon_divergences.csv"
+    finalized_js_output_csv = RESULTS / "finalized_caption_to_jensenshannon_divergences.csv"
+    original_captions_grouped_by_verb_csv = RESULTS / "original_captions_grouped_by_verb.csv"
+    finalized_captions_grouped_by_verb_csv  = RESULTS / "finalized_captions_grouped_by_verb.csv"
+
 
     # Load original caption set
     original_captions_set = get_set_of(finalized_captions_filepaths, "Original Sentence")

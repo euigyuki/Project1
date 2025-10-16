@@ -2,9 +2,9 @@ from get_fleiss_kappas import load_and_combine_csv
 import pandas as pd
 from comparing_humans_vs_vlms import change_mturk_annotation_to_more_readable_form
 import json
-from Project1.src.helper.helper_functions import WORKERS
+from helper.helper_functions import WORKERS
 from pathlib import Path
-
+from dataclasses import dataclass
 
 def restructure_annotations(df,sentence_or_image):
     # Load CSV
@@ -29,13 +29,31 @@ def organize(filepaths, output_filepath, sentence_or_image):
     restructured_df.to_csv(output_filepath, index=True)  # Saves without the index column
 
 
+@dataclass
+class PathConfig:
+    captions_filepaths: list[Path]
+    images_filepaths: list[Path]
+    captions_output_filepath: list[Path]
+    images_output_filepath: list[Path]
+    
+    
+PROJECT_ROOT = Path(__file__).parent.parent.parent
+DATA_DIR = PROJECT_ROOT / "data"    
+    
+
 def main():
     #inputs
-    captions_filepaths = ["captions1.csv", "captions2.csv"]
-    images_filepaths = ["images1.csv", "images2.csv"]
+    captions_filepaths = [
+        DATA_DIR / "results" / "captions1.csv",
+        DATA_DIR / "results" / "captions2.csv"
+    ]
+    images_filepaths = [
+        DATA_DIR / "results" / "images1.csv",
+        DATA_DIR / "results" / "images2.csv"
+    ]
     #outputs
-    captions_output_filepath = "total_captions2.csv"
-    images_output_filepath = "total_images2.csv"
+    captions_output_filepath = DATA_DIR / "results" / "total_captions2.csv"
+    images_output_filepath = DATA_DIR / "results" / "total_images2.csv"
 
     organize(captions_filepaths, captions_output_filepath, "Input.sentence")
     organize(images_filepaths, images_output_filepath, "Input.image_url")

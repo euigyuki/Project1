@@ -1,4 +1,5 @@
-
+from collections import defaultdict
+import pandas as pd
 
 class ClassificationMapper:
     def __init__(self, finalized_captions_filepath):

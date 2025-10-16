@@ -6,6 +6,7 @@ from typing import List
 from typing import List
 from pathlib import Path
 
+
 class VerbAccuracyPlotter:
     @dataclass
     class SingleLevelPath:

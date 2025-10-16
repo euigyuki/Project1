@@ -1,4 +1,4 @@
-from Project1.src.helper.helper_functions import clip_probs,categories_to_num_16
+from helper.helper_functions import clip_probs,categories_to_num_16
 from scipy.spatial.distance import jensenshannon
 import numpy as np
 from scipy.special import rel_entr

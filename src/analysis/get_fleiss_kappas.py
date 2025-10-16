@@ -1,7 +1,7 @@
 import pandas as pd
 from statsmodels.stats.inter_rater import aggregate_raters, fleiss_kappa
 import numpy as np
-from src.helper.helper_functions import WORKERS,categories_to_num_9,LLMS
+from helper.helper_functions import WORKERS,categories_to_num_9,LLMS
 from dataclasses import dataclass
 from pathlib import Path
 
@@ -13,7 +13,6 @@ def calculate_fleiss_kappa(data):
     aggregated_data, _ = aggregate_raters(data)
     kappa = fleiss_kappa(aggregated_data)
     return kappa
-
 
 
 def process_group(group,workers_or_llms):

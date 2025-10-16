@@ -1,4 +1,6 @@
 import csv
+from dataclasses import dataclass
+from pathlib import Path
 
 def count_rows_with_value(csv_file, wordcount_path, threshold=4):
     count = 0
@@ -58,6 +60,15 @@ def filter_rows_with_value(input_csv, output_csv, threshold=4):
     print(f"Filtered rows saved to: {output_csv}")
     print(f"length of filtered rows: {len(filtered_rows)}")
 
+@dataclass
+class PathConfig:
+    verb_csv_path: Path
+    kld_csv_path: Path
+    output_csv_path: Path
+    
+PROJECT_ROOT = Path(__file__).parent.parent.parent
+DATA_DIR = PROJECT_ROOT / "data"    
+    
 
 # Example usage
 if __name__ == "__main__":
