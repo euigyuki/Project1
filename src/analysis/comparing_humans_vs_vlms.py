@@ -16,9 +16,11 @@ def extract_index_from_filename(filepath):
 
 @dataclass
 class PathConfig:
-    verb_csv_path: Path
-    kld_csv_path: Path
-    output_csv_path: Path
+    captions_filepaths: list[Path]
+    vlm_filepaths: list[Path]
+    finalized_captions: list[Path]
+    js_output_csv: Path
+    
     
 PROJECT_ROOT = Path(__file__).parent.parent.parent
 DATA_DIR = PROJECT_ROOT / "data"  
@@ -26,12 +28,22 @@ DATA_DIR = PROJECT_ROOT / "data"
 
 def main():
     #input
-    
-    captions_filepaths = ["captions1.csv", "captions2.csv"]
-    vlm_filepaths = ["images1.csv", "images2.csv"]
-    finalized_captions = ["../finalized_captions/finalized_captions.csv"]
-    #output
-    js_output_csv = "image_to_jensenshannon_divergences.csv"
+    path_config = PathConfig(
+        ## Input paths
+        captions_filepaths=[
+            DATA_DIR / "results" / "captions1.csv",
+            DATA_DIR / "results" / "captions2.csv"
+        ],
+        vlm_filepaths=[
+            DATA_DIR / "results" / "images1.csv",
+            DATA_DIR / "results" / "images2.csv"
+        ],
+        finalized_captions=[
+            DATA_DIR / "finalized_captions" / "finalized_captions.csv"
+        ],
+        ## Output paths
+        js_output_csv=DATA_DIR / "jsd" / "image_to_jensenshannon_divergences.csv"
+    )
 
     evaluator = VLMAnnotationEvaluator(captions_filepaths, vlm_filepaths, finalized_captions)
     jsd_captions = evaluator.analyze_image_annotations()

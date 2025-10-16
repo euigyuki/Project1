@@ -1,5 +1,6 @@
 from collections import defaultdict
 import pandas as pd
+from helper.helper_functions import normalize_caption
 
 class ClassificationMapper:
     def __init__(self, finalized_captions_filepath):
