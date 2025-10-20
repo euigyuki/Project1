@@ -1,8 +1,8 @@
 import pandas as pd
 from dataclasses import dataclass
 from typing import List
-from src.helper.helper_functions import normalize_caption, WORKERS  
-from src.helper.helper_functions import LLMS,VLMS
+from helper.helper_functions import normalize_caption, WORKERS  
+from helper.helper_functions import LLMS,VLMS
 from pathlib import Path
 from classification_mapper import ClassificationMapper
 

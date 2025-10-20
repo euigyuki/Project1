@@ -1,4 +1,4 @@
-from get_fleiss_kappas import load_and_combine_csv
+from helper.helper_functions import load_combined_df
 import pandas as pd
 from comparing_humans_vs_vlms import change_mturk_annotation_to_more_readable_form
 import json
@@ -23,11 +23,19 @@ def restructure_annotations(df,sentence_or_image):
     df_pivot.reset_index(inplace=True)
     return df_pivot
 
-def organize(filepaths, output_filepath, sentence_or_image):
-    combined_df = load_and_combine_csv(filepaths)
+def organize_captions(path_config, sentence_or_image):
+    filepaths = path_config.captions_filepaths
+    output_filepath = path_config.captions_output_filepath
+    combined_df = load_combined_df(filepaths)
     restructured_df = restructure_annotations(combined_df,sentence_or_image)
     restructured_df.to_csv(output_filepath, index=True)  # Saves without the index column
 
+def organize_images(path_config, sentence_or_image):
+    filepaths = path_config.images_filepaths
+    output_filepath = path_config.images_output_filepath
+    combined_df = load_combined_df(filepaths)
+    restructured_df = restructure_annotations(combined_df,sentence_or_image)
+    restructured_df.to_csv(output_filepath, index=True)  # Saves without the index column
 
 @dataclass
 class PathConfig:
@@ -42,21 +50,36 @@ DATA_DIR = PROJECT_ROOT / "data"
     
 
 def main():
-    #inputs
-    captions_filepaths = [
-        DATA_DIR / "results" / "captions1.csv",
-        DATA_DIR / "results" / "captions2.csv"
-    ]
-    images_filepaths = [
-        DATA_DIR / "results" / "images1.csv",
-        DATA_DIR / "results" / "images2.csv"
-    ]
-    #outputs
-    captions_output_filepath = DATA_DIR / "results" / "total_captions2.csv"
-    images_output_filepath = DATA_DIR / "results" / "total_images2.csv"
+    # #inputs
+    # captions_filepaths = [
+    #     DATA_DIR / "results" / "captions1.csv",
+    #     DATA_DIR / "results" / "captions2.csv"
+    # ]
+    # images_filepaths = [
+    #     DATA_DIR / "results" / "images1.csv",
+    #     DATA_DIR / "results" / "images2.csv"
+    # ]
+    path_config = PathConfig(
+        ## Input paths
+        captions_filepaths=[
+            DATA_DIR / "results" / "captions_annotated_by_humans" / "captions1.csv",
+            DATA_DIR / "results" / "captions_annotated_by_humans" / "captions2.csv"
+        ],
+        images_filepaths=[
+            DATA_DIR / "results" / "images_annotated_by_humans" / "images1.csv",
+            DATA_DIR / "results" / "images_annotated_by_humans" / "images2.csv"
+        ],
+        # ## Output paths
+        # captions_output_filepath=DATA_DIR / "results" / "total_captions2.csv",
+        #outputs
+        captions_output_filepath = DATA_DIR / "results" / "total_captions2.csv",
+        images_output_filepath = DATA_DIR / "results" / "total_images2.csv"
+    )
 
-    organize(captions_filepaths, captions_output_filepath, "Input.sentence")
-    organize(images_filepaths, images_output_filepath, "Input.image_url")
+   # organize_captions(captions_filepaths, captions_output_filepath, "Input.sentence")
+   # organize_images(images_filepaths, images_output_filepath, "Input.image_url")
+    organize_captions(path_config, "Input.sentence")
+    organize_images(path_config, "Input.image_url")
 
 
 if __name__ == "__main__":

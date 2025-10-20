@@ -4,13 +4,13 @@ from pathlib import Path
 
 def count_rows_with_value(path_config, threshold=4):
     csv_file = path_config.word_counts_and_combinations
-    wordcount_path = path_config.filtered_rows_path
+    # wordcount_path = path_config.filtered_rows_path
     count = 0
     verb_row_mapping = []  # List to store verbs and their row numbers
     
-    # Load original word counts for row references
-    with open(wordcount_path, 'r') as wordcount_file:
-        original_rows = list(csv.reader(wordcount_file))
+    # # Load original word counts for row references
+    # with open(wordcount_path, 'r') as wordcount_file:
+    #     original_rows = list(csv.reader(wordcount_file))
     
     # Process the edited CSV
     with open(csv_file, 'r') as file:
@@ -25,11 +25,9 @@ def count_rows_with_value(path_config, threshold=4):
                     verb_row_mapping.append((verb, row_number))
                     break
             row_number += 1  # Increment the row number
-
     print("Verbs and their corresponding rows:")
     for verb, row in verb_row_mapping:
         print(f"Verb: {verb}, Row: {row}")
-    
     return count
 
 
@@ -43,7 +41,7 @@ def filter_rows_with_value(path_config, threshold=4):
         threshold (float): The threshold value to filter rows.
     """
     input_csv = path_config.word_counts_and_combinations
-    output_csv = path_config.word_counts_and_combinations
+    output_csv = path_config.word_counts_and_combinations_edited
     filtered_rows = []
     
     with open(input_csv, 'r') as file:
@@ -68,24 +66,27 @@ def filter_rows_with_value(path_config, threshold=4):
 class PathConfig:
     word_counts_and_combinations: Path
     filtered_rows_path: Path
+    word_counts_and_combinations_edited: Path
 
     
 PROJECT_ROOT = Path(__file__).parent.parent.parent
 DATA_DIR = PROJECT_ROOT / "data"    
     
-
-# Example usage
-if __name__ == "__main__":
+def main():
     path_config = PathConfig(
         ## Input paths
-        word_counts_and_combinations=DATA_DIR / "word_counts_and_combinations" / "word_counts_and_combinations_edited.csv",
+        word_counts_and_combinations=DATA_DIR / "word_counts_and_combinations" / "word_counts_and_combinations.csv",
         filtered_rows_path= DATA_DIR / "word_counts_and_combinations" / "filtered_rows.csv",
         ## Output paths
-        ##file_path=DATA_DIR / "word_counts_and_combinations" / "word_counts_and_combinations_edited.csv",
+        word_counts_and_combinations_edited=DATA_DIR / "word_counts_and_combinations" / "word_counts_and_combinations_edited.csv",
     )
-
 
     result = count_rows_with_value(path_config, threshold=4)
     print(f"Number of rows with at least one value >= 4: {result}")
 
     filter_rows_with_value(path_config, threshold=4)
+
+
+if __name__ == "__main__":
+    main()
+

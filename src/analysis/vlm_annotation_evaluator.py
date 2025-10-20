@@ -18,10 +18,10 @@ RECREATION_CATEGORY = "outdoors/natural/recreation"
 
 
 class VLMAnnotationEvaluator:
-    def __init__(self, captions_filepaths, vlm_filepaths, caption_to_number_mapping_filepath):
-        self.captions_filepaths = captions_filepaths
-        self.vlm_filepaths = vlm_filepaths
-        self.caption_to_number_mapping_filepath = caption_to_number_mapping_filepath
+    def __init__(self, path_config):
+        self.captions_filepaths = path_config.captions_filepaths
+        self.vlm_filepaths = path_config.vlm_filepaths
+        self.caption_to_number_mapping_filepath = path_config.caption_to_number_mapping_filepath
 
         self.vlm_set = set()
         self.model_names = ['flux', 'dalle', 'midjourney']

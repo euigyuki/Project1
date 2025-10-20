@@ -102,7 +102,8 @@ RESULTS = DATA / "results"
 
 def main():
     # Inputs (all under data/)
-    captions_filepaths = [RESULTS / "captions" / "captions.csv"]
+    captions_filepaths = [RESULTS / "captions_annotated_by_humans" / "captions1.csv",
+                          RESULTS / "captions_annotated_by_humans" / "captions2.csv"]
     finalized_captions_filepaths = [DATA / "finalized_captions" / "finalized_captions.csv"]
     llm_annotations_filepaths = [
         RESULTS / "llm_annotations" / "deepseek_annotations.json",
