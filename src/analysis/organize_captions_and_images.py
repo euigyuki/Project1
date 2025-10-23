@@ -1,12 +1,12 @@
-from helper.helper_functions import load_combined_df
+from helper.helper_functions import AnnotationProcessor, load_combined_df
 import pandas as pd
-from comparing_humans_vs_vlms import change_mturk_annotation_to_more_readable_form
+#from comparing_humans_vs_vlms import change_mturk_annotation_to_more_readable_form
 import json
 from helper.helper_functions import WORKERS
 from pathlib import Path
 from dataclasses import dataclass
 
-def restructure_annotations(df,sentence_or_image):
+def restructure_annotations(df,sentence_or_image,sentence_or_image_column="Input.sentence"):
     # Load CSV
     # Select relevant columns
     df = df[[sentence_or_image, "WorkerId", "Answer.taskAnswers"]]
@@ -17,8 +17,10 @@ def restructure_annotations(df,sentence_or_image):
         for worker in WORKERS:
             parsed_data = row[worker]
             if pd.notna(parsed_data):
-                answer_dict = json.loads(parsed_data)
-                df_pivot.at[index, worker] = change_mturk_annotation_to_more_readable_form(answer_dict)
+                if sentence_or_image_column == "Input.sentence":
+                    df_pivot.at[index, worker] = AnnotationProcessor.process_human_annotation(parsed_data)
+                else:
+                    df_pivot.at[index, worker] = AnnotationProcessor.process_llm_annotation(parsed_data)            
     # Reset index to make captions a column
     df_pivot.reset_index(inplace=True)
     return df_pivot
@@ -50,15 +52,6 @@ DATA_DIR = PROJECT_ROOT / "data"
     
 
 def main():
-    # #inputs
-    # captions_filepaths = [
-    #     DATA_DIR / "results" / "captions1.csv",
-    #     DATA_DIR / "results" / "captions2.csv"
-    # ]
-    # images_filepaths = [
-    #     DATA_DIR / "results" / "images1.csv",
-    #     DATA_DIR / "results" / "images2.csv"
-    # ]
     path_config = PathConfig(
         ## Input paths
         captions_filepaths=[
@@ -69,9 +62,7 @@ def main():
             DATA_DIR / "results" / "images_annotated_by_humans" / "images1.csv",
             DATA_DIR / "results" / "images_annotated_by_humans" / "images2.csv"
         ],
-        # ## Output paths
-        # captions_output_filepath=DATA_DIR / "results" / "total_captions2.csv",
-        #outputs
+    
         captions_output_filepath = DATA_DIR / "results" / "total_captions2.csv",
         images_output_filepath = DATA_DIR / "results" / "total_images2.csv"
     )

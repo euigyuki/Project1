@@ -39,7 +39,7 @@ def main():
             DATA_DIR / "results" / "images_annotated_by_humans" / "images2.csv"
         ],
         finalized_captions=[
-            DATA_DIR / "finalized_captions" / "finalized_captions.csv"
+            DATA_DIR / "results" / "finalized_caption_to_jensenshannon_divergences.csv"
         ],
         ## Output paths
         js_output_csv=DATA_DIR / "jsd" / "image_to_jensenshannon_divergences.csv"

@@ -1,8 +1,7 @@
 from collections import defaultdict
 from scipy.spatial.distance import jensenshannon
 import json
-from displaying_annotations_as_a_probability_distribution import process_human_caption_annotations
-from displaying_annotations_as_a_probability_distribution import calculate_probability_distribution
+from divergence_calculator import DivergenceCalculator
 from utils import save_judgements_for_ken_to_csv
 from utils import get_max_indices, extract_number_from_url, pick_first_of_the_annotations
 from utils import change_mturk_annotation_to_more_readable_form
@@ -12,6 +11,7 @@ from helper.helper_functions import(
     load_combined_df,
     get_set_of,
     WORKERS,
+    AnnotationProcessor
 )
 
 RECREATION_CATEGORY = "outdoors/natural/recreation"
@@ -21,7 +21,7 @@ class VLMAnnotationEvaluator:
     def __init__(self, path_config):
         self.captions_filepaths = path_config.captions_filepaths
         self.vlm_filepaths = path_config.vlm_filepaths
-        self.caption_to_number_mapping_filepath = path_config.caption_to_number_mapping_filepath
+        self.finalized_captions = path_config.finalized_captions
 
         self.vlm_set = set()
         self.model_names = ['flux', 'dalle', 'midjourney']
@@ -96,7 +96,7 @@ class VLMAnnotationEvaluator:
         combined_df = load_combined_df(filepaths)
         for index, row in combined_df.iterrows():
             self.original_captions_to_index_mapping[normalize_caption(row['Original Sentence'])] = index
-            self.finalized_captions_to_index_mapping[normalize_caption(row['Finalized sentence'])] = index
+            self.finalized_captions_to_index_mapping[normalize_caption(row['Finalized Sentence'])] = index
 
     def calculate_jensen_shannon_divergence(self,human_probs, llm_probs,caption):
         # Ensure no zero probabilities to avoid issues in KL divergence calculation
@@ -125,50 +125,51 @@ class VLMAnnotationEvaluator:
 
 
     def _load_all_data(self):
-        original_captions_set = get_set_of(self.caption_to_number_mapping_filepath, "Original Sentence")
-        self.human_caption_annotations_original, self.human_caption_annotations_finalized = process_human_caption_annotations(
-            original_captions_set, self.captions_filepaths
-        )
+        original_captions_set = get_set_of(self.finalized_captions, "Original Sentence")
+        processor = AnnotationProcessor(self.captions_filepaths,self.vlm_filepaths)
+        processor.process_human_annotations(original_captions_set)
+        self.human_caption_annotations_original = processor.human_annotations["original"]
+        self.human_caption_annotations_finalized = processor.human_annotations["finalized"]
         self.extract_vlm_urls(self.vlm_filepaths)
         self.generate_vlm_annotations(self.vlm_filepaths)
-        self.generate_indexes_for_captions(self.caption_to_number_mapping_filepath)
+        self.generate_indexes_for_captions(self.finalized_captions)
 
 
     def _analyze_single_caption_set(self, caption_annotations, is_finalized):
         count_of_relabeling = 0
         for caption in caption_annotations:
+            print("Analyzing caption:", caption)
             normalized_caption = normalize_caption(caption)
             if is_finalized:
                 index_for_caption = self.finalized_captions_to_index_mapping.get(normalized_caption, None)
             else:
                 index_for_caption = self.original_captions_to_index_mapping.get(normalized_caption, None)
-
             if index_for_caption is None:
                 continue
 
             flux_url = self.find_url_by_index("flux", "finalized" if is_finalized else "original", index_for_caption)
             dalle_url = self.find_url_by_index("dalle", "finalized" if is_finalized else "original", index_for_caption)
             midjourney_url = self.find_url_by_index("midjourney", "finalized" if is_finalized else "original", index_for_caption)
+            human_probs = DivergenceCalculator.calculate_probability_distribution(caption_annotations[caption])
+            flux_probs = DivergenceCalculator.calculate_probability_distribution(self.flux_annotations[flux_url])
 
-            human_probs = calculate_probability_distribution(caption_annotations[caption])
-            flux_probs = calculate_probability_distribution(self.flux_annotations[flux_url])
+
             temp = self.midjourney_annotations[midjourney_url]
             for i, element in enumerate(temp):
                 if element == RECREATION_CATEGORY:
                     count_of_relabeling += 1
                     temp[i] = 'outdoors/natural/other_unclear'
-            midjourney_probs = calculate_probability_distribution(temp)
-            dalle_probs = calculate_probability_distribution(self.dalle_annotations[dalle_url])
+            midjourney_probs = DivergenceCalculator.calculate_probability_distribution(temp)
+            dalle_probs = DivergenceCalculator.calculate_probability_distribution(self.dalle_annotations[dalle_url])
 
             self.store_judgement_for_ken(caption, flux_url, flux_probs, dalle_url, dalle_probs, midjourney_url, midjourney_probs)
             self.store_sanity_check(caption, flux_url, flux_probs, dalle_url, dalle_probs, midjourney_url, midjourney_probs)
 
             vlm_probs = pick_first_of_the_annotations(midjourney_probs, dalle_probs, flux_probs)
             self.calculate_jensen_shannon_divergence(human_probs, vlm_probs, caption)
-
         return count_of_relabeling
 
-        
+    #main Driver function
     def analyze_image_annotations(self):
         self._load_all_data()
         count_relabel_original = self._analyze_single_caption_set(self.human_caption_annotations_original, is_finalized=False)

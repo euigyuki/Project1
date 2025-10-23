@@ -1,12 +1,12 @@
 import re,csv,json
-from get_fleiss_kappas import bool_dict_to_int_list
-from displaying_annotations_as_a_probability_distribution import process_categories
+from helper.helper_functions import bool_dict_to_int_list
+from helper.helper_functions import AnnotationProcessor
 from pathlib import Path
 
 def change_mturk_annotation_to_more_readable_form(answer_dict):
     if isinstance(answer_dict, list):
         answer_dict = answer_dict[0] 
-    category = process_categories(answer_dict['category'])
+    category = AnnotationProcessor._process_categories(answer_dict['category'])
     location = "indoors" if bool_dict_to_int_list(answer_dict['location'])==0 else "outdoors"
     type_ = "man-made" if bool_dict_to_int_list(answer_dict['type']) == 0 else "natural"
     total = location+"/" + type_+"/"+category
