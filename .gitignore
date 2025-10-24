@@ -1,3 +1,5 @@
-/data
+/data/propbank-frames
+/data/amr_graphs_original25k
+/data/amr_graphs_processed25k
 /models
 /scripts/USE_LLM_TO_ANNOTATE/config.cfg
