@@ -25,6 +25,8 @@ class VLMAnnotationEvaluator:
         self.captions_filepaths = path_config.captions_filepaths
         self.vlm_filepaths = path_config.vlm_filepaths
         self.finalized_captions = path_config.finalized_captions
+        self.judgements_dir = path_config.judgements_dir
+        self.sanity_checks_dir = path_config.sanity_checks_dir
 
         self.vlm_set = set()
         self.model_names = ['flux', 'dalle', 'midjourney']
@@ -37,7 +39,8 @@ class VLMAnnotationEvaluator:
         self.divergences = {}
         self.original_captions_to_index_mapping = defaultdict(int)
         self.finalized_captions_to_index_mapping = defaultdict(int)
-        self.jensen_shannon_divergences={}
+        self.jensen_shannon_divergences_original = {}
+        self.jensen_shannon_divergences_finalized = {}
         self.judgements_for_ken = {'flux': {}, 'dalle': {}, 'midjourney': {}}
         self.sanity_check_for_vlms = {'flux': {}, 'dalle': {}, 'midjourney': {}}
         self.human_caption_annotations_original = {}
@@ -90,7 +93,6 @@ class VLMAnnotationEvaluator:
         """
         Searches for the URL in vlm_set that contains the target_index.
         """
-     
         for url in self.vlm_set:
             extracted_index = extract_number_from_url(modelname,original_or_finalized, url)
             if extracted_index == target_index:
@@ -111,21 +113,26 @@ class VLMAnnotationEvaluator:
 
         # Calculate Jensen-Shannon divergence
         js_div = jensenshannon(human_probs, llm_probs)
-        self.jensen_shannon_divergences[caption] = js_div
+        if caption in self.human_caption_annotations_original:
+            self.jensen_shannon_divergences_original[caption] = js_div
+        else:
+            self.jensen_shannon_divergences_finalized[caption] = js_div
 
-    def save_all_judgements_for_ken(self):
+    def save_all_judgements_for_ken(self,output_dir):
         for model in self.model_names:
+            output_path = output_dir / f"{model}_judgements_for_ken2.csv"
             save_judgements_for_ken_to_csv(
                 self.judgements_for_ken[model],
-                f"{model}_judgements_for_ken2.csv"
+                output_path
             )
         print("Judgements for Ken saved successfully.")
 
-    def save_all_sanity_checks(self):
+    def save_all_sanity_checks(self,output_dir):
         for model in self.model_names:
+            output_path = output_dir / f"{model}_sanity_check.csv"
             save_judgements_for_ken_to_csv(
                 self.sanity_check_for_vlms[model],
-                f"{model}_sanity_check.csv"
+                output_path
             )
         print("Judgements for Ken for sanity checks saved successfully.")
 
@@ -184,6 +191,6 @@ class VLMAnnotationEvaluator:
         count_relabel_finalized = self._analyze_single_caption_set(self.human_caption_annotations_finalized, is_finalized=True)
         print("Number of relabeling (original):", count_relabel_original)
         print("Number of relabeling (finalized):", count_relabel_finalized)
-        self.save_all_judgements_for_ken()
-        self.save_all_sanity_checks()
-        return self.jensen_shannon_divergences
+        self.save_all_judgements_for_ken(self.judgements_dir)
+        self.save_all_sanity_checks(self.sanity_checks_dir)
+        return self.jensen_shannon_divergences_original, self.jensen_shannon_divergences_finalized

@@ -20,19 +20,19 @@ def cohens_d(x, y):
     pooled_std = np.sqrt(((nx - 1) * np.std(x, ddof=1) ** 2 + (ny - 1) * np.std(y, ddof=1) ** 2) / (nx + ny - 2))
     return (np.mean(x) - np.mean(y)) / pooled_std
 
-def compute_jsd_statistics(path_config):
+def compute_jsd_statistics(first,second,third):
     # Load Data
-    original_df = pd.read_csv(path_config.original_jsds)
-    finalized_df = pd.read_csv(path_config.ablated_jsds)
-    output_file = path_config.output_csv_path
+    original_df = pd.read_csv(first)
+    finalized_df = pd.read_csv(second)
+    output_file = third
 
     jsd_col = 'Jensen-Shannon Divergence'
     if jsd_col not in original_df.columns or jsd_col not in finalized_df.columns:
         raise ValueError(f"Column '{jsd_col}' not found in one of the files.")
 
     # Extract Data
-    original_jsd = original_df[jsd_col]
-    finalized_jsd = finalized_df[jsd_col]
+    original_jsd = original_df[jsd_col].dropna()
+    finalized_jsd = finalized_df[jsd_col].dropna()
 
     # Compute Statistics
     original_mean = original_jsd.mean()
@@ -85,22 +85,34 @@ def compute_jsd_statistics(path_config):
     results_df.to_csv(output_file, index=False)
     print(f"Results saved to: {output_file}")
 
+
 @dataclass
 class PathConfig:
-    original_jsds: Path
-    ablated_jsds: Path
-    output_csv_path: Path
+    #input paths
+    original_captions_jsds: Path
+    ablated_captions_jsds: Path
+    images_jsds_original_captions: Path
+    images_jsds_ablated_captions: Path
+    #output paths
+    output_csv_sentences_path: Path
+    output_csv_images_path: Path
 
 PROJECT_ROOT = Path(__file__).parent.parent.parent.parent
 DATA_DIR = PROJECT_ROOT / "data"
 
 def main():
     path_config = PathConfig(
-        original_jsds=DATA_DIR / "results" / "original_caption_to_jensenshannon_divergences.csv",
-        ablated_jsds=DATA_DIR / "results" / "finalized_caption_to_jensenshannon_divergences.csv",
-        output_csv_path=DATA_DIR / "results" / "JSD_statistics.csv"
+        #input paths
+        original_captions_jsds=DATA_DIR / "results" / "original_caption_to_jensenshannon_divergences.csv",
+        ablated_captions_jsds=DATA_DIR / "results" / "finalized_caption_to_jensenshannon_divergences.csv",
+        images_jsds_original_captions=DATA_DIR / "js_divergence" / "image_to_jensenshannon_divergences_original_captions.csv",
+        images_jsds_ablated_captions=DATA_DIR / "js_divergence" / "image_to_jensenshannon_divergences_ablated_captions.csv",
+        #output path
+        output_csv_sentences_path=DATA_DIR / "results" / "JSD_statistics_sentences.csv",
+        output_csv_images_path=DATA_DIR / "results" / "JSD_statistics_images.csv"
     )
-    compute_jsd_statistics(path_config)
+    compute_jsd_statistics(path_config.original_captions_jsds,path_config.ablated_captions_jsds, path_config.output_csv_sentences_path)
+    compute_jsd_statistics(path_config.images_jsds_original_captions, path_config.images_jsds_ablated_captions, path_config.output_csv_images_path)
 
 if __name__ == '__main__':
     main()
