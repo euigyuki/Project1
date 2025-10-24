@@ -235,6 +235,16 @@ def save_judgements_for_ken_to_csv(judgement_for_ken, output_file):
                 'probs': json.dumps(probs)  # Save list as JSON string
             })
 
+# def extract_index_from_filename(filepath):
+#     # Extract the base name from the file path
+#     filename = os.path.basename(filepath)
+#     # Split the filename at the hyphen
+#     index_str = filename.split('-')[0]
+#     # Convert the extracted part to an integer
+#     index = int(index_str)
+#     return index
+
+
 def output_to_csv(jsd_captions, path_config):
     output_csv = path_config.js_output_csv
     with open(output_csv, mode='w', newline='', encoding='utf-8') as csvfile:
