@@ -1,0 +1,2424 @@
+[
+  {
+    "caption": "\"a crowd waits outside a subway train , ready to board .\"",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "transportation_urban"
+    ],
+    "explanation": "# Explanation of the Annotation for the Caption\n\nThe annotation ('outdoors', 'man-made', 'transportation_urban') was chosen for the caption \"a crowd waits outside a subway train, ready to board\" for the following reasons:\n\n1. **'outdoors'** - This annotation indicates that the scene takes place outside. Since the caption mentions people waiting \"outside a subway train,\" it suggests they are on a platform or station area that is external to the"
+  },
+  {
+    "caption": "\"a crowd waits, ready to board .\"",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "transportation_urban"
+    ],
+    "explanation": "# Explanation of the Annotation for \"a crowd waits, ready to board.\"\n\nThe annotation ('outdoors', 'man-made', 'transportation_urban') was chosen for this caption because:\n\n1. **'outdoors'**: The caption implies people are waiting in a boarding area, which is likely outside. Boarding typically happens in open spaces like train platforms, bus stops, or airport tarmacs, rather than inside a building.\n\n2. **'"
+  },
+  {
+    "caption": "\"a man driving a small , open vehicle with a green sign .\"",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "transportation_urban"
+    ],
+    "explanation": "# Explanation of Annotation for the Caption\n\nThe caption \"a man driving a small, open vehicle with a green sign\" was annotated with ('outdoors', 'man-made', 'transportation_urban') for the following reasons:\n\n1. **'outdoors'**: The scene is implied to be taking place outside. Vehicles are typically driven outdoors on roads or streets, and the mention of a \"small, open vehicle\" strongly suggests an outdoor setting rather than"
+  },
+  {
+    "caption": "\"a man driving a small , open vehicle with a green sign on the back of it in traffic .\"",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "transportation_urban"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('outdoors', 'man-made', 'transportation_urban') was chosen for this caption because:\n\n1. **'outdoors'** - The caption describes a scene taking place in traffic, which indicates an outdoor setting. The mention of an \"open vehicle\" also suggests the scene is occurring outside rather than in an enclosed space.\n\n2. **'man-made'** - The caption refers to multiple man-made"
+  },
+  {
+    "caption": "\"a man in a blue swimsuit and a red beanie kneels in the wet sand on the edge of a beach , making a sand castle that is as tall as he is when he is kneeling .\"",
+    "annotation": [
+      "outdoors",
+      "natural",
+      "body_of_water"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('outdoors', 'natural', 'body_of_water') was chosen for this caption because:\n\n1. **'outdoors'** - The caption clearly describes a beach scene, which is an outdoor setting. The man is kneeling in wet sand at the edge of a beach, which can only occur in an outdoor environment.\n\n2. **'natural'** - The scene depicts a natural environment. Beaches"
+  },
+  {
+    "caption": "\"a man wearing jeans , polo shirt and a baseball cap , fork , is grilling meat .\"",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "domestic"
+    ],
+    "explanation": "# Explanation of the Annotation ('outdoors', 'man-made', 'domestic')\n\nThe annotation for this caption was chosen based on the scene described:\n\n1. **'outdoors'**: The caption describes a grilling activity, which typically takes place outdoors. Grilling with a fork is generally done in an outdoor setting like a backyard, patio, or outdoor cooking area.\n\n2. **'man-made'**: The scene involves human-"
+  },
+  {
+    "caption": "\"a man wearing jeans , polo shirt and a baseball cap , fork in hand , is grilling meat outside in a fenced yard .\"",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "domestic"
+    ],
+    "explanation": "# Explanation of the Annotation ('outdoors', 'man-made', 'domestic')\n\nThis annotation was chosen because:\n\n1. **'outdoors'** - The caption explicitly states that the man is \"grilling meat outside in a fenced yard.\" This clearly indicates an outdoor setting rather than an indoor one.\n\n2. **'man-made'** - The scene contains several human-created elements:\n   - A fenced yard (man-made"
+  },
+  {
+    "caption": "\"a ruddy infant lies on a patterned sheet with his eyes closed , his mouth open , and his arm extended .\"",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "domestic"
+    ],
+    "explanation": "# Explanation of Annotation\n\nThe annotation ('indoors', 'man-made', 'domestic') was chosen for this caption because:\n\n1. **Indoors**: The caption describes an infant lying on a patterned sheet, which strongly suggests an indoor setting. Babies are typically kept indoors, especially when sleeping or resting on bedding.\n\n2. **Man-made**: The \"patterned sheet\" mentioned in the caption is a manufactured item,"
+  },
+  {
+    "caption": "\"a ruddy infant lies with his eyes closed , his mouth open , and his arm extended .\"",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "domestic"
+    ],
+    "explanation": "# Explanation of Annotation\n\nThe annotation ('indoors', 'man-made', 'domestic') was chosen for this caption because:\n\n1. **Indoors**: The caption describes an infant lying down, which most likely takes place inside a home or hospital setting. There's no mention of outdoor elements, and babies typically rest in controlled indoor environments.\n\n2. **Man-made**: While not explicitly stated, the context implies the baby is likely lying on a man-"
+  },
+  {
+    "caption": "\"an impoverished person , wearing a torn brown shirt and no shoes , is kneeling down .\"",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "other_unclear"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('outdoors', 'man-made', 'other_unclear') for this caption was chosen because:\n\n1. **'outdoors'**: While the caption doesn't explicitly state that the scene is outdoors, the context of an impoverished person kneeling with no shoes often implies an outdoor setting. The annotator likely inferred this from the description of poverty and lack of footwear, which would be more typical"
+  },
+  {
+    "caption": "\"an impoverished person , wearing a torn brown shirt and no shoes , is kneeling down along the banks of a trash infested body of water .\"",
+    "annotation": [
+      "outdoors",
+      "natural",
+      "body_of_water"
+    ],
+    "explanation": "# Explanation of Annotation\n\nThe annotation ('outdoors', 'natural', 'body_of_water') was chosen for this caption because:\n\n1. **'outdoors'** - The caption explicitly describes a scene taking place \"along the banks of a... body of water,\" which clearly indicates an outdoor setting.\n\n2. **'natural'** - The presence of a body of water suggests a natural environment, even though it's described as \"trash infested.\""
+  },
+  {
+    "caption": "\"four young adults sit outside on a wooden deck near a building around a small round table , while another person stands on the edge of the deck , leaning on the wooden railing , with the sun shining on one of them and the rest of them are in the shade , two of them crossing their legs , one holding a cellphone out in front of himself and another holding a green and red soda can .\"",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "# Explanation of Annotation for the Caption\n\nThe annotation ('outdoors', 'man-made', 'recreation') was chosen for this caption because:\n\n1. **'outdoors'** - The caption explicitly describes a scene taking place \"outside on a wooden deck\" with mentions of \"sun shining\" and \"shade,\" clearly indicating an outdoor setting.\n\n2. **'man-made'** - Several man-made elements are mentioned in the caption, including:"
+  },
+  {
+    "caption": "\"in a restaurant , a teenager drinks directly out of the metal milkshake serving cup .\"",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "restaurant"
+    ],
+    "explanation": "# Explanation of Annotation\n\nThe annotation ('indoors', 'man-made', 'restaurant') was chosen for this caption because:\n\n1. **'indoors'** - The caption explicitly states that the scene takes place \"in a restaurant,\" which is an indoor setting. Restaurants are enclosed spaces that are sheltered from the outside environment.\n\n2. **'man-made'** - A restaurant is a human-constructed environment with man-made elements including the"
+  },
+  {
+    "caption": "\"people swing on a red , metal amusement park ride in front of some trees .\"",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "# Explanation of Annotation for the Caption\n\nThe annotation ('outdoors', 'man-made', 'recreation') was chosen for this caption because:\n\n1. **'outdoors'** - The caption explicitly mentions \"in front of some trees,\" indicating that the scene takes place outside in an open-air environment. Amusement park rides are typically located outdoors, and the presence of trees confirms this setting.\n\n2. **'man-made'** -"
+  },
+  {
+    "caption": "\"people swing on a red , metal amusement park ride.\"",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "# Explanation of Annotation for the Caption\n\nThe annotation ('outdoors', 'man-made', 'recreation') was chosen for the caption \"people swing on a red, metal amusement park ride\" for the following reasons:\n\n1. **Outdoors**: Amusement park rides are typically located outdoors in open-air environments. The caption describes people swinging on an amusement park ride, which strongly suggests an outdoor setting where such rides are commonly"
+  },
+  {
+    "caption": "\"person leaning against the wall , next to a life size cartoon cut out .\"",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "other_unclear"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('indoors', 'man-made', 'other_unclear') for this caption was chosen for the following reasons:\n\n1. **'indoors'**: The caption describes a scene with a person leaning against a wall, which strongly suggests an indoor setting. Walls are typically associated with interior spaces, and the presence of a life-size cartoon cutout further supports this being an indoor environment, as such displays are commonly foun"
+  },
+  {
+    "caption": "\"several people in the mid-ground sit on a bench along the side of a white building , while three people stand in a courtyard in front of the building .\"",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "other_unclear"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('outdoors', 'man-made', 'other_unclear') was chosen for this caption because:\n\n1. **'outdoors'**: The caption clearly describes a scene taking place outside, mentioning a courtyard and people sitting on a bench along the side of a building. These elements indicate an outdoor setting.\n\n2. **'man-made'**: The caption references man-made structures, specifically \"a white building"
+  },
+  {
+    "caption": "\"three children are playing outdoors , two of them on a metal barrel swing .\"",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "# Explanation of the Annotation for the Caption\n\nThe annotation ('outdoors', 'man-made', 'recreation') was chosen for the caption \"three children are playing outdoors, two of them on a metal barrel swing\" for the following reasons:\n\n1. **'outdoors'** - This directly corresponds to the explicit statement in the caption that the children are \"playing outdoors.\" The setting of the scene is clearly outside rather than inside a building.\n\n2."
+  },
+  {
+    "caption": "\"two girls , both dressed in pink , swinging on sunlight day with the nearby trees casting random shadows on the remainder of the park like setting .\"",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('outdoors', 'man-made', 'recreation') was chosen for this caption because:\n\n1. **'outdoors'** - The caption clearly describes a scene taking place outside in a \"park like setting\" with \"sunlight\" and \"trees casting random shadows.\" These are all elements that indicate an outdoor environment.\n\n2. **'man-made'** - The caption mentions swings, which are human-"
+  },
+  {
+    "caption": "\"two girls , both dressed in pink , swinging on sunlight day with the trees casting random shadows on the remainder of the park like setting .\"",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('outdoors', 'man-made', 'recreation') was chosen for this caption because:\n\n1. **'outdoors'** - The caption clearly describes a scene taking place outside in a \"park like setting\" with natural elements such as trees and sunlight. The mention of \"trees casting random shadows\" and \"sunlight day\" firmly establishes this as an outdoor scene.\n\n2. **'man-made'"
+  },
+  {
+    "caption": "Kids play",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "# Explanation of the Annotation for \"Kids play\"\n\nThe caption \"Kids play\" was annotated with ('outdoors', 'man-made', 'recreation') for the following reasons:\n\n1. **'outdoors'** - This annotation suggests that the children are playing outside rather than indoors. This could be in a playground, park, sports field, or other outdoor setting.\n\n2. **'man-made'** - This indicates that the environment where"
+  },
+  {
+    "caption": "Person leaning",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "other_unclear"
+    ],
+    "explanation": "# Explanation of the Annotation for \"Person leaning\"\n\nThe annotation ('indoors', 'man-made', 'other_unclear') was chosen for the caption \"Person leaning\" for the following reasons:\n\n1. **'indoors'**: The annotation suggests the scene takes place inside a building or structure rather than outdoors. This might be inferred because people often lean against walls, furniture, or other indoor structures, though the caption itself doesn't explicitly state"
+  },
+  {
+    "caption": "The brown dog catches a ball.",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "# Explanation of Annotation for \"The brown dog catches a ball.\"\n\nThe annotation ('outdoors', 'man-made', 'recreation') was likely chosen for this caption because:\n\n1. **'outdoors'** - The scene is presumed to take place outside, which is the typical setting for a dog catching a ball. Dogs are often taken to parks, yards, or open spaces to play fetch.\n\n2. **'man-made'** - The"
+  },
+  {
+    "caption": "a black and white dog runs beside a brown dog in a green field .",
+    "annotation": [
+      "outdoors",
+      "natural",
+      "field_forest"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('outdoors', 'natural', 'field_forest') was chosen for the caption \"a black and white dog runs beside a brown dog in a green field\" for the following reasons:\n\n1. **'outdoors'**: The scene clearly takes place outside, as indicated by the \"green field\" mentioned in the caption. Dogs running in a field is an outdoor activity.\n\n2. **'natural'**: The setting describe"
+  },
+  {
+    "caption": "a black and white dog runs.",
+    "annotation": [
+      "outdoors",
+      "natural",
+      "other_unclear"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('outdoors', 'natural', 'other_unclear') for the caption \"a black and white dog runs\" was likely chosen for the following reasons:\n\n1. **'outdoors'**: The caption describes a dog running, which is an activity typically associated with outdoor spaces. Dogs are commonly seen running in yards, parks, fields, or other open spaces rather than indoors where space is limited.\n\n2. **'natural"
+  },
+  {
+    "caption": "a black dog runs on green grass with its mouth open .",
+    "annotation": [
+      "outdoors",
+      "natural",
+      "field_forest"
+    ],
+    "explanation": "# Explanation of the Annotation for the Caption\n\nThe annotation ('outdoors', 'natural', 'field_forest') was chosen for the caption \"a black dog runs on green grass with its mouth open\" for the following reasons:\n\n1. **'outdoors'**: The caption clearly describes a scene taking place outside, as indicated by the dog running on green grass. This is an outdoor setting rather than an indoor one.\n\n2. **'natural'**: The scene"
+  },
+  {
+    "caption": "a black dog runs with his mouth open",
+    "annotation": [
+      "outdoors",
+      "natural",
+      "other_unclear"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('outdoors', 'natural', 'other_unclear') for the caption \"a black dog runs with his mouth open\" can be explained as follows:\n\n1. **'outdoors'**: This annotation was likely chosen because dogs running typically occurs in an outdoor setting. While the caption doesn't explicitly state the location, the natural activity of a dog running freely suggests an outdoor environment rather than indoors.\n\n2. **'natural"
+  },
+  {
+    "caption": "a blond dog and a black and white dog run",
+    "annotation": [
+      "outdoors",
+      "natural",
+      "other_unclear"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('outdoors', 'natural', 'other_unclear') for the caption \"a blond dog and a black and white dog run\" was likely chosen for the following reasons:\n\n1. **'outdoors'**: The annotation suggests that the scene takes place outside. While the caption doesn't explicitly state this, dogs running typically occurs in an outdoor setting, so this is a reasonable inference.\n\n2. **'natural'**:"
+  },
+  {
+    "caption": "a blond dog and a black and white dog run in a dirt field .",
+    "annotation": [
+      "outdoors",
+      "natural",
+      "field_forest"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('outdoors', 'natural', 'field_forest') was chosen for the caption \"a blond dog and a black and white dog run in a dirt field\" for the following reasons:\n\n1. **'outdoors'**: The caption explicitly describes dogs running in a dirt field, which is clearly an outdoor setting rather than an indoor one.\n\n2. **'natural'**: The environment described is a natural setting (a"
+  },
+  {
+    "caption": "a boy and girl child swing together .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "# Explanation of the Annotation for \"a boy and girl child swing together.\"\n\nThe annotation ('outdoors', 'man-made', 'recreation') was chosen for this caption because:\n\n1. **'outdoors'** - Swings are typically located in outdoor settings such as playgrounds, parks, or backyards. While the caption doesn't explicitly state the location is outdoors, swinging is predominantly an outdoor activity, making this a reasonable inference."
+  },
+  {
+    "caption": "a boy and girl child swing together on a swing set .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "# Explanation of the Annotation for the Caption\n\nThe annotation ('outdoors', 'man-made', 'recreation') was chosen for the caption \"a boy and girl child swing together on a swing set\" for the following reasons:\n\n1. **'outdoors'**: Swing sets are typically located outside in playgrounds, parks, or backyards. The scene described involves children using a swing set, which strongly implies an outdoor setting.\n\n2. **'man"
+  },
+  {
+    "caption": "a brown dog running",
+    "annotation": [
+      "outdoors",
+      "natural",
+      "other_unclear"
+    ],
+    "explanation": "# Explanation of the Annotation for \"a brown dog running\"\n\nThe annotation (`outdoors`, `natural`, `other_unclear`) was chosen for this caption because:\n\n1. **`outdoors`**: The caption describes a dog running, which is typically an outdoor activity. Dogs usually have more space to run freely outside rather than indoors, so the annotator reasonably inferred this setting.\n\n2. **`natural`**: This tag indicates the scene is likely in"
+  },
+  {
+    "caption": "a brown dog running on a lawn near a garden hose",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "domestic"
+    ],
+    "explanation": "# Explanation of the Annotation for the Caption\n\nThe annotation ('outdoors', 'man-made', 'domestic') was chosen for the caption \"a brown dog running on a lawn near a garden hose\" for the following reasons:\n\n1. **'outdoors'**: The scene clearly takes place outside, as indicated by the \"lawn\" where the dog is running. Lawns are outdoor grassy areas.\n\n2. **'man-made'**: The"
+  },
+  {
+    "caption": "a chef speaks into a microphone about a mixed salad contained .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "restaurant"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('indoors', 'man-made', 'restaurant') was chosen for the caption \"a chef speaks into a microphone about a mixed salad contained\" for the following reasons:\n\n1. **'indoors'**: The scene is implied to be taking place inside a building. Chefs typically work indoors in kitchens, and the use of a microphone suggests a controlled indoor environment rather than an outdoor setting."
+  },
+  {
+    "caption": "a chef speaks into a microphone about a mixed salad contained in a bowl with a decorative lid .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "restaurant"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('indoors', 'man-made', 'restaurant') was chosen for this caption because:\n\n1. **'indoors'** - The scene describes a chef speaking about food, which is most likely taking place inside a building rather than outdoors. Professional food presentations typically occur in indoor settings.\n\n2. **'man-made'** - The caption mentions several man-made objects: a microphone, a bowl with"
+  },
+  {
+    "caption": "a child in a dress runs through the yard with a miniature orange soccer ball in her hand .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "domestic"
+    ],
+    "explanation": "# Explanation of the Annotation ('outdoors', 'man-made', 'domestic')\n\nThe annotation for this caption was chosen based on the scene description and its elements:\n\n1. **'outdoors'**: The caption explicitly mentions \"runs through the yard,\" indicating that the scene takes place outside in an open area. A yard is an outdoor space.\n\n2. **'man-made'**: There are two man-made elements in the caption:\n   -"
+  },
+  {
+    "caption": "a child in a dress runs with a miniature orange soccer ball .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('outdoors', 'man-made', 'recreation') for the caption \"a child in a dress runs with a miniature orange soccer ball\" was chosen for the following reasons:\n\n1. **'outdoors'**: The caption implies an action (running) that typically takes place in an open space. While the location isn't explicitly stated, running with a ball is commonly an outdoor activity, especially in the context of play."
+  },
+  {
+    "caption": "a dark-haired dark-skinned child sleeps in a chair while holding a blue zippered pack .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "domestic"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('indoors', 'man-made', 'domestic') was chosen for this caption because:\n\n1. **Indoors**: The caption describes a child sleeping in a chair, which strongly suggests an indoor setting. Chairs are typically indoor furniture, and the context of a child sleeping peacefully indicates a sheltered environment rather than an outdoor location.\n\n2. **Man-made**: Multiple man-made objects are mentioned in the"
+  },
+  {
+    "caption": "a dark-haired dark-skinned child sleeps while holding a blue zippered pack .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "domestic"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('indoors', 'man-made', 'domestic') was chosen for this caption because:\n\n1. **Indoors**: The caption describes a sleeping child, which most likely takes place in an indoor setting such as a bedroom, living room, or other interior space. Sleep typically occurs in sheltered environments, especially for children.\n\n2. **Man-made**: The caption specifically mentions a \"blue zippered pack\" which"
+  },
+  {
+    "caption": "a dark-haired man is speaking into a microphone while another man is sitting .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "work_education"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('indoors', 'man-made', 'work_education') was chosen for the caption \"a dark-haired man is speaking into a microphone while another man is sitting\" for the following reasons:\n\n1. **'indoors'**: The scene is likely taking place inside a building rather than outdoors. Speaking into a microphone with someone else sitting nearby suggests a controlled environment like a conference room, studio, classroom"
+  },
+  {
+    "caption": "a dark-haired man is speaking into a microphone while another man is sitting beside him .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "work_education"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('indoors', 'man-made', 'work_education') for the caption \"a dark-haired man is speaking into a microphone while another man is sitting beside him\" was chosen for the following reasons:\n\n1. **'indoors'**: The scene is implicitly taking place inside a building. When people are using microphones in a formal setting with others seated beside them, this typically occurs in indoor environments such"
+  },
+  {
+    "caption": "a dog wearing a t-shirt is lying down .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "domestic"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('indoors', 'man-made', 'domestic') for the caption \"a dog wearing a t-shirt is lying down\" was chosen for the following reasons:\n\n1. **'indoors'**: While the caption doesn't explicitly state the location, dogs wearing clothes are typically found indoors rather than outdoors. The context of a dog wearing a t-shirt and lying down suggests a home environment, which is most likely"
+  },
+  {
+    "caption": "a dog wearing a t-shirt is lying.",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "domestic"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('indoors', 'man-made', 'domestic') for the caption \"a dog wearing a t-shirt is lying\" was chosen for the following reasons:\n\n1. **'indoors'**: While the caption doesn't explicitly state the location, a dog wearing a t-shirt and lying down is most likely in an indoor setting. Dogs typically wear clothes when they are in a home environment rather than outdoors in natural settings"
+  },
+  {
+    "caption": "a gray dog is jumping toward a black and white dog in the snow .",
+    "annotation": [
+      "outdoors",
+      "natural",
+      "other_unclear"
+    ],
+    "explanation": "# Explanation of the Annotation for the Caption\n\nThe annotation ('outdoors', 'natural', 'other_unclear') was chosen for the caption \"a gray dog is jumping toward a black and white dog in the snow\" for the following reasons:\n\n1. **'outdoors'**: The caption explicitly mentions \"snow,\" which indicates an outdoor setting. Snow naturally occurs outside, so this part of the annotation correctly identifies the scene as taking place outdoors.\n\n2. **"
+  },
+  {
+    "caption": "a gray dog is jumping toward a black and white dog.",
+    "annotation": [
+      "outdoors",
+      "natural",
+      "other_unclear"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('outdoors', 'natural', 'other_unclear') for the caption \"a gray dog is jumping toward a black and white dog\" was likely chosen for the following reasons:\n\n1. **'outdoors'**: The annotation suggests that the scene takes place outside rather than indoors. While the caption itself doesn't explicitly state the location, dog interactions and jumping often occur in outdoor settings, so this was likely inferred from context"
+  },
+  {
+    "caption": "a greyhound races on the dirt .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "# Explanation of the Annotation for \"a greyhound races on the dirt.\"\n\nThe annotation ('outdoors', 'man-made', 'recreation') was chosen for this caption because:\n\n1. **'outdoors'** - Greyhound racing typically takes place on outdoor tracks. The mention of \"dirt\" strongly suggests an outdoor setting, as dirt racing tracks are open-air facilities.\n\n2. **'man-made'** - The caption implies"
+  },
+  {
+    "caption": "a greyhound races.",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "# Explanation of the Annotation for \"a greyhound races.\"\n\nThe annotation ('outdoors', 'man-made', 'recreation') was chosen for this caption because:\n\n1. **'outdoors'** - Greyhound racing typically takes place on outdoor tracks. These races are held in open-air stadiums or racing venues rather than indoors.\n\n2. **'man-made'** - Greyhound racing is conducted on specially designe"
+  },
+  {
+    "caption": "a group of men in golden shirts singing in front of a microphone .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "# Explanation of Annotation for the Caption\n\nThe annotation ('indoors', 'man-made', 'recreation') was chosen for the caption \"a group of men in golden shirts singing in front of a microphone\" for the following reasons:\n\n1. **Indoors**: The scene is likely taking place indoors because:\n   - Microphones are typically set up indoors for performances\n   - Formal singing performances (suggested by the matching golden shirts) usually"
+  },
+  {
+    "caption": "a group of men in golden shirts singing.",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "# Explanation of the Annotation for \"a group of men in golden shirts singing\"\n\nThe annotation ('indoors', 'man-made', 'recreation') was chosen for this caption because:\n\n1. **'indoors'** - While the caption doesn't explicitly state the location, singing performances, especially by a coordinated group in matching attire (golden shirts), typically take place indoors in venues like concert halls, theaters, or auditoriums. The formal nature"
+  },
+  {
+    "caption": "a group of people lie close together on a hardwood floor .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "other_unclear"
+    ],
+    "explanation": "# Explanation of the Annotation for the Caption\n\nThe annotation ('indoors', 'man-made', 'other_unclear') was chosen for the caption \"a group of people lie close together on a hardwood floor\" for the following reasons:\n\n1. **'indoors'**: The caption explicitly mentions a \"hardwood floor,\" which is a typical indoor flooring material. People lying on a hardwood floor strongly suggests an indoor setting rather than an outdoor environment."
+  },
+  {
+    "caption": "a group of people lie close together.",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "domestic"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('indoors', 'man-made', 'domestic') was chosen for the caption \"a group of people lie close together\" for the following reasons:\n\n1. **'indoors'**: The caption implies that people are lying close together, which is more likely to occur in an indoor setting rather than outdoors. People typically lie close together in indoor spaces like beds, couches, or floors inside a home.\n\n2."
+  },
+  {
+    "caption": "a handicapped person with one leg skiing down a mountain with other mountains in the background .",
+    "annotation": [
+      "outdoors",
+      "natural",
+      "mountain"
+    ],
+    "explanation": "# Explanation of Annotation\n\nThe annotation ('outdoors', 'natural', 'mountain') was chosen for this caption because:\n\n1. **'outdoors'** - The caption clearly describes a scene taking place outside on a ski slope, not in an indoor setting.\n\n2. **'natural'** - The setting described is a natural environment (mountains) rather than an urban or artificial setting.\n\n3. **'mountain'** - The caption explicitly mentions \"skiing"
+  },
+  {
+    "caption": "a handicapped person with one leg skiing down with other mountains .",
+    "annotation": [
+      "outdoors",
+      "natural",
+      "mountain"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('outdoors', 'natural', 'mountain') was chosen for this caption because:\n\n1. **'outdoors'** - The caption describes a skiing scene, which is an outdoor activity. Skiing takes place outside in open air environments.\n\n2. **'natural'** - The setting described involves mountains, which are natural geographical features rather than man-made structures.\n\n3. **'mountain'** - The caption"
+  },
+  {
+    "caption": "a korean woman is enjoying a meal in a restaurant .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "restaurant"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('indoors', 'man-made', 'restaurant') was chosen for the caption \"a korean woman is enjoying a meal in a restaurant\" for the following reasons:\n\n1. **'indoors'** - The scene takes place inside a restaurant, which is an indoor setting. Restaurants are enclosed spaces with walls, ceilings, and other architectural elements that define them as indoor environments.\n\n2. **'man-"
+  },
+  {
+    "caption": "a korean woman is enjoying a meal.",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "restaurant"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('indoors', 'man-made', 'restaurant') was chosen for the caption \"a korean woman is enjoying a meal\" for the following reasons:\n\n1. **'indoors'**: The caption describes someone eating a meal, which typically takes place indoors. While eating outdoors is possible, the default assumption for a meal scenario (especially when no outdoor setting is mentioned) is that it's happening inside.\n\n2."
+  },
+  {
+    "caption": "a lady with short hair wearing a black jacket leaned .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "other_unclear"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('indoors', 'man-made', 'other_unclear') for the caption \"a lady with short hair wearing a black jacket leaned.\" was likely chosen for the following reasons:\n\n1. **'indoors'**: While the caption doesn't explicitly state the location, the context of someone wearing a jacket and leaning suggests an indoor setting. This is an inference rather than an explicit detail, but indoor environments are common contexts"
+  },
+  {
+    "caption": "a lady with short hair wearing a black jacket leaned against a lamp post outside a building .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "other_unclear"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('outdoors', 'man-made', 'other_unclear') for this caption was chosen for the following reasons:\n\n1. **'outdoors'**: The caption explicitly states that the scene takes place \"outside a building\" and mentions a \"lamp post,\" which is typically found outdoors. This clearly indicates an outdoor setting.\n\n2. **'man-made'**: The caption references several man-made elements:"
+  },
+  {
+    "caption": "a little boy playing in the water .",
+    "annotation": [
+      "outdoors",
+      "natural",
+      "body_of_water"
+    ],
+    "explanation": "# Explanation of the Annotation for \"a little boy playing in the water.\"\n\nThe annotation ('outdoors', 'natural', 'body_of_water') was chosen for this caption because:\n\n1. **'outdoors'** - The scene describes a boy playing in water, which is most likely taking place outside rather than indoors. Water play of this nature typically occurs in outdoor settings like beaches, lakes, rivers, or pools.\n\n2. **'natural"
+  },
+  {
+    "caption": "a little boy playing.",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "# Explanation of the Annotation for \"a little boy playing.\"\n\nThe annotation ('indoors', 'man-made', 'recreation') was chosen for this caption because:\n\n1. **'indoors'** - The annotation assumes the scene takes place inside a building rather than outside. While the caption doesn't explicitly state the location, indoor play is a common setting for children, especially when the caption doesn't specify an outdoor environment like a playground or field.\n\n2."
+  },
+  {
+    "caption": "a lively adult karate practice",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "# Explanation of the Annotation for \"a lively adult karate practice\"\n\nThe annotation ('indoors', 'man-made', 'recreation') was chosen for this caption because:\n\n1. **'indoors'** - Karate practice typically takes place inside a dojo or training facility. The caption doesn't explicitly state the location, but martial arts training, especially formal adult classes, is commonly conducted in indoor facilities with proper flooring and equipment.\n\n2"
+  },
+  {
+    "caption": "a lively adult karate practice at the dojo .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "# Explanation of the Annotation for \"a lively adult karate practice at the dojo.\"\n\nThe annotation ('indoors', 'man-made', 'recreation') was chosen for this caption because:\n\n1. **'indoors'** - A dojo is a traditional training facility for martial arts that is typically located inside a building. Karate practice sessions are generally conducted in these indoor training halls with proper flooring and equipment.\n\n2. **'man"
+  },
+  {
+    "caption": "a man and a woman are examining produce at a market .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "other_unclear"
+    ],
+    "explanation": "# Explanation of the Annotation for the Caption\n\nThe caption \"a man and a woman are examining produce at a market\" received the annotation ('outdoors', 'man-made', 'other_unclear'). Here's why each part of this annotation was likely chosen:\n\n1. **'outdoors'**: Markets where produce is sold are often located outdoors, especially traditional farmers' markets or street markets. The caption doesn't explicitly state the location is outdoors, but"
+  },
+  {
+    "caption": "a man and a woman are examining produce.",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "other_unclear"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('indoors', 'man-made', 'other_unclear') for the caption \"a man and a woman are examining produce\" was likely chosen for the following reasons:\n\n1. **'indoors'**: The scene is presumed to be taking place inside a building, most likely a grocery store, supermarket, or indoor market where produce is sold. Since the caption doesn't explicitly state the location is outdoors (like"
+  },
+  {
+    "caption": "a man and woman enjoying dinner at a party .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "# Explanation of the Annotation for \"a man and woman enjoying dinner at a party.\"\n\nThe annotation ('indoors', 'man-made', 'recreation') was chosen for this caption because:\n\n1. **'indoors'** - The caption describes people having dinner at a party, which typically takes place inside a building rather than outside. Dining, especially in a party context, is commonly an indoor activity.\n\n2. **'man-made'** -"
+  },
+  {
+    "caption": "a man and woman enjoying dinner.",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "restaurant"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('indoors', 'man-made', 'restaurant') was chosen for the caption \"a man and woman enjoying dinner\" for the following reasons:\n\n1. **'indoors'** - The scene is implied to be taking place inside a building rather than outside. Dinner, especially when described as being \"enjoyed\" together, typically suggests a formal dining setting which is most commonly indoors.\n\n2. **'man-"
+  },
+  {
+    "caption": "a man drives a truck while a child sits and steers .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "transportation_urban"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('outdoors', 'man-made', 'transportation_urban') was chosen for the caption \"a man drives a truck while a child sits and steers\" for the following reasons:\n\n1. **'outdoors'**: The scene is implied to be taking place outside. Trucks are typically driven on roads or in open areas, which are outdoor settings. While the caption doesn't explicitly state the location is outdoors, the"
+  },
+  {
+    "caption": "a man drives a truck while a child sits on his lap and steers .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "transportation_urban"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('outdoors', 'man-made', 'transportation_urban') was chosen for the caption \"a man drives a truck while a child sits on his lap and steers\" for the following reasons:\n\n1. **'outdoors'**: The caption describes a driving scenario which typically takes place outdoors on roads or other driving surfaces. Driving a truck is an activity that occurs in external environments rather than inside buildings.\n\n2"
+  },
+  {
+    "caption": "a man driving a small golf cart down a street with a crowd watching him on either side of the street .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "transportation_urban"
+    ],
+    "explanation": "# Explanation of the Annotation for the Caption\n\nThe annotation ('outdoors', 'man-made', 'transportation_urban') was chosen for this caption because:\n\n1. **'outdoors'** - The caption describes a scene taking place on a street with crowds watching on either side, which clearly indicates an outdoor setting rather than an indoor one.\n\n2. **'man-made'** - The primary elements in the scene (golf cart, street) are human"
+  },
+  {
+    "caption": "a man driving a small golf cart with a crowd watching.",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "# Explanation of the Annotation for \"a man driving a small golf cart with a crowd watching.\"\n\nThe annotation ('outdoors', 'man-made', 'recreation') was chosen for this caption because:\n\n1. **'outdoors'** - Golf carts are typically used on golf courses or in outdoor venues. The presence of a \"crowd watching\" also suggests an open-air setting where spectators can gather to observe the activity.\n\n2. **'man"
+  },
+  {
+    "caption": "a man grilling",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "domestic"
+    ],
+    "explanation": "# Explanation of the Annotation for \"a man grilling\"\n\nThe annotation ('outdoors', 'man-made', 'domestic') was chosen for the caption \"a man grilling\" for the following reasons:\n\n1. **'outdoors'** - Grilling is typically done outside. While indoor grills exist, the default assumption for grilling is that it takes place outdoors, such as in a backyard, patio, or park. The lack"
+  },
+  {
+    "caption": "a man grilling meat on an outdoor grilling pit .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "# Explanation of the Annotation for the Caption\n\nThe annotation ('outdoors', 'man-made', 'recreation') was chosen for the caption \"a man grilling meat on an outdoor grilling pit\" for the following reasons:\n\n1. **'outdoors'** - The caption explicitly states that this is an \"outdoor grilling pit,\" indicating that the activity is taking place outside rather than in an indoor kitchen or space.\n\n2. **'man-made'"
+  },
+  {
+    "caption": "a man grilling meat.",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "domestic"
+    ],
+    "explanation": "# Explanation of the Annotation for \"a man grilling meat.\"\n\nThe annotation ('outdoors', 'man-made', 'domestic') was chosen for this caption because:\n\n1. **'outdoors'** - Grilling is typically done outside. While not explicitly stated in the caption, grilling is commonly an outdoor activity due to ventilation needs and traditional barbecue settings.\n\n2. **'man-made'** - The scene involves human activity"
+  },
+  {
+    "caption": "a man grilling outside his house .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "domestic"
+    ],
+    "explanation": "# Explanation of the Annotation for \"a man grilling outside his house.\"\n\nThe annotation ('outdoors', 'man-made', 'domestic') was chosen for this caption because:\n\n1. **'outdoors'** - The caption explicitly states that the man is \"outside his house,\" indicating an outdoor setting rather than an indoor one.\n\n2. **'man-made'** - The scene involves human-created elements: a grill (which is a"
+  },
+  {
+    "caption": "a man grilling three pieces of salmon outside .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "domestic"
+    ],
+    "explanation": "# Explanation of the Annotation for \"a man grilling three pieces of salmon outside.\"\n\nThe annotation ('outdoors', 'man-made', 'domestic') was chosen for this caption because:\n\n1. **'outdoors'** - The caption explicitly states that the grilling is happening \"outside,\" which directly corresponds to an outdoor setting rather than an indoor one.\n\n2. **'man-made'** - The activity involves grilling, which requires a g"
+  },
+  {
+    "caption": "a man grilling three pieces of salmon.",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "domestic"
+    ],
+    "explanation": "# Explanation of the Annotation for \"a man grilling three pieces of salmon.\"\n\nThe annotation ('outdoors', 'man-made', 'domestic') was chosen for this caption because:\n\n1. **'outdoors'** - Grilling is commonly done outside, especially when cooking salmon or other foods that might produce smoke or strong odors. While not explicitly stated in the caption, grilling is frequently an outdoor activity.\n\n2. **'man-made"
+  },
+  {
+    "caption": "a man in a black shirt sitting",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "other_unclear"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('indoors', 'man-made', 'other_unclear') for the caption \"a man in a black shirt sitting\" was likely chosen for the following reasons:\n\n1. **'indoors'**: The caption describes a person sitting, which commonly occurs in an indoor setting. While the caption doesn't explicitly state the location, sitting often implies being indoors (on a chair, couch, etc.), so this is a"
+  },
+  {
+    "caption": "a man in a black shirt sitting next to a older women in a pink jacket on a train .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "transportation_urban"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('indoors', 'man-made', 'transportation_urban') was chosen for this caption because:\n\n1. **'indoors'** - The scene takes place inside a train, which is an enclosed indoor space.\n\n2. **'man-made'** - A train is a human-engineered vehicle/structure, not a natural environment.\n\n3. **'transportation_urban'** - The caption explicitly"
+  },
+  {
+    "caption": "a man in a blue swimsuit and a red beanie kneels making a sand castle that is as tall as he is when he is kneeling .",
+    "annotation": [
+      "outdoors",
+      "natural",
+      "body_of_water"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('outdoors', 'natural', 'body_of_water') was chosen for this caption because:\n\n1. **'outdoors'** - The caption describes a scene that is clearly taking place outside. Building a sand castle is an outdoor activity that typically happens at a beach or similar setting.\n\n2. **'natural'** - The scene involves natural elements, specifically sand (for the sand castle), which is a natural"
+  },
+  {
+    "caption": "a man in a dark shirt is making a presentation in front of a group .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "work_education"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('indoors', 'man-made', 'work_education') was chosen for the caption \"a man in a dark shirt is making a presentation in front of a group\" for the following reasons:\n\n1. **'indoors'**: The caption describes a presentation scenario, which typically takes place inside a building rather than outdoors. Presentations are commonly held in conference rooms, classrooms, auditoriums, or office spaces"
+  },
+  {
+    "caption": "a man in a dark shirt is making a presentation.",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "work_education"
+    ],
+    "explanation": "# Explanation of the Annotation for \"a man in a dark shirt is making a presentation.\"\n\nThe annotation ('indoors', 'man-made', 'work_education') was chosen for this caption because:\n\n1. **'indoors'**: Presentations typically take place inside buildings, such as conference rooms, classrooms, or lecture halls. The caption doesn't explicitly mention the location, but presentations are almost always conducted in indoor settings.\n\n2. **'man"
+  },
+  {
+    "caption": "a man in a suit and tie in a fancy building is speaking at the podium .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "work_education"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('indoors', 'man-made', 'work_education') was chosen for this caption because:\n\n1. **'indoors'** - The caption explicitly mentions \"in a fancy building,\" indicating that the scene takes place inside a structure rather than outdoors.\n\n2. **'man-made'** - The setting is described as a \"fancy building\" with a \"podium,\" both of which are human-"
+  },
+  {
+    "caption": "a man in a suit and tie is speaking.",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "work_education"
+    ],
+    "explanation": "# Explanation of the Annotation for \"a man in a suit and tie is speaking\"\n\nThe annotation ('indoors', 'man-made', 'work_education') was chosen for this caption because:\n\n1. **'indoors'**: The scene is likely taking place inside a building rather than outdoors. A person in formal attire (suit and tie) speaking typically suggests an indoor setting such as an office, conference room, classroom, or auditorium."
+  },
+  {
+    "caption": "a man in a white polo shirt speaks into a microphone with a sign behind him that reads , truth ! ",
+    
+    "annotation": [
+      "indoors",
+      "man-made",
+      "work_education"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('indoors', 'man-made', 'work_education') for this caption was chosen for the following reasons:\n\n1. **'indoors'**: The scene describes a man speaking into a microphone with a sign behind him, which strongly suggests an indoor setting. Public speaking with microphones and displayed signs typically occurs in indoor venues such as conference rooms, auditoriums, classrooms, or meeting spaces.\n\n2."
+  },
+  {
+    "caption": "a man in a white polo shirt speaks with a sign that reads , truth ! ",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "other_unclear"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('outdoors', 'man-made', 'other_unclear') for this caption was chosen for the following reasons:\n\n1. **'outdoors'**: The caption describes a scene that appears to be taking place outside. While the caption doesn't explicitly state the location, protest or demonstration scenes (suggested by someone holding a sign) typically occur in outdoor public spaces.\n\n2. **'man-made'**: This label indicates"
+  },
+  {
+    "caption": "a man in a white polo shirt speaks with a sign that reads , truth ! ",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "other_unclear"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('outdoors', 'man-made', 'other_unclear') for the caption \"a man in a white polo shirt speaks with a sign that reads, 'truth!'\" was likely chosen for the following reasons:\n\n1. **'outdoors'**: The caption implies the scene is taking place in an outdoor setting, possibly at a demonstration, protest, or public speaking event. While the caption doesn't explicitly state the location"
+  },
+  {
+    "caption": "a man in a white shirt uses a blackboard as others sit at a table watching .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "work_education"
+    ],
+    "explanation": "# Explanation of the Annotation for the Caption\n\nThe annotation ('indoors', 'man-made', 'work_education') was chosen for the caption \"a man in a white shirt uses a blackboard as others sit at a table watching\" for the following reasons:\n\n1. **'indoors'**: The scene clearly takes place inside a building. The presence of a blackboard and people sitting at a table strongly suggests an indoor setting like a classroom, meeting room,"
+  },
+  {
+    "caption": "a man in a white shirt uses a blackboard as others sit watching .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "work_education"
+    ],
+    "explanation": "# Explanation of the Annotation for the Caption\n\nThe annotation ('indoors', 'man-made', 'work_education') was chosen for the caption \"a man in a white shirt uses a blackboard as others sit watching\" for the following reasons:\n\n1. **'indoors'**: The scene is clearly taking place inside a building. Blackboards are typically found in indoor settings such as classrooms, meeting rooms, or lecture halls. The fact that people are"
+  },
+  {
+    "caption": "a man in a yellow jacket is skiing in the snow .",
+    "annotation": [
+      "outdoors",
+      "natural",
+      "mountain"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('outdoors', 'natural', 'mountain') was chosen for the caption \"a man in a yellow jacket is skiing in the snow\" for the following reasons:\n\n1. **'outdoors'**: Skiing is an outdoor activity that takes place in open-air environments. The caption clearly describes a scene that is happening outside in the snow, not in an indoor setting.\n\n2. **'natural'**: The scene depicts"
+  },
+  {
+    "caption": "a man in a yellow jacket is skiing.",
+    "annotation": [
+      "outdoors",
+      "natural",
+      "mountain"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('outdoors', 'natural', 'mountain') was chosen for the caption \"a man in a yellow jacket is skiing\" for the following reasons:\n\n1. **'outdoors'**: Skiing is an outdoor activity that takes place in open-air environments rather than inside buildings. The caption clearly describes a skiing scene, which inherently occurs outdoors.\n\n2. **'natural'**: Skiing typically takes place in natural"
+  },
+  {
+    "caption": "a man in red shirt wearing sunglasses is leaning",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "other_unclear"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('outdoors', 'man-made', 'other_unclear') for the caption \"a man in red shirt wearing sunglasses is leaning\" was likely chosen for the following reasons:\n\n1. **'outdoors'**: The annotation suggests the scene is taking place outside rather than indoors. While the caption itself doesn't explicitly state the location, the combination of sunglasses and the casual posture of leaning might"
+  },
+  {
+    "caption": "a man in red shirt wearing sunglasses is leaning on the wall",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "other_unclear"
+    ],
+    "explanation": "# Explanation of the Annotation for the Caption\n\nThe annotation ('outdoors', 'man-made', 'other_unclear') was chosen for the caption \"a man in red shirt wearing sunglasses is leaning on the wall\" for the following reasons:\n\n1. **'outdoors'**: This label was likely assigned because walls that people lean against are often exterior walls of buildings. While the caption doesn't explicitly state the scene is outdoors, the combination of sun"
+  },
+  {
+    "caption": "a man is enjoying meal and drink .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "restaurant"
+    ],
+    "explanation": "# Explanation of Annotation\n\nThe annotation ('indoors', 'man-made', 'restaurant') was chosen for the caption \"a man is enjoying meal and drink\" for the following reasons:\n\n1. **'indoors'** - The scene is implied to be taking place inside a building rather than outside. When people are \"enjoying meal and drink\" in a formal way (as opposed to a picnic or outdoor event), it's typically in an indoor setting."
+  },
+  {
+    "caption": "a man is enjoying meal and drink inside a restaurant .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "restaurant"
+    ],
+    "explanation": "# Explanation of Annotation\n\nThe annotation ('indoors', 'man-made', 'restaurant') was chosen for the caption \"a man is enjoying meal and drink inside a restaurant\" for the following reasons:\n\n1. **'indoors'** - The caption explicitly states that the man is \"inside a restaurant,\" which clearly indicates an indoor setting. Any activity taking place inside a building is considered to be indoors.\n\n2. **'man-made'** -"
+  },
+  {
+    "caption": "a man is giving a presentation in front of three people .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "work_education"
+    ],
+    "explanation": "# Explanation of the Annotation for the Caption\n\nThe annotation ('indoors', 'man-made', 'work_education') was chosen for the caption \"a man is giving a presentation in front of three people\" for the following reasons:\n\n1. **'indoors'**: Presentations typically take place inside buildings, such as conference rooms, classrooms, or offices. The caption describes a presentation scenario which is almost always conducted in an indoor setting.\n\n2. **"
+  },
+  {
+    "caption": "a man is giving a presentation.",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "work_education"
+    ],
+    "explanation": "# Explanation of the Annotation for \"a man is giving a presentation.\"\n\nThe annotation ('indoors', 'man-made', 'work_education') was chosen for this caption because:\n\n1. **'indoors'**: Presentations are typically given inside buildings, such as conference rooms, classrooms, lecture halls, or offices. The caption implies an indoor setting since presentations generally require equipment like projectors or screens in controlled environments.\n\n2. **'man-"
+  },
+  {
+    "caption": "a man is kneeling down with a child",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "domestic"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('indoors', 'man-made', 'domestic') was chosen for the caption \"a man is kneeling down with a child\" because:\n\n1. **'indoors'** - The scene is likely taking place inside a building rather than outside. While the caption doesn't explicitly state the location, interactions between adults and children, especially in a kneeling position (which suggests close engagement or care), commonly occur in"
+  },
+  {
+    "caption": "a man is kneeling down with a child on a beach where bright blue and red boats are stationed in the background .",
+    "annotation": [
+      "outdoors",
+      "natural",
+      "body_of_water"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('outdoors', 'natural', 'body_of_water') was chosen for this caption because:\n\n1. **'outdoors'** - The caption explicitly describes a beach scene, which is clearly an outdoor setting. The presence of boats on water further confirms this is an exterior environment.\n\n2. **'natural'** - The beach mentioned in the caption is a natural environment. Beaches are natural formations where land meets"
+  },
+  {
+    "caption": "a man is rowing a canoe on a lake .",
+    "annotation": [
+      "outdoors",
+      "natural",
+      "body_of_water"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('outdoors', 'natural', 'body_of_water') was chosen for the caption \"a man is rowing a canoe on a lake\" for the following reasons:\n\n1. **'outdoors'** - The scene clearly takes place outside in an open environment. Rowing a canoe on a lake is an outdoor activity that cannot be done indoors.\n\n2. **'natural'** - The setting describe"
+  },
+  {
+    "caption": "a man is rowing a canoe.",
+    "annotation": [
+      "outdoors",
+      "natural",
+      "body_of_water"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('outdoors', 'natural', 'body_of_water') was chosen for the caption \"a man is rowing a canoe\" for the following reasons:\n\n1. **'outdoors'**: Canoeing is an activity that takes place outside, not inside a building. Since the caption describes someone rowing a canoe, it implies an outdoor setting.\n\n2. **'natural'**: The annotation suggests a natural"
+  },
+  {
+    "caption": "a man is singing at a concert .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "# Explanation of the Annotation for \"a man is singing at a concert.\"\n\nThe annotation ('indoors', 'man-made', 'recreation') was chosen for this caption because:\n\n1. **'indoors'** - Concerts typically take place in indoor venues such as concert halls, theaters, arenas, or clubs. While outdoor concerts exist, the default assumption for a concert without specific qualifiers is that it's happening in an indoor setting.\n\n2."
+  },
+  {
+    "caption": "a man is singing.",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "# Explanation of the Annotation for \"a man is singing.\"\n\nThe annotation ('indoors', 'man-made', 'recreation') was chosen for this caption because:\n\n1. **'indoors'** - Singing often takes place indoors, especially in formal or organized settings like karaoke bars, recording studios, concert halls, or homes. While singing can occur outdoors, the annotation suggests the default assumption is that this singing activity is happening inside a building"
+  },
+  {
+    "caption": "a man is sitting on the street playing drums on buckets .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "# Explanation of the Annotation for the Caption\n\nThe annotation ('outdoors', 'man-made', 'recreation') was chosen for the caption \"a man is sitting on the street playing drums on buckets\" for the following reasons:\n\n1. **'outdoors'**: The caption explicitly states that the man is \"on the street,\" which clearly indicates an outdoor setting rather than an indoor location.\n\n2. **'man-made'**: This annotation applies for two"
+  },
+  {
+    "caption": "a man is sitting playing drums on buckets .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "# Explanation of the Annotation for \"a man is sitting playing drums on buckets.\"\n\nThe annotation ('outdoors', 'man-made', 'recreation') was chosen for this caption because:\n\n1. **'outdoors'** - While the caption doesn't explicitly state the location, street performers who play bucket drums typically perform outdoors in public spaces like streets, parks, or plazas. Bucket drumming is a common form of street performance, which usually"
+  },
+  {
+    "caption": "a man is using his computer while seated at a desk .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "work_education"
+    ],
+    "explanation": "# Explanation of the Annotation for the Caption\n\nThe annotation ('indoors', 'man-made', 'work_education') was chosen for the caption \"a man is using his computer while seated at a desk\" for the following reasons:\n\n1. **'indoors'**: The scene clearly takes place inside a building. A desk with a computer setup is typically found in an indoor environment such as an office, home office, or classroom.\n\n2. **'man"
+  },
+  {
+    "caption": "a man is using his computer while seated.",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "work_education"
+    ],
+    "explanation": "# Explanation of the Annotation for \"a man is using his computer while seated.\"\n\nThe annotation ('indoors', 'man-made', 'work_education') was chosen for this caption because:\n\n1. **'indoors'**: The scene is implicitly taking place inside a building. Using a computer while seated typically occurs in indoor environments like offices, homes, or other interior spaces, rather than outdoors.\n\n2. **'man-made'**: The"
+  },
+  {
+    "caption": "a man perched is using a net to scoop a fish from another aquarium .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "# Explanation of the Annotation for the Caption\n\nThe caption \"a man perched is using a net to scoop a fish from another aquarium\" was annotated with ('indoors', 'man-made', 'recreation') for the following reasons:\n\n1. **Indoors**: Aquariums are typically located indoors, especially when there are multiple aquariums mentioned (as implied by \"another aquarium\"). The scene describes an activity taking place in what"
+  },
+  {
+    "caption": "a man perched on a row of aquariums is using a net to scoop a fish from another aquarium .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "work_education"
+    ],
+    "explanation": "# Explanation of the Annotation for the Caption\n\nThe annotation ('indoors', 'man-made', 'work_education') was chosen for this caption because:\n\n1. **'indoors'**: The scene clearly takes place inside a building, as it describes a person working with multiple aquariums. Aquariums are typically set up indoors, especially in a commercial or educational setting where there would be \"a row of aquariums.\"\n\n2. **"
+  },
+  {
+    "caption": "a man rowing in the front of a canoe in a large body of water .",
+    "annotation": [
+      "outdoors",
+      "natural",
+      "body_of_water"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('outdoors', 'natural', 'body_of_water') was chosen for the caption \"a man rowing in the front of a canoe in a large body of water\" for the following reasons:\n\n1. **'outdoors'** - The scene clearly takes place outside on a body of water. Canoeing is an outdoor activity that cannot be done indoors.\n\n2. **'natural'** -"
+  },
+  {
+    "caption": "a man rowing.",
+    "annotation": [
+      "outdoors",
+      "natural",
+      "body_of_water"
+    ],
+    "explanation": "# Explanation of the Annotation for \"a man rowing\"\n\nThe annotation ('outdoors', 'natural', 'body_of_water') was chosen for the caption \"a man rowing\" because:\n\n1. **Outdoors**: Rowing is typically done outside on bodies of water rather than indoors. While indoor rowing machines exist, the default interpretation of \"rowing\" refers to the activity performed in boats on water.\n\n2. **Natural**: The setting for rowing"
+  },
+  {
+    "caption": "a man rows his boat .",
+    "annotation": [
+      "outdoors",
+      "natural",
+      "body_of_water"
+    ],
+    "explanation": "# Explanation of Annotation for \"a man rows his boat.\"\n\nThe annotation ('outdoors', 'natural', 'body_of_water') was chosen for this caption because:\n\n1. **'outdoors'** - Rowing a boat typically takes place outside rather than indoors. The activity of rowing inherently suggests an open-air setting.\n\n2. **'natural'** - The caption implies a natural setting rather than an artificial or urban environment."
+  },
+  {
+    "caption": "a man rows his boat below .",
+    "annotation": [
+      "outdoors",
+      "natural",
+      "body_of_water"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('outdoors', 'natural', 'body_of_water') was chosen for the caption \"a man rows his boat below\" because:\n\n1. **'outdoors'** - Rowing a boat inherently takes place outside, not inside a building. The activity of rowing is typically done on open water.\n\n2. **'natural'** - The scene describes a natural setting rather than an artificial or urban environment."
+  },
+  {
+    "caption": "a man singing in a very colorful environment .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('indoors', 'man-made', 'recreation') was chosen for the caption \"a man singing in a very colorful environment\" for the following reasons:\n\n1. **'indoors'**: The caption describes a \"colorful environment\" where someone is singing. While not explicitly stated, singing performances often take place indoors, especially in venues with controlled lighting and colorful stage setups. The controlled environment needed for a"
+  },
+  {
+    "caption": "a man singing.",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "# Explanation of the Annotation for \"a man singing\"\n\nThe annotation ('indoors', 'man-made', 'recreation') was chosen for the caption \"a man singing\" for the following reasons:\n\n1. **'indoors'** - While the caption doesn't explicitly state the location, singing often takes place indoors, especially in formal or performance contexts like karaoke bars, recording studios, concert halls, or home settings. Without specific information indicating an outdoor"
+  },
+  {
+    "caption": "a man sleeps while listening to his ipod in the back of a vehicle .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "transportation_urban"
+    ],
+    "explanation": "# Explanation of the Annotation for the Caption\n\nThe annotation ('indoors', 'man-made', 'transportation_urban') was chosen for the caption \"a man sleeps while listening to his ipod in the back of a vehicle\" for the following reasons:\n\n1. **'indoors'** - This tag indicates that the scene takes place inside a confined space. Since the man is described as being \"in the back of a vehicle,\" he is inside an enclose"
+  },
+  {
+    "caption": "a man sleeps while listening to his ipod.",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "domestic"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('indoors', 'man-made', 'domestic') was chosen for the caption \"a man sleeps while listening to his ipod\" for the following reasons:\n\n1. **'indoors'**: The caption implies a sleeping scene, which typically occurs in an indoor environment like a bedroom, living room, or other interior space. While not explicitly stated, sleeping is predominantly an indoor activity, especially when using electronic devices."
+  },
+  {
+    "caption": "a man wearing yellow swimming trunks kneeling",
+    "annotation": [
+      "outdoors",
+      "natural",
+      "body_of_water"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('outdoors', 'natural', 'body_of_water') was chosen for the caption \"a man wearing yellow swimming trunks kneeling\" for the following reasons:\n\n1. **'outdoors'**: The caption describes a person in swimming trunks, which strongly suggests an outdoor setting. Swimming attire is typically worn in outdoor environments rather than indoors.\n\n2. **'natural'**: The combination"
+  },
+  {
+    "caption": "a man wearing yellow swimming trunks kneeling by the ocean",
+    "annotation": [
+      "outdoors",
+      "natural",
+      "body_of_water"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('outdoors', 'natural', 'body_of_water') was chosen for the caption \"a man wearing yellow swimming trunks kneeling by the ocean\" for the following reasons:\n\n1. **'outdoors'** - The scene clearly takes place outside at an ocean, which is an outdoor setting. The man is described as being \"by the ocean,\" indicating an open-air, exterior environment rather than an"
+  },
+  {
+    "caption": "a man with red pants is skiing .",
+    "annotation": [
+      "outdoors",
+      "natural",
+      "mountain"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('outdoors', 'natural', 'mountain') was chosen for the caption \"a man with red pants is skiing\" for the following reasons:\n\n1. **'outdoors'**: Skiing is an activity that takes place outside in open air environments. The caption describes someone skiing, which is inherently an outdoor activity.\n\n2. **'natural'**: Skiing occurs in natural environments with snow, rather than in artificial or"
+  },
+  {
+    "caption": "a man with red pants is skiing downhill .",
+    "annotation": [
+      "outdoors",
+      "natural",
+      "mountain"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('outdoors', 'natural', 'mountain') was chosen for the caption \"a man with red pants is skiing downhill\" for the following reasons:\n\n1. **'outdoors'**: Skiing is an outdoor activity that takes place in open air environments rather than inside a building. The caption clearly describes a skiing activity which necessarily occurs outdoors.\n\n2. **'natural'**: The setting for downhill skiing is typically"
+  },
+  {
+    "caption": "a motorcyclist on a red speed bike leans .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "transportation_urban"
+    ],
+    "explanation": "# Explanation of the Annotation for the Caption\n\nThe caption \"a motorcyclist on a red speed bike leans\" received the annotation ('outdoors', 'man-made', 'transportation_urban') for the following reasons:\n\n1. **'outdoors'**: The scene is implicitly understood to be taking place outside. Motorcycles, especially when described as \"leaning\" (suggesting movement or cornering), are typically ridden outdoors on roads or tracks"
+  },
+  {
+    "caption": "a motorcyclist on a red speed bike leans into a sharp turn .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "transportation_urban"
+    ],
+    "explanation": "# Explanation of the Annotation for the Caption\n\nThe annotation tags ('outdoors', 'man-made', 'transportation_urban') were chosen for the caption \"a motorcyclist on a red speed bike leans into a sharp turn\" for the following reasons:\n\n1. **'outdoors'**: The scene is implicitly taking place outside. Motorcycles, especially when taking sharp turns, are typically ridden on outdoor roads, tracks, or courses rather than in"
+  },
+  {
+    "caption": "a person dressed in a tan jacket jumps a quad over a harvested cornfield",
+    "annotation": [
+      "outdoors",
+      "natural",
+      "field_forest"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('outdoors', 'natural', 'field_forest') was chosen for the caption \"a person dressed in a tan jacket jumps a quad over a harvested cornfield\" for the following reasons:\n\n1. **'outdoors'**: The scene clearly takes place outside in an open area. The caption describes someone jumping a quad (four-wheeler/ATV) over a cornfield, which is an outdoor activity."
+  },
+  {
+    "caption": "a person dressed in a tan jacket jumps a quad over a harvested cornfield in front of a small out building .",
+    "annotation": [
+      "outdoors",
+      "natural",
+      "field_forest"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('outdoors', 'natural', 'field_forest') was chosen for this caption because:\n\n1. **'outdoors'** - The caption clearly describes a scene taking place outside in a cornfield, not inside a building or enclosed space.\n\n2. **'natural'** - The setting is a natural environment (a harvested cornfield) rather than an urban or man-made setting. While there is mention of"
+  },
+  {
+    "caption": "a person drives around a futuristic looking vehicle while a man approaches and a crowd watches .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "transportation_urban"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('outdoors', 'man-made', 'transportation_urban') was chosen for this caption because:\n\n1. **'outdoors'** - The caption describes a scene that is taking place outside. This is implied by the presence of a crowd watching someone driving a vehicle around, which would typically occur in an open outdoor space rather than inside a building.\n\n2. **'man-made'** - The central element of"
+  },
+  {
+    "caption": "a person drives around a futuristic looking vehicle while a man approaches her and a crowd watches .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "transportation_urban"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('outdoors', 'man-made', 'transportation_urban') was chosen for this caption because:\n\n1. **'outdoors'** - The caption describes a scene that is taking place outside, as indicated by a person driving a vehicle while others watch. This type of activity with a crowd watching typically occurs in an outdoor setting.\n\n2. **'man-made'** - The caption mentions a \"futuristic"
+  },
+  {
+    "caption": "a person wearing a construction uniform is leaning against a traffic light pole on the sidewalk .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "transportation_urban"
+    ],
+    "explanation": "# Explanation of the Annotation for the Caption\n\nThe annotation tags ('outdoors', 'man-made', 'transportation_urban') were chosen for this caption because:\n\n1. **'outdoors'** - The scene clearly takes place outside on a sidewalk, which is an outdoor setting.\n\n2. **'man-made'** - Multiple man-made elements are mentioned in the caption:\n   - The construction uniform (manufactured clothing)\n   - The"
+  },
+  {
+    "caption": "a person wearing a construction uniform is leaning.",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "work_education"
+    ],
+    "explanation": "# Explanation of the Annotation for the Caption\n\nThe annotation ('outdoors', 'man-made', 'work_education') was chosen for the caption \"a person wearing a construction uniform is leaning\" for the following reasons:\n\n1. **'outdoors'**: Construction work typically takes place outdoors at construction sites. While the caption doesn't explicitly state the location, the presence of a construction uniform strongly implies an outdoor setting, as most construction activities occur outside."
+  },
+  {
+    "caption": "a red dog jumps to catch a tennis ball .",
+    "annotation": [
+      "outdoors",
+      "natural",
+      "field_forest"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('outdoors', 'natural', 'field_forest') was chosen for the caption \"a red dog jumps to catch a tennis ball\" because:\n\n1. **'outdoors'**: The scene described implies an open space where a dog can jump and catch a ball. Dogs typically play fetch games outside rather than indoors where space is limited.\n\n2. **'natural'**: The setting appears to be a natural environment"
+  },
+  {
+    "caption": "a red dog jumps to catch a tennis ball in the dry tall grass .",
+    "annotation": [
+      "outdoors",
+      "natural",
+      "field_forest"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('outdoors', 'natural', 'field_forest') was chosen for the caption \"a red dog jumps to catch a tennis ball in the dry tall grass\" for the following reasons:\n\n1. **'outdoors'**: The scene clearly takes place outside, as indicated by the \"dry tall grass\" mentioned in the caption. Dogs catching tennis balls is typically an outdoor activity.\n\n2. **'natural'**: The"
+  },
+  {
+    "caption": "a runner in black is passing a florist shop .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "transportation_urban"
+    ],
+    "explanation": "# Explanation of the Annotation for the Caption\n\nThe caption \"a runner in black is passing a florist shop\" received the annotation ('outdoors', 'man-made', 'transportation_urban') for the following reasons:\n\n1. **'outdoors'**: The scene describes a runner passing by a shop, which implies this is taking place outside on a street or sidewalk, not inside a building.\n\n2. **'man-made'**: The setting includes"
+  },
+  {
+    "caption": "a runner in black is passing an outdoor florist shop .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "other_unclear"
+    ],
+    "explanation": "# Explanation of the Annotation for the Caption\n\nThe annotation ('outdoors', 'man-made', 'other_unclear') was chosen for the caption \"a runner in black is passing an outdoor florist shop\" for the following reasons:\n\n1. **'outdoors'**: This is clearly indicated in the caption itself, which explicitly states that the florist shop is \"outdoor\" and the scene involves a runner passing by in an open area, which would be outside."
+  },
+  {
+    "caption": "a smiling child wearing a hat and sunglasses sits in a car .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "transportation_urban"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('indoors', 'man-made', 'transportation_urban') for the caption \"a smiling child wearing a hat and sunglasses sits in a car\" was chosen for the following reasons:\n\n1. **'indoors'** - This label indicates that the scene takes place inside a vehicle. Since the child is sitting \"in a car,\" they are inside an enclosed space rather than outdoors.\n\n2. **"
+  },
+  {
+    "caption": "a smiling child wearing a hat and sunglasses sits.",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "domestic"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('indoors', 'man-made', 'domestic') for the caption \"a smiling child wearing a hat and sunglasses sits\" was likely chosen for the following reasons:\n\n1. **Indoors**: The annotation indicates that the scene takes place inside a building rather than outdoors. While the caption mentions sunglasses and a hat (which could suggest an outdoor setting), the annotator determined from visual cues not"
+  },
+  {
+    "caption": "a spotted dog catching a ball on a snowy field .",
+    "annotation": [
+      "outdoors",
+      "natural",
+      "field_forest"
+    ],
+    "explanation": "# Explanation of the Annotation for the Caption\n\nThe annotation ('outdoors', 'natural', 'field_forest') was chosen for the caption \"a spotted dog catching a ball on a snowy field\" for the following reasons:\n\n1. **'outdoors'**: The caption explicitly describes a scene taking place on a \"snowy field,\" which is clearly an outdoor location. The activity of a dog catching a ball is also typically an outdoor activity.\n\n2. **"
+  },
+  {
+    "caption": "a spotted dog catching a ball.",
+    "annotation": [
+      "outdoors",
+      "natural",
+      "field_forest"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('outdoors', 'natural', 'field_forest') was chosen for the caption \"a spotted dog catching a ball\" because:\n\n1. **'outdoors'** - The scene is implicitly understood to be taking place outside. Dogs catching balls is a typical outdoor activity, and the annotation recognizes this contextual assumption.\n\n2. **'natural'** - This indicates the setting is in a natural environment rather than"
+  },
+  {
+    "caption": "a teenager drinks directly out of the metal milkshake serving cup .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "restaurant"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('indoors', 'man-made', 'restaurant') was chosen for the caption \"a teenager drinks directly out of the metal milkshake serving cup\" for the following reasons:\n\n1. **'indoors'**: The scene is likely taking place inside a building rather than outside. Milkshakes are typically served in food establishments, and the specific mention of a \"metal milkshake serving cup\" suggests"
+  },
+  {
+    "caption": "a terrier mix catches a frisbee in the air .",
+    "annotation": [
+      "outdoors",
+      "natural",
+      "field_forest"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('outdoors', 'natural', 'field_forest') was chosen for the caption \"a terrier mix catches a frisbee in the air\" for the following reasons:\n\n1. **'outdoors'**: The scene described involves a dog catching a frisbee in the air, which is typically an outdoor activity. Frisbee games with dogs are almost exclusively played in open spaces outside.\n\n2. **'"
+  },
+  {
+    "caption": "a terrier mix catches a frisbee.",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "# Explanation of the Annotation for \"a terrier mix catches a frisbee.\"\n\nThe annotation ('outdoors', 'man-made', 'recreation') was chosen for this caption because:\n\n1. **'outdoors'**: Dogs catching frisbees typically occurs in open spaces like parks, yards, or fields. This activity requires space for the frisbee to be thrown and for the dog to run and jump, which strongly suggests an outdoor setting.\n\n2"
+  },
+  {
+    "caption": "a well dressed young woman waits for the train while a man busy writing something .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "transportation_urban"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('outdoors', 'man-made', 'transportation_urban') was chosen for this caption because:\n\n1. **'outdoors'** - The scene takes place at a train station or platform where someone is waiting for a train, which is typically an outdoor or semi-outdoor setting.\n\n2. **'man-made'** - The environment described is clearly a human-constructed space (a train station/platform)"
+  },
+  {
+    "caption": "a well dressed young woman waits on a bench for the train while a man busy writing something waits nearby .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "transportation_urban"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('outdoors', 'man-made', 'transportation_urban') was chosen for this caption because:\n\n1. **'outdoors'**: The scene takes place at what appears to be a train station or platform where people are waiting for a train. Waiting areas for trains are typically outdoors or in semi-outdoor settings.\n\n2. **'man-made'**: The caption mentions a bench and implies a train station"
+  },
+  {
+    "caption": "a woman is drinking a beverage",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "domestic"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('indoors', 'man-made', 'domestic') was chosen for the caption \"a woman is drinking a beverage\" for the following reasons:\n\n1. **'indoors'**: The annotation suggests that the scene takes place inside a building rather than outside. Drinking beverages often occurs indoors, especially in contexts like homes, cafes, or restaurants. Without explicit mention of an outdoor setting in the caption, an"
+  },
+  {
+    "caption": "a woman is drinking a beverage in a busy cafe .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "restaurant"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('indoors', 'man-made', 'restaurant') was chosen for the caption \"a woman is drinking a beverage in a busy cafe\" for the following reasons:\n\n1. **'indoors'** - The scene takes place in a cafe, which is an indoor setting. Cafes are enclosed spaces with walls, ceiling, and typically climate-controlled environments, as opposed to outdoor settings.\n\n2. **'"
+  },
+  {
+    "caption": "a woman is having her foot examined by another woman",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "work_education"
+    ],
+    "explanation": "# Explanation of the Annotation for the Caption\n\nThe annotation (\"indoors\", \"man-made\", \"work_education\") for the caption \"a woman is having her foot examined by another woman\" was chosen for the following reasons:\n\n1. **\"indoors\"**: The foot examination described in the caption is most likely taking place in an indoor setting. Medical or health-related examinations typically occur inside buildings such as clinics, hospitals, or medical offices rather than outdoors"
+  },
+  {
+    "caption": "a woman is having her foot examined by another woman in a run-down building .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "other_unclear"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('indoors', 'man-made', 'other_unclear') for the caption \"a woman is having her foot examined by another woman in a run-down building\" was chosen for the following reasons:\n\n1. **'indoors'**: The caption explicitly states that the scene takes place inside a \"run-down building,\" which clearly indicates an indoor setting.\n\n2. **'man-made'**: The \"run"
+  },
+  {
+    "caption": "a woman is holding a baby while another child stands .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "domestic"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('indoors', 'man-made', 'domestic') was chosen for the caption \"a woman is holding a baby while another child stands\" for the following reasons:\n\n1. **'indoors'**: While the caption doesn't explicitly state the location, the scene of a woman holding a baby with another child standing nearby strongly implies an indoor setting. Family interactions with infants typically occur in sheltered environments, particularly indoor spaces."
+  },
+  {
+    "caption": "a woman is holding a baby while another child stands by her side .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "domestic"
+    ],
+    "explanation": "# Explanation of Annotation for the Caption\n\nThe annotation ('indoors', 'man-made', 'domestic') was chosen for the caption \"a woman is holding a baby while another child stands by her side\" for the following reasons:\n\n1. **'indoors'**: While the caption doesn't explicitly state the location, family scenes with a woman holding a baby and another child standing nearby typically take place indoors, especially in a home setting. This is a reasonable inference"
+  },
+  {
+    "caption": "a woman is laying down laughing .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "domestic"
+    ],
+    "explanation": "# Explanation of Annotation for \"a woman is laying down laughing\"\n\nThe annotation ('indoors', 'man-made', 'domestic') was chosen for this caption because:\n\n1. **'indoors'** - The caption describes a woman laying down, which typically occurs inside a building rather than outside. While not explicitly stated, people usually lay down in indoor settings like beds, couches, or floors inside homes or buildings.\n\n2. **'man-"
+  },
+  {
+    "caption": "a woman is laying down on a sofa laughing .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "domestic"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('indoors', 'man-made', 'domestic') was chosen for the caption \"a woman is laying down on a sofa laughing\" for the following reasons:\n\n1. **'indoors'**: The scene clearly takes place inside a building since sofas are typically indoor furniture. The woman is described as lying on a sofa, which strongly indicates an interior setting rather than an outdoor environment.\n\n2. **'"
+  },
+  {
+    "caption": "a woman is selling vegetables .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "work_education"
+    ],
+    "explanation": "# Explanation of the Annotation for \"a woman is selling vegetables.\"\n\nThe annotation ('outdoors', 'man-made', 'work_education') was likely chosen for this caption for the following reasons:\n\n1. **'outdoors'**: Vegetable selling typically takes place in outdoor markets, street stalls, or farmer's markets. While not explicitly stated in the caption, selling vegetables is commonly associated with outdoor commercial activities rather than indoor settings.\n\n2. **"
+  },
+  {
+    "caption": "a woman is selling vegetables on the street .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "work_education"
+    ],
+    "explanation": "# Explanation of the Annotation for the Caption\n\nThe annotation ('outdoors', 'man-made', 'work_education') was chosen for the caption \"a woman is selling vegetables on the street\" for the following reasons:\n\n1. **'outdoors'**: The caption explicitly states that the activity is happening \"on the street,\" which is clearly an outdoor location. Street settings are external environments, not inside buildings.\n\n2. **'man-made'**: The"
+  },
+  {
+    "caption": "a woman is using a ruler at a desk to mark a sheet of paper .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "work_education"
+    ],
+    "explanation": "# Explanation of the Annotation for the Caption\n\nThe annotation ('indoors', 'man-made', 'work_education') was chosen for the caption \"a woman is using a ruler at a desk to mark a sheet of paper\" for the following reasons:\n\n1. **'indoors'**: The scene is clearly taking place inside, specifically at a desk, which is typically found indoors in an office, classroom, or home workspace.\n\n2. **'man"
+  },
+  {
+    "caption": "a woman is using a ruler to mark a sheet of paper .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "work_education"
+    ],
+    "explanation": "# Explanation of the Annotation for the Caption\n\nThe caption \"a woman is using a ruler to mark a sheet of paper\" received the annotation ('indoors', 'man-made', 'work_education') for the following reasons:\n\n1. **'indoors'**: The activity described (using a ruler to mark paper) is typically performed indoors, such as in an office, classroom, or home workspace. This type of precise measurement or drafting work is rarely"
+  },
+  {
+    "caption": "a woman sits on a shoe store 's bench while putting a shoe onto her right foot .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "other_unclear"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('indoors', 'man-made', 'other_unclear') for this caption was chosen for the following reasons:\n\n1. **'indoors'**: The caption describes a scene taking place in a shoe store, which is clearly an indoor location. Shoe stores are typically inside buildings or shopping malls.\n\n2. **'man-made'**: The environment described contains man-made elements - specifically a shoe store bench"
+  },
+  {
+    "caption": "a woman sits while putting a shoe onto her right foot .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "domestic"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('indoors', 'man-made', 'domestic') was chosen for the caption \"a woman sits while putting a shoe onto her right foot\" for the following reasons:\n\n1. **Indoors**: The scene is implicitly understood to be taking place inside a building. People typically put on shoes while sitting indoors, such as in a bedroom, living room, or entryway before leaving the house.\n\n2."
+  },
+  {
+    "caption": "a woman sleeps",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "domestic"
+    ],
+    "explanation": "# Explanation of the Annotation for \"a woman sleeps\"\n\nThe annotation ('indoors', 'man-made', 'domestic') was chosen for the caption \"a woman sleeps\" for the following reasons:\n\n1. **'indoors'**: Sleeping typically occurs in an indoor environment, such as a bedroom, living room, or other interior space. While sleeping outdoors is possible, the default assumption for sleeping is that it takes place inside a building or shelter"
+  },
+  {
+    "caption": "a woman sleeps under a blue and white blanket in a car .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "transportation_urban"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('indoors', 'man-made', 'transportation_urban') for the caption \"a woman sleeps under a blue and white blanket in a car\" was chosen for the following reasons:\n\n1. **'indoors'** - This label indicates that the scene takes place inside a confined space. In this case, the woman is inside a car, which is an enclosed space with an interior cabin.\n\n2. **"
+  },
+  {
+    "caption": "a woman with a peace symbol grills vegetables",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "domestic"
+    ],
+    "explanation": "# Explanation of the Annotation for \"a woman with a peace symbol grills vegetables\"\n\nThe annotation ('outdoors', 'man-made', 'domestic') was chosen for this caption because:\n\n1. **'outdoors'** - Grilling typically takes place outside. While not explicitly stated in the caption, grilling is commonly an outdoor activity, especially with vegetables which might create smoke or require ventilation.\n\n2. **'man-made'** -"
+  },
+  {
+    "caption": "a woman with a peace symbol on her shirt grills vegetables",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "domestic"
+    ],
+    "explanation": "# Explanation of the Annotation for the Caption\n\nThe annotation ('outdoors', 'man-made', 'domestic') was chosen for the caption \"a woman with a peace symbol on her shirt grills vegetables\" for the following reasons:\n\n1. **Outdoors**: Grilling typically takes place outdoors, such as in a backyard, patio, or outdoor cooking area. While not explicitly stated in the caption, grilling is strongly associated with outdoor cooking activities"
+  },
+  {
+    "caption": "a young boy wearing a dark blue hat sleeps on a bench at a terminal .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "transportation_urban"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('indoors', 'man-made', 'transportation_urban') was chosen for this caption because:\n\n1. **'indoors'**: The caption describes a scene at a \"terminal,\" which typically refers to an indoor facility like an airport terminal, bus terminal, or train station. These are enclosed spaces designed for travelers.\n\n2. **'man-made'**: All elements in the scene are human-constructed objects -"
+  },
+  {
+    "caption": "a young boy wearing a dark blue hat sleeps.",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "domestic"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('indoors', 'man-made', 'domestic') was chosen for the caption \"a young boy wearing a dark blue hat sleeps\" for the following reasons:\n\n1. **'indoors'**: The caption describes a sleeping boy, which most likely takes place indoors. Sleeping typically occurs in bedrooms, living rooms, or other interior spaces, especially for a young child. While the caption doesn't explicitly state the"
+  },
+  {
+    "caption": "all these people are enjoying a basement dance party .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "# Explanation of the Annotation for the Caption\n\nThe annotation ('indoors', 'man-made', 'recreation') was chosen for the caption \"all these people are enjoying a basement dance party\" for the following reasons:\n\n1. **'indoors'** - A basement is clearly an interior space within a building. The caption explicitly mentions a \"basement\" which is, by definition, an indoor location.\n\n2. **'man-made'** - A basement"
+  },
+  {
+    "caption": "all these people are enjoying a dance party .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "# Explanation of the Annotation for \"all these people are enjoying a dance party.\"\n\nThe annotation ('indoors', 'man-made', 'recreation') was chosen for this caption because:\n\n1. **'indoors'** - Dance parties typically take place inside buildings such as clubs, halls, or homes. The caption implies a gathering of people in a contained space, which is most likely an indoor setting.\n\n2. **'man-made'** - The"
+  },
+  {
+    "caption": "an asian man sells a hot confection from his stand in a crowded market .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "other_unclear"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('outdoors', 'man-made', 'other_unclear') for the caption \"an asian man sells a hot confection from his stand in a crowded market\" was chosen for the following reasons:\n\n1. **'outdoors'**: The caption describes a scene taking place in a \"market,\" which is typically an outdoor setting. Markets, especially those described as \"crowded,\" are commonly open-air or street venues"
+  },
+  {
+    "caption": "an asian man sells a hot confection.",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "work_education"
+    ],
+    "explanation": "# Explanation of the Annotation for \"an asian man sells a hot confection.\"\n\nThe annotation ('outdoors', 'man-made', 'work_education') was chosen for this caption because:\n\n1. **'outdoors'** - The caption likely implies a street food vendor scenario, which typically takes place outdoors. Food vendors selling hot confections often operate in outdoor settings like markets, street corners, or food stalls.\n\n2. **'man-"
+  },
+  {
+    "caption": "an old woman is selling produce at a farmer 's market .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "work_education"
+    ],
+    "explanation": "# Explanation of the Annotation for the Caption\n\nThe annotation ('outdoors', 'man-made', 'work_education') was chosen for the caption \"an old woman is selling produce at a farmer's market\" for the following reasons:\n\n1. **'outdoors'**: Farmer's markets typically take place outdoors in open-air settings. The caption describes a scene at a farmer's market, which is commonly held in outdoor spaces like parking lots, streets,"
+  },
+  {
+    "caption": "an old woman is selling produce.",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "work_education"
+    ],
+    "explanation": "# Explanation of the Annotation for \"an old woman is selling produce.\"\n\nThe annotation ('outdoors', 'man-made', 'work_education') was chosen for this caption because:\n\n1. **'outdoors'**: The scene likely takes place outside, as produce selling often occurs in outdoor markets, street stalls, or farmers' markets. Traditional produce vendors, especially in many cultures, commonly sell in open-air settings.\n\n2. **'man-"
+  },
+  {
+    "caption": "an older couple passes by a young lady",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "transportation_urban"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('outdoors', 'man-made', 'transportation_urban') was chosen for the caption \"an older couple passes by a young lady\" for the following reasons:\n\n1. **'outdoors'**: The scene is likely taking place outside rather than inside a building. When people are described as \"passing by\" each other, it typically suggests they are walking in a public space, which is most commonly outdoors.\n\n2"
+  },
+  {
+    "caption": "an older couple passes by a young lady on the sidewalk .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "transportation_urban"
+    ],
+    "explanation": "# Explanation of the Annotation for the Caption\n\nThe annotation tags ('outdoors', 'man-made', 'transportation_urban') were chosen for the caption \"an older couple passes by a young lady on the sidewalk\" for the following reasons:\n\n1. **'outdoors'**: The scene takes place on a sidewalk, which is clearly an outdoor setting. Sidewalks are external pathways that exist outside of buildings.\n\n2. **'man-"
+  },
+  {
+    "caption": "an older man and women are using computers in a sort of storage room .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "work_education"
+    ],
+    "explanation": "# Explanation of the Annotation for the Caption\n\nThe annotation ('indoors', 'man-made', 'work_education') was chosen for the caption \"an older man and women are using computers in a sort of storage room\" for the following reasons:\n\n1. **'indoors'**: The caption explicitly mentions a \"storage room,\" which is clearly an indoor space. Any room is by definition inside a building, making this an indoor scene.\n\n2. **'"
+  },
+  {
+    "caption": "an older man and women are using computers.",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "work_education"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('indoors', 'man-made', 'work_education') was chosen for the caption \"an older man and women are using computers\" for the following reasons:\n\n1. **'indoors'**: The scene is implicitly understood to be taking place inside a building. Computer usage typically occurs in indoor environments such as offices, homes, or educational facilities, rather than outdoors.\n\n2. **'man-made'"
+  },
+  {
+    "caption": "an orchestra of about <number> people are practicing",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "# Explanation of the Annotation for \"an orchestra of about <number> people are practicing\"\n\nThe annotation ('indoors', 'man-made', 'recreation') was chosen for this caption because:\n\n1. **'indoors'** - Orchestras typically practice and perform in indoor venues such as concert halls, auditoriums, or rehearsal spaces. The controlled acoustic environment of indoor spaces is essential for orchestral practice.\n\n2. **'man-made"
+  },
+  {
+    "caption": "an orchestra of about <number> people are practicing on the stage of what appears to be an auditorium full of green chairs .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "# Explanation of the Annotation ('indoors', 'man-made', 'recreation')\n\nThe annotation for this caption was chosen based on the key elements described in the scene:\n\n1. **'indoors'** - The caption describes an orchestra practicing \"on the stage of what appears to be an auditorium.\" Auditoriums are indoor venues, and the mention of a stage further confirms this is an enclosed, interior space.\n\n2. **'man-"
+  },
+  {
+    "caption": "asian students are examining sheets of paper while standing .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "work_education"
+    ],
+    "explanation": "# Explanation of the Annotation for the Caption\n\nThe annotation ('indoors', 'man-made', 'work_education') was chosen for the caption \"asian students are examining sheets of paper while standing\" for the following reasons:\n\n1. **'indoors'**: While the caption doesn't explicitly state the location, the scenario of students examining papers is typically an indoor activity. Educational activities like reviewing documents or papers generally take place inside classrooms, libraries, or other educational"
+  },
+  {
+    "caption": "asian students are examining sheets of paper while standing in line .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "work_education"
+    ],
+    "explanation": "# Explanation of the Annotation for the Caption\n\nThe annotation ('indoors', 'man-made', 'work_education') was chosen for the caption \"asian students are examining sheets of paper while standing in line\" for the following reasons:\n\n1. **'indoors'**: The scene is likely taking place inside a building, which is a reasonable assumption for students examining papers while standing in line. Educational activities like reviewing test results, checking assignments, or waiting to submit papers"
+  },
+  {
+    "caption": "brown dog catches a pink ball in the park .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "# Explanation of the Annotation for the Caption\n\nThe annotation ('outdoors', 'man-made', 'recreation') was chosen for the caption \"brown dog catches a pink ball in the park\" for the following reasons:\n\n1. **'outdoors'**: The caption explicitly mentions \"in the park,\" which is an outdoor location. Parks are open-air spaces, so this annotation correctly identifies the setting as being outside rather than indoors.\n\n2. **'man"
+  },
+  {
+    "caption": "brown dog catches a pink ball.",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('outdoors', 'man-made', 'recreation') for the caption \"brown dog catches a pink ball\" was chosen for the following reasons:\n\n1. **'outdoors'** - The scene is likely taking place outside. Dogs catching balls typically happens in open spaces like yards, parks, or fields, which are outdoor environments.\n\n2. **'man-made'** - The pink ball mentioned in the caption is"
+  },
+  {
+    "caption": "buff african american man waits for subway at wall street station .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "transportation_urban"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('indoors', 'man-made', 'transportation_urban') was chosen for the caption \"buff african american man waits for subway at wall street station\" for the following reasons:\n\n1. **'indoors'**: The scene takes place inside a subway station (Wall Street station), which is an indoor environment. Subway stations are enclosed spaces beneath or within urban areas.\n\n2. **'man-made'**:"
+  },
+  {
+    "caption": "buff african american man waits for subway.",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "transportation_urban"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('indoors', 'man-made', 'transportation_urban') was chosen for the caption \"buff african american man waits for subway\" for the following reasons:\n\n1. **'indoors'**: This tag indicates that the scene takes place inside a building or covered structure. Subway stations are typically indoor environments, either underground or within enclosed structures, so this annotation correctly identifies the setting.\n\n2. **'man-"
+  },
+  {
+    "caption": "crowd waiting for a train .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "transportation_urban"
+    ],
+    "explanation": "# Explanation of the Annotation for \"crowd waiting for a train.\"\n\nThe annotation ('indoors', 'man-made', 'transportation_urban') was chosen for this caption because:\n\n1. **'indoors'** - The scene likely takes place inside a train station or subway platform where people typically wait for trains. Train waiting areas are commonly enclosed spaces, especially in urban settings.\n\n2. **'man-made'** - The entire environment described is constructe"
+  },
+  {
+    "caption": "crowd waiting on main street subway platform for a train .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "transportation_urban"
+    ],
+    "explanation": "# Explanation of the Annotation for the Caption\n\nThe annotation tags ('indoors', 'man-made', 'transportation_urban') were chosen for the caption \"crowd waiting on main street subway platform for a train\" for the following reasons:\n\n1. **'indoors'**: Subway platforms are typically located underground or within enclosed structures. The caption describes people waiting on a subway platform, which is an indoor setting sheltered from the outside environment.\n\n2. **'"
+  },
+  {
+    "caption": "dancers practicing their dance routines .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "# Explanation of the Annotation for \"dancers practicing their dance routines.\"\n\nThe annotation ('indoors', 'man-made', 'recreation') was chosen for this caption because:\n\n1. **'indoors'** - Dance practice typically takes place in indoor spaces such as dance studios, rehearsal rooms, or performance venues. These spaces provide controlled environments with appropriate flooring, mirrors, and other amenities needed for dance practice.\n\n2. **'man-made"
+  },
+  {
+    "caption": "decorated limo passing by elderly woman waiting on park bench .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "transportation_urban"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('outdoors', 'man-made', 'transportation_urban') was chosen for the caption \"decorated limo passing by elderly woman waiting on park bench\" for the following reasons:\n\n1. **'outdoors'**: The scene clearly takes place outside, as indicated by the \"park bench\" where the elderly woman is waiting. Park benches are typically found in outdoor settings like parks, sidewalks, or public spaces."
+  },
+  {
+    "caption": "decorated limo passing by elderly woman waiting on park bench in chinese street .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "transportation_urban"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('outdoors', 'man-made', 'transportation_urban') was chosen for this caption because:\n\n1. **'outdoors'** - The scene clearly takes place outside on a \"Chinese street\" with a \"park bench,\" indicating an outdoor setting rather than an indoor location.\n\n2. **'man-made'** - The key elements in the caption are all human-created objects: a \"decorated limo"
+  },
+  {
+    "caption": "four people in black shirts giving a presentation to a room full of people using a big projector image .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "work_education"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('indoors', 'man-made', 'work_education') was chosen for this caption because:\n\n1. **'indoors'**: The caption describes a presentation taking place in \"a room,\" which clearly indicates an indoor setting.\n\n2. **'man-made'**: The environment described is a constructed space (a room) with technological elements like a \"big projector image,\" all of which are man-made"
+  },
+  {
+    "caption": "four people in black shirts giving a presentation to a room full of people using a big projector image on the wall .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "work_education"
+    ],
+    "explanation": "# Explanation of the Annotation for the Caption\n\nThe annotation ('indoors', 'man-made', 'work_education') was chosen for this caption because:\n\n1. **'indoors'**: The caption describes a scene taking place in a \"room\" with people giving a presentation, which clearly indicates an indoor setting.\n\n2. **'man-made'**: The environment described contains man-made elements including:\n   - A room (built structure)"
+  },
+  {
+    "caption": "four women are on stage singing .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "# Explanation of the Annotation for \"four women are on stage singing.\"\n\nThe annotation ('indoors', 'man-made', 'recreation') was chosen for this caption because:\n\n1. **'indoors'** - The caption mentions \"on stage,\" which strongly implies an indoor setting. Most performance stages are located inside venues such as theaters, concert halls, or auditoriums.\n\n2. **'man-made'** - A stage is a constructed,"
+  },
+  {
+    "caption": "four women are singing .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "# Explanation of the Annotation for \"four women are singing.\"\n\nThe annotation ('indoors', 'man-made', 'recreation') was chosen for this caption because:\n\n1. **'indoors'** - Singing performances, especially by groups, often take place indoors in venues like concert halls, studios, churches, or other enclosed spaces. While the caption doesn't explicitly state the location, the annotator likely made this inference based on common contexts for group singing"
+  },
+  {
+    "caption": "four young adults sit",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "other_unclear"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('indoors', 'man-made', 'other_unclear') for the caption \"four young adults sit\" was chosen for the following reasons:\n\n1. **'indoors'**: The caption implies that people are sitting, which commonly occurs in an indoor setting. Without any explicit mention of an outdoor environment (like a park, beach, etc.), the annotator likely defaulted to an indoor setting as the most probable scenario."
+  },
+  {
+    "caption": "girl wearing blue shirt and black shorts plays trumped .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('indoors', 'man-made', 'recreation') for the caption \"girl wearing blue shirt and black shorts plays trumpet\" was chosen for the following reasons:\n\n1. **'indoors'**: While the caption doesn't explicitly state the location, playing a trumpet is often done indoors, especially for practice or performance. Musical instrument playing, particularly brass instruments like trumpets, frequently occurs in indoor settings such as music rooms,"
+  },
+  {
+    "caption": "girl wearing blue shirt and black shorts plays trumped outside .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('outdoors', 'man-made', 'recreation') for the caption \"girl wearing blue shirt and black shorts plays trumped outside\" was chosen for the following reasons:\n\n1. **'outdoors'**: This tag was selected because the caption explicitly states that the activity is happening \"outside.\" This clearly indicates an outdoor setting rather than an indoor one.\n\n2. **'man-made'**: This tag likely refers to"
+  },
+  {
+    "caption": "group of women doing a presentation .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "work_education"
+    ],
+    "explanation": "# Explanation of the Annotation for \"group of women doing a presentation.\"\n\nThe annotation ('indoors', 'man-made', 'work_education') was chosen for this caption because:\n\n1. **'indoors'**: Presentations typically take place inside buildings, such as conference rooms, classrooms, or lecture halls. The caption implies a formal presentation setting, which is almost always an indoor activity.\n\n2. **'man-made'**: This refers to"
+  },
+  {
+    "caption": "group of women doing a presentation off an easel .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "work_education"
+    ],
+    "explanation": "# Explanation of the Annotation for the Caption\n\nThe caption \"group of women doing a presentation off an easel\" received the annotation ('indoors', 'man-made', 'work_education') for the following reasons:\n\n1. **'indoors'**: Presentations using an easel typically take place indoors, such as in a conference room, classroom, or office space. While not explicitly stated in the caption, presentations are commonly held in indoor environments."
+  },
+  {
+    "caption": "kids play around a statue bust outside .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "# Explanation of the Annotation for \"kids play around a statue bust outside.\"\n\nThe annotation ('outdoors', 'man-made', 'recreation') was chosen for this caption because:\n\n1. **'outdoors'** - The caption explicitly states that the scene takes place \"outside,\" indicating an outdoor setting rather than an indoor one.\n\n2. **'man-made'** - The central object in the scene is a \"statue bust,\" which is clearly a"
+  },
+  {
+    "caption": "little girl skis on slope .",
+    "annotation": [
+      "outdoors",
+      "natural",
+      "mountain"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('outdoors', 'natural', 'mountain') was chosen for the caption \"little girl skis on slope\" for the following reasons:\n\n1. **'outdoors'** - Skiing is an outdoor activity that takes place in open air environments rather than inside a building. The caption clearly describes a skiing activity which necessarily occurs outdoors.\n\n2. **'natural'** - Ski slopes are typically located in natural environments"
+  },
+  {
+    "caption": "little girl skis.",
+    "annotation": [
+      "outdoors",
+      "natural",
+      "mountain"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('outdoors', 'natural', 'mountain') was chosen for the caption \"little girl skis\" for the following reasons:\n\n1. **'outdoors'** - Skiing is an outdoor activity that takes place in open air environments rather than inside a building. The caption implies the girl is actively skiing, which would occur outside.\n\n2. **'natural'** - Skiing typically occurs in natural environments with snow,"
+  },
+  {
+    "caption": "man with gray hair wearing a suit is waiting in a subway tunnel .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "transportation_urban"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('indoors', 'man-made', 'transportation_urban') was chosen for the caption \"man with gray hair wearing a suit is waiting in a subway tunnel\" for the following reasons:\n\n1. **'indoors'** - A subway tunnel is an enclosed space that exists underground or within structures, making it an indoor environment. The caption clearly states the man is \"in a subway tunnel,\" which is an indoor location."
+  },
+  {
+    "caption": "man with gray hair wearing a suit is waiting.",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "work_education"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('indoors', 'man-made', 'work_education') for the caption \"man with gray hair wearing a suit is waiting\" was chosen for the following reasons:\n\n1. **'indoors'**: While the caption doesn't explicitly state the location, the context strongly implies an indoor setting. A man in a suit waiting typically suggests he's in a building rather than outdoors, such as in an office lobby, waiting"
+  },
+  {
+    "caption": "men playing volleyball",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "# Explanation of the Annotation for \"men playing volleyball\"\n\nThe annotation ('outdoors', 'man-made', 'recreation') was chosen for this caption because:\n\n1. **'outdoors'** - Volleyball is commonly played outside, especially in settings like beaches or outdoor courts. Without specific indoor indicators in the caption, the default assumption for volleyball often leans toward an outdoor setting.\n\n2. **'man-made'** - This refers to the environment"
+  },
+  {
+    "caption": "men playing volleyball in the sand .",
+    "annotation": [
+      "outdoors",
+      "natural",
+      "other_unclear"
+    ],
+    "explanation": "# Explanation of the Annotation for \"men playing volleyball in the sand.\"\n\nThe annotation ('outdoors', 'natural', 'other_unclear') was chosen for this caption because:\n\n1. **'outdoors'** - The caption describes a volleyball game taking place \"in the sand,\" which clearly indicates an outdoor setting. Beach volleyball or sand volleyball is typically played outside.\n\n2. **'natural'** - The mention of \"sand\" indicates a natural element or"
+  },
+  {
+    "caption": "muzzled greyhounds are racing on the track .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "# Explanation of the Annotation for \"muzzled greyhounds are racing on the track.\"\n\nThe annotation ('outdoors', 'man-made', 'recreation') was chosen for this caption because:\n\n1. **Outdoors**: Greyhound racing typically takes place on outdoor tracks. The caption describes greyhounds racing \"on the track,\" which strongly suggests an outdoor setting where dog racing events are traditionally held.\n\n2. **Man-made**: The"
+  },
+  {
+    "caption": "muzzled greyhounds are racing.",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "# Explanation of the Annotation for \"muzzled greyhounds are racing.\"\n\nThe annotation ('outdoors', 'man-made', 'recreation') was chosen for this caption because:\n\n1. **Outdoors**: Greyhound racing typically takes place on outdoor tracks. The racing environment for greyhounds is almost always an outdoor venue with a circular or oval track, rather than an indoor facility.\n\n2. **Man-made**: Greyhoun"
+  },
+  {
+    "caption": "one dog is jumping at the lady while the other walks",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "domestic"
+    ],
+    "explanation": "# Explanation of the Annotation for the Caption\n\nThe caption \"one dog is jumping at the lady while the other walks\" received the annotation ('outdoors', 'man-made', 'domestic') for the following reasons:\n\n1. **'outdoors'**: The scene is likely taking place outside rather than inside a building. While not explicitly stated in the caption, dog walking and dogs jumping are activities that commonly occur in outdoor settings like parks, streets, or yards."
+  },
+  {
+    "caption": "one dog is jumping at the lady while the other walks away .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "domestic"
+    ],
+    "explanation": "# Explanation of the Annotation for the Caption\n\nThe annotation ('outdoors', 'man-made', 'domestic') was chosen for the caption \"one dog is jumping at the lady while the other walks away\" for the following reasons:\n\n1. **'outdoors'**: The scene is likely taking place outside. While not explicitly stated in the caption, dog walking and interactions like this typically occur in outdoor settings such as parks, streets, or yards.\n\n2. **"
+  },
+  {
+    "caption": "people are rowing a boat .",
+    "annotation": [
+      "outdoors",
+      "natural",
+      "body_of_water"
+    ],
+    "explanation": "# Explanation of Annotation for \"people are rowing a boat.\"\n\nThe annotation ('outdoors', 'natural', 'body_of_water') was chosen for this caption because:\n\n1. **'outdoors'** - Rowing a boat typically takes place outside rather than indoors. Boats are generally used on open bodies of water that are located outdoors.\n\n2. **'natural'** - The caption implies a natural setting rather than an artificial or urban"
+  },
+  {
+    "caption": "people are rowing a boat in the water .",
+    "annotation": [
+      "outdoors",
+      "natural",
+      "body_of_water"
+    ],
+    "explanation": "# Explanation of the Annotation for \"people are rowing a boat in the water.\"\n\nThe annotation ('outdoors', 'natural', 'body_of_water') was chosen for this caption because:\n\n1. **'outdoors'** - The activity of rowing a boat takes place outside rather than inside a building. Boating is inherently an outdoor activity.\n\n2. **'natural'** - The setting appears to be a natural environment rather than a man"
+  },
+  {
+    "caption": "people examine books in a library .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "work_education"
+    ],
+    "explanation": "# Explanation of the Annotation for \"people examine books in a library.\"\n\nThe annotation ('indoors', 'man-made', 'work_education') was chosen for this caption because:\n\n1. **'indoors'**: Libraries are indoor spaces. The activity of examining books in a library takes place inside a building, not outdoors.\n\n2. **'man-made'**: Libraries are human-constructed environments filled with man-made objects (books, shel"
+  },
+  {
+    "caption": "people examine books.",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "work_education"
+    ],
+    "explanation": "# Explanation of the Annotation for \"people examine books.\"\n\nThe annotation ('indoors', 'man-made', 'work_education') was chosen for this caption because:\n\n1. **'indoors'**: Book examination typically occurs in indoor settings such as libraries, bookstores, classrooms, or homes. While not explicitly stated in the caption, examining books is an activity that most commonly takes place indoors rather than outdoors.\n\n2. **'man"
+  },
+  {
+    "caption": "people pass each other on a busy city street while talking on their cellphones .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "transportation_urban"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('outdoors', 'man-made', 'transportation_urban') was chosen for the caption \"people pass each other on a busy city street while talking on their cellphones\" for the following reasons:\n\n1. **'outdoors'**: The caption explicitly describes a scene taking place on a \"city street,\" which is an outdoor location. The people are passing each other in an open-air environment rather than inside a building."
+  },
+  {
+    "caption": "people pass each other while talking on their cellphones .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "transportation_urban"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('outdoors', 'man-made', 'transportation_urban') was chosen for the caption \"people pass each other while talking on their cellphones\" for the following reasons:\n\n1. **'outdoors'**: The caption implies that people are passing each other in a public space. While not explicitly stated, people typically \"pass each other\" in outdoor settings like streets, sidewalks, or plazas, rather than"
+  },
+  {
+    "caption": "person with two ski poles skiing down .",
+    "annotation": [
+      "outdoors",
+      "natural",
+      "mountain"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('outdoors', 'natural', 'mountain') was chosen for the caption \"person with two ski poles skiing down\" for the following reasons:\n\n1. **'outdoors'** - Skiing is an outdoor activity that takes place in open-air environments rather than inside a building. The caption clearly describes someone skiing, which inherently occurs outdoors.\n\n2. **'natural'** - Skiing typically takes place in"
+  },
+  {
+    "caption": "person with two ski poles skiing down a snowy hill .",
+    "annotation": [
+      "outdoors",
+      "natural",
+      "mountain"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('outdoors', 'natural', 'mountain') was chosen for the caption \"person with two ski poles skiing down a snowy hill\" for the following reasons:\n\n1. **'outdoors'**: The caption clearly describes a skiing activity taking place on a snowy hill, which is unambiguously an outdoor setting. Skiing is an outdoor recreational activity that cannot be performed indoors (except in specialized indoor ski facilities,"
+  },
+  {
+    "caption": "several people sit",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "other_unclear"
+    ],
+    "explanation": "# Explanation of the Annotation for \"several people sit\"\n\nThe caption \"several people sit\" received the annotation ('indoors', 'man-made', 'other_unclear') for the following reasons:\n\n1. **'indoors'**: The annotation suggests that the people are sitting inside a building or enclosed space rather than outdoors. This is a reasonable inference since people often sit indoors, though the caption itself doesn't explicitly state the location.\n\n2. **"
+  },
+  {
+    "caption": "stage dancers practicing their dance routines .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "# Explanation of the Annotation for \"stage dancers practicing their dance routines.\"\n\nThe annotation ('indoors', 'man-made', 'recreation') was chosen for this caption because:\n\n1. **'indoors'** - Dance practice for stage performances typically takes place in indoor environments such as dance studios, rehearsal spaces, or theaters. The caption implies a formal practice setting for stage dancers, which would almost certainly be an indoor location.\n\n2. **'man"
+  },
+  {
+    "caption": "street vendors are selling fruits and vegetables in a stand and in large baskets on the ground .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "work_education"
+    ],
+    "explanation": "# Explanation of the Annotation for the Caption\n\nThe annotation ('outdoors', 'man-made', 'work_education') was chosen for the caption \"street vendors are selling fruits and vegetables in a stand and in large baskets on the ground\" for the following reasons:\n\n1. **'outdoors'**: The caption describes \"street vendors\" with stands and baskets \"on the ground,\" which strongly indicates an outdoor setting. Street vending typically takes place outside,"
+  },
+  {
+    "caption": "the brown dog catches a ball in the air .",
+    "annotation": [
+      "outdoors",
+      "natural",
+      "field_forest"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('outdoors', 'natural', 'field_forest') was chosen for the caption \"the brown dog catches a ball in the air\" because:\n\n1. **'outdoors'** - The scene is implicitly understood to be taking place outside. Dogs catching balls in the air is a typical outdoor activity, as it requires open space for the ball to be thrown and the dog to run and jump.\n\n2. **'"
+  },
+  {
+    "caption": "the little girl swings in the backyard .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "domestic"
+    ],
+    "explanation": "# Explanation of the Annotation for \"the little girl swings in the backyard.\"\n\nThe annotation ('outdoors', 'man-made', 'domestic') was chosen for this caption because:\n\n1. **'outdoors'** - The caption explicitly mentions \"in the backyard,\" which is clearly an outdoor location. Backyards are outside spaces adjacent to homes.\n\n2. **'man-made'** - The caption refers to \"swings,\""
+  },
+  {
+    "caption": "the little girl swings.",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "# Explanation of the Annotation for \"the little girl swings.\"\n\nThe annotation ('outdoors', 'man-made', 'recreation') was chosen for this caption because:\n\n1. **'outdoors'** - Swings are typically located in outdoor settings like playgrounds, parks, or backyards. While indoor swings exist, the default assumption for a swing is that it's in an outdoor location.\n\n2. **'man-made'**"
+  },
+  {
+    "caption": "the man in the red shirt and flowery tie is sitting on a bus by the window .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "transportation_urban"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('indoors', 'man-made', 'transportation_urban') was chosen for this caption because:\n\n1. **'indoors'** - The caption describes a scene inside a bus, which is an enclosed interior space. The person is sitting \"on a bus by the window,\" indicating they are inside the vehicle.\n\n2. **'man-made'** - A bus is a human-engineered and manufactured vehicle"
+  },
+  {
+    "caption": "the man in the red shirt and flowery tie is sitting.",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "work_education"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('indoors', 'man-made', 'work_education') for the caption \"the man in the red shirt and flowery tie is sitting\" was likely chosen for the following reasons:\n\n1. **'indoors'**: The caption describes a person sitting, which is more likely to occur in an indoor setting. While the caption doesn't explicitly state the location, the formal attire (shirt and tie) strongly suggests an"
+  },
+  {
+    "caption": "three children are playing .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "# Explanation of the Annotation for \"three children are playing.\"\n\nThe annotation ('indoors', 'man-made', 'recreation') was chosen for this caption because:\n\n1. **'indoors'** - The annotation suggests that the children are playing inside a building rather than outside. This could be in a home, school, daycare center, or other interior space.\n\n2. **'man-made'** - This indicates that the environment or setting where"
+  },
+  {
+    "caption": "three children are practicing martial arts in a gym .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "# Explanation of the Annotation for the Caption\n\nThe annotation ('indoors', 'man-made', 'recreation') was chosen for the caption \"three children are practicing martial arts in a gym\" for the following reasons:\n\n1. **'indoors'** - The caption explicitly mentions that the activity is taking place \"in a gym,\" which is an indoor facility. Gyms are enclosed spaces designed specifically for physical activities and training.\n\n2. **'man-"
+  },
+  {
+    "caption": "three children are practicing martial arts.",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "# Explanation of the Annotation for \"three children are practicing martial arts.\"\n\nThe annotation ('indoors', 'man-made', 'recreation') was chosen for this caption because:\n\n1. **'indoors'** - The caption is interpreted as describing a scene taking place inside a building, likely a martial arts studio, dojo, or gym. Martial arts practice typically occurs in dedicated indoor spaces, especially for children's classes.\n\n2. **'man-"
+  },
+  {
+    "caption": "three girls or friends having drinks at a bar laughing .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "restaurant"
+    ],
+    "explanation": "# Explanation of Annotation\n\nThe annotation ('indoors', 'man-made', 'restaurant') was chosen for the caption \"three girls or friends having drinks at a bar laughing\" for the following reasons:\n\n1. **'indoors'**: The caption describes people at a bar, which is typically an indoor setting. Bars are enclosed spaces with controlled environments, making \"indoors\" an appropriate annotation.\n\n2. **'man-made'**: A bar"
+  },
+  {
+    "caption": "three girls or friends having drinks laughing .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "restaurant"
+    ],
+    "explanation": "# Explanation of Annotation\n\nThe annotation ('indoors', 'man-made', 'restaurant') was chosen for the caption \"three girls or friends having drinks laughing\" for the following reasons:\n\n1. **'indoors'**: The scene is implied to be taking place inside a building rather than outside. When people are \"having drinks\" in a social context, it's typically in an indoor setting, especially when no outdoor environment is mentioned.\n\n2. **'"
+  },
+  {
+    "caption": "three people in various stages of swimming strokes race",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "# Explanation of the Annotation for the Caption\n\nThe caption \"three people in various stages of swimming strokes race\" was annotated with ('indoors', 'man-made', 'recreation') for the following reasons:\n\n1. **'indoors'**: Swimming races typically take place in swimming pools, which are indoor facilities, especially for competitive swimming. The caption describes people in swimming strokes during a race, which strongly suggests an indoor pool setting rather than an open water"
+  },
+  {
+    "caption": "three people in various stages of swimming strokes race along colorful lane markers .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "# Explanation of the Annotation for the Swimming Caption\n\nThe annotation ('indoors', 'man-made', 'recreation') was chosen for the caption \"three people in various stages of swimming strokes race along colorful lane markers\" for the following reasons:\n\n1. **Indoors**: The caption describes a swimming race with lane markers, which strongly suggests an indoor swimming pool setting. Competitive swimming with designated lanes typically takes place in indoor pool facilities rather than in natural bodies"
+  },
+  {
+    "caption": "three women and a man are drinking beer .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "# Explanation of the Annotation for the Caption\n\nThe caption \"three women and a man are drinking beer\" was annotated with ('indoors', 'man-made', 'recreation') for the following reasons:\n\n1. **'indoors'** - While the caption doesn't explicitly state the location, drinking beer typically occurs in indoor settings such as bars, restaurants, homes, or other social venues. Without any mention of outdoor elements (like nature, weather, etc.),"
+  },
+  {
+    "caption": "three women and a man are drinking beer at a table .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "restaurant"
+    ],
+    "explanation": "# Explanation of Annotation\n\nThe annotation ('indoors', 'man-made', 'restaurant') was chosen for the caption \"three women and a man are drinking beer at a table\" for the following reasons:\n\n1. **'indoors'** - The scene is implied to be taking place inside a building rather than outside. People sitting at a table drinking beer is typically an indoor activity, especially when described without any mention of outdoor elements.\n\n2. **'man"
+  },
+  {
+    "caption": "three women speak to each other in a room with tan walls .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "other_unclear"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('indoors', 'man-made', 'other_unclear') for the caption \"three women speak to each other in a room with tan walls\" was chosen for the following reasons:\n\n1. **'indoors'**: This is clearly indicated in the caption by the mention of being \"in a room\" with walls, which is definitively an indoor setting.\n\n2. **'man-made'**: The environment describe"
+  },
+  {
+    "caption": "three women speak to each other.",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "other_unclear"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('indoors', 'man-made', 'other_unclear') for the caption \"three women speak to each other\" was chosen for the following reasons:\n\n1. **'indoors'**: The annotation suggests that the scene takes place inside a building or enclosed space, rather than outdoors. This is likely inferred because conversations often take place indoors, though the caption itself doesn't explicitly state the location.\n\n2."
+  },
+  {
+    "caption": "three young women and one young man singing in an auditorium .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "# Explanation of Annotation for the Caption\n\nThe annotation ('indoors', 'man-made', 'recreation') was chosen for the caption \"three young women and one young man singing in an auditorium\" for the following reasons:\n\n1. **'indoors'** - An auditorium is clearly an indoor venue. The caption explicitly mentions that the singing is taking place \"in an auditorium,\" which is a covered, enclosed space designed for performances."
+  },
+  {
+    "caption": "three young women and one young man singing.",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "# Explanation of the Annotation for \"three young women and one young man singing.\"\n\nThe annotation ('indoors', 'man-made', 'recreation') was chosen for this caption because:\n\n1. **'indoors'**: The caption describes people singing, which is likely taking place in an indoor setting such as a concert hall, karaoke room, recording studio, or performance venue. While singing can occur outdoors, indoor settings are more common for formal or organize"
+  },
+  {
+    "caption": "two children swing from a swing made from a steel drum .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "# Explanation of the Annotation for the Caption\n\nThe caption \"two children swing from a swing made from a steel drum\" was annotated with ('outdoors', 'man-made', 'recreation') for the following reasons:\n\n1. **'outdoors'**: Swings are typically located outside, in playgrounds, parks, or yards. While the caption doesn't explicitly state the location is outdoors, swings (especially improvised ones made from steel drums)"
+  },
+  {
+    "caption": "two children swing in dusty rooftop from a swing made from a steel drum .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('outdoors', 'man-made', 'recreation') was chosen for the caption \"two children swing in dusty rooftop from a swing made from a steel drum\" for the following reasons:\n\n1. **'outdoors'**: The caption describes a scene taking place on a \"dusty rooftop,\" which indicates an outdoor setting. Rooftops are external parts of buildings exposed to the open air."
+  },
+  {
+    "caption": "two dogs are catching blue frisbees in grass .",
+    "annotation": [
+      "outdoors",
+      "natural",
+      "field_forest"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('outdoors', 'natural', 'field_forest') was chosen for the caption \"two dogs are catching blue frisbees in grass\" for the following reasons:\n\n1. **'outdoors'**: The caption clearly describes a scene taking place outside, as indicated by dogs playing in grass. Frisbee catching is typically an outdoor activity.\n\n2. **'natural'**: The setting involves grass, which is a"
+  },
+  {
+    "caption": "two dogs are catching blue frisbees.",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "# Explanation of the Annotation for \"two dogs are catching blue frisbees.\"\n\nThe annotation ('outdoors', 'man-made', 'recreation') was chosen for this caption because:\n\n1. **'outdoors'** - Frisbee catching with dogs typically takes place outside in an open area like a park, field, or beach. The activity requires space for throwing and running, which strongly suggests an outdoor setting.\n\n2. **'man-made"
+  },
+  {
+    "caption": "two dogs are nose to nose while a third dog stands .",
+    "annotation": [
+      "outdoors",
+      "natural",
+      "other_unclear"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('outdoors', 'natural', 'other_unclear') for the caption \"two dogs are nose to nose while a third dog stands\" was likely chosen for the following reasons:\n\n1. **'outdoors'**: The caption doesn't explicitly state the location, but the annotation suggests the scene is taking place outside rather than indoors. This might be inferred from context - dogs interacting freely is more commonly associated with outdoor settings"
+  },
+  {
+    "caption": "two dogs are nose to nose while a third dog stands next to them .",
+    "annotation": [
+      "outdoors",
+      "natural",
+      "other_unclear"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('outdoors', 'natural', 'other_unclear') for the caption \"two dogs are nose to nose while a third dog stands next to them\" was likely chosen for the following reasons:\n\n1. **'outdoors'**: The annotation suggests the scene takes place outside, though this isn't explicitly stated in the caption. This might have been inferred from context or visual elements described in the original image that weren't fully capture"
+  },
+  {
+    "caption": "two furry light brown dogs lying on a hardwood floor .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "domestic"
+    ],
+    "explanation": "# Explanation of the Annotation for the Caption\n\nThe annotation ('indoors', 'man-made', 'domestic') was chosen for the caption \"two furry light brown dogs lying on a hardwood floor\" for the following reasons:\n\n1. **'indoors'** - The caption explicitly mentions \"hardwood floor,\" which is a clear indicator of an indoor setting. Hardwood flooring is a typical interior flooring material found inside homes and buildings, not out"
+  },
+  {
+    "caption": "two furry light brown dogs lying.",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "domestic"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('indoors', 'man-made', 'domestic') for the caption \"two furry light brown dogs lying\" was chosen for the following reasons:\n\n1. **'indoors'** - While the caption doesn't explicitly state the location, the annotation suggests that the dogs are inside a building rather than outdoors. This might be inferred from context not visible in the caption alone, such as the dogs appearing to be on"
+  },
+  {
+    "caption": "two girls and three boys are presenting in front of a dry erase board .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "work_education"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('indoors', 'man-made', 'work_education') was chosen for the caption \"two girls and three boys are presenting in front of a dry erase board\" for the following reasons:\n\n1. **'indoors'**: The scene is clearly taking place inside a building. Dry erase boards are typically found in indoor settings such as classrooms, meeting rooms, or offices. The activity of presenting in front"
+  },
+  {
+    "caption": "two girls and three boys are presenting.",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "work_education"
+    ],
+    "explanation": "# Explanation of the Annotation for \"two girls and three boys are presenting.\"\n\nThe annotation ('indoors', 'man-made', 'work_education') was chosen for this caption because:\n\n1. **'indoors'**: Presentations typically take place in indoor settings such as classrooms, conference rooms, or auditoriums. While the caption doesn't explicitly state the location, the act of \"presenting\" strongly implies an indoor environment as the default context."
+  },
+  {
+    "caption": "two girls are in a race .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "# Explanation of the Annotation for \"two girls are in a race.\"\n\nThe annotation ('outdoors', 'man-made', 'recreation') was chosen for this caption because:\n\n1. **'outdoors'** - Races typically take place outside, whether on tracks, roads, or fields. The caption implies an athletic competition that is most commonly held in an outdoor setting.\n\n2. **'man-made'** - This likely refers to the racing environment"
+  },
+  {
+    "caption": "two girls are in a sack race .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "# Explanation of the Annotation for \"two girls are in a sack race.\"\n\nThe annotation ('outdoors', 'man-made', 'recreation') was chosen for this caption because:\n\n1. **'outdoors'**: Sack races are typically held outside, often on grassy fields or open spaces. While the caption doesn't explicitly state the location, sack races are rarely conducted indoors due to the space needed and the nature of the activity."
+  },
+  {
+    "caption": "two guys are rowing a canoe on a lake .",
+    "annotation": [
+      "outdoors",
+      "natural",
+      "body_of_water"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('outdoors', 'natural', 'body_of_water') was chosen for the caption \"two guys are rowing a canoe on a lake\" for the following reasons:\n\n1. **'outdoors'** - The scene clearly takes place outside on a lake, not in an indoor setting. Rowing a canoe is an outdoor activity.\n\n2. **'natural'** - The setting described is a natural environment"
+  },
+  {
+    "caption": "two guys are rowing a canoe.",
+    "annotation": [
+      "outdoors",
+      "natural",
+      "body_of_water"
+    ],
+    "explanation": "# Explanation of Annotation for \"two guys are rowing a canoe.\"\n\nThe annotation ('outdoors', 'natural', 'body_of_water') was chosen for this caption because:\n\n1. **'outdoors'** - Canoeing is an activity that takes place outside, not inside buildings or enclosed spaces. The caption implies the setting is outdoors since rowing a canoe is typically an outdoor activity.\n\n2. **'natural'** - The"
+  },
+  {
+    "caption": "two men drink beer .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "# Explanation of the Annotation for \"two men drink beer.\"\n\nThe annotation ('indoors', 'man-made', 'recreation') was chosen for this caption because:\n\n1. **'indoors'** - While the caption doesn't explicitly state the location, drinking beer often takes place indoors in settings like bars, restaurants, homes, etc. Without contrary information, indoor settings are commonly assumed for social drinking activities.\n\n2. **'man-made'**"
+  },
+  {
+    "caption": "two men drink beer at the bar in a restaurant .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "restaurant"
+    ],
+    "explanation": "# Explanation of Annotation\n\nThe annotation ('indoors', 'man-made', 'restaurant') was chosen for the caption \"two men drink beer at the bar in a restaurant\" for the following reasons:\n\n1. **'indoors'** - The caption explicitly describes a scene taking place at a bar in a restaurant, which is clearly an indoor setting. Bars and restaurants are interior spaces.\n\n2. **'man-made'** - A restaurant with a"
+  },
+  {
+    "caption": "two men on motorcycles are driving down .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "transportation_urban"
+    ],
+    "explanation": "# Explanation of the Annotation for the Caption\n\nThe caption \"two men on motorcycles are driving down\" received the annotation ('outdoors', 'man-made', 'transportation_urban') for the following reasons:\n\n1. **'outdoors'**: The scene is implicitly taking place outside. Motorcycles are typically ridden on roads or outdoor paths, not inside buildings. The phrase \"driving down\" suggests movement along a road or path, which is an outdoor"
+  },
+  {
+    "caption": "two men on motorcycles are driving down an empty street .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "transportation_urban"
+    ],
+    "explanation": "# Explanation of the Annotation for the Caption\n\nThe annotation ('outdoors', 'man-made', 'transportation_urban') was chosen for the caption \"two men on motorcycles are driving down an empty street\" for the following reasons:\n\n1. **'outdoors'**: The scene clearly takes place outside on a street, not inside a building or enclosed space. The motorcyclists are described as driving down a street, which is an outdoor setting.\n\n2."
+  },
+  {
+    "caption": "two people are jumping on the side of a road with snow in the background .",
+    "annotation": [
+      "outdoors",
+      "natural",
+      "other_unclear"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('outdoors', 'natural', 'other_unclear') for the caption \"two people are jumping on the side of a road with snow in the background\" was chosen for the following reasons:\n\n1. **'outdoors'**: The caption clearly describes a scene taking place outside - people jumping on the side of a road with snow in the background. This is unambiguously an outdoor setting.\n\n2. **'natural"
+  },
+  {
+    "caption": "two people are jumping with snow .",
+    "annotation": [
+      "outdoors",
+      "natural",
+      "other_unclear"
+    ],
+    "explanation": "# Explanation of the Annotation for \"two people are jumping with snow.\"\n\nThe annotation ('outdoors', 'natural', 'other_unclear') was chosen for this caption for the following reasons:\n\n1. **'outdoors'**: The caption describes people jumping in snow, which strongly implies an outdoor setting. Snow typically falls and accumulates outdoors, and jumping in snow is an outdoor activity.\n\n2. **'natural'**: Snow is a natural weather phenomenon,"
+  },
+  {
+    "caption": "two people are sleeping .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "domestic"
+    ],
+    "explanation": "# Explanation of the Annotation for \"two people are sleeping.\"\n\nThe annotation ('indoors', 'man-made', 'domestic') was chosen for this caption because:\n\n1. **'indoors'** - Sleeping typically occurs inside a building, most commonly in a bedroom or other interior space. The caption implies a sheltered environment where people are resting, which is almost always an indoor setting.\n\n2. **'man-made'** - This annotation"
+  },
+  {
+    "caption": "two people on the subway are sleeping in the corner .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "transportation_urban"
+    ],
+    "explanation": "# Explanation of the Annotation for the Caption\n\nThe annotation ('indoors', 'man-made', 'transportation_urban') was chosen for the caption \"two people on the subway are sleeping in the corner\" for the following reasons:\n\n1. **'indoors'**: Subways operate underground or within enclosed structures, and subway cars are enclosed spaces. The scene described takes place inside a subway car, making \"indoors\" an appropriate annotation.\n\n2. **"
+  },
+  {
+    "caption": "two rows of dance students are practicing ballet moves against a pole in a studio .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "# Explanation of the Annotation for the Caption\n\nThe annotation ('indoors', 'man-made', 'recreation') was chosen for the caption \"two rows of dance students are practicing ballet moves against a pole in a studio\" for the following reasons:\n\n1. **'indoors'** - The caption explicitly mentions that the scene takes place in a \"studio,\" which is an indoor facility. Dance studios are enclosed spaces designed specifically for dance practice.\n\n2. **'"
+  },
+  {
+    "caption": "two rows of dance students are practicing ballet moves against a pole.",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "# Explanation of the Annotation for the Caption\n\nThe annotation ('indoors', 'man-made', 'recreation') was chosen for the caption \"two rows of dance students are practicing ballet moves against a pole\" for the following reasons:\n\n1. **Indoors**: The scene is implied to be taking place inside a dance studio or ballet school. Ballet practice with poles (ballet barres) is typically conducted in indoor facilities with proper flooring and equipment.\n\n2."
+  },
+  {
+    "caption": "two swimmers race in a pool with a red line between them .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "# Explanation of the Annotation for the Caption\n\nThe annotation ('indoors', 'man-made', 'recreation') was chosen for the caption \"two swimmers race in a pool with a red line between them\" for the following reasons:\n\n1. **Indoors**: Swimming pools used for competitive racing are typically located indoors, especially those with lane dividers (the \"red line\" mentioned). Professional swimming competitions and training facilities are commonly indoor venues to control environmental conditions."
+  },
+  {
+    "caption": "two swimmers race with a red line .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "# Explanation of the Annotation for \"two swimmers race with a red line.\"\n\nThe annotation ('indoors', 'man-made', 'recreation') was chosen for this caption because:\n\n1. **'indoors'** - The caption describes swimmers racing, which is likely taking place in an indoor swimming pool. Competitive swimming typically occurs in controlled indoor environments, especially when there are lane markers (the \"red line\" mentioned).\n\n2. **'man-made"
+  },
+  {
+    "caption": "two women in black enjoying a lunch in a restaurant .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "restaurant"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('indoors', 'man-made', 'restaurant') was chosen for the caption \"two women in black enjoying a lunch in a restaurant\" for the following reasons:\n\n1. **'indoors'** - The scene takes place inside a restaurant, which is clearly an indoor setting. Restaurants are enclosed spaces with walls, ceilings, and controlled environments, making \"indoors\" an appropriate descriptor.\n\n2. **"
+  },
+  {
+    "caption": "two women in black enjoying a lunch.",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "restaurant"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('indoors', 'man-made', 'restaurant') was chosen for the caption \"two women in black enjoying a lunch\" for the following reasons:\n\n1. **'indoors'**: The caption describes people having lunch, which typically takes place inside a building rather than outside. There's no mention of an outdoor setting like a park or patio, so the annotator reasonably assumed this was an indoor scene.\n\n2"
+  },
+  {
+    "caption": "two women in white lab coats examine a dyed area on a cluster of cells using a projector .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "work_education"
+    ],
+    "explanation": "# Explanation of the Annotation for the Caption\n\nThe annotation ('indoors', 'man-made', 'work_education') was chosen for this caption because:\n\n1. **'indoors'**: The scene clearly takes place inside a building, likely a laboratory or research facility, as evidenced by the women wearing lab coats and examining cells, which is typically done in controlled indoor environments.\n\n2. **'man-made'**: The setting involves man-made"
+  },
+  {
+    "caption": "two women in white lab coats examine a dyed area using a projector .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "work_education"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('indoors', 'man-made', 'work_education') was chosen for the caption \"two women in white lab coats examine a dyed area using a projector\" for the following reasons:\n\n1. **'indoors'**: The scene clearly takes place inside a building, likely a laboratory or research facility. This is implied by the presence of lab coats and equipment like a projector, which are typically use"
+  },
+  {
+    "caption": "two young people riding skateboards pass by in the street as a black dog on a red leash stops and squats down.",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "transportation_urban"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('outdoors', 'man-made', 'transportation_urban') was chosen for this caption because:\n\n1. **'outdoors'** - The caption explicitly mentions \"in the street,\" indicating that the scene takes place outside rather than inside a building.\n\n2. **'man-made'** - The setting is a street, which is a man-made environment, as opposed to a natural setting like a forest or"
+  },
+  {
+    "caption": "two young people riding skateboards pass by in the street as a black dog on a red leash stops in a doorway and squats down on the sidewalk .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "transportation_urban"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('outdoors', 'man-made', 'transportation_urban') was chosen for this caption because:\n\n1. **'outdoors'** - The scene clearly takes place outside, specifically \"in the street\" and \"on the sidewalk\" as mentioned in the caption.\n\n2. **'man-made'** - The environment described contains man-made elements including:\n   - The street\n   - The sidew"
+  },
+  {
+    "caption": "vendors are selling fruits and vegetables",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "work_education"
+    ],
+    "explanation": "# Explanation of the Annotation for \"vendors are selling fruits and vegetables\"\n\nThe annotation ('outdoors', 'man-made', 'work_education') was chosen for this caption because:\n\n1. **'outdoors'**: Vendors selling fruits and vegetables typically operate in outdoor settings such as markets, street corners, or farmers' markets. While not explicitly stated in the caption, fruit and vegetable vendors are commonly associated with outdoor commercial spaces.\n\n2. **'"
+  },
+  {
+    "caption": "vendors sell products at a farmers market .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "work_education"
+    ],
+    "explanation": "# Explanation of the Annotation for \"vendors sell products at a farmers market.\"\n\nThe annotation ('outdoors', 'man-made', 'work_education') was chosen for this caption because:\n\n1. **'outdoors'**: Farmers markets typically take place outside in open-air settings. They are usually held in parking lots, streets, or public squares, making them outdoor events by nature.\n\n2. **'man-made'**: The caption describes a"
+  },
+  {
+    "caption": "vendors sell products.",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "work_education"
+    ],
+    "explanation": "# Explanation of the Annotation for \"vendors sell products.\"\n\nThe annotation ('outdoors', 'man-made', 'work_education') was chosen for this caption because:\n\n1. **'outdoors'** - Vendor activities often take place in outdoor settings such as markets, street fairs, or sidewalk stalls. While vendors can also operate indoors, the default assumption for \"vendors sell products\" without further specification often evokes outdoor marketplaces or"
+  },
+  {
+    "caption": "white and black dog jumping over red-haired dog .",
+    "annotation": [
+      "outdoors",
+      "natural",
+      "other_unclear"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('outdoors', 'natural', 'other_unclear') for the caption \"white and black dog jumping over red-haired dog\" was chosen for the following reasons:\n\n1. **'outdoors'**: The annotation indicates that the scene takes place outside rather than indoors. While the caption doesn't explicitly state the location, dog play/jumping activities often occur in outdoor settings like yards, parks, or fields, so this"
+  },
+  {
+    "caption": "white and black dog jumping over red-haired dog in grass .",
+    "annotation": [
+      "outdoors",
+      "natural",
+      "field_forest"
+    ],
+    "explanation": "# Explanation of the Annotation\n\nThe annotation ('outdoors', 'natural', 'field_forest') was chosen for the caption \"white and black dog jumping over red-haired dog in grass\" for the following reasons:\n\n1. **'outdoors'**: The caption explicitly mentions dogs in grass, which clearly indicates an outdoor setting rather than an indoor environment.\n\n2. **'natural'**: The scene described takes place in a natural environment (grass) rather than"
+  }
+]

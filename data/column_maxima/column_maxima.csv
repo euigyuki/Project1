@@ -1,0 +1,18 @@
+Column,Max_KL_Divergence,Word
+outdoors - man-made - work_education,0.23433524370193481,sell-01
+indoors - man-made - restaurant,0.3840517997741699,drink-01
+outdoors - man-made - transportation_urban,0.937689483165741,pass-by-17
+outdoors - natural - body_of_water,1.6441388130187988,row-01
+indoors - man-made - recreation,0.9138835668563843,sing-01
+outdoors - natural - field_forest,0.4125438332557678,run-02
+indoors - man-made - work_education,0.9848438501358032,present-01
+outdoors - natural - mountain,1.2635798454284668,ski-01
+outdoors - man-made - domestic,0.4012591242790222,grill-01
+outdoors - man-made - recreation,1.5820176601409912,swing-01
+indoors - man-made - domestic,0.014741931110620499,lie-07
+indoors - man-made - transportation_urban,0.19532576203346252,sleep-01
+outdoors - man-made - other_unclear,0.10481493175029755,drink-01
+outdoors - natural - other_unclear,0.010061056353151798,approach-01
+indoors - man-made - other_unclear,0.12145502865314484,speak-01
+outdoors - man-made - restaurant,0.3772805631160736,grill-01
+KLD_Sum,1.7067907226737589,swing-01

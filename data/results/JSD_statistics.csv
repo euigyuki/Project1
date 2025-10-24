@@ -1,0 +1,11 @@
+Metric,Value
+Original Mean JSD,0.33361136096700794
+Finalized Mean JSD,0.4476457917037687
+Overall Mean JSD,0.3906285763353884
+Original Std Dev,0.24854644472035392
+Finalized Std Dev,0.18106039129026344
+Original 95% CI,0.2910 - 0.3762
+Finalized 95% CI,0.4166 - 0.4787
+Welch's t-test p-value,2.734258170116729e-05
+Bonferroni-corrected p-value,2.734258170116729e-05
+Cohen's d (Effect Size),-0.5244467487708397

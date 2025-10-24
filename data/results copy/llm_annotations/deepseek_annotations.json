@@ -1,0 +1,2424 @@
+[
+ 
+  {
+    "caption": "\"a crowd waits outside a subway train , ready to board .\"",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "transportation_urban"
+    ],
+    "explanation": "The caption is classified as **outdoors** because the scene describes a crowd waiting outside a subway train, which implies an open-air environment, involves **man-made** elements because the subway train and its surroundings are constructed by humans, and shows **transportation_urban** because the setting is a subway, a common mode of urban transportation."
+  },
+  {
+    "caption": "\"a crowd waits, ready to board .\"",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "transportation_urban"
+    ],
+    "explanation": "The caption is classified as outdoors because the scene likely takes place in an open, public space where a crowd is waiting, involves man-made elements because the setting includes structures or vehicles associated with urban transportation, and shows transportation_urban because the crowd is ready to board, suggesting the use of public transit like buses or trains in a city environment."
+  },
+  {
+    "caption": "\"a man driving a small , open vehicle with a green sign .\"",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "transportation_urban"
+    ],
+    "explanation": "The caption is classified as **outdoors** because the scene likely takes place in an open, outdoor environment where a vehicle is being driven, involves **man-made** elements because the vehicle and green sign are human-created objects, and shows **transportation_urban** because the activity of driving a small, open vehicle is associated with urban or city transportation."
+  },
+  {
+    "caption": "\"a man driving a small , open vehicle with a green sign on the back of it in traffic .\"",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "transportation_urban"
+    ],
+    "explanation": "The caption is classified as **outdoors** because the scene takes place in a traffic setting, which is typically an outdoor environment, involves **man-made** elements because the vehicle and the green sign are human-created objects, and shows **transportation_urban** because the man is driving a vehicle in a traffic context, which is a common urban transportation scenario."
+  },
+  {
+    "caption": "\"a man in a blue swimsuit and a red beanie kneels in the wet sand on the edge of a beach , making a sand castle that is as tall as he is when he is kneeling .\"",
+    "annotation": [
+      "outdoors",
+      "natural",
+      "body_of_water"
+    ],
+    "explanation": "The caption is classified as 'outdoors' because the scene takes place on a beach, which is an open-air environment, involves 'natural' elements because the setting includes wet sand and a body of water, and shows 'body_of_water' because the beach is located at the edge of a body of water, such as an ocean or sea."
+  },
+  {
+    "caption": "\"a man wearing jeans , polo shirt and a baseball cap , fork , is grilling meat .\"",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "domestic"
+    ],
+    "explanation": "The caption is classified as outdoors because the activity of grilling meat typically occurs in an outdoor setting, involves man-made elements because the grill, fork, and clothing (jeans, polo shirt, baseball cap) are human-created objects, and shows domestic because grilling meat is a common household or personal activity often associated with home or family gatherings."
+  },
+  {
+    "caption": "\"a man wearing jeans , polo shirt and a baseball cap , fork in hand , is grilling meat outside in a fenced yard .\"",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "domestic"
+    ],
+    "explanation": "The caption is classified as **outdoors** because the scene takes place outside in a fenced yard, involves **man-made** elements because the grilling equipment, fence, and clothing (jeans, polo shirt, baseball cap) are all human-created objects, and shows **domestic** activity because grilling meat is a common household or personal activity typically associated with home or family settings."
+  },
+  {
+    "caption": "\"a ruddy infant lies on a patterned sheet with his eyes closed , his mouth open , and his arm extended .\"",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "domestic"
+    ],
+    "explanation": "The caption is classified as \"indoors\" because the scene describes an infant lying on a patterned sheet, which is typically associated with an indoor setting like a home or nursery, involves \"man-made\" elements because the patterned sheet is a human-created object, and shows \"domestic\" activity because the scene depicts a common, everyday situation involving a baby in a household environment."
+  },
+  {
+    "caption": "\"a ruddy infant lies with his eyes closed , his mouth open , and his arm extended .\"",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "domestic"
+    ],
+    "explanation": "The caption is classified as **indoors** because the setting suggests a controlled environment typical of indoor spaces, involves **man-made** elements because the scene likely includes objects or furniture created by humans, and shows **domestic** because the description of an infant lying peacefully aligns with a home or family setting."
+  },
+  {
+    "caption": "\"an impoverished person , wearing a torn brown shirt and no shoes , is kneeling down .\"",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "other_unclear"
+    ],
+    "explanation": "The caption is classified as \"outdoors\" because the setting is not specified as indoors and the description does not suggest an enclosed space, involves \"man-made\" elements because the torn brown shirt is a human-made object, and shows \"other_unclear\" because the activity of kneeling down does not clearly indicate a specific action or purpose."
+  },
+  {
+    "caption": "\"an impoverished person , wearing a torn brown shirt and no shoes , is kneeling down along the banks of a trash infested body of water .\"",
+    "annotation": [
+      "outdoors",
+      "natural",
+      "body_of_water"
+    ],
+    "explanation": "The caption is classified as 'outdoors' because the scene is set along the banks of a body of water, which is an open, external environment, involves 'natural' elements because the description includes a body of water and the surrounding environment, and shows 'body_of_water' because the setting prominently features a trash-infested body of water."
+  },
+  {
+    "caption": "\"four young adults sit outside on a wooden deck near a building around a small round table , while another person stands on the edge of the deck , leaning on the wooden railing , with the sun shining on one of them and the rest of them are in the shade , two of them crossing their legs , one holding a cellphone out in front of himself and another holding a green and red soda can .\"",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "The caption is classified as **outdoors** because the scene takes place outside on a wooden deck, with the sun shining and people sitting and standing in the open air. It involves **man-made** elements because the wooden deck, railing, table, and building are all constructed objects. It shows **recreation** because the individuals are sitting and standing in a relaxed manner, with some holding objects like a cellphone and a soda can, suggesting a casual, leisurely activity."
+  },
+  {
+    "caption": "\"in a restaurant , a teenager drinks directly out of the metal milkshake serving cup .\"",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "restaurant"
+    ],
+    "explanation": "The caption is classified as \"indoors\" because the scene takes place inside a restaurant, involves \"man-made\" elements because the metal milkshake serving cup is a manufactured object, and shows \"restaurant\" because the setting and activity are typical of a dining establishment."
+  },
+  {
+    "caption": "\"people swing on a red , metal amusement park ride in front of some trees .\"",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "The caption is classified as **outdoors** because the scene takes place in an open, natural setting with trees visible, involves **man-made** elements because the red, metal amusement park ride is a constructed object, and shows **recreation** because people are swinging on the ride, which is a leisure activity."
+  },
+  {
+    "caption": "\"people swing on a red , metal amusement park ride.\"",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "The caption is classified as **outdoors** because the amusement park ride is typically located in an open, outdoor setting, involves **man-made** elements because the red, metal ride is a constructed object, and shows **recreation** because swinging on the ride is a leisure activity."
+  },
+  {
+    "caption": "\"person leaning against the wall , next to a life size cartoon cut out .\"",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "The caption is classified as **indoors** because the mention of a wall and a life-size cartoon cutout suggests a setting inside a building or enclosed space, involves **man-made** elements because the wall and cartoon cutout are human-created objects, and shows **recreation** because the presence of a cartoon cutout implies a playful or entertaining environment."
+  },
+  {
+    "caption": "\"several people in the mid-ground sit on a bench along the side of a white building , while three people stand in a courtyard in front of the building .\"",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "The caption is classified as **outdoors** because the scene takes place outside, as indicated by the mention of a courtyard and a bench along the side of a building, involves **man-made** elements because the white building and the bench are constructed objects, and shows **recreation** because people are sitting and standing in a relaxed manner, suggesting a leisurely or social activity."
+  },
+  {
+    "caption": "\"three children are playing outdoors , two of them on a metal barrel swing .\"",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "The caption is classified as **outdoors** because the scene takes place outside, involves **man-made** elements because the metal barrel swing is a human-constructed object, and shows **recreation** because the children are engaged in playful activity."
+  },
+  {
+    "caption": "\"two girls , both dressed in pink , swinging on sunlight day with the nearby trees casting random shadows on the remainder of the park like setting .\"",
+    "annotation": [
+      "outdoors",
+      "natural",
+      "field_forest"
+    ],
+    "explanation": "Failed to generate explanation"
+  },
+  {
+    "caption": "\"two girls , both dressed in pink , swinging on sunlight day with the trees casting random shadows on the remainder of the park like setting .\"",
+    "annotation": [
+      "outdoors",
+      "natural",
+      "other_unclear"
+    ],
+    "explanation": "The caption is classified as [other_unclear] because the location is not explicitly specified or identifiable, involves [unknown] elements because while trees and shadows are mentioned, they are not described in a way that clearly defines the natural setting, and shows [other_unclear] activity because the description of swinging is vague and lacks specific details about the nature of the activity."
+  },
+  {
+    "caption": "Kids play",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "Failed to generate explanation"
+  },
+  {
+    "caption": "Person leaning",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "other_unclear"
+    ],
+    "explanation": "The caption is classified as 'indoors' because the setting suggests an enclosed or indoor environment, involves 'man-made' elements because the context implies human-created surroundings or objects, and shows 'other_unclear' because the specific activity or details are not explicitly described or identifiable."
+  },
+  {
+    "caption": "The brown dog catches a ball.",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "The caption is classified as 'outdoors' because the activity of a dog catching a ball typically occurs in an open, outdoor space, involves 'man-made' elements because a ball is a human-created object, and shows 'recreation' because catching a ball is a playful and recreational activity."
+  },
+  {
+    "caption": "a black and white dog runs beside a brown dog in a green field .",
+    "annotation": [
+      "outdoors",
+      "natural",
+      "field_forest"
+    ],
+    "explanation": "The caption is classified as **outdoors** because the scene takes place in a green field, which is an open, external environment, involves **natural** elements because the green field and the presence of dogs suggest a connection to nature, and shows **field_forest** because the setting is a grassy, open area typical of a field or forest-like environment."
+  },
+  {
+    "caption": "a black and white dog runs.",
+    "annotation": [
+      "outdoors",
+      "natural",
+      "field_forest"
+    ],
+    "explanation": "The caption is classified as 'outdoors' because the dog is running in an open, natural environment, involves 'natural' elements because the setting likely includes grass, trees, or other natural features, and shows 'field_forest' because the activity suggests a rural or wooded area suitable for a dog to run freely."
+  },
+  {
+    "caption": "a black dog runs on green grass with its mouth open .",
+    "annotation": [
+      "outdoors",
+      "natural",
+      "field_forest"
+    ],
+    "explanation": "The caption is classified as 'outdoors' because the scene takes place outside in an open environment, involves 'natural' elements because it includes green grass and a dog, which are part of nature, and shows 'field_forest' because the setting resembles a grassy field or natural outdoor space."
+  },
+  {
+    "caption": "a black dog runs with his mouth open",
+    "annotation": [
+      "outdoors",
+      "natural",
+      "other_unclear"
+    ],
+    "explanation": "The caption is classified as 'outdoors' because the scene likely takes place in an open, outdoor setting where a dog can run freely, involves 'natural' elements because the dog and its activity are part of the natural world, and shows 'other_unclear' because the specific activity or context (e.g., why the dog is running) is not explicitly detailed or clear."
+  },
+  {
+    "caption": "a blond dog and a black and white dog run",
+    "annotation": [
+      "outdoors",
+      "natural",
+      "field_forest"
+    ],
+    "explanation": "The caption is classified as 'outdoors' because the activity of dogs running typically occurs in open, outdoor spaces, involves 'natural' elements because the presence of dogs and their movement suggests an environment connected to nature, and shows 'field_forest' because the setting is likely a natural area such as a field or forest where dogs would run freely."
+  },
+  {
+    "caption": "a blond dog and a black and white dog run in a dirt field .",
+    "annotation": [
+      "outdoors",
+      "natural",
+      "field_forest"
+    ],
+    "explanation": "The caption is classified as 'outdoors' because the scene takes place in a dirt field, which is an open, outdoor environment, involves 'natural' elements because the dirt field and the presence of dogs suggest a connection to nature, and shows 'field_forest' because the setting is described as a dirt field, which aligns with a natural, open area typically associated with fields or forests."
+  },
+  {
+    "caption": "a boy and girl child swing together .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "The caption is classified as **outdoors** because the activity of swinging typically takes place in an open, outdoor environment, involves **man-made** elements because swings are human-constructed objects, and shows **recreation** because swinging is a leisure activity often associated with play and enjoyment."
+  },
+  {
+    "caption": "a boy and girl child swing together on a swing set .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "The caption is classified as **outdoors** because the swing set is typically located in an outdoor setting like a park or backyard, involves **man-made** elements because the swing set is a constructed object, and shows **recreation** because swinging together is a leisure activity."
+  },
+  {
+    "caption": "a brown dog running",
+    "annotation": [
+      "outdoors",
+      "natural",
+      "field_forest"
+    ],
+    "explanation": "The caption is classified as 'outdoors' because the activity of a dog running typically occurs in an open, outdoor environment, involves 'natural' elements because the setting likely includes grass, trees, or other natural features, and shows 'field_forest' because the scene suggests a natural landscape such as a field or forest where a dog might run freely."
+  },
+  {
+    "caption": "a brown dog running on a lawn near a garden hose",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "domestic"
+    ],
+    "explanation": "The caption is classified as 'outdoors' because the scene takes place outside on a lawn, involves 'man-made' elements because a garden hose is present, and shows 'domestic' activity because a dog, a common domestic animal, is running in a typical home environment."
+  },
+  {
+    "caption": "a chef speaks into a microphone about a mixed salad contained .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "restaurant"
+    ],
+    "explanation": "The caption is classified as 'indoors' because the setting likely takes place inside a restaurant or kitchen, involves 'man-made' elements because the microphone and salad are human-created objects, and shows 'restaurant' because the presence of a chef and salad suggests a food-related or dining environment."
+  },
+  {
+    "caption": "a chef speaks into a microphone about a mixed salad contained in a bowl with a decorative lid .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "restaurant"
+    ],
+    "explanation": "The caption is classified as 'indoors' because the scene likely takes place inside a building, such as a restaurant or kitchen, involves 'man-made' elements because the microphone, bowl, and decorative lid are all human-made objects, and shows 'restaurant' because the presence of a chef and a mixed salad suggests a culinary or dining setting."
+  },
+  {
+    "caption": "a child in a dress runs through the yard with a miniature orange soccer ball in her hand .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "domestic"
+    ],
+    "explanation": "The caption is classified as **outdoors** because the scene takes place in a yard, which is an open, outdoor space, involves **man-made** elements because the yard and the miniature orange soccer ball are human-created objects, and shows **domestic** activity because the setting and the child playing with a ball suggest a casual, everyday home environment."
+  },
+  {
+    "caption": "a child in a dress runs with a miniature orange soccer ball .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "The caption is classified as **outdoors** because the activity of running with a soccer ball typically occurs in open, outdoor spaces, involves **man-made** elements because the soccer ball and possibly the dress are human-made objects, and shows **recreation** because running with a ball is a playful or sport-related activity."
+  },
+  {
+    "caption": "a dark-haired dark-skinned child sleeps in a chair while holding a blue zippered pack .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "domestic"
+    ],
+    "explanation": "The caption is classified as **indoors** because the scene describes a child sleeping in a chair, which typically occurs inside a building or enclosed space, involves **man-made** elements because the chair and the blue zippered pack are human-created objects, and shows **domestic** activity because the setting and actions (sleeping in a chair) suggest a home or everyday living environment."
+  },
+  {
+    "caption": "a dark-haired dark-skinned child sleeps while holding a blue zippered pack .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "domestic"
+    ],
+    "explanation": "The caption is classified as 'indoors' because the child is described as sleeping, which typically occurs in an indoor setting, involves 'man-made' elements because the blue zippered pack is a manufactured object, and shows 'domestic' because the scene depicts a child in a relaxed, home-like environment."
+  },
+  {
+    "caption": "a dark-haired man is speaking into a microphone while another man is sitting .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "work_education"
+    ],
+    "explanation": "The caption is classified as 'indoors' because the scene likely takes place in an indoor setting such as a studio or office, involves 'man-made' elements because the microphone and possibly the seating are human-made objects, and shows 'work_education' because speaking into a microphone often occurs in professional or educational contexts like presentations or lectures."
+  },
+  {
+    "caption": "a dark-haired man is speaking into a microphone while another man is sitting beside him .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "work_education"
+    ],
+    "explanation": "The caption is classified as 'indoors' because the scene likely takes place inside a building or enclosed space, involves 'man-made' elements because the microphone and possibly the setting (e.g., a studio or office) are human-created objects, and shows 'work_education' because speaking into a microphone often relates to professional or educational activities such as presentations, interviews, or lectures."
+  },
+  {
+    "caption": "a dog wearing a t-shirt is lying down .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "domestic"
+    ],
+    "explanation": "The caption is classified as 'indoors' because the setting is not explicitly stated but is implied to be a controlled environment where a dog wearing a t-shirt is lying down, which is more likely indoors, involves 'man-made' elements because the t-shirt is a human-made object, and shows 'domestic' activity because the dog is a domestic animal and the scene depicts a typical domestic setting."
+  },
+  {
+    "caption": "a dog wearing a t-shirt is lying.",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "domestic"
+    ],
+    "explanation": "The caption is classified as 'indoors' because the setting is not specified as outdoors and the context suggests a controlled environment typical of indoor spaces, involves 'man-made' elements because the t-shirt is a human-created object, and shows 'domestic' because the dog is a domesticated animal and the scene implies a home-like setting."
+  },
+  {
+    "caption": "a gray dog is jumping toward a black and white dog in the snow .",
+    "annotation": [
+      "outdoors",
+      "natural",
+      "field_forest"
+    ],
+    "explanation": "The caption is classified as 'outdoors' because the scene takes place in the snow, which is an outdoor setting, involves 'natural' elements because the snow and the dogs are part of the natural environment, and shows 'field_forest' because the snowy setting suggests an open, natural area like a field or forest."
+  },
+  {
+    "caption": "a gray dog is jumping toward a black and white dog.",
+    "annotation": [
+      "outdoors",
+      "natural",
+      "other_unclear"
+    ],
+    "explanation": "The caption is classified as 'outdoors' because the scene likely takes place in an open, outdoor setting where dogs can jump and interact freely, involves 'natural' elements because the dogs and their actions are part of the natural world, and shows 'other_unclear' because the specific activity or context (e.g., why the dogs are interacting) is not explicitly detailed in the caption."
+  },
+  {
+    "caption": "a greyhound races on the dirt .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "The caption is classified as **outdoors** because the scene describes a greyhound racing on dirt, which typically occurs in open, outdoor environments, involves **man-made** elements because dirt tracks for racing are constructed and maintained by humans, and shows **recreation** because greyhound racing is a form of sport or leisure activity."
+  },
+  {
+    "caption": "a greyhound races.",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "The caption is classified as 'outdoors' because greyhound racing typically takes place in open-air venues, involves 'man-made' elements because the racing tracks and facilities are constructed by humans, and shows 'recreation' because greyhound racing is a form of competitive sport and entertainment."
+  },
+  {
+    "caption": "a group of men in golden shirts singing in front of a microphone .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "The caption is classified as 'indoors' because the scene likely takes place in an indoor setting, such as a studio or performance hall, involves 'man-made' elements because the microphone and golden shirts are human-created objects, and shows 'recreation' because singing in front of a microphone is a form of entertainment or leisure activity."
+  },
+  {
+    "caption": "a group of men in golden shirts singing.",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "The caption is classified as 'indoors' because the setting is not explicitly mentioned as outdoors and the activity of singing is often associated with indoor environments, involves 'man-made' elements because the golden shirts are manufactured clothing items, and shows 'recreation' because singing is a leisure activity typically done for enjoyment or entertainment."
+  },
+  {
+    "caption": "a group of people lie close together on a hardwood floor .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "domestic"
+    ],
+    "explanation": "The caption is classified as 'indoors' because the scene describes people lying on a hardwood floor, which is typically found inside a building, involves 'man-made' elements because a hardwood floor is a constructed surface, and shows 'domestic' because the setting suggests a home or private living space."
+  },
+  {
+    "caption": "a group of people lie close together.",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "The caption is classified as 'outdoors' because the scene likely takes place in an open, natural, or public space where people can lie close together, involves 'man-made' elements because the setting or context may include human-created structures or environments, and shows 'recreation' because the activity of lying close together suggests a relaxed or leisurely activity typical of recreation."
+  },
+  {
+    "caption": "a handicapped person with one leg skiing down a mountain with other mountains in the background .",
+    "annotation": [
+      "outdoors",
+      "natural",
+      "mountain"
+    ],
+    "explanation": "The caption is classified as **outdoors** because the scene takes place outside in an open environment, involves **natural** elements because it includes mountains and a natural landscape, and shows **mountain** because the activity of skiing is specifically happening on a mountain with other mountains visible in the background."
+  },
+  {
+    "caption": "a handicapped person with one leg skiing down with other mountains .",
+    "annotation": [
+      "outdoors",
+      "natural",
+      "mountain"
+    ],
+    "explanation": "The caption is classified as 'outdoors' because the activity of skiing takes place in an open, outdoor environment, involves 'natural' elements because the scene includes mountains and likely snow, which are natural features, and shows 'mountain' because the setting is explicitly described as involving mountains."
+  },
+  {
+    "caption": "a korean woman is enjoying a meal in a restaurant .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "restaurant"
+    ],
+    "explanation": "The caption is classified as **indoors** because the scene takes place inside a restaurant, involves **man-made** elements because a restaurant is a constructed environment with tables, chairs, and other human-made objects, and shows **restaurant** because the setting and activity clearly indicate a dining establishment where a meal is being enjoyed."
+  },
+  {
+    "caption": "a korean woman is enjoying a meal.",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "domestic"
+    ],
+    "explanation": "The caption is classified as 'indoors' because the activity of enjoying a meal typically occurs inside a building or enclosed space, involves 'man-made' elements because the setting likely includes furniture, utensils, or other human-created objects, and shows 'domestic' activity because eating a meal is a common household or personal activity."
+  },
+  {
+    "caption": "a lady with short hair wearing a black jacket leaned .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "other_unclear"
+    ],
+    "explanation": "The caption is classified as 'indoors' because the setting is not explicitly described as outdoors and the context suggests an indoor environment, involves 'man-made' elements because the black jacket is a manufactured item, and shows 'other_unclear' because the activity of leaning is not clearly defined or specific."
+  },
+  {
+    "caption": "a lady with short hair wearing a black jacket leaned against a lamp post outside a building .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "transportation_urban"
+    ],
+    "explanation": "The caption is classified as 'outdoors' because the scene takes place outside a building, involves 'man-made' elements because the lamp post and building are human-constructed objects, and shows 'transportation_urban' because the lamp post is a common urban infrastructure element often associated with streets and transportation areas."
+  },
+  {
+    "caption": "a little boy playing in the water .",
+    "annotation": [
+      "outdoors",
+      "natural",
+      "body_of_water"
+    ],
+    "explanation": "The caption is classified as **outdoors** because the scene describes a boy playing in the water, which typically occurs in an open, outdoor setting, involves **natural** elements because the water is a natural feature often found in outdoor environments, and shows **body_of_water** because the boy is playing in water, indicating the presence of a natural or artificial body of water like a lake, river, or pool."
+  },
+  {
+    "caption": "a little boy playing.",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "The caption is classified as 'outdoors' because the activity of playing is often associated with open, outdoor spaces, involves 'man-made' elements because the setting or objects used for play (e.g., toys, playgrounds) are typically human-created, and shows 'recreation' because playing is a leisure activity commonly associated with recreation."
+  },
+  {
+    "caption": "a lively adult karate practice",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "The caption is classified as 'indoors' because karate practice typically takes place in indoor settings like dojos or gyms, involves 'man-made' elements because the environment is likely a constructed space with mats, mirrors, and equipment, and shows 'recreation' because karate practice is a physical activity pursued for enjoyment, fitness, or skill development."
+  },
+  {
+    "caption": "a lively adult karate practice at the dojo .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "The caption is classified as 'indoors' because the activity takes place at a dojo, which is typically an indoor facility, involves 'man-made' elements because a dojo is a constructed environment designed for martial arts practice, and shows 'recreation' because karate practice is a physical activity done for leisure or skill development."
+  },
+  {
+    "caption": "a man and a woman are examining produce at a market .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "work_education"
+    ],
+    "explanation": "The caption is classified as 'outdoors' because the scene takes place at a market, which is typically an open-air or outdoor setting, involves 'man-made' elements because the market and produce are human-created or organized, and shows 'work_education' because examining produce suggests an activity related to shopping, work, or learning about goods."
+  },
+  {
+    "caption": "a man and a woman are examining produce.",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "work_education"
+    ],
+    "explanation": "The caption is classified as 'indoors' because the activity of examining produce is typically associated with indoor settings like markets or stores, involves 'man-made' elements because produce is often displayed and handled in man-made environments such as shelves or counters, and shows 'work_education' because examining produce can be part of a professional or educational activity, such as quality inspection or learning about food."
+  },
+  {
+    "caption": "a man and woman enjoying dinner at a party .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "The caption is classified as 'indoors' because the setting of a dinner at a party typically occurs inside a building, involves 'man-made' elements because the dinner and party setting are created by humans, and shows 'recreation' because enjoying dinner at a party is a leisure activity."
+  },
+  {
+    "caption": "a man and woman enjoying dinner.",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "domestic"
+    ],
+    "explanation": "The caption is classified as 'indoors' because the scene likely takes place inside a home or restaurant, involves 'man-made' elements because the setting includes furniture, utensils, or other human-created objects, and shows 'domestic' activity because the scene depicts a common household or everyday activity like dining."
+  },
+  {
+    "caption": "a man drives a truck while a child sits and steers .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "transportation_urban"
+    ],
+    "explanation": "The caption is classified as 'outdoors' because the scene likely takes place in an open, outdoor environment where driving a truck is common, involves 'man-made' elements because the truck is a human-created object, and shows 'transportation_urban' because the activity of driving a truck with a child steering suggests an urban or developed setting where such vehicles are typically used."
+  },
+  {
+    "caption": "a man drives a truck while a child sits on his lap and steers .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "transportation_urban"
+    ],
+    "explanation": "The caption is classified as 'outdoors' because the scene likely takes place in an open, outdoor setting where driving a truck is common, involves 'man-made' elements because the truck is a human-created object, and shows 'transportation_urban' because the activity involves driving a vehicle, which is a form of transportation, and the context suggests an urban or populated environment."
+  },
+  {
+    "caption": "a man driving a small golf cart down a street with a crowd watching him on either side of the street .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "transportation_urban"
+    ],
+    "explanation": "The caption is classified as 'outdoors' because the scene takes place on a street, which is an open, outdoor environment, involves 'man-made' elements because the golf cart and the street are human-constructed objects, and shows 'transportation_urban' because the man is driving a golf cart, a mode of transportation, in an urban or populated setting with a crowd present."
+  },
+  {
+    "caption": "a man driving a small golf cart with a crowd watching.",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "The caption is classified as 'outdoors' because the scene takes place outside, involves 'man-made' elements because the golf cart is a human-created object, and shows 'recreation' because driving a golf cart is a leisure activity often associated with sports or relaxation."
+  },
+  {
+    "caption": "a man grilling",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "domestic"
+    ],
+    "explanation": "The caption is classified as 'outdoors' because grilling typically takes place in open-air settings like backyards or parks, involves 'man-made' elements because grilling requires equipment such as a grill or utensils that are human-created, and shows 'domestic' activity because grilling is often associated with home cooking or family gatherings."
+  },
+  {
+    "caption": "a man grilling meat on an outdoor grilling pit .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "domestic"
+    ],
+    "explanation": "The caption is classified as 'outdoors' because the scene takes place outside, as indicated by the mention of an \"outdoor grilling pit,\" involves 'man-made' elements because the grilling pit is a human-constructed object, and shows 'domestic' activity because grilling meat is a common household or personal activity typically associated with home or leisure settings."
+  },
+  {
+    "caption": "a man grilling meat.",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "domestic"
+    ],
+    "explanation": "The caption is classified as 'outdoors' because grilling is typically done outside, involves 'man-made' elements because a grill is a human-made object, and shows 'domestic' activity because grilling meat is a common household or personal activity."
+  },
+  {
+    "caption": "a man grilling outside his house .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "domestic"
+    ],
+    "explanation": "The caption is classified as 'outdoors' because the activity of grilling is taking place outside the house, involves 'man-made' elements because the grill and possibly the house are human-constructed objects, and shows 'domestic' activity because grilling is a common household activity typically associated with home life."
+  },
+  {
+    "caption": "a man grilling three pieces of salmon outside .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "domestic"
+    ],
+    "explanation": "The caption is classified as 'outdoors' because the scene takes place outside, involves 'man-made' elements because the grill is a human-created object, and shows 'domestic' activity because grilling food is a common household or personal activity."
+  },
+  {
+    "caption": "a man grilling three pieces of salmon.",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "domestic"
+    ],
+    "explanation": "The caption is classified as 'outdoors' because grilling is typically an activity done outside, involves 'man-made' elements because a grill is a human-made object, and shows 'domestic' activity because grilling food is a common household or personal activity."
+  },
+  {
+    "caption": "a man in a black shirt sitting",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "other_unclear"
+    ],
+    "explanation": "The caption is classified as 'indoors' because the setting is not explicitly stated but implies an indoor environment, involves 'man-made' elements because the black shirt and the sitting posture suggest human presence and possibly furniture, and shows 'other_unclear' activity because the specific action or context of the man sitting is not clearly defined."
+  },
+  {
+    "caption": "a man in a black shirt sitting next to a older women in a pink jacket on a train .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "transportation_urban"
+    ],
+    "explanation": "The caption is classified as 'indoors' because the scene takes place inside a train, involves 'man-made' elements because a train is a human-constructed object, and shows 'transportation_urban' because the train is a mode of urban transportation."
+  },
+  {
+    "caption": "a man in a blue swimsuit and a red beanie kneels making a sand castle that is as tall as he is when he is kneeling .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "The caption is classified as 'outdoors' because the scene takes place in an open, natural setting where sand castles are typically built, involves 'man-made' elements because the sand castle is a constructed object created by the man, and shows 'recreation' because building a sand castle is a leisure activity often associated with relaxation and enjoyment."
+  },
+  {
+    "caption": "a man in a dark shirt is making a presentation in front of a group .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "work_education"
+    ],
+    "explanation": "The caption is classified as 'indoors' because the setting of a presentation typically occurs inside a building, involves 'man-made' elements because the presentation setup, such as the room, projector, or screen, is created by humans, and shows 'work_education' because making a presentation in front of a group is often related to professional or educational activities."
+  },
+  {
+    "caption": "a man in a dark shirt is making a presentation.",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "work_education"
+    ],
+    "explanation": "The caption is classified as **indoors** because the setting of making a presentation typically occurs in indoor environments like offices or classrooms, involves **man-made** elements because presentations are associated with human-created tools and settings such as projectors, screens, or conference rooms, and shows **work_education** because making a presentation is an activity commonly related to professional or educational contexts."
+  },
+  {
+    "caption": "a man in a suit and tie in a fancy building is speaking at the podium .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "work_education"
+    ],
+    "explanation": "The caption is classified as 'indoors' because the scene takes place inside a fancy building, involves 'man-made' elements because the building and podium are human-constructed structures, and shows 'work_education' because the man is speaking at a podium, which suggests a formal or professional setting such as a workplace or educational event."
+  },
+  {
+    "caption": "a man in a suit and tie is speaking.",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "work_education"
+    ],
+    "explanation": "The caption is classified as 'indoors' because the setting suggests a formal environment like an office or conference room, involves 'man-made' elements because the suit and tie are human-made clothing items, and shows 'work_education' because speaking in a formal setting often relates to professional or educational activities."
+  },
+  {
+    "caption": "a man in a white polo shirt speaks into a microphone with a sign behind him that reads , truth ! ",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "work_education"
+    ],
+    "explanation": "The caption is classified as 'indoors' because the setting suggests an enclosed space, likely a studio or conference room, where a man is speaking into a microphone. It involves 'man-made' elements because the microphone, sign, and possibly the surrounding setup are human-created objects. It shows 'work_education' because the man appears to be engaged in a formal activity, such as giving a speech or presentation, which is often associated with professional or educational contexts."
+  },
+  {
+    "caption": "a man in a white polo shirt speaks with a sign that reads , truth ! ",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "work_education"
+    ],
+    "explanation": "The caption is classified as 'indoors' because the setting suggests a controlled environment typical of indoor spaces, involves 'man-made' elements because the sign and the polo shirt are human-created objects, and shows 'work_education' because the man speaking with a sign implies a context of communication, possibly related to work or educational activities."
+  },
+  {
+    "caption": "a man in a white polo shirt speaks with a sign that reads , truth ! ",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "other_unclear"
+    ],
+    "explanation": "The caption is classified as 'outdoors' because the setting is not specified as indoors and could reasonably be in an open or public space, involves 'man-made' elements because the sign with the text \"truth!\" is a human-created object, and shows 'other_unclear' because the specific activity or context of the interaction is not explicitly described or easily inferred."
+  },
+  {
+    "caption": "a man in a white shirt uses a blackboard as others sit at a table watching .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "work_education"
+    ],
+    "explanation": "The caption is classified as 'indoors' because the scene describes a man using a blackboard and others sitting at a table, which typically occurs in an indoor setting like a classroom or meeting room, involves 'man-made' elements because the blackboard and table are human-created objects, and shows 'work_education' because the use of a blackboard and the act of watching suggest an educational or instructional activity."
+  },
+  {
+    "caption": "a man in a white shirt uses a blackboard as others sit watching .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "work_education"
+    ],
+    "explanation": "The caption is classified as 'indoors' because the scene likely takes place inside a room or building where a blackboard is present, involves 'man-made' elements because a blackboard and seating arrangements are human-created objects, and shows 'work_education' because the man using the blackboard suggests a teaching or learning activity while others are observing."
+  },
+  {
+    "caption": "a man in a yellow jacket is skiing in the snow .",
+    "annotation": [
+      "outdoors",
+      "natural",
+      "mountain"
+    ],
+    "explanation": "The caption is classified as **outdoors** because the scene takes place outside in an open environment, involves **natural** elements because it includes snow and a mountain setting, and shows **mountain** because the activity of skiing typically occurs in mountainous or hilly terrain."
+  },
+  {
+    "caption": "a man in a yellow jacket is skiing.",
+    "annotation": [
+      "outdoors",
+      "natural",
+      "mountain"
+    ],
+    "explanation": "The caption is classified as 'outdoors' because skiing typically takes place in open, outdoor environments, involves 'natural' elements because skiing often occurs in natural settings like mountains or snowy landscapes, and shows 'mountain' because skiing is commonly associated with mountainous terrain where slopes are suitable for the activity."
+  },
+  {
+    "caption": "a man in red shirt wearing sunglasses is leaning",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "other_unclear"
+    ],
+    "explanation": "The caption is classified as 'outdoors' because the setting is not specified as indoors and the presence of sunglasses suggests an outdoor environment, involves 'man-made' elements because sunglasses are man-made objects, and shows 'other_unclear' because the activity of leaning is not clearly defined or specific."
+  },
+  {
+    "caption": "a man in red shirt wearing sunglasses is leaning on the wall",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "other_unclear"
+    ],
+    "explanation": "The caption is classified as 'outdoors' because the mention of leaning on a wall suggests an open or external environment, involves 'man-made' elements because the wall is a constructed structure, and shows 'other_unclear' because the specific activity or context of the scene is not explicitly detailed beyond the man leaning."
+  },
+  {
+    "caption": "a man is enjoying meal and drink .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "domestic"
+    ],
+    "explanation": "The caption is classified as 'indoors' because the activity of enjoying a meal and drink typically occurs inside a building or enclosed space, involves 'man-made' elements because the meal and drink are prepared or served using human-made items like utensils, plates, or glasses, and shows 'domestic' activity because eating and drinking are common everyday activities often associated with home or personal settings."
+  },
+  {
+    "caption": "a man is enjoying meal and drink inside a restaurant .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "restaurant"
+    ],
+    "explanation": "The caption is classified as 'indoors' because the scene takes place inside a restaurant, involves 'man-made' elements because a restaurant is a constructed environment, and shows 'restaurant' because the setting and activity described are specific to a dining establishment."
+  },
+  {
+    "caption": "a man is giving a presentation in front of three people .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "work_education"
+    ],
+    "explanation": "The caption is classified as 'indoors' because the setting of a presentation typically occurs in an indoor environment such as an office or classroom, involves 'man-made' elements because the setting likely includes furniture, technology, or other human-constructed objects, and shows 'work_education' because giving a presentation is an activity commonly associated with professional or educational contexts."
+  },
+  {
+    "caption": "a man is giving a presentation.",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "work_education"
+    ],
+    "explanation": "The caption is classified as 'indoors' because the activity of giving a presentation typically occurs inside a building, involves 'man-made' elements because presentations usually require man-made objects like projectors, screens, or computers, and shows 'work_education' because giving a presentation is often related to professional or educational settings."
+  },
+  {
+    "caption": "a man is kneeling down with a child",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "The caption is classified as 'outdoors' because the scene likely takes place in an open, outdoor setting, involves 'man-made' elements because the environment may include structures or objects created by humans, and shows 'recreation' because the interaction between the man and the child suggests a leisurely or playful activity."
+  },
+  {
+    "caption": "a man is kneeling down with a child on a beach where bright blue and red boats are stationed in the background .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "The caption is classified as **outdoors** because the scene takes place on a beach, which is an open, natural environment, involves **man-made** elements because the bright blue and red boats in the background are human-created objects, and shows **recreation** because the man and child are likely engaging in a leisure activity on the beach."
+  },
+  {
+    "caption": "a man is rowing a canoe on a lake .",
+    "annotation": [
+      "outdoors",
+      "natural",
+      "body_of_water"
+    ],
+    "explanation": "The caption is classified as 'outdoors' because the scene takes place outside in an open environment, involves 'natural' elements because the lake and surrounding setting are part of nature, and shows 'body_of_water' because the activity of rowing a canoe occurs on a lake, which is a type of body of water."
+  },
+  {
+    "caption": "a man is rowing a canoe.",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "The caption is classified as 'outdoors' because the activity of rowing a canoe typically takes place in an open, natural environment such as a lake or river, involves 'man-made' elements because a canoe is a human-constructed object, and shows 'recreation' because rowing a canoe is a leisure or recreational activity."
+  },
+  {
+    "caption": "a man is singing at a concert .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "The caption is classified as 'indoors' because a concert typically takes place in an indoor venue like a theater or concert hall, involves 'man-made' elements because the setting and equipment (e.g., stage, microphones) are human-created, and shows 'recreation' because singing at a concert is a form of entertainment and leisure activity."
+  },
+  {
+    "caption": "a man is singing.",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "The caption is classified as 'indoors' because the setting is not specified but singing often occurs in indoor environments like homes or studios, involves 'man-made' elements because singing typically involves man-made objects like microphones or instruments, and shows 'recreation' because singing is a leisure or recreational activity."
+  },
+  {
+    "caption": "a man is sitting on the street playing drums on buckets .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "The caption is classified as **outdoors** because the scene takes place on the street, which is an open, outdoor environment, involves **man-made** elements because the drums and buckets are human-created objects, and shows **recreation** because the man is playing drums, which is a leisure activity."
+  },
+  {
+    "caption": "a man is sitting playing drums on buckets .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "The caption is classified as **outdoors** because the setting is not specified as indoors and the use of buckets suggests an open or informal environment, involves **man-made** elements because the drums and buckets are human-created objects, and shows **recreation** because playing drums is a leisure activity."
+  },
+  {
+    "caption": "a man is using his computer while seated at a desk .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "work_education"
+    ],
+    "explanation": "The caption is classified as **indoors** because the scene describes a man seated at a desk, which typically occurs inside a building, involves **man-made** elements because the computer and desk are human-created objects, and shows **work_education** because using a computer at a desk is often associated with work or educational activities."
+  },
+  {
+    "caption": "a man is using his computer while seated.",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "work_education"
+    ],
+    "explanation": "The caption is classified as 'indoors' because the man is seated and using a computer, which typically occurs in indoor settings, involves 'man-made' elements because the computer is a human-created object, and shows 'work_education' because using a computer is often associated with work or educational activities."
+  },
+  {
+    "caption": "a man perched is using a net to scoop a fish from another aquarium .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "The caption is classified as 'indoors' because the scene takes place inside an aquarium, which is an indoor environment, involves 'man-made' elements because the aquarium and the net are human-created objects, and shows 'recreation' because the man is engaged in the activity of scooping a fish, which appears to be a recreational or leisure activity."
+  },
+  {
+    "caption": "a man perched on a row of aquariums is using a net to scoop a fish from another aquarium .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "The caption is classified as 'indoors' because the scene takes place inside a building with aquariums, involves 'man-made' elements because aquariums and nets are human-created objects, and shows 'recreation' because the man is engaged in the activity of scooping a fish, which is likely for leisure or maintenance purposes."
+  },
+  {
+    "caption": "a man rowing in the front of a canoe in a large body of water .",
+    "annotation": [
+      "outdoors",
+      "natural",
+      "body_of_water"
+    ],
+    "explanation": "The caption is classified as 'outdoors' because the scene takes place outside in an open environment, involves 'natural' elements because it includes a large body of water and a canoe, which are part of the natural world, and shows 'body_of_water' because the activity of rowing is occurring in a large body of water."
+  },
+  {
+    "caption": "a man rowing.",
+    "annotation": [
+      "outdoors",
+      "natural",
+      "body_of_water"
+    ],
+    "explanation": "The caption is classified as 'outdoors' because rowing typically takes place in open, outdoor environments, involves 'natural' elements because rowing often occurs on natural bodies of water like lakes or rivers, and shows 'body_of_water' because the activity of rowing directly involves being on or in a body of water."
+  },
+  {
+    "caption": "a man rows his boat .",
+    "annotation": [
+      "outdoors",
+      "natural",
+      "body_of_water"
+    ],
+    "explanation": "The caption is classified as 'outdoors' because the scene takes place outside in an open environment, involves 'natural' elements because the boat and water are part of the natural world, and shows 'body_of_water' because the activity of rowing a boat typically occurs on a lake, river, or other water body."
+  },
+  {
+    "caption": "a man rows his boat below .",
+    "annotation": [
+      "outdoors",
+      "natural",
+      "body_of_water"
+    ],
+    "explanation": "The caption is classified as 'outdoors' because the scene takes place outside in an open environment, involves 'natural' elements because it includes a body of water and likely natural surroundings, and shows 'body_of_water' because the man is rowing a boat on a water surface."
+  },
+  {
+    "caption": "a man singing in a very colorful environment .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "The caption is classified as 'indoors' because the mention of a \"very colorful environment\" suggests a controlled, possibly decorated setting typical of indoor spaces, involves 'man-made' elements because the colorful environment implies human design or decoration, and shows 'recreation' because singing is a leisure activity often associated with entertainment or personal enjoyment."
+  },
+  {
+    "caption": "a man singing.",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "The caption is classified as 'indoors' because the setting is likely inside a building or enclosed space, involves 'man-made' elements because the environment or equipment used for singing (e.g., microphones, stages) is typically human-created, and shows 'recreation' because singing is a leisure or entertainment activity."
+  },
+  {
+    "caption": "a man sleeps while listening to his ipod in the back of a vehicle .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "transportation_urban"
+    ],
+    "explanation": "The caption is classified as 'indoors' because the man is described as being in the back of a vehicle, which is an enclosed space, involves 'man-made' elements because the vehicle and the iPod are human-created objects, and shows 'transportation_urban' because the setting implies movement within an urban or populated environment."
+  },
+  {
+    "caption": "a man sleeps while listening to his ipod.",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "domestic"
+    ],
+    "explanation": "The caption is classified as 'indoors' because the setting implies an indoor environment where a person is likely to sleep and use personal devices like an iPod, involves 'man-made' elements because the iPod is a human-created electronic device, and shows 'domestic' activity because sleeping and listening to music are common personal or home-based activities."
+  },
+  {
+    "caption": "a man wearing yellow swimming trunks kneeling",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "The caption is classified as 'outdoors' because the setting suggests an open-air environment typical for swimming activities, involves 'man-made' elements because swimming trunks are human-created attire, and shows 'recreation' because kneeling in swimming trunks implies a leisure or sport-related activity."
+  },
+  {
+    "caption": "a man wearing yellow swimming trunks kneeling by the ocean",
+    "annotation": [
+      "outdoors",
+      "natural",
+      "body_of_water"
+    ],
+    "explanation": "The caption is classified as 'outdoors' because the scene takes place by the ocean, which is an open, external environment, involves 'natural' elements because the ocean and the surrounding setting are part of the natural world, and shows 'body_of_water' because the ocean is a prominent feature in the scene."
+  },
+  {
+    "caption": "a man with red pants is skiing .",
+    "annotation": [
+      "outdoors",
+      "natural",
+      "mountain"
+    ],
+    "explanation": "The caption is classified as **outdoors** because the activity of skiing typically takes place in open, outdoor environments, involves **natural** elements because skiing is often associated with natural settings like mountains, snow, and landscapes, and shows **mountain** because skiing is commonly performed on mountainous terrain."
+  },
+  {
+    "caption": "a man with red pants is skiing downhill .",
+    "annotation": [
+      "outdoors",
+      "natural",
+      "mountain"
+    ],
+    "explanation": "The caption is classified as 'outdoors' because the activity of skiing downhill typically takes place in an open, outdoor environment, involves 'natural' elements because skiing is often associated with natural landscapes like mountains, and shows 'mountain' because downhill skiing is commonly performed on mountainous terrain."
+  },
+  {
+    "caption": "a motorcyclist on a red speed bike leans .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "transportation_urban"
+    ],
+    "explanation": "The caption is classified as 'outdoors' because the scene likely takes place in an open, outdoor environment, involves 'man-made' elements because the red speed bike is a human-created object, and shows 'transportation_urban' because the motorcyclist and bike suggest movement in an urban or populated setting."
+  },
+  {
+    "caption": "a motorcyclist on a red speed bike leans into a sharp turn .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "transportation_urban"
+    ],
+    "explanation": "The caption is classified as 'outdoors' because the scene likely takes place in an open, outdoor environment such as a road or track, involves 'man-made' elements because the motorcycle and possibly the road are human-created objects, and shows 'transportation_urban' because the motorcyclist is engaged in an activity related to urban or road-based transportation."
+  },
+  {
+    "caption": "a person dressed in a tan jacket jumps a quad over a harvested cornfield",
+    "annotation": [
+      "outdoors",
+      "natural",
+      "field_forest"
+    ],
+    "explanation": "The caption is classified as 'outdoors' because the scene takes place in an open, outdoor setting (a harvested cornfield), involves 'natural' elements because the setting includes a cornfield, which is a natural environment, and shows 'field_forest' because the activity occurs in a rural, agricultural area resembling a field or forest-like landscape."
+  },
+  {
+    "caption": "a person dressed in a tan jacket jumps a quad over a harvested cornfield in front of a small out building .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "The caption is classified as **outdoors** because the scene takes place in a harvested cornfield, which is an open, natural environment, involves **man-made** elements because the small out building and the quad (a man-made vehicle) are present, and shows **recreation** because the person is jumping the quad, which is an activity typically done for fun or sport."
+  },
+  {
+    "caption": "a person drives around a futuristic looking vehicle while a man approaches and a crowd watches .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "transportation_urban"
+    ],
+    "explanation": "The caption is classified as **outdoors** because the scene describes activities happening in an open, outdoor setting, involves **man-made** elements because the futuristic vehicle and the crowd suggest human-created objects and structures, and shows **transportation_urban** because the focus is on a vehicle being driven in what appears to be an urban or populated environment."
+  },
+  {
+    "caption": "a person drives around a futuristic looking vehicle while a man approaches her and a crowd watches .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "transportation_urban"
+    ],
+    "explanation": "The caption is classified as 'outdoors' because the scene describes activities happening in an open, outdoor setting, involves 'man-made' elements because the futuristic vehicle and the crowd are human-created or constructed, and shows 'transportation_urban' because the focus is on a vehicle being driven in what appears to be an urban or populated environment."
+  },
+  {
+    "caption": "a person wearing a construction uniform is leaning against a traffic light pole on the sidewalk .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "transportation_urban"
+    ],
+    "explanation": "The caption is classified as **outdoors** because the scene takes place outside, specifically on a sidewalk near a traffic light pole, involves **man-made** elements because the traffic light pole and construction uniform are human-created objects, and shows **transportation_urban** because the traffic light pole is associated with urban transportation infrastructure."
+  },
+  {
+    "caption": "a person wearing a construction uniform is leaning.",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "work_education"
+    ],
+    "explanation": "The caption is classified as 'outdoors' because the setting is not specified as indoors and construction work often occurs outside, involves 'man-made' elements because the construction uniform and the context of construction imply human-made objects or environments, and shows 'work_education' because the person is wearing a construction uniform, indicating they are likely engaged in work-related activities."
+  },
+  {
+    "caption": "a red dog jumps to catch a tennis ball .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "The caption is classified as **outdoors** because the activity of a dog jumping to catch a tennis ball typically occurs in an open, outdoor space, involves **man-made** elements because a tennis ball is a human-created object, and shows **recreation** because the dog playing with the ball is a form of leisure or playful activity."
+  },
+  {
+    "caption": "a red dog jumps to catch a tennis ball in the dry tall grass .",
+    "annotation": [
+      "outdoors",
+      "natural",
+      "field_forest"
+    ],
+    "explanation": "The caption is classified as **outdoors** because the scene takes place in an open, natural environment (dry tall grass), involves **natural** elements because it includes grass and a dog interacting with nature, and shows **field_forest** because the setting resembles a field or grassy area typical of such environments."
+  },
+  {
+    "caption": "a runner in black is passing a florist shop .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "transportation_urban"
+    ],
+    "explanation": "The caption is classified as 'outdoors' because the scene takes place outside, as indicated by the runner passing a florist shop, involves 'man-made' elements because the florist shop is a constructed structure, and shows 'transportation_urban' because the runner is moving through an urban environment, which is a common mode of transportation in such settings."
+  },
+  {
+    "caption": "a runner in black is passing an outdoor florist shop .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "other_unclear"
+    ],
+    "explanation": "The caption is classified as 'outdoors' because the scene takes place outside, as indicated by the mention of an outdoor florist shop, involves 'man-made' elements because the florist shop is a constructed structure, and shows 'other_unclear' activity because the specific action of the runner passing the shop is not clearly defined or detailed."
+  },
+  {
+    "caption": "a smiling child wearing a hat and sunglasses sits in a car .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "transportation_urban"
+    ],
+    "explanation": "The caption is classified as 'indoors' because the child is sitting in a car, which is typically an enclosed space, involves 'man-made' elements because the car, hat, and sunglasses are human-made objects, and shows 'transportation_urban' because the car is a mode of transportation commonly used in urban settings."
+  },
+  {
+    "caption": "a smiling child wearing a hat and sunglasses sits.",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "The caption is classified as 'outdoors' because the mention of sunglasses and a hat suggests exposure to sunlight, typically associated with outdoor settings, involves 'man-made' elements because the hat and sunglasses are human-made objects, and shows 'recreation' because the smiling child sitting suggests a leisurely or playful activity."
+  },
+  {
+    "caption": "a spotted dog catching a ball on a snowy field .",
+    "annotation": [
+      "outdoors",
+      "natural",
+      "field_forest"
+    ],
+    "explanation": "The caption is classified as **outdoors** because the scene takes place in an open, outdoor setting (a snowy field), involves **natural** elements because it includes a snowy field and a dog, which are part of the natural environment, and shows **field_forest** because the activity occurs in a field-like area, which is a common feature of outdoor natural landscapes."
+  },
+  {
+    "caption": "a spotted dog catching a ball.",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "The caption is classified as 'outdoors' because the activity of a dog catching a ball typically occurs in an open, outdoor setting, involves 'man-made' elements because a ball is a human-created object, and shows 'recreation' because catching a ball is a playful and recreational activity."
+  },
+  {
+    "caption": "a teenager drinks directly out of the metal milkshake serving cup .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "domestic"
+    ],
+    "explanation": "The caption is classified as 'indoors' because the scene likely takes place inside a building or enclosed space, involves 'man-made' elements because the metal milkshake serving cup is a manufactured object, and shows 'domestic' because the activity of drinking a milkshake is a common, everyday activity often associated with home or casual settings."
+  },
+  {
+    "caption": "a terrier mix catches a frisbee in the air .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "The caption is classified as 'outdoors' because the activity of catching a frisbee typically occurs in an open, outdoor space, involves 'man-made' elements because a frisbee is a human-made object, and shows 'recreation' because catching a frisbee is a leisure activity often done for fun or exercise."
+  },
+  {
+    "caption": "a terrier mix catches a frisbee.",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "The caption is classified as 'outdoors' because the activity of catching a frisbee typically occurs in an open, outdoor space, involves 'man-made' elements because a frisbee is a human-made object, and shows 'recreation' because catching a frisbee is a leisure activity often done for fun or exercise."
+  },
+  {
+    "caption": "a well dressed young woman waits for the train while a man busy writing something .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "transportation_urban"
+    ],
+    "explanation": "The caption is classified as **outdoors** because the scene describes a woman waiting for a train, which typically occurs in an open or public space, involves **man-made** elements because the train and likely the surrounding infrastructure are human-constructed, and shows **transportation_urban** because the setting involves a train, which is a common mode of urban transportation."
+  },
+  {
+    "caption": "a well dressed young woman waits on a bench for the train while a man busy writing something waits nearby .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "transportation_urban"
+    ],
+    "explanation": "The caption is classified as **outdoors** because the scene takes place outside, as indicated by the mention of a bench and waiting for a train, which are typically outdoor settings. It involves **man-made** elements because the bench and the train are human-constructed objects. The caption shows **transportation_urban** because the setting involves a train, which is a common mode of urban transportation, and the scene is set in an urban or public space."
+  },
+  {
+    "caption": "a woman is drinking a beverage",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "domestic"
+    ],
+    "explanation": "The caption is classified as 'indoors' because the activity of drinking a beverage is typically associated with indoor settings like homes or cafes, involves 'man-made' elements because the beverage and the container are human-made objects, and shows 'domestic' activity because drinking a beverage is a common everyday activity often associated with home or personal life."
+  },
+  {
+    "caption": "a woman is drinking a beverage in a busy cafe .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "restaurant"
+    ],
+    "explanation": "The caption is classified as 'indoors' because the scene takes place in a cafe, which is an indoor setting, involves 'man-made' elements because a cafe is a constructed environment with furniture and decor, and shows 'restaurant' because a cafe is a type of establishment where food and beverages are served."
+  },
+  {
+    "caption": "a woman is having her foot examined by another woman",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "domestic"
+    ],
+    "explanation": "The caption is classified as 'indoors' because the activity of having a foot examined typically occurs in an indoor setting such as a home or clinic, involves 'man-made' elements because the setting likely includes furniture or medical equipment created by humans, and shows 'domestic' activity because the interaction appears to be a personal or caregiving scenario, often associated with home or private environments."
+  },
+  {
+    "caption": "a woman is having her foot examined by another woman in a run-down building .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "other_unclear"
+    ],
+    "explanation": "The caption is classified as 'indoors' because the scene takes place inside a run-down building, involves 'man-made' elements because the building is a constructed structure, and shows 'other_unclear' because the specific activity (foot examination) does not clearly fit into a more specific predefined category."
+  },
+  {
+    "caption": "a woman is holding a baby while another child stands .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "domestic"
+    ],
+    "explanation": "The caption is classified as 'indoors' because the scene likely takes place inside a home or building, involves 'man-made' elements because the setting includes human-constructed objects or environments, and shows 'domestic' activity because it depicts a family-related or household scene involving a woman, a baby, and a child."
+  },
+  {
+    "caption": "a woman is holding a baby while another child stands by her side .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "domestic"
+    ],
+    "explanation": "The caption is classified as 'indoors' because the scene likely takes place inside a home or building, involves 'man-made' elements because the setting includes human-constructed objects or environments, and shows 'domestic' because the activity involves family or household-related interactions, such as a woman holding a baby and another child nearby."
+  },
+  {
+    "caption": "a woman is laying down laughing .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "domestic"
+    ],
+    "explanation": "The caption is classified as 'indoors' because the setting is likely inside a home or building, involves 'man-made' elements because the environment is constructed by humans (e.g., furniture, walls), and shows 'domestic' activity because the scene depicts a casual, everyday moment typical of a home setting."
+  },
+  {
+    "caption": "a woman is laying down on a sofa laughing .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "domestic"
+    ],
+    "explanation": "The caption is classified as 'indoors' because the scene takes place inside a domestic setting (on a sofa), involves 'man-made' elements because the sofa is a human-created object, and shows 'domestic' activity because the setting and action (laying down and laughing) are typical of a home environment."
+  },
+  {
+    "caption": "a woman is selling vegetables .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "work_education"
+    ],
+    "explanation": "The caption is classified as **outdoors** because the activity of selling vegetables typically occurs in open-air markets or streets, involves **man-made** elements because the vegetables are likely being sold in a market stall or similar constructed environment, and shows **work_education** because selling vegetables is an economic activity related to work."
+  },
+  {
+    "caption": "a woman is selling vegetables on the street .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "work_education"
+    ],
+    "explanation": "The caption is classified as **outdoors** because the scene takes place on the street, which is an open, outdoor environment, involves **man-made** elements because the street and the act of selling vegetables are human-created or human-influenced, and shows **work_education** because selling vegetables is an economic activity related to work."
+  },
+  {
+    "caption": "a woman is using a ruler at a desk to mark a sheet of paper .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "work_education"
+    ],
+    "explanation": "The caption is classified as 'indoors' because the scene takes place at a desk, which is typically an indoor setting, involves 'man-made' elements because the ruler, desk, and sheet of paper are all human-made objects, and shows 'work_education' because using a ruler to mark a sheet of paper suggests an activity related to work or education."
+  },
+  {
+    "caption": "a woman is using a ruler to mark a sheet of paper .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "work_education"
+    ],
+    "explanation": "The caption is classified as **indoors** because the activity of using a ruler to mark a sheet of paper typically occurs in an indoor setting like a home, office, or classroom, involves **man-made** elements because the ruler and sheet of paper are human-created objects, and shows **work_education** because the action of marking a sheet of paper suggests an activity related to work, study, or learning."
+  },
+  {
+    "caption": "a woman sits on a shoe store 's bench while putting a shoe onto her right foot .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "The caption is classified as 'indoors' because the scene takes place inside a shoe store, involves 'man-made' elements because the bench and the shoe store are human-created structures, and shows 'recreation' because the woman is trying on shoes, which is a leisure activity."
+  },
+  {
+    "caption": "a woman sits while putting a shoe onto her right foot .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "domestic"
+    ],
+    "explanation": "The caption is classified as 'indoors' because the activity of putting on a shoe is typically associated with indoor settings like homes or changing rooms, involves 'man-made' elements because shoes and the surrounding environment (e.g., furniture, flooring) are human-created objects, and shows 'domestic' activity because the act of putting on a shoe is a common, everyday task often performed in a home or personal space."
+  },
+  {
+    "caption": "a woman sleeps",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "domestic"
+    ],
+    "explanation": "The caption is classified as 'indoors' because the activity of sleeping typically occurs inside a building or enclosed space, involves 'man-made' elements because the setting likely includes furniture or structures created by humans, and shows 'domestic' activity because sleeping is a common, everyday activity associated with home or personal living spaces."
+  },
+  {
+    "caption": "a woman sleeps under a blue and white blanket in a car .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "transportation_urban"
+    ],
+    "explanation": "The caption is classified as 'indoors' because the scene takes place inside a car, involves 'man-made' elements because the car and the blanket are human-made objects, and shows 'transportation_urban' because the car is a mode of transportation typically used in urban settings."
+  },
+  {
+    "caption": "a woman with a peace symbol grills vegetables",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "domestic"
+    ],
+    "explanation": "The caption is classified as 'outdoors' because the activity of grilling typically takes place outside, involves 'man-made' elements because the grill is a human-made object, and shows 'domestic' activity because grilling vegetables is a common household or everyday task."
+  },
+  {
+    "caption": "a woman with a peace symbol on her shirt grills vegetables",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "domestic"
+    ],
+    "explanation": "The caption is classified as 'outdoors' because the activity of grilling vegetables typically takes place outside, involves 'man-made' elements because the grill and the peace symbol on the shirt are human-made objects, and shows 'domestic' activity because grilling vegetables is a common household or everyday activity."
+  },
+  {
+    "caption": "a young boy wearing a dark blue hat sleeps on a bench at a terminal .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "transportation_urban"
+    ],
+    "explanation": "The caption is classified as 'indoors' because the mention of a terminal suggests an enclosed or indoor space, involves 'man-made' elements because a bench and a terminal are human-constructed objects, and shows 'transportation_urban' because a terminal is typically associated with urban transportation hubs like bus or train stations."
+  },
+  {
+    "caption": "a young boy wearing a dark blue hat sleeps.",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "domestic"
+    ],
+    "explanation": "The caption is classified as 'indoors' because the setting suggests a controlled environment typical of indoor spaces, involves 'man-made' elements because the dark blue hat is a manufactured object, and shows 'domestic' activity because sleeping is a common activity associated with home or personal spaces."
+  },
+  {
+    "caption": "all these people are enjoying a basement dance party .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "The caption is classified as 'indoors' because the mention of a \"basement\" indicates an enclosed, indoor space, involves 'man-made' elements because a basement is a constructed environment, and shows 'recreation' because the activity described is a dance party, which is a form of leisure and entertainment."
+  },
+  {
+    "caption": "all these people are enjoying a dance party .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "The caption is classified as 'indoors' because the mention of a dance party suggests a controlled environment typically held inside a venue, involves 'man-made' elements because dance parties are organized events requiring human-created spaces and equipment, and shows 'recreation' because dancing at a party is a leisure activity meant for enjoyment and entertainment."
+  },
+  {
+    "caption": "an asian man sells a hot confection from his stand in a crowded market .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "restaurant"
+    ],
+    "explanation": "The caption is classified as 'outdoors' because the scene takes place in a crowded market, which is an open-air setting, involves 'man-made' elements because the market and the stand are human-constructed structures, and shows 'restaurant' because the man is selling food, which is associated with dining or food service activities."
+  },
+  {
+    "caption": "an asian man sells a hot confection.",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "restaurant"
+    ],
+    "explanation": "The caption is classified as 'outdoors' because the setting suggests an open-air environment typical for street vendors, involves 'man-made' elements because the hot confection and selling setup are human-created, and shows 'restaurant' because the activity of selling food aligns with food service or street food vending."
+  },
+  {
+    "caption": "an old woman is selling produce at a farmer 's market .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "work_education"
+    ],
+    "explanation": "The caption is classified as 'outdoors' because the farmer's market is typically an open-air setting, involves 'man-made' elements because the produce and market setup are human-created, and shows 'work_education' because selling produce is an economic activity related to work."
+  },
+  {
+    "caption": "an old woman is selling produce.",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "work_education"
+    ],
+    "explanation": "The caption is classified as 'outdoors' because the activity of selling produce typically occurs in open-air markets or street settings, involves 'man-made' elements because the produce being sold is likely cultivated and harvested by humans, and shows 'work_education' because selling produce is a form of labor or work activity."
+  },
+  {
+    "caption": "an older couple passes by a young lady",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "transportation_urban"
+    ],
+    "explanation": "The caption is classified as 'outdoors' because the scene likely takes place in an open, outdoor setting such as a street or park, involves 'man-made' elements because the presence of a young lady and an older couple suggests a human-created environment like a sidewalk or urban area, and shows 'transportation_urban' because the act of passing by implies movement, possibly in a city or town setting where urban transportation or walking is common."
+  },
+  {
+    "caption": "an older couple passes by a young lady on the sidewalk .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "transportation_urban"
+    ],
+    "explanation": "The caption is classified as 'outdoors' because the scene takes place on a sidewalk, which is an open, outdoor setting, involves 'man-made' elements because the sidewalk is a constructed, human-made structure, and shows 'transportation_urban' because the activity of passing by on a sidewalk is typical of urban environments and involves movement in a city-like setting."
+  },
+  {
+    "caption": "an older man and women are using computers in a sort of storage room .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "work_education"
+    ],
+    "explanation": "The caption is classified as 'indoors' because the scene takes place in a storage room, which is an enclosed space, involves 'man-made' elements because computers and the storage room are human-created objects and structures, and shows 'work_education' because the individuals are using computers, which is often associated with work or educational activities."
+  },
+  {
+    "caption": "an older man and women are using computers.",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "work_education"
+    ],
+    "explanation": "The caption is classified as 'indoors' because the activity of using computers typically occurs inside a building, involves 'man-made' elements because computers are human-made objects, and shows 'work_education' because using computers is often associated with work or educational activities."
+  },
+  {
+    "caption": "an orchestra of about <number> people are practicing",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "The caption is classified as 'indoors' because orchestras typically practice in indoor settings such as concert halls or rehearsal rooms, involves 'man-made' elements because musical instruments and the setting are human-created, and shows 'recreation' because practicing music is a leisure or artistic activity."
+  },
+  {
+    "caption": "an orchestra of about <number> people are practicing on the stage of what appears to be an auditorium full of green chairs .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "The caption is classified as 'indoors' because the scene takes place on the stage of an auditorium, which is an enclosed indoor space, involves 'man-made' elements because the auditorium, stage, and green chairs are all constructed by humans, and shows 'recreation' because the orchestra is practicing, which is a recreational or artistic activity."
+  },
+  {
+    "caption": "asian students are examining sheets of paper while standing .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "work_education"
+    ],
+    "explanation": "The caption is classified as 'indoors' because the activity of examining sheets of paper is typically associated with indoor settings like classrooms or offices, involves 'man-made' elements because sheets of paper are human-created objects, and shows 'work_education' because examining papers is often related to educational or work-related tasks."
+  },
+  {
+    "caption": "asian students are examining sheets of paper while standing in line .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "work_education"
+    ],
+    "explanation": "The caption is classified as 'indoors' because the activity of examining sheets of paper suggests a controlled environment typical of indoor settings, involves 'man-made' elements because sheets of paper and the setting (likely a classroom or office) are human-created objects, and shows 'work_education' because the students are engaged in an activity related to learning or academic tasks."
+  },
+  {
+    "caption": "brown dog catches a pink ball in the park .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "The caption is classified as 'outdoors' because the scene takes place in a park, which is an open, outdoor environment, involves 'man-made' elements because the pink ball is a manufactured object, and shows 'recreation' because the dog catching the ball is a playful, recreational activity."
+  },
+  {
+    "caption": "brown dog catches a pink ball.",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "The caption is classified as 'outdoors' because the activity of a dog catching a ball typically occurs in an open, outdoor setting, involves 'man-made' elements because a pink ball is a manufactured object, and shows 'recreation' because the act of a dog catching a ball is a playful and recreational activity."
+  },
+  {
+    "caption": "buff african american man waits for subway at wall street station .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "transportation_urban"
+    ],
+    "explanation": "The caption is classified as 'indoors' because the scene takes place at a subway station, which is typically an enclosed or indoor environment, involves 'man-made' elements because the subway station and its infrastructure are constructed by humans, and shows 'transportation_urban' because the setting is a subway station in an urban area, specifically Wall Street, which is associated with urban transportation systems."
+  },
+  {
+    "caption": "buff african american man waits for subway.",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "transportation_urban"
+    ],
+    "explanation": "The caption is classified as 'indoors' because the subway is typically an indoor environment, involves 'man-made' elements because the subway is a human-constructed transportation system, and shows 'transportation_urban' because the subway is a mode of urban transportation and the setting is in a city."
+  },
+  {
+    "caption": "crowd waiting for a train .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "transportation_urban"
+    ],
+    "explanation": "The caption is classified as 'outdoors' because the scene likely takes place in an open or public space such as a train station, involves 'man-made' elements because the train and station infrastructure are human-constructed, and shows 'transportation_urban' because the activity of waiting for a train is associated with urban transportation systems."
+  },
+  {
+    "caption": "crowd waiting on main street subway platform for a train .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "transportation_urban"
+    ],
+    "explanation": "The caption is classified as 'indoors' because the subway platform is typically an enclosed or sheltered space, involves 'man-made' elements because the subway platform and train are constructed by humans, and shows 'transportation_urban' because the scene depicts a train in an urban setting used for public transportation."
+  },
+  {
+    "caption": "dancers practicing their dance routines .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "The caption is classified as 'indoors' because dancers practicing routines often occur in indoor spaces like studios or rehearsal halls, involves 'man-made' elements because dance routines typically take place in constructed environments such as dance studios or stages, and shows 'recreation' because practicing dance routines is a leisure or recreational activity."
+  },
+  {
+    "caption": "decorated limo passing by elderly woman waiting on park bench .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "transportation_urban"
+    ],
+    "explanation": "The caption is classified as 'outdoors' because the scene takes place in an open, outdoor setting such as a park, involves 'man-made' elements because the limo and park bench are human-created objects, and shows 'transportation_urban' because the limo is a vehicle typically used in urban or populated areas for transportation."
+  },
+  {
+    "caption": "decorated limo passing by elderly woman waiting on park bench in chinese street .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "transportation_urban"
+    ],
+    "explanation": "The caption is classified as 'outdoors' because the scene takes place in a Chinese street, which is an open, outdoor environment, involves 'man-made' elements because the limo and the street are human-created structures, and shows 'transportation_urban' because the decorated limo is a vehicle moving through an urban setting."
+  },
+  {
+    "caption": "four people in black shirts giving a presentation to a room full of people using a big projector image .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "work_education"
+    ],
+    "explanation": "The caption is classified as 'indoors' because the scene takes place in a room with a projector, which is typically an indoor setting, involves 'man-made' elements because the projector and presentation setup are human-created objects, and shows 'work_education' because the people are giving a presentation, which is an activity related to work or education."
+  },
+  {
+    "caption": "four people in black shirts giving a presentation to a room full of people using a big projector image on the wall .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "work_education"
+    ],
+    "explanation": "The caption is classified as 'indoors' because the scene takes place inside a room, involves 'man-made' elements because the big projector image on the wall and the presentation setup are human-created objects, and shows 'work_education' because the people are giving a presentation, which is an activity related to work or education."
+  },
+  {
+    "caption": "four women are on stage singing .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "The caption is classified as 'indoors' because the stage setting suggests an indoor environment, involves 'man-made' elements because a stage is a constructed structure, and shows 'recreation' because singing is a form of entertainment or leisure activity."
+  },
+  {
+    "caption": "four women are singing .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "The caption is classified as 'indoors' because the activity of singing is often associated with indoor settings like concert halls or studios, involves 'man-made' elements because singing typically occurs in constructed environments such as stages or rooms, and shows 'recreation' because singing is a leisure or artistic activity often done for enjoyment or performance."
+  },
+  {
+    "caption": "four young adults sit",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "other_unclear"
+    ],
+    "explanation": "The caption is classified as 'indoors' because the setting is not explicitly described as outdoors, 'man-made' because the environment likely includes human-created structures or objects, and 'other_unclear' because the specific activity or context of the individuals sitting is not clearly defined."
+  },
+  {
+    "caption": "girl wearing blue shirt and black shorts plays trumped .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "The caption is classified as 'indoors' because the activity of playing a trumpet is often associated with indoor settings like homes, studios, or concert halls, involves 'man-made' elements because the trumpet is a man-made instrument, and shows 'recreation' because playing a musical instrument is a leisure or recreational activity."
+  },
+  {
+    "caption": "girl wearing blue shirt and black shorts plays trumped outside .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "The caption is classified as **outdoors** because the scene takes place outside, involves **man-made** elements because the trumpet is a human-made object, and shows **recreation** because playing a trumpet is a recreational activity."
+  },
+  {
+    "caption": "group of women doing a presentation .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "work_education"
+    ],
+    "explanation": "The caption is classified as 'indoors' because the setting of a presentation typically occurs inside a building or enclosed space, involves 'man-made' elements because presentations usually require man-made objects like projectors, screens, or furniture, and shows 'work_education' because a presentation is an activity related to professional or educational contexts."
+  },
+  {
+    "caption": "group of women doing a presentation off an easel .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "work_education"
+    ],
+    "explanation": "The caption is classified as 'indoors' because the scene likely takes place inside a room or building where presentations are typically held, involves 'man-made' elements because an easel is a human-created object used for displaying information, and shows 'work_education' because a presentation is an activity related to professional or educational contexts."
+  },
+  {
+    "caption": "kids play around a statue bust outside .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "The caption is classified as **outdoors** because the scene takes place outside, involves **man-made** elements because the statue bust is a human-created object, and shows **recreation** because the kids playing around the statue indicates a leisure activity."
+  },
+  {
+    "caption": "little girl skis on slope .",
+    "annotation": [
+      "outdoors",
+      "natural",
+      "mountain"
+    ],
+    "explanation": "The caption is classified as 'outdoors' because the activity of skiing typically takes place in an open, outdoor environment, involves 'natural' elements because skiing is often associated with natural landscapes like mountains and snow, and shows 'mountain' because skiing commonly occurs on mountain slopes."
+  },
+  {
+    "caption": "little girl skis.",
+    "annotation": [
+      "outdoors",
+      "natural",
+      "mountain"
+    ],
+    "explanation": "The caption is classified as 'outdoors' because skiing typically takes place in open, outdoor environments, involves 'natural' elements because skiing is often associated with natural landscapes like mountains, and shows 'mountain' because skiing is commonly performed on mountainous terrain."
+  },
+  {
+    "caption": "man with gray hair wearing a suit is waiting in a subway tunnel .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "transportation_urban"
+    ],
+    "explanation": "The caption is classified as 'indoors' because the scene takes place in a subway tunnel, which is an enclosed, man-made structure, involves 'man-made' elements because the subway tunnel and suit are human-created objects, and shows 'transportation_urban' because the setting is a subway, which is a mode of urban transportation."
+  },
+  {
+    "caption": "man with gray hair wearing a suit is waiting.",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "other_unclear"
+    ],
+    "explanation": "The caption is classified as 'indoors' because the setting is not explicitly described but suggests a controlled environment typical of indoor spaces, involves 'man-made' elements because the suit is a human-created object, and shows 'other_unclear' activity because the action of waiting is vague and lacks specific context."
+  },
+  {
+    "caption": "men playing volleyball",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "The caption is classified as 'outdoors' because volleyball is typically played in open, outdoor settings, involves 'man-made' elements because volleyball courts and equipment are human-constructed, and shows 'recreation' because playing volleyball is a leisure or sporting activity."
+  },
+  {
+    "caption": "men playing volleyball in the sand .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "The caption is classified as **outdoors** because the activity takes place in the sand, which is typically an outdoor setting, involves **man-made** elements because volleyball is a human-created sport with structured rules and equipment, and shows **recreation** because playing volleyball is a leisure activity typically done for enjoyment or exercise."
+  },
+  {
+    "caption": "muzzled greyhounds are racing on the track .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "The caption is classified as 'outdoors' because the activity of greyhounds racing on a track typically occurs in an open, outdoor environment, involves 'man-made' elements because the racing track is a constructed facility designed for this purpose, and shows 'recreation' because greyhound racing is a form of entertainment and sport."
+  },
+  {
+    "caption": "muzzled greyhounds are racing.",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "The caption is classified as 'outdoors' because greyhound racing typically takes place in open-air tracks or outdoor venues, involves 'man-made' elements because the racing environment, including the track and muzzles, is constructed by humans, and shows 'recreation' because greyhound racing is a form of competitive sport and entertainment."
+  },
+  {
+    "caption": "one dog is jumping at the lady while the other walks",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "The caption is classified as 'outdoors' because the scene likely takes place in an open, outdoor setting where a dog can jump and walk freely, involves 'man-made' elements because the presence of a lady suggests a human-influenced environment, and shows 'recreation' because the interaction between the dogs and the lady implies a playful or leisurely activity."
+  },
+  {
+    "caption": "one dog is jumping at the lady while the other walks away .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "The caption is classified as 'outdoors' because the scene likely takes place in an open, outdoor setting, involves 'man-made' elements because the presence of a lady and the context suggest human activity or structures, and shows 'recreation' because the interaction between the dog and the lady appears playful or leisurely."
+  },
+  {
+    "caption": "people are rowing a boat .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "The caption is classified as 'outdoors' because the activity of rowing a boat typically takes place in an open, outdoor environment, involves 'man-made' elements because a boat is a human-created object, and shows 'recreation' because rowing a boat is often a leisure or recreational activity."
+  },
+  {
+    "caption": "people are rowing a boat in the water .",
+    "annotation": [
+      "outdoors",
+      "natural",
+      "body_of_water"
+    ],
+    "explanation": "The caption is classified as **outdoors** because the scene takes place outside in an open environment, involves **natural** elements because the water and the setting suggest a natural landscape, and shows **body_of_water** because the activity of rowing a boat occurs in a water body like a lake, river, or sea."
+  },
+  {
+    "caption": "people examine books in a library .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "work_education"
+    ],
+    "explanation": "The caption is classified as 'indoors' because the activity of examining books in a library typically occurs inside a building, involves 'man-made' elements because a library is a constructed environment filled with books and furniture, and shows 'work_education' because examining books is often associated with learning, studying, or academic activities."
+  },
+  {
+    "caption": "people examine books.",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "work_education"
+    ],
+    "explanation": "The caption is classified as 'indoors' because examining books typically occurs in indoor settings like libraries, bookstores, or homes, involves 'man-made' elements because books are human-created objects, and shows 'work_education' because examining books is often associated with learning, studying, or professional activities."
+  },
+  {
+    "caption": "people pass each other on a busy city street while talking on their cellphones .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "transportation_urban"
+    ],
+    "explanation": "The caption is classified as 'outdoors' because the scene takes place on a busy city street, which is an open, outdoor environment, involves 'man-made' elements because the street, buildings, and cellphones are all human-created objects, and shows 'transportation_urban' because the activity involves people moving through an urban setting, which is characteristic of urban transportation."
+  },
+  {
+    "caption": "people pass each other while talking on their cellphones .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "transportation_urban"
+    ],
+    "explanation": "The caption is classified as 'outdoors' because the scene likely takes place in an open, public space where people are passing each other, involves 'man-made' elements because cellphones and urban infrastructure are human-created objects, and shows 'transportation_urban' because the activity of people passing each other suggests movement in a city or urban environment."
+  },
+  {
+    "caption": "person with two ski poles skiing down .",
+    "annotation": [
+      "outdoors",
+      "natural",
+      "mountain"
+    ],
+    "explanation": "The caption is classified as outdoors because the activity of skiing typically takes place in open, outdoor environments, involves natural elements because skiing is often associated with natural settings like mountains and snow, and shows activity because the caption describes a person actively skiing down a slope."
+  },
+  {
+    "caption": "person with two ski poles skiing down a snowy hill .",
+    "annotation": [
+      "outdoors",
+      "natural",
+      "mountain"
+    ],
+    "explanation": "The caption is classified as outdoors because the activity of skiing down a snowy hill typically occurs in open, outdoor environments, involves natural elements because the snowy hill and mountain setting are part of the natural landscape, and shows activity because skiing is an active sport involving movement and physical effort."
+  },
+  {
+    "caption": "several people sit",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "other_unclear"
+    ],
+    "explanation": "The caption is classified as 'indoors' because the setting is not explicitly described as outdoors, involves 'man-made' elements because the presence of people suggests a constructed environment, and shows 'other_unclear' activity because the specific action or context of the people sitting is not detailed."
+  },
+  {
+    "caption": "stage dancers practicing their dance routines .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "The caption is classified as 'indoors' because stage dancers typically practice in indoor environments like studios or theaters, involves 'man-made' elements because stages and dance studios are constructed by humans, and shows 'recreation' because practicing dance routines is a leisure or recreational activity."
+  },
+  {
+    "caption": "street vendors are selling fruits and vegetables in a stand and in large baskets on the ground .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "work_education"
+    ],
+    "explanation": "The caption is classified as **outdoors** because the scene describes street vendors selling goods, which typically occurs in open, outdoor settings, involves **man-made** elements because the stand and baskets are human-created objects, and shows **work_education** because the activity of selling fruits and vegetables is a form of labor or work."
+  },
+  {
+    "caption": "the brown dog catches a ball in the air .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "The caption is classified as 'outdoors' because the activity of catching a ball typically occurs in open, outdoor spaces, involves 'man-made' elements because a ball is a human-created object, and shows 'recreation' because catching a ball is a playful or leisure activity."
+  },
+  {
+    "caption": "the little girl swings in the backyard .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "domestic"
+    ],
+    "explanation": "The caption is classified as 'outdoors' because the scene takes place in a backyard, which is an open-air environment, involves 'man-made' elements because the backyard and the swing are human-constructed, and shows 'domestic' activity because the little girl swinging is a common activity associated with home life."
+  },
+  {
+    "caption": "the little girl swings.",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "The caption is classified as 'outdoors' because swinging typically occurs in outdoor settings like parks or playgrounds, involves 'man-made' elements because swings are human-constructed objects, and shows 'recreation' because swinging is a leisure activity often associated with play and enjoyment."
+  },
+  {
+    "caption": "the man in the red shirt and flowery tie is sitting on a bus by the window .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "transportation_urban"
+    ],
+    "explanation": "The caption is classified as 'indoors' because the scene takes place inside a bus, involves 'man-made' elements because the bus and the man's clothing (red shirt and flowery tie) are human-created objects, and shows 'transportation_urban' because the bus is a mode of urban transportation and the setting implies an urban environment."
+  },
+  {
+    "caption": "the man in the red shirt and flowery tie is sitting.",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "other_unclear"
+    ],
+    "explanation": "The caption is classified as 'indoors' because the setting is not explicitly described but the mention of a man sitting suggests an indoor environment, involves 'man-made' elements because the red shirt and flowery tie are man-made clothing items, and shows 'other_unclear' activity because the specific activity of the man is not clearly defined beyond sitting."
+  },
+  {
+    "caption": "three children are playing .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "The caption is classified as 'outdoors' because the activity of children playing is commonly associated with open, outdoor spaces, involves 'man-made' elements because the setting likely includes playground equipment or other constructed items, and shows 'recreation' because playing is a recreational activity typically engaged in for enjoyment and leisure."
+  },
+  {
+    "caption": "three children are practicing martial arts in a gym .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "The caption is classified as 'indoors' because the activity is taking place in a gym, which is an enclosed space, involves 'man-made' elements because a gym is a constructed environment with equipment and facilities designed by humans, and shows 'recreation' because practicing martial arts is a leisure or physical activity done for enjoyment or skill development."
+  },
+  {
+    "caption": "three children are practicing martial arts.",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "The caption is classified as 'indoors' because the activity of practicing martial arts is typically done in a controlled environment like a dojo or gym, involves 'man-made' elements because martial arts training often occurs in constructed spaces such as training halls or studios, and shows 'recreation' because practicing martial arts is a leisure or recreational activity."
+  },
+  {
+    "caption": "three girls or friends having drinks at a bar laughing .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "The caption is classified as 'indoors' because the scene takes place at a bar, which is typically an indoor setting, involves 'man-made' elements because a bar is a constructed environment with furniture and decor, and shows 'recreation' because the girls are having drinks and laughing, which are leisure activities."
+  },
+  {
+    "caption": "three girls or friends having drinks laughing .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "The caption is classified as 'indoors' because the scene likely takes place inside a building or enclosed space, involves 'man-made' elements because drinks and the setting suggest human-created objects or environments, and shows 'recreation' because the friends are laughing and having drinks, which indicates a leisure activity."
+  },
+  {
+    "caption": "three people in various stages of swimming strokes race",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "The caption is classified as 'outdoors' because the activity of swimming typically takes place in outdoor settings like pools or open water, involves 'man-made' elements because swimming races often occur in constructed environments such as pools, and shows 'recreation' because swimming strokes in a race are part of a recreational or competitive activity."
+  },
+  {
+    "caption": "three people in various stages of swimming strokes race along colorful lane markers .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "The caption is classified as 'outdoors' because the scene likely takes place in an open-air environment such as a swimming pool, involves 'man-made' elements because the colorful lane markers and swimming pool are human-constructed, and shows 'recreation' because the activity of swimming and racing is a form of leisure or sport."
+  },
+  {
+    "caption": "three women and a man are drinking beer .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "The caption is classified as 'indoors' because the activity of drinking beer is typically associated with indoor settings like bars or homes, involves 'man-made' elements because beer is a manufactured product and the setting is likely a constructed environment, and shows 'recreation' because drinking beer is a leisure activity often done for relaxation or socializing."
+  },
+  {
+    "caption": "three women and a man are drinking beer at a table .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "The caption is classified as 'indoors' because the scene likely takes place inside a building, such as a bar or restaurant, where people are seated at a table, involves 'man-made' elements because the table and beer are human-created objects, and shows 'recreation' because drinking beer at a table is a social and leisurely activity."
+  },
+  {
+    "caption": "three women speak to each other in a room with tan walls .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "domestic"
+    ],
+    "explanation": "The caption is classified as **indoors** because the scene takes place \"in a room,\" which is an enclosed, indoor space, involves **man-made** elements because the \"tan walls\" are constructed by humans, and shows **domestic** activity because the setting appears to be a home or residential space where people are interacting casually."
+  },
+  {
+    "caption": "three women speak to each other.",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "other_unclear"
+    ],
+    "explanation": "The caption is classified as 'indoors' because the setting is not explicitly described as outdoors, involves 'man-made' elements because the interaction likely occurs in a constructed environment, and shows 'other_unclear' activity because the specific nature of the conversation or interaction is not detailed."
+  },
+  {
+    "caption": "three young women and one young man singing in an auditorium .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "The caption is classified as 'indoors' because the setting is described as an auditorium, which is an enclosed space, involves 'man-made' elements because an auditorium is a constructed environment, and shows 'recreation' because singing is a leisure activity."
+  },
+  {
+    "caption": "three young women and one young man singing.",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "The caption is classified as 'indoors' because the setting is not specified as outdoors and the activity of singing is commonly associated with indoor environments, involves 'man-made' elements because the context suggests a human-created setting such as a room or studio, and shows 'recreation' because singing is a leisure activity typically done for enjoyment or entertainment."
+  },
+  {
+    "caption": "two children swing from a swing made from a steel drum .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "The caption is classified as 'outdoors' because the scene likely takes place in an open, outdoor setting where children are swinging, involves 'man-made' elements because the swing is made from a steel drum, which is a human-created object, and shows 'recreation' because swinging is a leisure activity typically associated with play and enjoyment."
+  },
+  {
+    "caption": "two children swing in dusty rooftop from a swing made from a steel drum .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "The caption is classified as 'outdoors' because the scene takes place on a rooftop, which is an open-air setting, involves 'man-made' elements because the swing is made from a steel drum, which is a human-created object, and shows 'recreation' because the children are swinging, which is a leisure activity."
+  },
+  {
+    "caption": "two dogs are catching blue frisbees in grass .",
+    "annotation": [
+      "outdoors",
+      "natural",
+      "field_forest"
+    ],
+    "explanation": "The caption is classified as 'outdoors' because the scene takes place outside in an open area, involves 'natural' elements because it includes grass and frisbees, which are associated with nature and outdoor activities, and shows 'field_forest' because the setting appears to be a grassy field or similar natural environment."
+  },
+  {
+    "caption": "two dogs are catching blue frisbees.",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "The caption is classified as 'outdoors' because the activity of dogs catching frisbees typically occurs in open, outdoor spaces, involves 'man-made' elements because frisbees are human-made objects, and shows 'recreation' because the activity of playing with frisbees is a form of leisure or recreational activity."
+  },
+  {
+    "caption": "two dogs are nose to nose while a third dog stands .",
+    "annotation": [
+      "outdoors",
+      "natural",
+      "other_unclear"
+    ],
+    "explanation": "The caption is classified as 'outdoors' because the scene likely takes place in an open, outdoor setting, involves 'natural' elements because the presence of dogs suggests a connection to nature or an environment where animals are commonly found, and shows 'other_unclear' because the specific activity or interaction between the dogs is not explicitly detailed or easily categorized."
+  },
+  {
+    "caption": "two dogs are nose to nose while a third dog stands next to them .",
+    "annotation": [
+      "outdoors",
+      "natural",
+      "other_unclear"
+    ],
+    "explanation": "The caption is classified as 'outdoors' because the scene likely takes place in an open, outdoor setting where dogs are commonly seen interacting, involves 'natural' elements because the dogs and their behavior are part of the natural world, and shows 'other_unclear' because the specific activity or context of the dogs' interaction is not explicitly detailed or easily categorized."
+  },
+  {
+    "caption": "two furry light brown dogs lying on a hardwood floor .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "domestic"
+    ],
+    "explanation": "The caption is classified as 'indoors' because the scene describes dogs lying on a hardwood floor, which is typically found inside a house or building, involves 'man-made' elements because the hardwood floor is a constructed, human-made surface, and shows 'domestic' because the dogs are described as furry and lying in a relaxed manner, suggesting they are pets in a home environment."
+  },
+  {
+    "caption": "two furry light brown dogs lying.",
+    "annotation": [
+      "outdoors",
+      "natural",
+      "field_forest"
+    ],
+    "explanation": "The caption is classified as 'outdoors' because the setting implies an open, natural environment where dogs are lying, involves 'natural' elements because the description of 'furry light brown dogs' and the context suggest a connection to nature, and shows 'field_forest' because the scene likely takes place in a grassy or wooded area typical of such environments."
+  },
+  {
+    "caption": "two girls and three boys are presenting in front of a dry erase board .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "work_education"
+    ],
+    "explanation": "The caption is classified as 'indoors' because the scene takes place in front of a dry erase board, which is typically found inside a room or building, involves 'man-made' elements because a dry erase board is a human-created object, and shows 'work_education' because the individuals are presenting, which is an activity commonly associated with educational or professional settings."
+  },
+  {
+    "caption": "two girls and three boys are presenting.",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "work_education"
+    ],
+    "explanation": "The caption is classified as 'indoors' because the activity of presenting typically occurs in indoor settings such as classrooms or meeting rooms, involves 'man-made' elements because the setting likely includes human-constructed objects like furniture or presentation tools, and shows 'work_education' because presenting is an activity commonly associated with educational or professional environments."
+  },
+  {
+    "caption": "two girls are in a race .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "The caption is classified as 'outdoors' because the activity of a race typically takes place in an open, outdoor setting, involves 'man-made' elements because races often occur on constructed tracks or paths, and shows 'recreation' because participating in a race is a form of leisure or competitive activity."
+  },
+  {
+    "caption": "two girls are in a sack race .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "The caption is classified as 'outdoors' because the sack race typically takes place in an open, outdoor setting, involves 'man-made' elements because the sack used in the race is a human-created object, and shows 'recreation' because a sack race is a playful and recreational activity."
+  },
+  {
+    "caption": "two guys are rowing a canoe on a lake .",
+    "annotation": [
+      "outdoors",
+      "natural",
+      "body_of_water"
+    ],
+    "explanation": "The caption is classified as **outdoors** because the scene takes place outside in an open environment, involves **natural** elements because the lake and the surrounding setting are part of nature, and shows **body_of_water** because the activity of rowing a canoe occurs on a lake, which is a type of body of water."
+  },
+  {
+    "caption": "two guys are rowing a canoe.",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "The caption is classified as 'outdoors' because the activity of rowing a canoe typically takes place in an open, natural environment, involves 'man-made' elements because a canoe is a human-created object, and shows 'recreation' because rowing a canoe is a leisure or recreational activity."
+  },
+  {
+    "caption": "two men drink beer .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "The caption is classified as 'indoors' because the scene likely takes place inside a building or enclosed space, involves 'man-made' elements because beer is a human-produced beverage and the setting may include furniture or other manufactured items, and shows 'recreation' because drinking beer is a leisure activity typically associated with relaxation or socializing."
+  },
+  {
+    "caption": "two men drink beer at the bar in a restaurant .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "restaurant"
+    ],
+    "explanation": "The caption is classified as 'indoors' because the scene takes place inside a restaurant, involves 'man-made' elements because the bar and restaurant are human-constructed environments, and shows 'restaurant' because the setting is explicitly described as a restaurant where the activity occurs."
+  },
+  {
+    "caption": "two men on motorcycles are driving down .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "transportation_urban"
+    ],
+    "explanation": "The caption is classified as 'outdoors' because the scene describes an open-air setting where two men are driving motorcycles, involves 'man-made' elements because motorcycles are human-created objects, and shows 'transportation_urban' because the activity of driving motorcycles typically occurs in urban or developed areas."
+  },
+  {
+    "caption": "two men on motorcycles are driving down an empty street .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "transportation_urban"
+    ],
+    "explanation": "The caption is classified as **outdoors** because the scene takes place on an open street, which is an outdoor setting, involves **man-made** elements because motorcycles and the street are human-constructed objects, and shows **transportation_urban** because the activity of driving motorcycles on a street is a form of urban transportation."
+  },
+  {
+    "caption": "two people are jumping on the side of a road with snow in the background .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "The caption is classified as 'outdoors' because the scene takes place outside on the side of a road, involves 'man-made' elements because the road is a constructed feature, and shows 'recreation' because the two people are jumping, which is a leisure activity."
+  },
+  {
+    "caption": "two people are jumping with snow .",
+    "annotation": [
+      "outdoors",
+      "natural",
+      "other_unclear"
+    ],
+    "explanation": "The caption is classified as 'outdoors' because the scene likely takes place in an open, outdoor setting where snow is present, involves 'natural' elements because snow is a natural phenomenon, and shows 'other_unclear' activity because the specific action or purpose of the people jumping with snow is not clearly defined or detailed in the caption."
+  },
+  {
+    "caption": "two people are sleeping .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "domestic"
+    ],
+    "explanation": "The caption is classified as 'indoors' because sleeping typically occurs in enclosed spaces like homes or bedrooms, involves 'man-made' elements because the setting likely includes furniture or structures created by humans, and shows 'domestic' activity because sleeping is a common and personal activity associated with private, home environments."
+  },
+  {
+    "caption": "two people on the subway are sleeping in the corner .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "transportation_urban"
+    ],
+    "explanation": "The caption is classified as 'indoors' because the subway is an enclosed, indoor environment, involves 'man-made' elements because the subway is a human-constructed transportation system, and shows 'transportation_urban' because the subway is a mode of urban transportation used in cities."
+  },
+  {
+    "caption": "two rows of dance students are practicing ballet moves against a pole in a studio .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "The caption is classified as 'indoors' because the scene takes place in a studio, which is an enclosed indoor space, involves 'man-made' elements because the studio and the pole are human-constructed objects, and shows 'recreation' because the students are practicing ballet, which is a leisure or recreational activity."
+  },
+  {
+    "caption": "two rows of dance students are practicing ballet moves against a pole.",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "The caption is classified as 'indoors' because the mention of practicing ballet moves against a pole suggests a controlled environment like a dance studio, involves 'man-made' elements because the pole and the setting are human-constructed, and shows 'recreation' because ballet practice is a leisure or recreational activity."
+  },
+  {
+    "caption": "two swimmers race in a pool with a red line between them .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "The caption is classified as 'indoors' because the mention of a pool suggests a controlled, indoor environment, involves 'man-made' elements because the pool and the red line are human-constructed features, and shows 'recreation' because swimming races are a form of leisure or competitive activity."
+  },
+  {
+    "caption": "two swimmers race with a red line .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "recreation"
+    ],
+    "explanation": "The caption is classified as 'outdoors' because the activity of swimming typically takes place in open, outdoor environments such as pools or natural bodies of water, involves 'man-made' elements because the mention of a red line suggests a constructed or marked feature, likely in a pool or race setting, and shows 'recreation' because swimming races are a form of leisure or competitive activity."
+  },
+  {
+    "caption": "two women in black enjoying a lunch in a restaurant .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "restaurant"
+    ],
+    "explanation": "The caption is classified as 'indoors' because the scene takes place in a restaurant, which is an indoor setting, involves 'man-made' elements because a restaurant is a constructed environment with tables, chairs, and other human-made objects, and shows 'restaurant' because the activity described is two women enjoying lunch in a restaurant."
+  },
+  {
+    "caption": "two women in black enjoying a lunch.",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "restaurant"
+    ],
+    "explanation": "The caption is classified as 'indoors' because the setting suggests a controlled environment typical of indoor spaces like a restaurant, involves 'man-made' elements because the scene likely includes furniture, utensils, and other human-created objects, and shows 'restaurant' because the activity of enjoying a lunch is commonly associated with dining in a restaurant."
+  },
+  {
+    "caption": "two women in white lab coats examine a dyed area on a cluster of cells using a projector .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "work_education"
+    ],
+    "explanation": "The caption is classified as 'indoors' because the scene describes women examining cells using a projector, which typically occurs in an indoor setting like a laboratory, involves 'man-made' elements because the lab coats, projector, and dyed cells are all human-created or manipulated objects, and shows 'work_education' because the activity involves scientific examination, which is associated with professional or educational contexts."
+  },
+  {
+    "caption": "two women in white lab coats examine a dyed area using a projector .",
+    "annotation": [
+      "indoors",
+      "man-made",
+      "work_education"
+    ],
+    "explanation": "The caption is classified as 'indoors' because the scene likely takes place in a controlled environment such as a laboratory or classroom, involves 'man-made' elements because the lab coats, projector, and dyed area are all human-created objects, and shows 'work_education' because the women are engaged in an activity that appears to be related to scientific research or learning."
+  },
+  {
+    "caption": "two young people riding skateboards pass by in the street as a black dog on a red leash stops and squats down.",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "transportation_urban"
+    ],
+    "explanation": "The caption is classified as 'outdoors' because the scene takes place in a street, which is an open, outdoor environment, involves 'man-made' elements because the street and skateboards are human-created objects, and shows 'transportation_urban' because the activity of riding skateboards is a form of urban transportation."
+  },
+  {
+    "caption": "two young people riding skateboards pass by in the street as a black dog on a red leash stops in a doorway and squats down on the sidewalk .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "transportation_urban"
+    ],
+    "explanation": "The caption is classified as 'outdoors' because the scene takes place in a street and on a sidewalk, which are open-air environments, involves 'man-made' elements because the street, sidewalk, and doorway are constructed by humans, and shows 'transportation_urban' because the young people are riding skateboards, a common mode of urban transportation."
+  },
+  {
+    "caption": "vendors are selling fruits and vegetables",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "work_education"
+    ],
+    "explanation": "The caption is classified as 'outdoors' because the scene likely takes place in an open-air market or street, involves 'man-made' elements because the vendors and their stalls are human-created structures, and shows 'work_education' because selling fruits and vegetables is an economic activity related to work."
+  },
+  {
+    "caption": "vendors sell products at a farmers market .",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "work_education"
+    ],
+    "explanation": "The caption is classified as 'outdoors' because a farmers market typically takes place in an open, outdoor setting, involves 'man-made' elements because the products sold and the market setup are human-created, and shows 'work_education' because vendors are engaged in the activity of selling, which is a form of work."
+  },
+  {
+    "caption": "vendors sell products.",
+    "annotation": [
+      "outdoors",
+      "man-made",
+      "work_education"
+    ],
+    "explanation": "The caption is classified as 'outdoors' because vendors typically sell products in open-air markets or streets, involves 'man-made' elements because the products being sold are likely manufactured or crafted by humans, and shows 'work_education' because selling products is a form of work or commerce."
+  },
+  {
+    "caption": "white and black dog jumping over red-haired dog .",
+    "annotation": [
+      "outdoors",
+      "natural",
+      "other_unclear"
+    ],
+    "explanation": "The caption is classified as 'outdoors' because the scene likely takes place in an open, outdoor setting where dogs can jump freely, involves 'natural' elements because the dogs and their actions are part of the natural world, and shows 'other_unclear' because the specific activity or context (e.g., why the dogs are jumping) is not explicitly detailed or clear."
+  },
+  {
+    "caption": "white and black dog jumping over red-haired dog in grass .",
+    "annotation": [
+      "outdoors",
+      "natural",
+      "field_forest"
+    ],
+    "explanation": "The caption is classified as 'outdoors' because the scene takes place in a grassy area, which is an outdoor setting, involves 'natural' elements because the grass and the dogs are part of the natural environment, and shows 'field_forest' because the grassy area suggests a field or open natural space."
+  }
+]

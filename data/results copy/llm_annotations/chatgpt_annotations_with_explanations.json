@@ -1,0 +1,2432 @@
+[
+  {
+    "caption": "Input.sentence",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "\"a crowd waits outside a subway train , ready to board .\"",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "\"a crowd waits, ready to board .\"",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "\"a man driving a small , open vehicle with a green sign .\"",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "\"a man driving a small , open vehicle with a green sign on the back of it in traffic .\"",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "\"a man in a blue swimsuit and a red beanie kneels in the wet sand on the edge of a beach , making a sand castle that is as tall as he is when he is kneeling .\"",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "\"a man wearing jeans , polo shirt and a baseball cap , fork , is grilling meat .\"",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "\"a man wearing jeans , polo shirt and a baseball cap , fork in hand , is grilling meat outside in a fenced yard .\"",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "\"a ruddy infant lies on a patterned sheet with his eyes closed , his mouth open , and his arm extended .\"",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "\"a ruddy infant lies with his eyes closed , his mouth open , and his arm extended .\"",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "\"an impoverished person , wearing a torn brown shirt and no shoes , is kneeling down .\"",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "\"an impoverished person , wearing a torn brown shirt and no shoes , is kneeling down along the banks of a trash infested body of water .\"",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "\"four young adults sit outside on a wooden deck near a building around a small round table , while another person stands on the edge of the deck , leaning on the wooden railing , with the sun shining on one of them and the rest of them are in the shade , two of them crossing their legs , one holding a cellphone out in front of himself and another holding a green and red soda can .\"",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "\"in a restaurant , a teenager drinks directly out of the metal milkshake serving cup .\"",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "\"people swing on a red , metal amusement park ride in front of some trees .\"",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "\"people swing on a red , metal amusement park ride.\"",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "\"person leaning against the wall , next to a life size cartoon cut out .\"",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "\"several people in the mid-ground sit on a bench along the side of a white building , while three people stand in a courtyard in front of the building .\"",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "\"three children are playing outdoors , two of them on a metal barrel swing .\"",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "\"two girls , both dressed in pink , swinging on sunlight day with the nearby trees casting random shadows on the remainder of the park like setting .\"",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "\"two girls , both dressed in pink , swinging on sunlight day with the trees casting random shadows on the remainder of the park like setting .\"",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "Kids play",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "Person leaning",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "The brown dog catches a ball.",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a black and white dog runs beside a brown dog in a green field .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a black and white dog runs.",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a black dog runs on green grass with its mouth open .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a black dog runs with his mouth open",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a blond dog and a black and white dog run",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a blond dog and a black and white dog run in a dirt field .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a boy and girl child swing together .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a boy and girl child swing together on a swing set .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a brown dog running",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a brown dog running on a lawn near a garden hose",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a chef speaks into a microphone about a mixed salad contained .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a chef speaks into a microphone about a mixed salad contained in a bowl with a decorative lid .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a child in a dress runs through the yard with a miniature orange soccer ball in her hand .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a child in a dress runs with a miniature orange soccer ball .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a dark-haired dark-skinned child sleeps in a chair while holding a blue zippered pack .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a dark-haired dark-skinned child sleeps while holding a blue zippered pack .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a dark-haired man is speaking into a microphone while another man is sitting .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a dark-haired man is speaking into a microphone while another man is sitting beside him .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a dog wearing a t-shirt is lying down .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a dog wearing a t-shirt is lying.",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a gray dog is jumping toward a black and white dog in the snow .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a gray dog is jumping toward a black and white dog.",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a greyhound races on the dirt .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a greyhound races.",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a group of men in golden shirts singing in front of a microphone .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a group of men in golden shirts singing.",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a group of people lie close together on a hardwood floor .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a group of people lie close together.",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a handicapped person with one leg skiing down a mountain with other mountains in the background .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a handicapped person with one leg skiing down with other mountains .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a korean woman is enjoying a meal in a restaurant .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a korean woman is enjoying a meal.",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a lady with short hair wearing a black jacket leaned .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a lady with short hair wearing a black jacket leaned against a lamp post outside a building .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a little boy playing in the water .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a little boy playing.",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a lively adult karate practice",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a lively adult karate practice at the dojo .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a man and a woman are examining produce at a market .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a man and a woman are examining produce.",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a man and woman enjoying dinner at a party .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a man and woman enjoying dinner.",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a man drives a truck while a child sits and steers .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a man drives a truck while a child sits on his lap and steers .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a man driving a small golf cart down a street with a crowd watching him on either side of the street .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a man driving a small golf cart with a crowd watching.",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a man grilling",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a man grilling meat on an outdoor grilling pit .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a man grilling meat.",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a man grilling outside his house .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a man grilling three pieces of salmon outside .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a man grilling three pieces of salmon.",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a man in a black shirt sitting",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a man in a black shirt sitting next to a older women in a pink jacket on a train .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a man in a blue swimsuit and a red beanie kneels making a sand castle that is as tall as he is when he is kneeling .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a man in a dark shirt is making a presentation in front of a group .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a man in a dark shirt is making a presentation.",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a man in a suit and tie in a fancy building is speaking at the podium .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a man in a suit and tie is speaking.",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a man in a white polo shirt speaks into a microphone with a sign behind him that reads , \" truth ! \"",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a man in a white polo shirt speaks with a sign that reads , \" truth ! \"",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a man in a white polo shirt speaks with a sign that reads , \"truth ! \"",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a man in a white shirt uses a blackboard as others sit at a table watching .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a man in a white shirt uses a blackboard as others sit watching .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a man in a yellow jacket is skiing in the snow .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a man in a yellow jacket is skiing.",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a man in red shirt wearing sunglasses is leaning",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a man in red shirt wearing sunglasses is leaning on the wall",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a man is enjoying meal and drink .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a man is enjoying meal and drink inside a restaurant .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a man is giving a presentation in front of three people .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a man is giving a presentation.",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a man is kneeling down with a child",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a man is kneeling down with a child on a beach where bright blue and red boats are stationed in the background .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a man is rowing a canoe on a lake .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a man is rowing a canoe.",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a man is singing at a concert .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a man is singing.",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a man is sitting on the street playing drums on buckets .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a man is sitting playing drums on buckets .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a man is using his computer while seated at a desk .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a man is using his computer while seated.",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a man perched is using a net to scoop a fish from another aquarium .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a man perched on a row of aquariums is using a net to scoop a fish from another aquarium .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a man rowing in the front of a canoe in a large body of water .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a man rowing.",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a man rows his boat .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a man rows his boat below .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a man singing in a very colorful environment .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a man singing.",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a man sleeps while listening to his ipod in the back of a vehicle .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a man sleeps while listening to his ipod.",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a man wearing yellow swimming trunks kneeling",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a man wearing yellow swimming trunks kneeling by the ocean",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a man with red pants is skiing .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a man with red pants is skiing downhill .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a motorcyclist on a red speed bike leans .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a motorcyclist on a red speed bike leans into a sharp turn .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a person dressed in a tan jacket jumps a quad over a harvested cornfield",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a person dressed in a tan jacket jumps a quad over a harvested cornfield in front of a small out building .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a person drives around a futuristic looking vehicle while a man approaches and a crowd watches .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a person drives around a futuristic looking vehicle while a man approaches her and a crowd watches .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a person wearing a construction uniform is leaning against a traffic light pole on the sidewalk .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a person wearing a construction uniform is leaning.",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a red dog jumps to catch a tennis ball .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a red dog jumps to catch a tennis ball in the dry tall grass .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a runner in black is passing a florist shop .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a runner in black is passing an outdoor florist shop .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a smiling child wearing a hat and sunglasses sits in a car .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a smiling child wearing a hat and sunglasses sits.",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a spotted dog catching a ball on a snowy field .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a spotted dog catching a ball.",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a teenager drinks directly out of the metal milkshake serving cup .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a terrier mix catches a frisbee in the air .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a terrier mix catches a frisbee.",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a well dressed young woman waits for the train while a man busy writing something .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a well dressed young woman waits on a bench for the train while a man busy writing something waits nearby .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a woman is drinking a beverage",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a woman is drinking a beverage in a busy cafe .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a woman is having her foot examined by another woman",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a woman is having her foot examined by another woman in a run-down building .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a woman is holding a baby while another child stands .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a woman is holding a baby while another child stands by her side .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a woman is laying down laughing .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a woman is laying down on a sofa laughing .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a woman is selling vegetables .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a woman is selling vegetables on the street .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a woman is using a ruler at a desk to mark a sheet of paper .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a woman is using a ruler to mark a sheet of paper .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a woman sits on a shoe store 's bench while putting a shoe onto her right foot .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a woman sits while putting a shoe onto her right foot .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a woman sleeps",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a woman sleeps under a blue and white blanket in a car .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a woman with a peace symbol grills vegetables",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a woman with a peace symbol on her shirt grills vegetables",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a young boy wearing a dark blue hat sleeps on a bench at a terminal .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "a young boy wearing a dark blue hat sleeps.",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "all these people are enjoying a basement dance party .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "all these people are enjoying a dance party .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "an asian man sells a hot confection from his stand in a crowded market .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "an asian man sells a hot confection.",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "an old woman is selling produce at a farmer 's market .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "an old woman is selling produce.",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "an older couple passes by a young lady",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "an older couple passes by a young lady on the sidewalk .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "an older man and women are using computers in a sort of storage room .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "an older man and women are using computers.",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "an orchestra of about <number> people are practicing",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "an orchestra of about <number> people are practicing on the stage of what appears to be an auditorium full of green chairs .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "asian students are examining sheets of paper while standing .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "asian students are examining sheets of paper while standing in line .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "brown dog catches a pink ball in the park .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "brown dog catches a pink ball.",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "buff african american man waits for subway at wall street station .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "buff african american man waits for subway.",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "crowd waiting for a train .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "crowd waiting on main street subway platform for a train .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "dancers practicing their dance routines .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "decorated limo passing by elderly woman waiting on park bench .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "decorated limo passing by elderly woman waiting on park bench in chinese street .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "four people in black shirts giving a presentation to a room full of people using a big projector image .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "four people in black shirts giving a presentation to a room full of people using a big projector image on the wall .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "four women are on stage singing .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "four women are singing .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "four young adults sit",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "girl wearing blue shirt and black shorts plays trumped .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "girl wearing blue shirt and black shorts plays trumped outside .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "group of women doing a presentation .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "group of women doing a presentation off an easel .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "kids play around a statue bust outside .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "little girl skis on slope .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "little girl skis.",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "man with gray hair wearing a suit is waiting in a subway tunnel .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "man with gray hair wearing a suit is waiting.",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "men playing volleyball",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "men playing volleyball in the sand .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "muzzled greyhounds are racing on the track .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "muzzled greyhounds are racing.",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "one dog is jumping at the lady while the other walks",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "one dog is jumping at the lady while the other walks away .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "people are rowing a boat .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "people are rowing a boat in the water .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "people examine books in a library .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "people examine books.",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "people pass each other on a busy city street while talking on their cellphones .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "people pass each other while talking on their cellphones .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "person with two ski poles skiing down .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "person with two ski poles skiing down a snowy hill .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "several people sit",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "stage dancers practicing their dance routines .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "street vendors are selling fruits and vegetables in a stand and in large baskets on the ground .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "the brown dog catches a ball in the air .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "the little girl swings in the backyard .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "the little girl swings.",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "the man in the red shirt and flowery tie is sitting on a bus by the window .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "the man in the red shirt and flowery tie is sitting.",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "three children are playing .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "three children are practicing martial arts in a gym .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "three children are practicing martial arts.",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "three girls or friends having drinks at a bar laughing .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "three girls or friends having drinks laughing .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "three people in various stages of swimming strokes race",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "three people in various stages of swimming strokes race along colorful lane markers .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "three women and a man are drinking beer .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "three women and a man are drinking beer at a table .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "three women speak to each other in a room with tan walls .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "three women speak to each other.",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "three young women and one young man singing in an auditorium .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "three young women and one young man singing.",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "two children swing from a swing made from a steel drum .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "two children swing in dusty rooftop from a swing made from a steel drum .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "two dogs are catching blue frisbees in grass .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "two dogs are catching blue frisbees.",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "two dogs are nose to nose while a third dog stands .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "two dogs are nose to nose while a third dog stands next to them .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "two furry light brown dogs lying on a hardwood floor .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "two furry light brown dogs lying.",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "two girls and three boys are presenting in front of a dry erase board .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "two girls and three boys are presenting.",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "two girls are in a race .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "two girls are in a sack race .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "two guys are rowing a canoe on a lake .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "two guys are rowing a canoe.",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "two men drink beer .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "two men drink beer at the bar in a restaurant .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "two men on motorcycles are driving down .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "two men on motorcycles are driving down an empty street .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "two people are jumping on the side of a road with snow in the background .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "two people are jumping with snow .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "two people are sleeping .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "two people on the subway are sleeping in the corner .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "two rows of dance students are practicing ballet moves against a pole in a studio .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "two rows of dance students are practicing ballet moves against a pole.",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "two swimmers race in a pool with a red line between them .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "two swimmers race with a red line .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "two women in black enjoying a lunch in a restaurant .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "two women in black enjoying a lunch.",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "two women in white lab coats examine a dyed area on a cluster of cells using a projector .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "two women in white lab coats examine a dyed area using a projector .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "two young people riding skateboards pass by in the street as a black dog on a red leash stops and squats down.",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "two young people riding skateboards pass by in the street as a black dog on a red leash stops in a doorway and squats down on the sidewalk .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "vendors are selling fruits and vegetables",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "vendors sell products at a farmers market .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "vendors sell products.",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "white and black dog jumping over red-haired dog .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  },
+  {
+    "caption": "white and black dog jumping over red-haired dog in grass .",
+    "annotation": [
+      "error",
+      "error",
+      "error"
+    ],
+    "explanation": "An error occurred during explanation."
+  }
+]

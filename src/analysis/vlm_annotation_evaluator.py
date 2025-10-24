@@ -2,16 +2,19 @@ from collections import defaultdict
 from scipy.spatial.distance import jensenshannon
 import json
 from divergence_calculator import DivergenceCalculator
-from utils import save_judgements_for_ken_to_csv
-from utils import get_max_indices, extract_number_from_url, pick_first_of_the_annotations
-from utils import change_mturk_annotation_to_more_readable_form
 from helper.helper_functions import(
     normalize_caption,
     clip_probs,
     load_combined_df,
     get_set_of,
     WORKERS,
-    AnnotationProcessor
+    AnnotationProcessor,
+    extract_number_from_url,
+    save_judgements_for_ken_to_csv,
+    get_max_indices,
+    pick_first_of_the_annotations,
+    change_mturk_annotation_to_more_readable_form
+
 )
 
 RECREATION_CATEGORY = "outdoors/natural/recreation"
@@ -48,6 +51,7 @@ class VLMAnnotationEvaluator:
         for _, row in combined_df.iterrows():
             url = row['Input.image_url']
             self.vlm_set.add(url)
+     
     
     def store_sanity_check(self, caption, flux_url, flux_probs, dalle_url, dalle_probs, midjourney_url, midjourney_probs):
         self.sanity_check_for_vlms['flux'][caption] = (flux_url, flux_probs)
@@ -86,17 +90,19 @@ class VLMAnnotationEvaluator:
         """
         Searches for the URL in vlm_set that contains the target_index.
         """
+     
         for url in self.vlm_set:
             extracted_index = extract_number_from_url(modelname,original_or_finalized, url)
             if extracted_index == target_index:
                 return url
-        return None
+        #return None
 
     def generate_indexes_for_captions(self,filepaths):
         combined_df = load_combined_df(filepaths)
         for index, row in combined_df.iterrows():
             self.original_captions_to_index_mapping[normalize_caption(row['Original Sentence'])] = index
             self.finalized_captions_to_index_mapping[normalize_caption(row['Finalized Sentence'])] = index
+        
 
     def calculate_jensen_shannon_divergence(self,human_probs, llm_probs,caption):
         # Ensure no zero probabilities to avoid issues in KL divergence calculation
@@ -121,7 +127,7 @@ class VLMAnnotationEvaluator:
                 self.sanity_check_for_vlms[model],
                 f"{model}_sanity_check.csv"
             )
-        print("Judgements for Ken saved successfully.")
+        print("Judgements for Ken for sanity checks saved successfully.")
 
 
     def _load_all_data(self):
@@ -138,18 +144,20 @@ class VLMAnnotationEvaluator:
     def _analyze_single_caption_set(self, caption_annotations, is_finalized):
         count_of_relabeling = 0
         for caption in caption_annotations:
-            print("Analyzing caption:", caption)
             normalized_caption = normalize_caption(caption)
             if is_finalized:
                 index_for_caption = self.finalized_captions_to_index_mapping.get(normalized_caption, None)
             else:
                 index_for_caption = self.original_captions_to_index_mapping.get(normalized_caption, None)
-            if index_for_caption is None:
-                continue
-
-            flux_url = self.find_url_by_index("flux", "finalized" if is_finalized else "original", index_for_caption)
-            dalle_url = self.find_url_by_index("dalle", "finalized" if is_finalized else "original", index_for_caption)
-            midjourney_url = self.find_url_by_index("midjourney", "finalized" if is_finalized else "original", index_for_caption)
+            if index_for_caption < 60:
+                new_index_for_caption = index_for_caption
+            else:
+                new_index_for_caption = index_for_caption + 1
+            #print(new_index_for_caption, caption)
+            flux_url = self.find_url_by_index("flux", "finalized" if is_finalized else "original", new_index_for_caption)
+            dalle_url = self.find_url_by_index("dalle", "finalized" if is_finalized else "original", new_index_for_caption)
+            midjourney_url = self.find_url_by_index("midjourney", "finalized" if is_finalized else "original", new_index_for_caption)
+            
             human_probs = DivergenceCalculator.calculate_probability_distribution(caption_annotations[caption])
             flux_probs = DivergenceCalculator.calculate_probability_distribution(self.flux_annotations[flux_url])
 

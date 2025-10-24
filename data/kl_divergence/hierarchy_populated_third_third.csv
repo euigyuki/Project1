@@ -1,0 +1,17 @@
+Combination,Best Match Column,Best Verb,Row Index,Max KLD
+outdoors - man-made - transportation_urban,outdoors - man-made - transportation_urban,lean-01,11,0.1265131737746327
+outdoors - man-made - recreation,outdoors - man-made - recreation,play-01,3,0.1178127366791053
+indoors - man-made - work_education,indoors - man-made - work_education,use-01,4,0.0994989820165183
+outdoors - man-made - work_education,outdoors - man-made - work_education,use-01,4,0.083670515886084
+indoors - man-made - recreation,indoors - man-made - recreation,prepare-02,7,0.0794681136596381
+outdoors - man-made - other_unclear,outdoors - man-made - other_unclear,wear-01,18,0.0791783553644621
+indoors - man-made - restaurant,indoors - man-made - restaurant,enjoy-01,15,0.0754084596117618
+outdoors - natural - body_of_water,outdoors - natural - body_of_water,kneel-01,16,0.0623089824610726
+indoors - man-made - domestic,indoors - man-made - domestic,share-01,2,0.0622108006811264
+outdoors - man-made - restaurant,outdoors - man-made - restaurant,converse-01,0,0.051313393735598
+outdoors - natural - field_forest,outdoors - natural - field_forest,jump-03,1,0.049616868035307
+outdoors - natural - mountain,outdoors - natural - mountain,jump-03,1,0.0406652469714974
+outdoors - man-made - domestic,outdoors - man-made - domestic,contrast-01,24,0.0311999976764572
+indoors - man-made - other_unclear,indoors - man-made - other_unclear,converse-01,0,0.0228251678916695
+outdoors - natural - other_unclear,outdoors - natural - other_unclear,bend-01,8,0.0127075776636093
+indoors - man-made - transportation_urban,indoors - man-made - transportation_urban,sit-01,25,0.0102414964254683

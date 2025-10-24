@@ -1,5 +1,6 @@
 #from analysis.displaying_annotations_as_a_probability_distribution import output_to_csv
 from analysis.vlm_annotation_evaluator import VLMAnnotationEvaluator
+from helper.helper_functions import output_to_csv
 from dataclasses import dataclass
 import os
 from pathlib import Path
@@ -39,15 +40,16 @@ def main():
             DATA_DIR / "results" / "images_annotated_by_humans" / "images2.csv"
         ],
         finalized_captions=[
-            DATA_DIR / "results" / "finalized_caption_to_jensenshannon_divergences.csv"
+            DATA_DIR / "finalized_captions" / "finalized_captions.csv"
         ],
         ## Output paths
-        js_output_csv=DATA_DIR / "jsd" / "image_to_jensenshannon_divergences.csv"
+        js_output_csv=DATA_DIR / "js_divergence" / "image_to_jensenshannon_divergences.csv"
     )
 
     evaluator = VLMAnnotationEvaluator(path_config)
     jsd_captions = evaluator.analyze_image_annotations()
-    #output_to_csv(jsd_captions, js_output_csv)
+   
+    output_to_csv(jsd_captions, path_config)
 
 
 if __name__ == "__main__":

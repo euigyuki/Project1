@@ -1,0 +1,17 @@
+Combination,Best Match Column,Best Verb,Row Index,Max KLD
+indoors - man-made - work_education,indoors - man-made - work_education,examine-01,0,0.3637038841771659
+indoors - man-made - recreation,indoors - man-made - recreation,practice-01,8,0.3552893547528392
+outdoors - man-made - recreation,outdoors - man-made - recreation,race-02,6,0.3455559254105289
+outdoors - man-made - transportation_urban,outdoors - man-made - transportation_urban,drive-01,10,0.3305805016780362
+outdoors - natural - field_forest,outdoors - natural - field_forest,run-02,19,0.2329362797535817
+indoors - man-made - domestic,indoors - man-made - domestic,lie-07,1,0.1911817450118767
+indoors - man-made - transportation_urban,indoors - man-made - transportation_urban,wait-01,17,0.1897796526603661
+outdoors - man-made - domestic,outdoors - man-made - domestic,sweep-01,7,0.16439731070013
+indoors - man-made - other_unclear,indoors - man-made - other_unclear,speak-01,9,0.1371509854461081
+outdoors - man-made - work_education,outdoors - man-made - work_education,possible-01,4,0.1306117592622775
+outdoors - natural - body_of_water,outdoors - natural - body_of_water,throw-01,12,0.1096184075032153
+outdoors - natural - other_unclear,outdoors - natural - other_unclear,lay-01,29,0.086130961583489
+indoors - man-made - restaurant,indoors - man-made - restaurant,sit-down-02,23,0.0609579025880498
+outdoors - man-made - other_unclear,outdoors - man-made - other_unclear,paint-02,16,0.0345777739294699
+outdoors - man-made - restaurant,outdoors - man-made - restaurant,sit-down-02,23,0.019723061969328
+outdoors - natural - mountain,outdoors - natural - mountain,stroll-01,5,0.0172084762875504

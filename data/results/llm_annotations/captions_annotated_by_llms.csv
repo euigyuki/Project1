@@ -1,0 +1,1073 @@
+WorkerId,Input.sentence,Answer.taskAnswers
+chatgpt,"""a crowd waits outside a subway train , ready to board .""",outdoors/man-made/transportation_urban
+chatgpt,"""a crowd waits, ready to board .""",outdoors/man-made/transportation_urban
+chatgpt,"""a man driving a small , open vehicle with a green sign .""",outdoors/man-made/transportation_urban
+chatgpt,"""a man driving a small , open vehicle with a green sign on the back of it in traffic .""",outdoors/man-made/transportation_urban
+chatgpt,"""a man in a blue swimsuit and a red beanie kneels in the wet sand on the edge of a beach , making a sand castle that is as tall as he is when he is kneeling .""",outdoors/natural/body_of_water
+chatgpt,"""a man wearing jeans , polo shirt and a baseball cap , fork , is grilling meat .""",outdoors/man-made/domestic
+chatgpt,"""a man wearing jeans , polo shirt and a baseball cap , fork in hand , is grilling meat outside in a fenced yard .""",outdoors/man-made/domestic
+chatgpt,"""a ruddy infant lies on a patterned sheet with his eyes closed , his mouth open , and his arm extended .""",indoors/man-made/domestic
+chatgpt,"""a ruddy infant lies with his eyes closed , his mouth open , and his arm extended .""",indoors/man-made/domestic
+chatgpt,"""an impoverished person , wearing a torn brown shirt and no shoes , is kneeling down .""",outdoors/man-made/other_unclear
+chatgpt,"""an impoverished person , wearing a torn brown shirt and no shoes , is kneeling down along the banks of a trash infested body of water .""",outdoors/natural/body_of_water
+chatgpt,"""four young adults sit outside on a wooden deck near a building around a small round table , while another person stands on the edge of the deck , leaning on the wooden railing , with the sun shining on one of them and the rest of them are in the shade , two of them crossing their legs , one holding a cellphone out in front of himself and another holding a green and red soda can .""",outdoors/man-made/recreation
+chatgpt,"""in a restaurant , a teenager drinks directly out of the metal milkshake serving cup .""",indoors/man-made/restaurant
+chatgpt,"""people swing on a red , metal amusement park ride in front of some trees .""",outdoors/man-made/recreation
+chatgpt,"""people swing on a red , metal amusement park ride.""",outdoors/man-made/recreation
+chatgpt,"""person leaning against the wall , next to a life size cartoon cut out .""",indoors/man-made/recreation
+chatgpt,"""several people in the mid-ground sit on a bench along the side of a white building , while three people stand in a courtyard in front of the building .""",outdoors/man-made/other_unclear
+chatgpt,"""three children are playing outdoors , two of them on a metal barrel swing .""",outdoors/man-made/recreation
+chatgpt,"""two girls , both dressed in pink , swinging on sunlight day with the nearby trees casting random shadows on the remainder of the park like setting .""",outdoors/natural/other_unclear
+chatgpt,"""two girls , both dressed in pink , swinging on sunlight day with the trees casting random shadows on the remainder of the park like setting .""",outdoors/natural/field_forest
+chatgpt,Kids play,outdoors/man-made/recreation
+chatgpt,Person leaning,indoors/man-made/other_unclear
+chatgpt,The brown dog catches a ball.,outdoors/natural/other_unclear
+chatgpt,a black and white dog runs beside a brown dog in a green field .,outdoors/natural/field_forest
+chatgpt,a black and white dog runs.,outdoors/natural/other_unclear
+chatgpt,a black dog runs on green grass with its mouth open .,outdoors/natural/field_forest
+chatgpt,a black dog runs with his mouth open,outdoors/natural/other_unclear
+chatgpt,a blond dog and a black and white dog run,outdoors/natural/other_unclear
+chatgpt,a blond dog and a black and white dog run in a dirt field .,outdoors/natural/field_forest
+chatgpt,a boy and girl child swing together .,outdoors/man-made/recreation
+chatgpt,a boy and girl child swing together on a swing set .,outdoors/man-made/recreation
+chatgpt,a brown dog running,outdoors/natural/other_unclear
+chatgpt,a brown dog running on a lawn near a garden hose,outdoors/man-made/domestic
+chatgpt,a chef speaks into a microphone about a mixed salad contained .,indoors/man-made/work_education
+chatgpt,a chef speaks into a microphone about a mixed salad contained in a bowl with a decorative lid .,indoors/man-made/work_education
+chatgpt,a child in a dress runs through the yard with a miniature orange soccer ball in her hand .,outdoors/man-made/recreation
+chatgpt,a child in a dress runs with a miniature orange soccer ball .,outdoors/man-made/recreation
+chatgpt,a dark-haired dark-skinned child sleeps in a chair while holding a blue zippered pack .,indoors/man-made/domestic
+chatgpt,a dark-haired dark-skinned child sleeps while holding a blue zippered pack .,indoors/man-made/domestic
+chatgpt,a dark-haired man is speaking into a microphone while another man is sitting .,indoors/man-made/other_unclear
+chatgpt,a dark-haired man is speaking into a microphone while another man is sitting beside him .,indoors/man-made/work_education
+chatgpt,a dog wearing a t-shirt is lying down .,indoors/man-made/domestic
+chatgpt,a dog wearing a t-shirt is lying.,indoors/man-made/domestic
+chatgpt,a gray dog is jumping toward a black and white dog in the snow .,outdoors/natural/other_unclear
+chatgpt,a gray dog is jumping toward a black and white dog.,outdoors/natural/other_unclear
+chatgpt,a greyhound races on the dirt .,outdoors/man-made/recreation
+chatgpt,a greyhound races.,outdoors/man-made/recreation
+chatgpt,a group of men in golden shirts singing in front of a microphone .,indoors/man-made/recreation
+chatgpt,a group of men in golden shirts singing.,indoors/man-made/recreation
+chatgpt,a group of people lie close together on a hardwood floor .,indoors/man-made/other_unclear
+chatgpt,a group of people lie close together.,outdoors/natural/other_unclear
+chatgpt,a handicapped person with one leg skiing down a mountain with other mountains in the background .,outdoors/natural/mountain
+chatgpt,a handicapped person with one leg skiing down with other mountains .,outdoors/natural/mountain
+chatgpt,a korean woman is enjoying a meal in a restaurant .,indoors/man-made/restaurant
+chatgpt,a korean woman is enjoying a meal.,indoors/man-made/restaurant
+chatgpt,a lady with short hair wearing a black jacket leaned .,indoors/man-made/other_unclear
+chatgpt,a lady with short hair wearing a black jacket leaned against a lamp post outside a building .,outdoors/man-made/other_unclear
+chatgpt,a little boy playing in the water .,outdoors/natural/body_of_water
+chatgpt,a little boy playing.,outdoors/man-made/recreation
+chatgpt,a lively adult karate practice,indoors/man-made/recreation
+chatgpt,a lively adult karate practice at the dojo .,indoors/man-made/recreation
+chatgpt,a man and a woman are examining produce at a market .,outdoors/man-made/other_unclear
+chatgpt,a man and a woman are examining produce.,indoors/man-made/other_unclear
+chatgpt,a man and woman enjoying dinner at a party .,indoors/man-made/recreation
+chatgpt,a man and woman enjoying dinner.,indoors/man-made/restaurant
+chatgpt,a man drives a truck while a child sits and steers .,outdoors/man-made/transportation_urban
+chatgpt,a man drives a truck while a child sits on his lap and steers .,outdoors/man-made/transportation_urban
+chatgpt,a man driving a small golf cart down a street with a crowd watching him on either side of the street .,outdoors/man-made/transportation_urban
+chatgpt,a man driving a small golf cart with a crowd watching.,outdoors/man-made/recreation
+chatgpt,a man grilling,outdoors/man-made/domestic
+chatgpt,a man grilling meat on an outdoor grilling pit .,outdoors/man-made/domestic
+chatgpt,a man grilling meat.,outdoors/man-made/domestic
+chatgpt,a man grilling outside his house .,outdoors/man-made/domestic
+chatgpt,a man grilling three pieces of salmon outside .,outdoors/man-made/domestic
+chatgpt,a man grilling three pieces of salmon.,outdoors/man-made/domestic
+chatgpt,a man in a black shirt sitting,indoors/man-made/other_unclear
+chatgpt,a man in a black shirt sitting next to a older women in a pink jacket on a train .,indoors/man-made/transportation_urban
+chatgpt,a man in a blue swimsuit and a red beanie kneels making a sand castle that is as tall as he is when he is kneeling .,outdoors/man-made/recreation
+chatgpt,a man in a dark shirt is making a presentation in front of a group .,indoors/man-made/work_education
+chatgpt,a man in a dark shirt is making a presentation.,indoors/man-made/work_education
+chatgpt,a man in a suit and tie in a fancy building is speaking at the podium .,indoors/man-made/work_education
+chatgpt,a man in a suit and tie is speaking.,indoors/man-made/work_education
+chatgpt,"a man in a white polo shirt speaks into a microphone with a sign behind him that reads , truth ! ",indoors/man-made/other_unclear
+chatgpt,"a man in a white polo shirt speaks with a sign that reads , truth ! ",outdoors/man-made/other_unclear
+chatgpt,a man in a white shirt uses a blackboard as others sit at a table watching .,indoors/man-made/work_education
+chatgpt,a man in a white shirt uses a blackboard as others sit watching .,indoors/man-made/work_education
+chatgpt,a man in a yellow jacket is skiing in the snow .,outdoors/natural/mountain
+chatgpt,a man in a yellow jacket is skiing.,outdoors/natural/mountain
+chatgpt,a man in red shirt wearing sunglasses is leaning,outdoors/man-made/other_unclear
+chatgpt,a man in red shirt wearing sunglasses is leaning on the wall,outdoors/man-made/other_unclear
+chatgpt,a man is enjoying meal and drink .,indoors/man-made/restaurant
+chatgpt,a man is enjoying meal and drink inside a restaurant .,indoors/man-made/restaurant
+chatgpt,a man is giving a presentation in front of three people .,indoors/man-made/work_education
+chatgpt,a man is giving a presentation.,indoors/man-made/work_education
+chatgpt,a man is kneeling down with a child,indoors/man-made/domestic
+chatgpt,a man is kneeling down with a child on a beach where bright blue and red boats are stationed in the background .,outdoors/natural/body_of_water
+chatgpt,a man is rowing a canoe on a lake .,outdoors/natural/body_of_water
+chatgpt,a man is rowing a canoe.,outdoors/natural/body_of_water
+chatgpt,a man is singing at a concert .,indoors/man-made/recreation
+chatgpt,a man is singing.,indoors/man-made/recreation
+chatgpt,a man is sitting on the street playing drums on buckets .,outdoors/man-made/recreation
+chatgpt,a man is sitting playing drums on buckets .,outdoors/man-made/recreation
+chatgpt,a man is using his computer while seated at a desk .,indoors/man-made/work_education
+chatgpt,a man is using his computer while seated.,indoors/man-made/work_education
+chatgpt,a man perched is using a net to scoop a fish from another aquarium .,indoors/man-made/work_education
+chatgpt,a man perched on a row of aquariums is using a net to scoop a fish from another aquarium .,indoors/man-made/work_education
+chatgpt,a man rowing in the front of a canoe in a large body of water .,outdoors/natural/body_of_water
+chatgpt,a man rowing.,outdoors/natural/body_of_water
+chatgpt,a man rows his boat .,outdoors/natural/body_of_water
+chatgpt,a man rows his boat below .,outdoors/natural/body_of_water
+chatgpt,a man singing in a very colorful environment .,indoors/man-made/recreation
+chatgpt,a man singing.,indoors/man-made/recreation
+chatgpt,a man sleeps while listening to his ipod in the back of a vehicle .,indoors/man-made/transportation_urban
+chatgpt,a man sleeps while listening to his ipod.,indoors/man-made/domestic
+chatgpt,a man wearing yellow swimming trunks kneeling,outdoors/natural/other_unclear
+chatgpt,a man wearing yellow swimming trunks kneeling by the ocean,outdoors/natural/body_of_water
+chatgpt,a man with red pants is skiing .,outdoors/natural/mountain
+chatgpt,a man with red pants is skiing downhill .,outdoors/natural/mountain
+chatgpt,a motorcyclist on a red speed bike leans .,outdoors/man-made/transportation_urban
+chatgpt,a motorcyclist on a red speed bike leans into a sharp turn .,outdoors/man-made/transportation_urban
+chatgpt,a person dressed in a tan jacket jumps a quad over a harvested cornfield,outdoors/natural/field_forest
+chatgpt,a person dressed in a tan jacket jumps a quad over a harvested cornfield in front of a small out building .,outdoors/natural/field_forest
+chatgpt,a person drives around a futuristic looking vehicle while a man approaches and a crowd watches .,outdoors/man-made/transportation_urban
+chatgpt,a person drives around a futuristic looking vehicle while a man approaches her and a crowd watches .,outdoors/man-made/transportation_urban
+chatgpt,a person wearing a construction uniform is leaning against a traffic light pole on the sidewalk .,outdoors/man-made/work_education
+chatgpt,a person wearing a construction uniform is leaning.,outdoors/man-made/work_education
+chatgpt,a red dog jumps to catch a tennis ball .,outdoors/natural/other_unclear
+chatgpt,a red dog jumps to catch a tennis ball in the dry tall grass .,outdoors/natural/other_unclear
+chatgpt,a runner in black is passing a florist shop .,outdoors/man-made/other_unclear
+chatgpt,a runner in black is passing an outdoor florist shop .,outdoors/man-made/work_education
+chatgpt,a smiling child wearing a hat and sunglasses sits in a car .,indoors/man-made/transportation_urban
+chatgpt,a smiling child wearing a hat and sunglasses sits.,outdoors/man-made/recreation
+chatgpt,a spotted dog catching a ball on a snowy field .,outdoors/natural/field_forest
+chatgpt,a spotted dog catching a ball.,outdoors/man-made/recreation
+chatgpt,a teenager drinks directly out of the metal milkshake serving cup .,indoors/man-made/restaurant
+chatgpt,a terrier mix catches a frisbee in the air .,outdoors/natural/other_unclear
+chatgpt,a terrier mix catches a frisbee.,outdoors/natural/other_unclear
+chatgpt,a well dressed young woman waits for the train while a man busy writing something .,indoors/man-made/transportation_urban
+chatgpt,a well dressed young woman waits on a bench for the train while a man busy writing something waits nearby .,indoors/man-made/transportation_urban
+chatgpt,a woman is drinking a beverage,indoors/man-made/other_unclear
+chatgpt,a woman is drinking a beverage in a busy cafe .,indoors/man-made/restaurant
+chatgpt,a woman is having her foot examined by another woman,indoors/man-made/work_education
+chatgpt,a woman is having her foot examined by another woman in a run-down building .,indoors/man-made/other_unclear
+chatgpt,a woman is holding a baby while another child stands .,indoors/man-made/domestic
+chatgpt,a woman is holding a baby while another child stands by her side .,indoors/man-made/domestic
+chatgpt,a woman is laying down laughing .,indoors/man-made/recreation
+chatgpt,a woman is laying down on a sofa laughing .,indoors/man-made/domestic
+chatgpt,a woman is selling vegetables .,outdoors/man-made/work_education
+chatgpt,a woman is selling vegetables on the street .,outdoors/man-made/work_education
+chatgpt,a woman is using a ruler at a desk to mark a sheet of paper .,indoors/man-made/work_education
+chatgpt,a woman is using a ruler to mark a sheet of paper .,indoors/man-made/work_education
+chatgpt,a woman sits on a shoe store 's bench while putting a shoe onto her right foot .,indoors/man-made/other_unclear
+chatgpt,a woman sits while putting a shoe onto her right foot .,indoors/man-made/domestic
+chatgpt,a woman sleeps,indoors/man-made/domestic
+chatgpt,a woman sleeps under a blue and white blanket in a car .,indoors/man-made/transportation_urban
+chatgpt,a woman with a peace symbol grills vegetables,outdoors/man-made/domestic
+chatgpt,a woman with a peace symbol on her shirt grills vegetables,outdoors/man-made/domestic
+chatgpt,a young boy wearing a dark blue hat sleeps on a bench at a terminal .,indoors/man-made/transportation_urban
+chatgpt,a young boy wearing a dark blue hat sleeps.,outdoors/man-made/other_unclear
+chatgpt,all these people are enjoying a basement dance party .,indoors/man-made/recreation
+chatgpt,all these people are enjoying a dance party .,indoors/man-made/recreation
+chatgpt,an asian man sells a hot confection from his stand in a crowded market .,outdoors/man-made/work_education
+chatgpt,an asian man sells a hot confection.,outdoors/man-made/work_education
+chatgpt,an old woman is selling produce at a farmer 's market .,outdoors/man-made/work_education
+chatgpt,an old woman is selling produce.,outdoors/man-made/work_education
+chatgpt,an older couple passes by a young lady,outdoors/man-made/other_unclear
+chatgpt,an older couple passes by a young lady on the sidewalk .,outdoors/man-made/transportation_urban
+chatgpt,an older man and women are using computers in a sort of storage room .,indoors/man-made/other_unclear
+chatgpt,an older man and women are using computers.,indoors/man-made/work_education
+chatgpt,an orchestra of about <number> people are practicing,indoors/man-made/work_education
+chatgpt,an orchestra of about <number> people are practicing on the stage of what appears to be an auditorium full of green chairs .,indoors/man-made/recreation
+chatgpt,asian students are examining sheets of paper while standing .,indoors/man-made/work_education
+chatgpt,asian students are examining sheets of paper while standing in line .,outdoors/man-made/work_education
+chatgpt,brown dog catches a pink ball in the park .,outdoors/man-made/recreation
+chatgpt,brown dog catches a pink ball.,outdoors/natural/other_unclear
+chatgpt,buff african american man waits for subway at wall street station .,indoors/man-made/transportation_urban
+chatgpt,buff african american man waits for subway.,indoors/man-made/transportation_urban
+chatgpt,crowd waiting for a train .,indoors/man-made/transportation_urban
+chatgpt,crowd waiting on main street subway platform for a train .,indoors/man-made/transportation_urban
+chatgpt,dancers practicing their dance routines .,indoors/man-made/recreation
+chatgpt,decorated limo passing by elderly woman waiting on park bench .,outdoors/man-made/transportation_urban
+chatgpt,decorated limo passing by elderly woman waiting on park bench in chinese street .,outdoors/man-made/transportation_urban
+chatgpt,four people in black shirts giving a presentation to a room full of people using a big projector image .,indoors/man-made/work_education
+chatgpt,four people in black shirts giving a presentation to a room full of people using a big projector image on the wall .,indoors/man-made/work_education
+chatgpt,four women are on stage singing .,indoors/man-made/recreation
+chatgpt,four women are singing .,indoors/man-made/recreation
+chatgpt,four young adults sit,indoors/man-made/other_unclear
+chatgpt,girl wearing blue shirt and black shorts plays trumped .,outdoors/man-made/recreation
+chatgpt,girl wearing blue shirt and black shorts plays trumped outside .,outdoors/man-made/recreation
+chatgpt,group of women doing a presentation .,indoors/man-made/work_education
+chatgpt,group of women doing a presentation off an easel .,indoors/man-made/work_education
+chatgpt,kids play around a statue bust outside .,outdoors/man-made/recreation
+chatgpt,little girl skis on slope .,outdoors/natural/mountain
+chatgpt,little girl skis.,outdoors/natural/other_unclear
+chatgpt,man with gray hair wearing a suit is waiting in a subway tunnel .,indoors/man-made/transportation_urban
+chatgpt,man with gray hair wearing a suit is waiting.,indoors/man-made/work_education
+chatgpt,men playing volleyball,outdoors/man-made/recreation
+chatgpt,men playing volleyball in the sand .,outdoors/man-made/recreation
+chatgpt,muzzled greyhounds are racing on the track .,outdoors/man-made/recreation
+chatgpt,muzzled greyhounds are racing.,outdoors/man-made/recreation
+chatgpt,one dog is jumping at the lady while the other walks,outdoors/natural/other_unclear
+chatgpt,one dog is jumping at the lady while the other walks away .,outdoors/natural/other_unclear
+chatgpt,people are rowing a boat .,outdoors/natural/body_of_water
+chatgpt,people are rowing a boat in the water .,outdoors/natural/body_of_water
+chatgpt,people examine books in a library .,indoors/man-made/work_education
+chatgpt,people examine books.,indoors/man-made/work_education
+chatgpt,people pass each other on a busy city street while talking on their cellphones .,outdoors/man-made/transportation_urban
+chatgpt,people pass each other while talking on their cellphones .,outdoors/man-made/other_unclear
+chatgpt,person with two ski poles skiing down .,outdoors/natural/mountain
+chatgpt,person with two ski poles skiing down a snowy hill .,outdoors/natural/mountain
+chatgpt,several people sit,indoors/man-made/other_unclear
+chatgpt,stage dancers practicing their dance routines .,indoors/man-made/work_education
+chatgpt,street vendors are selling fruits and vegetables in a stand and in large baskets on the ground .,outdoors/man-made/work_education
+chatgpt,the brown dog catches a ball in the air .,outdoors/natural/other_unclear
+chatgpt,the little girl swings in the backyard .,outdoors/man-made/recreation
+chatgpt,the little girl swings.,outdoors/man-made/recreation
+chatgpt,the man in the red shirt and flowery tie is sitting on a bus by the window .,indoors/man-made/transportation_urban
+chatgpt,the man in the red shirt and flowery tie is sitting.,indoors/man-made/other_unclear
+chatgpt,three children are playing .,outdoors/natural/other_unclear
+chatgpt,three children are practicing martial arts in a gym .,indoors/man-made/recreation
+chatgpt,three children are practicing martial arts.,indoors/man-made/recreation
+chatgpt,three girls or friends having drinks at a bar laughing .,indoors/man-made/restaurant
+chatgpt,three girls or friends having drinks laughing .,indoors/man-made/recreation
+chatgpt,three people in various stages of swimming strokes race,outdoors/man-made/recreation
+chatgpt,three people in various stages of swimming strokes race along colorful lane markers .,indoors/man-made/recreation
+chatgpt,three women and a man are drinking beer .,indoors/man-made/recreation
+chatgpt,three women and a man are drinking beer at a table .,indoors/man-made/recreation
+chatgpt,three women speak to each other in a room with tan walls .,indoors/man-made/other_unclear
+chatgpt,three women speak to each other.,indoors/man-made/other_unclear
+chatgpt,three young women and one young man singing in an auditorium .,indoors/man-made/recreation
+chatgpt,three young women and one young man singing.,indoors/man-made/recreation
+chatgpt,two children swing from a swing made from a steel drum .,outdoors/man-made/recreation
+chatgpt,two children swing in dusty rooftop from a swing made from a steel drum .,outdoors/man-made/recreation
+chatgpt,two dogs are catching blue frisbees in grass .,outdoors/natural/field_forest
+chatgpt,two dogs are catching blue frisbees.,outdoors/man-made/recreation
+chatgpt,two dogs are nose to nose while a third dog stands .,outdoors/natural/other_unclear
+chatgpt,two dogs are nose to nose while a third dog stands next to them .,outdoors/natural/other_unclear
+chatgpt,two furry light brown dogs lying on a hardwood floor .,indoors/man-made/domestic
+chatgpt,two furry light brown dogs lying.,outdoors/natural/other_unclear
+chatgpt,two girls and three boys are presenting in front of a dry erase board .,indoors/man-made/work_education
+chatgpt,two girls and three boys are presenting.,indoors/man-made/work_education
+chatgpt,two girls are in a race .,outdoors/man-made/recreation
+chatgpt,two girls are in a sack race .,outdoors/man-made/recreation
+chatgpt,two guys are rowing a canoe on a lake .,outdoors/natural/body_of_water
+chatgpt,two guys are rowing a canoe.,outdoors/natural/body_of_water
+chatgpt,two men drink beer .,indoors/man-made/recreation
+chatgpt,two men drink beer at the bar in a restaurant .,indoors/man-made/restaurant
+chatgpt,two men on motorcycles are driving down .,outdoors/man-made/transportation_urban
+chatgpt,two men on motorcycles are driving down an empty street .,outdoors/man-made/transportation_urban
+chatgpt,two people are jumping on the side of a road with snow in the background .,outdoors/natural/other_unclear
+chatgpt,two people are jumping with snow .,outdoors/natural/other_unclear
+chatgpt,two people are sleeping .,indoors/man-made/domestic
+chatgpt,two people on the subway are sleeping in the corner .,indoors/man-made/transportation_urban
+chatgpt,two rows of dance students are practicing ballet moves against a pole in a studio .,indoors/man-made/work_education
+chatgpt,two rows of dance students are practicing ballet moves against a pole.,indoors/man-made/work_education
+chatgpt,two swimmers race in a pool with a red line between them .,indoors/man-made/recreation
+chatgpt,two swimmers race with a red line .,outdoors/man-made/recreation
+chatgpt,two women in black enjoying a lunch in a restaurant .,indoors/man-made/restaurant
+chatgpt,two women in black enjoying a lunch.,indoors/man-made/restaurant
+chatgpt,two women in white lab coats examine a dyed area on a cluster of cells using a projector .,indoors/man-made/work_education
+chatgpt,two women in white lab coats examine a dyed area using a projector .,indoors/man-made/work_education
+chatgpt,two young people riding skateboards pass by in the street as a black dog on a red leash stops and squats down.,outdoors/man-made/recreation
+chatgpt,two young people riding skateboards pass by in the street as a black dog on a red leash stops in a doorway and squats down on the sidewalk .,outdoors/man-made/recreation
+chatgpt,vendors are selling fruits and vegetables,outdoors/man-made/work_education
+chatgpt,vendors sell products at a farmers market .,outdoors/man-made/work_education
+chatgpt,vendors sell products.,outdoors/man-made/work_education
+chatgpt,white and black dog jumping over red-haired dog .,outdoors/natural/other_unclear
+chatgpt,white and black dog jumping over red-haired dog in grass .,outdoors/natural/field_forest
+claude,"""a crowd waits outside a subway train , ready to board .""",outdoors/man-made/transportation_urban
+claude,"""a crowd waits, ready to board .""",outdoors/man-made/transportation_urban
+claude,"""a man driving a small , open vehicle with a green sign .""",outdoors/man-made/transportation_urban
+claude,"""a man driving a small , open vehicle with a green sign on the back of it in traffic .""",outdoors/man-made/transportation_urban
+claude,"""a man in a blue swimsuit and a red beanie kneels in the wet sand on the edge of a beach , making a sand castle that is as tall as he is when he is kneeling .""",outdoors/natural/body_of_water
+claude,"""a man wearing jeans , polo shirt and a baseball cap , fork , is grilling meat .""",outdoors/man-made/domestic
+claude,"""a man wearing jeans , polo shirt and a baseball cap , fork in hand , is grilling meat outside in a fenced yard .""",outdoors/man-made/domestic
+claude,"""a ruddy infant lies on a patterned sheet with his eyes closed , his mouth open , and his arm extended .""",indoors/man-made/domestic
+claude,"""a ruddy infant lies with his eyes closed , his mouth open , and his arm extended .""",indoors/man-made/domestic
+claude,"""an impoverished person , wearing a torn brown shirt and no shoes , is kneeling down .""",outdoors/man-made/other_unclear
+claude,"""an impoverished person , wearing a torn brown shirt and no shoes , is kneeling down along the banks of a trash infested body of water .""",outdoors/natural/body_of_water
+claude,"""four young adults sit outside on a wooden deck near a building around a small round table , while another person stands on the edge of the deck , leaning on the wooden railing , with the sun shining on one of them and the rest of them are in the shade , two of them crossing their legs , one holding a cellphone out in front of himself and another holding a green and red soda can .""",outdoors/man-made/recreation
+claude,"""in a restaurant , a teenager drinks directly out of the metal milkshake serving cup .""",indoors/man-made/restaurant
+claude,"""people swing on a red , metal amusement park ride in front of some trees .""",outdoors/man-made/recreation
+claude,"""people swing on a red , metal amusement park ride.""",outdoors/man-made/recreation
+claude,"""person leaning against the wall , next to a life size cartoon cut out .""",indoors/man-made/other_unclear
+claude,"""several people in the mid-ground sit on a bench along the side of a white building , while three people stand in a courtyard in front of the building .""",outdoors/man-made/other_unclear
+claude,"""three children are playing outdoors , two of them on a metal barrel swing .""",outdoors/man-made/recreation
+claude,"""two girls , both dressed in pink , swinging on sunlight day with the nearby trees casting random shadows on the remainder of the park like setting .""",outdoors/man-made/recreation
+claude,"""two girls , both dressed in pink , swinging on sunlight day with the trees casting random shadows on the remainder of the park like setting .""",outdoors/man-made/recreation
+claude,Kids play,outdoors/man-made/recreation
+claude,Person leaning,indoors/man-made/other_unclear
+claude,The brown dog catches a ball.,outdoors/man-made/recreation
+claude,a black and white dog runs beside a brown dog in a green field .,outdoors/natural/field_forest
+claude,a black and white dog runs.,outdoors/natural/other_unclear
+claude,a black dog runs on green grass with its mouth open .,outdoors/natural/field_forest
+claude,a black dog runs with his mouth open,outdoors/natural/other_unclear
+claude,a blond dog and a black and white dog run,outdoors/natural/other_unclear
+claude,a blond dog and a black and white dog run in a dirt field .,outdoors/natural/field_forest
+claude,a boy and girl child swing together .,outdoors/man-made/recreation
+claude,a boy and girl child swing together on a swing set .,outdoors/man-made/recreation
+claude,a brown dog running,outdoors/natural/other_unclear
+claude,a brown dog running on a lawn near a garden hose,outdoors/man-made/domestic
+claude,a chef speaks into a microphone about a mixed salad contained .,indoors/man-made/restaurant
+claude,a chef speaks into a microphone about a mixed salad contained in a bowl with a decorative lid .,indoors/man-made/restaurant
+claude,a child in a dress runs through the yard with a miniature orange soccer ball in her hand .,outdoors/man-made/domestic
+claude,a child in a dress runs with a miniature orange soccer ball .,outdoors/man-made/recreation
+claude,a dark-haired dark-skinned child sleeps in a chair while holding a blue zippered pack .,indoors/man-made/domestic
+claude,a dark-haired dark-skinned child sleeps while holding a blue zippered pack .,indoors/man-made/domestic
+claude,a dark-haired man is speaking into a microphone while another man is sitting .,indoors/man-made/work_education
+claude,a dark-haired man is speaking into a microphone while another man is sitting beside him .,indoors/man-made/work_education
+claude,a dog wearing a t-shirt is lying down .,indoors/man-made/domestic
+claude,a dog wearing a t-shirt is lying.,indoors/man-made/domestic
+claude,a gray dog is jumping toward a black and white dog in the snow .,outdoors/natural/other_unclear
+claude,a gray dog is jumping toward a black and white dog.,outdoors/natural/other_unclear
+claude,a greyhound races on the dirt .,outdoors/man-made/recreation
+claude,a greyhound races.,outdoors/man-made/recreation
+claude,a group of men in golden shirts singing in front of a microphone .,indoors/man-made/recreation
+claude,a group of men in golden shirts singing.,indoors/man-made/recreation
+claude,a group of people lie close together on a hardwood floor .,indoors/man-made/other_unclear
+claude,a group of people lie close together.,indoors/man-made/domestic
+claude,a handicapped person with one leg skiing down a mountain with other mountains in the background .,outdoors/natural/mountain
+claude,a handicapped person with one leg skiing down with other mountains .,outdoors/natural/mountain
+claude,a korean woman is enjoying a meal in a restaurant .,indoors/man-made/restaurant
+claude,a korean woman is enjoying a meal.,indoors/man-made/restaurant
+claude,a lady with short hair wearing a black jacket leaned .,indoors/man-made/other_unclear
+claude,a lady with short hair wearing a black jacket leaned against a lamp post outside a building .,outdoors/man-made/other_unclear
+claude,a little boy playing in the water .,outdoors/natural/body_of_water
+claude,a little boy playing.,indoors/man-made/recreation
+claude,a lively adult karate practice,indoors/man-made/recreation
+claude,a lively adult karate practice at the dojo .,indoors/man-made/recreation
+claude,a man and a woman are examining produce at a market .,outdoors/man-made/other_unclear
+claude,a man and a woman are examining produce.,indoors/man-made/other_unclear
+claude,a man and woman enjoying dinner at a party .,indoors/man-made/recreation
+claude,a man and woman enjoying dinner.,indoors/man-made/restaurant
+claude,a man drives a truck while a child sits and steers .,outdoors/man-made/transportation_urban
+claude,a man drives a truck while a child sits on his lap and steers .,outdoors/man-made/transportation_urban
+claude,a man driving a small golf cart down a street with a crowd watching him on either side of the street .,outdoors/man-made/transportation_urban
+claude,a man driving a small golf cart with a crowd watching.,outdoors/man-made/recreation
+claude,a man grilling,outdoors/man-made/domestic
+claude,a man grilling meat on an outdoor grilling pit .,outdoors/man-made/recreation
+claude,a man grilling meat.,outdoors/man-made/domestic
+claude,a man grilling outside his house .,outdoors/man-made/domestic
+claude,a man grilling three pieces of salmon outside .,outdoors/man-made/domestic
+claude,a man grilling three pieces of salmon.,outdoors/man-made/domestic
+claude,a man in a black shirt sitting,indoors/man-made/other_unclear
+claude,a man in a black shirt sitting next to a older women in a pink jacket on a train .,indoors/man-made/transportation_urban
+claude,a man in a blue swimsuit and a red beanie kneels making a sand castle that is as tall as he is when he is kneeling .,outdoors/natural/body_of_water
+claude,a man in a dark shirt is making a presentation in front of a group .,indoors/man-made/work_education
+claude,a man in a dark shirt is making a presentation.,indoors/man-made/work_education
+claude,a man in a suit and tie in a fancy building is speaking at the podium .,indoors/man-made/work_education
+claude,a man in a suit and tie is speaking.,indoors/man-made/work_education
+claude,"a man in a white polo shirt speaks into a microphone with a sign behind him that reads , truth ! ",indoors/man-made/work_education
+claude,"a man in a white polo shirt speaks with a sign that reads , truth ! ",outdoors/man-made/other_unclear
+claude,a man in a white shirt uses a blackboard as others sit at a table watching .,indoors/man-made/work_education
+claude,a man in a white shirt uses a blackboard as others sit watching .,indoors/man-made/work_education
+claude,a man in a yellow jacket is skiing in the snow .,outdoors/natural/mountain
+claude,a man in a yellow jacket is skiing.,outdoors/natural/mountain
+claude,a man in red shirt wearing sunglasses is leaning,outdoors/man-made/other_unclear
+claude,a man in red shirt wearing sunglasses is leaning on the wall,outdoors/man-made/other_unclear
+claude,a man is enjoying meal and drink .,indoors/man-made/restaurant
+claude,a man is enjoying meal and drink inside a restaurant .,indoors/man-made/restaurant
+claude,a man is giving a presentation in front of three people .,indoors/man-made/work_education
+claude,a man is giving a presentation.,indoors/man-made/work_education
+claude,a man is kneeling down with a child,indoors/man-made/domestic
+claude,a man is kneeling down with a child on a beach where bright blue and red boats are stationed in the background .,outdoors/natural/body_of_water
+claude,a man is rowing a canoe on a lake .,outdoors/natural/body_of_water
+claude,a man is rowing a canoe.,outdoors/natural/body_of_water
+claude,a man is singing at a concert .,indoors/man-made/recreation
+claude,a man is singing.,indoors/man-made/recreation
+claude,a man is sitting on the street playing drums on buckets .,outdoors/man-made/recreation
+claude,a man is sitting playing drums on buckets .,outdoors/man-made/recreation
+claude,a man is using his computer while seated at a desk .,indoors/man-made/work_education
+claude,a man is using his computer while seated.,indoors/man-made/work_education
+claude,a man perched is using a net to scoop a fish from another aquarium .,indoors/man-made/recreation
+claude,a man perched on a row of aquariums is using a net to scoop a fish from another aquarium .,indoors/man-made/work_education
+claude,a man rowing in the front of a canoe in a large body of water .,outdoors/natural/body_of_water
+claude,a man rowing.,outdoors/natural/body_of_water
+claude,a man rows his boat .,outdoors/natural/body_of_water
+claude,a man rows his boat below .,outdoors/natural/body_of_water
+claude,a man singing in a very colorful environment .,indoors/man-made/recreation
+claude,a man singing.,indoors/man-made/recreation
+claude,a man sleeps while listening to his ipod in the back of a vehicle .,indoors/man-made/transportation_urban
+claude,a man sleeps while listening to his ipod.,indoors/man-made/domestic
+claude,a man wearing yellow swimming trunks kneeling,outdoors/natural/body_of_water
+claude,a man wearing yellow swimming trunks kneeling by the ocean,outdoors/natural/body_of_water
+claude,a man with red pants is skiing .,outdoors/natural/mountain
+claude,a man with red pants is skiing downhill .,outdoors/natural/mountain
+claude,a motorcyclist on a red speed bike leans .,outdoors/man-made/transportation_urban
+claude,a motorcyclist on a red speed bike leans into a sharp turn .,outdoors/man-made/transportation_urban
+claude,a person dressed in a tan jacket jumps a quad over a harvested cornfield,outdoors/natural/field_forest
+claude,a person dressed in a tan jacket jumps a quad over a harvested cornfield in front of a small out building .,outdoors/natural/field_forest
+claude,a person drives around a futuristic looking vehicle while a man approaches and a crowd watches .,outdoors/man-made/transportation_urban
+claude,a person drives around a futuristic looking vehicle while a man approaches her and a crowd watches .,outdoors/man-made/transportation_urban
+claude,a person wearing a construction uniform is leaning against a traffic light pole on the sidewalk .,outdoors/man-made/transportation_urban
+claude,a person wearing a construction uniform is leaning.,outdoors/man-made/work_education
+claude,a red dog jumps to catch a tennis ball .,outdoors/natural/field_forest
+claude,a red dog jumps to catch a tennis ball in the dry tall grass .,outdoors/natural/field_forest
+claude,a runner in black is passing a florist shop .,outdoors/man-made/transportation_urban
+claude,a runner in black is passing an outdoor florist shop .,outdoors/man-made/other_unclear
+claude,a smiling child wearing a hat and sunglasses sits in a car .,indoors/man-made/transportation_urban
+claude,a smiling child wearing a hat and sunglasses sits.,indoors/man-made/domestic
+claude,a spotted dog catching a ball on a snowy field .,outdoors/natural/field_forest
+claude,a spotted dog catching a ball.,outdoors/natural/field_forest
+claude,a teenager drinks directly out of the metal milkshake serving cup .,indoors/man-made/restaurant
+claude,a terrier mix catches a frisbee in the air .,outdoors/natural/field_forest
+claude,a terrier mix catches a frisbee.,outdoors/man-made/recreation
+claude,a well dressed young woman waits for the train while a man busy writing something .,outdoors/man-made/transportation_urban
+claude,a well dressed young woman waits on a bench for the train while a man busy writing something waits nearby .,outdoors/man-made/transportation_urban
+claude,a woman is drinking a beverage,indoors/man-made/domestic
+claude,a woman is drinking a beverage in a busy cafe .,indoors/man-made/restaurant
+claude,a woman is having her foot examined by another woman,indoors/man-made/work_education
+claude,a woman is having her foot examined by another woman in a run-down building .,indoors/man-made/other_unclear
+claude,a woman is holding a baby while another child stands .,indoors/man-made/domestic
+claude,a woman is holding a baby while another child stands by her side .,indoors/man-made/domestic
+claude,a woman is laying down laughing .,indoors/man-made/domestic
+claude,a woman is laying down on a sofa laughing .,indoors/man-made/domestic
+claude,a woman is selling vegetables .,outdoors/man-made/work_education
+claude,a woman is selling vegetables on the street .,outdoors/man-made/work_education
+claude,a woman is using a ruler at a desk to mark a sheet of paper .,indoors/man-made/work_education
+claude,a woman is using a ruler to mark a sheet of paper .,indoors/man-made/work_education
+claude,a woman sits on a shoe store 's bench while putting a shoe onto her right foot .,indoors/man-made/other_unclear
+claude,a woman sits while putting a shoe onto her right foot .,indoors/man-made/domestic
+claude,a woman sleeps,indoors/man-made/domestic
+claude,a woman sleeps under a blue and white blanket in a car .,indoors/man-made/transportation_urban
+claude,a woman with a peace symbol grills vegetables,outdoors/man-made/domestic
+claude,a woman with a peace symbol on her shirt grills vegetables,outdoors/man-made/domestic
+claude,a young boy wearing a dark blue hat sleeps on a bench at a terminal .,indoors/man-made/transportation_urban
+claude,a young boy wearing a dark blue hat sleeps.,indoors/man-made/domestic
+claude,all these people are enjoying a basement dance party .,indoors/man-made/recreation
+claude,all these people are enjoying a dance party .,indoors/man-made/recreation
+claude,an asian man sells a hot confection from his stand in a crowded market .,outdoors/man-made/other_unclear
+claude,an asian man sells a hot confection.,outdoors/man-made/work_education
+claude,an old woman is selling produce at a farmer 's market .,outdoors/man-made/work_education
+claude,an old woman is selling produce.,outdoors/man-made/work_education
+claude,an older couple passes by a young lady,outdoors/man-made/transportation_urban
+claude,an older couple passes by a young lady on the sidewalk .,outdoors/man-made/transportation_urban
+claude,an older man and women are using computers in a sort of storage room .,indoors/man-made/work_education
+claude,an older man and women are using computers.,indoors/man-made/work_education
+claude,an orchestra of about <number> people are practicing,indoors/man-made/recreation
+claude,an orchestra of about <number> people are practicing on the stage of what appears to be an auditorium full of green chairs .,indoors/man-made/recreation
+claude,asian students are examining sheets of paper while standing .,indoors/man-made/work_education
+claude,asian students are examining sheets of paper while standing in line .,indoors/man-made/work_education
+claude,brown dog catches a pink ball in the park .,outdoors/man-made/recreation
+claude,brown dog catches a pink ball.,outdoors/man-made/recreation
+claude,buff african american man waits for subway at wall street station .,indoors/man-made/transportation_urban
+claude,buff african american man waits for subway.,indoors/man-made/transportation_urban
+claude,crowd waiting for a train .,indoors/man-made/transportation_urban
+claude,crowd waiting on main street subway platform for a train .,indoors/man-made/transportation_urban
+claude,dancers practicing their dance routines .,indoors/man-made/recreation
+claude,decorated limo passing by elderly woman waiting on park bench .,outdoors/man-made/transportation_urban
+claude,decorated limo passing by elderly woman waiting on park bench in chinese street .,outdoors/man-made/transportation_urban
+claude,four people in black shirts giving a presentation to a room full of people using a big projector image .,indoors/man-made/work_education
+claude,four people in black shirts giving a presentation to a room full of people using a big projector image on the wall .,indoors/man-made/work_education
+claude,four women are on stage singing .,indoors/man-made/recreation
+claude,four women are singing .,indoors/man-made/recreation
+claude,four young adults sit,indoors/man-made/other_unclear
+claude,girl wearing blue shirt and black shorts plays trumped .,indoors/man-made/recreation
+claude,girl wearing blue shirt and black shorts plays trumped outside .,outdoors/man-made/recreation
+claude,group of women doing a presentation .,indoors/man-made/work_education
+claude,group of women doing a presentation off an easel .,indoors/man-made/work_education
+claude,kids play around a statue bust outside .,outdoors/man-made/recreation
+claude,little girl skis on slope .,outdoors/natural/mountain
+claude,little girl skis.,outdoors/natural/mountain
+claude,man with gray hair wearing a suit is waiting in a subway tunnel .,indoors/man-made/transportation_urban
+claude,man with gray hair wearing a suit is waiting.,indoors/man-made/work_education
+claude,men playing volleyball,outdoors/man-made/recreation
+claude,men playing volleyball in the sand .,outdoors/natural/other_unclear
+claude,muzzled greyhounds are racing on the track .,outdoors/man-made/recreation
+claude,muzzled greyhounds are racing.,outdoors/man-made/recreation
+claude,one dog is jumping at the lady while the other walks,outdoors/man-made/domestic
+claude,one dog is jumping at the lady while the other walks away .,outdoors/man-made/domestic
+claude,people are rowing a boat .,outdoors/natural/body_of_water
+claude,people are rowing a boat in the water .,outdoors/natural/body_of_water
+claude,people examine books in a library .,indoors/man-made/work_education
+claude,people examine books.,indoors/man-made/work_education
+claude,people pass each other on a busy city street while talking on their cellphones .,outdoors/man-made/transportation_urban
+claude,people pass each other while talking on their cellphones .,outdoors/man-made/transportation_urban
+claude,person with two ski poles skiing down .,outdoors/natural/mountain
+claude,person with two ski poles skiing down a snowy hill .,outdoors/natural/mountain
+claude,several people sit,indoors/man-made/other_unclear
+claude,stage dancers practicing their dance routines .,indoors/man-made/recreation
+claude,street vendors are selling fruits and vegetables in a stand and in large baskets on the ground .,outdoors/man-made/work_education
+claude,the brown dog catches a ball in the air .,outdoors/natural/field_forest
+claude,the little girl swings in the backyard .,outdoors/man-made/domestic
+claude,the little girl swings.,outdoors/man-made/recreation
+claude,the man in the red shirt and flowery tie is sitting on a bus by the window .,indoors/man-made/transportation_urban
+claude,the man in the red shirt and flowery tie is sitting.,indoors/man-made/work_education
+claude,three children are playing .,indoors/man-made/recreation
+claude,three children are practicing martial arts in a gym .,indoors/man-made/recreation
+claude,three children are practicing martial arts.,indoors/man-made/recreation
+claude,three girls or friends having drinks at a bar laughing .,indoors/man-made/restaurant
+claude,three girls or friends having drinks laughing .,indoors/man-made/restaurant
+claude,three people in various stages of swimming strokes race,indoors/man-made/recreation
+claude,three people in various stages of swimming strokes race along colorful lane markers .,indoors/man-made/recreation
+claude,three women and a man are drinking beer .,indoors/man-made/recreation
+claude,three women and a man are drinking beer at a table .,indoors/man-made/restaurant
+claude,three women speak to each other in a room with tan walls .,indoors/man-made/other_unclear
+claude,three women speak to each other.,indoors/man-made/other_unclear
+claude,three young women and one young man singing in an auditorium .,indoors/man-made/recreation
+claude,three young women and one young man singing.,indoors/man-made/recreation
+claude,two children swing from a swing made from a steel drum .,outdoors/man-made/recreation
+claude,two children swing in dusty rooftop from a swing made from a steel drum .,outdoors/man-made/recreation
+claude,two dogs are catching blue frisbees in grass .,outdoors/natural/field_forest
+claude,two dogs are catching blue frisbees.,outdoors/man-made/recreation
+claude,two dogs are nose to nose while a third dog stands .,outdoors/natural/other_unclear
+claude,two dogs are nose to nose while a third dog stands next to them .,outdoors/natural/other_unclear
+claude,two furry light brown dogs lying on a hardwood floor .,indoors/man-made/domestic
+claude,two furry light brown dogs lying.,indoors/man-made/domestic
+claude,two girls and three boys are presenting in front of a dry erase board .,indoors/man-made/work_education
+claude,two girls and three boys are presenting.,indoors/man-made/work_education
+claude,two girls are in a race .,outdoors/man-made/recreation
+claude,two girls are in a sack race .,outdoors/man-made/recreation
+claude,two guys are rowing a canoe on a lake .,outdoors/natural/body_of_water
+claude,two guys are rowing a canoe.,outdoors/natural/body_of_water
+claude,two men drink beer .,indoors/man-made/recreation
+claude,two men drink beer at the bar in a restaurant .,indoors/man-made/restaurant
+claude,two men on motorcycles are driving down .,outdoors/man-made/transportation_urban
+claude,two men on motorcycles are driving down an empty street .,outdoors/man-made/transportation_urban
+claude,two people are jumping on the side of a road with snow in the background .,outdoors/natural/other_unclear
+claude,two people are jumping with snow .,outdoors/natural/other_unclear
+claude,two people are sleeping .,indoors/man-made/domestic
+claude,two people on the subway are sleeping in the corner .,indoors/man-made/transportation_urban
+claude,two rows of dance students are practicing ballet moves against a pole in a studio .,indoors/man-made/recreation
+claude,two rows of dance students are practicing ballet moves against a pole.,indoors/man-made/recreation
+claude,two swimmers race in a pool with a red line between them .,indoors/man-made/recreation
+claude,two swimmers race with a red line .,indoors/man-made/recreation
+claude,two women in black enjoying a lunch in a restaurant .,indoors/man-made/restaurant
+claude,two women in black enjoying a lunch.,indoors/man-made/restaurant
+claude,two women in white lab coats examine a dyed area on a cluster of cells using a projector .,indoors/man-made/work_education
+claude,two women in white lab coats examine a dyed area using a projector .,indoors/man-made/work_education
+claude,two young people riding skateboards pass by in the street as a black dog on a red leash stops and squats down.,outdoors/man-made/transportation_urban
+claude,two young people riding skateboards pass by in the street as a black dog on a red leash stops in a doorway and squats down on the sidewalk .,outdoors/man-made/transportation_urban
+claude,vendors are selling fruits and vegetables,outdoors/man-made/work_education
+claude,vendors sell products at a farmers market .,outdoors/man-made/work_education
+claude,vendors sell products.,outdoors/man-made/work_education
+claude,white and black dog jumping over red-haired dog .,outdoors/natural/other_unclear
+claude,white and black dog jumping over red-haired dog in grass .,outdoors/natural/field_forest
+perplexity,"""a crowd waits outside a subway train , ready to board .""",outdoors/man-made/transportation_urban
+perplexity,"""a crowd waits, ready to board .""",outdoors/man-made/transportation_urban
+perplexity,"""a man driving a small , open vehicle with a green sign .""",outdoors/man-made/transportation_urban
+perplexity,"""a man driving a small , open vehicle with a green sign on the back of it in traffic .""",outdoors/man-made/transportation_urban
+perplexity,"""a man in a blue swimsuit and a red beanie kneels in the wet sand on the edge of a beach , making a sand castle that is as tall as he is when he is kneeling .""",outdoors/natural/recreation
+perplexity,"""a man wearing jeans , polo shirt and a baseball cap , fork , is grilling meat .""",outdoors/man-made/recreation
+perplexity,"""a man wearing jeans , polo shirt and a baseball cap , fork in hand , is grilling meat outside in a fenced yard .""",outdoors/man-made/recreation
+perplexity,"""a ruddy infant lies on a patterned sheet with his eyes closed , his mouth open , and his arm extended .""",indoors/man-made/domestic
+perplexity,"""a ruddy infant lies with his eyes closed , his mouth open , and his arm extended .""",indoors/man-made/domestic
+perplexity,"""an impoverished person , wearing a torn brown shirt and no shoes , is kneeling down .""",outdoors/man-made/other_unclear
+perplexity,"""an impoverished person , wearing a torn brown shirt and no shoes , is kneeling down along the banks of a trash infested body of water .""",outdoors/natural/body_of_water
+perplexity,"""four young adults sit outside on a wooden deck near a building around a small round table , while another person stands on the edge of the deck , leaning on the wooden railing , with the sun shining on one of them and the rest of them are in the shade , two of them crossing their legs , one holding a cellphone out in front of himself and another holding a green and red soda can .""",outdoors/man-made/recreation
+perplexity,"""in a restaurant , a teenager drinks directly out of the metal milkshake serving cup .""",indoors/man-made/restaurant
+perplexity,"""people swing on a red , metal amusement park ride in front of some trees .""",outdoors/man-made/recreation
+perplexity,"""people swing on a red , metal amusement park ride.""",outdoors/man-made/recreation
+perplexity,"""person leaning against the wall , next to a life size cartoon cut out .""",indoors/man-made/recreation
+perplexity,"""several people in the mid-ground sit on a bench along the side of a white building , while three people stand in a courtyard in front of the building .""",outdoors/man-made/recreation
+perplexity,"""three children are playing outdoors , two of them on a metal barrel swing .""",outdoors/man-made/recreation
+perplexity,"""two girls , both dressed in pink , swinging on sunlight day with the nearby trees casting random shadows on the remainder of the park like setting .""",outdoors/natural/recreation
+perplexity,"""two girls , both dressed in pink , swinging on sunlight day with the trees casting random shadows on the remainder of the park like setting .""",outdoors/natural/recreation
+perplexity,Kids play,outdoors/natural/recreation
+perplexity,Person leaning,outdoors/natural/other_unclear
+perplexity,The brown dog catches a ball.,outdoors/natural/recreation
+perplexity,a black and white dog runs beside a brown dog in a green field .,outdoors/natural/field_forest
+perplexity,a black and white dog runs.,outdoors/natural/other_unclear
+perplexity,a black dog runs on green grass with its mouth open .,outdoors/natural/field_forest
+perplexity,a black dog runs with his mouth open,outdoors/natural/other_unclear
+perplexity,a blond dog and a black and white dog run,outdoors/natural/other_unclear
+perplexity,a blond dog and a black and white dog run in a dirt field .,outdoors/natural/field_forest
+perplexity,a boy and girl child swing together .,outdoors/man-made/recreation
+perplexity,a boy and girl child swing together on a swing set .,outdoors/man-made/recreation
+perplexity,a brown dog running,outdoors/natural/recreation
+perplexity,a brown dog running on a lawn near a garden hose,outdoors/natural/other_unclear
+perplexity,a chef speaks into a microphone about a mixed salad contained .,indoors/man-made/restaurant
+perplexity,a chef speaks into a microphone about a mixed salad contained in a bowl with a decorative lid .,indoors/man-made/restaurant
+perplexity,a child in a dress runs through the yard with a miniature orange soccer ball in her hand .,outdoors/natural/other_unclear
+perplexity,a child in a dress runs with a miniature orange soccer ball .,outdoors/man-made/recreation
+perplexity,a dark-haired dark-skinned child sleeps in a chair while holding a blue zippered pack .,indoors/man-made/domestic
+perplexity,a dark-haired dark-skinned child sleeps while holding a blue zippered pack .,indoors/man-made/domestic
+perplexity,a dark-haired man is speaking into a microphone while another man is sitting .,indoors/man-made/work_education
+perplexity,a dark-haired man is speaking into a microphone while another man is sitting beside him .,indoors/man-made/work_education
+perplexity,a dog wearing a t-shirt is lying down .,indoors/man-made/domestic
+perplexity,a dog wearing a t-shirt is lying.,outdoors/natural/other_unclear
+perplexity,a gray dog is jumping toward a black and white dog in the snow .,outdoors/natural/recreation
+perplexity,a gray dog is jumping toward a black and white dog.,outdoors/natural/recreation
+perplexity,a greyhound races on the dirt .,outdoors/man-made/recreation
+perplexity,a greyhound races.,outdoors/man-made/recreation
+perplexity,a group of men in golden shirts singing in front of a microphone .,indoors/man-made/recreation
+perplexity,a group of men in golden shirts singing.,indoors/man-made/recreation
+perplexity,a group of people lie close together on a hardwood floor .,indoors/man-made/recreation
+perplexity,a group of people lie close together.,outdoors/natural/other_unclear
+perplexity,a handicapped person with one leg skiing down a mountain with other mountains in the background .,outdoors/natural/recreation
+perplexity,a handicapped person with one leg skiing down with other mountains .,outdoors/natural/recreation
+perplexity,a korean woman is enjoying a meal in a restaurant .,indoors/man-made/restaurant
+perplexity,a korean woman is enjoying a meal.,indoors/man-made/domestic
+perplexity,a lady with short hair wearing a black jacket leaned .,indoors/man-made/other_unclear
+perplexity,a lady with short hair wearing a black jacket leaned against a lamp post outside a building .,outdoors/man-made/other_unclear
+perplexity,a little boy playing in the water .,outdoors/natural/body_of_water
+perplexity,a little boy playing.,outdoors/natural/recreation
+perplexity,a lively adult karate practice,outdoors/man-made/recreation
+perplexity,a lively adult karate practice at the dojo .,indoors/man-made/recreation
+perplexity,a man and a woman are examining produce at a market .,outdoors/man-made/work_education
+perplexity,a man and a woman are examining produce.,outdoors/man-made/work_education
+perplexity,a man and woman enjoying dinner at a party .,indoors/man-made/recreation
+perplexity,a man and woman enjoying dinner.,indoors/man-made/restaurant
+perplexity,a man drives a truck while a child sits and steers .,outdoors/man-made/transportation_urban
+perplexity,a man drives a truck while a child sits on his lap and steers .,outdoors/man-made/transportation_urban
+perplexity,a man driving a small golf cart down a street with a crowd watching him on either side of the street .,outdoors/man-made/transportation_urban
+perplexity,a man driving a small golf cart with a crowd watching.,outdoors/man-made/recreation
+perplexity,a man grilling,outdoors/man-made/recreation
+perplexity,a man grilling meat on an outdoor grilling pit .,outdoors/man-made/recreation
+perplexity,a man grilling meat.,outdoors/man-made/recreation
+perplexity,a man grilling outside his house .,outdoors/man-made/recreation
+perplexity,a man grilling three pieces of salmon outside .,outdoors/man-made/recreation
+perplexity,a man grilling three pieces of salmon.,outdoors/man-made/recreation
+perplexity,a man in a black shirt sitting,indoors/man-made/other_unclear
+perplexity,a man in a black shirt sitting next to a older women in a pink jacket on a train .,indoors/man-made/transportation_urban
+perplexity,a man in a blue swimsuit and a red beanie kneels making a sand castle that is as tall as he is when he is kneeling .,outdoors/natural/recreation
+perplexity,a man in a dark shirt is making a presentation in front of a group .,indoors/man-made/work_education
+perplexity,a man in a dark shirt is making a presentation.,indoors/man-made/work_education
+perplexity,a man in a suit and tie in a fancy building is speaking at the podium .,indoors/man-made/work_education
+perplexity,a man in a suit and tie is speaking.,indoors/man-made/work_education
+perplexity,"a man in a white polo shirt speaks into a microphone with a sign behind him that reads , truth ! ",indoors/man-made/work_education
+perplexity,"a man in a white polo shirt speaks with a sign that reads , truth ! ",indoors/man-made/work_education
+perplexity,a man in a white shirt uses a blackboard as others sit at a table watching .,indoors/man-made/work_education
+perplexity,a man in a white shirt uses a blackboard as others sit watching .,indoors/man-made/work_education
+perplexity,a man in a yellow jacket is skiing in the snow .,outdoors/natural/recreation
+perplexity,a man in a yellow jacket is skiing.,outdoors/natural/recreation
+perplexity,a man in red shirt wearing sunglasses is leaning,outdoors/man-made/recreation
+perplexity,a man in red shirt wearing sunglasses is leaning on the wall,outdoors/man-made/recreation
+perplexity,a man is enjoying meal and drink .,indoors/man-made/domestic
+perplexity,a man is enjoying meal and drink inside a restaurant .,indoors/man-made/restaurant
+perplexity,a man is giving a presentation in front of three people .,indoors/man-made/work_education
+perplexity,a man is giving a presentation.,indoors/man-made/work_education
+perplexity,a man is kneeling down with a child,outdoors/man-made/recreation
+perplexity,a man is kneeling down with a child on a beach where bright blue and red boats are stationed in the background .,outdoors/natural/recreation
+perplexity,a man is rowing a canoe on a lake .,outdoors/natural/body_of_water
+perplexity,a man is rowing a canoe.,outdoors/natural/body_of_water
+perplexity,a man is singing at a concert .,indoors/man-made/recreation
+perplexity,a man is singing.,indoors/man-made/recreation
+perplexity,a man is sitting on the street playing drums on buckets .,outdoors/man-made/recreation
+perplexity,a man is sitting playing drums on buckets .,indoors/man-made/recreation
+perplexity,a man is using his computer while seated at a desk .,indoors/man-made/work_education
+perplexity,a man is using his computer while seated.,indoors/man-made/work_education
+perplexity,a man perched is using a net to scoop a fish from another aquarium .,indoors/man-made/recreation
+perplexity,a man perched on a row of aquariums is using a net to scoop a fish from another aquarium .,indoors/man-made/recreation
+perplexity,a man rowing in the front of a canoe in a large body of water .,outdoors/natural/body_of_water
+perplexity,a man rowing.,outdoors/natural/recreation
+perplexity,a man rows his boat .,outdoors/natural/recreation
+perplexity,a man rows his boat below .,outdoors/natural/body_of_water
+perplexity,a man singing in a very colorful environment .,outdoors/man-made/recreation
+perplexity,a man singing.,indoors/man-made/recreation
+perplexity,a man sleeps while listening to his ipod in the back of a vehicle .,indoors/man-made/transportation_urban
+perplexity,a man sleeps while listening to his ipod.,indoors/man-made/recreation
+perplexity,a man wearing yellow swimming trunks kneeling,outdoors/natural/recreation
+perplexity,a man wearing yellow swimming trunks kneeling by the ocean,outdoors/natural/body_of_water
+perplexity,a man with red pants is skiing .,outdoors/natural/recreation
+perplexity,a man with red pants is skiing downhill .,outdoors/natural/recreation
+perplexity,a motorcyclist on a red speed bike leans .,outdoors/man-made/recreation
+perplexity,a motorcyclist on a red speed bike leans into a sharp turn .,outdoors/man-made/recreation
+perplexity,a person dressed in a tan jacket jumps a quad over a harvested cornfield,outdoors/natural/recreation
+perplexity,a person dressed in a tan jacket jumps a quad over a harvested cornfield in front of a small out building .,outdoors/natural/field_forest
+perplexity,a person drives around a futuristic looking vehicle while a man approaches and a crowd watches .,outdoors/man-made/transportation_urban
+perplexity,a person drives around a futuristic looking vehicle while a man approaches her and a crowd watches .,outdoors/man-made/transportation_urban
+perplexity,a person wearing a construction uniform is leaning against a traffic light pole on the sidewalk .,outdoors/man-made/work_education
+perplexity,a person wearing a construction uniform is leaning.,outdoors/man-made/work_education
+perplexity,a red dog jumps to catch a tennis ball .,outdoors/natural/recreation
+perplexity,a red dog jumps to catch a tennis ball in the dry tall grass .,outdoors/natural/recreation
+perplexity,a runner in black is passing a florist shop .,outdoors/man-made/transportation_urban
+perplexity,a runner in black is passing an outdoor florist shop .,outdoors/man-made/other_unclear
+perplexity,a smiling child wearing a hat and sunglasses sits in a car .,outdoors/man-made/transportation_urban
+perplexity,a smiling child wearing a hat and sunglasses sits.,outdoors/man-made/recreation
+perplexity,a spotted dog catching a ball on a snowy field .,outdoors/natural/field_forest
+perplexity,a spotted dog catching a ball.,outdoors/natural/recreation
+perplexity,a teenager drinks directly out of the metal milkshake serving cup .,indoors/man-made/recreation
+perplexity,a terrier mix catches a frisbee in the air .,outdoors/natural/recreation
+perplexity,a terrier mix catches a frisbee.,outdoors/natural/recreation
+perplexity,a well dressed young woman waits for the train while a man busy writing something .,indoors/man-made/transportation_urban
+perplexity,a well dressed young woman waits on a bench for the train while a man busy writing something waits nearby .,indoors/man-made/transportation_urban
+perplexity,a woman is drinking a beverage,indoors/man-made/domestic
+perplexity,a woman is drinking a beverage in a busy cafe .,indoors/man-made/restaurant
+perplexity,a woman is having her foot examined by another woman,indoors/man-made/work_education
+perplexity,a woman is having her foot examined by another woman in a run-down building .,indoors/man-made/work_education
+perplexity,a woman is holding a baby while another child stands .,indoors/man-made/domestic
+perplexity,a woman is holding a baby while another child stands by her side .,indoors/man-made/domestic
+perplexity,a woman is laying down laughing .,indoors/man-made/recreation
+perplexity,a woman is laying down on a sofa laughing .,indoors/man-made/recreation
+perplexity,a woman is selling vegetables .,outdoors/man-made/work_education
+perplexity,a woman is selling vegetables on the street .,outdoors/man-made/transportation_urban
+perplexity,a woman is using a ruler at a desk to mark a sheet of paper .,indoors/man-made/work_education
+perplexity,a woman is using a ruler to mark a sheet of paper .,indoors/man-made/work_education
+perplexity,a woman sits on a shoe store 's bench while putting a shoe onto her right foot .,indoors/man-made/other_unclear
+perplexity,a woman sits while putting a shoe onto her right foot .,indoors/man-made/domestic
+perplexity,a woman sleeps,indoors/man-made/domestic
+perplexity,a woman sleeps under a blue and white blanket in a car .,outdoors/man-made/transportation_urban
+perplexity,a woman with a peace symbol grills vegetables,outdoors/man-made/recreation
+perplexity,a woman with a peace symbol on her shirt grills vegetables,outdoors/man-made/recreation
+perplexity,a young boy wearing a dark blue hat sleeps on a bench at a terminal .,indoors/man-made/transportation_urban
+perplexity,a young boy wearing a dark blue hat sleeps.,indoors/man-made/domestic
+perplexity,all these people are enjoying a basement dance party .,indoors/man-made/recreation
+perplexity,all these people are enjoying a dance party .,indoors/man-made/recreation
+perplexity,an asian man sells a hot confection from his stand in a crowded market .,outdoors/man-made/work_education
+perplexity,an asian man sells a hot confection.,indoors/man-made/work_education
+perplexity,an old woman is selling produce at a farmer 's market .,outdoors/man-made/work_education
+perplexity,an old woman is selling produce.,outdoors/man-made/work_education
+perplexity,an older couple passes by a young lady,outdoors/man-made/other_unclear
+perplexity,an older couple passes by a young lady on the sidewalk .,outdoors/man-made/other_unclear
+perplexity,an older man and women are using computers in a sort of storage room .,indoors/man-made/work_education
+perplexity,an older man and women are using computers.,indoors/man-made/work_education
+perplexity,an orchestra of about <number> people are practicing,indoors/man-made/recreation
+perplexity,an orchestra of about <number> people are practicing on the stage of what appears to be an auditorium full of green chairs .,indoors/man-made/recreation
+perplexity,asian students are examining sheets of paper while standing .,indoors/man-made/work_education
+perplexity,asian students are examining sheets of paper while standing in line .,indoors/man-made/work_education
+perplexity,brown dog catches a pink ball in the park .,outdoors/natural/recreation
+perplexity,brown dog catches a pink ball.,outdoors/natural/recreation
+perplexity,buff african american man waits for subway at wall street station .,indoors/man-made/transportation_urban
+perplexity,buff african american man waits for subway.,indoors/man-made/transportation_urban
+perplexity,crowd waiting for a train .,outdoors/man-made/transportation_urban
+perplexity,crowd waiting on main street subway platform for a train .,indoors/man-made/transportation_urban
+perplexity,dancers practicing their dance routines .,indoors/man-made/recreation
+perplexity,decorated limo passing by elderly woman waiting on park bench .,outdoors/man-made/transportation_urban
+perplexity,decorated limo passing by elderly woman waiting on park bench in chinese street .,outdoors/man-made/transportation_urban
+perplexity,four people in black shirts giving a presentation to a room full of people using a big projector image .,indoors/man-made/work_education
+perplexity,four people in black shirts giving a presentation to a room full of people using a big projector image on the wall .,indoors/man-made/work_education
+perplexity,four women are on stage singing .,indoors/man-made/recreation
+perplexity,four women are singing .,indoors/man-made/recreation
+perplexity,four young adults sit,indoors/man-made/recreation
+perplexity,girl wearing blue shirt and black shorts plays trumped .,outdoors/man-made/recreation
+perplexity,girl wearing blue shirt and black shorts plays trumped outside .,outdoors/natural/recreation
+perplexity,group of women doing a presentation .,indoors/man-made/work_education
+perplexity,group of women doing a presentation off an easel .,indoors/man-made/work_education
+perplexity,kids play around a statue bust outside .,outdoors/man-made/recreation
+perplexity,little girl skis on slope .,outdoors/natural/recreation
+perplexity,little girl skis.,outdoors/natural/recreation
+perplexity,man with gray hair wearing a suit is waiting in a subway tunnel .,indoors/man-made/transportation_urban
+perplexity,man with gray hair wearing a suit is waiting.,indoors/man-made/work_education
+perplexity,men playing volleyball,outdoors/man-made/recreation
+perplexity,men playing volleyball in the sand .,outdoors/natural/recreation
+perplexity,muzzled greyhounds are racing on the track .,outdoors/man-made/recreation
+perplexity,muzzled greyhounds are racing.,outdoors/man-made/recreation
+perplexity,one dog is jumping at the lady while the other walks,outdoors/natural/other_unclear
+perplexity,one dog is jumping at the lady while the other walks away .,outdoors/natural/other_unclear
+perplexity,people are rowing a boat .,outdoors/natural/recreation
+perplexity,people are rowing a boat in the water .,outdoors/natural/body_of_water
+perplexity,people examine books in a library .,indoors/man-made/work_education
+perplexity,people examine books.,indoors/man-made/work_education
+perplexity,people pass each other on a busy city street while talking on their cellphones .,outdoors/man-made/transportation_urban
+perplexity,people pass each other while talking on their cellphones .,outdoors/man-made/transportation_urban
+perplexity,person with two ski poles skiing down .,outdoors/natural/recreation
+perplexity,person with two ski poles skiing down a snowy hill .,outdoors/natural/recreation
+perplexity,several people sit,indoors/man-made/other_unclear
+perplexity,stage dancers practicing their dance routines .,indoors/man-made/recreation
+perplexity,street vendors are selling fruits and vegetables in a stand and in large baskets on the ground .,outdoors/man-made/other_unclear
+perplexity,the brown dog catches a ball in the air .,outdoors/natural/recreation
+perplexity,the little girl swings in the backyard .,outdoors/man-made/recreation
+perplexity,the little girl swings.,outdoors/natural/recreation
+perplexity,the man in the red shirt and flowery tie is sitting on a bus by the window .,indoors/man-made/transportation_urban
+perplexity,the man in the red shirt and flowery tie is sitting.,indoors/man-made/other_unclear
+perplexity,three children are playing .,outdoors/man-made/recreation
+perplexity,three children are practicing martial arts in a gym .,indoors/man-made/recreation
+perplexity,three children are practicing martial arts.,indoors/man-made/recreation
+perplexity,three girls or friends having drinks at a bar laughing .,indoors/man-made/recreation
+perplexity,three girls or friends having drinks laughing .,indoors/man-made/recreation
+perplexity,three people in various stages of swimming strokes race,outdoors/natural/recreation
+perplexity,three people in various stages of swimming strokes race along colorful lane markers .,outdoors/man-made/recreation
+perplexity,three women and a man are drinking beer .,indoors/man-made/recreation
+perplexity,three women and a man are drinking beer at a table .,indoors/man-made/recreation
+perplexity,three women speak to each other in a room with tan walls .,indoors/man-made/domestic
+perplexity,three women speak to each other.,indoors/man-made/domestic
+perplexity,three young women and one young man singing in an auditorium .,indoors/man-made/recreation
+perplexity,three young women and one young man singing.,indoors/man-made/recreation
+perplexity,two children swing from a swing made from a steel drum .,outdoors/man-made/recreation
+perplexity,two children swing in dusty rooftop from a swing made from a steel drum .,outdoors/man-made/recreation
+perplexity,two dogs are catching blue frisbees in grass .,outdoors/natural/recreation
+perplexity,two dogs are catching blue frisbees.,outdoors/natural/recreation
+perplexity,two dogs are nose to nose while a third dog stands .,outdoors/natural/other_unclear
+perplexity,two dogs are nose to nose while a third dog stands next to them .,outdoors/man-made/recreation
+perplexity,two furry light brown dogs lying on a hardwood floor .,indoors/man-made/domestic
+perplexity,two furry light brown dogs lying.,outdoors/natural/other_unclear
+perplexity,two girls and three boys are presenting in front of a dry erase board .,indoors/man-made/work_education
+perplexity,two girls and three boys are presenting.,indoors/man-made/work_education
+perplexity,two girls are in a race .,outdoors/man-made/recreation
+perplexity,two girls are in a sack race .,outdoors/man-made/recreation
+perplexity,two guys are rowing a canoe on a lake .,outdoors/natural/recreation
+perplexity,two guys are rowing a canoe.,outdoors/natural/recreation
+perplexity,two men drink beer .,indoors/man-made/recreation
+perplexity,two men drink beer at the bar in a restaurant .,indoors/man-made/restaurant
+perplexity,two men on motorcycles are driving down .,outdoors/man-made/transportation_urban
+perplexity,two men on motorcycles are driving down an empty street .,outdoors/man-made/transportation_urban
+perplexity,two people are jumping on the side of a road with snow in the background .,outdoors/natural/other_unclear
+perplexity,two people are jumping with snow .,outdoors/natural/recreation
+perplexity,two people are sleeping .,indoors/man-made/domestic
+perplexity,two people on the subway are sleeping in the corner .,indoors/man-made/transportation_urban
+perplexity,two rows of dance students are practicing ballet moves against a pole in a studio .,indoors/man-made/recreation
+perplexity,two rows of dance students are practicing ballet moves against a pole.,indoors/man-made/work_education
+perplexity,two swimmers race in a pool with a red line between them .,indoors/man-made/recreation
+perplexity,two swimmers race with a red line .,outdoors/man-made/recreation
+perplexity,two women in black enjoying a lunch in a restaurant .,indoors/man-made/restaurant
+perplexity,two women in black enjoying a lunch.,indoors/man-made/restaurant
+perplexity,two women in white lab coats examine a dyed area on a cluster of cells using a projector .,indoors/man-made/work_education
+perplexity,two women in white lab coats examine a dyed area using a projector .,indoors/man-made/work_education
+perplexity,two young people riding skateboards pass by in the street as a black dog on a red leash stops and squats down.,outdoors/man-made/recreation
+perplexity,two young people riding skateboards pass by in the street as a black dog on a red leash stops in a doorway and squats down on the sidewalk .,outdoors/man-made/recreation
+perplexity,vendors are selling fruits and vegetables,outdoors/man-made/work_education
+perplexity,vendors sell products at a farmers market .,outdoors/man-made/work_education
+perplexity,vendors sell products.,outdoors/man-made/work_education
+perplexity,white and black dog jumping over red-haired dog .,outdoors/natural/recreation
+perplexity,white and black dog jumping over red-haired dog in grass .,outdoors/natural/field_forest
+deepseek,"""a crowd waits outside a subway train , ready to board .""",outdoors/man-made/transportation_urban
+deepseek,"""a crowd waits, ready to board .""",outdoors/man-made/transportation_urban
+deepseek,"""a man driving a small , open vehicle with a green sign .""",outdoors/man-made/transportation_urban
+deepseek,"""a man driving a small , open vehicle with a green sign on the back of it in traffic .""",outdoors/man-made/transportation_urban
+deepseek,"""a man in a blue swimsuit and a red beanie kneels in the wet sand on the edge of a beach , making a sand castle that is as tall as he is when he is kneeling .""",outdoors/natural/body_of_water
+deepseek,"""a man wearing jeans , polo shirt and a baseball cap , fork , is grilling meat .""",outdoors/man-made/domestic
+deepseek,"""a man wearing jeans , polo shirt and a baseball cap , fork in hand , is grilling meat outside in a fenced yard .""",outdoors/man-made/domestic
+deepseek,"""a ruddy infant lies on a patterned sheet with his eyes closed , his mouth open , and his arm extended .""",indoors/man-made/domestic
+deepseek,"""a ruddy infant lies with his eyes closed , his mouth open , and his arm extended .""",indoors/man-made/domestic
+deepseek,"""an impoverished person , wearing a torn brown shirt and no shoes , is kneeling down .""",outdoors/man-made/other_unclear
+deepseek,"""an impoverished person , wearing a torn brown shirt and no shoes , is kneeling down along the banks of a trash infested body of water .""",outdoors/natural/body_of_water
+deepseek,"""four young adults sit outside on a wooden deck near a building around a small round table , while another person stands on the edge of the deck , leaning on the wooden railing , with the sun shining on one of them and the rest of them are in the shade , two of them crossing their legs , one holding a cellphone out in front of himself and another holding a green and red soda can .""",outdoors/man-made/recreation
+deepseek,"""in a restaurant , a teenager drinks directly out of the metal milkshake serving cup .""",indoors/man-made/restaurant
+deepseek,"""people swing on a red , metal amusement park ride in front of some trees .""",outdoors/man-made/recreation
+deepseek,"""people swing on a red , metal amusement park ride.""",outdoors/man-made/recreation
+deepseek,"""person leaning against the wall , next to a life size cartoon cut out .""",indoors/man-made/recreation
+deepseek,"""several people in the mid-ground sit on a bench along the side of a white building , while three people stand in a courtyard in front of the building .""",outdoors/man-made/recreation
+deepseek,"""three children are playing outdoors , two of them on a metal barrel swing .""",outdoors/man-made/recreation
+deepseek,"""two girls , both dressed in pink , swinging on sunlight day with the nearby trees casting random shadows on the remainder of the park like setting .""",outdoors/natural/field_forest
+deepseek,"""two girls , both dressed in pink , swinging on sunlight day with the trees casting random shadows on the remainder of the park like setting .""",outdoors/natural/other_unclear
+deepseek,Kids play,outdoors/man-made/recreation
+deepseek,Person leaning,indoors/man-made/other_unclear
+deepseek,The brown dog catches a ball.,outdoors/man-made/recreation
+deepseek,a black and white dog runs beside a brown dog in a green field .,outdoors/natural/field_forest
+deepseek,a black and white dog runs.,outdoors/natural/field_forest
+deepseek,a black dog runs on green grass with its mouth open .,outdoors/natural/field_forest
+deepseek,a black dog runs with his mouth open,outdoors/natural/other_unclear
+deepseek,a blond dog and a black and white dog run,outdoors/natural/field_forest
+deepseek,a blond dog and a black and white dog run in a dirt field .,outdoors/natural/field_forest
+deepseek,a boy and girl child swing together .,outdoors/man-made/recreation
+deepseek,a boy and girl child swing together on a swing set .,outdoors/man-made/recreation
+deepseek,a brown dog running,outdoors/natural/field_forest
+deepseek,a brown dog running on a lawn near a garden hose,outdoors/man-made/domestic
+deepseek,a chef speaks into a microphone about a mixed salad contained .,indoors/man-made/restaurant
+deepseek,a chef speaks into a microphone about a mixed salad contained in a bowl with a decorative lid .,indoors/man-made/restaurant
+deepseek,a child in a dress runs through the yard with a miniature orange soccer ball in her hand .,outdoors/man-made/domestic
+deepseek,a child in a dress runs with a miniature orange soccer ball .,outdoors/man-made/recreation
+deepseek,a dark-haired dark-skinned child sleeps in a chair while holding a blue zippered pack .,indoors/man-made/domestic
+deepseek,a dark-haired dark-skinned child sleeps while holding a blue zippered pack .,indoors/man-made/domestic
+deepseek,a dark-haired man is speaking into a microphone while another man is sitting .,indoors/man-made/work_education
+deepseek,a dark-haired man is speaking into a microphone while another man is sitting beside him .,indoors/man-made/work_education
+deepseek,a dog wearing a t-shirt is lying down .,indoors/man-made/domestic
+deepseek,a dog wearing a t-shirt is lying.,indoors/man-made/domestic
+deepseek,a gray dog is jumping toward a black and white dog in the snow .,outdoors/natural/field_forest
+deepseek,a gray dog is jumping toward a black and white dog.,outdoors/natural/other_unclear
+deepseek,a greyhound races on the dirt .,outdoors/man-made/recreation
+deepseek,a greyhound races.,outdoors/man-made/recreation
+deepseek,a group of men in golden shirts singing in front of a microphone .,indoors/man-made/recreation
+deepseek,a group of men in golden shirts singing.,indoors/man-made/recreation
+deepseek,a group of people lie close together on a hardwood floor .,indoors/man-made/domestic
+deepseek,a group of people lie close together.,outdoors/man-made/recreation
+deepseek,a handicapped person with one leg skiing down a mountain with other mountains in the background .,outdoors/natural/mountain
+deepseek,a handicapped person with one leg skiing down with other mountains .,outdoors/natural/mountain
+deepseek,a korean woman is enjoying a meal in a restaurant .,indoors/man-made/restaurant
+deepseek,a korean woman is enjoying a meal.,indoors/man-made/domestic
+deepseek,a lady with short hair wearing a black jacket leaned .,indoors/man-made/other_unclear
+deepseek,a lady with short hair wearing a black jacket leaned against a lamp post outside a building .,outdoors/man-made/transportation_urban
+deepseek,a little boy playing in the water .,outdoors/natural/body_of_water
+deepseek,a little boy playing.,outdoors/man-made/recreation
+deepseek,a lively adult karate practice,indoors/man-made/recreation
+deepseek,a lively adult karate practice at the dojo .,indoors/man-made/recreation
+deepseek,a man and a woman are examining produce at a market .,outdoors/man-made/work_education
+deepseek,a man and a woman are examining produce.,indoors/man-made/work_education
+deepseek,a man and woman enjoying dinner at a party .,indoors/man-made/recreation
+deepseek,a man and woman enjoying dinner.,indoors/man-made/domestic
+deepseek,a man drives a truck while a child sits and steers .,outdoors/man-made/transportation_urban
+deepseek,a man drives a truck while a child sits on his lap and steers .,outdoors/man-made/transportation_urban
+deepseek,a man driving a small golf cart down a street with a crowd watching him on either side of the street .,outdoors/man-made/transportation_urban
+deepseek,a man driving a small golf cart with a crowd watching.,outdoors/man-made/recreation
+deepseek,a man grilling,outdoors/man-made/domestic
+deepseek,a man grilling meat on an outdoor grilling pit .,outdoors/man-made/domestic
+deepseek,a man grilling meat.,outdoors/man-made/domestic
+deepseek,a man grilling outside his house .,outdoors/man-made/domestic
+deepseek,a man grilling three pieces of salmon outside .,outdoors/man-made/domestic
+deepseek,a man grilling three pieces of salmon.,outdoors/man-made/domestic
+deepseek,a man in a black shirt sitting,indoors/man-made/other_unclear
+deepseek,a man in a black shirt sitting next to a older women in a pink jacket on a train .,indoors/man-made/transportation_urban
+deepseek,a man in a blue swimsuit and a red beanie kneels making a sand castle that is as tall as he is when he is kneeling .,outdoors/man-made/recreation
+deepseek,a man in a dark shirt is making a presentation in front of a group .,indoors/man-made/work_education
+deepseek,a man in a dark shirt is making a presentation.,indoors/man-made/work_education
+deepseek,a man in a suit and tie in a fancy building is speaking at the podium .,indoors/man-made/work_education
+deepseek,a man in a suit and tie is speaking.,indoors/man-made/work_education
+deepseek,"a man in a white polo shirt speaks into a microphone with a sign behind him that reads , truth ! ",indoors/man-made/work_education
+deepseek,"a man in a white polo shirt speaks with a sign that reads , truth ! ",indoors/man-made/work_education
+deepseek,a man in a white shirt uses a blackboard as others sit at a table watching .,indoors/man-made/work_education
+deepseek,a man in a white shirt uses a blackboard as others sit watching .,indoors/man-made/work_education
+deepseek,a man in a yellow jacket is skiing in the snow .,outdoors/natural/mountain
+deepseek,a man in a yellow jacket is skiing.,outdoors/natural/mountain
+deepseek,a man in red shirt wearing sunglasses is leaning,outdoors/man-made/other_unclear
+deepseek,a man in red shirt wearing sunglasses is leaning on the wall,outdoors/man-made/other_unclear
+deepseek,a man is enjoying meal and drink .,indoors/man-made/domestic
+deepseek,a man is enjoying meal and drink inside a restaurant .,indoors/man-made/restaurant
+deepseek,a man is giving a presentation in front of three people .,indoors/man-made/work_education
+deepseek,a man is giving a presentation.,indoors/man-made/work_education
+deepseek,a man is kneeling down with a child,outdoors/man-made/recreation
+deepseek,a man is kneeling down with a child on a beach where bright blue and red boats are stationed in the background .,outdoors/man-made/recreation
+deepseek,a man is rowing a canoe on a lake .,outdoors/natural/body_of_water
+deepseek,a man is rowing a canoe.,outdoors/man-made/recreation
+deepseek,a man is singing at a concert .,indoors/man-made/recreation
+deepseek,a man is singing.,indoors/man-made/recreation
+deepseek,a man is sitting on the street playing drums on buckets .,outdoors/man-made/recreation
+deepseek,a man is sitting playing drums on buckets .,outdoors/man-made/recreation
+deepseek,a man is using his computer while seated at a desk .,indoors/man-made/work_education
+deepseek,a man is using his computer while seated.,indoors/man-made/work_education
+deepseek,a man perched is using a net to scoop a fish from another aquarium .,indoors/man-made/recreation
+deepseek,a man perched on a row of aquariums is using a net to scoop a fish from another aquarium .,indoors/man-made/recreation
+deepseek,a man rowing in the front of a canoe in a large body of water .,outdoors/natural/body_of_water
+deepseek,a man rowing.,outdoors/natural/body_of_water
+deepseek,a man rows his boat .,outdoors/natural/body_of_water
+deepseek,a man rows his boat below .,outdoors/natural/body_of_water
+deepseek,a man singing in a very colorful environment .,indoors/man-made/recreation
+deepseek,a man singing.,indoors/man-made/recreation
+deepseek,a man sleeps while listening to his ipod in the back of a vehicle .,indoors/man-made/transportation_urban
+deepseek,a man sleeps while listening to his ipod.,indoors/man-made/domestic
+deepseek,a man wearing yellow swimming trunks kneeling,outdoors/man-made/recreation
+deepseek,a man wearing yellow swimming trunks kneeling by the ocean,outdoors/natural/body_of_water
+deepseek,a man with red pants is skiing .,outdoors/natural/mountain
+deepseek,a man with red pants is skiing downhill .,outdoors/natural/mountain
+deepseek,a motorcyclist on a red speed bike leans .,outdoors/man-made/transportation_urban
+deepseek,a motorcyclist on a red speed bike leans into a sharp turn .,outdoors/man-made/transportation_urban
+deepseek,a person dressed in a tan jacket jumps a quad over a harvested cornfield,outdoors/natural/field_forest
+deepseek,a person dressed in a tan jacket jumps a quad over a harvested cornfield in front of a small out building .,outdoors/man-made/recreation
+deepseek,a person drives around a futuristic looking vehicle while a man approaches and a crowd watches .,outdoors/man-made/transportation_urban
+deepseek,a person drives around a futuristic looking vehicle while a man approaches her and a crowd watches .,outdoors/man-made/transportation_urban
+deepseek,a person wearing a construction uniform is leaning against a traffic light pole on the sidewalk .,outdoors/man-made/transportation_urban
+deepseek,a person wearing a construction uniform is leaning.,outdoors/man-made/work_education
+deepseek,a red dog jumps to catch a tennis ball .,outdoors/man-made/recreation
+deepseek,a red dog jumps to catch a tennis ball in the dry tall grass .,outdoors/natural/field_forest
+deepseek,a runner in black is passing a florist shop .,outdoors/man-made/transportation_urban
+deepseek,a runner in black is passing an outdoor florist shop .,outdoors/man-made/other_unclear
+deepseek,a smiling child wearing a hat and sunglasses sits in a car .,indoors/man-made/transportation_urban
+deepseek,a smiling child wearing a hat and sunglasses sits.,outdoors/man-made/recreation
+deepseek,a spotted dog catching a ball on a snowy field .,outdoors/natural/field_forest
+deepseek,a spotted dog catching a ball.,outdoors/man-made/recreation
+deepseek,a teenager drinks directly out of the metal milkshake serving cup .,indoors/man-made/domestic
+deepseek,a terrier mix catches a frisbee in the air .,outdoors/man-made/recreation
+deepseek,a terrier mix catches a frisbee.,outdoors/man-made/recreation
+deepseek,a well dressed young woman waits for the train while a man busy writing something .,outdoors/man-made/transportation_urban
+deepseek,a well dressed young woman waits on a bench for the train while a man busy writing something waits nearby .,outdoors/man-made/transportation_urban
+deepseek,a woman is drinking a beverage,indoors/man-made/domestic
+deepseek,a woman is drinking a beverage in a busy cafe .,indoors/man-made/restaurant
+deepseek,a woman is having her foot examined by another woman,indoors/man-made/domestic
+deepseek,a woman is having her foot examined by another woman in a run-down building .,indoors/man-made/other_unclear
+deepseek,a woman is holding a baby while another child stands .,indoors/man-made/domestic
+deepseek,a woman is holding a baby while another child stands by her side .,indoors/man-made/domestic
+deepseek,a woman is laying down laughing .,indoors/man-made/domestic
+deepseek,a woman is laying down on a sofa laughing .,indoors/man-made/domestic
+deepseek,a woman is selling vegetables .,outdoors/man-made/work_education
+deepseek,a woman is selling vegetables on the street .,outdoors/man-made/work_education
+deepseek,a woman is using a ruler at a desk to mark a sheet of paper .,indoors/man-made/work_education
+deepseek,a woman is using a ruler to mark a sheet of paper .,indoors/man-made/work_education
+deepseek,a woman sits on a shoe store 's bench while putting a shoe onto her right foot .,indoors/man-made/recreation
+deepseek,a woman sits while putting a shoe onto her right foot .,indoors/man-made/domestic
+deepseek,a woman sleeps,indoors/man-made/domestic
+deepseek,a woman sleeps under a blue and white blanket in a car .,indoors/man-made/transportation_urban
+deepseek,a woman with a peace symbol grills vegetables,outdoors/man-made/domestic
+deepseek,a woman with a peace symbol on her shirt grills vegetables,outdoors/man-made/domestic
+deepseek,a young boy wearing a dark blue hat sleeps on a bench at a terminal .,indoors/man-made/transportation_urban
+deepseek,a young boy wearing a dark blue hat sleeps.,indoors/man-made/domestic
+deepseek,all these people are enjoying a basement dance party .,indoors/man-made/recreation
+deepseek,all these people are enjoying a dance party .,indoors/man-made/recreation
+deepseek,an asian man sells a hot confection from his stand in a crowded market .,outdoors/man-made/restaurant
+deepseek,an asian man sells a hot confection.,outdoors/man-made/restaurant
+deepseek,an old woman is selling produce at a farmer 's market .,outdoors/man-made/work_education
+deepseek,an old woman is selling produce.,outdoors/man-made/work_education
+deepseek,an older couple passes by a young lady,outdoors/man-made/transportation_urban
+deepseek,an older couple passes by a young lady on the sidewalk .,outdoors/man-made/transportation_urban
+deepseek,an older man and women are using computers in a sort of storage room .,indoors/man-made/work_education
+deepseek,an older man and women are using computers.,indoors/man-made/work_education
+deepseek,an orchestra of about <number> people are practicing,indoors/man-made/recreation
+deepseek,an orchestra of about <number> people are practicing on the stage of what appears to be an auditorium full of green chairs .,indoors/man-made/recreation
+deepseek,asian students are examining sheets of paper while standing .,indoors/man-made/work_education
+deepseek,asian students are examining sheets of paper while standing in line .,indoors/man-made/work_education
+deepseek,brown dog catches a pink ball in the park .,outdoors/man-made/recreation
+deepseek,brown dog catches a pink ball.,outdoors/man-made/recreation
+deepseek,buff african american man waits for subway at wall street station .,indoors/man-made/transportation_urban
+deepseek,buff african american man waits for subway.,indoors/man-made/transportation_urban
+deepseek,crowd waiting for a train .,outdoors/man-made/transportation_urban
+deepseek,crowd waiting on main street subway platform for a train .,indoors/man-made/transportation_urban
+deepseek,dancers practicing their dance routines .,indoors/man-made/recreation
+deepseek,decorated limo passing by elderly woman waiting on park bench .,outdoors/man-made/transportation_urban
+deepseek,decorated limo passing by elderly woman waiting on park bench in chinese street .,outdoors/man-made/transportation_urban
+deepseek,four people in black shirts giving a presentation to a room full of people using a big projector image .,indoors/man-made/work_education
+deepseek,four people in black shirts giving a presentation to a room full of people using a big projector image on the wall .,indoors/man-made/work_education
+deepseek,four women are on stage singing .,indoors/man-made/recreation
+deepseek,four women are singing .,indoors/man-made/recreation
+deepseek,four young adults sit,indoors/man-made/other_unclear
+deepseek,girl wearing blue shirt and black shorts plays trumped .,indoors/man-made/recreation
+deepseek,girl wearing blue shirt and black shorts plays trumped outside .,outdoors/man-made/recreation
+deepseek,group of women doing a presentation .,indoors/man-made/work_education
+deepseek,group of women doing a presentation off an easel .,indoors/man-made/work_education
+deepseek,kids play around a statue bust outside .,outdoors/man-made/recreation
+deepseek,little girl skis on slope .,outdoors/natural/mountain
+deepseek,little girl skis.,outdoors/natural/mountain
+deepseek,man with gray hair wearing a suit is waiting in a subway tunnel .,indoors/man-made/transportation_urban
+deepseek,man with gray hair wearing a suit is waiting.,indoors/man-made/other_unclear
+deepseek,men playing volleyball,outdoors/man-made/recreation
+deepseek,men playing volleyball in the sand .,outdoors/man-made/recreation
+deepseek,muzzled greyhounds are racing on the track .,outdoors/man-made/recreation
+deepseek,muzzled greyhounds are racing.,outdoors/man-made/recreation
+deepseek,one dog is jumping at the lady while the other walks,outdoors/man-made/recreation
+deepseek,one dog is jumping at the lady while the other walks away .,outdoors/man-made/recreation
+deepseek,people are rowing a boat .,outdoors/man-made/recreation
+deepseek,people are rowing a boat in the water .,outdoors/natural/body_of_water
+deepseek,people examine books in a library .,indoors/man-made/work_education
+deepseek,people examine books.,indoors/man-made/work_education
+deepseek,people pass each other on a busy city street while talking on their cellphones .,outdoors/man-made/transportation_urban
+deepseek,people pass each other while talking on their cellphones .,outdoors/man-made/transportation_urban
+deepseek,person with two ski poles skiing down .,outdoors/natural/mountain
+deepseek,person with two ski poles skiing down a snowy hill .,outdoors/natural/mountain
+deepseek,several people sit,indoors/man-made/other_unclear
+deepseek,stage dancers practicing their dance routines .,indoors/man-made/recreation
+deepseek,street vendors are selling fruits and vegetables in a stand and in large baskets on the ground .,outdoors/man-made/work_education
+deepseek,the brown dog catches a ball in the air .,outdoors/man-made/recreation
+deepseek,the little girl swings in the backyard .,outdoors/man-made/domestic
+deepseek,the little girl swings.,outdoors/man-made/recreation
+deepseek,the man in the red shirt and flowery tie is sitting on a bus by the window .,indoors/man-made/transportation_urban
+deepseek,the man in the red shirt and flowery tie is sitting.,indoors/man-made/other_unclear
+deepseek,three children are playing .,outdoors/man-made/recreation
+deepseek,three children are practicing martial arts in a gym .,indoors/man-made/recreation
+deepseek,three children are practicing martial arts.,indoors/man-made/recreation
+deepseek,three girls or friends having drinks at a bar laughing .,indoors/man-made/recreation
+deepseek,three girls or friends having drinks laughing .,indoors/man-made/recreation
+deepseek,three people in various stages of swimming strokes race,outdoors/man-made/recreation
+deepseek,three people in various stages of swimming strokes race along colorful lane markers .,outdoors/man-made/recreation
+deepseek,three women and a man are drinking beer .,indoors/man-made/recreation
+deepseek,three women and a man are drinking beer at a table .,indoors/man-made/recreation
+deepseek,three women speak to each other in a room with tan walls .,indoors/man-made/domestic
+deepseek,three women speak to each other.,indoors/man-made/other_unclear
+deepseek,three young women and one young man singing in an auditorium .,indoors/man-made/recreation
+deepseek,three young women and one young man singing.,indoors/man-made/recreation
+deepseek,two children swing from a swing made from a steel drum .,outdoors/man-made/recreation
+deepseek,two children swing in dusty rooftop from a swing made from a steel drum .,outdoors/man-made/recreation
+deepseek,two dogs are catching blue frisbees in grass .,outdoors/natural/field_forest
+deepseek,two dogs are catching blue frisbees.,outdoors/man-made/recreation
+deepseek,two dogs are nose to nose while a third dog stands .,outdoors/natural/other_unclear
+deepseek,two dogs are nose to nose while a third dog stands next to them .,outdoors/natural/other_unclear
+deepseek,two furry light brown dogs lying on a hardwood floor .,indoors/man-made/domestic
+deepseek,two furry light brown dogs lying.,outdoors/natural/field_forest
+deepseek,two girls and three boys are presenting in front of a dry erase board .,indoors/man-made/work_education
+deepseek,two girls and three boys are presenting.,indoors/man-made/work_education
+deepseek,two girls are in a race .,outdoors/man-made/recreation
+deepseek,two girls are in a sack race .,outdoors/man-made/recreation
+deepseek,two guys are rowing a canoe on a lake .,outdoors/natural/body_of_water
+deepseek,two guys are rowing a canoe.,outdoors/man-made/recreation
+deepseek,two men drink beer .,indoors/man-made/recreation
+deepseek,two men drink beer at the bar in a restaurant .,indoors/man-made/restaurant
+deepseek,two men on motorcycles are driving down .,outdoors/man-made/transportation_urban
+deepseek,two men on motorcycles are driving down an empty street .,outdoors/man-made/transportation_urban
+deepseek,two people are jumping on the side of a road with snow in the background .,outdoors/man-made/recreation
+deepseek,two people are jumping with snow .,outdoors/natural/other_unclear
+deepseek,two people are sleeping .,indoors/man-made/domestic
+deepseek,two people on the subway are sleeping in the corner .,indoors/man-made/transportation_urban
+deepseek,two rows of dance students are practicing ballet moves against a pole in a studio .,indoors/man-made/recreation
+deepseek,two rows of dance students are practicing ballet moves against a pole.,indoors/man-made/recreation
+deepseek,two swimmers race in a pool with a red line between them .,indoors/man-made/recreation
+deepseek,two swimmers race with a red line .,outdoors/man-made/recreation
+deepseek,two women in black enjoying a lunch in a restaurant .,indoors/man-made/restaurant
+deepseek,two women in black enjoying a lunch.,indoors/man-made/restaurant
+deepseek,two women in white lab coats examine a dyed area on a cluster of cells using a projector .,indoors/man-made/work_education
+deepseek,two women in white lab coats examine a dyed area using a projector .,indoors/man-made/work_education
+deepseek,two young people riding skateboards pass by in the street as a black dog on a red leash stops and squats down.,outdoors/man-made/transportation_urban
+deepseek,two young people riding skateboards pass by in the street as a black dog on a red leash stops in a doorway and squats down on the sidewalk .,outdoors/man-made/transportation_urban
+deepseek,vendors are selling fruits and vegetables,outdoors/man-made/work_education
+deepseek,vendors sell products at a farmers market .,outdoors/man-made/work_education
+deepseek,vendors sell products.,outdoors/man-made/work_education
+deepseek,white and black dog jumping over red-haired dog .,outdoors/natural/other_unclear
+deepseek,white and black dog jumping over red-haired dog in grass .,outdoors/natural/field_forest
